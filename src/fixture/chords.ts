@@ -4,6 +4,11 @@
  * and `describeBars`, the bar-notes text the chart-draft model reads. The
  * bench must produce byte-identical prompt inputs to production, so nothing
  * here may drift from the app; `tests/port.test.ts` pins the behavior.
+ *
+ * Ported at stem-shovel v0.142.0 (commit 69e015d6): `chordOf` gained the
+ * missing-tone penalty that production adopted FROM Study 1's finding (the
+ * flat "5" penalty mis-named root-and-fifth bars). Study 1 ran against the
+ * v0.141 matcher; REPORT.md "Production response" records the re-score.
  */
 export interface Note {
 	/** Seconds. */
@@ -65,13 +70,23 @@ export function chordOf(
 		for (const t of TEMPLATES) {
 			const inChord = new Set(t.intervals.map((i) => (root + i) % 12));
 			let inside = 0;
-			for (let pc = 0; pc < 12; pc++) if (inChord.has(pc)) inside += profile[pc] as number;
+			let missing = 0;
+			for (let pc = 0; pc < 12; pc++) {
+				if (!inChord.has(pc)) continue;
+				inside += profile[pc] as number;
+				if ((profile[pc] as number) < total * 0.05) missing += 1;
+			}
 			// Share of the profile the chord explains, less a little per tone beyond
-			// a triad (a seventh must earn its place) and for the bare fifth.
-			let score = inside / total - 0.03 * Math.max(0, t.intervals.length - 3);
-			if (t.suffix === "5") score -= 0.04;
-			if (bass !== null && bass === root) score += 0.18;
-			scored.push({ chord: `${NAMES[root]}${t.suffix}`, root, score });
+			// a triad (a seventh must earn its place) and more per chord tone that
+			// does not sound: a bar of root and fifth is a power chord, not a major
+			// or a sus with its third or its second missing (stem-bench Study 1,
+			// FINDINGS.md "AI features").
+			const score = inside / total - 0.03 * Math.max(0, t.intervals.length - 3) - 0.08 * missing;
+			scored.push({
+				chord: `${NAMES[root]}${t.suffix}`,
+				root,
+				score: bass !== null && bass === root ? score + 0.18 : score,
+			});
 		}
 	}
 	scored.sort((a, b) => b.score - a.score);

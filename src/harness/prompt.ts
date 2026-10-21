@@ -8,7 +8,9 @@
 import type { ChordSegment } from "../fixture/chords.js";
 import { wrongHint } from "../grading/symbols.js";
 
-export type Arm = "A-none" | "A-matcher" | "A-correct" | "A-wrong";
+/** A-matcher2 (Amendment 2): the v0.142.0 matcher's hints, run after production adopted Study 1's finding. */
+export type Arm = "A-none" | "A-matcher" | "A-correct" | "A-wrong" | "A-matcher2";
+/** Study 1's four registered arms; A-matcher2 runs separately (scripts/run-study1a.ts). */
 export const ARMS: Arm[] = ["A-none", "A-matcher", "A-correct", "A-wrong"];
 
 export interface FixtureSong {
@@ -20,6 +22,9 @@ export interface FixtureSong {
 	barNotes: { bar: number; notes: string }[];
 	matcherSegments: { bar: number; bars: number; chord: string }[];
 	matcherPerBar: string[];
+	/** The v0.142.0 matcher over the same stored notes (scripts/rescore-fixture.ts). */
+	matcher2Segments?: { bar: number; bars: number; chord: string }[];
+	matcher2PerBar?: string[];
 }
 
 /** Production's hint sentence, present in every arm but A-none. */
@@ -51,6 +56,10 @@ export function toSegments(perBar: string[]): ChordSegment[] {
 export function hintSegments(song: FixtureSong, arm: Arm): { bar: number; bars: number; chord: string }[] {
 	if (arm === "A-none") return [];
 	if (arm === "A-matcher") return song.matcherSegments;
+	if (arm === "A-matcher2") {
+		if (!song.matcher2Segments) throw new Error("fixture has no v0.142 matcher fields — run rescore-fixture.ts");
+		return song.matcher2Segments;
+	}
 	if (arm === "A-correct") return toSegments(song.truth);
 	return toSegments(song.truth.map(wrongHint));
 }

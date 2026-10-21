@@ -29,6 +29,33 @@ describe("chordOf (the production matcher, pinned)", () => {
 		profile[4] = 0.2;
 		expect(chordOf(profile, 2, "D").chord).toBe("D");
 	});
+	test("the missing-tone penalty (v0.142.0): root and fifth is a power chord", () => {
+		const profile = new Array(12).fill(0);
+		profile[2] = 4; // D
+		profile[9] = 3; // A
+		expect(chordOf(profile, 2).chord).toBe("D5");
+	});
+	test("a sounding third keeps the triad", () => {
+		const profile = new Array(12).fill(0);
+		profile[2] = 3;
+		profile[6] = 2; // F#
+		profile[9] = 2;
+		expect(chordOf(profile, 2).chord).toBe("D");
+	});
+	test("root, fourth and fifth is sus4", () => {
+		const profile = new Array(12).fill(0);
+		profile[2] = 3;
+		profile[7] = 2; // G
+		profile[9] = 2;
+		expect(chordOf(profile, 2).chord).toBe("Dsus4");
+	});
+	test("a minor triad with no seventh sounding is m, not m7", () => {
+		const profile = new Array(12).fill(0);
+		profile[11] = 3; // B
+		profile[2] = 2; // D
+		profile[6] = 2; // F#
+		expect(chordOf(profile, 11).chord).toBe("Bm");
+	});
 	test("a foreign bass under a confident chord names a slash", () => {
 		const profile = new Array(12).fill(0);
 		profile[7] = 3; // G

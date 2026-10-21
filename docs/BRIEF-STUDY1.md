@@ -151,6 +151,35 @@ one independently reproduces the production text-to-beat lesson at
 $8.70 of reasoning tokens). Fable, gemini and gpt-oss results are
 untouched; gates, grading and fences are unchanged.
 
+## Amendment 2 (2026-10-21, registered before any A-matcher2 cell)
+
+Production responded to Study 1 the same day: stem-shovel v0.142.0
+(commit 69e015d6) replaced the matcher's flat "5" penalty with a
+missing-tone penalty (each template tone carrying under 5% of the bar's
+profile costs 0.08), citing this study. The bench re-ports the matcher
+verbatim, pins the new behavior in tests, and re-runs ONLY the
+shipped-configuration arm with the new hints:
+
+- **Fixture:** `matcher2Segments` / `matcher2PerBar` computed by the
+  v0.142.0 port over the STORED notes (scripts/rescore-fixture.ts) —
+  nothing re-transcribed, the v0.141 fields kept, so Study 1's prompts
+  and baseline stay reproducible. New hint accuracy **424/440 (96.4%)**
+  vs 398/440 (90.5%). (stem-shovel's own re-score said 423 and 397: the
+  one-bar difference is static-bloom's silent bar, truth N.C. and
+  matcher N.C., which the registered equivalence counts correct.)
+- **Arm A-matcher2:** identical protocol, the v0.142 hints, all five
+  Study 1 models, 80 cells. Fence **$6**.
+- **Registered reads:** (1) A-matcher2 vs A-matcher accuracy per model —
+  prediction: the hint-followers (haiku, kimi) rise toward their
+  A-correct ceilings, fable stays ≈ 99.8%; (2) matcher-error
+  propagation — on bars where the respective hint is wrong, how often
+  the model's answer IS the wrong hint — compared old vs new. The flip
+  rate (the Study 1 headline) is a wrong-hint-arm metric, does not
+  involve the matcher, and is unchanged by construction.
+- Production also added a retry on empty completions (the morning-fuse
+  case, also from this study). Study 1's registered no-retry rule
+  stands; the A-matcher2 arm keeps it for comparability.
+
 ## Disclosure
 
 The analyst model is Claude Fable 5; the matrix includes
