@@ -1,0 +1,2962 @@
+[
+	{
+		"songId": "harbor-lights",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "D % G G/D D A Bm G D A Bm G % A D Bm G A D % % A Bm G % % D %",
+		"modelNotes": "Bar 8's matcher suggests Dsus4 but the notes clearly spell G major (G-B-D), so following the strong low G2 and the verse pattern it resolves as G; bar 4's G/D bass line is audible but may just be G in performance.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G/D",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5934,
+		"tokensOut": 489,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6363
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Am % F G Am F C G Am F C G F G Am % F G C E7/D Dm Am/D Dm E7 Am F Am %",
+		"modelNotes": "Bar 22 low note is D2 but upper voices are clearly Am; notated as Am/D to reflect the bass movement, though Dm/Am or just Dm could also work depending on guitarist voicing.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "E7/D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "Am/D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "E7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5300,
+		"tokensOut": 490,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6223
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "G % C % G D Em C G D Em C C D G Em C D G % G D Em C Em C G D C D G %",
+		"modelNotes": "Bar 21 has G in bass but D in the voicing above, notated G/D as a passing chord leading to D; the A6 and E6 high notes in transcriptions are likely octave artifacts or synth pads, not chord tones.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				}
+			],
+			"correct": 32,
+			"total": 32,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6610,
+		"tokensOut": 505,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6275
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Em G D A7 Em G D A7 C G D Em C G A7 % C D Em % % A7 Em %",
+		"modelNotes": "Bar 16 repeats A7 from bar 15; bars 20-21 repeat Em with slight note variations suggesting held chord; bar 24 has brief E4 suggesting possible passing tone or transcription noise, kept as Em repeat.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5137,
+		"tokensOut": 474,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6203
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Fmaj7 % Bbmaj7 % F Am/D Dm Bb F Am/D Dm Bb % C Dm7 Dm Bb C F % Dm Bb C C7 Bb C Fmaj7 %",
+		"modelNotes": "Am/D is notated as given though it may function as Dm7/A or simply Dm/F in context; the low A2 supports the slash interpretation.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "Am/D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "Am/D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "Dm7",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "C7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				}
+			],
+			"correct": 27,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5628,
+		"tokensOut": 497,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6339
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "E5 % A5 Bsus2 E5 Bsus2 C#m A5 E5 Bsus2 C#m A5 % Bsus2 E5 C#m A5 Bsus2 E5 % N.C. A5 Bsus2 % E5 A5 E5 %",
+		"modelNotes": "Bar 15 matcher says C#m7 but transcription shows E root strongly; interpreted as E5 returning to tonic for chorus energy, though C#m7 is plausible if the low E is bass under C#m7/E.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "N.C.",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				}
+			],
+			"correct": 21,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 4782,
+		"tokensOut": 606,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7479
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "C % F % C G Am F C G Am F % G C Am F G C % Am Bdim C G7/F F G C %",
+		"modelNotes": "Bar 22's Bdim is likely a passing chord to the cadence; bar 24's G7/F could be notated as G7/F or Fmaj7/G depending on bass emphasis.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "Bdim",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "G7/F",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5417,
+		"tokensOut": 479,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6131
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Bm G D A Bm G D A G A Bm % G A D F#7 Em G A % Bm G Bm %",
+		"modelNotes": "The F#7 in bar 16 is a clear dominant with the Bb (A#) leading tone; bar 8's A/G bass note is simplified to A since the low G2 is absent and the G3 is weak.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "F#7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5352,
+		"tokensOut": 523,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7393
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Eb % Ab % Eb Bb Cm Ab Eb Bb Cm Ab % Bb Eb Cm Ab Bb Eb % Cm Ab Bb Bb7 Ab Bb Eb %",
+		"modelNotes": "Bar 24 clearly adds Ab5 making Bb7; the C7 spurious notes in Bb bars are transcription noise from upper harmonics.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "Bb7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 4958,
+		"tokensOut": 433,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5278
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "A % D % A E F#m D A E F#m D % E F#m F#m D E A % % E F#m D F#m D E E7/D D E A %",
+		"modelNotes": "Bar 28's D bass with E triad is written as E7/D; the F#m bars 7, 11, 16, 23, 25 are clearly minor with C# present.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "F#m",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "E7/D",
+					"correct": true
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				}
+			],
+			"correct": 31,
+			"total": 32,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6013,
+		"tokensOut": 568,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6951
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Dm7 Gm7 Bbmaj7 A7 Dm7 Gm7 Bbmaj7 A7 Gm7 A7 Dm7 % Gm7 C7 Fmaj7 A7 Bbmaj7 A7 Dm7 % Gm7 A7 Dm7 %",
+		"modelNotes": "Bar 13's matcher says C7sus4 but notes show Gm7 voicing; bar 14 is clearly C7, making a ii-V to Fmaj7 in the bridge.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "C7",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5769,
+		"tokensOut": 606,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6661
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "G Gsus4 G % % C G Dsus4 G C G D/C C G D Em C G Dsus4 D Em C G D/C C Gsus4 G %",
+		"modelNotes": "Bars 12 and 24 show D/C (D with C bass) rather than plain C; the low D2 with F#4-A4 strongly suggests a D chord, so D/C is used as a passing chord to C.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "Gsus4",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "Dsus4",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "D/C",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "Dsus4",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "D/C",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "Gsus4",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5983,
+		"tokensOut": 583,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7209
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "F#m % A F#m7 F#m D A E F#m D A E D E F#m % D E A C#7 Bm D E % F#m D F#m %",
+		"modelNotes": "Bar 4's F#m7 is a passing variation on F#m; bar 20 C#7 is likely a dominant push to the bridge's Bm; the final verse truncates to 4 bars before the outro.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "F#m7",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "C#7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				}
+			],
+			"correct": 27,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5175,
+		"tokensOut": 577,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6829
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Bb % Eb % Bb F Gm Eb Bb F Gm Eb % F Gm7 Gm Eb F Bb % N.C. Eb F % Eb F Bb %",
+		"modelNotes": "Bar 21 is nearly silent (likely a drum fill or break), marked N.C.; the C7 notes in Bb bars are likely harmonic overtones or transcription artifacts rather than dominant function.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "Gm7",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "N.C.",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				}
+			],
+			"correct": 27,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5212,
+		"tokensOut": 557,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6580
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Cm Ab Eb Bb Cm Ab Eb Bb Ab Bb Cm Cm Ab Bb Eb G7 Fm Ab Bb Bb Cm Ab Cm Cm",
+		"modelNotes": "Bar 16's G7/F was simplified to G7 as the bass note is likely a passing tone in this rock context; the C7 notes in bars 4, 8, 10, 14, 19, 20 are transcription artifacts (high, short, quiet) and were ignored.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "G7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "Fm",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 4766,
+		"tokensOut": 522,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5619
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-matcher2",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "E7sus4 % E % % Asus2 B E % Asus2 B E A B C#m A B E % C#m A B E7sus4 A B E %",
+		"modelNotes": "Bar 15's low E2 root suggests E rather than C#m7, keeping the E pedal feel; bar 24 returns to E7sus4 as a turnaround into the final chorus.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "Asus2",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "Asus2",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "C#m",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "B",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "E",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "C#m",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "B",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "E7sus4",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "B",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "E",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 16,
+			"total": 28,
+			"lengthDelta": -1,
+			"parsedClean": true
+		},
+		"tokensIn": 5069,
+		"tokensOut": 528,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6459
+	}
+]

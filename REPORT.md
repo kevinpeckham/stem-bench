@@ -99,6 +99,46 @@ recorded above.
 Pilot $0.74 (fence $3). Matrix ≈ $17.4 including the archived kimi
 reasoning burn ($8.70) and reruns (fence $30). Total ≈ $18.1.
 
+### Production response and Amendment 2 (same day)
+
+stem-shovel v0.142.0 (commit 69e015d6) adopted the finding within hours:
+the matcher's flat "5" penalty became a missing-tone penalty (a template
+tone carrying under 5% of the bar's profile costs 0.08), and the chart
+draft now retries an empty completion (the morning-fuse case). The bench
+re-ported the matcher verbatim, pinned the new behavior, recomputed the
+hints over the STORED notes (nothing re-transcribed; the v0.141 fields
+kept for reproducibility), and re-ran the shipped-configuration arm as
+registered Amendment 2 (80 cells, $2 of the $6 fence, zero errors).
+Note on cross-checking: stem-shovel's own re-score said 397→423; the
+bench says 398→424 — the one-bar difference is static-bloom's silent
+bar (truth N.C., matcher N.C.), which the registered equivalence counts
+correct.
+
+Hint accuracy 90.5% → **96.4%** (42 wrong-hint bars → 16). The shipped
+arm under each matcher:
+
+| Model | v0.141 hints | v0.142 hints | propagated wrong hints (old → new) |
+|---|---|---|---|
+| fable-5-1 | 99.8% | 99.3% | 0/42 → 0/16 (rescues 100% of both) |
+| gemini-3.5-flash | 94.3% | 98.2% | 14 → 7 |
+| gpt-oss-120b | 85.9% | 92.0% | 35 → 13 |
+| haiku-4.5 | 87.5% | 92.5% | 9 → 9 |
+| kimi-k2.6 | 75.5% | **94.8%** | 26 → 10 |
+
+Reads against the amendment's registered predictions: the hint-followers
+rose toward their A-correct ceilings as predicted (kimi +19.3 pts to
+94.8% vs its 95.7% ceiling; haiku +5.0), and fable is unchanged within
+noise, still propagating zero wrong hints. The flip rate — the Study 1
+headline — is a wrong-hint-arm metric that does not involve the matcher
+and is unchanged by construction.
+
+The substitution conclusion SHARPENS with the better matcher: haiku
+(92.5%), kimi (94.8%) and gpt-oss (92.0%) now sit below the bare
+v0.142 matcher's own 96.4% — in the shipped configuration those models
+subtract value from the free matcher — while fable (99.3%) and gemini
+(98.2%) still add to it. The cheapest configuration that beats
+everything upstream of it remains the shipped one.
+
 ### Disclosure
 
 The analyst model is Claude Fable 5; the matrix includes

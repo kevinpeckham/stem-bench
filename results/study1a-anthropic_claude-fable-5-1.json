@@ -1,0 +1,2962 @@
+[
+	{
+		"songId": "harbor-lights",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "D % G % D A Bm G D A Bm G % A D Bm G A D % % A Bm G % % D %",
+		"modelNotes": "Bar 8 is a plain G (matcher's Dsus4 is a misread of the G–B–D voicing); section boundaries are inferred from the chord cycles since no section marks were given.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6788,
+		"tokensOut": 593,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8950
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Am % F G Am F C G Am F C G F G Am % F G C E Dm Am Dm E Am F Am %",
+		"modelNotes": "Bars 20 and 24 are E major (G# clearly present), written as plain E rather than E7 since no D is in the bass; section boundaries are inferred from chord changes, not from marked lyrics.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "E",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "E",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				}
+			],
+			"correct": 26,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6121,
+		"tokensOut": 602,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9390
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "G % C % G D Em C G D Em C % D G Em C D G % % D Em C Em C G D C D G %",
+		"modelNotes": "Chords are clear full triads throughout (G–C–D–Em); section boundaries are inferred from the progression only, so the Chorus/Bridge split is an educated guess.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				}
+			],
+			"correct": 32,
+			"total": 32,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 7549,
+		"tokensOut": 643,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7294
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Em G D A7 Em G D A7 C G D Em C G A7 % C D Em % % A7 Em %",
+		"modelNotes": "Section boundaries are inferred from the chord changes only; the A7 (C#–E–G over A bass) is consistent throughout, and the very high D7/A6/E6 notes are treated as transcription artefacts.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5904,
+		"tokensOut": 533,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8352
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Fmaj7 % Bbmaj7 % F Am Dm Bb F Am Dm Bb % C F Dm Bb C F % Dm Bb C C7 Bb C Fmaj7 %",
+		"modelNotes": "Section boundaries are inferred from the chord cycle only; bar 24 reads as C7 (Bb in the voicing) leading back to Bb, and high faint notes (C7/E7/D6) were treated as transcription overtones.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "C7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6516,
+		"tokensOut": 724,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9672
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "E5 % A5 B5 E5 B5 C#m A5 E5 B5 C#m A5 % B5 E5 C#m A5 B5 E5 % N.C. A5 B5 % E5 A5 E5 %",
+		"modelNotes": "B bars have a faint high C# (matcher calls Bsus2) treated as overtone noise and charted as B5; C#m bars show a clear G# so written as a full minor triad rather than C#5.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "N.C.",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "B5",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5560,
+		"tokensOut": 704,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7869
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "C % F % C G Am F C G Am F % G C Am F G C % Am Bdim C G7 F G C %",
+		"modelNotes": "Section boundaries are inferred from the chord cycle only (odd 7-bar phrases); bar 22 reads as Bdim (could be charted G/B) and bar 24 as G7 (matcher's G7/F has G in the bass).",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "Bdim",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "G7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6231,
+		"tokensOut": 610,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 11126
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Bm G D A Bm G D A G A Bm % G A D F#7 Em G A % Bm G Bm %",
+		"modelNotes": "Bar 16 F#7 is read from the F#–Bb(A#)–C#–E voicing; the high C#7/A6 notes in the Bm bars are treated as transcription overtones, and section boundaries are inferred from the chord cycle only.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "F#7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6140,
+		"tokensOut": 562,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8676
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Eb % Ab % Eb Bb Cm Ab Eb Bb Cm Ab % Bb Eb Cm Ab Bb Eb % Cm Ab Bb Bb7 Ab Bb Eb %",
+		"modelNotes": "All chords are clear triads in Eb (I–V–vi–IV family); the only colour is the Bb7 in bar 24 (Ab on top) leading back to Ab; section boundaries are inferred from the harmonic rhythm, not vocals.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "Bb7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6114,
+		"tokensOut": 702,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7400
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "A % D % A E F#m D A E F#m D % E A F#m D E A % % E F#m D F#m D E E7 D E A %",
+		"modelNotes": "Section boundaries are inferred from chord patterns only; bar 28 has a clear D on top of E (E7), and the second verse's three bars of A may be a held/extended phrase rather than a separate section.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "E7",
+					"correct": true
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				}
+			],
+			"correct": 32,
+			"total": 32,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6942,
+		"tokensOut": 669,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9844
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Dm7 Gm7 Bbmaj7 A7 Dm7 Gm7 Bbmaj7 A7 Gm7 A7 Dm7 % Gm7 C7 Fmaj7 A7 Bbmaj7 A7 Dm7 % Gm7 A7 Dm7 %",
+		"modelNotes": "Chords are clear from strong bass and sustained triads; section boundaries are inferred from the harmonic phrases (the 6-bar Chorus could alternatively be read as an 8-bar phrase running into bar 20), and the high C7/E7/G6 blips are transcription noise.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "C7",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6650,
+		"tokensOut": 790,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 10556
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "G Gsus4 G % % C G Dsus4 G C G D C G D Em C G Dsus4 D Em C G D C Gsus4 G %",
+		"modelNotes": "Chords are clear from strong bass and triads; section boundaries are inferred from the chord cycle only (no lyrics), so the Verse/Chorus split and the five-bar intro are approximate.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "Gsus4",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "Dsus4",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "Dsus4",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "Gsus4",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6848,
+		"tokensOut": 623,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6904
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "F#m % A % F#m D A E F#m D A E D E F#m % D E A C#7 Bm D E % F#m D F#m %",
+		"modelNotes": "Bar 20 reads as C#7 (V7 of F#m with F/E# and B) — the only non-diatonic chord; section boundaries are inferred from the chord pattern since no sections were given.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "C#7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6001,
+		"tokensOut": 615,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7019
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Bb % Eb % Bb F Gm Eb Bb F Gm Eb % F Bb Gm Eb F Bb % N.C. Eb F % Eb F Bb %",
+		"modelNotes": "Bar 21 is silent (a stop/break) so section boundaries around bars 19–24 are a judgment call; high C7/A6/G6 notes are treated as transcription noise, and bar 15 is Bb (matcher's Gm7 reflects the shared tones).",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "N.C.",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6216,
+		"tokensOut": 737,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8374
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "Cm Ab Eb Bb Cm Ab Eb Bb Ab Bb Cm % Ab Bb Eb G Fm Ab Bb % Cm Ab Cm %",
+		"modelNotes": "Bar 16 is a major G (B natural clearly heard) acting as V in C minor; section boundaries are inferred from the chord cycle since no sections were given, and the Chorus/Outro split at bar 23 is a guess.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "G",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "Fm",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				}
+			],
+			"correct": 23,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5791,
+		"tokensOut": 609,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8642
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "E7sus4 % E % % Asus2 B E % Asus2 B E A B E C#m A B E % C#m A B E7sus4 A B E %",
+		"modelNotes": "Section boundaries are inferred from chord changes only (no given sections); bars 6/10 are read as Asus2 (A-B-E voicing) while later A bars have a clear C#, and the C#7/F#6/Eb6 blips are treated as transcription noise.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "Asus2",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "Asus2",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5998,
+		"tokensOut": 659,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9863
+	}
+]

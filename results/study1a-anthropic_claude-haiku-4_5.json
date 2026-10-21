@@ -1,0 +1,2962 @@
+[
+	{
+		"songId": "harbor-lights",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "D % G G D A Bm G D A Bm G % A D Bm G A D % % A Bm G % % D %",
+		"modelNotes": "Strong D-A-Bm-G progression throughout; bars 3-4 and 8 show G with D bass but charted as G for simplicity; final section appears to be a fade or outro on D.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6483,
+		"tokensOut": 684,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4567
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Am % F G Am F C G Am F C G F G Am % F G C E7 Dm Am Dm E7 Am F Am %",
+		"modelNotes": "Bar 20 reads as E7 (E–G#–B–D) from the E bass and Ab/G# upper notes; bar 22 has a D bass note suggesting Am/D voicing but Am chord quality dominates; progression follows a minor key pattern with F–G–C as the primary cycle.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "E7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "E7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5792,
+		"tokensOut": 659,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5448
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "G % C % G D Em C G D Em C % D G Em C D G % G D Em C Em C G D C D G %",
+		"modelNotes": "Strong low notes (G2, D2, C2, E2) and consistent triadic voicings (B, D, F#, A, E, G) confirm the progression; bars 13 and 20 repeat their preceding chords; the bridge shifts to Em-C-G-D before resolving to the final G.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				}
+			],
+			"correct": 32,
+			"total": 32,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 7225,
+		"tokensOut": 679,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5156
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Em G D A7 Em G D A7 C G D Em C G A7 A7 C D Em Em Em A7 Em %",
+		"modelNotes": "Bars 1–8 form a clear 8-bar intro loop (Em–G–D–A7 x2); bars 9–16 shift to a verse/chorus section with C major chords; bars 17–22 repeat the verse progression; bars 23–24 end on Em with a final A7 leading back or resolving.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5612,
+		"tokensOut": 539,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4659
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Fmaj7 % Bbmaj7 % F Am Dm Bb F Am Dm Bb % C Dm7 Dm Bb C F % Dm Bb C C7 Bb C Fmaj7 %",
+		"modelNotes": "Bar 15 reads as Dm7 (F bass with D-F-A-C voicing); C7 in bar 24 is a dominant preparation for the Bb that follows; the progression is a classic F-major pop/rock cycle with diatonic movement.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "Dm7",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "Dm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "C7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				}
+			],
+			"correct": 27,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6154,
+		"tokensOut": 869,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6290
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "E5 % A5 Bsus2 E5 Bsus2 C#m A5 E5 Bsus2 C#m A5 % Bsus2 E5 C#m A5 Bsus2 E5 % N.C. A5 Bsus2 % E5 A5 E5 %",
+		"modelNotes": "Bar 15 transcribed as E5 (likely E5 leading into C#m); bar 7 and 16 show C#m with Ab/Eb overtones (possibly C#m7b5 voicing but charted as C#m for simplicity); bar 21 is silence/break before final section.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "C#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "N.C.",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "Bsus2",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "A5",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "E5",
+					"correct": true
+				}
+			],
+			"correct": 21,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5225,
+		"tokensOut": 838,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5770
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "C % F % C G Am F C G Am F % G C Am F G C % Am Bdim C G F G C %",
+		"modelNotes": "Bar 22 contains B–D–F (Bdim triad); bar 24 has G bass with F in upper voices suggesting G7/F or passing harmony before F major in bar 25.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "Am",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "Bdim",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "G",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				}
+			],
+			"correct": 27,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5922,
+		"tokensOut": 732,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5465
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Bm G D A Bm G D A G A Bm % G A D F#7 Em G A % Bm G Bm %",
+		"modelNotes": "Bar 16 contains F#7 (F#-A#-C#-E) based on Bb/A# and C# presence; bar 17 is Em (E-G-B) in a key context; the progression cycles through a vi-IV-I-V pattern in B minor with a chromatic bridge.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "F#7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5847,
+		"tokensOut": 651,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5098
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Eb % Ab % Eb Bb7 Cm Ab Eb Bb7 Cm Ab % Bb Eb Cm Ab Bb Eb % Cm Ab Bb Bb7 Ab Bb Eb %",
+		"modelNotes": "Bb7 appears in bars 6, 10, 14, 18, 23 with characteristic D-F-Ab voicing; Bb major in other contexts; progression centers on Eb major with iv-v-i movement typical of rock ballads.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "Bb7",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "Bb7",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "Bb7",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				}
+			],
+			"correct": 26,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5520,
+		"tokensOut": 672,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5310
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "A % D % A E F#m D A E F#m D % E F#m7 F#m D E A % % E F#m D F#m D E E7 D E A %",
+		"modelNotes": "Bar 15 reads as F#m7 (A bass with C# and E thirds) rather than pure A; bar 28 includes D in upper voices suggesting E7 voicing; progression follows classic I–V–vi–IV pattern in A major with chromatic movement through E and F#m.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "F#m7",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "E7",
+					"correct": true
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				}
+			],
+			"correct": 31,
+			"total": 32,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6558,
+		"tokensOut": 724,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5798
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Dm7 Gm7 Bbmaj7 A7 Dm7 Gm7 Bbmaj7 A7 Gm7 A7 Dm7 % Gm7 C7 Fmaj7 A7 Bbmaj7 A7 Dm7 % Gm7 A7 Dm7 %",
+		"modelNotes": "Clear harmonic progression in D minor with stable bass notes and consistent voicings; Bbmaj7 and Fmaj7 are borrowed chords adding color; A7 functions as a secondary dominant resolving to Dm7.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "C7",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "Fmaj7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "Bbmaj7",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "Gm7",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "Dm7",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 6308,
+		"tokensOut": 732,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5148
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "G Gsus4 G G G C G Dsus4 G C G D C G D Em C G Dsus4 D Em C G D C C Gsus4 G %",
+		"modelNotes": "Bars 12 and 24 show D with F# and A (D major triad), not D/C as matcher suggested; the progression follows a clear G-major rock pattern with sus and suspended movements typical of the band's style.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "Gsus4",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "Dsus4",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "Dsus4",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "C",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "Gsus4",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				}
+			],
+			"correct": 26,
+			"total": 28,
+			"lengthDelta": 1,
+			"parsedClean": true
+		},
+		"tokensIn": 6541,
+		"tokensOut": 709,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4846
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "F#m % A F#m F#m D A E F#m D A E D E F#m % D E A C#7 Bm D E % F#m D F#m %",
+		"modelNotes": "Bar 20 matcher suggests C#7 but transcription shows C#–F–Ab–B; interpreted as C#7 (dominant seventh in F# minor context). Bar 21 shows Bm triad with high C#7 artifacts; kept as Bm. Bars 4, 21 have weak high notes likely transcription noise.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "F#m",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "C#7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				}
+			],
+			"correct": 27,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5639,
+		"tokensOut": 690,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5117
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Bb Bb Eb Eb Bb F Gm Eb Bb F Gm Eb Eb F Bb Gm Eb F Bb Bb N.C. Eb F Bb Bb Eb F Bb Bb",
+		"modelNotes": "Bar 21 is silence (break); the progression follows a clear I-V-vi-III pattern in Bb major with strong low-note anchors confirming root positions throughout.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "Gm",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "N.C.",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "F",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "Bb",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "Bb",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "Eb",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "F",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 28,
+			"lengthDelta": 1,
+			"parsedClean": true
+		},
+		"tokensIn": 5751,
+		"tokensOut": 690,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4730
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "Cm Ab Eb Bb Cm Ab Eb Bb Ab Bb Cm % Ab Bb Eb G7 Fm Ab Bb % Cm Ab Cm %",
+		"modelNotes": "Bar 16 shows G with B, D, F, C notes—interpreted as G7 (dominant) rather than G7/F; the progression moves toward Fm in bar 17, suggesting a key modulation or chromatic bridge section.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "Eb",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "G7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "Fm",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "Bb",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "Ab",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "Cm",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5276,
+		"tokensOut": 639,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5235
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-matcher2",
+		"model": "anthropic/claude-haiku-4.5",
+		"chords": "E7sus4 % E % % A B E % A B E A B C#m E C#m A B E % C#m A B E7sus4 A B E %",
+		"modelNotes": "Bars 1–5 establish E7sus4 with sus4 intervals (A, B, D); bar 3 shifts to E major (Ab→natural); bars 6–7 move to A–B; the progression cycles through A–B–E/C#m patterns; bar 24 returns to E7sus4 for structural anchor.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "E7sus4",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "B",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "C#m",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "E",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "C#m",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "B",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "E",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "C#m",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "B",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "E7sus4",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "A",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "B",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				}
+			],
+			"correct": 14,
+			"total": 28,
+			"lengthDelta": 1,
+			"parsedClean": true
+		},
+		"tokensIn": 5559,
+		"tokensOut": 805,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5754
+	}
+]
