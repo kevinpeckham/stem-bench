@@ -9681,194 +9681,6 @@
 	},
 	{
 		"songId": "morning-fuse",
-		"arm": "A-none",
-		"model": "anthropic/claude-fable-5-1",
-		"chords": "",
-		"modelNotes": "",
-		"grade": {
-			"bars": [
-				{
-					"bar": 1,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 2,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 3,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 4,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 5,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 6,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 7,
-					"truth": "Gm",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 8,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 9,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 10,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 11,
-					"truth": "Gm",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 12,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 13,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 14,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 15,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 16,
-					"truth": "Gm",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 17,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 18,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 19,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 20,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 21,
-					"truth": "N.C.",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 22,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 23,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 24,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 25,
-					"truth": "Eb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 26,
-					"truth": "F",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 27,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				},
-				{
-					"bar": 28,
-					"truth": "Bb",
-					"answer": "",
-					"correct": false
-				}
-			],
-			"correct": 0,
-			"total": 28,
-			"lengthDelta": -28,
-			"parsedClean": true
-		},
-		"tokensIn": 5976,
-		"tokensOut": 0,
-		"outcome": "parse-error",
-		"error": "no JSON in the answer",
-		"latencyMs": 1762
-	},
-	{
-		"songId": "morning-fuse",
 		"arm": "A-matcher",
 		"model": "anthropic/claude-fable-5-1",
 		"chords": "Bb % Eb % Bb F Gm Eb Bb F Gm Eb % F Bb Gm Eb F Bb % N.C. Eb F % Eb F Bb %",
@@ -11838,5 +11650,193 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 11545
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-none",
+		"model": "anthropic/claude-fable-5-1",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5976,
+		"tokensOut": 0,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 1437
 	}
 ]

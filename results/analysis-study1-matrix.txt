@@ -1,0 +1,53 @@
+$ bun scripts/analyze-study1.ts
+Fixture: 16 songs, 440 bars.
+Template-matcher baseline: 398/440 (90.5%)
+
+Bar accuracy per model × arm (answered cells; a parse failure scores 0):
+model                              	A-none	A-matcher	A-correct	A-wrong	parse/api errors
+anthropic/claude-fable-5-1        	92.3%	99.8%	100.0%	99.3%	1
+anthropic/claude-haiku-4.5        	49.5%	87.5%	94.5%	30.9%	0
+google/gemini-3.5-flash           	94.1%	94.3%	99.5%	99.5%	0
+moonshotai/kimi-k2.6              	28.2%	75.5%	95.7%	11.4%	0
+openai/gpt-oss-120b               	65.9%	85.9%	96.1%	77.7%	0
+
+S1-H1 A-correct vs A-none (paired per song, sign-flip permutation):
+  anthropic/claude-fable-5-1         Δ 7.6 pts over 16 songs, p = 0.0308
+  anthropic/claude-haiku-4.5         Δ 45.5 pts over 16 songs, p = 0.0003
+  google/gemini-3.5-flash            Δ 5.4 pts over 16 songs, p = 1.0000
+  moonshotai/kimi-k2.6               Δ 66.5 pts over 16 songs, p = 0.0000
+  openai/gpt-oss-120b                Δ 31.1 pts over 16 songs, p = 0.0010
+
+S1-H2 A-wrong vs A-none (paired per song, sign-flip permutation):
+  anthropic/claude-fable-5-1         Δ 6.9 pts over 16 songs, p = 0.1257
+  anthropic/claude-haiku-4.5         Δ -18.4 pts over 16 songs, p = 0.0733
+  google/gemini-3.5-flash            Δ 5.4 pts over 16 songs, p = 1.0000
+  moonshotai/kimi-k2.6               Δ -17.3 pts over 16 songs, p = 0.0563
+  openai/gpt-oss-120b                Δ 13.7 pts over 16 songs, p = 0.3463
+
+(read) A-matcher vs A-none (paired per song, sign-flip permutation):
+  anthropic/claude-fable-5-1         Δ 7.4 pts over 16 songs, p = 0.0627
+  anthropic/claude-haiku-4.5         Δ 39.0 pts over 16 songs, p = 0.0068
+  google/gemini-3.5-flash            Δ 0.2 pts over 16 songs, p = 1.0000
+  moonshotai/kimi-k2.6               Δ 47.2 pts over 16 songs, p = 0.0018
+  openai/gpt-oss-120b                Δ 20.9 pts over 16 songs, p = 0.0727
+
+S1-H3 wrong-hint influence (A-wrong):
+  anthropic/claude-fable-5-1         copy rate 0/438 (0.0%), flip rate 0/405 (0.0%)
+  anthropic/claude-haiku-4.5         copy rate 187/438 (42.7%), flip rate 107/216 (49.5%)
+  google/gemini-3.5-flash            copy rate 0/438 (0.0%), flip rate 0/412 (0.0%)
+  moonshotai/kimi-k2.6               copy rate 246/438 (56.2%), flip rate 85/123 (69.1%)
+  openai/gpt-oss-120b                copy rate 67/438 (15.3%), flip rate 65/288 (22.6%)
+
+S1-H5 disclosure: cells whose notes/chart mention the matcher or a disagreement (A-wrong):
+  anthropic/claude-fable-5-1         11/16 cells
+  anthropic/claude-haiku-4.5         2/16 cells
+  google/gemini-3.5-flash            4/16 cells
+  moonshotai/kimi-k2.6               0/16 cells
+  openai/gpt-oss-120b                7/16 cells
+
+Cost anatomy (all arms):
+  anthropic/claude-fable-5-1         64 cells, 401011 in / 48227 out, mean 10148 ms
+  anthropic/claude-haiku-4.5         64 cells, 378731 in / 44977 out, mean 5231 ms
+  google/gemini-3.5-flash            64 cells, 345471 in / 257056 out, mean 21394 ms
+  moonshotai/kimi-k2.6               64 cells, 346025 in / 33595 out, mean 6777 ms
+  openai/gpt-oss-120b                64 cells, 348103 in / 147286 out, mean 12697 ms
