@@ -130,6 +130,27 @@ vocabulary. N.C. matches only N.C.
 | A-none under the matcher baseline for some model | That model should not draft charts from notes at all — the free matcher beats it; an anti-recommendation by name |
 | S1-H1 fails | Fixture or protocol defect; the stop-fix-re-register row applies |
 
+## Amendment 1 (2026-10-21, before any scored haiku or kimi cell)
+
+The first matrix run produced zero scored cells for two models, both
+call-shape incompatibilities, not model answers:
+
+- **haiku-4.5** rejected production's `thinking: adaptive` provider
+  option ("adaptive thinking is not supported on this model") — 64 API
+  errors, zero tokens billed. Amended: haiku runs with provider defaults;
+  the fable thinking settings apply only to the production DRAFT_MODEL.
+- **kimi-k2.6** spent the entire 8000-token output budget on reasoning
+  in 62/64 cells and returned no JSON (the other 2 answered). This is
+  the exact behavior stem-shovel's production kimi path works around
+  (textToBeat.ts: the gateway REST endpoint with `reasoning: effort
+  none`). Amended: kimi runs with production's own kimi call shape —
+  REST, reasoning off, same 8000-token cap and temperature 0.
+
+The failed runs are archived in results/archive/ as evidence (the kimi
+one independently reproduces the production text-to-beat lesson at
+$8.70 of reasoning tokens). Fable, gemini and gpt-oss results are
+untouched; gates, grading and fences are unchanged.
+
 ## Disclosure
 
 The analyst model is Claude Fable 5; the matrix includes

@@ -50,6 +50,45 @@ export interface CellRecord {
 	latencyMs: number;
 }
 
+/** One chat completion over the gateway's OpenAI-style REST endpoint, reasoning off — production's kimi call shape (stem-shovel textToBeat.ts `complete`). */
+async function restComplete(
+	model: string,
+	systemText: string,
+	userText: string,
+	apiKey: string,
+): Promise<{ text: string; tokensIn: number; tokensOut: number }> {
+	const res = await fetch("https://ai-gateway.vercel.sh/v1/chat/completions", {
+		method: "POST",
+		headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+		body: JSON.stringify({
+			model,
+			messages: [
+				{ role: "system", content: systemText },
+				{ role: "user", content: userText },
+			],
+			reasoning: { effort: "none" },
+			temperature: 0,
+			max_tokens: 8000,
+			stream: false,
+		}),
+	});
+	const body = (await res.json().catch(() => null)) as {
+		error?: { message?: string } | string;
+		choices?: { message?: { content?: string | null } }[];
+		usage?: { prompt_tokens?: number; completion_tokens?: number };
+	} | null;
+	if (!res.ok || !body) {
+		const detail =
+			typeof body?.error === "string" ? body.error : (body?.error?.message ?? res.statusText);
+		throw new Error(`The gateway answered ${res.status}: ${detail}`);
+	}
+	return {
+		text: body.choices?.[0]?.message?.content ?? "",
+		tokensIn: body.usage?.prompt_tokens ?? 0,
+		tokensOut: body.usage?.completion_tokens ?? 0,
+	};
+}
+
 export async function runCell(
 	song: FixtureSong,
 	arm: Arm,
@@ -72,20 +111,33 @@ export async function runCell(
 	let tokensIn = 0;
 	let tokensOut = 0;
 	try {
-		const result = await generateText({
-			model: gateway(model),
-			system: system(arm),
-			prompt: question(song, arm),
-			temperature: 0,
-			maxOutputTokens: 8000,
-			maxRetries: 4,
-			...(model.startsWith("anthropic/")
-				? { providerOptions: { anthropic: { thinking: { type: "adaptive" }, effort: "low" } } }
-				: {}),
-		} as Parameters<typeof generateText>[0]);
-		text = result.text;
-		tokensIn = result.totalUsage.inputTokens ?? 0;
-		tokensOut = result.totalUsage.outputTokens ?? 0;
+		if (model.startsWith("moonshotai/")) {
+			// Amendment 1 (docs/BRIEF-STUDY1.md): kimi runs with production's own
+			// kimi call shape — the gateway's REST endpoint, reasoning off
+			// (stem-shovel textToBeat.ts) — after 62/64 cells spent the whole
+			// output budget reasoning and produced no JSON.
+			const rest = await restComplete(model, system(arm), question(song, arm), apiKey);
+			text = rest.text;
+			tokensIn = rest.tokensIn;
+			tokensOut = rest.tokensOut;
+		} else {
+			const result = await generateText({
+				model: gateway(model),
+				system: system(arm),
+				prompt: question(song, arm),
+				temperature: 0,
+				maxOutputTokens: 8000,
+				maxRetries: 4,
+				// Production's DRAFT_MODEL thinking settings; haiku rejects
+				// "adaptive" outright (Amendment 1), so only fable carries them.
+				...(model.includes("fable")
+					? { providerOptions: { anthropic: { thinking: { type: "adaptive" }, effort: "low" } } }
+					: {}),
+			} as Parameters<typeof generateText>[0]);
+			text = result.text;
+			tokensIn = result.totalUsage.inputTokens ?? 0;
+			tokensOut = result.totalUsage.outputTokens ?? 0;
+		}
 	} catch (e) {
 		return {
 			...base,

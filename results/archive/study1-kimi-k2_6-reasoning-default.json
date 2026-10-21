@@ -1,0 +1,11842 @@
+[
+	{
+		"songId": "harbor-lights",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5795,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 87296
+	},
+	{
+		"songId": "harbor-lights",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5934,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 95468
+	},
+	{
+		"songId": "harbor-lights",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5930,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 85647
+	},
+	{
+		"songId": "harbor-lights",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5926,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 90950
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5163,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 91559
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5300,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 100080
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5298,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 100160
+	},
+	{
+		"songId": "copper-sky",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5311,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 97312
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6462,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 92054
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6610,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 100907
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6609,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 94370
+	},
+	{
+		"songId": "mile-markers",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6609,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 100014
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5018,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 100380
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "Em G D A7 Em G D A7 C G D Em C G A7 % C D Em % % A7 Em %",
+		"modelNotes": "The Intro/Verse boundary is inferred from the repeated Em–G–D–A7 figure, and bars 17–18 could alternatively be read as a turnaround.",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "G",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "C",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "A7",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "Em",
+					"correct": true
+				}
+			],
+			"correct": 24,
+			"total": 24,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5137,
+		"tokensOut": 6788,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 85301
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5137,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 98544
+	},
+	{
+		"songId": "low-tide",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5137,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 99950
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5476,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 100683
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5627,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 94750
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5624,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 93775
+	},
+	{
+		"songId": "night-orchard",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Dm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5626,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 93455
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4610,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 94393
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4771,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 98628
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4768,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 92521
+	},
+	{
+		"songId": "static-bloom",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "B5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "A5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E5",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4768,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 89013
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5283,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 91379
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5417,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 88350
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5416,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 88456
+	},
+	{
+		"songId": "paper-lanterns",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Am",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Bdim",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5425,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 96862
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5229,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 82499
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5355,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 97592
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5351,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 88875
+	},
+	{
+		"songId": "rust-and-rain",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5345,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 89015
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4815,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 86211
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4958,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 89436
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4958,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 92368
+	},
+	{
+		"songId": "glass-halo",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Bb7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4957,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 96004
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 5851,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 87879
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6011,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 95911
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6009,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 96978
+	},
+	{
+		"songId": "sawtooth-heart",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 29,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 30,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 31,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 32,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 32,
+			"lengthDelta": -32,
+			"parsedClean": true
+		},
+		"tokensIn": 6004,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 98251
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5614,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 87139
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5769,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 84265
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5767,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 85110
+	},
+	{
+		"songId": "winter-kitchen",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "C7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Fmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Bbmaj7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Gm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Dm7",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 5765,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 82306
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5838,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 85223
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5983,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 94398
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5981,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 97184
+	},
+	{
+		"songId": "county-line",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Dsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Em",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "C",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "Gsus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "G",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5979,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 86740
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5026,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 82603
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5173,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 93458
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "F#m % A % F#m D A E F#m D A E D E F#m % D E A C#7 Bm D E % F#m D F#m %",
+		"modelNotes": "Bar 20’s C#7 resolves deceptively to Bm (iv) in bar 21 rather than to F#m, confirming the Bridge start; the Ab4 pitches in the E chords are enharmonically G# (E major).",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "A",
+					"correct": true
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "C#7",
+					"correct": true
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "Bm",
+					"correct": true
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "E",
+					"correct": true
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "D",
+					"correct": true
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "F#m",
+					"correct": true
+				}
+			],
+			"correct": 28,
+			"total": 28,
+			"lengthDelta": 0,
+			"parsedClean": true
+		},
+		"tokensIn": 5172,
+		"tokensOut": 7864,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 91787
+	},
+	{
+		"songId": "blue-transistor",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "C#7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Bm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "D",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "F#m",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5165,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 102566
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5070,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 104762
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5210,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 93958
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5212,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 86875
+	},
+	{
+		"songId": "morning-fuse",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "Gm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "N.C.",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "F",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5212,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 99141
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 4638,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 88322
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 4766,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 91945
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 4765,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 106461
+	},
+	{
+		"songId": "ladder-to-the-lake",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "Eb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "G7",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "Fm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "Bb",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "Ab",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "Cm",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 24,
+			"lengthDelta": -24,
+			"parsedClean": true
+		},
+		"tokensIn": 4766,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 95874
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-none",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 4921,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 99327
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-matcher",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5067,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 89067
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-correct",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5066,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 89576
+	},
+	{
+		"songId": "seventh-street",
+		"arm": "A-wrong",
+		"model": "moonshotai/kimi-k2.6",
+		"chords": "",
+		"modelNotes": "",
+		"grade": {
+			"bars": [
+				{
+					"bar": 1,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 2,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 3,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 4,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 5,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 6,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 7,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 8,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 9,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 10,
+					"truth": "Asus2",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 11,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 12,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 13,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 14,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 15,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 16,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 17,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 18,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 19,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 20,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 21,
+					"truth": "C#m",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 22,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 23,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 24,
+					"truth": "E7sus4",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 25,
+					"truth": "A",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 26,
+					"truth": "B",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 27,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				},
+				{
+					"bar": 28,
+					"truth": "E",
+					"answer": "",
+					"correct": false
+				}
+			],
+			"correct": 0,
+			"total": 28,
+			"lengthDelta": -28,
+			"parsedClean": true
+		},
+		"tokensIn": 5070,
+		"tokensOut": 8000,
+		"outcome": "parse-error",
+		"error": "no JSON in the answer",
+		"latencyMs": 87324
+	}
+]
