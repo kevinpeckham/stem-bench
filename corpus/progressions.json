@@ -1,0 +1,119 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261021",
+	"note": "Ground truth for Study 1: one chord per bar, 4/4 throughout, in stem-shovel's chart vocabulary (its matcher's template suffixes and ASCII accidentals). Synthesized to audio by src/fixture/synth.ts and transcribed by Basic Pitch before any model reads them.",
+	"songs": [
+		{
+			"id": "harbor-lights",
+			"title": "Harbor Lights",
+			"key": "D major",
+			"bpm": 120,
+			"chords": ["D", "D", "G", "G", "D", "A", "Bm", "G", "D", "A", "Bm", "G", "G", "A", "D", "Bm", "G", "A", "D", "D", "D", "A", "Bm", "G", "G", "G", "D", "D"]
+		},
+		{
+			"id": "copper-sky",
+			"title": "Copper Sky",
+			"key": "A minor",
+			"bpm": 92,
+			"chords": ["Am", "Am", "F", "G", "Am", "F", "C", "G", "Am", "F", "C", "G", "F", "G", "Am", "Am", "F", "G", "C", "E7", "Dm", "Am", "Dm", "E7", "Am", "F", "Am", "Am"]
+		},
+		{
+			"id": "mile-markers",
+			"title": "Mile Markers",
+			"key": "G major",
+			"bpm": 132,
+			"chords": ["G", "G", "C", "C", "G", "D", "Em", "C", "G", "D", "Em", "C", "C", "D", "G", "Em", "C", "D", "G", "G", "G", "D", "Em", "C", "Em", "C", "G", "D", "C", "D", "G", "G"]
+		},
+		{
+			"id": "low-tide",
+			"title": "Low Tide",
+			"key": "E minor",
+			"bpm": 76,
+			"chords": ["Em", "G", "D", "A7", "Em", "G", "D", "A7", "C", "G", "D", "Em", "C", "G", "A7", "A7", "C", "D", "Em", "Em", "Em", "A7", "Em", "Em"]
+		},
+		{
+			"id": "night-orchard",
+			"title": "Night Orchard",
+			"key": "F major",
+			"bpm": 108,
+			"chords": ["Fmaj7", "Fmaj7", "Bbmaj7", "Bbmaj7", "F", "Am", "Dm", "Bb", "F", "Am", "Dm", "Bb", "Bb", "C", "F", "Dm", "Bb", "C", "F", "F", "Dm", "Bb", "C", "C7", "Bb", "C", "Fmaj7", "Fmaj7"]
+		},
+		{
+			"id": "static-bloom",
+			"title": "Static Bloom",
+			"key": "E major",
+			"bpm": 140,
+			"chords": ["E5", "E5", "A5", "B5", "E5", "B5", "C#m", "A5", "E5", "B5", "C#m", "A5", "A5", "B5", "E5", "C#m", "A5", "B5", "E5", "E5", "N.C.", "A5", "B5", "B5", "E5", "A5", "E5", "E5"]
+		},
+		{
+			"id": "paper-lanterns",
+			"title": "Paper Lanterns",
+			"key": "C major",
+			"bpm": 100,
+			"chords": ["C", "C", "F", "F", "C", "G", "Am", "F", "C", "G", "Am", "F", "F", "G", "C", "Am", "F", "G", "C", "C", "Am", "Bdim", "C", "G7", "F", "G", "C", "C"]
+		},
+		{
+			"id": "rust-and-rain",
+			"title": "Rust and Rain",
+			"key": "B minor",
+			"bpm": 84,
+			"chords": ["Bm", "G", "D", "A", "Bm", "G", "D", "A", "G", "A", "Bm", "Bm", "G", "A", "D", "F#7", "Em", "G", "A", "A", "Bm", "G", "Bm", "Bm"]
+		},
+		{
+			"id": "glass-halo",
+			"title": "Glass Halo",
+			"key": "Eb major",
+			"bpm": 112,
+			"chords": ["Eb", "Eb", "Ab", "Ab", "Eb", "Bb", "Cm", "Ab", "Eb", "Bb", "Cm", "Ab", "Ab", "Bb", "Eb", "Cm", "Ab", "Bb", "Eb", "Eb", "Cm", "Ab", "Bb", "Bb7", "Ab", "Bb", "Eb", "Eb"]
+		},
+		{
+			"id": "sawtooth-heart",
+			"title": "Sawtooth Heart",
+			"key": "A major",
+			"bpm": 128,
+			"chords": ["A", "A", "D", "D", "A", "E", "F#m", "D", "A", "E", "F#m", "D", "D", "E", "A", "F#m", "D", "E", "A", "A", "A", "E", "F#m", "D", "F#m", "D", "E", "E7", "D", "E", "A", "A"]
+		},
+		{
+			"id": "winter-kitchen",
+			"title": "Winter Kitchen",
+			"key": "D minor",
+			"bpm": 72,
+			"chords": ["Dm7", "Gm7", "Bbmaj7", "A7", "Dm7", "Gm7", "Bbmaj7", "A7", "Gm7", "A7", "Dm7", "Dm7", "Gm7", "C7", "Fmaj7", "A7", "Bbmaj7", "A7", "Dm7", "Dm7", "Gm7", "A7", "Dm7", "Dm7"]
+		},
+		{
+			"id": "county-line",
+			"title": "County Line",
+			"key": "G major",
+			"bpm": 96,
+			"chords": ["G", "Gsus4", "G", "G", "G", "C", "G", "Dsus4", "G", "C", "G", "D", "C", "G", "D", "Em", "C", "G", "Dsus4", "D", "Em", "C", "G", "D", "C", "Gsus4", "G", "G"]
+		},
+		{
+			"id": "blue-transistor",
+			"title": "Blue Transistor",
+			"key": "F# minor",
+			"bpm": 116,
+			"chords": ["F#m", "F#m", "A", "A", "F#m", "D", "A", "E", "F#m", "D", "A", "E", "D", "E", "F#m", "F#m", "D", "E", "A", "C#7", "Bm", "D", "E", "E", "F#m", "D", "F#m", "F#m"]
+		},
+		{
+			"id": "morning-fuse",
+			"title": "Morning Fuse",
+			"key": "Bb major",
+			"bpm": 104,
+			"chords": ["Bb", "Bb", "Eb", "Eb", "Bb", "F", "Gm", "Eb", "Bb", "F", "Gm", "Eb", "Eb", "F", "Bb", "Gm", "Eb", "F", "Bb", "Bb", "N.C.", "Eb", "F", "F", "Eb", "F", "Bb", "Bb"]
+		},
+		{
+			"id": "ladder-to-the-lake",
+			"title": "Ladder to the Lake",
+			"key": "C minor",
+			"bpm": 88,
+			"chords": ["Cm", "Ab", "Eb", "Bb", "Cm", "Ab", "Eb", "Bb", "Ab", "Bb", "Cm", "Cm", "Ab", "Bb", "Eb", "G7", "Fm", "Ab", "Bb", "Bb", "Cm", "Ab", "Cm", "Cm"]
+		},
+		{
+			"id": "seventh-street",
+			"title": "Seventh Street",
+			"key": "E major",
+			"bpm": 124,
+			"chords": ["E7sus4", "E7sus4", "E", "E", "E", "Asus2", "B", "E", "E", "Asus2", "B", "E", "A", "B", "E", "C#m", "A", "B", "E", "E", "C#m", "A", "B", "E7sus4", "A", "B", "E", "E"]
+		}
+	]
+}
