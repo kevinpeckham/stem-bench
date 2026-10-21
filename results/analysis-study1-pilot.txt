@@ -1,0 +1,25 @@
+$ bun scripts/analyze-study1.ts
+Fixture: 16 songs, 440 bars.
+Template-matcher baseline: 398/440 (90.5%)
+
+Bar accuracy per model × arm (answered cells; a parse failure scores 0):
+model                              	A-none	A-matcher	A-correct	A-wrong	parse/api errors
+google/gemini-3.5-flash           	94.1%	94.3%	99.5%	99.5%	0
+
+S1-H1 A-correct vs A-none (paired per song, sign-flip permutation):
+  google/gemini-3.5-flash            Δ 5.4 pts over 16 songs, p = 1.0000
+
+S1-H2 A-wrong vs A-none (paired per song, sign-flip permutation):
+  google/gemini-3.5-flash            Δ 5.4 pts over 16 songs, p = 1.0000
+
+(read) A-matcher vs A-none (paired per song, sign-flip permutation):
+  google/gemini-3.5-flash            Δ 0.2 pts over 16 songs, p = 1.0000
+
+S1-H3 wrong-hint influence (A-wrong):
+  google/gemini-3.5-flash            copy rate 0/438 (0.0%), flip rate 0/412 (0.0%)
+
+S1-H5 disclosure: cells whose notes/chart mention the matcher or a disagreement (A-wrong):
+  google/gemini-3.5-flash            4/16 cells
+
+Cost anatomy (all arms):
+  google/gemini-3.5-flash            64 cells, 345471 in / 257056 out, mean 21394 ms
