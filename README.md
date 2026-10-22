@@ -25,6 +25,24 @@ got a bar right without a hint follows a wrong one.
 Registration: [docs/BRIEF-STUDY1.md](docs/BRIEF-STUDY1.md). Results land
 in `results/` and on the
 [Lightning Jar research dashboard](https://www.lightningjar.com/research).
+Production adopted the findings the same day (stem-shovel v0.142.0) and
+a registered amendment re-measured the shipped arm under the fix.
+
+## Study 2: does reasoning help a model write a drum beat?
+
+stem-shovel runs Text-to-Beat with reasoning off, on a claim hard-coded
+as a code comment. Study 2 ported the production call verbatim and ran
+reasoning-off against reasoning-default across five models on 25 beat
+prompts with 49 mechanical checks.
+
+The claim held 51 points beyond its wording for the shipping model, and
+the bigger finding is portability: "reasoning off" is a request, not a
+guarantee. Gemini accepts the setting, thinks ~3,000 tokens anyway, and
+under production's token cap returns nothing at all — the env-var model
+swap would silently break the feature.
+
+Registration: [docs/BRIEF-STUDY2.md](docs/BRIEF-STUDY2.md). Findings:
+[REPORT.md](REPORT.md).
 
 ## Run it
 
@@ -33,7 +51,7 @@ bun install
 bun test               # graders and prompt pins
 bun run fixture        # rebuild corpus/fixture.json (~15 min of CPU transcription)
 bun run study1:pilot   # needs AI_GATEWAY_API_KEY in .env.local
-bun run study1:analyze
+bun run study1:analyze # (study2:pilot / study2:matrix / study2:analyze likewise)
 ```
 
 ## Layout
