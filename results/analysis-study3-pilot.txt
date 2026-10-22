@@ -1,0 +1,25 @@
+$ bun scripts/analyze-study3.ts
+
+=== D-pdf (readable items) ===
+model                             	keys	times	tempos	rehear	words	repeat	ending	specia	chords	chord±1	prec
+google/gemini-3.5-flash           	76.9%	100.0%	100.0%	85.7%	66.7%	20.0%	100.0%	33.3%	70.4%	75.7%	76.5%
+
+=== D-image (readable items) ===
+model                             	keys	times	tempos	rehear	words	repeat	ending	specia	chords	chord±1	prec
+google/gemini-3.5-flash           	100.0%	100.0%	100.0%	100.0%	100.0%	100.0%	100.0%	—	97.1%	97.1%	97.7%
+
+S3-H1 (gate): key recall within ±1 measure, readable items, D-pdf + D-image pooled:
+  google/gemini-3.5-flash            22/24 (91.7%)
+
+S3-H2 (gate): the unreadable probe (all arms):
+  google/gemini-3.5-flash            D-image: declared unreadable false, fabricated chord/key lines 1
+  google/gemini-3.5-flash            D-pdf: declared unreadable true, fabricated chord/key lines 0
+
+S3-H3: PDF vs image, paired per single-page readable item (chord exact recall):
+  google/gemini-3.5-flash            pdf 81.6% vs image 97.1% over 8 items
+
+Measure counting (answered readable cells): model m-lines vs GT measures:
+  google/gemini-3.5-flash            mean |m-lines − measures| = 0.1
+
+Cost anatomy:
+  google/gemini-3.5-flash            20 cells, 26728 in / 52868 out, mean 14269 ms, api-errors 0

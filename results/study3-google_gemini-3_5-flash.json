@@ -1168,5 +1168,135 @@
 		"tokensIn": 975,
 		"tokensOut": 1587,
 		"latencyMs": 8678
+	},
+	{
+		"itemId": "smudge",
+		"arm": "D-image",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: VIOLIN I\nPart: Violin I\nm1 key C major 4/4",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 8,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 1,
+		"tokensIn": 1547,
+		"tokensOut": 2553,
+		"latencyMs": 15475
+	},
+	{
+		"itemId": "smudge",
+		"arm": "D-pdf",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Unknown\nPart: Unknown\nNote: The image is extremely blurry and pixelated, making the music notation, title, and chord symbols completely unreadable.",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"times": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 8,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": true,
+			"fabricatedChordLines": 0
+		},
+		"measureLines": 0,
+		"tokensIn": 975,
+		"tokensOut": 863,
+		"latencyMs": 6140
 	}
 ]
