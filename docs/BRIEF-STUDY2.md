@@ -23,7 +23,7 @@ drumPresetProject, which cannot reject a schema-valid, length-checked
 reply), the retry-with-reason (one more go, production's message
 verbatim), and the gateway's OpenAI-style REST endpoint production uses
 for this feature. Neither arm sends temperature: production does not
-(disclosed; sampling nondeterminism is mitigated by 24 paired tasks, and
+(disclosed; sampling nondeterminism is mitigated by 25 paired tasks, and
 noted as a limitation).
 
 ## Arms (2): the reasoning field is the variable
@@ -42,7 +42,7 @@ answer), its R-off runs the lowest reasoning setting that model
 supports, disclosed per model — the Amendment 1 rule, registered this
 time instead of discovered.
 
-## Corpus (24 tasks, hand-authored, committed in corpus/beats.json)
+## Corpus (25 tasks, hand-authored, committed in corpus/beats.json)
 
 Beat descriptions across styles and meters (4/4 at 8/16/32 steps, 3/4
 and 6/8 at 12), always on an open pattern (voices: [], the production
@@ -51,7 +51,13 @@ what its prompt explicitly asks: a stated bpm, a named drum present or
 absent, hits on named steps, a stated swing/humanize/kit/effect. Style
 conventions the prompt leaves implicit are never checked (the AP
 lesson applied in advance: no analyst-authored taste rubric anywhere).
-83 checks total across 24 tasks.
+49 checks total across 25 tasks.
+
+(Correction, 2026-10-22, before any analysis was read: this brief's
+first commit miscounted its own committed corpus as "24 tasks, 83
+checks"; the corpus — committed before any scored run and unchanged —
+has 25 tasks and 49 checks. The prose is corrected to match the
+registration artifact; nothing scored changed.)
 
 ## Grading (mechanical, committed, tested)
 
@@ -62,7 +68,7 @@ reply after the retry, else checks passed / checks total.
 
 ## Models and cells
 
-48 cells per model (24 tasks × 2 arms), plus retries inside cells.
+50 cells per model (25 tasks × 2 arms), plus retries inside cells.
 
 - **Pilot:** `moonshotai/kimi-k2.6` — the production model and the
   claim's subject. Fence **$8** (the R-default arm pays for reasoning;

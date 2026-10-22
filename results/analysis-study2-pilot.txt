@@ -1,0 +1,16 @@
+$ bun scripts/analyze-study2.ts
+model                             	arm	score	valid1st	validFinal	rescued	med ms	mean out-tok
+moonshotai/kimi-k2.6              	R-off	95.0%	21/25	24/25	3	3006	233
+moonshotai/kimi-k2.6              	R-default	44.0%	10/25	11/25	1	89721	6938
+
+S2-H1 (R-default minus R-off, paired per task; the production claim is no gain):
+  moonshotai/kimi-k2.6               Δ -51.0 pts over 25 tasks, p = 0.0015
+
+S2-H2 economics (R-default over R-off multiples):
+  moonshotai/kimi-k2.6               latency ×20.3 (4158 → 84601 ms), out tokens ×29.7 (233 → 6938)
+
+Most-failed checks per arm (pooled):
+  R-off: voicePresent×2  voiceAbsent×2  hitsOnSome×1
+  R-default: hitsOnAll×6  bpmBetween×4  voicePresent×4  silentOnAll×2  voiceAbsent×2
+
+api-error cells: 14

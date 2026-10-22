@@ -19,14 +19,21 @@ const records: BeatCellRecord[] = readdirSync(dir)
 if (!records.length) throw new Error("no study2 results yet");
 
 const models = [...new Set(records.map((r) => r.model))].sort();
-const score = (r: BeatCellRecord | undefined): number | null =>
-	r === undefined || r.outcome === "api-error"
-		? null
-		: r.outcome === "invalid"
-			? 0
-			: r.checks.total
-				? r.checks.passed / r.checks.total
-				: 1;
+/**
+ * The registered combined score (BRIEF-STUDY2 "Grading"): 0 when no valid
+ * reply survived the retry, else checks passed/total. A cell is excluded
+ * (null) ONLY when the model never had its chance — the FIRST attempt
+ * failed at the API layer. A first attempt that consumed the budget and
+ * returned nothing, followed by a retry the empty assistant message makes
+ * unplayable (the gateway 400s), is a scored failure of the arm, exactly
+ * as production would experience it.
+ */
+const score = (r: BeatCellRecord | undefined): number | null => {
+	if (r === undefined) return null;
+	if (r.attempts[0]?.error?.startsWith("api:")) return null;
+	if (r.outcome !== "valid") return 0;
+	return r.checks.total ? r.checks.passed / r.checks.total : 1;
+};
 const cell = (m: string, t: string, a: string) =>
 	records.find((r) => r.model === m && r.taskId === t && r.arm === a);
 
@@ -50,6 +57,8 @@ for (const m of models) {
 	for (const arm of ["R-off", "R-default"] as const) {
 		const rs = records.filter((r) => r.model === m && r.arm === arm);
 		if (!rs.length) continue;
+		// Scored cells include budget-exhausted failures (score 0); only
+		// first-attempt API failures drop out.
 		const scores = rs.map((r) => score(r)).filter((s): s is number => s !== null);
 		const mean = scores.reduce((a, b) => a + b, 0) / Math.max(1, scores.length);
 		const v1 = rs.filter((r) => r.firstTryValid).length;

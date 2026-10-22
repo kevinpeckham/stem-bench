@@ -1,0 +1,2383 @@
+[
+	{
+		"taskId": "house-four",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3178,
+				"tokensIn": 942,
+				"tokensOut": 145,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Classic house groove with driving kick and offbeat open hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".x...x...x...x.."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 4,
+			"failures": [
+				"hitsOnSome"
+			]
+		},
+		"tokensIn": 942,
+		"tokensOut": 145,
+		"latencyMs": 3178
+	},
+	{
+		"taskId": "house-four",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 105595,
+				"tokensIn": 942,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3244,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 4,
+			"failures": [
+				"bpmBetween",
+				"hitsOnAll",
+				"hitsOnSome",
+				"silentOnAll"
+			]
+		},
+		"tokensIn": 942,
+		"tokensOut": 8000,
+		"latencyMs": 108839
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3104,
+				"tokensIn": 941,
+				"tokensOut": 150,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 15,
+			"humanize": 12,
+			"kit": "acoustic",
+			"note": "Classic crate-digger groove with dusty ghost snares.",
+			"fx": {
+				"reverb": 25,
+				"air": 15,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x..x..x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o....X.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 941,
+		"tokensOut": 150,
+		"latencyMs": 3104
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 74455,
+				"tokensIn": 941,
+				"tokensOut": 6006,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 12,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Boom bap with rolling snare ghosts.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x..x..x."
+				},
+				{
+					"voice": "snare",
+					"cells": ".o..X..o..oX..o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 941,
+		"tokensOut": 6006,
+		"latencyMs": 74455
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 2462,
+				"tokensIn": 934,
+				"tokensOut": 123,
+				"error": "rows.3.pan: Invalid type: Expected number but received \"-20\""
+			},
+			{
+				"latencyMs": 2040,
+				"tokensIn": 1100,
+				"tokensOut": 118,
+				"error": "crash: 18 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 4,
+			"failures": [
+				"voicePresent",
+				"voicePresent",
+				"voiceAbsent",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 2034,
+		"tokensOut": 241,
+		"latencyMs": 4502
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 45798,
+				"tokensIn": 934,
+				"tokensOut": 3883,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 0,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Straight rock backbeat on snare, ride keeping eighths.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 934,
+		"tokensOut": 3883,
+		"latencyMs": 45798
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3222,
+				"tokensIn": 943,
+				"tokensOut": 175,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Half-time trudge with space for 808 sub.",
+			"fx": {
+				"reverb": 25,
+				"delay": 0,
+				"tilt": 10,
+				"air": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x..x...."
+				},
+				{
+					"voice": "snare",
+					"cells": "........x......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".............x.."
+				},
+				{
+					"voice": "tom-low",
+					"cells": ".......o........"
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 943,
+		"tokensOut": 175,
+		"latencyMs": 3222
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 106316,
+				"tokensIn": 943,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 2621,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 3,
+			"failures": [
+				"bpmBetween",
+				"hitsOnAll",
+				"silentOnAll"
+			]
+		},
+		"tokensIn": 943,
+		"tokensOut": 8000,
+		"latencyMs": 108937
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2316,
+				"tokensIn": 920,
+				"tokensOut": 138,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "One two three, one two three.",
+			"fx": {
+				"reverb": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..........."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x."
+				},
+				{
+					"voice": "ride",
+					"cells": "x...x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o.....o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 920,
+		"tokensOut": 138,
+		"latencyMs": 2316
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 84056,
+				"tokensIn": 920,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3096,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 920,
+		"tokensOut": 8000,
+		"latencyMs": 87152
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2599,
+				"tokensIn": 931,
+				"tokensOut": 145,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 88,
+			"swing": 35,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Heavy shuffle with ghosted snare and laid-back backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "rim",
+					"cells": ".o...o...o...o.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..........x....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 931,
+		"tokensOut": 145,
+		"latencyMs": 2599
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 99065,
+				"tokensIn": 931,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 2509,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"swingBetween"
+			]
+		},
+		"tokensIn": 931,
+		"tokensOut": 8000,
+		"latencyMs": 101574
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2367,
+				"tokensIn": 936,
+				"tokensOut": 129,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Steady four-on-the-floor pulse with metallic hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 936,
+		"tokensOut": 129,
+		"latencyMs": 2367
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 67318,
+				"tokensIn": 936,
+				"tokensOut": 5552,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Bare-bones 4/4 machine funk.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 936,
+		"tokensOut": 5552,
+		"latencyMs": 67318
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2130,
+				"tokensIn": 936,
+				"tokensOut": 80,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 85,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Less is more.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 936,
+		"tokensOut": 80,
+		"latencyMs": 2130
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 31536,
+				"tokensIn": 936,
+				"tokensOut": 2772,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 82,
+			"swing": 0,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "Bare bones kick and snare.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 936,
+		"tokensOut": 2772,
+		"latencyMs": 31536
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3340,
+				"tokensIn": 934,
+				"tokensOut": 167,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 118,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Four-on-the-floor with that iconic cowbell cutting through.",
+			"fx": {
+				"reverb": 25,
+				"tilt": 15,
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 934,
+		"tokensOut": 167,
+		"latencyMs": 3340
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 41119,
+				"tokensIn": 934,
+				"tokensOut": 3267,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "A tight disco groove with quarter-note cowbell.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 934,
+		"tokensOut": 3267,
+		"latencyMs": 41119
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 23268,
+				"tokensIn": 993,
+				"tokensOut": 1500,
+				"error": "the JSON does not parse"
+			},
+			{
+				"latencyMs": 3973,
+				"tokensIn": 2527,
+				"tokensOut": 221,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 108,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "Funky pocket with a tom fill to take it home.",
+			"fx": {
+				"reverb": 25,
+				"tilt": 15,
+				"air": 18
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o.....o.....o...o...o.....o..."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..............................x."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "...............................x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 3520,
+		"tokensOut": 1721,
+		"latencyMs": 27241
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 90059,
+				"tokensIn": 993,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3646,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 993,
+		"tokensOut": 8000,
+		"latencyMs": 93705
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2970,
+				"tokensIn": 941,
+				"tokensOut": 160,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 72,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "The ride bell marks the pulse while the kick and snare breathe underneath.",
+			"fx": {
+				"reverb": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "......x....."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x."
+				},
+				{
+					"voice": "rim",
+					"cells": "....o......."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..........."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 941,
+		"tokensOut": 160,
+		"latencyMs": 2970
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 98059,
+				"tokensIn": 941,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3096,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"voicePresent"
+			]
+		},
+		"tokensIn": 941,
+		"tokensOut": 8000,
+		"latencyMs": 101155
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2263,
+				"tokensIn": 932,
+				"tokensOut": 141,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Four-on-the-floor punk stomp with driving hats and snare cracks.",
+			"fx": {
+				"reverb": 25,
+				"fuzz": 35,
+				"tilt": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "crash",
+					"cells": "x..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 932,
+		"tokensOut": 141,
+		"latencyMs": 2263
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 87267,
+				"tokensIn": 932,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 2454,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"bpmBetween"
+			]
+		},
+		"tokensIn": 932,
+		"tokensOut": 8000,
+		"latencyMs": 89721
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3183,
+				"tokensIn": 935,
+				"tokensOut": 178,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 82,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Rim shots echo into the void while the kick and skank hold the ground.",
+			"fx": {
+				"reverb": 45,
+				"delay": 75,
+				"delayTime": "1/4 dotted",
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "rim",
+					"cells": "X..x...X..x....."
+				},
+				{
+					"voice": "tom-low",
+					"cells": ".......x........"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 935,
+		"tokensOut": 178,
+		"latencyMs": 3183
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 101917,
+				"tokensIn": 935,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3027,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"voicePresent",
+				"fxAtLeast"
+			]
+		},
+		"tokensIn": 935,
+		"tokensOut": 8000,
+		"latencyMs": 104944
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3006,
+				"tokensIn": 944,
+				"tokensOut": 183,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 88,
+			"swing": 12,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "Dusty breakbeat with organic knock.",
+			"fx": {
+				"reverb": 25,
+				"air": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x.x..x.."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "........x......."
+				},
+				{
+					"voice": "rim",
+					"cells": "o...o...o...o.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..............x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 944,
+		"tokensOut": 183,
+		"latencyMs": 3006
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 64019,
+				"tokensIn": 944,
+				"tokensOut": 5082,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A sparse hip-hop break with no cymbals, driven by kick, snare ghosts, and rim clicks.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x..x...."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x..o....X..o"
+				},
+				{
+					"voice": "rim",
+					"cells": "......x.......x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": ".............x.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 944,
+		"tokensOut": 5082,
+		"latencyMs": 64019
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2692,
+				"tokensIn": 933,
+				"tokensOut": 131,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Four-on-the-floor drive with syncopated snare.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..x"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 933,
+		"tokensOut": 131,
+		"latencyMs": 2692
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 102722,
+				"tokensIn": 933,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 1409,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 933,
+		"tokensOut": 8000,
+		"latencyMs": 104131
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2874,
+				"tokensIn": 940,
+				"tokensOut": 150,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Classic four-on-the-floor with clap backbeat.",
+			"fx": {
+				"reverb": 25,
+				"air": 15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 940,
+		"tokensOut": 150,
+		"latencyMs": 2874
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 97278,
+				"tokensIn": 940,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3111,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"hitsOnAll",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 940,
+		"tokensOut": 8000,
+		"latencyMs": 100389
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3219,
+				"tokensIn": 932,
+				"tokensOut": 162,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 88,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "Laid-back pocket with a floating backbeat.",
+			"fx": {
+				"reverb": 35,
+				"air": 18,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "rim",
+					"cells": "........o...o..."
+				},
+				{
+					"voice": "tom-low",
+					"cells": ".......x........"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 932,
+		"tokensOut": 162,
+		"latencyMs": 3219
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 96121,
+				"tokensIn": 932,
+				"tokensOut": 7425,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 88,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "Neo-soul pocket with light swing and ghosted snare.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x..x...x"
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.o.....x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 932,
+		"tokensOut": 7425,
+		"latencyMs": 96121
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2995,
+				"tokensIn": 946,
+				"tokensOut": 132,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 115,
+			"swing": 15,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Three toms weave a polyrhythmic conversation.",
+			"fx": {
+				"reverb": 45,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "tom-low",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "tom-high",
+					"cells": ".x...x...x...x.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 946,
+		"tokensOut": 132,
+		"latencyMs": 2995
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 70041,
+				"tokensIn": 946,
+				"tokensOut": 5579,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 118,
+			"swing": 12,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A linear tribal groove across three toms.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "tom-low",
+					"cells": "X...o...x...x..."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..x...X...x...X."
+				},
+				{
+					"voice": "tom-high",
+					"cells": ".x...o...x...o.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 946,
+		"tokensOut": 5579,
+		"latencyMs": 70041
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3125,
+				"tokensIn": 936,
+				"tokensOut": 164,
+				"error": "crash: 17 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 3103,
+				"tokensIn": 1142,
+				"tokensOut": 164,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Relentless blast-beat energy with driving double-kick fury.",
+			"fx": {
+				"reverb": 25,
+				"fuzz": 45,
+				"tilt": 30
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x.X.x.X.x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............X"
+				},
+				{
+					"voice": "tom-low",
+					"cells": "........X......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2078,
+		"tokensOut": 328,
+		"latencyMs": 6228
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 60340,
+				"tokensIn": 936,
+				"tokensOut": 4767,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 145,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Relentless sixteenth-note kick barrage with a heavy backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "XxxxXxxxXxxxXxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 936,
+		"tokensOut": 4767,
+		"latencyMs": 60340
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3039,
+				"tokensIn": 936,
+				"tokensOut": 134,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Light and floating, the rim sketches the syncopated bossa clave.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x.......x..x"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "ride",
+					"cells": "X...X...X...X..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 936,
+		"tokensOut": 134,
+		"latencyMs": 3039
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 96587,
+				"tokensIn": 936,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 2677,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"voicePresent",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 936,
+		"tokensOut": 8000,
+		"latencyMs": 99264
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1940,
+				"tokensIn": 911,
+				"tokensOut": 118,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 12,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Tight pocket, hats pushing the subdivision.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xXxXxXxX"
+				},
+				{
+					"voice": "rim",
+					"cells": "o...o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 911,
+		"tokensOut": 118,
+		"latencyMs": 1940
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 76204,
+				"tokensIn": 911,
+				"tokensOut": 7147,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Tight, syncopated half-bar drive.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..xX..x"
+				},
+				{
+					"voice": "clap",
+					"cells": "..X...X."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxxxxxx"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 911,
+		"tokensOut": 7147,
+		"latencyMs": 76204
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2371,
+				"tokensIn": 940,
+				"tokensOut": 159,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 105,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "Funky pocket with a late snare accent.",
+			"fx": {
+				"reverb": 25,
+				"tilt": 15,
+				"air": 18
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..x.x...x..x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xXxXxXxXxXxXxXxX"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 940,
+		"tokensOut": 159,
+		"latencyMs": 2371
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 81492,
+				"tokensIn": 940,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 1603,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"accentOnlyAt"
+			]
+		},
+		"tokensIn": 940,
+		"tokensOut": 8000,
+		"latencyMs": 83095
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3631,
+				"tokensIn": 933,
+				"tokensOut": 197,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 125,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Classic 808 electro with booming sub power.",
+			"fx": {
+				"reverb": 20,
+				"air": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "x.......x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 933,
+		"tokensOut": 197,
+		"latencyMs": 3631
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 96279,
+				"tokensIn": 933,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 3061,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"kitIs",
+				"voicePresent"
+			]
+		},
+		"tokensIn": 933,
+		"tokensOut": 8000,
+		"latencyMs": 99340
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3153,
+				"tokensIn": 936,
+				"tokensOut": 182,
+				"error": "kick: 18 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 3426,
+				"tokensIn": 1160,
+				"tokensOut": 181,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 72,
+			"swing": 18,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Whispered conversation between snare and kick.",
+			"fx": {
+				"reverb": 45,
+				"delay": 15,
+				"delayTime": "1/8",
+				"tilt": -30
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o.......o......."
+				},
+				{
+					"voice": "snare",
+					"cells": ".o.o.o.o.o.o.o.o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "rim",
+					"cells": "....o.......o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2096,
+		"tokensOut": 363,
+		"latencyMs": 6579
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 76193,
+				"tokensIn": 936,
+				"tokensOut": 6053,
+				"error": "rim: 17 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 48446,
+				"tokensIn": 1110,
+				"tokensOut": 3925,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 74,
+			"swing": 16,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Whispered ghost strokes and brushed shadows.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o...o...o...o..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o...o...o...o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2046,
+		"tokensOut": 9978,
+		"latencyMs": 124639
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-off",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2950,
+				"tokensIn": 993,
+				"tokensOut": 206,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Classic deep house pulse with warm open hats and a driving clap.",
+			"fx": {
+				"reverb": 25,
+				"delay": 15,
+				"delayTime": "1/8",
+				"air": 15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x.......x........x......"
+				},
+				{
+					"voice": "snare",
+					"cells": "..........o.............o......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 993,
+		"tokensOut": 206,
+		"latencyMs": 2950
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-default",
+		"model": "moonshotai/kimi-k2.6",
+		"outcome": "api-error",
+		"attempts": [
+			{
+				"latencyMs": 78325,
+				"tokensIn": 993,
+				"tokensOut": 8000,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 2858,
+				"tokensIn": 0,
+				"tokensOut": 0,
+				"error": "api: The gateway answered 400: Bad Request"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"bpmBetween",
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 993,
+		"tokensOut": 8000,
+		"latencyMs": 81183
+	}
+]
