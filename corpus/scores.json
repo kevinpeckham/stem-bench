@@ -1,0 +1,1610 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261022",
+	"note": "Study 3 score specs: each becomes a MusicXML lead sheet (src/study3/musicxml.ts), engraved by Verovio, and summarized by the ported production musicXmlSummary as ground truth. Chords are compact strings; ch repeats per measure. 'unreadable: true' marks the honesty probe, rendered at a destructively low 150 px. Fictional titles throughout.",
+	"scores": [
+		{
+			"id": "harbor-run",
+			"title": "Harbor Run",
+			"partName": "Lead Sheet",
+			"measures": [
+				{
+					"key": [
+						1,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 120,
+					"mark": "A Verse",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "ashen-waltz",
+			"title": "Ashen Waltz",
+			"partName": "Piano",
+			"measures": [
+				{
+					"key": [
+						-3,
+						"major"
+					],
+					"time": [
+						3,
+						4
+					],
+					"tempo": 90,
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Bb7"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Bb7"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"words": "Trio",
+					"key": [
+						-3,
+						"minor"
+					],
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"key": [
+						-3,
+						"major"
+					],
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Bb7"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				}
+			]
+		},
+		{
+			"id": "copper-line",
+			"title": "Copper Line",
+			"partName": "Guitar",
+			"measures": [
+				{
+					"key": [
+						2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 132,
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"chords": [
+						"Bm7"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"repeat": "forward",
+					"mark": "Verse",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Gmaj7"
+					]
+				},
+				{
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Bm7"
+					]
+				},
+				{
+					"chords": [
+						"Em7"
+					]
+				},
+				{
+					"ending": 1,
+					"repeat": "backward",
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"ending": 2,
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"mark": "Bridge",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"chords": [
+						"Em7"
+					]
+				},
+				{
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Bm7"
+					]
+				},
+				{
+					"chords": [
+						"Em7"
+					]
+				},
+				{
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				}
+			]
+		},
+		{
+			"id": "night-ferry",
+			"title": "Night Ferry",
+			"partName": "Lead Sheet",
+			"measures": [
+				{
+					"key": [
+						2,
+						"minor"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 76,
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em7"
+					]
+				},
+				{
+					"chords": [
+						"F#7"
+					]
+				},
+				{
+					"words": "Chorus",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"time": [
+						6,
+						8
+					],
+					"words": "Outro",
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"F#7"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				}
+			]
+		},
+		{
+			"id": "golden-mile",
+			"title": "Golden Mile",
+			"partName": "Vocal",
+			"measures": [
+				{
+					"key": [
+						-1,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 104,
+					"mark": "A",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"words": "Chorus",
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"key": [
+						1,
+						"major"
+					],
+					"mark": "B",
+					"words": "Up a step",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "slate-sky",
+			"title": "Slate Sky",
+			"partName": "Guitar",
+			"measures": [
+				{
+					"key": [
+						3,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 140,
+					"mark": "Intro",
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"chords": [
+						"D5"
+					]
+				},
+				{
+					"chords": [
+						"E5"
+					]
+				},
+				{
+					"mark": "Verse",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Asus4"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Esus4"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"mark": "Chorus",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"mark": "Verse 2",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Asus2"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Esus4"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"mark": "Chorus 2",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"mark": "Outro",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A5"
+					]
+				}
+			]
+		},
+		{
+			"id": "winter-pier",
+			"title": "Winter Pier",
+			"partName": "Piano",
+			"measures": [
+				{
+					"key": [
+						-3,
+						"minor"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 66,
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Eb/G"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Dm7b5"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"words": "Chorus",
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Eb/G"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Dm7b5"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Cm/G"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				}
+			]
+		},
+		{
+			"id": "lantern-row",
+			"title": "Lantern Row",
+			"partName": "Lead Sheet",
+			"measures": [
+				{
+					"key": [
+						4,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 92,
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"G#m"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"tempo": 116,
+					"words": "Double feel",
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				}
+			]
+		},
+		{
+			"id": "quarry-road",
+			"title": "Quarry Road",
+			"partName": "Lead Sheet",
+			"measures": [
+				{
+					"key": [
+						-2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 112,
+					"mark": "Head",
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"special": "segno",
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Eb6"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm7"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"repeat": "forward",
+					"mark": "Solo",
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"repeat": "backward",
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"special": "coda",
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm7"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"special": "fine",
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "still-water",
+			"title": "Still Water",
+			"partName": "Lead Sheet",
+			"measures": [
+				{
+					"key": [
+						0,
+						"minor"
+					],
+					"time": [
+						6,
+						8
+					],
+					"tempo": 60,
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"E7"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"words": "Break",
+					"chords": []
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"E7"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				}
+			]
+		},
+		{
+			"id": "smudge",
+			"title": "Smudge",
+			"partName": "Lead Sheet",
+			"unreadable": true,
+			"measures": [
+				{
+					"key": [
+						1,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 100,
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"Am7"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				}
+			]
+		}
+	]
+}

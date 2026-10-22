@@ -1,0 +1,142 @@
+{
+	"version": 1,
+	"corpus": "hand-authored-20261022",
+	"items": [
+		{
+			"id": "harbor-run",
+			"title": "Harbor Run",
+			"unreadable": false,
+			"measures": 16,
+			"pages": 1,
+			"summary": "Title: Harbor Run\nPart: Lead Sheet (1 part)\nm1 key G major 4/4 tempo 120 [A Verse] \"120 bpm\": G\nm2: C\nm3: D\nm4: G\nm5: Em\nm6: C\nm7: D\nm8: D\nm9 [B Chorus]: C\nm10: D\nm11: G\nm12: Em\nm13: C\nm14: D\nm15: G\nm16: G",
+			"png": [
+				"corpus/scores/harbor-run-p1.png"
+			],
+			"pdf": "corpus/scores/harbor-run.pdf"
+		},
+		{
+			"id": "ashen-waltz",
+			"title": "Ashen Waltz",
+			"unreadable": false,
+			"measures": 20,
+			"pages": 1,
+			"summary": "Title: Ashen Waltz\nPart: Piano (1 part)\nm1 key E♭ major 3/4 tempo 90 \"90 bpm\": E♭\nm2: A♭\nm3: B♭7\nm4: E♭\nm5: Cm\nm6: Fm\nm7: B♭7\nm8: E♭\nm9 key C minor \"Trio\": Cm\nm10: Fm\nm11: G7\nm12: Cm\nm13: A♭\nm14: Fm\nm15: G7\nm16: Cm\nm17 key E♭ major: E♭\nm18: A♭\nm19: B♭7\nm20: E♭",
+			"png": [
+				"corpus/scores/ashen-waltz-p1.png"
+			],
+			"pdf": "corpus/scores/ashen-waltz.pdf"
+		},
+		{
+			"id": "copper-line",
+			"title": "Copper Line",
+			"unreadable": false,
+			"measures": 24,
+			"pages": 1,
+			"summary": "Title: Copper Line\nPart: Guitar (1 part)\nm1 key D major 4/4 tempo 132 \"132 bpm\": D\nm2: A7\nm3: Bm7\nm4: G\nm5 [Verse] |:: D\nm6: Gmaj7\nm7: A7\nm8: D\nm9: Bm7\nm10: Em7\nm11 :| ending 1: A7\nm12 ending 2: A7\nm13: D7\nm14 [Bridge]: G\nm15: Gm\nm16: D\nm17: B7\nm18: Em7\nm19: A7\nm20: D\nm21: Bm7\nm22: Em7\nm23: A7\nm24: D",
+			"png": [
+				"corpus/scores/copper-line-p1.png"
+			],
+			"pdf": "corpus/scores/copper-line.pdf"
+		},
+		{
+			"id": "night-ferry",
+			"title": "Night Ferry",
+			"unreadable": false,
+			"measures": 20,
+			"pages": 1,
+			"summary": "Title: Night Ferry\nPart: Lead Sheet (1 part)\nm1 key B minor 4/4 tempo 76 \"76 bpm\": Bm\nm2: G\nm3: D\nm4: A\nm5: Bm\nm6: G\nm7: Em7\nm8: F♯7\nm9 \"Chorus\": G\nm10: A\nm11: Bm\nm12: Bm\nm13 6/8 \"Outro\": Bm\nm14: G\nm15: D\nm16: A\nm17: Bm\nm18: G\nm19: F♯7\nm20: Bm",
+			"png": [
+				"corpus/scores/night-ferry-p1.png"
+			],
+			"pdf": "corpus/scores/night-ferry.pdf"
+		},
+		{
+			"id": "golden-mile",
+			"title": "Golden Mile",
+			"unreadable": false,
+			"measures": 24,
+			"pages": 1,
+			"summary": "Title: Golden Mile\nPart: Vocal (1 part)\nm1 key F major 4/4 tempo 104 [A] \"104 bpm\": F\nm2: Dm\nm3: B♭\nm4: C\nm5: F\nm6: Am\nm7: Dm\nm8: B♭\nm9 \"Chorus\": B♭\nm10: C\nm11: F\nm12: Dm\nm13: B♭\nm14: C\nm15: F\nm16: C7\nm17 key G major [B] \"Up a step\": G\nm18: Em\nm19: C\nm20: D\nm21: C\nm22: D\nm23: G\nm24: G",
+			"png": [
+				"corpus/scores/golden-mile-p1.png"
+			],
+			"pdf": "corpus/scores/golden-mile.pdf"
+		},
+		{
+			"id": "slate-sky",
+			"title": "Slate Sky",
+			"unreadable": false,
+			"measures": 48,
+			"pages": 3,
+			"summary": "Title: Slate Sky\nPart: Guitar (1 part)\nm1 key A major 4/4 tempo 140 [Intro] \"140 bpm\": A5\nm2: A5\nm3: D5\nm4: E5\nm5 [Verse]: A\nm6: Asus4\nm7: F♯m\nm8: D\nm9: A\nm10: Esus4\nm11: E\nm12: A\nm13 [Chorus]: D\nm14: E\nm15: A\nm16: F♯m\nm17: D\nm18: E\nm19: A5\nm20: A5\nm21 [Verse 2]: A\nm22: Asus2\nm23: F♯m\nm24: D\nm25: A\nm26: Esus4\nm27: E\nm28: A\nm29 [Chorus 2]: D\nm30: E\nm31: A\nm32: F♯m\nm33: D\nm34: E\nm35: A5\nm36: A5\nm37 [Outro]: D\nm38: A\nm39: D\nm40: A\nm41: E\nm42: D\nm43: A5\nm44: A5\nm45: D\nm46: A\nm47: E\nm48: A5",
+			"png": [
+				"corpus/scores/slate-sky-p1.png",
+				"corpus/scores/slate-sky-p2.png",
+				"corpus/scores/slate-sky-p3.png"
+			],
+			"pdf": "corpus/scores/slate-sky.pdf"
+		},
+		{
+			"id": "winter-pier",
+			"title": "Winter Pier",
+			"unreadable": false,
+			"measures": 28,
+			"pages": 1,
+			"summary": "Title: Winter Pier\nPart: Piano (1 part)\nm1 key C minor 4/4 tempo 66 \"66 bpm\": Cm\nm2: A♭\nm3: E♭/G\nm4: B♭\nm5: Cm\nm6: Dm7♭5\nm7: G7\nm8: Cm\nm9 \"Chorus\": A♭\nm10: B♭\nm11: Cm\nm12: E♭/G\nm13: A♭\nm14: B♭\nm15: E♭\nm16: G7\nm17: Cm\nm18: A♭\nm19: Dm7♭5\nm20: G7\nm21: Cm\nm22: A♭\nm23: G7\nm24: Cm\nm25: Fm\nm26: Cm/G\nm27: G7\nm28: Cm",
+			"png": [
+				"corpus/scores/winter-pier-p1.png"
+			],
+			"pdf": "corpus/scores/winter-pier.pdf"
+		},
+		{
+			"id": "lantern-row",
+			"title": "Lantern Row",
+			"unreadable": false,
+			"measures": 24,
+			"pages": 1,
+			"summary": "Title: Lantern Row\nPart: Lead Sheet (1 part)\nm1 key E major 4/4 tempo 92 \"92 bpm\": E\nm2: A\nm3: B\nm4: E\nm5: C♯m\nm6: A\nm7: B\nm8: B\nm9: E\nm10: G♯m\nm11: A\nm12: B\nm13 tempo 116 \"116 bpm\" \"Double feel\": E\nm14: A\nm15: B\nm16: C♯m\nm17: A\nm18: B\nm19: E\nm20: E\nm21: A\nm22: B\nm23: E\nm24: E",
+			"png": [
+				"corpus/scores/lantern-row-p1.png"
+			],
+			"pdf": "corpus/scores/lantern-row.pdf"
+		},
+		{
+			"id": "quarry-road",
+			"title": "Quarry Road",
+			"unreadable": false,
+			"measures": 48,
+			"pages": 3,
+			"summary": "Title: Quarry Road\nPart: Lead Sheet (1 part)\nm1 key B♭ major 4/4 tempo 112 [Head] \"112 bpm\": B♭\nm2: Gm\nm3: E♭\nm4: F\nm5 segno: B♭\nm6: E♭6\nm7: F7\nm8: B♭\nm9: Gm\nm10: Cm7\nm11: F7\nm12: B♭\nm13 [Solo] |:: E♭\nm14: F\nm15: B♭\nm16: Gm\nm17: E♭\nm18: F\nm19: B♭\nm20 :|: F7\nm21 coda: E♭\nm22: F\nm23: B♭\nm24: Gm\nm25: E♭\nm26: F\nm27: B♭\nm28: B♭\nm29: E♭\nm30: F\nm31: B♭\nm32: Gm\nm33: Cm7\nm34: F7\nm35 \"Fine\": B♭\nm36: B♭\nm37: E♭\nm38: F\nm39: B♭\nm40: Gm\nm41: E♭\nm42: F\nm43: B♭\nm44: F7\nm45: B♭\nm46: E♭\nm47: F7\nm48: B♭",
+			"png": [
+				"corpus/scores/quarry-road-p1.png",
+				"corpus/scores/quarry-road-p2.png",
+				"corpus/scores/quarry-road-p3.png"
+			],
+			"pdf": "corpus/scores/quarry-road.pdf"
+		},
+		{
+			"id": "still-water",
+			"title": "Still Water",
+			"unreadable": false,
+			"measures": 16,
+			"pages": 1,
+			"summary": "Title: Still Water\nPart: Lead Sheet (1 part)\nm1 key A minor 6/8 tempo 60 \"60 bpm\": Am\nm2: F\nm3: C\nm4: G\nm5: Am\nm6: F\nm7: E7\nm8: Am\nm9 \"Break\": N.C.\nm10: F\nm11: G\nm12: Am\nm13: Dm\nm14: Am\nm15: E7\nm16: Am",
+			"png": [
+				"corpus/scores/still-water-p1.png"
+			],
+			"pdf": "corpus/scores/still-water.pdf"
+		},
+		{
+			"id": "smudge",
+			"title": "Smudge",
+			"unreadable": true,
+			"measures": 8,
+			"pages": 1,
+			"summary": "Title: Smudge\nPart: Lead Sheet (1 part)\nm1 key G major 4/4 tempo 100 \"100 bpm\": G\nm2: C\nm3: D7\nm4: G\nm5: Em\nm6: Am7\nm7: D7\nm8: G",
+			"png": [
+				"corpus/scores/smudge-p1.png"
+			],
+			"pdf": "corpus/scores/smudge.pdf"
+		}
+	]
+}
