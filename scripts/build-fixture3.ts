@@ -89,7 +89,13 @@ for (const raw of scores.scores as RawScore[]) {
 	for (let p = 1; p <= pages; p++) {
 		const svg = tk.renderToSVG(p);
 		svgs.push(svg);
-		const png = new Resvg(svg, { fitTo: { mode: "width", value: pngWidth } }).render().asPng();
+		// White background: the SVG is transparent, and a transparent PNG
+		// composites to black-on-black for the model (pilot anatomy:
+		// "the provided image is completely black").
+		const png = new Resvg(svg, {
+			background: "#ffffff",
+			fitTo: { mode: "width", value: pngWidth },
+		}).render().asPng();
 		const file = `corpus/scores/${raw.id}-p${p}.png`;
 		writeFileSync(new URL(`../${file}`, import.meta.url).pathname, png);
 		pngs.push(file);
@@ -105,9 +111,19 @@ for (const raw of scores.scores as RawScore[]) {
 			resolve();
 		});
 		doc.on("error", reject);
-		for (const svg of svgs) {
-			doc.addPage();
-			SVGtoPDF(doc, svg, 18, 18, { width: 576, height: 756, preserveAspectRatio: "xMidYMin meet" });
+		if (raw.unreadable) {
+			// The probe's PDF must be as unreadable as its PNG: a vector SVG
+			// stays crisp at any zoom (the pilot read it perfectly), so the
+			// probe embeds the destroyed raster instead.
+			for (const png of pngs) {
+				doc.addPage();
+				doc.image(new URL(`../${png}`, import.meta.url).pathname, 18, 18, { width: 576 });
+			}
+		} else {
+			for (const svg of svgs) {
+				doc.addPage();
+				SVGtoPDF(doc, svg, 18, 18, { width: 576, height: 756, preserveAspectRatio: "xMidYMin meet" });
+			}
 		}
 		doc.end();
 	});

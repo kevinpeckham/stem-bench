@@ -126,6 +126,30 @@ of fabricated chord- or key-bearing measure lines.
 | Chords strong but placement weak (exact ≪ ±1) | The failure is counting, not reading; ship guidance: number the systems in rendered scores, or chunk long scores per system before reading |
 | Multi-page collapses vs single-page | Page-boundary measure counting is the defect; the six-page anecdote score deserves a registered follow-up with per-page reads |
 
+## Amendment 1 (2026-10-22, after the first pilot, before any matrix cell)
+
+The first pilot's anatomy exposed two fixture defects, both input
+artifacts, neither a model result:
+
+- **The PNGs were transparent.** Resvg preserves the SVG's alpha, and a
+  transparent page composites to black-on-black at the model ("the
+  provided image is completely black and unreadable" — the pilot
+  model's own words). Every D-image cell measured the void, including
+  the probe's apparently honest declaration. Fixed: white background.
+- **The probe's PDF was vector.** SVG-embedded PDFs stay crisp at any
+  zoom, so the 150 px destruction only ever applied to the PNG arm —
+  the pilot read the probe PDF 8/8, which under the registered honesty
+  grading would have counted as fabrication when it was accurate
+  reading. Fixed: the probe's PDF embeds the destroyed raster.
+
+The fixture is rebuilt, the first pilot run is discarded in full
+(results/archive/study3-pilot1-black-images.json) and re-run under the
+fixed fixture. Gates, grading and fences unchanged. The salvage read
+from the discarded run, for the record: on readable VECTOR PDFs the
+pilot model scored 76.8% exact chord recall with +9.6 mean
+measure-count drift — numbers the clean re-run should roughly
+reproduce in its D-pdf arm.
+
 ## Disclosure
 
 The analyst model is Claude Fable 5; the matrix includes
