@@ -83,7 +83,7 @@ for (const raw of scores.scores as RawScore[]) {
 	});
 	if (!tk.loadData(xml)) throw new Error(`verovio refused ${raw.id}`);
 	const pages = tk.getPageCount();
-	const pngWidth = raw.unreadable ? 150 : 1600;
+	const pngWidth = raw.unreadable ? 80 : 1600;
 	const pngs: string[] = [];
 	const svgs: string[] = [];
 	for (let p = 1; p <= pages; p++) {
@@ -147,5 +147,5 @@ writeFileSync(
 );
 const probe = out.find((o) => o.unreadable);
 console.log(
-	`\nfixture3.json: ${out.length} items (${out.filter((o) => o.pages > 1).length} multi-page), probe ${probe?.id} at 150 px`,
+	`\nfixture3.json: ${out.length} items (${out.filter((o) => o.pages > 1).length} multi-page), probe ${probe?.id} at 80 px`,
 );

@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"seed": "hand-authored-20261022",
-	"note": "Study 3 score specs: each becomes a MusicXML lead sheet (src/study3/musicxml.ts), engraved by Verovio, and summarized by the ported production musicXmlSummary as ground truth. Chords are compact strings; ch repeats per measure. 'unreadable: true' marks the honesty probe, rendered at a destructively low 150 px. Fictional titles throughout.",
+	"note": "Study 3 score specs: each becomes a MusicXML lead sheet (src/study3/musicxml.ts), engraved by Verovio, and summarized by the ported production musicXmlSummary as ground truth. Chords are compact strings; ch repeats per measure. 'unreadable: true' marks the honesty probe, rendered at a destructively low 80 px. Fictional titles throughout.",
 	"scores": [
 		{
 			"id": "harbor-run",
