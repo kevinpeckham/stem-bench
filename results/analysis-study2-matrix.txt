@@ -1,0 +1,32 @@
+$ bun scripts/analyze-study2.ts
+model                             	arm	score	valid1st	validFinal	rescued	med ms	mean out-tok
+anthropic/claude-fable-5-1        	R-off	100.0%	24/25	25/25	1	5579	235
+anthropic/claude-fable-5-1        	R-default	100.0%	25/25	25/25	0	5488	333
+anthropic/claude-haiku-4.5        	R-off	92.0%	20/25	23/25	3	1999	285
+anthropic/claude-haiku-4.5        	R-default	92.0%	19/25	23/25	4	1928	286
+google/gemini-3.5-flash           	R-off	0.0%	0/25	0/25	0	26275	2990
+google/gemini-3.5-flash           	R-default	99.0%	25/25	25/25	0	15899	2981
+moonshotai/kimi-k2.6              	R-off	95.0%	21/25	24/25	3	3006	233
+moonshotai/kimi-k2.6              	R-default	44.0%	10/25	11/25	1	89721	6938
+openai/gpt-oss-120b               	R-off	77.0%	13/25	21/25	8	5336	788
+openai/gpt-oss-120b               	R-default	92.0%	20/25	24/25	4	15760	2183
+
+S2-H1 (R-default minus R-off, paired per task; the production claim is no gain):
+  anthropic/claude-fable-5-1         Δ 0.0 pts over 25 tasks, p = 1.0000
+  anthropic/claude-haiku-4.5         Δ 0.0 pts over 25 tasks, p = 1.0000
+  google/gemini-3.5-flash            Δ 99.0 pts over 25 tasks, p = 0.0000
+  moonshotai/kimi-k2.6               Δ -51.0 pts over 25 tasks, p = 0.0015
+  openai/gpt-oss-120b                Δ 15.0 pts over 25 tasks, p = 0.1368
+
+S2-H2 economics (R-default over R-off multiples):
+  anthropic/claude-fable-5-1         latency ×1.2 (5746 → 6776 ms), out tokens ×1.4 (235 → 333)
+  anthropic/claude-haiku-4.5         latency ×1.0 (2350 → 2360 ms), out tokens ×1.0 (285 → 286)
+  google/gemini-3.5-flash            latency ×0.7 (27131 → 18329 ms), out tokens ×1.0 (2990 → 2981)
+  moonshotai/kimi-k2.6               latency ×20.3 (4158 → 84601 ms), out tokens ×29.7 (233 → 6938)
+  openai/gpt-oss-120b                latency ×2.7 (6062 → 16431 ms), out tokens ×2.8 (788 → 2183)
+
+Most-failed checks per arm (pooled):
+  R-off: voicePresent×13  voiceAbsent×10  hitsOnAll×10  bpmBetween×5  anyHitsInRange×5
+  R-default: hitsOnAll×7  bpmBetween×4  voicePresent×4  silentOnAll×2  swingBetween×2
+
+api-error cells: 14

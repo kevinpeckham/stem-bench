@@ -1,0 +1,2253 @@
+[
+	{
+		"taskId": "house-four",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 15276,
+				"tokensIn": 984,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 12620,
+				"tokensIn": 1072,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 4,
+			"failures": [
+				"bpmBetween",
+				"hitsOnAll",
+				"hitsOnSome",
+				"silentOnAll"
+			]
+		},
+		"tokensIn": 2056,
+		"tokensOut": 2992,
+		"latencyMs": 27896
+	},
+	{
+		"taskId": "house-four",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 20183,
+				"tokensIn": 984,
+				"tokensOut": 3832,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 15,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Classic four-on-the-floor house groove with driving offbeat open hats and a subtle swing.",
+			"fx": {
+				"reverb": 25,
+				"tilt": 10,
+				"air": 20,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o...x...o...x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..X...X...X...X."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xo.xxo.xxo.xxo.x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 984,
+		"tokensOut": 3832,
+		"latencyMs": 20183
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 11453,
+				"tokensIn": 978,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 14131,
+				"tokensIn": 1064,
+				"tokensOut": 1495,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 3,
+			"failures": [
+				"bpmBetween",
+				"voicePresent",
+				"ghostIn"
+			]
+		},
+		"tokensIn": 2042,
+		"tokensOut": 2991,
+		"latencyMs": 25584
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 12393,
+				"tokensIn": 978,
+				"tokensOut": 2274,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 18,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A gritty boom bap break with swinging hats and slick ghost-note snare rolls.",
+			"fx": {
+				"reverb": 15,
+				"tilt": -10,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.......x.X..o.."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.o.....X.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.o.X.x.X.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 978,
+		"tokensOut": 2274,
+		"latencyMs": 12393
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12829,
+				"tokensIn": 973,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13722,
+				"tokensIn": 1058,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 4,
+			"failures": [
+				"voicePresent",
+				"voicePresent",
+				"voiceAbsent",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 2031,
+		"tokensOut": 2992,
+		"latencyMs": 26551
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 9194,
+				"tokensIn": 973,
+				"tokensOut": 1703,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "A driving rock beat riding on the cymbal with no hi-hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				},
+				{
+					"voice": "ride",
+					"cells": "X.x.X.x.X.x.X.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..o"
+				},
+				{
+					"voice": "kick",
+					"cells": "x.......x.x....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 973,
+		"tokensOut": 1703,
+		"latencyMs": 9194
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12850,
+				"tokensIn": 981,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 12092,
+				"tokensIn": 1066,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 3,
+			"failures": [
+				"bpmBetween",
+				"hitsOnAll",
+				"silentOnAll"
+			]
+		},
+		"tokensIn": 2047,
+		"tokensOut": 2992,
+		"latencyMs": 24942
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 14635,
+				"tokensIn": 981,
+				"tokensOut": 2546,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "A heavy halftime trap bounce with the snare landing exclusively on beat 3.",
+			"fx": {
+				"reverb": 15,
+				"air": 20,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x....x....x..x.."
+				},
+				{
+					"voice": "snare",
+					"cells": "........X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.xx.x.xx.xx.x.x"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x.......x."
+				},
+				{
+					"voice": "rim",
+					"cells": "...x..........o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 981,
+		"tokensOut": 2546,
+		"latencyMs": 14635
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 16182,
+				"tokensIn": 954,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 15331,
+				"tokensIn": 1038,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 1992,
+		"tokensOut": 2992,
+		"latencyMs": 31513
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 20858,
+				"tokensIn": 954,
+				"tokensOut": 2214,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 115,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A delicate jazz waltz with a warm room vibe, driven by the ride and foot hat.",
+			"fx": {
+				"reverb": 30,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..........."
+				},
+				{
+					"voice": "snare",
+					"cells": "..o...o...o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "....x...x..."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.o.x.o.x.o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 954,
+		"tokensOut": 2214,
+		"latencyMs": 20858
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12866,
+				"tokensIn": 969,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13409,
+				"tokensIn": 1056,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"swingBetween"
+			]
+		},
+		"tokensIn": 2025,
+		"tokensOut": 2992,
+		"latencyMs": 26275
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 31835,
+				"tokensIn": 969,
+				"tokensOut": 5446,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 65,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A gritty, deep-pocket blues shuffle with a bouncing ride cymbal and dynamic snare work.",
+			"fx": {
+				"reverb": 25,
+				"tilt": -10,
+				"air": 10
+			},
+			"rows": [
+				{
+					"voice": "ride",
+					"cells": "X..xX..xX..xX..x"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o.o..X..o"
+				},
+				{
+					"voice": "kick",
+					"cells": "x.......x..x...."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 969,
+		"tokensOut": 5446,
+		"latencyMs": 31835
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12817,
+				"tokensIn": 974,
+				"tokensOut": 1496,
+				"error": "the JSON does not parse"
+			},
+			{
+				"latencyMs": 11970,
+				"tokensIn": 1057,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"humanizeAtMost",
+				"kitIs"
+			]
+		},
+		"tokensIn": 2031,
+		"tokensOut": 2992,
+		"latencyMs": 24787
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 11948,
+				"tokensIn": 974,
+				"tokensOut": 2155,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 126,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "A hypnotic, driving minimal techno loop with a heavy pocket and echoing hats.",
+			"fx": {
+				"reverb": 20,
+				"delay": 25,
+				"delayTime": "1/8 dotted",
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.x.o.o.o.x.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "......o.......o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 974,
+		"tokensOut": 2155,
+		"latencyMs": 11948
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12792,
+				"tokensIn": 973,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13488,
+				"tokensIn": 1060,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 4,
+			"failures": [
+				"onlyVoices",
+				"voicePresent",
+				"voicePresent",
+				"totalHitsAtMost"
+			]
+		},
+		"tokensIn": 2033,
+		"tokensOut": 2992,
+		"latencyMs": 26280
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 14285,
+				"tokensIn": 973,
+				"tokensOut": 2207,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 85,
+			"swing": 10,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "An ultra-sparse, heavy groove using only kick, snare, and a single ghosted rim click to accentuate the space.",
+			"fx": {
+				"reverb": 45,
+				"tilt": -10,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x.o....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "rim",
+					"cells": "..........o....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 4,
+			"failures": [
+				"onlyVoices"
+			]
+		},
+		"tokensIn": 973,
+		"tokensOut": 2207,
+		"latencyMs": 14285
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 11908,
+				"tokensIn": 971,
+				"tokensOut": 1495,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 12251,
+				"tokensIn": 1057,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 2028,
+		"tokensOut": 2991,
+		"latencyMs": 24159
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 28301,
+				"tokensIn": 971,
+				"tokensOut": 5546,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 12,
+			"kit": "acoustic",
+			"note": "Classic four-on-the-floor disco groove with the iconic off-beat open hi-hat and a driving cowbell quarter-note pulse.",
+			"fx": {
+				"reverb": 20,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xo.oxo.oxo.oxo.o"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..X...X...X...X."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 971,
+		"tokensOut": 5546,
+		"latencyMs": 28301
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 15739,
+				"tokensIn": 1042,
+				"tokensOut": 1495,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13950,
+				"tokensIn": 1128,
+				"tokensOut": 1445,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 2170,
+		"tokensOut": 2940,
+		"latencyMs": 29689
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 26055,
+				"tokensIn": 1042,
+				"tokensOut": 5120,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 98,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A syncopated funk groove with a classic sixteenth-note tom fill descending at the very end.",
+			"fx": {
+				"reverb": 20,
+				"tilt": -10,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x....x....xx..x.x....x....x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o.o..X.o.....X..o.o......"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.x.X.X.x.x..xX.x.x.X.X.x....."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x................."
+				},
+				{
+					"voice": "tom-high",
+					"cells": "............................xx.."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..............................x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...............................x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1042,
+		"tokensOut": 5120,
+		"latencyMs": 26055
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 13959,
+				"tokensIn": 976,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 12219,
+				"tokensIn": 1064,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"voicePresent"
+			]
+		},
+		"tokensIn": 2040,
+		"tokensOut": 2992,
+		"latencyMs": 26178
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 15753,
+				"tokensIn": 976,
+				"tokensOut": 2542,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 58,
+			"swing": 0,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "A slow, spacious 6/8 ballad groove with the ride cymbal defining the triplet pulse and a deep snare on the backbeat.",
+			"fx": {
+				"reverb": 40,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "ride",
+					"cells": "X.x.x.X.x.x."
+				},
+				{
+					"voice": "kick",
+					"cells": "X.o.....x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "......X....o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..x.....x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 976,
+		"tokensOut": 2542,
+		"latencyMs": 15753
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 13245,
+				"tokensIn": 971,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 10807,
+				"tokensIn": 1059,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"bpmBetween"
+			]
+		},
+		"tokensIn": 2030,
+		"tokensOut": 2992,
+		"latencyMs": 24052
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 18379,
+				"tokensIn": 971,
+				"tokensOut": 3295,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "A driving skate-punk beat with sloshy open hats, a heavy backbeat, and a quick tom fill.",
+			"fx": {
+				"reverb": 20,
+				"tilt": 10,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".x.x.x.x.x.x.x.."
+				},
+				{
+					"voice": "kick",
+					"cells": "x.x.....x.x...x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o....X..."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..............xx"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 971,
+		"tokensOut": 3295,
+		"latencyMs": 18379
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12667,
+				"tokensIn": 972,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 11188,
+				"tokensIn": 1055,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"voicePresent",
+				"fxAtLeast"
+			]
+		},
+		"tokensIn": 2027,
+		"tokensOut": 2992,
+		"latencyMs": 23855
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 15188,
+				"tokensIn": 972,
+				"tokensOut": 2656,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 72,
+			"swing": 18,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A classic one-drop dub reggae rhythm with a rimshot echoing through a heavy dotted-eighth tape delay.",
+			"fx": {
+				"reverb": 40,
+				"delay": 65,
+				"delayTime": "1/8 dotted",
+				"tilt": -10,
+				"bottom": 50
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o.......x......."
+				},
+				{
+					"voice": "rim",
+					"cells": "........X....x.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.o.x.x.x.o.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...........x...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 972,
+		"tokensOut": 2656,
+		"latencyMs": 15188
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 15231,
+				"tokensIn": 982,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13422,
+				"tokensIn": 1070,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 4,
+			"failures": [
+				"voiceAbsent",
+				"voiceAbsent",
+				"voiceAbsent",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 2052,
+		"tokensOut": 2992,
+		"latencyMs": 28653
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 15373,
+				"tokensIn": 982,
+				"tokensOut": 2611,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 15,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "A heavy boom-bap groove that swaps out cymbals for syncopated rim clicks and warm toms.",
+			"fx": {
+				"reverb": 20,
+				"air": 15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.o.....x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o..o.X.o."
+				},
+				{
+					"voice": "rim",
+					"cells": "..x..x..x..x..x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "......x........."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "............x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 982,
+		"tokensOut": 2611,
+		"latencyMs": 15373
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 14908,
+				"tokensIn": 971,
+				"tokensOut": 1495,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13208,
+				"tokensIn": 1057,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 2028,
+		"tokensOut": 2991,
+		"latencyMs": 28116
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 16430,
+				"tokensIn": 971,
+				"tokensOut": 2870,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 12,
+			"kit": "acoustic",
+			"note": "A driving dance-punk beat with a relentless eighth-note kick and eighth-note offbeat hats.",
+			"fx": {
+				"reverb": 20,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxxxxxxxxxxxx.."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 971,
+		"tokensOut": 2870,
+		"latencyMs": 16430
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12834,
+				"tokensIn": 977,
+				"tokensOut": 1495,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 12271,
+				"tokensIn": 1063,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"hitsOnAll",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 2040,
+		"tokensOut": 2991,
+		"latencyMs": 25105
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 14288,
+				"tokensIn": 977,
+				"tokensOut": 2245,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 20,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "A classic four-on-the-floor house groove with driving offbeat open hats and a stereo-widened clap backbeat.",
+			"fx": {
+				"reverb": 25,
+				"air": 20,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..X...X...X...X."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x..x.o.xx..x.o.x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 977,
+		"tokensOut": 2245,
+		"latencyMs": 14288
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 15217,
+				"tokensIn": 970,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 12556,
+				"tokensIn": 1058,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"swingBetween"
+			]
+		},
+		"tokensIn": 2028,
+		"tokensOut": 2992,
+		"latencyMs": 27773
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 18335,
+				"tokensIn": 970,
+				"tokensOut": 3393,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 86,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "A lazy, Dilla-inspired neo-soul groove with a laid-back kick and swung hats.",
+			"fx": {
+				"reverb": 15,
+				"air": 25,
+				"bottom": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.o.....x.....x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o.o..X.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.o.X.x..X.o"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...........x...."
+				},
+				{
+					"voice": "rim",
+					"cells": "...x............"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 970,
+		"tokensOut": 3393,
+		"latencyMs": 18335
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 15144,
+				"tokensIn": 982,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 20626,
+				"tokensIn": 1066,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"onlyVoices",
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 2048,
+		"tokensOut": 2992,
+		"latencyMs": 35770
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 15899,
+				"tokensIn": 982,
+				"tokensOut": 2857,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A driving, syncopated tribal rhythm played entirely on the toms with natural stereo panning.",
+			"fx": {
+				"reverb": 35,
+				"tilt": -15,
+				"air": 10
+			},
+			"rows": [
+				{
+					"voice": "tom-high",
+					"cells": ".o.o.x..o.o.o.X."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..x.X.o...x.X.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "X...o..X...o.x.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 982,
+		"tokensOut": 2857,
+		"latencyMs": 15899
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 14122,
+				"tokensIn": 973,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 17272,
+				"tokensIn": 1060,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 2033,
+		"tokensOut": 2992,
+		"latencyMs": 31394
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 13804,
+				"tokensIn": 973,
+				"tokensOut": 1943,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 160,
+			"swing": 0,
+			"humanize": 12,
+			"kit": "acoustic",
+			"note": "A relentless double-bass onslaught with a driving double-time snare.",
+			"fx": {
+				"reverb": 25,
+				"air": 20,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "XxxxXxxxXxxxXxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "..X...X...X...X."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 973,
+		"tokensOut": 1943,
+		"latencyMs": 13804
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12881,
+				"tokensIn": 973,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 14891,
+				"tokensIn": 1058,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"voicePresent",
+				"voiceAbsent"
+			]
+		},
+		"tokensIn": 2031,
+		"tokensOut": 2992,
+		"latencyMs": 27772
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 18361,
+				"tokensIn": 973,
+				"tokensOut": 3133,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 125,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A classic 3:2 bossa nova groove featuring a syncopated surdo-style kick and elegant rim clicks.",
+			"fx": {
+				"reverb": 25,
+				"tilt": 10
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x.x.x...x.x."
+				},
+				{
+					"voice": "rim",
+					"cells": "X..X..X...X..X.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xoxoxoxoxoxoxox."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 973,
+		"tokensOut": 3133,
+		"latencyMs": 18361
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 12929,
+				"tokensIn": 943,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 11492,
+				"tokensIn": 1030,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"voicePresent",
+				"voicePresent"
+			]
+		},
+		"tokensIn": 1973,
+		"tokensOut": 2992,
+		"latencyMs": 24421
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 11450,
+				"tokensIn": 943,
+				"tokensOut": 1767,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 5,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "A crisp, repeating two-beat pocket driven by the hats and kick.",
+			"fx": {
+				"reverb": 15,
+				"air": 25
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..ox..o"
+				},
+				{
+					"voice": "rim",
+					"cells": "..X...X."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "XoxxXoxx"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 943,
+		"tokensOut": 1767,
+		"latencyMs": 11450
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 14268,
+				"tokensIn": 976,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 11508,
+				"tokensIn": 1063,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"accentOnlyAt"
+			]
+		},
+		"tokensIn": 2039,
+		"tokensOut": 2992,
+		"latencyMs": 25776
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 21887,
+				"tokensIn": 976,
+				"tokensOut": 3423,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 102,
+			"swing": 15,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "A heavy-stepping funk groove that delays the main snare backbeat to beat 4, using a rim click on beat 2 to build anticipation.",
+			"fx": {
+				"reverb": 15,
+				"air": 25
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x...x.x.x....."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x..........."
+				},
+				{
+					"voice": "snare",
+					"cells": ".......o....X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.xxX.x.X.xxX.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".......x.......x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 976,
+		"tokensOut": 3423,
+		"latencyMs": 21887
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 15208,
+				"tokensIn": 974,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 10836,
+				"tokensIn": 1061,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"kitIs",
+				"voicePresent"
+			]
+		},
+		"tokensIn": 2035,
+		"tokensOut": 2992,
+		"latencyMs": 26044
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 13486,
+				"tokensIn": 974,
+				"tokensOut": 1913,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 125,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "A classic 808 electro boom with syncopated kicks, snapping snares, and that iconic cowbell.",
+			"fx": {
+				"reverb": 15,
+				"air": 25,
+				"bottom": 60
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..x....x.x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..x"
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x.X.x.X.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x.......x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x....x..x..x.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 974,
+		"tokensOut": 1913,
+		"latencyMs": 13486
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 14087,
+				"tokensIn": 975,
+				"tokensOut": 1495,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 18294,
+				"tokensIn": 1061,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"ghostShareAtLeast"
+			]
+		},
+		"tokensIn": 2036,
+		"tokensOut": 2991,
+		"latencyMs": 32381
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 35891,
+				"tokensIn": 975,
+				"tokensOut": 1919,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 82,
+			"swing": 22,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "A dusty, whispered lo-fi groove played almost entirely with soft ghost notes.",
+			"fx": {
+				"reverb": 25,
+				"tilt": -35,
+				"bottom": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o.......o.o....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o..o....o..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.ooo.o."
+				},
+				{
+					"voice": "rim",
+					"cells": "............o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 975,
+		"tokensOut": 1919,
+		"latencyMs": 35891
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-off",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 10199,
+				"tokensIn": 1043,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			},
+			{
+				"latencyMs": 13117,
+				"tokensIn": 1130,
+				"tokensOut": 1496,
+				"error": "no JSON object in the reply"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"bpmBetween",
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 2173,
+		"tokensOut": 2992,
+		"latencyMs": 23316
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-default",
+		"model": "google/gemini-3.5-flash",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 24015,
+				"tokensIn": 1043,
+				"tokensOut": 4924,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 20,
+			"humanize": 8,
+			"kit": "electronic",
+			"note": "A deep, hypnotic house groove with a warm four-on-the-floor kick, lush offbeat hats, and atmospheric percussion.",
+			"fx": {
+				"reverb": 40,
+				"tilt": -10,
+				"air": 20,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..X...X...X...X.....X...X...X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o..o.xx.o..o.xx.o..o.xx.o..o.x"
+				},
+				{
+					"voice": "rim",
+					"cells": "......x.......o.......x.....o.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "............x...............x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1043,
+		"tokensOut": 4924,
+		"latencyMs": 24015
+	}
+]

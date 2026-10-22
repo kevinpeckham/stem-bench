@@ -1,0 +1,2518 @@
+[
+	{
+		"taskId": "house-four",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2373,
+				"tokensIn": 1007,
+				"tokensOut": 288,
+				"error": "the JSON does not parse"
+			},
+			{
+				"latencyMs": 6325,
+				"tokensIn": 1210,
+				"tokensOut": 683,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 124,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house groove with open hats on the offbeats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".x...x...x...x.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 4,
+			"failures": [
+				"hitsOnSome"
+			]
+		},
+		"tokensIn": 2217,
+		"tokensOut": 971,
+		"latencyMs": 8698
+	},
+	{
+		"taskId": "house-four",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 16602,
+				"tokensIn": 1007,
+				"tokensOut": 3893,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 12,
+			"humanize": 18,
+			"kit": "electronic",
+			"note": "Four‑on‑the‑floor house groove",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1007,
+		"tokensOut": 3893,
+		"latencyMs": 16602
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3881,
+				"tokensIn": 1004,
+				"tokensOut": 825,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 3722,
+				"tokensIn": 1147,
+				"tokensOut": 425,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 90,
+			"swing": 10,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Boom bap groove with ghost‑snare fills.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x..o....x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "clap",
+					"cells": "..x.....x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 2151,
+		"tokensOut": 1250,
+		"latencyMs": 7603
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 12290,
+				"tokensIn": 1004,
+				"tokensOut": 1494,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 15895,
+				"tokensIn": 1169,
+				"tokensOut": 1800,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 92,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Boom bap groove with ghost snares.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....Xo......Xo.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 2173,
+		"tokensOut": 3294,
+		"latencyMs": 28185
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6264,
+				"tokensIn": 1000,
+				"tokensOut": 790,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 10,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Basic rock groove, kick on 1 & 3, snare on 2 & 4, ride ticking eighths.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x......x...."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1000,
+		"tokensOut": 790,
+		"latencyMs": 6264
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 9863,
+				"tokensIn": 1000,
+				"tokensOut": 1318,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 10,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Classic rock groove without hi‑hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.......X......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1000,
+		"tokensOut": 1318,
+		"latencyMs": 9863
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5487,
+				"tokensIn": 1008,
+				"tokensOut": 698,
+				"error": "clap: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 2643,
+				"tokensIn": 1174,
+				"tokensOut": 394,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 140,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Halftime trap with snare on beat 3 only.",
+			"fx": {
+				"reverb": 25,
+				"tilt": 30,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "........X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...........X...."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o..........."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 2182,
+		"tokensOut": 1092,
+		"latencyMs": 8130
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 20138,
+				"tokensIn": 1008,
+				"tokensOut": 2182,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Halftime trap beat with snare on beat 3.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x.......x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "........X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1008,
+		"tokensOut": 2182,
+		"latencyMs": 20138
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6105,
+				"tokensIn": 984,
+				"tokensOut": 632,
+				"error": "the JSON does not parse"
+			},
+			{
+				"latencyMs": 2290,
+				"tokensIn": 1142,
+				"tokensOut": 250,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 92,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Gentle waltz with the kick on beat 1.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2126,
+		"tokensOut": 882,
+		"latencyMs": 8395
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 15408,
+				"tokensIn": 984,
+				"tokensOut": 1768,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 96,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Gentle waltz with kick on 1 and snare on 2, soft hi‑hat ticking.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.......x..."
+				},
+				{
+					"voice": "snare",
+					"cells": ".....x......"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 984,
+		"tokensOut": 1768,
+		"latencyMs": 15408
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6648,
+				"tokensIn": 997,
+				"tokensOut": 656,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 65,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Shuffled blues beat with heavy swing.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..x...x..x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o.x.o."
+				},
+				{
+					"voice": "ride",
+					"cells": "X...X...X...X..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 997,
+		"tokensOut": 656,
+		"latencyMs": 6648
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 18737,
+				"tokensIn": 997,
+				"tokensOut": 2280,
+				"error": "hat-closed: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 9805,
+				"tokensIn": 1139,
+				"tokensOut": 1166,
+				"error": "hat-closed: 15 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"swingBetween"
+			]
+		},
+		"tokensIn": 2136,
+		"tokensOut": 3446,
+		"latencyMs": 28542
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2110,
+				"tokensIn": 1002,
+				"tokensOut": 223,
+				"error": "hat-closed: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1988,
+				"tokensIn": 1128,
+				"tokensOut": 231,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Minimal techno, tight machine groove.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 2130,
+		"tokensOut": 454,
+		"latencyMs": 4098
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7792,
+				"tokensIn": 1002,
+				"tokensOut": 1024,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 126,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Minimal techno four‑on‑the‑floor with crisp clap and steady hi‑hat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1002,
+		"tokensOut": 1024,
+		"latencyMs": 7792
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3223,
+				"tokensIn": 1002,
+				"tokensOut": 388,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 100,
+			"swing": 0,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Sparse kick‑snare pattern.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1002,
+		"tokensOut": 388,
+		"latencyMs": 3223
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6422,
+				"tokensIn": 1002,
+				"tokensOut": 949,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Sparse kick‑snare pattern.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1002,
+		"tokensOut": 949,
+		"latencyMs": 6422
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2273,
+				"tokensIn": 1000,
+				"tokensOut": 309,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 3856,
+				"tokensIn": 1243,
+				"tokensOut": 560,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 120,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Classic disco groove with steady cowbell.",
+			"fx": {
+				"reverb": 30,
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2243,
+		"tokensOut": 869,
+		"latencyMs": 6129
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 16318,
+				"tokensIn": 1000,
+				"tokensOut": 2013,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 5,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Classic disco groove with steady four‑on‑the‑floor kick, snappy snare on the backbeat, bright hi‑hats and a cowbell on every quarter note.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".......x.......x"
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1000,
+		"tokensOut": 2013,
+		"latencyMs": 16318
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 8636,
+				"tokensIn": 1059,
+				"tokensOut": 981,
+				"error": "rows.1.cells: cells must be . o x X only"
+			},
+			{
+				"latencyMs": 8136,
+				"tokensIn": 1291,
+				"tokensOut": 1202,
+				"error": "snare: 29 characters, but every row must be exactly 32"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 2350,
+		"tokensOut": 2183,
+		"latencyMs": 16772
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 38810,
+				"tokensIn": 1059,
+				"tokensOut": 5364,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 18,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A crisp two‑bar funk groove with a tight tom fill at the end.",
+			"fx": {
+				"reverb": 30,
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x..x...x..x.....x..x....x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.o...o.X.o.....X.o...o.X.o."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X.......X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxXxxxXxxxXxxxXxxxXxxxXxxxXxxxX"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x...............x"
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "........................x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1059,
+		"tokensOut": 5364,
+		"latencyMs": 38810
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6044,
+				"tokensIn": 1005,
+				"tokensOut": 886,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 80,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A gentle 6/8 ballad with the ride shaping the flow.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "...X.....X.."
+				},
+				{
+					"voice": "ride",
+					"cells": "Xx.x..Xx.x.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..o..o..o..o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1005,
+		"tokensOut": 886,
+		"latencyMs": 6044
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 19669,
+				"tokensIn": 1005,
+				"tokensOut": 2016,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 78,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Slow 6/8 ballad with the ride cymbal carrying the pulse.",
+			"fx": {
+				"reverb": 30
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "......X..o.."
+				},
+				{
+					"voice": "ride",
+					"cells": "Xx.x.xXx.x.x"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": ".x.x.x.x.x.x"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...........X"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1005,
+		"tokensOut": 2016,
+		"latencyMs": 19669
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3933,
+				"tokensIn": 997,
+				"tokensOut": 535,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 10,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Fast punk drive with tight kick‑snare and relentless eighth‑note hi‑hat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 997,
+		"tokensOut": 535,
+		"latencyMs": 3933
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7559,
+				"tokensIn": 997,
+				"tokensOut": 1123,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Fast punk drive.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 997,
+		"tokensOut": 1123,
+		"latencyMs": 7559
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2495,
+				"tokensIn": 1000,
+				"tokensOut": 214,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Dub groove with a deep rim echo.",
+			"fx": {
+				"reverb": 35,
+				"delay": 80,
+				"delayTime": "1/4 dotted",
+				"bottom": 30
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x.......x..x"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1000,
+		"tokensOut": 214,
+		"latencyMs": 2495
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 13698,
+				"tokensIn": 1000,
+				"tokensOut": 1603,
+				"error": "rim: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 5490,
+				"tokensIn": 1151,
+				"tokensOut": 618,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 74,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Dub groove with rim echo",
+			"fx": {
+				"reverb": 30,
+				"delay": 80,
+				"delayTime": "1/8 dotted"
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....X...X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...........x...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 2151,
+		"tokensOut": 2221,
+		"latencyMs": 19188
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 8570,
+				"tokensIn": 1009,
+				"tokensOut": 1347,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 2499,
+				"tokensIn": 1163,
+				"tokensOut": 274,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 92,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Hip‑hop groove with punchy kick, snappy snare, occasional clap and cowbell.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X......X...."
+				},
+				{
+					"voice": "clap",
+					"cells": ".......x........"
+				},
+				{
+					"voice": "rim",
+					"cells": "o..............."
+				},
+				{
+					"voice": "cowbell",
+					"cells": ".........x......"
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 2172,
+		"tokensOut": 1621,
+		"latencyMs": 11069
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 21573,
+				"tokensIn": 1009,
+				"tokensOut": 3126,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Simple hip‑hop groove with a deep kick and snappy backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x....o..x...o..x"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X...o...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": ".....x.......x.."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...........o...X"
+				},
+				{
+					"voice": "rim",
+					"cells": ".........o......"
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1009,
+		"tokensOut": 3126,
+		"latencyMs": 21573
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 1748,
+				"tokensIn": 999,
+				"tokensOut": 248,
+				"error": "kick: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 3210,
+				"tokensIn": 1176,
+				"tokensOut": 372,
+				"error": "kick: 15 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 2175,
+		"tokensOut": 620,
+		"latencyMs": 4958
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7396,
+				"tokensIn": 999,
+				"tokensOut": 1124,
+				"error": "kick: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 7537,
+				"tokensIn": 1159,
+				"tokensOut": 947,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 140,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Driving rock beat with kick on every eighth and snare on the backbeats.",
+			"fx": {
+				"reverb": 30,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2158,
+		"tokensOut": 2071,
+		"latencyMs": 14933
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4151,
+				"tokensIn": 1006,
+				"tokensOut": 598,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 15,
+			"humanize": 10,
+			"kit": "electronic",
+			"note": "House groove with claps on the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X......X...."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".......x.......x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 2,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 1006,
+		"tokensOut": 598,
+		"latencyMs": 4151
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 11807,
+				"tokensIn": 1006,
+				"tokensOut": 1850,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 126,
+			"swing": 5,
+			"humanize": 12,
+			"kit": "electronic",
+			"note": "Classic four‑on‑the‑floor house groove with claps on 2 and 4.",
+			"fx": {
+				"reverb": 20,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1006,
+		"tokensOut": 1850,
+		"latencyMs": 11807
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3768,
+				"tokensIn": 998,
+				"tokensOut": 571,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "Neo‑soul pocket with a light swing.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "ride",
+					"cells": "....x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 998,
+		"tokensOut": 571,
+		"latencyMs": 3768
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 15760,
+				"tokensIn": 998,
+				"tokensOut": 2156,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Smooth neo-soul pocket with subtle swing and ghost snares.",
+			"fx": {
+				"reverb": 25,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x.....X..."
+				},
+				{
+					"voice": "snare",
+					"cells": ".o...o..Xo......"
+				},
+				{
+					"voice": "clap",
+					"cells": "........X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "XxxxXxxxXxxxXxxx"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...........X...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 998,
+		"tokensOut": 2156,
+		"latencyMs": 15760
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 2983,
+				"tokensIn": 1011,
+				"tokensOut": 399,
+				"error": "tom-mid: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1598,
+				"tokensIn": 1163,
+				"tokensOut": 235,
+				"error": "tom-mid: 15 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 2,
+			"failures": [
+				"onlyVoices",
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 2174,
+		"tokensOut": 634,
+		"latencyMs": 4581
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 14907,
+				"tokensIn": 1011,
+				"tokensOut": 1990,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Tribal tom groove with a deep low pulse and interlocking mid/high accents.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "tom-low",
+					"cells": "X.......X......."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..x.o.x...x.o.x."
+				},
+				{
+					"voice": "tom-high",
+					"cells": "....X..o....X..o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1011,
+		"tokensOut": 1990,
+		"latencyMs": 14907
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7412,
+				"tokensIn": 1002,
+				"tokensOut": 861,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 3456,
+				"tokensIn": 1144,
+				"tokensOut": 423,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 180,
+			"swing": 10,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Metal double‑time with relentless sixteenth‑note kick and sharp snare accents on the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X...X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............X"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2146,
+		"tokensOut": 1284,
+		"latencyMs": 10868
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 10523,
+				"tokensIn": 1002,
+				"tokensOut": 1364,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 200,
+			"swing": 5,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Aggressive double‑time metal blast.",
+			"fx": {
+				"reverb": 20,
+				"tilt": 30
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1002,
+		"tokensOut": 1364,
+		"latencyMs": 10523
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4150,
+				"tokensIn": 1002,
+				"tokensOut": 617,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Bossa nova groove with rim clicks on the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1002,
+		"tokensOut": 617,
+		"latencyMs": 4150
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 19653,
+				"tokensIn": 1002,
+				"tokensOut": 2448,
+				"error": "kick: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 4972,
+				"tokensIn": 1132,
+				"tokensOut": 698,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 140,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Smooth bossa nova groove with rim clicks on the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....X...o...X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x.X.x.X.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 2134,
+		"tokensOut": 3146,
+		"latencyMs": 24625
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1233,
+				"tokensIn": 975,
+				"tokensOut": 131,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 15,
+			"humanize": 10,
+			"kit": "electronic",
+			"note": "Tight half‑bar groove with punchy kick and crisp hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 975,
+		"tokensOut": 131,
+		"latencyMs": 1233
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6658,
+				"tokensIn": 975,
+				"tokensOut": 887,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 10,
+			"humanize": 15,
+			"kit": "electronic",
+			"note": "Tight half‑bar groove with punchy kick and steady closed hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "xxxxxxxx"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 975,
+		"tokensOut": 887,
+		"latencyMs": 6658
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2394,
+				"tokensIn": 1006,
+				"tokensOut": 371,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Funky pocket with the snare accent on the 4th beat only.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x....x...x....x."
+				},
+				{
+					"voice": "snare",
+					"cells": "...............X"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"accentOnlyAt"
+			]
+		},
+		"tokensIn": 1006,
+		"tokensOut": 371,
+		"latencyMs": 2394
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 9107,
+				"tokensIn": 1006,
+				"tokensOut": 1287,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 104,
+			"swing": 12,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Funky backbeat with a snare accent on the fourth beat only.",
+			"fx": {
+				"reverb": 20,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x....x..x....x.."
+				},
+				{
+					"voice": "snare",
+					"cells": "...............X"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...........x...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"accentOnlyAt"
+			]
+		},
+		"tokensIn": 1006,
+		"tokensOut": 1287,
+		"latencyMs": 9107
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4335,
+				"tokensIn": 999,
+				"tokensOut": 582,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 12,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "808‑style electro groove with a fat sub kick.",
+			"fx": {
+				"reverb": 20,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 999,
+		"tokensOut": 582,
+		"latencyMs": 4335
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 16423,
+				"tokensIn": 999,
+				"tokensOut": 2033,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 10,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "808‑style electro groove with a deep sub kick.",
+			"fx": {
+				"reverb": 20,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...x.......x...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 999,
+		"tokensOut": 2033,
+		"latencyMs": 16423
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 4044,
+				"tokensIn": 1002,
+				"tokensOut": 589,
+				"error": "hat-closed: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 2242,
+				"tokensIn": 1139,
+				"tokensOut": 315,
+				"error": "hat-closed: 15 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"ghostShareAtLeast"
+			]
+		},
+		"tokensIn": 2141,
+		"tokensOut": 904,
+		"latencyMs": 6286
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 11555,
+				"tokensIn": 1002,
+				"tokensOut": 1598,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 78,
+			"swing": 20,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "A muted lo‑fi groove with ghost‑note feel.",
+			"fx": {
+				"reverb": 30,
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o...o...o...o..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...........X...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1002,
+		"tokensOut": 1598,
+		"latencyMs": 11555
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-off",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5336,
+				"tokensIn": 1058,
+				"tokensOut": 586,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "electronic",
+			"note": "Deep house groove with a steady four‑on‑the‑floor kick and classic off‑beat closed hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x.......x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1058,
+		"tokensOut": 586,
+		"latencyMs": 5336
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-default",
+		"model": "openai/gpt-oss-120b",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 18408,
+				"tokensIn": 1058,
+				"tokensOut": 2452,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 15,
+			"humanize": 12,
+			"kit": "electronic",
+			"note": "Deep house groove with a four‑on‑the‑floor kick.",
+			"fx": {
+				"reverb": 30,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..x...x...x...x...x...x...x...x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1058,
+		"tokensOut": 2452,
+		"latencyMs": 18408
+	}
+]

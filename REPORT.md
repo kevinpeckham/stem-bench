@@ -1,5 +1,76 @@
 # stem-bench REPORT
 
+## Study 2 — does reasoning help a model write a drum beat? (2026-10-22)
+
+**Question.** stem-shovel's Text-to-Beat hard-codes reasoning OFF on an
+unmeasured claim (textToBeat.ts: a thinking model takes minutes and
+"gets it no better"). Registered in docs/BRIEF-STUDY2.md (commit
+c4e7a1d) before any scored run: the production call ported verbatim and
+pinned (system prompt, validator with production's exact error
+messages, retry-with-reason, the REST endpoint), 25 tasks with 49
+mechanical checks tied only to explicit prompt text, two arms — R-off
+(production verbatim: effort none, 1500-token cap) and R-default (the
+reasoning field omitted, 8000-token cap, the registered asymmetry).
+Combined score: 0 without a valid reply, else checks passed/total.
+Total spend ≈ $4.85 of the $28 fences.
+
+| Model | R-off score | R-default score | valid (off→def) | latency × | out-tokens × |
+|---|---|---|---|---|---|
+| kimi-k2.6 (production) | **95.0%** | 44.0% | 24/25 → 11/25 | 20.3 | 29.7 |
+| fable-5-1 | 100.0% | 100.0% | 25/25 → 25/25 | 1.2 | 1.4 |
+| haiku-4.5 | 92.0% | 92.0% | 23/25 → 23/25 | 1.0 | 1.0 |
+| gpt-oss-120b | 77.0% | 92.0% | 21/25 → 24/25 | 2.7 | 2.8 |
+| gemini-3.5-flash | **0.0%** | 99.0% | 0/25 → 25/25 | 0.7 | 1.0 |
+
+**Gate S2-H1 PASS — the first gate in this program to pass by letter.**
+For the production model the claim is upheld beyond its own wording:
+R-default is not merely "no better," it is 51 points WORSE (p = .0015).
+Kimi's default reasoning exhausted even the 8,000-token budget (5.3×
+production's cap) on 14/25 tasks and returned no content — and the
+production retry cannot rescue an empty reply (a conversation with an
+empty assistant turn is a 400). On the 11 tasks where its reasoning
+finished, checks were perfect: completed thinking helps slightly and
+completes less than half the time.
+
+**The finding that outranks the gate: "reasoning off" is not a portable
+call shape.** gemini-3.5-flash does not honor `effort: "none"` — it
+thinks ~3,000 tokens regardless, so under production's 1500-token cap
+it burned exactly to the cap and returned nothing, twice per request,
+0/25 valid; with room to think it is 25/25 at 99%. stem-shovel's
+TEXT_TO_BEAT_MODEL is swappable by env var precisely so models can be
+compared without a deploy — and this measurement shows the swap would
+silently break the feature for a model that ignores the reasoning
+field. The registered fallback (Amendment-1 rule) covered a model that
+REJECTS effort none with an API error; gemini instead accepts and
+disobeys, a failure class the registration did not anticipate —
+published as measured. Meanwhile anthropic models are indifferent
+(fable ×1.4 tokens with adaptive thinking, haiku identical arms), and
+gpt-oss is the one model where reasoning buys quality (+15 points,
+p = .14, not significant, at 2.8× cost — mostly by fixing its weak
+first-try format validity: 13/25 first-try off, with the retry
+rescuing 8).
+
+Prediction scorecard: 1 right (upheld for kimi, economics ≥ 5×);
+2 wrong (R-default first-try validity 40%, not ≥ 85%); 3 refuted by
+letter via gemini's +99 — though by call-shape breakage, not reasoning
+quality; 4 half-wrong (gpt-oss ×2.8 not ≥ 5×, and gemini's off arm is
+SLOWER than its reasoning arm, 26 s vs 16 s medians, because cap
+exhaustion runs the clock twice).
+
+Ship guidance recorded for stem-shovel: the hard-coded choice is now a
+measured one for the shipped model; the env-var swap path needs either
+a per-model output budget or a one-request smoke test, and
+reasoning-capable swaps (gpt-oss class) want the retry's rejected-reply
+path checked against empty completions. Corrections before any result
+was read, both dated in the brief: the analyzer's scoring brought to
+the registered rule (budget-exhausted cells score 0; only
+first-attempt API failures drop), and the brief's prose corrected to
+the committed corpus counts (25 tasks, 49 checks).
+
+Disclosure unchanged: analyst Claude Fable 5, matrix includes
+fable-5-1, every grade mechanical (the validity grader is production's
+own validator, ported and pinned).
+
 ## Study 1 — the hint-following study (2026-10-21)
 
 **Question.** stem-shovel's chart draft shows the model each bar's Basic

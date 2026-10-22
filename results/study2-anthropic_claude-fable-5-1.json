@@ -1,0 +1,2723 @@
+[
+	{
+		"taskId": "house-four",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3484,
+				"tokensIn": 1318,
+				"tokensOut": 242,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Classic four-on-the-floor house with open hats on the offbeat eighths and a clap on 2 and 4.",
+			"fx": {
+				"air": 15,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o.x.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......o......o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1318,
+		"tokensOut": 242,
+		"latencyMs": 3484
+	},
+	{
+		"taskId": "house-four",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3494,
+				"tokensIn": 1318,
+				"tokensOut": 251,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Classic four-on-the-floor house: kick on every beat, clap on 2 and 4, open hats pumping on the offbeat eighths.",
+			"fx": {
+				"air": 15,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o.x.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......o......o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1318,
+		"tokensOut": 251,
+		"latencyMs": 3494
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5869,
+				"tokensIn": 1315,
+				"tokensOut": 224,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Dusty boom bap: kick leans into the and, backbeat cracks on 2 and 4, ghost snares shuffle underneath.",
+			"fx": {
+				"tilt": -15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x..x..x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o..o.X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1315,
+		"tokensOut": 224,
+		"latencyMs": 5869
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5000,
+				"tokensIn": 1315,
+				"tokensOut": 203,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Dusty boom bap with a lagging backbeat and ghosted snares filling the cracks.",
+			"fx": {
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x...X..x.."
+				},
+				{
+					"voice": "snare",
+					"cells": "..o.X.....o.X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1315,
+		"tokensOut": 203,
+		"latencyMs": 5000
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4495,
+				"tokensIn": 1305,
+				"tokensOut": 154,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 0,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "Stripped rock beat with kick and snare only, ride-free and hat-free, a crash marking the downbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x.X.x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..o"
+				},
+				{
+					"voice": "crash",
+					"cells": "x..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1305,
+		"tokensOut": 154,
+		"latencyMs": 4495
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5053,
+				"tokensIn": 1305,
+				"tokensOut": 162,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Stripped-down rock: kick and snare only, with a crash on the downbeat and soft ghost notes to keep the groove rolling.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x.X.x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o....X..o"
+				},
+				{
+					"voice": "crash",
+					"cells": "x..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1305,
+		"tokensOut": 162,
+		"latencyMs": 5053
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3922,
+				"tokensIn": 1317,
+				"tokensOut": 238,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Halftime trap: 808 kick syncopations, one snare on beat 3, rolling hats with a 32nd-style flurry at the turnaround.",
+			"fx": {
+				"reverb": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x......x..x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "........X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.xxxx"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x........."
+				},
+				{
+					"voice": "clap",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1317,
+		"tokensOut": 238,
+		"latencyMs": 3922
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3665,
+				"tokensIn": 1317,
+				"tokensOut": 221,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Halftime trap: 808 kick syncopations, snare on 3, rolling hats with a rattle at the end.",
+			"fx": {
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x...x..x.."
+				},
+				{
+					"voice": "snare",
+					"cells": "........X......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.xxxx"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x........."
+				},
+				{
+					"voice": "clap",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1317,
+		"tokensOut": 221,
+		"latencyMs": 3665
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4960,
+				"tokensIn": 1276,
+				"tokensOut": 200,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 96,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A soft brushed waltz: kick on one, rim taps on two and three, hats whispering the eighths.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..........."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o."
+				},
+				{
+					"voice": "ride",
+					"cells": "x..........."
+				},
+				{
+					"voice": "snare",
+					"cells": "...........o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1276,
+		"tokensOut": 200,
+		"latencyMs": 4960
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4794,
+				"tokensIn": 1276,
+				"tokensOut": 174,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 96,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A soft waltz: kick lands on one, brushed snare on two and three, hats keep the lilt.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..........."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x."
+				},
+				{
+					"voice": "rim",
+					"cells": "......o....o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1276,
+		"tokensOut": 174,
+		"latencyMs": 4794
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6414,
+				"tokensIn": 1304,
+				"tokensOut": 223,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 70,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "A Texas-shuffle blues groove with swung hats, a fat backbeat and ghosted snare pickups.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x.x.....x."
+				},
+				{
+					"voice": "snare",
+					"cells": "...oX..o...oX..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x.X.x.X.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "ride",
+					"cells": "x..xx..xx..xx..x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1304,
+		"tokensOut": 223,
+		"latencyMs": 6414
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5745,
+				"tokensIn": 1304,
+				"tokensOut": 227,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 70,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "A Texas shuffle: swung hats, backbeat on 2 and 4, ghosted snare filling the skip beats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x.x.....x."
+				},
+				{
+					"voice": "snare",
+					"cells": "o..oX..o..oX..o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x.X.x.X.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "ride",
+					"cells": "x..xx..xx..xx..x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1304,
+		"tokensOut": 227,
+		"latencyMs": 5745
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5658,
+				"tokensIn": 1309,
+				"tokensOut": 238,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Four-on-the-floor with offbeat open hats and a sparse clap on 2 and 4.",
+			"fx": {
+				"reverb": 15,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o.x.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": "..........o....o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 238,
+		"latencyMs": 5658
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5094,
+				"tokensIn": 1309,
+				"tokensOut": 232,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Four-on-the-floor minimal techno with offbeat open hats and a sparse rim for texture.",
+			"fx": {
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......o......o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 232,
+		"latencyMs": 5094
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4394,
+				"tokensIn": 1308,
+				"tokensOut": 123,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 0,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Bare kick and snare, backbeat on two and four with a little kick syncopation.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x...X.x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1308,
+		"tokensOut": 123,
+		"latencyMs": 4394
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4250,
+				"tokensIn": 1308,
+				"tokensOut": 135,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Bare kick and backbeat snare, lots of air between hits.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x......x..x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1308,
+		"tokensOut": 135,
+		"latencyMs": 4250
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5528,
+				"tokensIn": 1305,
+				"tokensOut": 258,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 118,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Four-on-the-floor disco with open hats on the offbeats and cowbell marking every quarter.",
+			"fx": {
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1305,
+		"tokensOut": 258,
+		"latencyMs": 5528
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5005,
+				"tokensIn": 1305,
+				"tokensOut": 258,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 118,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Four-on-the-floor disco with open hats on the offbeats and cowbell marking every quarter.",
+			"fx": {
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1305,
+		"tokensOut": 258,
+		"latencyMs": 5005
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7257,
+				"tokensIn": 1382,
+				"tokensOut": 313,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 102,
+			"swing": 12,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "Syncopated funk groove with ghosted snare, a bar-two kick push, and a descending tom fill into the turnaround.",
+			"fx": {
+				"air": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x...x.....x..x..x...x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o..oX..o.....X..o..X....."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x.x.x.x.x.x.x....."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x..........x......"
+				},
+				{
+					"voice": "tom-high",
+					"cells": "............................x..."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": ".............................x.."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..............................xX"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1382,
+		"tokensOut": 313,
+		"latencyMs": 7257
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 27587,
+				"tokensIn": 1382,
+				"tokensOut": 1967,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 104,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Syncopated funk with ghosted snare, open hat on the and of 4, and a quick high-to-low tom run across the last beat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..x..x...x.....x..x..x.x......."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o...oX..o....X..o..o.X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x...x.x.x.x.x.x.x..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x................."
+				},
+				{
+					"voice": "tom-high",
+					"cells": ".............................x.."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..............................x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...............................X"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1382,
+		"tokensOut": 1967,
+		"latencyMs": 27587
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5687,
+				"tokensIn": 1316,
+				"tokensOut": 214,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 72,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A slow 6/8 ballad with the ride marking every eighth, kick on the one, snare on the four, and a ghosted pickup into the downbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.........x."
+				},
+				{
+					"voice": "snare",
+					"cells": "......X....o"
+				},
+				{
+					"voice": "ride",
+					"cells": "X.x.x.X.x.x."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.....x....."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...........o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1316,
+		"tokensOut": 214,
+		"latencyMs": 5687
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5829,
+				"tokensIn": 1316,
+				"tokensOut": 217,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 66,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Slow 6/8 ballad with the ride marking every eighth, kick on one, snare on the second dotted-quarter beat, soft ghost notes to breathe.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "......X....."
+				},
+				{
+					"voice": "ride",
+					"cells": "X.x.x.X.x.x."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "......x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.....o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1316,
+		"tokensOut": 217,
+		"latencyMs": 5829
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7061,
+				"tokensIn": 1303,
+				"tokensOut": 215,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Driving punk with kick on every beat, snare on 2 and 4, and open hat barks pushing into each downbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..xx...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x.......x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1303,
+		"tokensOut": 215,
+		"latencyMs": 7061
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5996,
+				"tokensIn": 1303,
+				"tokensOut": 207,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Driving punk eighths with snare on 2 and 4, open hat lifting the end of the bar.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x.x.x...x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x.X.x.X..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "crash",
+					"cells": "x..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1303,
+		"tokensOut": 207,
+		"latencyMs": 5996
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5579,
+				"tokensIn": 1306,
+				"tokensOut": 269,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 75,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Slow one-drop dub: kick and rim locked on beat 3, hats on the offbeats, rim trailing into the delay.",
+			"fx": {
+				"reverb": 35,
+				"delay": 65,
+				"delayTime": "1/8 dotted",
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "........X......."
+				},
+				{
+					"voice": "rim",
+					"cells": "........X....x.."
+				},
+				{
+					"voice": "snare",
+					"cells": "..........o....o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...............o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1306,
+		"tokensOut": 269,
+		"latencyMs": 5579
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5860,
+				"tokensIn": 1306,
+				"tokensOut": 266,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 75,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "One-drop dub: kick and rim land together on three, hats keep the eighths, the rim shots trail off into dotted-eighth delay.",
+			"fx": {
+				"reverb": 35,
+				"delay": 65,
+				"delayTime": "1/8 dotted",
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "........X......."
+				},
+				{
+					"voice": "rim",
+					"cells": "........X.....x."
+				},
+				{
+					"voice": "snare",
+					"cells": "..o........o...."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x.......x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1306,
+		"tokensOut": 266,
+		"latencyMs": 5860
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4994,
+				"tokensIn": 1317,
+				"tokensOut": 189,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Boom-bap with the rim and ghosted snare carrying the pulse instead of hats.",
+			"fx": {
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x.X..x...."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o....X.o."
+				},
+				{
+					"voice": "rim",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1317,
+		"tokensOut": 189,
+		"latencyMs": 4994
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5530,
+				"tokensIn": 1317,
+				"tokensOut": 201,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Boom-bap stripped to drums only: kick and snare drive it, rim and ghost snares fill the space the hats would take.",
+			"fx": {
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..x..x...x.x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o....X.o."
+				},
+				{
+					"voice": "rim",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...............x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1317,
+		"tokensOut": 201,
+		"latencyMs": 5530
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3385,
+				"tokensIn": 1304,
+				"tokensOut": 229,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 150,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Double-time punk/rock drive: kick on every eighth, backbeat on 2 and 4, hats riding eighths with a crash on the downbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": ".xx.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1304,
+		"tokensOut": 229,
+		"latencyMs": 3385
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3575,
+				"tokensIn": 1304,
+				"tokensOut": 218,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 150,
+			"swing": 0,
+			"humanize": 10,
+			"kit": "acoustic",
+			"note": "Relentless eighth-note kick under a rock backbeat, hats riding along with an open hat lifting into the next bar.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1304,
+		"tokensOut": 218,
+		"latencyMs": 3575
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5613,
+				"tokensIn": 1309,
+				"tokensOut": 235,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 8,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house with claps on the backbeat and open hats on the offbeats.",
+			"fx": {
+				"air": 15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......o......o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 235,
+		"latencyMs": 5613
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5488,
+				"tokensIn": 1309,
+				"tokensOut": 235,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house with claps on the backbeat and open hats on the offbeats.",
+			"fx": {
+				"air": 15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o.x.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......o......o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 235,
+		"latencyMs": 5488
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4000,
+				"tokensIn": 1303,
+				"tokensOut": 235,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 84,
+			"swing": 22,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Lazy neo-soul pocket: kick leans late, ghost notes sit around a fat backbeat, hats breathe.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x......x..x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o.o..X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.xox.x.x.xox.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "rim",
+					"cells": "..........x....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1303,
+		"tokensOut": 235,
+		"latencyMs": 4000
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4446,
+				"tokensIn": 1303,
+				"tokensOut": 247,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 84,
+			"swing": 22,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Lazy neo-soul pocket: kick leans into the and of two, snare sits slightly behind with ghost notes filling the cracks.",
+			"fx": {
+				"reverb": 20,
+				"air": 10
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x......x..x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X..o.o..X.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..........x....."
+				},
+				{
+					"voice": "rim",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1303,
+		"tokensOut": 247,
+		"latencyMs": 4446
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6398,
+				"tokensIn": 1316,
+				"tokensOut": 183,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Low tom holds the pulse while mid and high toms answer in an interlocking tribal call and response.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "tom-low",
+					"cells": "X..x..X.X..x..x."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..x..o..o.x...x."
+				},
+				{
+					"voice": "tom-high",
+					"cells": ".o.....x.o.X.o.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1316,
+		"tokensOut": 183,
+		"latencyMs": 6398
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6907,
+				"tokensIn": 1316,
+				"tokensOut": 200,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 15,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "A rolling tribal tom pulse: low tom holds the ground, mid and high toms answer across the stereo field with ghosts filling the gaps.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "tom-low",
+					"cells": "X..o..X...X..o.."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "..x....x....x..o"
+				},
+				{
+					"voice": "tom-high",
+					"cells": "....X.o...o.X.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1316,
+		"tokensOut": 200,
+		"latencyMs": 6907
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3319,
+				"tokensIn": 1309,
+				"tokensOut": 211,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 8,
+			"kit": "acoustic",
+			"note": "Double-kick blast under a driving double-time backbeat with ride bell keeping the pulse.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "XxxxXxxxXxxxXxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "..X...X...X...X."
+				},
+				{
+					"voice": "ride",
+					"cells": "X.x.X.x.X.x.X.x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..............ox"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 211,
+		"latencyMs": 3319
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3352,
+				"tokensIn": 1309,
+				"tokensOut": 210,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 8,
+			"kit": "acoustic",
+			"note": "Double-kick blast under a driving backbeat with crash accents on the downbeats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "XxxxXxxxXxxxXxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "crash",
+					"cells": "X.......x......."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..............ox"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 210,
+		"latencyMs": 3352
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5661,
+				"tokensIn": 1309,
+				"tokensOut": 249,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 130,
+			"swing": 0,
+			"humanize": 15,
+			"kit": "acoustic",
+			"note": "Bossa nova: dotted-eighth kick pulse, the 3-2 clave on the rim, steady hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..x..x.X..x..x."
+				},
+				{
+					"voice": "rim",
+					"cells": "x..x..x...x..x.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				},
+				{
+					"voice": "ride",
+					"cells": "..o...o...o...o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 249,
+		"latencyMs": 5661
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 12313,
+				"tokensIn": 1309,
+				"tokensOut": 626,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 132,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Classic bossa nova: rim clave over the pulsing kick, light straight hats.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..xx..xX..xx..x"
+				},
+				{
+					"voice": "rim",
+					"cells": "x..x..x...x.x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.xox.xox.xox.xo"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1309,
+		"tokensOut": 626,
+		"latencyMs": 12313
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4560,
+				"tokensIn": 1272,
+				"tokensOut": 143,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 112,
+			"swing": 0,
+			"humanize": 8,
+			"kit": "acoustic",
+			"note": "Tight kick-and-hat groove with a rim click marking the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X..x..x."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "XoxoXoxo"
+				},
+				{
+					"voice": "rim",
+					"cells": "..x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1272,
+		"tokensOut": 143,
+		"latencyMs": 4560
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 4910,
+				"tokensIn": 1272,
+				"tokensOut": 158,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 118,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "A tight two-beat loop: kick on the downbeats, closed hats ticking the eighths, a ghost hat for lift.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.x.X.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...o...o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1272,
+		"tokensOut": 158,
+		"latencyMs": 4910
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 10710,
+				"tokensIn": 1314,
+				"tokensOut": 213,
+				"error": "hat-open: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 5454,
+				"tokensIn": 1582,
+				"tokensOut": 213,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 102,
+			"swing": 15,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "Syncopated funk with ghosted snare all bar and the one big crack held back to beat 4.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..x..x...x.x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "..o...o.o.o.X.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.xxx.xxx.xxx.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".......x........"
+				},
+				{
+					"voice": "rim",
+					"cells": "....x..........."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2896,
+		"tokensOut": 426,
+		"latencyMs": 16164
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 16616,
+				"tokensIn": 1314,
+				"tokensOut": 870,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 104,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Syncopated funk with ghosted snare all bar, the only true crack saved for beat 4.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..x..x...x..x.."
+				},
+				{
+					"voice": "snare",
+					"cells": ".....o...o..X..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "XxxxXxxxXxxxXx.x"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1314,
+		"tokensOut": 870,
+		"latencyMs": 16616
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6693,
+				"tokensIn": 1303,
+				"tokensOut": 277,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Classic 808 electro: syncopated boom kick, clap on the backbeat, tight hats with an open hat lift before the three.",
+			"fx": {
+				"air": 10,
+				"bottom": 50
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x...x.x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": ".......x.......x"
+				},
+				{
+					"voice": "rim",
+					"cells": "..o.....o....o.."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..............x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1303,
+		"tokensOut": 277,
+		"latencyMs": 6693
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6812,
+				"tokensIn": 1303,
+				"tokensOut": 269,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 118,
+			"swing": 0,
+			"humanize": 2,
+			"kit": "electronic",
+			"note": "Classic 808 electro: syncopated sub kick, clap backbeat, tight machine hats with an open hat lifting the offbeats.",
+			"fx": {
+				"air": 10,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "X.....x...X..x.."
+				},
+				{
+					"voice": "clap",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...x.......x...."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x.......x....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1303,
+		"tokensOut": 269,
+		"latencyMs": 6812
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5190,
+				"tokensIn": 1315,
+				"tokensOut": 242,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 78,
+			"swing": 35,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "A hushed, lazily swung lo-fi groove where almost every hit is a ghost note.",
+			"fx": {
+				"reverb": 25,
+				"tilt": -35,
+				"bottom": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o.....o...o....."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o..o....o..o"
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............o."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o..........o.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1315,
+		"tokensOut": 242,
+		"latencyMs": 5190
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 5648,
+				"tokensIn": 1315,
+				"tokensOut": 252,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 78,
+			"swing": 28,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "A hushed lo-fi shuffle where nearly every hit is a ghost note, just a soft kick and snare keeping the pulse.",
+			"fx": {
+				"reverb": 25,
+				"tilt": -30,
+				"bottom": 30
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....o...x..o.."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x..o....x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.oo"
+				},
+				{
+					"voice": "rim",
+					"cells": "..o.......o....."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..............o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1315,
+		"tokensOut": 252,
+		"latencyMs": 5648
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-off",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 7361,
+				"tokensIn": 1385,
+				"tokensOut": 337,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 15,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Deep house: four-on-the-floor kick, offbeat open hats, clap on 2 and 4 with a shuffled closed hat.",
+			"fx": {
+				"reverb": 20,
+				"air": 10,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.xoxox.x.xoxox.x.xoxox.x.xoxoxo"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x...x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......x.......x..o....x.......x"
+				},
+				{
+					"voice": "ride",
+					"cells": "..........................x....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1385,
+		"tokensOut": 337,
+		"latencyMs": 7361
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-default",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 6421,
+				"tokensIn": 1385,
+				"tokensOut": 323,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 15,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Deep house: four-on-the-floor kick, offbeat open hats, clap on 2 and 4 with a shuffled rim.",
+			"fx": {
+				"reverb": 20,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.o.x.o.x.o.x.o.x.o.x.o.x.o.x.oo"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x...x...x...x...x."
+				},
+				{
+					"voice": "rim",
+					"cells": ".......o..o........o..o....o...."
+				},
+				{
+					"voice": "ride",
+					"cells": "..............................x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1385,
+		"tokensOut": 323,
+		"latencyMs": 6421
+	}
+]

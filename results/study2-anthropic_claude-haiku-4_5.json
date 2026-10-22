@@ -1,0 +1,2618 @@
+[
+	{
+		"taskId": "house-four",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1618,
+				"tokensIn": 1030,
+				"tokensOut": 224,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house with offbeat open hats.",
+			"fx": {
+				"reverb": 20,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1030,
+		"tokensOut": 224,
+		"latencyMs": 1618
+	},
+	{
+		"taskId": "house-four",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1561,
+				"tokensIn": 1030,
+				"tokensOut": 225,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 124,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house with syncopated open hats.",
+			"fx": {
+				"reverb": 25,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1030,
+		"tokensOut": 225,
+		"latencyMs": 1561
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1923,
+				"tokensIn": 1025,
+				"tokensOut": 257,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 20,
+			"humanize": 18,
+			"kit": "acoustic",
+			"note": "Classic boom bap with ghost note snares and swung hats.",
+			"fx": {
+				"reverb": 25,
+				"delay": 15,
+				"delayTime": "1/8",
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "..o.x.o.o.o.x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": ".x.x.x.x.x.x.x.x"
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....o.......o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1025,
+		"tokensOut": 257,
+		"latencyMs": 1923
+	},
+	{
+		"taskId": "boom-bap",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1673,
+				"tokensIn": 1025,
+				"tokensOut": 223,
+				"error": "rim: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1408,
+				"tokensIn": 1288,
+				"tokensOut": 224,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 90,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Classic boom bap with ghost note snares and a laid-back swing.",
+			"fx": {
+				"reverb": 25,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.o.....x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x.........x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 2313,
+		"tokensOut": 447,
+		"latencyMs": 3081
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1293,
+				"tokensIn": 1017,
+				"tokensOut": 165,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Classic rock beat with kick, snare, and ride cymbal.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "ride",
+					"cells": "x.x.x.x.x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1017,
+		"tokensOut": 165,
+		"latencyMs": 1293
+	},
+	{
+		"taskId": "no-hats-rock",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1574,
+				"tokensIn": 1017,
+				"tokensOut": 184,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Straight rock with kick and snare, no cymbals.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "tom-high",
+					"cells": "......x.......x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": ".......x......x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1017,
+		"tokensOut": 184,
+		"latencyMs": 1574
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2281,
+				"tokensIn": 1028,
+				"tokensOut": 307,
+				"error": "the JSON does not parse"
+			},
+			{
+				"latencyMs": 1752,
+				"tokensIn": 1365,
+				"tokensOut": 307,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 140,
+			"swing": 20,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Halftime trap with snare hitting only on the three.",
+			"fx": {
+				"reverb": 25,
+				"delay": 20,
+				"delayTime": "1/8",
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.......x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "........x......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o.o.o......."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "...o........o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 2393,
+		"tokensOut": 614,
+		"latencyMs": 4033
+	},
+	{
+		"taskId": "halftime-trap",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2000,
+				"tokensIn": 1028,
+				"tokensOut": 259,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 140,
+			"swing": 20,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Half-time trap with snare on beat 3, crisp hats and sub-heavy kick.",
+			"fx": {
+				"reverb": 10,
+				"air": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "........x......."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........X......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 3,
+			"total": 3,
+			"failures": []
+		},
+		"tokensIn": 1028,
+		"tokensOut": 259,
+		"latencyMs": 2000
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1483,
+				"tokensIn": 994,
+				"tokensOut": 191,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A gentle waltz with the kick anchoring beat one.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x....x.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x."
+				},
+				{
+					"voice": "ride",
+					"cells": ".o.o.o.o.o.o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 994,
+		"tokensOut": 191,
+		"latencyMs": 1483
+	},
+	{
+		"taskId": "waltz",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1687,
+				"tokensIn": 994,
+				"tokensOut": 213,
+				"error": "kick: 11 characters, but every row must be exactly 12"
+			},
+			{
+				"latencyMs": 1406,
+				"tokensIn": 1247,
+				"tokensOut": 213,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 90,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Gentle waltz with kick anchoring beat 1.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x..........."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x....x.."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x."
+				},
+				{
+					"voice": "ride",
+					"cells": "x...x...x..."
+				},
+				{
+					"voice": "tom-high",
+					"cells": "o..o..o..o.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2241,
+		"tokensOut": 426,
+		"latencyMs": 3093
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1659,
+				"tokensIn": 1014,
+				"tokensOut": 221,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 35,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Heavy swing blues with shuffle feel and laid-back pocket.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "........o.o....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1014,
+		"tokensOut": 221,
+		"latencyMs": 1659
+	},
+	{
+		"taskId": "shuffle-blues",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1658,
+				"tokensIn": 1014,
+				"tokensOut": 226,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 35,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A shuffled blues beat with heavy triplet swing and a laid-back feel.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "ride",
+					"cells": "X...o...X...o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1014,
+		"tokensOut": 226,
+		"latencyMs": 1658
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1727,
+				"tokensIn": 1020,
+				"tokensOut": 227,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1411,
+				"tokensIn": 1288,
+				"tokensOut": 226,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Stripped-down techno with hypnotic kick and filtered hi-hats.",
+			"fx": {
+				"reverb": 20,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 2308,
+		"tokensOut": 453,
+		"latencyMs": 3138
+	},
+	{
+		"taskId": "techno-tight",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1900,
+				"tokensIn": 1020,
+				"tokensOut": 222,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 0,
+			"kit": "electronic",
+			"note": "Hypnotic minimal techno with locked kick and sparse texture.",
+			"fx": {
+				"reverb": 15,
+				"bottom": 35
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1020,
+		"tokensOut": 222,
+		"latencyMs": 1900
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1209,
+				"tokensIn": 1018,
+				"tokensOut": 125,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Minimal kick and snare, maximum space.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1018,
+		"tokensOut": 125,
+		"latencyMs": 1209
+	},
+	{
+		"taskId": "sparse-duo",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1006,
+				"tokensIn": 1018,
+				"tokensOut": 90,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 873,
+				"tokensIn": 1149,
+				"tokensOut": 90,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 80,
+			"swing": 0,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Minimal kick and snare, maximum space.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 2167,
+		"tokensOut": 180,
+		"latencyMs": 1879
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1935,
+				"tokensIn": 1016,
+				"tokensOut": 256,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Classic disco with cowbell marking the four-on-the-floor pulse.",
+			"fx": {
+				"reverb": 15,
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "o.o.....o.o....."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1016,
+		"tokensOut": 256,
+		"latencyMs": 1935
+	},
+	{
+		"taskId": "disco-cowbell",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1774,
+				"tokensIn": 1016,
+				"tokensOut": 251,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Classic disco pulse with cowbell keeping the four-on-the-floor pocket.",
+			"fx": {
+				"reverb": 15,
+				"air": 20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "X...X...X...X..."
+				},
+				{
+					"voice": "clap",
+					"cells": "......x.......x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1016,
+		"tokensOut": 251,
+		"latencyMs": 1774
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 2412,
+				"tokensIn": 1092,
+				"tokensOut": 323,
+				"error": "hat-closed: 33 characters, but every row must be exactly 32"
+			},
+			{
+				"latencyMs": 1871,
+				"tokensIn": 1457,
+				"tokensOut": 323,
+				"error": "hat-closed: 31 characters, but every row must be exactly 32"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 2549,
+		"tokensOut": 646,
+		"latencyMs": 4283
+	},
+	{
+		"taskId": "funk-fill",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 2797,
+				"tokensIn": 1092,
+				"tokensOut": 321,
+				"error": "hat-closed: 33 characters, but every row must be exactly 32"
+			},
+			{
+				"latencyMs": 1830,
+				"tokensIn": 1455,
+				"tokensOut": 321,
+				"error": "tom-high: 34 characters, but every row must be exactly 32"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"anyHitsInRange"
+			]
+		},
+		"tokensIn": 2547,
+		"tokensOut": 642,
+		"latencyMs": 4627
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1733,
+				"tokensIn": 1020,
+				"tokensOut": 190,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 60,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "A gentle 6/8 ballad with ride carrying the dotted-quarter pulse.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "......x....."
+				},
+				{
+					"voice": "ride",
+					"cells": "X.x.X.X.x.X."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "......o..o.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1020,
+		"tokensOut": 190,
+		"latencyMs": 1733
+	},
+	{
+		"taskId": "six-eight-ride",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1793,
+				"tokensIn": 1020,
+				"tokensOut": 217,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 60,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Gentle 6/8 ballad with ride carrying the pulse and sparse kick-snare interplay.",
+			"fx": {
+				"reverb": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.....x....."
+				},
+				{
+					"voice": "snare",
+					"cells": "......x....."
+				},
+				{
+					"voice": "ride",
+					"cells": "X.x.X.X.x.X."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1020,
+		"tokensOut": 217,
+		"latencyMs": 1793
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1593,
+				"tokensIn": 1015,
+				"tokensOut": 210,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Driving punk with tight kick and snare on the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.X.X.X.X.X.X.X."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o.o.o.o.o.o.o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1015,
+		"tokensOut": 210,
+		"latencyMs": 1593
+	},
+	{
+		"taskId": "punk-fast",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1536,
+				"tokensIn": 1015,
+				"tokensOut": 204,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 180,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Tight, aggressive punk with driving kick and snappy snare.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.X.X.X.X.X.X.X."
+				},
+				{
+					"voice": "rim",
+					"cells": "..o...o...o...o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1015,
+		"tokensOut": 204,
+		"latencyMs": 1536
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2054,
+				"tokensIn": 1018,
+				"tokensOut": 267,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Spacious dub with delayed rim hits creating depth.",
+			"fx": {
+				"reverb": 50,
+				"delay": 60,
+				"delayTime": "1/4 dotted",
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "..x...x...x....."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1018,
+		"tokensOut": 267,
+		"latencyMs": 2054
+	},
+	{
+		"taskId": "dub-delay",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2190,
+				"tokensIn": 1018,
+				"tokensOut": 300,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 85,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Deep dub with delayed rim shots echoing into space.",
+			"fx": {
+				"reverb": 45,
+				"delay": 60,
+				"delayTime": "1/4 dotted",
+				"bottom": 50
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x.......x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......X..."
+				},
+				{
+					"voice": "rim",
+					"cells": "..x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...........o...."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1018,
+		"tokensOut": 300,
+		"latencyMs": 2190
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2025,
+				"tokensIn": 1027,
+				"tokensOut": 226,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 20,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Boom-bap hip-hop with kick, snare, and percussive ghost notes.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..x.x..x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "........x......."
+				},
+				{
+					"voice": "rim",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...o........o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1027,
+		"tokensOut": 226,
+		"latencyMs": 2025
+	},
+	{
+		"taskId": "no-cymbals",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1995,
+				"tokensIn": 1027,
+				"tokensOut": 252,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Boom-bap with ghost notes and a swung feel.",
+			"fx": {
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..x.x..x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "......o.....o.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": ".o.o.o.o.o.o.o.o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 4,
+			"total": 4,
+			"failures": []
+		},
+		"tokensIn": 1027,
+		"tokensOut": 252,
+		"latencyMs": 1995
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1558,
+				"tokensIn": 1016,
+				"tokensOut": 200,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Relentless eighth-note kick driving the groove forward.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "........x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1016,
+		"tokensOut": 200,
+		"latencyMs": 1558
+	},
+	{
+		"taskId": "kick-eighths",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1610,
+				"tokensIn": 1016,
+				"tokensOut": 199,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Driving rock beat with eighth-note kick pulse.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o.......o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1016,
+		"tokensOut": 199,
+		"latencyMs": 1610
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1666,
+				"tokensIn": 1023,
+				"tokensOut": 226,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house with punchy claps on the backbeat.",
+			"fx": {
+				"reverb": 20,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1023,
+		"tokensOut": 226,
+		"latencyMs": 1666
+	},
+	{
+		"taskId": "clap-backbeat",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1614,
+				"tokensIn": 1023,
+				"tokensOut": 222,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 128,
+			"swing": 0,
+			"humanize": 3,
+			"kit": "electronic",
+			"note": "Four-on-the-floor house with clap backbeat.",
+			"fx": {
+				"reverb": 25,
+				"bottom": 40
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1023,
+		"tokensOut": 222,
+		"latencyMs": 1614
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2126,
+				"tokensIn": 1014,
+				"tokensOut": 265,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 92,
+			"swing": 18,
+			"humanize": 22,
+			"kit": "acoustic",
+			"note": "Laid-back neo-soul pocket with ghost notes and pocket air.",
+			"fx": {
+				"reverb": 25,
+				"air": 18
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "........o.....o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1014,
+		"tokensOut": 265,
+		"latencyMs": 2126
+	},
+	{
+		"taskId": "neo-soul",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1928,
+				"tokensIn": 1014,
+				"tokensOut": 249,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 90,
+			"swing": 20,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Laid-back neo-soul groove with pocket and pocket.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x..ox..ox..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "clap",
+					"cells": "......o.......o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "ride",
+					"cells": "..o.....o.o....."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": "...o........o..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1014,
+		"tokensOut": 249,
+		"latencyMs": 1928
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1568,
+				"tokensIn": 1027,
+				"tokensOut": 170,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 110,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Rolling tribal tom pattern with call-and-response feel.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "tom-high",
+					"cells": "x.x.o.x.x.x.o..."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": ".x...x..o.x...x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "o...X...o...X..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1027,
+		"tokensOut": 170,
+		"latencyMs": 1568
+	},
+	{
+		"taskId": "toms-only",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2944,
+				"tokensIn": 1027,
+				"tokensOut": 182,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 95,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Hypnotic tribal roll across three toms, building tension with ghost notes and accents.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "tom-high",
+					"cells": "X.o.X.o.X.o.X.o."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": ".x..o.x..x..o.x."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "o...X...o...X..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1027,
+		"tokensOut": 182,
+		"latencyMs": 2944
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 3384,
+				"tokensIn": 1019,
+				"tokensOut": 270,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 160,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "acoustic",
+			"note": "Relentless double-time metal with sixteenth-note kick assault.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "xxxxxxxxxxxxxxxx"
+				},
+				{
+					"voice": "snare",
+					"cells": "....X.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "X.X.X.X.X.X.X.X."
+				},
+				{
+					"voice": "crash",
+					"cells": "X..............."
+				},
+				{
+					"voice": "tom-high",
+					"cells": ".......x.......x"
+				},
+				{
+					"voice": "tom-low",
+					"cells": "...x...x...x...x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1019,
+		"tokensOut": 270,
+		"latencyMs": 3384
+	},
+	{
+		"taskId": "metal-sixteenths",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 3132,
+				"tokensIn": 1019,
+				"tokensOut": 250,
+				"error": "crash: 17 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1521,
+				"tokensIn": 1309,
+				"tokensOut": 250,
+				"error": "crash: 17 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"hitsOnAll"
+			]
+		},
+		"tokensIn": 2328,
+		"tokensOut": 500,
+		"latencyMs": 4653
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2912,
+				"tokensIn": 1019,
+				"tokensOut": 195,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 100,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Bossa nova with rim clicks on the backbeat.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x.......x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": ".x..x..ox..ox..."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1019,
+		"tokensOut": 195,
+		"latencyMs": 2912
+	},
+	{
+		"taskId": "bossa-rim",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2863,
+				"tokensIn": 1019,
+				"tokensOut": 199,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 100,
+			"swing": 25,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Bossa nova with rim clicks and syncopated kick.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x.x.x...x..."
+				},
+				{
+					"voice": "rim",
+					"cells": "....x.......x.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x...x...x...x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1019,
+		"tokensOut": 199,
+		"latencyMs": 2863
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2613,
+				"tokensIn": 985,
+				"tokensOut": 129,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Tight kick and hat pocket, half-bar locked groove.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 985,
+		"tokensOut": 129,
+		"latencyMs": 2613
+	},
+	{
+		"taskId": "half-bar",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2398,
+				"tokensIn": 985,
+				"tokensOut": 91,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Tight kick and hat groove locking in.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x.x.x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 985,
+		"tokensOut": 91,
+		"latencyMs": 2398
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "invalid",
+		"attempts": [
+			{
+				"latencyMs": 2612,
+				"tokensIn": 1023,
+				"tokensOut": 246,
+				"error": "snare: 14 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1554,
+				"tokensIn": 1310,
+				"tokensOut": 247,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": false,
+		"beat": null,
+		"checks": {
+			"passed": 0,
+			"total": 1,
+			"failures": [
+				"accentOnlyAt"
+			]
+		},
+		"tokensIn": 2333,
+		"tokensOut": 493,
+		"latencyMs": 4166
+	},
+	{
+		"taskId": "funk-accent",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1895,
+				"tokensIn": 1023,
+				"tokensOut": 232,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 104,
+			"swing": 15,
+			"humanize": 20,
+			"kit": "acoustic",
+			"note": "Syncopated funk with snare hitting hard on the four.",
+			"fx": null,
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x.x.x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......X..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "cowbell",
+					"cells": ".x.x.x.x.x.x.x.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1023,
+		"tokensOut": 232,
+		"latencyMs": 1895
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1999,
+				"tokensIn": 1018,
+				"tokensOut": 260,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 2,
+			"kit": "electronic",
+			"note": "Deep 808 sub kick with tight electro hi-hats and a punchy snare hit.",
+			"fx": {
+				"reverb": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "clap",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "cowbell",
+					"cells": ".x..x..x.x..x..x"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1018,
+		"tokensOut": 260,
+		"latencyMs": 1999
+	},
+	{
+		"taskId": "electro-808",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 1707,
+				"tokensIn": 1018,
+				"tokensOut": 221,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 120,
+			"swing": 0,
+			"humanize": 2,
+			"kit": "electronic",
+			"note": "Deep 808 kick with punchy snare and tight hats.",
+			"fx": {
+				"reverb": 15,
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "x.x.x.x.x.x.x.x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "..x.....x......."
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1018,
+		"tokensOut": 221,
+		"latencyMs": 1707
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2104,
+				"tokensIn": 1019,
+				"tokensOut": 269,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 85,
+			"swing": 15,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Whispered drums, all ghost notes and soft touches.",
+			"fx": {
+				"reverb": 40,
+				"delay": 25,
+				"delayTime": "1/4",
+				"tilt": -20
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o...o...o...o..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......o..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": ".o..o......o...."
+				},
+				{
+					"voice": "ride",
+					"cells": "..o.....o.....o."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 1019,
+		"tokensOut": 269,
+		"latencyMs": 2104
+	},
+	{
+		"taskId": "lofi-ghosts",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2541,
+				"tokensIn": 1019,
+				"tokensOut": 348,
+				"error": "snare: 15 characters, but every row must be exactly 16"
+			},
+			{
+				"latencyMs": 1680,
+				"tokensIn": 1408,
+				"tokensOut": 349,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 85,
+			"swing": 15,
+			"humanize": 25,
+			"kit": "acoustic",
+			"note": "Whispered groove with ghost notes floating through the pocket.",
+			"fx": {
+				"reverb": 40,
+				"delay": 20,
+				"delayTime": "1/4",
+				"tilt": -30,
+				"air": 5,
+				"bottom": 15
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "o...o...o...o..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....o.......o.o."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "o.o.o.o.o.o.o.o."
+				},
+				{
+					"voice": "tom-low",
+					"cells": "..o...o.......o."
+				},
+				{
+					"voice": "tom-mid",
+					"cells": ".o..o...o......."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "...o.o.o...o.o.."
+				}
+			]
+		},
+		"checks": {
+			"passed": 1,
+			"total": 1,
+			"failures": []
+		},
+		"tokensIn": 2427,
+		"tokensOut": 697,
+		"latencyMs": 4221
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-off",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2339,
+				"tokensIn": 1093,
+				"tokensOut": 302,
+				"error": "hat-open: 33 characters, but every row must be exactly 32"
+			},
+			{
+				"latencyMs": 2340,
+				"tokensIn": 1437,
+				"tokensOut": 303,
+				"error": null
+			}
+		],
+		"firstTryValid": false,
+		"retryRescued": true,
+		"beat": {
+			"bpm": 122,
+			"swing": 0,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Deep house with steady four-on-the-floor kick and spacious grooves.",
+			"fx": {
+				"reverb": 40,
+				"delay": 25,
+				"delayTime": "1/4",
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..x...x...x...x...x...x...x...x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "...............x...............x"
+				},
+				{
+					"voice": "cowbell",
+					"cells": ".o..o..o..o..o..o..o..o..o..o..o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 2530,
+		"tokensOut": 605,
+		"latencyMs": 4679
+	},
+	{
+		"taskId": "two-bar-house",
+		"arm": "R-default",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "valid",
+		"attempts": [
+			{
+				"latencyMs": 2514,
+				"tokensIn": 1093,
+				"tokensOut": 319,
+				"error": null
+			}
+		],
+		"firstTryValid": true,
+		"retryRescued": false,
+		"beat": {
+			"bpm": 122,
+			"swing": 15,
+			"humanize": 5,
+			"kit": "electronic",
+			"note": "Deep house: four-on-the-floor kick with sidechain feel, minimal snare, open hat on the and of 2 and 4.",
+			"fx": {
+				"reverb": 40,
+				"delay": 25,
+				"delayTime": "1/4",
+				"bottom": 45
+			},
+			"rows": [
+				{
+					"voice": "kick",
+					"cells": "x...x...x...x...x...x...x...x..."
+				},
+				{
+					"voice": "snare",
+					"cells": "....x.......x.......x.......x..."
+				},
+				{
+					"voice": "hat-closed",
+					"cells": "..x...x...x...x...x...x...x...x."
+				},
+				{
+					"voice": "hat-open",
+					"cells": "......x.......x.......x.......x."
+				},
+				{
+					"voice": "cowbell",
+					"cells": "...o...o...o...o...o...o...o...o"
+				}
+			]
+		},
+		"checks": {
+			"passed": 2,
+			"total": 2,
+			"failures": []
+		},
+		"tokensIn": 1093,
+		"tokensOut": 319,
+		"latencyMs": 2514
+	}
+]
