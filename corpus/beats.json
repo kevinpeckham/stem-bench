@@ -1,0 +1,281 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261022",
+	"note": "Study 2 task corpus: 24 beat descriptions with mechanical checks tied ONLY to what each prompt explicitly asks (stated bpm, named drums, named steps, stated feel). Style conventions the prompt leaves implicit are never checked. voices is always [] (an open drum machine), matching the production fresh-pattern case.",
+	"tasks": [
+		{
+			"id": "house-four",
+			"prompt": "Four-on-the-floor house beat at 124 bpm with open hats on the offbeats.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "bpmBetween", "min": 123, "max": 125 },
+				{ "kind": "hitsOnAll", "voice": "kick", "steps": [0, 4, 8, 12] },
+				{ "kind": "hitsOnSome", "voice": "hat-open", "steps": [2, 6, 10, 14], "atLeast": 3 },
+				{ "kind": "silentOnAll", "voice": "hat-open", "steps": [0, 4, 8, 12] }
+			]
+		},
+		{
+			"id": "boom-bap",
+			"prompt": "Boom bap hip-hop beat around 90 bpm with ghost note snares.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "bpmBetween", "min": 80, "max": 100 },
+				{ "kind": "voicePresent", "voice": "snare" },
+				{ "kind": "ghostIn", "voice": "snare" }
+			]
+		},
+		{
+			"id": "no-hats-rock",
+			"prompt": "Basic rock beat with no hi-hats at all.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "voicePresent", "voice": "kick" },
+				{ "kind": "voicePresent", "voice": "snare" },
+				{ "kind": "voiceAbsent", "voice": "hat-closed" },
+				{ "kind": "voiceAbsent", "voice": "hat-open" }
+			]
+		},
+		{
+			"id": "halftime-trap",
+			"prompt": "Halftime trap beat at 140 bpm with the snare landing on beat 3 only.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "bpmBetween", "min": 136, "max": 144 },
+				{ "kind": "hitsOnAll", "voice": "snare", "steps": [8] },
+				{ "kind": "silentOnAll", "voice": "snare", "steps": [4, 12] }
+			]
+		},
+		{
+			"id": "waltz",
+			"prompt": "A gentle waltz with the kick on beat 1.",
+			"meter": "3/4",
+			"steps": 12,
+			"voices": [],
+			"checks": [
+				{ "kind": "hitsOnAll", "voice": "kick", "steps": [0] }
+			]
+		},
+		{
+			"id": "shuffle-blues",
+			"prompt": "Shuffled blues beat with heavy swing.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "swingBetween", "min": 30, "max": 100 }
+			]
+		},
+		{
+			"id": "techno-tight",
+			"prompt": "Minimal techno beat, machine tight, no humanize at all.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "humanizeAtMost", "max": 5 },
+				{ "kind": "kitIs", "kit": "electronic" }
+			]
+		},
+		{
+			"id": "sparse-duo",
+			"prompt": "Very sparse beat, just kick and snare, nothing else.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "onlyVoices", "voices": ["kick", "snare"] },
+				{ "kind": "voicePresent", "voice": "kick" },
+				{ "kind": "voicePresent", "voice": "snare" },
+				{ "kind": "totalHitsAtMost", "max": 12 }
+			]
+		},
+		{
+			"id": "disco-cowbell",
+			"prompt": "Disco beat with cowbell on every quarter note.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "hitsOnAll", "voice": "cowbell", "steps": [0, 4, 8, 12] }
+			]
+		},
+		{
+			"id": "funk-fill",
+			"prompt": "Two bars of funk, with a tom fill at the very end of the second bar.",
+			"meter": "4/4",
+			"steps": 32,
+			"voices": [],
+			"checks": [
+				{ "kind": "anyHitsInRange", "voices": ["tom-low", "tom-mid", "tom-high"], "from": 28, "to": 31, "atLeast": 2 }
+			]
+		},
+		{
+			"id": "six-eight-ride",
+			"prompt": "A 6/8 ballad groove with the ride cymbal carrying the pulse.",
+			"meter": "6/8",
+			"steps": 12,
+			"voices": [],
+			"checks": [
+				{ "kind": "voicePresent", "voice": "ride" }
+			]
+		},
+		{
+			"id": "punk-fast",
+			"prompt": "Fast punk beat at 180 bpm.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "bpmBetween", "min": 175, "max": 185 }
+			]
+		},
+		{
+			"id": "dub-delay",
+			"prompt": "Dub groove with the rim going into a heavy delay.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "voicePresent", "voice": "rim" },
+				{ "kind": "fxAtLeast", "key": "delay", "min": 20 }
+			]
+		},
+		{
+			"id": "no-cymbals",
+			"prompt": "Hip-hop beat with no cymbals at all: no hats, no ride, no crash.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "voiceAbsent", "voice": "hat-closed" },
+				{ "kind": "voiceAbsent", "voice": "hat-open" },
+				{ "kind": "voiceAbsent", "voice": "ride" },
+				{ "kind": "voiceAbsent", "voice": "crash" }
+			]
+		},
+		{
+			"id": "kick-eighths",
+			"prompt": "Driving beat with the kick on every eighth note.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "hitsOnAll", "voice": "kick", "steps": [0, 2, 4, 6, 8, 10, 12, 14] }
+			]
+		},
+		{
+			"id": "clap-backbeat",
+			"prompt": "House beat where claps replace the snare on beats 2 and 4.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "hitsOnAll", "voice": "clap", "steps": [4, 12] },
+				{ "kind": "voiceAbsent", "voice": "snare" }
+			]
+		},
+		{
+			"id": "neo-soul",
+			"prompt": "Neo-soul pocket with a light swing.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "swingBetween", "min": 5, "max": 35 }
+			]
+		},
+		{
+			"id": "toms-only",
+			"prompt": "Tribal tom groove using only the toms, no kick, no snare, no cymbals.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "onlyVoices", "voices": ["tom-low", "tom-mid", "tom-high"] },
+				{ "kind": "anyHitsInRange", "voices": ["tom-low", "tom-mid", "tom-high"], "from": 0, "to": 15, "atLeast": 4 }
+			]
+		},
+		{
+			"id": "metal-sixteenths",
+			"prompt": "Metal double-time with the kick hammering every sixteenth note.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "hitsOnAll", "voice": "kick", "steps": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }
+			]
+		},
+		{
+			"id": "bossa-rim",
+			"prompt": "Bossa nova feel with rim clicks instead of a snare.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "voicePresent", "voice": "rim" },
+				{ "kind": "voiceAbsent", "voice": "snare" }
+			]
+		},
+		{
+			"id": "half-bar",
+			"prompt": "A tight half-bar groove with kick and closed hats.",
+			"meter": "4/4",
+			"steps": 8,
+			"voices": [],
+			"checks": [
+				{ "kind": "voicePresent", "voice": "kick" },
+				{ "kind": "voicePresent", "voice": "hat-closed" }
+			]
+		},
+		{
+			"id": "funk-accent",
+			"prompt": "Funk groove where the snare accent lands on beat 4 and nowhere else.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "accentOnlyAt", "voice": "snare", "steps": [12] }
+			]
+		},
+		{
+			"id": "electro-808",
+			"prompt": "808-style electro beat with a big sub kick.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "kitIs", "kit": "electronic" },
+				{ "kind": "voicePresent", "voice": "kick" }
+			]
+		},
+		{
+			"id": "lofi-ghosts",
+			"prompt": "Lo-fi beat played almost entirely in ghost notes, everything quiet.",
+			"meter": "4/4",
+			"steps": 16,
+			"voices": [],
+			"checks": [
+				{ "kind": "ghostShareAtLeast", "share": 0.3 }
+			]
+		},
+		{
+			"id": "two-bar-house",
+			"prompt": "Two bars of deep house at 122 bpm, kick four to the floor throughout.",
+			"meter": "4/4",
+			"steps": 32,
+			"voices": [],
+			"checks": [
+				{ "kind": "bpmBetween", "min": 121, "max": 123 },
+				{ "kind": "hitsOnAll", "voice": "kick", "steps": [0, 4, 8, 12, 16, 20, 24, 28] }
+			]
+		}
+	]
+}
