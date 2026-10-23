@@ -1,0 +1,1972 @@
+[
+	{
+		"itemId": "drift-4a",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 125,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece features a standard I-V-vi-IV chord progression in C major at a steady 125 BPM."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece features a standard I-V-vi-IV chord progression in C major at a steady 125 BPM.",
+		"confidence": 1,
+		"tokensIn": 1283,
+		"tokensOut": 549,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4345
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece is a simple chord progression in D major at a steady 120 bpm."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece is a simple chord progression in D major at a steady 120 bpm.",
+		"confidence": 1,
+		"tokensIn": 1311,
+		"tokensOut": 489,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4725
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "G major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece is a simple I-IV-V-I chord progression in G major at a steady 60 bpm in 4/4 time."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": true,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": true,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The piece is a simple I-IV-V-I chord progression in G major at a steady 60 bpm in 4/4 time.",
+		"confidence": 1,
+		"tokensIn": 1310,
+		"tokensOut": 895,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6342
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording matches the chart perfectly in tempo, key, and structure."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the chart perfectly in tempo, key, and structure.",
+		"confidence": 1,
+		"tokensIn": 1620,
+		"tokensOut": 698,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4922
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 100,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track maintains a steady 100 BPM in F minor with a repeating i-VI-III-VII chord progression."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track maintains a steady 100 BPM in F minor with a repeating i-VI-III-VII chord progression.",
+		"confidence": 0.95,
+		"tokensIn": 1626,
+		"tokensOut": 776,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7827
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 86,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "E-flat major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track is a steady lo-fi beat in E-flat major at 86 BPM."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track is a steady lo-fi beat in E-flat major at 86 BPM.",
+		"confidence": 0.95,
+		"tokensIn": 1653,
+		"tokensOut": 797,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5209
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Ab major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo can also be felt at double-time (168 BPM) with a half-time snare placement."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The tempo can also be felt at double-time (168 BPM) with a half-time snare placement.",
+		"confidence": 0.95,
+		"tokensIn": 1654,
+		"tokensOut": 856,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7151
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Eb major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording matches the chart perfectly in tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the chart perfectly in tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1975,
+		"tokensOut": 905,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5501
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 109,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece consists of a harmonized F major scale played ascending and descending, with each chord lasting two beats at 109 BPM."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece consists of a harmonized F major scale played ascending and descending, with each chord lasting two beats at 109 BPM.",
+		"confidence": 1,
+		"tokensIn": 1327,
+		"tokensOut": 1834,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 10077
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "G major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece is in 4/4 time at a steady 96 BPM, outlining a simple chord progression in G major."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece is in 4/4 time at a steady 96 BPM, outlining a simple chord progression in G major.",
+		"confidence": 0.95,
+		"tokensIn": 1354,
+		"tokensOut": 908,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 16025
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo is 96 BPM (half of the suggested 192 BPM) with a standard IV-V-iii-vi chord progression in C major."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The tempo is 96 BPM (half of the suggested 192 BPM) with a standard IV-V-iii-vi chord progression in C major.",
+		"confidence": 0.95,
+		"tokensIn": 1355,
+		"tokensOut": 1110,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6410
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "G major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording matches the provided chart perfectly in tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the provided chart perfectly in tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1672,
+		"tokensOut": 691,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4344
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Ab major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track features a steady 120 BPM tempo in 4/4 time, with a descending chord progression in Ab major."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track features a steady 120 BPM tempo in 4/4 time, with a descending chord progression in Ab major.",
+		"confidence": 0.95,
+		"tokensIn": 1062,
+		"tokensOut": 587,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3550
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "A straightforward 3/4 loop in C minor at 140 BPM with a i-VI-iv-V chord progression."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "A straightforward 3/4 loop in C minor at 140 BPM with a i-VI-iv-V chord progression.",
+		"confidence": 1,
+		"tokensIn": 1090,
+		"tokensOut": 1149,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 20900
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 70,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track is a steady lo-fi loop in F minor at 70 BPM with a 4/4 meter."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": true,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": true,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The track is a steady lo-fi loop in F minor at 70 BPM with a 4/4 meter.",
+		"confidence": 0.95,
+		"tokensIn": 1089,
+		"tokensOut": 836,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6390
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording matches the chart exactly in tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the chart exactly in tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1419,
+		"tokensOut": 724,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3943
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F# minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece follows a diatonic circle of fifths progression in F# minor."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": true,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece follows a diatonic circle of fifths progression in F# minor.",
+		"confidence": 0.95,
+		"tokensIn": 1283,
+		"tokensOut": 868,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5672
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": null,
+		"grade": null,
+		"defer": null,
+		"notes": "",
+		"confidence": null,
+		"tokensIn": 1310,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model did not answer in the expected form",
+		"latencyMs": 11637
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The song features a looping IV-V-iii-vi chord progression in D major at a steady 120 bpm."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": true,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": true,
+			"key": true,
+			"meter": true
+		},
+		"notes": "The song features a looping IV-V-iii-vi chord progression in D major at a steady 120 bpm.",
+		"confidence": 1,
+		"tokensIn": 1311,
+		"tokensOut": 797,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5353
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "A major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording matches the chart perfectly in tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the chart perfectly in tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1619,
+		"tokensOut": 499,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3473
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 125,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The track maintains a steady 125 BPM in C major with a standard I-V-vi-IV chord progression."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track maintains a steady 125 BPM in C major with a standard I-V-vi-IV chord progression.",
+		"confidence": 1,
+		"tokensIn": 1115,
+		"tokensOut": 812,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4490
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 150,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track is a steady 8-bar loop in A minor at 150 BPM."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": true,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track is a steady 8-bar loop in A minor at 150 BPM.",
+		"confidence": 0.95,
+		"tokensIn": 1142,
+		"tokensOut": 928,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5806
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 152,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track is a steady synth loop in A minor at 152 BPM."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": true,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": true,
+			"key": true,
+			"meter": true
+		},
+		"notes": "The track is a steady synth loop in A minor at 152 BPM.",
+		"confidence": 0.95,
+		"tokensIn": 1143,
+		"tokensOut": 749,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5656
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 76,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "E minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording matches the chart perfectly in E minor at 76 bpm in 6/8 time."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the chart perfectly in E minor at 76 bpm in 6/8 time.",
+		"confidence": 1,
+		"tokensIn": 1451,
+		"tokensOut": 958,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5262
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [
+				{
+					"at": 16,
+					"bpm": 240
+				},
+				{
+					"at": 24,
+					"bpm": 120
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo doubles to 240 bpm at 16 seconds and returns to 120 bpm at 24 seconds."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 2,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo doubles to 240 bpm at 16 seconds and returns to 120 bpm at 24 seconds.",
+		"confidence": 0.95,
+		"tokensIn": 1306,
+		"tokensOut": 1413,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7789
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 14.4,
+					"bpm": 200
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo doubles from 100 bpm to 200 bpm at 14.4 seconds."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 1,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo doubles from 100 bpm to 200 bpm at 14.4 seconds.",
+		"confidence": 0.95,
+		"tokensIn": 1334,
+		"tokensOut": 1071,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7373
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 14.4,
+					"bpm": 200
+				},
+				{
+					"at": 21.6,
+					"bpm": 100
+				}
+			],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo doubles from 100 bpm to 200 bpm at 14.4 seconds, and returns to 100 bpm at 21.6 seconds."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 2,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The tempo doubles from 100 bpm to 200 bpm at 14.4 seconds, and returns to 100 bpm at 21.6 seconds.",
+		"confidence": 1,
+		"tokensIn": 1334,
+		"tokensOut": 1494,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7825
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 19.2,
+					"bpm": 140
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo shifts from 100 bpm to 140 bpm at measure 9 (19.2 seconds), matching the chart exactly."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo shifts from 100 bpm to 140 bpm at measure 9 (19.2 seconds), matching the chart exactly.",
+		"confidence": 1,
+		"tokensIn": 1651,
+		"tokensOut": 1063,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6084
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [
+				{
+					"at": 24.1,
+					"bpm": 171
+				}
+			],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo increases from 120 BPM to 171 BPM at 24.1 seconds, while the key remains in D major."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 1,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo increases from 120 BPM to 171 BPM at 24.1 seconds, while the key remains in D major.",
+		"confidence": 0.95,
+		"tokensIn": 1595,
+		"tokensOut": 1266,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6989
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 72,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo remains a constant 72 bpm throughout, with the harmonic rhythm doubling from half notes to quarter notes at 26.6 seconds."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo remains a constant 72 bpm throughout, with the harmonic rhythm doubling from half notes to quarter notes at 26.6 seconds.",
+		"confidence": 0.95,
+		"tokensIn": 1622,
+		"tokensOut": 1761,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9533
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": null,
+		"grade": null,
+		"defer": null,
+		"notes": "",
+		"confidence": null,
+		"tokensIn": 1623,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10023
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 72,
+			"tempoChanges": [
+				{
+					"at": 26.7,
+					"bpm": 108
+				}
+			],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo increases from 72 bpm to 108 bpm at measure 9 (26.7 seconds), matching the chart."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo increases from 72 bpm to 108 bpm at measure 9 (26.7 seconds), matching the chart.",
+		"confidence": 1,
+		"tokensIn": 1948,
+		"tokensOut": 818,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4765
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 60,
+			"tempoChanges": [
+				{
+					"at": 16,
+					"bpm": 100
+				}
+			],
+			"meter": "4/4",
+			"key": "G minor",
+			"keyChanges": [],
+			"confidence": 0.9,
+			"notes": "The track starts at 60 BPM and transitions to 100 BPM at 16 seconds."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 1,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track starts at 60 BPM and transitions to 100 BPM at 16 seconds.",
+		"confidence": 0.9,
+		"tokensIn": 1271,
+		"tokensOut": 1326,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 10059
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 90,
+			"tempoChanges": [
+				{
+					"at": 10.7,
+					"bpm": 180
+				}
+			],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The tempo doubles from 90 BPM to 180 BPM at 10.7 seconds."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 1,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo doubles from 90 BPM to 180 BPM at 10.7 seconds.",
+		"confidence": 0.95,
+		"tokensIn": 1298,
+		"tokensOut": 1481,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8358
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 90,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "B flat major",
+			"keyChanges": [],
+			"confidence": 0.9,
+			"notes": "The tempo is 90 BPM (could also be interpreted as 180 BPM). At 10.6 seconds, the harmonic rhythm doubles from half notes to quarter notes, but the underlying pulse remains the same."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": false,
+			"meter": false
+		},
+		"notes": "The tempo is 90 BPM (could also be interpreted as 180 BPM). At 10.6 seconds, the harmonic rhythm doubles from half notes to quarter notes, but the underlying pulse remains the same.",
+		"confidence": 0.9,
+		"tokensIn": 1299,
+		"tokensOut": 1560,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8098
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 90,
+			"tempoChanges": [
+				{
+					"at": 18,
+					"bpm": 120
+				}
+			],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo changes from 90 bpm to 120 bpm at 18.0 seconds (measure 10), matching the chart."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo changes from 90 bpm to 120 bpm at 18.0 seconds (measure 10), matching the chart.",
+		"confidence": 1,
+		"tokensIn": 1630,
+		"tokensOut": 1020,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5379
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 125,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece features a diatonic chord progression walking up the scale in F major at a steady 125 BPM."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece features a diatonic chord progression walking up the scale in F major at a steady 125 BPM.",
+		"confidence": 0.95,
+		"tokensIn": 1356,
+		"tokensOut": 1146,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7794
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 110,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece is a simple chord progression in F major at a steady 110 BPM."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece is a simple chord progression in F major at a steady 110 BPM.",
+		"confidence": 1,
+		"tokensIn": 1384,
+		"tokensOut": 1519,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7334
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 67,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Bb major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece features a steady tempo of 67 BPM in 4/4 meter, playing diatonic chords in Bb major with a bVII (Ab major) chord."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The piece features a steady tempo of 67 BPM in 4/4 meter, playing diatonic chords in Bb major with a bVII (Ab major) chord.",
+		"confidence": 0.95,
+		"tokensIn": 1383,
+		"tokensOut": 1533,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7951
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 110,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [
+				{
+					"at": 17.5,
+					"key": "G major"
+				}
+			],
+			"confidence": 1,
+			"notes": "The song modulates from F major to G major at 17.5 seconds, matching the chart."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The song modulates from F major to G major at 17.5 seconds, matching the chart.",
+		"confidence": 1,
+		"tokensIn": 1697,
+		"tokensOut": 641,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4115
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece consists of a simple repeating I-ii-V-I chord progression in F major at a steady 96 BPM."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece consists of a simple repeating I-ii-V-I chord progression in F major at a steady 96 BPM.",
+		"confidence": 1,
+		"tokensIn": 1494,
+		"tokensOut": 1020,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6450
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 95,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece features a repeating i-VI-iv-V chord progression in A minor at a steady 95 BPM."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece features a repeating i-VI-iv-V chord progression in A minor at a steady 95 BPM.",
+		"confidence": 1,
+		"tokensIn": 1521,
+		"tokensOut": 774,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5001
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 128,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "D minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The piece is a standard circle of fifths progression in D minor in 3/4 time at 128 bpm."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": false,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": true
+		},
+		"notes": "The piece is a standard circle of fifths progression in D minor in 3/4 time at 128 bpm.",
+		"confidence": 1,
+		"tokensIn": 1522,
+		"tokensOut": 1096,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5854
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 95,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [
+				{
+					"at": 20.2,
+					"key": "C major"
+				}
+			],
+			"confidence": 1,
+			"notes": "The piece modulates from A minor to C major at measure 9 (20.2 seconds), matching the provided chart."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece modulates from A minor to C major at measure 9 (20.2 seconds), matching the provided chart.",
+		"confidence": 1,
+		"tokensIn": 1833,
+		"tokensOut": 1208,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6096
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece follows a standard jazz pop progression (IV-V-iii-vi-ii-V-I) in C major at a steady 120 BPM."
+		},
+		"grade": {
+			"tempoCorrect": false,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece follows a standard jazz pop progression (IV-V-iii-vi-ii-V-I) in C major at a steady 120 BPM.",
+		"confidence": 0.95,
+		"tokensIn": 1245,
+		"tokensOut": 1243,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6324
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The track is a steady electronic loop utilizing a common vi-IV-I-V progression in D major (or B natural minor)."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The track is a steady electronic loop utilizing a common vi-IV-I-V progression in D major (or B natural minor).",
+		"confidence": 0.95,
+		"tokensIn": 1273,
+		"tokensOut": 904,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5714
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "G major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece is in a steady 4/4 meter at 126 bpm in the key of G major."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The piece is in a steady 4/4 meter at 126 bpm in the key of G major.",
+		"confidence": 0.95,
+		"tokensIn": 1272,
+		"tokensOut": 792,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5179
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "L-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [
+				{
+					"at": 15.2,
+					"key": "F major"
+				}
+			],
+			"confidence": 1,
+			"notes": "The recording matches the chart perfectly, with a key change to F major at measure 9 (15.2 seconds)."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording matches the chart perfectly, with a key change to F major at measure 9 (15.2 seconds).",
+		"confidence": 1,
+		"tokensIn": 1586,
+		"tokensOut": 821,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4590
+	},
+	{
+		"itemId": "still-a",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": null,
+			"tempoChanges": [],
+			"meter": "free",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 0.9,
+			"notes": "The piece consists of slow, ambient synthesizer pads with no clear rhythmic pulse, looping a IV-ii-V-I progression in F major."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece consists of slow, ambient synthesizer pads with no clear rhythmic pulse, looping a IV-ii-V-I progression in F major.",
+		"confidence": 0.9,
+		"tokensIn": 1483,
+		"tokensOut": 587,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5498
+	},
+	{
+		"itemId": "still-a",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": null,
+			"tempoChanges": [],
+			"meter": "free",
+			"key": "Bb major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece is an ambient drone with no fixed tempo or meter, cycling through I-IV-V chords in Bb major."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece is an ambient drone with no fixed tempo or meter, cycling through I-IV-V chords in Bb major.",
+		"confidence": 0.95,
+		"tokensIn": 1497,
+		"tokensOut": 785,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4658
+	},
+	{
+		"itemId": "still-a",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": null,
+			"tempoChanges": [],
+			"meter": "free",
+			"key": "Eb major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece consists of ambient synth chords with no clear rhythmic pulse, outlining a progression in Eb major."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": true,
+			"meter": false
+		},
+		"notes": "The piece consists of ambient synth chords with no clear rhythmic pulse, outlining a progression in Eb major.",
+		"confidence": 0.95,
+		"tokensIn": 1511,
+		"tokensOut": 484,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3798
+	},
+	{
+		"itemId": "still-b",
+		"arm": "L-blind",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": null,
+			"tempoChanges": [],
+			"meter": "free",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 0.9,
+			"notes": "The piece is an ambient synth drone with no clear pulse, staying in C major throughout."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece is an ambient synth drone with no clear pulse, staying in C major throughout.",
+		"confidence": 0.9,
+		"tokensIn": 1483,
+		"tokensOut": 572,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9416
+	},
+	{
+		"itemId": "still-b",
+		"arm": "L-correct",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": null,
+			"tempoChanges": [],
+			"meter": "free",
+			"key": "E minor",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece is a free-form ambient drone with no pulse or meter, centered around E minor."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece is a free-form ambient drone with no pulse or meter, centered around E minor.",
+		"confidence": 0.95,
+		"tokensIn": 1497,
+		"tokensOut": 728,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8356
+	},
+	{
+		"itemId": "still-b",
+		"arm": "L-wrong",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"tempo": null,
+			"tempoChanges": [],
+			"meter": "free",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 0.95,
+			"notes": "The piece is an ambient synthesizer pad progression in C major with no discernible pulse or meter."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": false,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": {
+			"tempo": false,
+			"key": false,
+			"meter": false
+		},
+		"notes": "The piece is an ambient synthesizer pad progression in C major with no discernible pulse or meter.",
+		"confidence": 0.95,
+		"tokensIn": 1511,
+		"tokensOut": 907,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9151
+	}
+]

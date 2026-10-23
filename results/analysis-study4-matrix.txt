@@ -1,0 +1,25 @@
+$ bun scripts/analyze-study4.ts
+Field accuracy on metered items (tempo incl. the 6/8 rule / meter / key):
+model                         	arm	tempo	octave	meter	key	tΔfound	kΔfound	falseΔ
+google/gemini-3-flash         	L-blind	2/12	1	7/12	1/12	0/3	0/3	6
+google/gemini-3-flash         	L-correct	11/12	0	8/12	12/12	1/3	0/3	1
+google/gemini-3-flash         	L-wrong	2/12	10	2/12	0/12	0/3	0/3	0
+google/gemini-3-flash         	L-chart	12/12	0	12/12	12/12	3/3	3/3	0
+google/gemini-3.5-flash       	L-blind	1/12	1	7/12	2/12	0/3	0/3	4
+google/gemini-3.5-flash       	L-correct	10/11	1	8/11	9/11	0/3	0/3	2
+google/gemini-3.5-flash       	L-wrong	5/11	4	5/11	0/11	0/2	0/3	2
+google/gemini-3.5-flash       	L-chart	12/12	0	12/12	12/12	3/3	3/3	0
+
+S4-H1 (gate, production model) + reads: pulseless items — invented tempos:
+  google/gemini-3-flash              1/6 cells invented a tempo (still-b L-blind: 60)
+  google/gemini-3.5-flash            0/6 cells invented a tempo
+  openai/gpt-4o-audio-preview        0/0 cells invented a tempo
+
+L-wrong deference (metered): answers echoing the wrong candidate:
+  google/gemini-3-flash              tempo 10/12, key 11/12, meter 9/12
+  google/gemini-3.5-flash            tempo 4/11, key 10/11, meter 3/11
+
+Errors and cost:
+  google/gemini-3-flash              54 cells, 0 not answered, 77633 in / 43963 out, mean 5054 ms
+  google/gemini-3.5-flash            54 cells, 2 not answered (The model did not answer in the expected form), 77633 in / 54440 out, mean 6862 ms
+  openai/gpt-4o-audio-preview        54 cells, 54 not answered (Model 'openai/gpt-4o-audio-preview' not found), 0 in / 0 out, mean 81 ms
