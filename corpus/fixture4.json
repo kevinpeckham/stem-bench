@@ -1,0 +1,316 @@
+{
+	"version": 1,
+	"corpus": "hand-authored-20261023",
+	"items": [
+		{
+			"id": "drift-4a",
+			"title": "Drift A",
+			"pulseless": false,
+			"truth": {
+				"tempo": 120,
+				"meter": "4/4",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 33
+			},
+			"mp3": "corpus/mixes/drift-4a.mp3",
+			"chart": "Title: Drift A\nPart: Lead Sheet (1 part)\nm1 key D major 4/4 tempo 120 \"120 bpm\": D\nm2: G\nm3: A\nm4: D\nm5: Bm\nm6: G\nm7: A\nm8: A\nm9: D\nm10: G\nm11: A\nm12: D\nm13: G\nm14: A\nm15: D\nm16: D",
+			"wrong": {
+				"tempo": "60",
+				"key": "G major",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "drift-4b",
+			"title": "Drift B",
+			"pulseless": false,
+			"truth": {
+				"tempo": 84,
+				"meter": "4/4",
+				"key": "Eb major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 46.714285714285715
+			},
+			"mp3": "corpus/mixes/drift-4b.mp3",
+			"chart": "Title: Drift B\nPart: Lead Sheet (1 part)\nm1 key E♭ major 4/4 tempo 84 \"84 bpm\": E♭\nm2: A♭\nm3: B♭\nm4: E♭\nm5: Cm\nm6: A♭\nm7: B♭\nm8: B♭\nm9: E♭\nm10: A♭\nm11: B♭\nm12: E♭\nm13: A♭\nm14: B♭\nm15: E♭\nm16: E♭",
+			"wrong": {
+				"tempo": "168",
+				"key": "Ab major",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "waltz-a",
+			"title": "Waltz A",
+			"pulseless": false,
+			"truth": {
+				"tempo": 96,
+				"meter": "3/4",
+				"key": "G major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 34.75
+			},
+			"mp3": "corpus/mixes/waltz-a.mp3",
+			"chart": "Title: Waltz A\nPart: Lead Sheet (1 part)\nm1 key G major 3/4 tempo 96 \"96 bpm\": G\nm2: C\nm3: D\nm4: G\nm5: Em\nm6: C\nm7: D\nm8: D\nm9: G\nm10: C\nm11: D\nm12: G\nm13: C\nm14: D\nm15: G\nm16: G\nm17: C\nm18: G",
+			"wrong": {
+				"tempo": "192",
+				"key": "C major",
+				"meter": "6/8"
+			}
+		},
+		{
+			"id": "waltz-b",
+			"title": "Waltz B",
+			"pulseless": false,
+			"truth": {
+				"tempo": 140,
+				"meter": "3/4",
+				"key": "C minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 24.142857142857146
+			},
+			"mp3": "corpus/mixes/waltz-b.mp3",
+			"chart": "Title: Waltz B\nPart: Lead Sheet (1 part)\nm1 key C minor 3/4 tempo 140 \"140 bpm\": Cm\nm2: A♭\nm3: B♭\nm4: Cm\nm5: Fm\nm6: A♭\nm7: G7\nm8: Cm\nm9: Cm\nm10: A♭\nm11: B♭\nm12: Cm\nm13: A♭\nm14: G7\nm15: Cm\nm16: Cm\nm17: G7\nm18: Cm",
+			"wrong": {
+				"tempo": "70",
+				"key": "F minor",
+				"meter": "6/8"
+			}
+		},
+		{
+			"id": "lilt-a",
+			"title": "Lilt A",
+			"pulseless": false,
+			"truth": {
+				"tempo": 60,
+				"meter": "6/8",
+				"key": "A major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 33
+			},
+			"mp3": "corpus/mixes/lilt-a.mp3",
+			"chart": "Title: Lilt A\nPart: Lead Sheet (1 part)\nm1 key A major 6/8 tempo 60 \"60 bpm\": A\nm2: D\nm3: E\nm4: A\nm5: F♯m\nm6: D\nm7: E\nm8: E\nm9: A\nm10: D\nm11: E\nm12: A\nm13: D\nm14: E\nm15: A\nm16: A",
+			"wrong": {
+				"tempo": "120",
+				"key": "D major",
+				"meter": "4/4"
+			}
+		},
+		{
+			"id": "lilt-b",
+			"title": "Lilt B",
+			"pulseless": false,
+			"truth": {
+				"tempo": 76,
+				"meter": "6/8",
+				"key": "E minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 26.263157894736842
+			},
+			"mp3": "corpus/mixes/lilt-b.mp3",
+			"chart": "Title: Lilt B\nPart: Lead Sheet (1 part)\nm1 key E minor 6/8 tempo 76 \"76 bpm\": Em\nm2: C\nm3: D\nm4: Em\nm5: Am\nm6: C\nm7: B7\nm8: Em\nm9: Em\nm10: C\nm11: D\nm12: Em\nm13: C\nm14: B7\nm15: Em\nm16: Em",
+			"wrong": {
+				"tempo": "152",
+				"key": "A minor",
+				"meter": "4/4"
+			}
+		},
+		{
+			"id": "shift-a",
+			"title": "Shift A",
+			"pulseless": false,
+			"truth": {
+				"tempo": 100,
+				"meter": "4/4",
+				"key": "C major",
+				"tempoChanges": [
+					{
+						"at": 19.2,
+						"bpm": 140
+					}
+				],
+				"keyChanges": [],
+				"durationSec": 33.91428571428571
+			},
+			"mp3": "corpus/mixes/shift-a.mp3",
+			"chart": "Title: Shift A\nPart: Lead Sheet (1 part)\nm1 key C major 4/4 tempo 100 \"100 bpm\": C\nm2: F\nm3: G\nm4: C\nm5: Am\nm6: F\nm7: G\nm8: G\nm9 tempo 140 \"140 bpm\": C\nm10: F\nm11: G\nm12: C\nm13: F\nm14: G\nm15: C\nm16: C",
+			"wrong": {
+				"tempo": "200",
+				"key": "F major",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "shift-b",
+			"title": "Shift B",
+			"pulseless": false,
+			"truth": {
+				"tempo": 72,
+				"meter": "4/4",
+				"key": "B minor",
+				"tempoChanges": [
+					{
+						"at": 26.666666666666668,
+						"bpm": 108
+					}
+				],
+				"keyChanges": [],
+				"durationSec": 45.44444444444444
+			},
+			"mp3": "corpus/mixes/shift-b.mp3",
+			"chart": "Title: Shift B\nPart: Lead Sheet (1 part)\nm1 key B minor 4/4 tempo 72 \"72 bpm\": Bm\nm2: G\nm3: D\nm4: A\nm5: Bm\nm6: G\nm7: F♯7\nm8: F♯7\nm9 tempo 108 \"108 bpm\": Bm\nm10: G\nm11: D\nm12: A\nm13: G\nm14: F♯7\nm15: Bm\nm16: Bm",
+			"wrong": {
+				"tempo": "144",
+				"key": "E minor",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "shift-c",
+			"title": "Shift C",
+			"pulseless": false,
+			"truth": {
+				"tempo": 90,
+				"meter": "3/4",
+				"key": "F major",
+				"tempoChanges": [
+					{
+						"at": 18,
+						"bpm": 120
+					}
+				],
+				"keyChanges": [],
+				"durationSec": 32.5
+			},
+			"mp3": "corpus/mixes/shift-c.mp3",
+			"chart": "Title: Shift C\nPart: Lead Sheet (1 part)\nm1 key F major 3/4 tempo 90 \"90 bpm\": F\nm2: B♭\nm3: C\nm4: F\nm5: Dm\nm6: B♭\nm7: C\nm8: C\nm9: F\nm10 tempo 120 \"120 bpm\": F\nm11: B♭\nm12: C\nm13: F\nm14: B♭\nm15: C\nm16: F\nm17: F\nm18: F",
+			"wrong": {
+				"tempo": "180",
+				"key": "Bb major",
+				"meter": "6/8"
+			}
+		},
+		{
+			"id": "mod-a",
+			"title": "Mod A",
+			"pulseless": false,
+			"truth": {
+				"tempo": 110,
+				"meter": "4/4",
+				"key": "F major",
+				"tempoChanges": [],
+				"keyChanges": [
+					{
+						"at": 17.454545454545453,
+						"key": "G major"
+					}
+				],
+				"durationSec": 35.90909090909091
+			},
+			"mp3": "corpus/mixes/mod-a.mp3",
+			"chart": "Title: Mod A\nPart: Lead Sheet (1 part)\nm1 key F major 4/4 tempo 110 \"110 bpm\": F\nm2: B♭\nm3: C\nm4: F\nm5: Dm\nm6: B♭\nm7: C\nm8: C\nm9 key G major: G\nm10: C\nm11: D\nm12: G\nm13: Em\nm14: C\nm15: D\nm16: G",
+			"wrong": {
+				"tempo": "55",
+				"key": "Bb major",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "mod-b",
+			"title": "Mod B",
+			"pulseless": false,
+			"truth": {
+				"tempo": 95,
+				"meter": "4/4",
+				"key": "A minor",
+				"tempoChanges": [],
+				"keyChanges": [
+					{
+						"at": 20.210526315789473,
+						"key": "C major"
+					}
+				],
+				"durationSec": 41.421052631578945
+			},
+			"mp3": "corpus/mixes/mod-b.mp3",
+			"chart": "Title: Mod B\nPart: Lead Sheet (1 part)\nm1 key A minor 4/4 tempo 95 \"95 bpm\": Am\nm2: Dm\nm3: E7\nm4: Am\nm5: F\nm6: Dm\nm7: E7\nm8: Am\nm9 key C major: C\nm10: F\nm11: G\nm12: C\nm13: Am\nm14: F\nm15: G\nm16: C",
+			"wrong": {
+				"tempo": "190",
+				"key": "D minor",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "mod-c",
+			"title": "Mod C",
+			"pulseless": false,
+			"truth": {
+				"tempo": 126,
+				"meter": "4/4",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [
+					{
+						"at": 15.238095238095237,
+						"key": "F major"
+					}
+				],
+				"durationSec": 31.476190476190474
+			},
+			"mp3": "corpus/mixes/mod-c.mp3",
+			"chart": "Title: Mod C\nPart: Lead Sheet (1 part)\nm1 key D major 4/4 tempo 126 \"126 bpm\": D\nm2: G\nm3: A\nm4: D\nm5: Bm\nm6: G\nm7: A\nm8: A\nm9 key F major: F\nm10: B♭\nm11: C\nm12: F\nm13: B♭\nm14: C\nm15: F\nm16: F",
+			"wrong": {
+				"tempo": "63",
+				"key": "G major",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "still-a",
+			"title": "Still A",
+			"pulseless": true,
+			"truth": {
+				"tempo": null,
+				"meter": "free",
+				"key": "Bb major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 41
+			},
+			"mp3": "corpus/mixes/still-a.mp3",
+			"chart": null,
+			"wrong": {
+				"tempo": "120",
+				"key": "Eb major",
+				"meter": "4/4"
+			}
+		},
+		{
+			"id": "still-b",
+			"title": "Still B",
+			"pulseless": true,
+			"truth": {
+				"tempo": null,
+				"meter": "free",
+				"key": "E minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 41
+			},
+			"mp3": "corpus/mixes/still-b.mp3",
+			"chart": null,
+			"wrong": {
+				"tempo": "120",
+				"key": "A minor",
+				"meter": "4/4"
+			}
+		}
+	]
+}
