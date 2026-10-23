@@ -102,6 +102,26 @@ function chordTones(chord: string): { bass: number; tones: number[] } | null {
 	return { bass: 36 + p.pc, tones: intervals.map((i) => 60 + p.pc! + i) };
 }
 
+/** A kick: a fast-decaying low sine. */
+function addKick(out: Float32Array, atSec: number, gain: number) {
+	const from = Math.max(0, Math.floor(atSec * RATE4));
+	const to = Math.min(out.length, from + Math.floor(0.12 * RATE4));
+	for (let i = from; i < to; i++) {
+		const n = (i - from) / RATE4;
+		out[i]! += Math.sin(2 * Math.PI * (52 + 60 * Math.exp(-n * 35)) * n) * Math.exp(-n * 22) * gain;
+	}
+}
+
+/** A snare/hat: a seeded noise burst. */
+function addNoise(out: Float32Array, atSec: number, durSec: number, gain: number, rand: () => number) {
+	const from = Math.max(0, Math.floor(atSec * RATE4));
+	const to = Math.min(out.length, from + Math.floor(durSec * RATE4));
+	for (let i = from; i < to; i++) {
+		const n = (i - from) / RATE4;
+		out[i]! += (rand() * 2 - 1) * Math.exp(-n * (3 / durSec)) * gain;
+	}
+}
+
 export function renderMix(spec: MixSpec, seed: number): Float32Array {
 	const truth = truthOf(spec);
 	const out = new Float32Array(Math.ceil(truth.durationSec * RATE4));
@@ -120,7 +140,13 @@ export function renderMix(spec: MixSpec, seed: number): Float32Array {
 						addTone(out, at + enter, barSec * 1.4, tone, 0.3, 2, 0.8);
 					}
 				} else if (spec.meter === "6/8") {
+					// Amendment 1: a drum layer makes the pulse unambiguous —
+					// kick on the dotted-quarter beats, hat ticks on the eighths.
 					const eighth = barSec / 6;
+					addKick(out, at, 0.9);
+					addKick(out, at + 3 * eighth, 0.7);
+					addNoise(out, at + 3 * eighth, 0.06, 0.45, rand);
+					for (let b = 0; b < 6; b++) addNoise(out, at + b * eighth, 0.015, 0.22, rand);
 					addTone(out, at, barSec * 0.9, v.bass, 0.42, 2, 0.01);
 					addTone(out, at + 3 * eighth, barSec * 0.45, v.bass, 0.38, 2, 0.01);
 					for (let b = 0; b < 6; b++) {
@@ -132,6 +158,18 @@ export function renderMix(spec: MixSpec, seed: number): Float32Array {
 				} else {
 					const beats = spec.meter === "4/4" ? 4 : 3;
 					const beat = barSec / beats;
+					// Amendment 1 drums: 4/4 gets kick 1 and 3 with a backbeat
+					// snare on 2 and 4; 3/4 gets kick 1 with snare on 3; hat
+					// ticks on every beat.
+					addKick(out, at, 0.9);
+					if (beats === 4) {
+						addKick(out, at + 2 * beat, 0.7);
+						addNoise(out, at + 1 * beat, 0.06, 0.5, rand);
+						addNoise(out, at + 3 * beat, 0.06, 0.5, rand);
+					} else {
+						addNoise(out, at + 2 * beat, 0.06, 0.45, rand);
+					}
+					for (let b = 0; b < beats; b++) addNoise(out, at + b * beat, 0.015, 0.22, rand);
 					addTone(out, at, beat * 1.8, v.bass, 0.42, 2, 0.01);
 					if (beats === 4) addTone(out, at + 2 * beat, beat * 1.8, v.bass, 0.38, 2, 0.01);
 					for (let b = 0; b < beats; b++) {

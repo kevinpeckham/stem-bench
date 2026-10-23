@@ -120,6 +120,27 @@ wrong candidate per field.
 | 6/8 unreadable even with candidates | The meter claim ("meter above all") needs a floor note in docs; consider a tap-along probe in product |
 | gpt-4o-audio rejected or far behind | The swap space for this surface is gemini-only; recorded for the model-swap guide |
 
+## Amendment 1 (2026-10-23, after the first pilot, before any matrix cell)
+
+The registered fixture-health stop rule S4-G0 FIRED: the first pilot's
+L-blind tempo was 1/12 (bar: ≥ 8/12). The anatomy says partial
+hearing, total tempo blindness: harmony was content-correlated (the
+model named a real chord motion in one item and noticed a real tempo
+double in another) but absolute tempo pinned to a 120–128 "house
+track" prior at confidence 1.0 regardless of truth, with invented
+genre descriptions. The drum-less strummed comp cannot distinguish
+"the model cannot track tempo" from "the mix does not state its pulse
+plainly enough," so per the stop rule the synthesis gains an
+unambiguous drum layer (kick on strong beats, backbeat snare, hat
+ticks on the meter grid — 4/4, 3/4 and 6/8 each unmistakable to a
+human ear), the first pilot is archived and discarded
+(results/archive/study4-pilot1-drumless.json), and the pilot re-runs.
+Gates, grading, arms and fences unchanged. The drum-less run's
+salvage reads, recorded for comparison: total deference under L-wrong
+(tempo 11/11, key 11/11, meter 7/11), near-perfect L-chart (12/12 on
+every field, all six changes placed), and the pulseless gate clean
+(0/6 invented tempos).
+
 ## Disclosure
 
 The analyst model is Claude Fable 5; no Anthropic model is measured
