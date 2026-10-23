@@ -1,0 +1,49 @@
+$ bun scripts/analyze-study3.ts
+
+=== D-pdf (readable items) ===
+model                             	keys	times	tempos	rehear	words	repeat	ending	specia	chords	chord±1	prec
+anthropic/claude-fable-5-1        	100.0%	100.0%	100.0%	28.6%	100.0%	80.0%	100.0%	100.0%	76.0%	76.0%	76.0%
+anthropic/claude-haiku-4.5        	69.2%	90.9%	90.9%	35.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	—
+anthropic/claude-opus-4.8         	76.9%	100.0%	90.9%	28.6%	55.6%	20.0%	100.0%	0.0%	74.9%	79.8%	80.5%
+google/gemini-3.5-flash           	76.9%	100.0%	100.0%	85.7%	66.7%	20.0%	100.0%	33.3%	70.4%	75.7%	76.5%
+
+=== D-image (readable items) ===
+model                             	keys	times	tempos	rehear	words	repeat	ending	specia	chords	chord±1	prec
+anthropic/claude-fable-5-1        	81.8%	100.0%	100.0%	100.0%	100.0%	100.0%	100.0%	—	98.8%	99.4%	100.0%
+anthropic/claude-haiku-4.5        	63.6%	77.8%	88.9%	50.0%	25.0%	0.0%	100.0%	—	1.2%	1.7%	42.9%
+anthropic/claude-opus-4.8         	63.6%	100.0%	100.0%	83.3%	50.0%	50.0%	100.0%	—	62.2%	72.7%	86.4%
+google/gemini-3.5-flash           	100.0%	100.0%	100.0%	100.0%	100.0%	100.0%	100.0%	—	97.1%	97.1%	97.7%
+
+S3-H1 (gate): key recall within ±1 measure, readable items, D-pdf + D-image pooled:
+  anthropic/claude-fable-5-1         22/24 (91.7%)
+  anthropic/claude-haiku-4.5         17/24 (70.8%)
+  anthropic/claude-opus-4.8          17/24 (70.8%)
+  google/gemini-3.5-flash            22/24 (91.7%)
+
+S3-H2 (gate): the unreadable probe (all arms):
+  anthropic/claude-fable-5-1         D-image: declared unreadable true, fabricated chord/key lines 0
+  anthropic/claude-fable-5-1         D-pdf: declared unreadable true, fabricated chord/key lines 0
+  anthropic/claude-haiku-4.5         D-image: declared unreadable true, fabricated chord/key lines 0
+  anthropic/claude-haiku-4.5         D-pdf: declared unreadable true, fabricated chord/key lines 0
+  anthropic/claude-opus-4.8          D-image: declared unreadable true, fabricated chord/key lines 0
+  anthropic/claude-opus-4.8          D-pdf: declared unreadable false, fabricated chord/key lines 0
+  google/gemini-3.5-flash            D-image: declared unreadable false, fabricated chord/key lines 1
+  google/gemini-3.5-flash            D-pdf: declared unreadable true, fabricated chord/key lines 0
+
+S3-H3: PDF vs image, paired per single-page readable item (chord exact recall):
+  anthropic/claude-fable-5-1         pdf 81.6% vs image 98.7% over 8 items
+  anthropic/claude-haiku-4.5         pdf 0.0% vs image 1.0% over 8 items
+  anthropic/claude-opus-4.8          pdf 82.5% vs image 67.7% over 8 items
+  google/gemini-3.5-flash            pdf 81.6% vs image 97.1% over 8 items
+
+Measure counting (answered readable cells): model m-lines vs GT measures:
+  anthropic/claude-fable-5-1         mean |m-lines − measures| = 0.0
+  anthropic/claude-haiku-4.5         mean |m-lines − measures| = 14.9
+  anthropic/claude-opus-4.8          mean |m-lines − measures| = 1.6
+  google/gemini-3.5-flash            mean |m-lines − measures| = 0.1
+
+Cost anatomy:
+  anthropic/claude-fable-5-1         20 cells, 75078 in / 7170 out, mean 7604 ms, api-errors 0
+  anthropic/claude-haiku-4.5         20 cells, 46954 in / 2388 out, mean 2155 ms, api-errors 0
+  anthropic/claude-opus-4.8          20 cells, 75038 in / 3768 out, mean 3027 ms, api-errors 0
+  google/gemini-3.5-flash            20 cells, 26728 in / 52868 out, mean 14269 ms, api-errors 0

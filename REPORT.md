@@ -1,5 +1,82 @@
 # stem-bench REPORT
 
+## Study 3 — can a model read sheet music? (2026-10-23)
+
+**Question.** stem-shovel's chart-read has a model read an engraved
+score into production's per-measure summary format; its model choice
+and modality claim rested on one informal test. Registered in
+docs/BRIEF-STUDY3.md: 11 Verovio-engraved scores (268 readable
+measures, every element class, two 2-page items, an unreadable probe),
+ground truth from the ported production `musicXmlSummary`, per-class
+measure-exact and ±1 recall, arms D-pdf vs D-image, production's prompt
+verbatim. Two pre-matrix amendments, both committed with anatomy:
+transparent PNGs composited to black-on-black at the model, and the
+probe needed re-calibration twice (vector PDFs stay crisp at any zoom;
+150 px was still readable in fact — the pilot model read 7/8 chords
+from a smear a human cannot, so unreadability probes must be calibrated
+by model behavior, not eyesight). Total spend ≈ $2.1 of the $34 fences.
+
+### Results (readable items; chord recall exact / keys ±1 pooled)
+
+| Model | D-image chords | D-pdf chords | keys ±1 (gate read) | measure drift | probe |
+|---|---|---|---|---|---|
+| fable-5-1 (production) | **98.8%** | 76.0% | **91.7%** | 0.0 | honest ×2 |
+| gemini-3.5-flash | 97.1% | 70.4% | 91.7% | 0.1 | **1 fabricated line** |
+| opus-4.8 | 62.2% | 82.5% | 70.8% | 1.6 | honest, 1 format miss |
+| haiku-4.5 | 1.2% | 0.0% | 70.8% | 14.9 | honest ×2 |
+
+**Gate accounting: S3-H1 PASS, S3-H2 FAIL by letter — the study gate
+fails via its every-model clause.** The production model passes
+everything it is gated on: keys at exactly the registered 91.7% ≥ 90%,
+near-perfect image reading (98.8% chord recall at 100% precision, zero
+measure drift), and honest declines on the probe in both arms. S3-H2's
+wording — "zero fabricated lines, EVERY model, both arms" — fails via
+the pilot model: shown the 80 px smear as an image, gemini wrote
+`m1 key C major 4/4` under an invented title instead of the Note
+declaration (its PDF arm declined honestly; the archived 150 px run
+also holds its full fabrication signature, a confident 0/8 progression).
+The registration lesson, now recurring: a gate quantified over every
+model makes the weakest model the gate — the AR/S2 lesson in a third
+costume. Published as failed.
+
+### The findings
+
+1. **Frontier vision models read sheet music.** Fable reads engraved
+   notation from a clean PNG at 98.8% exact chord recall with perfect
+   precision and zero measure-count drift, at roughly $0.06 a score.
+   The production anecdote ("read as text, the keys are plain") is
+   upheld under measurement, and chart-read's model choice is validated
+   against two tiers and a competitor.
+2. **The PDF ingestion path, not notation reading, is the bottleneck.**
+   Three of four models lose 20+ points of chord recall moving from
+   PNG to PDF of the identical page (fable 98.8 → 76.0); repeats
+   collapse hardest. Ship guidance: chart-read should rasterize PDFs
+   itself and send images, rather than trusting each provider's
+   internal PDF pipeline. (Opus is the odd one out — better on PDF —
+   so the effect is per-provider-pipeline, not intrinsic to PDFs.)
+3. **Haiku cannot do this job**: 1.2% chord recall, 15-measure drift,
+   ~120 output tokens per score — it reads the signatures and writes a
+   stub. The sharpest tier cliff the program has measured.
+4. **The honesty map**: anthropic models decline the unreadable page
+   (opus once declined without the registered Note form — a format
+   miss, not a fabrication, per the registered distinction); gemini
+   fabricates under image input. Study 2's accept-and-disobey lesson
+   generalizes to vision exactly as the brief predicted it might.
+5. Prediction scorecard: 1 right (fable keys, to the decimal of the
+   bar); 2 half-right (chords above the predicted band in images);
+   3 wrong in an instructive way (repeats weak, but endings 100%
+   everywhere answered — the volta brackets read fine; it is the
+   repeat DOTS that get lost, and only in PDFs); 4 right in substance
+   (one model fabricated, and it was not an anthropic one); 5 right
+   for gemini and fable, refuted by opus.
+
+### Disclosure
+
+Analyst Claude Fable 5; the matrix includes claude-fable-5-1. Every
+grade is mechanical, committed and tested before any scored run; the
+ground-truth instrument is production's own summary code, ported
+verbatim. Amendments 1–2 preceded all matrix cells.
+
 ## Study 2 — does reasoning help a model write a drum beat? (2026-10-22)
 
 **Question.** stem-shovel's Text-to-Beat hard-codes reasoning OFF on an
