@@ -44,6 +44,25 @@ swap would silently break the feature.
 Registration: [docs/BRIEF-STUDY2.md](docs/BRIEF-STUDY2.md). Findings:
 [REPORT.md](REPORT.md).
 
+## Study 3: can a model read sheet music?
+
+stem-shovel's chart-read has a model read an engraved score into a
+per-measure summary. Study 3 measured it as a round trip: scores
+authored as MusicXML (every fact known), engraved by Verovio, read
+under the production prompt, graded against the app's own summary of
+the source file. We believe it is the first registered LLM
+notation-reading benchmark.
+
+The shipping model reads engraved notation from a clean image at 98.8%
+exact chord recall with zero measure drift, about six cents a score.
+The bottleneck is PDF ingestion, not notation reading: the identical
+page as a PDF loses 20+ points on three of four models. One model
+fabricated a key and meter from an unreadable 80 px page rather than
+say so; the honesty gate is published as failed by letter.
+
+Registration: [docs/BRIEF-STUDY3.md](docs/BRIEF-STUDY3.md) (with two
+disclosed fixture amendments). Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
