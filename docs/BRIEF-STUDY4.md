@@ -141,6 +141,31 @@ salvage reads, recorded for comparison: total deference under L-wrong
 every field, all six changes placed), and the pulseless gate clean
 (0/6 invented tempos).
 
+## Amendment 2 (2026-10-23, before any matrix cell): the stop rule's premise is discharged
+
+S4-G0 fired AGAIN on the drummed fixture (L-blind tempo 2/12). The rule
+assumed a fixture fault, so the fixture was put on trial directly:
+
+- **Mechanical pulse verification** (scripts/verify-pulse4.ts,
+  committed): every metered MP3 decodes to an onset-energy envelope
+  whose autocorrelation peaks at the beat or a small integer multiple
+  of it (the bar in 3/4) within ±4% — **12/12 PASS**. The pulse is
+  physically in the committed audio.
+- **A one-cell second-listener diagnostic** (disclosed; excluded from
+  scored claims): gemini-3.5-flash, blind, on the drummed 120 bpm
+  4/4 item — answered 180 bpm, G major, confidence 1.0. A second
+  independent listener reproduces the failure on a verified pulse.
+
+The stop rule's premise ("the synthesis does not carry tempo") is
+therefore false; its firing is reclassified as the registered outcome
+it actually detected: **audio-capable models do not track tempo from
+mixed audio, even with explicit drums** — they respond to harmonic
+content and large structural events but pin absolute tempo to a genre
+prior at full confidence. The drummed pilot STANDS as the pilot;
+S4-G0 is retired as discharged (not re-thresholded: its action was
+taken twice and its premise then tested and refuted); all other gates,
+reads and fences unchanged.
+
 ## Disclosure
 
 The analyst model is Claude Fable 5; no Anthropic model is measured
