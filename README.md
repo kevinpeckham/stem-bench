@@ -63,6 +63,24 @@ say so; the honesty gate is published as failed by letter.
 Registration: [docs/BRIEF-STUDY3.md](docs/BRIEF-STUDY3.md) (with two
 disclosed fixture amendments). Findings: [REPORT.md](REPORT.md).
 
+## Study 4: the listening layer
+
+stem-shovel's song-check has a model listen to a mix and second-guess
+the app's tempo, key and meter detection. Study 4 synthesized mixes
+whose facts are true by construction, verified the pulse was physically
+in the audio, and ablated the text that rides beside it.
+
+The second opinion reads; it does not hear. Blind, two gemini
+generations pin tempo to a genre prior at confidence 1.0 and miss the
+key 10+ times out of 12; given wrong candidates they echo them; given
+the song's chart they are perfect on every field and place every
+change within four seconds. The feature's real value is the
+chart-anchoring path.
+
+Registration: [docs/BRIEF-STUDY4.md](docs/BRIEF-STUDY4.md) (the stop
+rule fired twice and its premise was then mechanically discharged).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
