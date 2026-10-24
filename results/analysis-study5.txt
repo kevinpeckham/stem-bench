@@ -1,0 +1,21 @@
+$ bun scripts/analyze-study5.ts
+
+=== C5-png (reader: fable D-image) ===
+reader wrong facts: 1/38; listener wrong fields: 0
+propagation: pass 37, listener-added 0, propagated 0, rescued 1, mutated 0
+S5-G1 (listener-added ≤ 2): 0 → PASS
+
+=== C5-pdf (reader: fable D-pdf) ===
+reader wrong facts: 1/38; listener wrong fields: 0
+propagation: pass 37, listener-added 0, propagated 0, rescued 1, mutated 0
+S5-G1 (listener-added ≤ 2): 0 → PASS
+
+Ceiling (Study 4 frozen L-chart, truth summaries): listener wrong fields:
+  0 (the composed arms' listener-added counts compare to this)
+
+Per-item anatomy (reader-wrong facts and what the listener did):
+  C5-png mod-b keyChange: rescued (reader [], listener [{"at":20.2,"key":"C major"}], truth [{"at":20.210526315789473,"key":"C major"}])
+  C5-pdf mod-b keyChange: rescued (reader [], listener [{"at":20.2,"key":"C major"}], truth [{"at":20.210526315789473,"key":"C major"}])
+
+Cost:
+  reader+listener tokens: 131827 in / 28479 out

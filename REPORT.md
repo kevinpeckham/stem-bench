@@ -1,5 +1,58 @@
 # stem-bench REPORT
 
+## Study 5 — the composed pipeline: when the reader feeds the listener (2026-10-24)
+
+**Question.** Studies 3 and 4 measured chart-read and the song-check
+separately; production composes them — the chart beside the mix is
+chart-read's imperfect output, not truth. Registered in
+docs/BRIEF-STUDY5.md: Study 4's 12 metered mixes, their matching lead
+sheets engraved by Study 3's pipeline, read by production's chart-read
+(fable, PNG and PDF arms), the output fed to production's song-check in
+place of truth; Study 4's frozen L-chart cells as the ceiling; a
+committed propagation classifier (pass / listener-added / propagated /
+rescued / mutated over five fields). Total spend ≈ $3.4 of the $6
+fence.
+
+**The study's biggest result is what its first run caught: a
+cross-study confound.** The C5-pdf reader reported chords printed
+without flats, and the mechanism check proved pdfkit's WinAnsi fonts
+silently drop the SMuFL accidental glyphs Verovio writes into chord
+text — every "Eb" in every committed PDF rendered as "E" (see Study
+3's Correction below; the fix, ASCII accidentals, is committed and all
+affected cells across both studies were discarded and re-run).
+
+**Final verdicts (corrected fixture): S5-G1 PASS in both arms at zero
+listener-added errors.** The reader made exactly one error across both
+arms and 38 facts per arm (it omitted mod-b's relative-major
+modulation line from the summary), and the listener RESCUED it both
+times, placing the C-major change at 20.2 s against a 20.21 s truth —
+by reading the chart's chord content (the progression turns to C
+material), not by hearing: Study 4's blind arm found 0/6 changes. The
+propagation table is 37 pass + 1 rescued per arm; nothing propagated,
+nothing mutated, nothing listener-added. With a competent reader the
+composed chain equals its ceiling.
+
+The first (confounded) run earns its own record: its PDF arm showed
+the chain faithfully TRANSMITTING upstream damage — a reader
+reasonably naming D major for a B-minor sheet whose F#7 printed as F7,
+the listener propagating it 1:1; and reader positional errors (a
+modulation read at m12 instead of m9) converting to confidently wrong
+second-placements downstream. The corrected run shows none of these
+because the pages are no longer lying. Both runs together give the
+honest composition story: **the chain adds nothing of its own — it is
+exactly as good as the page its reader is shown.** Ship guidance
+accordingly: the song-check inherits chart-read's accuracy 1:1, so
+surfacing the chart summary for user correction protects everything
+downstream; and upstream PDF corruption is detectable (fable flagged
+the key-vs-chords inconsistency unprompted in a Note) but not
+recoverable.
+
+Disclosure: analyst Claude Fable 5; the reader is claude-fable-5-1,
+every grade mechanical and committed before any scored run; the
+ceiling cells are reused frozen records; Amendment 1 (the confound and
+the classifier's positional-attribution note) preceded the corrected
+run.
+
 ## Study 4 — the listening layer: the second opinion reads, it does not hear (2026-10-23)
 
 **Question.** stem-shovel's song-check has a model LISTEN to a mix and
@@ -149,12 +202,44 @@ costume. Published as failed.
    (one model fabricated, and it was not an anthropic one); 5 right
    for gemini and fable, refuted by opus.
 
+### Correction (2026-10-24, found by Study 5): the PDF arm measured corrupted pages
+
+Study 5's anatomy exposed that pdfkit's WinAnsi fonts cannot encode
+the SMuFL accidental glyphs Verovio writes into chord text, so every
+PDF chord accidental in this study's fixture silently rendered as its
+natural ("Eb" as "E", "F#7" as "F7"). The decisive split: fable's
+D-pdf chord recall was ~94% on sharp/natural-key items and ~55% on
+flat-key items. The PDFs were re-rendered with chart-ASCII accidentals
+and every readable D-pdf cell re-run (archived originals in
+results/archive/study3-dpdf-accidentals-confounded/). Corrected D-pdf
+chord recall: **fable 76.0% → 99.3%, gemini 70.4% → 99.3%**, opus
+82.5% → 74.2% (its better-on-PDF oddity shrinks into re-run noise),
+haiku unchanged (0%, the stub behavior). Keys, repeats and specials
+rose to 100% for fable.
+
+Finding 2 as first published is therefore WITHDRAWN in its mechanism
+and magnitude: for frontier models the PDF ingestion path is NOT a
+bottleneck — they read a clean PDF as well as a clean PNG. The models
+in the confounded arm were not failing to read; they were correctly
+reading pages whose flats genuinely were not drawn. What replaces it:
+**PDF text generation is the hazard** — font encodings of the
+WinAnsi class silently drop music accidentals at authoring time, the
+corruption survives any ingestion path including rasterization, and it
+is detectable (the key signature disagreeing with chord spellings —
+fable flagged exactly this unprompted) but not recoverable. The
+"rasterize PDFs app-side" ship guidance is withdrawn as unnecessary
+for clean PDFs and useless for corrupt ones; the replacement guidance
+is a key-vs-chords consistency check on chart-read output. Gates
+unchanged (S3-H1 was pooled keys, still 91.7% PASS; S3-H2 unchanged).
+
 ### Disclosure
 
 Analyst Claude Fable 5; the matrix includes claude-fable-5-1. Every
 grade is mechanical, committed and tested before any scored run; the
 ground-truth instrument is production's own summary code, ported
-verbatim. Amendments 1–2 preceded all matrix cells.
+verbatim. Amendments 1–2 preceded all matrix cells; the Correction
+above postdates first publication and is mirrored on the dashboard and
+the article.
 
 ## Study 2 — does reasoning help a model write a drum beat? (2026-10-22)
 

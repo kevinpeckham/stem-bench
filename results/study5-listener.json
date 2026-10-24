@@ -410,6 +410,391 @@
 		"latencyMs": 7279
 	},
 	{
+		"itemId": "drift-4a",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1611,
+		"tokensOut": 431,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3033
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Eb major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1967,
+		"tokensOut": 666,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3997
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "G major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1664,
+		"tokensOut": 490,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3566
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided lead sheet exactly in C minor at 140 bpm."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided lead sheet exactly in C minor at 140 bpm.",
+		"confidence": 1,
+		"tokensIn": 1410,
+		"tokensOut": 579,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4329
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "A major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo is 60 bpm for the eighth-note pulse, as indicated in the chart and confirmed by the recording."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo is 60 bpm for the eighth-note pulse, as indicated in the chart and confirmed by the recording.",
+		"confidence": 1,
+		"tokensIn": 1611,
+		"tokensOut": 1016,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5515
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 76,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "E minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo of 76 bpm refers to the dotted quarter note pulse in 6/8 time."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo of 76 bpm refers to the dotted quarter note pulse in 6/8 time.",
+		"confidence": 1,
+		"tokensIn": 1443,
+		"tokensOut": 805,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5133
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 19.2,
+					"bpm": 140
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo shifts from 100 to 140 bpm at measure 9 (19.2 seconds)."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo shifts from 100 to 140 bpm at measure 9 (19.2 seconds).",
+		"confidence": 1,
+		"tokensIn": 1637,
+		"tokensOut": 1088,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5959
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 72,
+			"tempoChanges": [
+				{
+					"at": 26.7,
+					"bpm": 108
+				}
+			],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo shifts from 72 BPM to 108 BPM at measure 9, as indicated in the chart."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo shifts from 72 BPM to 108 BPM at measure 9, as indicated in the chart.",
+		"confidence": 1,
+		"tokensIn": 1935,
+		"tokensOut": 1375,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8257
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 90,
+			"tempoChanges": [
+				{
+					"at": 18,
+					"bpm": 120
+				}
+			],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo shifts from 90 to 120 BPM at measure 10, which occurs at 18 seconds."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo shifts from 90 to 120 BPM at measure 10, which occurs at 18 seconds.",
+		"confidence": 1,
+		"tokensIn": 1617,
+		"tokensOut": 1066,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5060
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"defer": null,
+		"notes": "",
+		"confidence": null,
+		"tokensIn": 1692,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 9713
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 95,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [
+				{
+					"at": 20.2,
+					"key": "C major"
+				}
+			],
+			"confidence": 0.95,
+			"notes": "The piece modulates from A minor to its relative major, C major, at the halfway point."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece modulates from A minor to its relative major, C major, at the halfway point.",
+		"confidence": 0.95,
+		"tokensIn": 1822,
+		"tokensOut": 1350,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6558
+	},
+	{
 		"itemId": "mod-c",
 		"arm": "C5-png",
 		"model": "google/gemini-3-flash",
@@ -422,6 +807,46 @@
 		"tokensOut": 1996,
 		"outcome": "parse-error",
 		"error": "The model's answer did not make sense",
-		"latencyMs": 10090
+		"latencyMs": 10721
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "C5-pdf",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [
+				{
+					"at": 15.24,
+					"key": "F major"
+				}
+			],
+			"confidence": 1,
+			"notes": "The song follows the provided chart exactly, modulating from D major to F major at measure 9."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The song follows the provided chart exactly, modulating from D major to F major at measure 9.",
+		"confidence": 1,
+		"tokensIn": 1577,
+		"tokensOut": 941,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6261
 	}
 ]
