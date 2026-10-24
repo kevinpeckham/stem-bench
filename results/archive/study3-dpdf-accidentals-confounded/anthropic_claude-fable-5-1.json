@@ -1,0 +1,652 @@
+[
+	{
+		"itemId": "harbor-run",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Harbor Run\nPart: Lead Sheet\nm1 key G major 4/4 tempo 120 [A Verse]: G\nm2: C\nm3: D\nm4: G\nm5: Em\nm6: C\nm7: D\nm8: D\nm9 [B Chorus]: C\nm10: D\nm11: G\nm12: Em\nm13: C\nm14: D\nm15: G\nm16: G",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 16,
+			"exact": 16,
+			"near": 16,
+			"modelChords": 16,
+			"precise": 16
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 16
+		},
+		"measureLines": 16,
+		"tokensIn": 2291,
+		"tokensOut": 133,
+		"latencyMs": 4461
+	},
+	{
+		"itemId": "ashen-waltz",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Ashen Waltz\nPart: Piano\nm1 key E♭ major 3/4 tempo 90: E\nm2: A\nm3: B7\nm4: E\nm5: Cm\nm6: Fm\nm7: B7\nm8: E\nm9 key C minor \"Trio\": Cm\nm10: Fm\nm11: G7\nm12: Cm\nm13: A\nm14: Fm\nm15: G7\nm16: Cm\nm17 key E♭ major: E\nm18: A\nm19: B7\nm20: E\nNote: The chord symbols are reproduced as printed (\"E\", \"A\", \"B7\"); in this three-flat signature they are almost certainly E♭, A♭, B♭7 with the flat signs missing from the engraving. The key signature at m9 and m17 is re-stated as a cautionary signature (still three flats); the minor/major labels follow the chords.",
+		"classes": {
+			"keys": {
+				"total": 3,
+				"exact": 3,
+				"near": 3
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 20,
+			"exact": 9,
+			"near": 9,
+			"modelChords": 20,
+			"precise": 9
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 20
+		},
+		"measureLines": 20,
+		"tokensIn": 2309,
+		"tokensOut": 871,
+		"latencyMs": 11855
+	},
+	{
+		"itemId": "copper-line",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Copper Line\nPart: Guitar (1 part)\nm1 key D major 4/4 tempo 132: D\nm2: A7\nm3: Bm7\nm4: G\nm5 \"Verse\" |: : D\nm6: GMaj7\nm7: A7\nm8: D\nm9: Bm7\nm10: Em7\nm11 ending 1 :| : A7\nm12 ending 2: A7\nm13: D7\nm14 \"Bridge\": G\nm15: Gm\nm16: D\nm17: B7\nm18: Em7\nm19: A7\nm20: D\nm21: Bm7\nm22: Em7\nm23: A7\nm24: D",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"endings": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 24,
+			"exact": 24,
+			"near": 24,
+			"modelChords": 24,
+			"precise": 24
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 24
+		},
+		"measureLines": 24,
+		"tokensIn": 2341,
+		"tokensOut": 213,
+		"latencyMs": 5881
+	},
+	{
+		"itemId": "night-ferry",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Night Ferry\nPart: Lead Sheet\nm1 key B minor 4/4 tempo 76: Bm\nm2: G\nm3: D\nm4: A\nm5: Bm\nm6: G\nm7: Em7\nm8: F7\nm9 \"Chorus\": G\nm10: A\nm11: Bm\nm12: Bm\nm13 6/8 \"Outro\": Bm\nm14: G\nm15: D\nm16: A\nm17: Bm\nm18: G\nm19: F7\nm20: Bm",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 20,
+			"exact": 18,
+			"near": 18,
+			"modelChords": 20,
+			"precise": 18
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 20
+		},
+		"measureLines": 20,
+		"tokensIn": 2315,
+		"tokensOut": 450,
+		"latencyMs": 5210
+	},
+	{
+		"itemId": "golden-mile",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Golden Mile\nPart: Vocal\nm1 key F major 4/4 tempo 104 [A]: F\nm2: Dm\nm3: B\nm4: C\nm5: F\nm6: Am\nm7: Dm\nm8: B\nm9 \"Chorus\": B\nm10: C\nm11: F\nm12: Dm\nm13: B\nm14: C\nm15: F\nm16: C7\nm17 key G major [B] \"Up a step\": G\nm18: Em\nm19: C\nm20: D\nm21: C\nm22: D\nm23: G\nm24: G",
+		"classes": {
+			"keys": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"words": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 24,
+			"exact": 20,
+			"near": 20,
+			"modelChords": 24,
+			"precise": 20
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 24
+		},
+		"measureLines": 24,
+		"tokensIn": 2312,
+		"tokensOut": 534,
+		"latencyMs": 9572
+	},
+	{
+		"itemId": "slate-sky",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Slate Sky\nPart: Guitar\nm1 key A major 4/4 tempo 140 \"Intro\": A5\nm2: A5\nm3: D5\nm4: E5\nm5 \"Verse\": A\nm6: Asus4\nm7: Fm\nm8: D\nm9: A\nm10: Esus4\nm11: E\nm12: A\nm13 \"Chorus\": D\nm14: E\nm15: A\nm16: Fm\nm17: D\nm18: E\nm19: A5\nm20: A5\nm21 \"Verse 2\": A\nm22: Asus2\nm23: Fm\nm24: D\nm25: A\nm26: Esus4\nm27: E\nm28: A\nm29 \"Chorus 2\": D\nm30: E\nm31: A\nm32: Fm\nm33: D\nm34: E\nm35: A5\nm36: A5\nm37 \"Outro\": D\nm38: A\nm39: D\nm40: A\nm41: E\nm42: D\nm43: A5\nm44: A5\nm45: D\nm46: A\nm47: E\nm48: A5",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 6,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 48,
+			"exact": 44,
+			"near": 44,
+			"modelChords": 48,
+			"precise": 44
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 48
+		},
+		"measureLines": 48,
+		"tokensIn": 5512,
+		"tokensOut": 340,
+		"latencyMs": 7089
+	},
+	{
+		"itemId": "winter-pier",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Winter Pier\nPart: Piano (1 part)\nm1 key C minor 4/4 tempo 66: Cm\nm2: A\nm3: E/G\nm4: B\nm5: Cm\nm6: Dm75\nm7: G7\nm8: Cm\nm9 \"Chorus\": A\nm10: B\nm11: Cm\nm12: E/G\nm13: A\nm14: B\nm15: E\nm16: G7\nm17: Cm\nm18: A\nm19: Dm75\nm20: G7\nm21: Cm\nm22: A\nm23: G7\nm24: Cm\nm25: Fm\nm26: Cm/G\nm27: G7\nm28: Cm\nNote: Chord symbols are given exactly as printed; the rendering appears to have dropped flat signs (e.g. \"A\", \"B\", \"E/G\", \"Dm75\" are likely A♭, B♭, E♭/G, Dm7♭5 in C minor), but the score as shown does not display them.",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 28,
+			"exact": 15,
+			"near": 15,
+			"modelChords": 28,
+			"precise": 15
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 28
+		},
+		"measureLines": 28,
+		"tokensIn": 2340,
+		"tokensOut": 854,
+		"latencyMs": 11782
+	},
+	{
+		"itemId": "lantern-row",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Lantern Row\nPart: Lead Sheet\nm1 key E major 4/4 tempo 92: E\nm2: A\nm3: B\nm4: E\nm5: Cm\nm6: A\nm7: B\nm8: B\nm9: E\nm10: Gm\nm11: A\nm12: B\nm13 tempo 116 \"Double feel\": E\nm14: A\nm15: B\nm16: Cm\nm17: A\nm18: B\nm19: E\nm20: E\nm21: A\nm22: B\nm23: E\nm24: E",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 4,
+				"exact": 4,
+				"near": 4
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 24,
+			"exact": 21,
+			"near": 21,
+			"modelChords": 24,
+			"precise": 21
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 24
+		},
+		"measureLines": 24,
+		"tokensIn": 2309,
+		"tokensOut": 174,
+		"latencyMs": 5494
+	},
+	{
+		"itemId": "quarry-road",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Quarry Road\nPart: Lead Sheet\nm1 key B♭ major 4/4 tempo 112 \"Head\": B\nm2: Gm\nm3: E\nm4: F\nm5 \"segno\": B\nm6: E6\nm7: F7\nm8: B\nm9: Gm\nm10: Cm7\nm11: F7\nm12: B\nm13 \"Solo\" |: : E\nm14: F\nm15: B\nm16: Gm\nm17: E\nm18: F\nm19: B\nm20 :| : F7\nm21 \"coda\": E\nm22: F\nm23: B\nm24: Gm\nm25: E\nm26: F\nm27: B\nm28: B\nm29: E\nm30: F\nm31: B\nm32: Gm\nm33: Cm7\nm34: F7\nm35 \"Fine\": B\nm36: B\nm37: E\nm38: F\nm39: B\nm40: Gm\nm41: E\nm42: F\nm43: B\nm44: F7\nm45: B\nm46: E\nm47: F7\nm48: B\nNote: The chord symbols print as \"B\" and \"E\" without accidentals; given the two-flat key signature and the melody, they are very likely B♭ and E♭ with the flat glyphs missing from the engraving, but I have written them as shown. The segno (m5) and coda sign (m21) appear only as symbols; no \"D.S.\" text is printed.",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"repeats": {
+				"total": 3,
+				"exact": 2,
+				"near": 2
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 3,
+				"exact": 3,
+				"near": 3
+			}
+		},
+		"chords": {
+			"total": 47,
+			"exact": 21,
+			"near": 21,
+			"modelChords": 48,
+			"precise": 21
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 48
+		},
+		"measureLines": 48,
+		"tokensIn": 5480,
+		"tokensOut": 1038,
+		"latencyMs": 15565
+	},
+	{
+		"itemId": "still-water",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-fable-5-1",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Still Water\nPart: Lead Sheet\nm1 key A minor 6/8 tempo 60: Am\nm2: F\nm3: C\nm4: G\nm5: Am\nm6: F\nm7: E7\nm8: Am\nm9 \"Break\"\nm10: F\nm11: G\nm12: Am\nm13: Dm\nm14: Am\nm15: E7\nm16: Am",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 16,
+			"exact": 15,
+			"near": 15,
+			"modelChords": 15,
+			"precise": 15
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 15
+		},
+		"measureLines": 16,
+		"tokensIn": 2286,
+		"tokensOut": 128,
+		"latencyMs": 7343
+	}
+]

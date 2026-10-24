@@ -88,6 +88,23 @@ Authorized by Kevin's "Proceed" (2026-10-24).
 | Mutations or listener-added common | Composition adds its own error class; the two-model chain is less reliable than its parts and the product should surface intermediate output for correction |
 | Reader fails outright on these simple sheets | Study 3's corpus was harder than these one-page loops; a reader floor this low would revise Study 3's per-class read downward |
 
+## Amendment 1 (2026-10-24, after the first run): the C5-pdf arm inherited a fixture artifact — and found it
+
+The composed chain worked as designed and its anatomy caught a bug
+upstream of both studies: the C5-pdf reader reported flat-less chords,
+tracing to pdfkit dropping Verovio's SMuFL text accidentals from every
+PDF (see BRIEF-STUDY3.md "Correction"). The PDFs are re-rendered with
+ASCII accidentals; the C5-pdf reader and listener cells are discarded
+(results/archive/study5-pdf-accidentals/) and re-run; C5-png cells and
+the frozen ceiling are untouched. Also disclosed from the first run's
+classification: the value-level fact extraction attributes a reader's
+POSITIONAL error (a modulation read at the wrong measure) to the
+listener, because the listener faithfully converts the wrong measure
+to seconds — two of the first run's three "listener-added" errors were
+this. The classifier is unchanged (registered before the run); the
+analysis reports position-propagation explicitly in the anatomy, and
+the gate verdict is read with that attribution noted.
+
 ## Disclosure
 
 Analyst Claude Fable 5; the reader is claude-fable-5-1 (same family)

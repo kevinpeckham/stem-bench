@@ -1,0 +1,427 @@
+[
+	{
+		"itemId": "drift-4a",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1611,
+		"tokensOut": 458,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3472
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Eb major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly, maintaining a steady tempo and key throughout."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly, maintaining a steady tempo and key throughout.",
+		"confidence": 1,
+		"tokensIn": 2027,
+		"tokensOut": 672,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4404
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "G major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1664,
+		"tokensOut": 559,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3474
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key, concluding at measure 16."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in terms of tempo, meter, and key, concluding at measure 16.",
+		"confidence": 1,
+		"tokensIn": 1470,
+		"tokensOut": 1111,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6045
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "A major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo of 60 bpm refers to the dotted quarter note in 6/8 time."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo of 60 bpm refers to the dotted quarter note in 6/8 time.",
+		"confidence": 1,
+		"tokensIn": 1645,
+		"tokensOut": 1093,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5375
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 76,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "E minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The recording follows the provided chart exactly in tempo, meter, and key."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The recording follows the provided chart exactly in tempo, meter, and key.",
+		"confidence": 1,
+		"tokensIn": 1443,
+		"tokensOut": 478,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3195
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 19.2,
+					"bpm": 140
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo shifts from 100 to 140 bpm at measure 9 (19.2 seconds)."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo shifts from 100 to 140 bpm at measure 9 (19.2 seconds).",
+		"confidence": 1,
+		"tokensIn": 1637,
+		"tokensOut": 1088,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5969
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 72,
+			"tempoChanges": [
+				{
+					"at": 26.7,
+					"bpm": 108
+				}
+			],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo shifts from 72 to 108 bpm at measure 9 (26.7 seconds)."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo shifts from 72 to 108 bpm at measure 9 (26.7 seconds).",
+		"confidence": 1,
+		"tokensIn": 1998,
+		"tokensOut": 1204,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6550
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 90,
+			"tempoChanges": [
+				{
+					"at": 18,
+					"bpm": 120
+				}
+			],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [],
+			"confidence": 1,
+			"notes": "The tempo increases from 90 BPM to 120 BPM at measure 10, which occurs at 18 seconds."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 1,
+			"tempoChangesTotal": 1,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 0,
+			"keyChangesTotal": 0,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The tempo increases from 90 BPM to 120 BPM at measure 10, which occurs at 18 seconds.",
+		"confidence": 1,
+		"tokensIn": 1661,
+		"tokensOut": 1033,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5208
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 110,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [
+				{
+					"at": 17.5,
+					"key": "G major"
+				}
+			],
+			"confidence": 1,
+			"notes": "The piece modulates up a whole step from F major to G major at measure 9."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece modulates up a whole step from F major to G major at measure 9.",
+		"confidence": 1,
+		"tokensIn": 1720,
+		"tokensOut": 848,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4965
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"tempo": 95,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [
+				{
+					"at": 20.2,
+					"key": "C major"
+				}
+			],
+			"confidence": 0.95,
+			"notes": "The piece modulates from A minor to its relative major, C major, at the halfway point."
+		},
+		"grade": {
+			"tempoCorrect": true,
+			"octaveError": false,
+			"meterCorrect": true,
+			"keyCorrect": true,
+			"tempoChangesFound": 0,
+			"tempoChangesTotal": 0,
+			"falseTempoChanges": 0,
+			"keyChangesFound": 1,
+			"keyChangesTotal": 1,
+			"falseKeyChanges": 0,
+			"inventedTempo": false
+		},
+		"defer": null,
+		"notes": "The piece modulates from A minor to its relative major, C major, at the halfway point.",
+		"confidence": 0.95,
+		"tokensIn": 1822,
+		"tokensOut": 1350,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7279
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "C5-png",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"defer": null,
+		"notes": "",
+		"confidence": null,
+		"tokensIn": 1647,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10090
+	}
+]

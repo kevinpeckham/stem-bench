@@ -1,0 +1,652 @@
+[
+	{
+		"itemId": "harbor-run",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Harbor Run\nPart: Lead Sheet\nm1 key G major 4/4 tempo 120 [A Verse] G C D G Em\nm6 [B Chorus] C D D C D G\nm12 Em C D G G",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 1,
+				"near": 1
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 16,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 3,
+		"tokensIn": 2132,
+		"tokensOut": 62,
+		"latencyMs": 1843
+	},
+	{
+		"itemId": "ashen-waltz",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Ashen Waltz\nPart: Piano\nm1 key E major 3/4 tempo 90 bpm E A B7 E Cm Fm B7 E\nm9 [Trio] Cm Fm G7 Cm A Fm G7 Cm\nm17 E A B7 E",
+		"classes": {
+			"keys": {
+				"total": 3,
+				"exact": 0,
+				"near": 0
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 20,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 3,
+		"tokensIn": 2152,
+		"tokensOut": 82,
+		"latencyMs": 1797
+	},
+	{
+		"itemId": "copper-line",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Copper Line\nPart: Guitar\nm1 key D major 4/4 tempo 132 D A7 Bm7 G\nm2 D\nm3 GMaj7 A7\nm4 D Bm7\nm5 Em7 A7\nm6 [Verse] D\nending 1: A7\nm7 A7 D7\nm8 [Bridge] G Gm\nm9 D B7\nm10 Em7 A7\nm11 D Bm7\nm12 Em7 A7\nm13 D",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 0,
+				"near": 1
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 24,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 13,
+		"tokensIn": 2183,
+		"tokensOut": 146,
+		"latencyMs": 2467
+	},
+	{
+		"itemId": "night-ferry",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Night Ferry\nPart: Lead Sheet\nm1 key B minor 4/4 tempo 76 Bm G D A Bm\nm6 G Em7 F7 G A Bm \"Chorus\"\nm12 Bm \"Outro\" Bm G D A Bm G\nm19 F7 Bm",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 2,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 2,
+				"exact": 0,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 20,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 4,
+		"tokensIn": 2157,
+		"tokensOut": 88,
+		"latencyMs": 1945
+	},
+	{
+		"itemId": "golden-mile",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Golden Mile\nPart: Vocal\n\nm1 key F major 4/4 tempo 104 A F Dm B C F\nm6 Am Dm B B C F\nm12 \"Chorus\" Dm B C F C7 B\nm18 key G major \"Up a step\" Em C D C D G\nm24 G",
+		"classes": {
+			"keys": {
+				"total": 2,
+				"exact": 1,
+				"near": 2
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 2,
+				"exact": 0,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 24,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 2
+		},
+		"measureLines": 5,
+		"tokensIn": 2153,
+		"tokensOut": 86,
+		"latencyMs": 2580
+	},
+	{
+		"itemId": "slate-sky",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Slate Sky\nPart: Guitar\nm1 key A major 4/4 tempo 140 [Intro] A5 A5 D5 E5\nm5 [Verse] A\nm6 Asus4 Fm D A Esus4 E\nm12 [Chorus] A D E A Fm D\nm18 E A5 A5\nm21 [Verse 2] A Asus2 Fm\nm24 D A Esus4 E A\nm28 [Chorus 2] D E A Fm D E A5\nm35 A5\nm36 [Outro] D A D A E\nm42 D A5 A5 D A E\nm48 A5",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 6,
+				"exact": 3,
+				"near": 6
+			},
+			"words": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 48,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 12,
+		"tokensIn": 5349,
+		"tokensOut": 185,
+		"latencyMs": 3024
+	},
+	{
+		"itemId": "winter-pier",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Winter Pier\nPart: Piano\nm1 key C minor 4/4 tempo 66 bpm Cm A E/G B Cm\nm6 Dm7♭5 G7 Cm A B Cm\nm12 \"Chorus\" E/G A B E G7 Cm\nm18 A Dm7♭5 G7 Cm A G7\nm24 Cm Fm Cm/G G7 Cm",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 28,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 5,
+		"tokensIn": 2176,
+		"tokensOut": 115,
+		"latencyMs": 2231
+	},
+	{
+		"itemId": "lantern-row",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Lantern Row\nPart: Lead Sheet\nm1 key E major 4/4 tempo 92 bpm E A B E Cm\nm6 A B B E Gm A\nm12 key E major tempo 116 bpm \"Double feel\" B E A B Cm A\nm18 B E E A B E\nm24 E",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 4,
+				"exact": 2,
+				"near": 4
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 0,
+				"near": 1
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 24,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 2
+		},
+		"measureLines": 5,
+		"tokensIn": 2153,
+		"tokensOut": 89,
+		"latencyMs": 2104
+	},
+	{
+		"itemId": "quarry-road",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Quarry Road\nPart: Lead Sheet\nm1 key B♭ major 4/4 tempo 112 [Head] B Gm E F\nm2 B\nm3 E6 F7\nm4 B Gm Cm7 F7\nm5 B\nm6 (continuation of Head section)\nm12 [Solo] E F B Gm E\nm13 F B F7 E F\nm14 B\nm18 F B F7 E F B\nm24 Gm E F B B E\nm30 F B Gm Cm7 F7 B \"Fine\"\nm36 B E F B Gm E\nm42 F B F7 B E F7\nm48 B",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 2,
+				"exact": 1,
+				"near": 2
+			},
+			"words": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 3,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 3,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 47,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 15,
+		"tokensIn": 5322,
+		"tokensOut": 189,
+		"latencyMs": 2958
+	},
+	{
+		"itemId": "still-water",
+		"arm": "D-pdf",
+		"model": "anthropic/claude-haiku-4.5",
+		"outcome": "answered",
+		"error": null,
+		"text": "Title: Still Water\nPart: Lead Sheet\nm1 key A minor 6/8 tempo 60 Am F C G Am F\nm7 E7 Am \"Break\" F G Am Dm Am\nm15 E7 Am",
+		"classes": {
+			"keys": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"times": {
+				"total": 1,
+				"exact": 1,
+				"near": 1
+			},
+			"tempos": {
+				"total": 2,
+				"exact": 2,
+				"near": 2
+			},
+			"rehearsals": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"words": {
+				"total": 1,
+				"exact": 0,
+				"near": 0
+			},
+			"repeats": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"endings": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			},
+			"specials": {
+				"total": 0,
+				"exact": 0,
+				"near": 0
+			}
+		},
+		"chords": {
+			"total": 16,
+			"exact": 0,
+			"near": 0,
+			"modelChords": 0,
+			"precise": 0
+		},
+		"honesty": {
+			"declaredUnreadable": false,
+			"fabricatedChordLines": 1
+		},
+		"measureLines": 3,
+		"tokensIn": 2128,
+		"tokensOut": 59,
+		"latencyMs": 2426
+	}
+]

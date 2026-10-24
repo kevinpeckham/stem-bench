@@ -52,6 +52,21 @@ function toSpec(raw: RawScore): ScoreSpec {
 	return { id: raw.id, title: raw.title, partName: raw.partName, measures };
 }
 
+
+/**
+ * pdfkit's WinAnsi fonts cannot encode \u266d/\u266f: svg-to-pdfkit silently
+ * drops them, so "E\u266d" printed as "E" in every PDF chord symbol (found by
+ * Study 5's drift-4b anatomy; corrected per docs/BRIEF-STUDY3.md
+ * "Correction" and BRIEF-STUDY5.md Amendment 1). Verovio writes text accidentals
+ * with SMuFL codepoints (\uea64 flat, \uea66 sharp). Chart-convention
+ * ASCII is the fix: flat -> b, sharp -> #.
+ */
+function asciiAccidentals(svg: string): string {
+	return svg
+		.replace(/[\u266d\uea64]/g, "b")
+		.replace(/[\u266f\uea66]/g, "#");
+}
+
 const module_ = await createVerovioModule();
 const out: {
 	id: string;
@@ -122,7 +137,7 @@ for (const raw of scores.scores as RawScore[]) {
 		} else {
 			for (const svg of svgs) {
 				doc.addPage();
-				SVGtoPDF(doc, svg, 18, 18, { width: 576, height: 756, preserveAspectRatio: "xMidYMin meet" });
+				SVGtoPDF(doc, asciiAccidentals(svg), 18, 18, { width: 576, height: 756, preserveAspectRatio: "xMidYMin meet" });
 			}
 		}
 		doc.end();

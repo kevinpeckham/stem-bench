@@ -166,6 +166,28 @@ Gates, grading and fences unchanged. Calibration lesson recorded:
 vision models read far below the resolution a human finds legible, so
 an unreadability probe must be set by model behavior, not eyesight.
 
+## Correction (2026-10-24, found by Study 5's anatomy): the PDF arm was confounded by the fixture's own renderer
+
+Study 5's drift-4b cell surfaced it: the reader reported the PDF's
+chord symbols printed WITHOUT flats, and the mechanism check confirmed
+pdfkit's WinAnsi fonts cannot encode the accidental glyphs Verovio
+writes into harmony text (SMuFL \uea64/\uea66) — svg-to-pdfkit drops
+them silently, so every PDF chord accidental ("Eb", "F#7") rendered as
+its natural ("E", "F7"). The split is decisive: fable's D-pdf chord
+recall was ~94% on sharp/natural-key items and ~55% on flat-key items.
+Study 3's published "PDF ingestion gap" is therefore substantially a
+FIXTURE artifact, not provider plumbing (the per-provider component —
+opus reading PDFs better than images — stands, but the magnitude was
+inflated). Fix: text accidentals substitute to chart-convention ASCII
+before PDF embedding (committed in build-fixture3.ts); all readable
+D-pdf cells for all four models are discarded
+(results/archive/study3-dpdf-accidentals-confounded/) and re-run
+against the corrected PDFs; D-image cells and the probe (whose PDF
+embeds a raster) are untouched. The REPORT's finding #2 carries the
+correction. The ship guidance survives on new grounds: PDF text
+encoding is treacherous end to end — our own pipeline proved it —
+which is itself an argument for rasterizing.
+
 ## Disclosure
 
 The analyst model is Claude Fable 5; the matrix includes
