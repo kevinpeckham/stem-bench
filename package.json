@@ -20,7 +20,10 @@
 		"fixture4": "bun scripts/build-fixture4.ts",
 		"study4:pilot": "bun scripts/run-study4.ts --pilot",
 		"study4:matrix": "bun scripts/run-study4.ts --matrix",
-		"study4:analyze": "bun scripts/analyze-study4.ts"
+		"study4:analyze": "bun scripts/analyze-study4.ts",
+		"fixture5": "bun scripts/build-fixture5.ts",
+		"study5:run": "bun scripts/run-study5.ts",
+		"study5:analyze": "bun scripts/analyze-study5.ts"
 	},
 	"dependencies": {
 		"@ai-sdk/gateway": "^4.0.82",
