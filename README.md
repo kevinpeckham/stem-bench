@@ -55,10 +55,15 @@ notation-reading benchmark.
 
 The shipping model reads engraved notation from a clean image at 98.8%
 exact chord recall with zero measure drift, about six cents a score.
-The bottleneck is PDF ingestion, not notation reading: the identical
-page as a PDF loses 20+ points on three of four models. One model
-fabricated a key and meter from an unreadable 80 px page rather than
-say so; the honesty gate is published as failed by letter.
+One model fabricated a key and meter from an unreadable 80 px page
+rather than say so; the honesty gate is published as failed by letter.
+
+CORRECTED 2026-10-24 (found by Study 5): the PDF-gap finding was a
+fixture artifact — our PDF generation silently dropped chord
+accidentals, and the models were correctly reading corrupted pages.
+On clean PDFs the frontier models read 99.3%, equal to images; the
+real hazard is accidental-dropping PDF authoring, detectable but not
+recoverable. Details in REPORT.md's Study 3 Correction.
 
 Registration: [docs/BRIEF-STUDY3.md](docs/BRIEF-STUDY3.md) (with two
 disclosed fixture amendments). Findings: [REPORT.md](REPORT.md).
@@ -80,6 +85,19 @@ chart-anchoring path.
 Registration: [docs/BRIEF-STUDY4.md](docs/BRIEF-STUDY4.md) (the stop
 rule fired twice and its premise was then mechanically discharged).
 Findings: [REPORT.md](REPORT.md).
+
+## Study 5: the composed pipeline
+
+The real production chain — engraved page, chart-read, chart-anchored
+song-check — measured end to end with a propagation classifier. Its
+first run's anatomy caught the Study 3 confound above (the composition
+study audited its predecessors); after the fix, both gates pass at
+zero added errors: the chain is exactly as good as the page its reader
+is shown, and the one reader omission was rescued by the listener
+reading the chart's chords.
+
+Registration: [docs/BRIEF-STUDY5.md](docs/BRIEF-STUDY5.md). Findings:
+[REPORT.md](REPORT.md).
 
 ## Run it
 
