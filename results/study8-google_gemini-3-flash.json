@@ -1,0 +1,1453 @@
+[
+	{
+		"itemId": "drift-4a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 8,
+					"name": "Verse"
+				},
+				{
+					"at": 24,
+					"name": "Chorus"
+				},
+				{
+					"at": 40,
+					"name": "Verse 2"
+				},
+				{
+					"at": 56,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 72,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard 8-bar section structure at 120 bpm, with the intro and outro being 4 bars each."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 1073,
+		"tokensOut": 1013,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5707
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 8,
+					"name": "Verse 1"
+				},
+				{
+					"at": 24,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 40,
+					"name": "Verse 2"
+				},
+				{
+					"at": 56,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 72,
+					"name": "Bridge"
+				},
+				{
+					"at": 88,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 104,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard structure with 8-bar sections at 120 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 7,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 7
+		},
+		"tokensIn": 1102,
+		"tokensOut": 1784,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9076
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 16,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The song follows the 16-measure chart exactly at 120 bpm, split into two 8-measure sections starting at the rehearsal mark."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 1,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 1
+		},
+		"tokensIn": 1393,
+		"tokensOut": 1990,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9735
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1415,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10056
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 11.4,
+					"name": "Verse 1"
+				},
+				{
+					"at": 34.3,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 57.1,
+					"name": "Verse 2"
+				},
+				{
+					"at": 80,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 102.8,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a consistent 8-bar phrasing at 84 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 1444,
+		"tokensOut": 1353,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6936
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1748,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 8995
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 15,
+					"name": "Verse"
+				},
+				{
+					"at": 30,
+					"name": "Chorus"
+				},
+				{
+					"at": 45,
+					"name": "Outro"
+				}
+			],
+			"notes": "The track follows a strict 8-bar phrase structure with transitions every 15 seconds based on the 96 bpm tempo in 3/4 time."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 3,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 3
+		},
+		"tokensIn": 1116,
+		"tokensOut": 1615,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 10190
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1145,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 13378
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1445,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10108
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 5.1,
+					"name": "Verse"
+				},
+				{
+					"at": 15.4,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The track follows a strict 4-bar phrasing structure in 3/4 time at 140 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 2,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 2
+		},
+		"tokensIn": 852,
+		"tokensOut": 1245,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6206
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 881,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 8066
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse 1"
+				},
+				{
+					"at": 10.3,
+					"name": "Verse 2"
+				},
+				{
+					"at": 20.6,
+					"name": "Outro"
+				}
+			],
+			"notes": "The recording follows the 18-bar chart exactly at 140 bpm in 3/4 time, consisting of two 8-bar verse sections and a 2-bar outro tag."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 2,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 2
+		},
+		"tokensIn": 1192,
+		"tokensOut": 1582,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8324
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1072,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 11247
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1101,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 9521
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 6.3,
+					"name": "Verse 1"
+				},
+				{
+					"at": 18.9,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 31.6,
+					"name": "Verse 2"
+				},
+				{
+					"at": 44.2,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 56.8,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a strict 8-bar section structure after a 4-bar intro."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 904,
+		"tokensOut": 882,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4861
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				}
+			],
+			"notes": "The recording follows the 16-measure chart exactly at a tempo of 60 bpm for the eighth note (6 seconds per measure)."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1392,
+		"tokensOut": 1974,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9855
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 12.6,
+					"name": "Verse"
+				},
+				{
+					"at": 25.3,
+					"name": "Chorus"
+				},
+				{
+					"at": 37.9,
+					"name": "Verse 2"
+				},
+				{
+					"at": 50.5,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 63.2,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard 8-bar section structure in 6/8 time at 76 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 933,
+		"tokensOut": 784,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5792
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1224,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10189
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 19.2,
+					"name": "Verse"
+				},
+				{
+					"at": 38.4,
+					"name": "Chorus"
+				},
+				{
+					"at": 57.6,
+					"name": "Verse 2"
+				},
+				{
+					"at": 76.8,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 96,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a consistent 8-bar phrase structure at 100 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 4,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1096,
+		"tokensOut": 1890,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9366
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 9.6,
+					"name": "Verse 1"
+				},
+				{
+					"at": 19.2,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 28.8,
+					"name": "Verse 2"
+				},
+				{
+					"at": 38.4,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 48,
+					"name": "Bridge"
+				},
+				{
+					"at": 57.6,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 67.2,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a consistent 4-bar structure for each section at 100 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 6,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 6
+		},
+		"tokensIn": 1125,
+		"tokensOut": 1164,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5429
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 13.3,
+					"name": "Verse 1"
+				},
+				{
+					"at": 40,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 53.3,
+					"name": "Verse 2"
+				},
+				{
+					"at": 80,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 93.3,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard Verse-Chorus structure with a clear 4-bar intro and outro."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1384,
+		"tokensOut": 1162,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6690
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 19.2,
+					"name": "Verse"
+				}
+			],
+			"notes": "The tempo increases from 100 bpm to 140 bpm at the start of the Verse."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1428,
+		"tokensOut": 1975,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9575
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 13.3,
+					"name": "Verse 1"
+				},
+				{
+					"at": 26.7,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 40,
+					"name": "Verse 2"
+				},
+				{
+					"at": 53.3,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 66.7,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a very regular 4-bar structure at 72 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 4,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1413,
+		"tokensOut": 1190,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5843
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 13.3,
+					"name": "Verse"
+				},
+				{
+					"at": 26.7,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The tempo increases from 72 bpm to 108 bpm at the start of the Chorus."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 1,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 1
+		},
+		"tokensIn": 1725,
+		"tokensOut": 1789,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8587
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1060,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 9930
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1089,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10274
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 18,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The recording follows the chart, shifting tempo from 90 bpm to 120 bpm at measure 10 (18.0s)."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1407,
+		"tokensOut": 1685,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8067
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1146,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10537
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 8.7,
+					"name": "Verse 1"
+				},
+				{
+					"at": 26.2,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 43.6,
+					"name": "Verse 2"
+				},
+				{
+					"at": 61.1,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 78.5,
+					"name": "Bridge"
+				},
+				{
+					"at": 96,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 113.5,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard pop structure with 8-bar sections at 110 BPM."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 0,
+			"falseBoundaries": 7,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 6
+		},
+		"tokensIn": 1175,
+		"tokensOut": 1180,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6675
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse 1"
+				},
+				{
+					"at": 17.5,
+					"name": "Verse 2"
+				}
+			],
+			"notes": "The song follows the chart's two 8-bar sections, with the second section modulating from F major to G major."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1473,
+		"tokensOut": 1580,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8147
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 10.1,
+					"name": "Verse"
+				},
+				{
+					"at": 30.3,
+					"name": "Chorus"
+				},
+				{
+					"at": 50.5,
+					"name": "Verse 2"
+				},
+				{
+					"at": 70.7,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 90.9,
+					"name": "Bridge"
+				},
+				{
+					"at": 111.2,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 131.4,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a consistent 8-bar phrasing structure at 95 bpm, with the Intro and Outro being 4 bars each."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 0,
+			"falseBoundaries": 7,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 6
+		},
+		"tokensIn": 1283,
+		"tokensOut": 1909,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9405
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 10.1,
+					"name": "Verse 1"
+				},
+				{
+					"at": 30.3,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 50.5,
+					"name": "Verse 2"
+				},
+				{
+					"at": 70.7,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 90.9,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard structure with 8-bar verses and choruses at 95 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1312,
+		"tokensOut": 964,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5064
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1609,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10694
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1035,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10555
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1064,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10125
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse 1"
+				},
+				{
+					"at": 15.2,
+					"name": "Verse 2"
+				}
+			],
+			"notes": "The song follows the chart's two 8-bar sections, modulating from D major to F major at 15.2 seconds."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1362,
+		"tokensOut": 1985,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 11156
+	},
+	{
+		"itemId": "contrast-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 19.2,
+					"name": "Verse"
+				},
+				{
+					"at": 38.4,
+					"name": "Chorus"
+				},
+				{
+					"at": 57.6,
+					"name": "Verse 2"
+				},
+				{
+					"at": 76.8,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 96,
+					"name": "Outro"
+				}
+			],
+			"notes": "The track follows a consistent 8-bar phrasing at 100 BPM."
+		},
+		"grade": {
+			"boundariesTotal": 3,
+			"boundariesFound": 3,
+			"falseBoundaries": 2,
+			"namesTotal": 3,
+			"namesCorrect": 0,
+			"sectionCountDelta": 2
+		},
+		"tokensIn": 2193,
+		"tokensOut": 1736,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9061
+	},
+	{
+		"itemId": "contrast-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 19.2,
+					"name": "Verse"
+				},
+				{
+					"at": 38.4,
+					"name": "Chorus"
+				},
+				{
+					"at": 57.6,
+					"name": "Interlude"
+				},
+				{
+					"at": 76.8,
+					"name": "Verse 2"
+				},
+				{
+					"at": 96,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 115.2,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a very consistent 8-bar structure at 100 BPM."
+		},
+		"grade": {
+			"boundariesTotal": 3,
+			"boundariesFound": 3,
+			"falseBoundaries": 3,
+			"namesTotal": 3,
+			"namesCorrect": 0,
+			"sectionCountDelta": 3
+		},
+		"tokensIn": 2222,
+		"tokensOut": 1176,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6902
+	},
+	{
+		"itemId": "contrast-a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 19.2,
+					"name": "Chorus"
+				},
+				{
+					"at": 38.4,
+					"name": "Verse 2"
+				},
+				{
+					"at": 57.6,
+					"name": "Chorus 2"
+				}
+			],
+			"notes": "The recording follows the chart exactly at 100 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 3,
+			"boundariesFound": 3,
+			"falseBoundaries": 0,
+			"namesTotal": 3,
+			"namesCorrect": 3,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 2614,
+		"tokensOut": 1074,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5524
+	},
+	{
+		"itemId": "contrast-b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 16,
+					"name": "Verse"
+				},
+				{
+					"at": 32,
+					"name": "Pre-chorus"
+				},
+				{
+					"at": 40,
+					"name": "Chorus"
+				},
+				{
+					"at": 56,
+					"name": "Verse 2"
+				},
+				{
+					"at": 72,
+					"name": "Pre-chorus 2"
+				},
+				{
+					"at": 80,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 96,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard pop structure with 8-bar verses and choruses, and 4-bar pre-choruses and outro."
+		},
+		"grade": {
+			"boundariesTotal": 3,
+			"boundariesFound": 1,
+			"falseBoundaries": 6,
+			"namesTotal": 3,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1502,
+		"tokensOut": 1266,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6560
+	},
+	{
+		"itemId": "contrast-b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1473,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 9852
+	},
+	{
+		"itemId": "contrast-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 8,
+					"name": "Verse"
+				},
+				{
+					"at": 24,
+					"name": "Bridge"
+				},
+				{
+					"at": 32,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The recording follows the chart exactly at 120 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 3,
+			"boundariesFound": 3,
+			"falseBoundaries": 0,
+			"namesTotal": 3,
+			"namesCorrect": 3,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1849,
+		"tokensOut": 898,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5444
+	},
+	{
+		"itemId": "contrast-c",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 12.6,
+					"name": "Verse"
+				},
+				{
+					"at": 25.3,
+					"name": "Chorus"
+				},
+				{
+					"at": 37.9,
+					"name": "Verse 2"
+				},
+				{
+					"at": 50.5,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 63.2,
+					"name": "Bridge"
+				},
+				{
+					"at": 75.8,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 88.4,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a strict 8-bar structure per section at 76 bpm in 6/8 time."
+		},
+		"grade": {
+			"boundariesTotal": 2,
+			"boundariesFound": 1,
+			"falseBoundaries": 6,
+			"namesTotal": 2,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 1062,
+		"tokensOut": 1605,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7512
+	},
+	{
+		"itemId": "contrast-c",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 12.6,
+					"name": "Verse"
+				},
+				{
+					"at": 25.3,
+					"name": "Chorus"
+				},
+				{
+					"at": 37.9,
+					"name": "Interlude"
+				},
+				{
+					"at": 44.2,
+					"name": "Verse 2"
+				},
+				{
+					"at": 56.8,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 69.5,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a consistent 8-bar structure for main sections, with a 4-bar interlude and outro."
+		},
+		"grade": {
+			"boundariesTotal": 2,
+			"boundariesFound": 1,
+			"falseBoundaries": 5,
+			"namesTotal": 2,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1091,
+		"tokensOut": 1817,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9618
+	},
+	{
+		"itemId": "contrast-c",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1409,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 9644
+	}
+]

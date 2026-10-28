@@ -93,6 +93,17 @@ answer scores zero with all boundaries missed.
 | Blind fails even on contrast items | The loophole closes completely: no production listening path should run chartless, full stop |
 | S-chart gate fails | The placement precedent does not transfer to multi-boundary form — a surprise worth anatomy before interpretation |
 
+## Amendment 1 (2026-10-28, after the first run, before publication)
+
+16 of the production model's 45 cells parse-failed with tokensOut at
+the registered 2000-token cap: the model rambles on this task and OUR
+deviation truncated it mid-JSON — a bench protocol artifact (production
+sets no cap), the same budget-conflates-with-failure shape Study 2
+caught in kimi's reasoning, here in the bench's own harness. The cap
+rises to 4000 and only the non-answered cells re-run (the idempotent
+runner's standing rule); all answered cells stand. Three 3.5-flash
+cells re-run under the same rule.
+
 ## Disclosure
 
 Analyst Claude Fable 5; no Anthropic model measured (no audio on the

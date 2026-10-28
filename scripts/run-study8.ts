@@ -54,7 +54,7 @@ interface Cell8 {
 }
 
 async function runCell(spec: MixSpec, arm: Arm8, model: string): Promise<Cell8> {
-	const gateway = createGateway({ apiKey });
+	const gateway = createGateway({ apiKey: apiKey ?? "" });
 	const started = performance.now();
 	const truth = sectionTruth(spec);
 	const chart = arm === "S-chart" ? markedChart(spec) : null;
@@ -86,7 +86,7 @@ async function runCell(spec: MixSpec, arm: Arm8, model: string): Promise<Cell8> 
 				},
 			],
 			temperature: 0,
-			maxOutputTokens: 2000,
+			maxOutputTokens: 4000,
 			maxRetries: 4,
 		} as Parameters<typeof generateText>[0]);
 		text = result.text;
