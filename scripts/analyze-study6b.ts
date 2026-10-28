@@ -14,10 +14,9 @@
  *    false-positive rate in all and per group with each flag's anatomy,
  *    the reads H-scoped flags and H-prod does not (labeled hit lost or
  *    false alarm avoided), floor effects counted apart, and gates G1
- *    (H-prod flags ≤ 1 of the 24 clean reads) and G2 (H-prod catches ≥ 14
- *    of the 16 detectable corrupted reads — reported UNDEFINED while the
- *    fixture has 8 detectable corrupted pages, as the brief's own design
- *    gives: 8 accidentals items × one corrupted read).
+ *    (H-prod flags ≤ 1 of the 24 clean reads) and G2 (H-prod catches ≥ 7
+ *    of the 8 detectable corrupted reads: 8 accidentals items × one
+ *    corrupted read, as the registered brief counts).
  */
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import scores3 from "../corpus/scores.json";
@@ -275,20 +274,17 @@ console.log("\nGates (H-prod, production reader):");
 console.log(
 	`  G1 clean flags ≤ 1 of 24: ${prodClean}/${cleanReads.length} — ${prodClean <= 1 ? "PASS" : "FAIL"}${cleanReads.length < 24 ? ` (only ${cleanReads.length} clean reads scored${complete ? "" : "; the matrix is incomplete"})` : ""}`,
 );
-// The brief's G2 names 16 detectable corrupted reads, but its design (8
-// accidentals items, one read per page per condition) yields 8. The gate
-// is not re-thresholded here: it is reported as written and marked
-// undefined until the brief is amended (flagged at registration).
+// G2 as registered: ≥ 7 of the 8 detectable corrupted reads (the fixture's
+// detectable count is asserted so a corpus change cannot move the gate).
 const detPages = (fixture6b.items as { detectable: boolean }[]).filter((i) => i.detectable).length;
+if (detPages !== 8) throw new Error(`the fixture has ${detPages} detectable pages; the brief registers 8`);
 console.log(
-	`  G2 catches ≥ 14 of 16 detectable: ${prodHits}/${detCorrupt.length} — ${
-		detPages !== 16
-			? `UNDEFINED as registered: the design has ${detPages} detectable corrupted pages, not 16 (the brief must be amended before this gate means anything)`
-			: complete
-				? prodHits >= 14
-					? "PASS"
-					: "FAIL"
-				: `${prodHits >= 14 ? "PASS" : detCorrupt.length - prodHits > 2 ? "FAIL" : "open"} (the matrix is incomplete)`
+	`  G2 catches ≥ 7 of 8 detectable: ${prodHits}/${detCorrupt.length} — ${
+		complete
+			? prodHits >= 7
+				? "PASS"
+				: "FAIL"
+			: `${prodHits >= 7 ? "PASS" : detCorrupt.length - prodHits > 1 ? "FAIL" : "open"} (the matrix is incomplete)`
 	}`,
 );
 const cleanAgree = cleanReads.every((g) => g.prod === g.scoped);

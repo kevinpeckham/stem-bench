@@ -1,8 +1,10 @@
 # BRIEF — stem-bench Study 6b: the key-in-force warning, registered
 
-**Pre-registration draft, for Kevin's review before it is committed as
-registered.** Small model spend: new pages, read once by the production
-reader.
+**Pre-registration, committed before any scored run.** Small model
+spend: new pages, read once by the production reader. Drafted
+2026-10-28; the port and the corpus corrected its arithmetic (the
+detectable count and the honest-group examples) and its account of how
+the instruments differ before it was registered, with no read taken.
 
 Study 6 (docs/BRIEF-STUDY6.md, REPORT.md) registered two instruments
 for stem-shovel's `chartReadWarnings` and found the shipped rule caught
@@ -34,10 +36,14 @@ this study gives it reads it has never seen.
   root or bass. "Note:" lines pass through as before.
 - **H-scoped** — Study 6's exploratory variant (src/study6/warnings.ts
   `chartReadWarningsScoped`), unchanged, as the comparison. It differs
-  from H-prod in ONE condition: it does not require the chart to be
-  free of accidentals altogether. H-prod can therefore only be quieter
-  than H-scoped on the same read; the study measures what that extra
-  condition costs in hits and buys in silence.
+  from H-prod in two conditions, both of which make H-prod the quieter
+  rule: H-prod requires the chart to be free of accidentals altogether,
+  and H-prod judges a chord only under a key of ≥ 2 accidentals, where
+  H-scoped also counts a bare chord under a one-accidental key once the
+  chart has a 2+ key somewhere. H-prod can therefore only be quieter
+  than H-scoped on the same read (a tested property); the study measures
+  what those conditions cost in hits and buy in silence, labeling each
+  difference by the condition that caused it.
 
 Neither instrument changes after this brief is committed. If a defect
 is found in the port, the study stops, the port is fixed and
@@ -64,10 +70,10 @@ Item design, 24 items, chosen so each false-positive class Study 6
 named is represented in numbers that can move the rate:
 
 - **8 honest sharp- or flat-key charts** (≥ 2 accidentals) whose
-  chords legitimately carry none: D major on D G A Bm Em, A major on A
-  D E F♯m-free voicings (A D E Bm), B♭ major on B♭ F Gm Dm, E♭ major on
-  E♭ A♭ B♭ Cm — the copper-line and drift-4a class. Clean reads of
-  these must stay quiet.
+  chords legitimately carry none, every chord bare and on a letter its
+  key leaves natural: D major on D G A Bm Em, A major on A D E Bm, B♭
+  major on F C7 Gm Dm, E♭ major on Cm Fm Gm G7 — the copper-line and
+  drift-4a class. Clean reads of these must stay quiet.
 - **8 modulating charts**: two or three sections each in its own key
   (G → D, C → E♭, A → F, D → B♭ …), every chord honest in its own
   section's key, 10 to 16 measures — the mod-c class. Clean reads must
@@ -78,12 +84,16 @@ named is represented in numbers that can move the rate:
   so that their CORRUPTED pages are detectable: the dropped accidentals
   leave bare A, B, F, C chords under a signature that alters them.
 
+One read per page per condition gives 24 clean reads, 16 undetectable
+corrupted reads (groups one and two) and 8 detectable corrupted reads
+(group three).
+
 Every item has ≥ 8 chord symbols (the floor is not under test). The
 detectability label is mechanical, from the spec, as Study 6 defined
 it: a corrupted page is **detectable** iff the key in force at some
 measure has ≥ 2 accidentals and ≥ 2 of that item's true chords are
 rooted on letters that key alters. By construction the third group's
-16 corrupted pages are detectable and the first two groups' are not
+8 corrupted pages are detectable and the first two groups' 16 are not
 (nothing chord-visible was corrupted; silence is correct there).
 
 Reader: production's chart-read (anthropic/claude-fable-5-1), Study
@@ -102,7 +112,7 @@ Reader: production's chart-read (anthropic/claude-fable-5-1), Study
 
 Per instrument, on the production reader:
 
-- **Hit rate** on detectable corrupted reads (the third group, 16 if
+- **Hit rate** on detectable corrupted reads (the third group, 8 if
   every read answers).
 - **Silence rate** on undetectable corrupted reads (groups one and two,
   16): a flag there is a false alarm on a corrupted page, counted
@@ -130,7 +140,7 @@ report then recommends what the anatomy supports: tightening (a higher
 suspicious-chord floor, or requiring the suspicious chords to fall in
 one key section) or reverting to the pooled rule with its known cost.
 G2, so the gate cannot be passed by a rule that never speaks: **H-prod
-catches ≥ 14 of the 16 detectable corrupted reads.**
+catches ≥ 7 of the 8 detectable corrupted reads.**
 
 ## Predictions (registered before any read)
 
@@ -138,7 +148,7 @@ catches ≥ 14 of the 16 detectable corrupted reads.**
    any, is on a modulating chart whose read placed a key change on the
    wrong measure — the same anatomy as Study 6's mod-c flag. The
    honest sharp-key group produces no flag at all.
-2. H-prod passes G2 at 15 or 16 of 16: the one plausible miss is a
+2. H-prod passes G2 at 7 or 8 of 8: the one plausible miss is a
    corrupted read where the reader restores an accidental from
    context (it knows E♭ major has an A♭), which H-prod's
    no-accidental-anywhere condition then silences while H-scoped still
@@ -146,7 +156,11 @@ catches ≥ 14 of the 16 detectable corrupted reads.**
 3. H-prod and H-scoped agree on every clean read (the extra condition
    cannot create a flag), so their clean false-positive counts are
    equal.
-4. The reproduction check passes exactly.
+4. The reproduction check passes exactly. (Run before registration, at
+   zero spend: H-scoped reproduces 10/10, 0/12, 1/42; H-prod on the same
+   148 texts scores 10/10, 0/12, 0/42, its no-accidental condition
+   silencing the mod-c flag. Those H-prod numbers are context, not
+   evidence: the rule was shaped on those reads.)
 
 ## Disclosure
 
