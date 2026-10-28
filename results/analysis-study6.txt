@@ -1,0 +1,31 @@
+Study 6 — 148 reader texts (52 corrupted, 96 clean)
+
+H-shipped, production reader (fable):
+  detectable corrupted: 10/10 fired (100%)
+  undetectable corrupted: 2/12 fired (silence is correct)
+  clean reads: 4/42 FALSE POSITIVES — copper-line(claude-fable-5-1), copper-line(claude-fable-5-1), drift-4a(claude-fable-5-1), drift-4a(claude-fable-5-1)
+
+H-letters, production reader (fable):
+  detectable corrupted: 10/10 fired (100%)
+  undetectable corrupted: 0/12 fired (silence is correct)
+  clean reads: 2/42 FALSE POSITIVES — mod-c(claude-fable-5-1), mod-c(claude-fable-5-1)
+
+H-shipped, all models:
+  detectable corrupted: 20/28 fired (71%) — missed: slate-sky(claude-opus-4.8), quarry-road(claude-opus-4.8), ashen-waltz(claude-haiku-4.5), night-ferry(claude-haiku-4.5), slate-sky(claude-haiku-4.5), winter-pier(claude-haiku-4.5), lantern-row(claude-haiku-4.5), quarry-road(claude-haiku-4.5)
+  undetectable corrupted: 4/24 fired (silence is correct)
+  clean reads: 8/96 FALSE POSITIVES — copper-line(claude-fable-5-1), copper-line(claude-fable-5-1), copper-line(claude-opus-4.8), copper-line(gemini-3.5-flash), copper-line(gemini-3.5-flash), lantern-row(gemini-3.5-flash), drift-4a(claude-fable-5-1), drift-4a(claude-fable-5-1)
+
+H-letters, all models:
+  detectable corrupted: 20/28 fired (71%) — missed: slate-sky(claude-opus-4.8), quarry-road(claude-opus-4.8), ashen-waltz(claude-haiku-4.5), night-ferry(claude-haiku-4.5), slate-sky(claude-haiku-4.5), winter-pier(claude-haiku-4.5), lantern-row(claude-haiku-4.5), quarry-road(claude-haiku-4.5)
+  undetectable corrupted: 0/24 fired (silence is correct)
+  clean reads: 2/96 FALSE POSITIVES — mod-c(claude-fable-5-1), mod-c(claude-fable-5-1)
+
+H-scoped (EXPLORATORY post-hoc), production reader:
+  detectable corrupted: 10/10 fired (100%)
+  undetectable corrupted: 0/12 fired (silence is correct)
+  clean reads: 1/42 FALSE POSITIVES — mod-c(claude-fable-5-1)
+
+H-scoped (EXPLORATORY post-hoc), all models:
+  detectable corrupted: 20/28 fired (71%) — missed: slate-sky(claude-opus-4.8), quarry-road(claude-opus-4.8), ashen-waltz(claude-haiku-4.5), night-ferry(claude-haiku-4.5), slate-sky(claude-haiku-4.5), winter-pier(claude-haiku-4.5), lantern-row(claude-haiku-4.5), quarry-road(claude-haiku-4.5)
+  undetectable corrupted: 0/24 fired (silence is correct)
+  clean reads: 1/96 FALSE POSITIVES — mod-c(claude-fable-5-1)

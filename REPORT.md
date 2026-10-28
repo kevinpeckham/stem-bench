@@ -1,5 +1,54 @@
 # stem-bench REPORT
 
+## Study 6 (micro) — the warning heuristic, validated (2026-10-28)
+
+**Question.** stem-shovel shipped `chartReadWarnings` from the Study 3
+correction brief (the dropped-accidentals signature) without
+measurement. The bench holds model reads of the SAME pages corrupted
+and clean, so the validation cost zero model calls: 148 existing
+reader texts (52 corrupted, 96 clean), expected labels mechanical from
+the committed specs. Registered in docs/BRIEF-STUDY6.md (commit
+4fe27d3) before the evaluation ran.
+
+| Instrument (production reader) | detectable hit | undetectable fired | clean false positives |
+|---|---|---|---|
+| H-shipped (as in production) | **10/10** | 2/12 | **4/42** |
+| H-letters (registered refinement) | 10/10 | 0/12 | 2/42 |
+| H-scoped (EXPLORATORY, post-hoc) | 10/10 | 0/12 | 1/42 |
+
+**The shipped heuristic works where it matters** — every detectable
+corrupted read fired — and its false-positive class is exactly the one
+its own source comment worries about, now measured: honest
+natural-chord sharp-key charts (copper-line, drift-4a: D major, many
+chords, zero accidentals legitimately) trip the all-or-nothing rule at
+~10% of clean production-reader cells. The registered refinement
+(count only accidental-less chords on the signature's OWN altered
+letters) removes that class and introduces a new one the registration
+did not predict: modulating charts, because pooling signatures across
+sections makes one key's honest naturals look suspicious against
+another key's letters. The post-hoc key-IN-FORCE variant (chords
+judged against the signature active at their measure — disclosed as
+unregistered exploratory) fixes that too, and its single residual
+flag is the best result in the study: it fires on a read whose
+MODULATION IS PLACED AT THE WRONG MEASURE (the image-arm mod-c read
+put the key change three bars late, leaving F-section chords under
+D-major scope) — a genuine read defect that deserves review, flagged
+for the wrong stated reason. All-model robustness: misses are floor
+effects (haiku's stub reads never reach 8 chords; two short opus
+reads), per prediction 3.
+
+Prediction scorecard: 1 right to the named items; 2 half-right (the
+predicted fix worked, the modulation class was not predicted);
+3 right. Recommendation delivered to stem-shovel: adopt key-in-force
+scoping (re-validating it on their side or on a registered extension,
+since here it is exploratory), and soften the warning's stated cause
+to cover both file corruption and a doubtful read — the evidence says
+the flag earns trust in both roles.
+
+Disclosure: analyst Claude Fable 5; both registered instruments and
+the label derivation committed and tested before evaluation; the
+scoped variant is explicitly post-hoc. Zero model spend.
+
 ## Study 5 — the composed pipeline: when the reader feeds the listener (2026-10-24)
 
 **Question.** Studies 3 and 4 measured chart-read and the song-check

@@ -101,3 +101,41 @@ export function chartReadWarningsLetters(summary: string): string[] {
 		];
 	return [];
 }
+
+/**
+ * EXPLORATORY (post-hoc, not registered — disclosed as such in the
+ * brief and REPORT): the key-IN-FORCE variant the mod-c anatomy
+ * suggests. Chords are judged against the signature active at their
+ * measure, so a modulating chart's sections each carry their own
+ * altered letters; same ≥2-suspicious and ≥8-chords floors.
+ */
+export function chartReadWarningsScoped(summary: string): string[] {
+	const lines = summary.split(/\r?\n/);
+	let current = { sharps: 0, flats: 0 };
+	let anyKey = false;
+	let maxAccidentals = 0;
+	let total = 0;
+	let suspicious = 0;
+	for (const line of lines) {
+		if (!/^m\d+\b/.test(line.trim())) continue;
+		for (const k of line.matchAll(/\bkey\s+([A-G][♭♯b#]?)\s+(major|minor)\b/gi)) {
+			const n = keySignatureSharps(`${k[1]} ${k[2]}`);
+			if (n === null) continue;
+			anyKey = true;
+			current = { sharps: Math.max(0, n), flats: Math.max(0, -n) };
+			maxAccidentals = Math.max(maxAccidentals, Math.abs(n));
+		}
+		const after = /:\s*([^:]*)$/.exec(line);
+		if (!after) continue;
+		const letters = alteredLetters(current.sharps, current.flats);
+		for (const token of after[1]!.split(/\s+/)) {
+			if (!/^[A-G]/.test(token) || token === "N.C.") continue;
+			total++;
+			if (letters.has(token.charAt(0)) && !/^[A-G][♭♯b#]/.test(token)) suspicious++;
+		}
+	}
+	if (!anyKey || maxAccidentals < 2 || total < 8 || suspicious < 2) return [];
+	return [
+		`${suspicious} chord symbols sit on their key's own altered letters without an accidental: the file may have lost its accidentals when it was made. Check the chart before using this answer.`,
+	];
+}
