@@ -128,6 +128,23 @@ only what text cannot answer.
 Registration: [docs/BRIEF-STUDY7.md](docs/BRIEF-STUDY7.md). Findings:
 [REPORT.md](REPORT.md).
 
+## Study 8: section detection, the loophole test
+
+After four studies concluded the listening layer reads rather than
+hears, Study 8 went looking for the loophole in that verdict — and
+found it. Blind, the models hear texture contrast (7-8 of 8 section
+boundaries where the band drops out and returns): the program's first
+genuine listening result. But it is texture, not form: harmonic
+boundaries land half the time, uniform loops get subdivided into
+invented structure, and even a chart marking one section does not
+stop the form prior from inventing a chorus. The chart arm detects
+100% with perfect placement; the gate failed by half a false boundary.
+Ship guidance: parse the chart's marks, ask the model only for
+placement in seconds.
+
+Registration: [docs/BRIEF-STUDY8.md](docs/BRIEF-STUDY8.md). Findings:
+[REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
