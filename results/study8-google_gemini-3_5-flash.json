@@ -250,18 +250,6 @@
 		"latencyMs": 3367
 	},
 	{
-		"itemId": "drift-4b",
-		"arm": "S-chart",
-		"model": "google/gemini-3.5-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1748,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 9200
-	},
-	{
 		"itemId": "waltz-a",
 		"arm": "S-vocab",
 		"model": "google/gemini-3.5-flash",
@@ -698,18 +686,6 @@
 		"latencyMs": 5199
 	},
 	{
-		"itemId": "lilt-b",
-		"arm": "S-chart",
-		"model": "google/gemini-3.5-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1224,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 13212
-	},
-	{
 		"itemId": "shift-a",
 		"arm": "S-chart",
 		"model": "google/gemini-3.5-flash",
@@ -770,18 +746,6 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 10850
-	},
-	{
-		"itemId": "shift-b",
-		"arm": "S-vocab",
-		"model": "google/gemini-3.5-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1413,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 9217
 	},
 	{
 		"itemId": "shift-b",
@@ -1628,5 +1592,106 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 5906
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "S-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				}
+			],
+			"notes": "The entire 16-measure recording is a single continuous keyboard progression (Verse) with no changes in instrumentation or form to warrant further division."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1748,
+		"tokensOut": 2442,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 13325
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 25.3,
+					"name": "Verse"
+				}
+			],
+			"notes": "The song consists of a 16-measure chord progression split into an 8-measure Intro and an 8-measure Verse where the melody enters."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 1,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 1
+		},
+		"tokensIn": 1224,
+		"tokensOut": 2646,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 17065
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "S-vocab",
+		"model": "google/gemini-3.5-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 13.3,
+					"name": "Verse 1"
+				},
+				{
+					"at": 40,
+					"name": "Chorus"
+				},
+				{
+					"at": 53.3,
+					"name": "Verse 2"
+				},
+				{
+					"at": 66.7,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song is at 72 bpm, with sections precisely aligned to 4-bar and 8-bar structures."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 0,
+			"falseBoundaries": 4,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 3
+		},
+		"tokensIn": 1413,
+		"tokensOut": 2169,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 11823
 	}
 ]

@@ -134,18 +134,6 @@
 	},
 	{
 		"itemId": "drift-4b",
-		"arm": "S-blind",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1415,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10056
-	},
-	{
-		"itemId": "drift-4b",
 		"arm": "S-vocab",
 		"model": "google/gemini-3-flash",
 		"answer": {
@@ -192,18 +180,6 @@
 		"latencyMs": 6936
 	},
 	{
-		"itemId": "drift-4b",
-		"arm": "S-chart",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1748,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 8995
-	},
-	{
 		"itemId": "waltz-a",
 		"arm": "S-blind",
 		"model": "google/gemini-3-flash",
@@ -243,30 +219,6 @@
 		"latencyMs": 10190
 	},
 	{
-		"itemId": "waltz-a",
-		"arm": "S-vocab",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1145,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 13378
-	},
-	{
-		"itemId": "waltz-a",
-		"arm": "S-chart",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1445,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10108
-	},
-	{
 		"itemId": "waltz-b",
 		"arm": "S-blind",
 		"model": "google/gemini-3-flash",
@@ -303,18 +255,6 @@
 	},
 	{
 		"itemId": "waltz-b",
-		"arm": "S-vocab",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 881,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 8066
-	},
-	{
-		"itemId": "waltz-b",
 		"arm": "S-chart",
 		"model": "google/gemini-3-flash",
 		"answer": {
@@ -347,30 +287,6 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 8324
-	},
-	{
-		"itemId": "lilt-a",
-		"arm": "S-blind",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1072,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 11247
-	},
-	{
-		"itemId": "lilt-a",
-		"arm": "S-vocab",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1101,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 9521
 	},
 	{
 		"itemId": "lilt-b",
@@ -492,18 +408,6 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 5792
-	},
-	{
-		"itemId": "lilt-b",
-		"arm": "S-chart",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1224,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10189
 	},
 	{
 		"itemId": "shift-a",
@@ -769,30 +673,6 @@
 	},
 	{
 		"itemId": "shift-c",
-		"arm": "S-blind",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1060,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 9930
-	},
-	{
-		"itemId": "shift-c",
-		"arm": "S-vocab",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1089,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10274
-	},
-	{
-		"itemId": "shift-c",
 		"arm": "S-chart",
 		"model": "google/gemini-3-flash",
 		"answer": {
@@ -821,18 +701,6 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 8067
-	},
-	{
-		"itemId": "mod-a",
-		"arm": "S-blind",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1146,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10537
 	},
 	{
 		"itemId": "mod-a",
@@ -1021,42 +889,6 @@
 		"outcome": "answered",
 		"error": null,
 		"latencyMs": 5064
-	},
-	{
-		"itemId": "mod-b",
-		"arm": "S-chart",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1609,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10694
-	},
-	{
-		"itemId": "mod-c",
-		"arm": "S-blind",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1035,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10555
-	},
-	{
-		"itemId": "mod-c",
-		"arm": "S-vocab",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1064,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 10125
 	},
 	{
 		"itemId": "mod-c",
@@ -1283,18 +1115,6 @@
 	},
 	{
 		"itemId": "contrast-b",
-		"arm": "S-blind",
-		"model": "google/gemini-3-flash",
-		"answer": null,
-		"grade": null,
-		"tokensIn": 1473,
-		"tokensOut": 1996,
-		"outcome": "parse-error",
-		"error": "The model's answer did not make sense",
-		"latencyMs": 9852
-	},
-	{
-		"itemId": "contrast-b",
 		"arm": "S-chart",
 		"model": "google/gemini-3-flash",
 		"answer": {
@@ -1439,15 +1259,665 @@
 		"latencyMs": 9618
 	},
 	{
-		"itemId": "contrast-c",
+		"itemId": "drift-4b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 11.4,
+					"name": "Verse"
+				},
+				{
+					"at": 34.3,
+					"name": "Chorus"
+				},
+				{
+					"at": 45.7,
+					"name": "Verse 2"
+				},
+				{
+					"at": 68.6,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 80,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a very consistent 4 and 8-bar structure at 84 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 1415,
+		"tokensOut": 2268,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9884
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 15,
+					"name": "Verse"
+				},
+				{
+					"at": 30,
+					"name": "Chorus"
+				},
+				{
+					"at": 45,
+					"name": "Verse 2"
+				},
+				{
+					"at": 60,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 75,
+					"name": "Bridge"
+				},
+				{
+					"at": 90,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 105,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a strict 8-measure phrasing structure at 96 bpm in 3/4 time."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 7,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 7
+		},
+		"tokensIn": 1145,
+		"tokensOut": 1076,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6451
+	},
+	{
+		"itemId": "drift-4b",
 		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 22.9,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The 16-bar piece is divided into two 8-bar sections (Verse and Chorus) following the A-B-A-C harmonic structure."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 1,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 1
+		},
+		"tokensIn": 1748,
+		"tokensOut": 3912,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 18043
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 15,
+					"name": "Chorus"
+				},
+				{
+					"at": 30,
+					"name": "Outro"
+				}
+			],
+			"notes": "The sections are identified by the 8-bar harmonic cycles and the final 2-bar tag, following the 96 bpm tempo and 3/4 meter."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 2,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 2
+		},
+		"tokensIn": 1445,
+		"tokensOut": 3929,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 18192
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "S-vocab",
 		"model": "google/gemini-3-flash",
 		"answer": null,
 		"grade": null,
-		"tokensIn": 1409,
-		"tokensOut": 1996,
+		"tokensIn": 881,
+		"tokensOut": 3996,
 		"outcome": "parse-error",
 		"error": "The model's answer did not make sense",
-		"latencyMs": 9644
+		"latencyMs": 17265
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 16,
+					"name": "Verse"
+				},
+				{
+					"at": 32,
+					"name": "Chorus"
+				},
+				{
+					"at": 48,
+					"name": "Verse 2"
+				},
+				{
+					"at": 64,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 80,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a very consistent 8-bar structure at 60 bpm (dotted quarter note), with each section lasting exactly 16 seconds."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 5,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 5
+		},
+		"tokensIn": 1072,
+		"tokensOut": 3980,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 16503
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": null,
+		"grade": null,
+		"tokensIn": 1101,
+		"tokensOut": 3996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 17667
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse 1"
+				},
+				{
+					"at": 37.9,
+					"name": "Verse 2"
+				}
+			],
+			"notes": "The song follows the 16-bar chart exactly, with the tempo of 76 bpm applied to the eighth note in 6/8 time."
+		},
+		"grade": {
+			"boundariesTotal": 0,
+			"boundariesFound": 0,
+			"falseBoundaries": 1,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 1
+		},
+		"tokensIn": 1224,
+		"tokensOut": 3915,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 18395
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 16,
+					"name": "Verse"
+				},
+				{
+					"at": 32,
+					"name": "Chorus"
+				},
+				{
+					"at": 48,
+					"name": "Verse 2"
+				},
+				{
+					"at": 64,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 80,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a strict 8-bar structure at 90 bpm in 3/4 time, with each section lasting exactly 16 seconds."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 4,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 4
+		},
+		"tokensIn": 1060,
+		"tokensOut": 3978,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 16505
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 8.7,
+					"name": "Verse"
+				},
+				{
+					"at": 26.2,
+					"name": "Pre-chorus"
+				},
+				{
+					"at": 34.9,
+					"name": "Chorus"
+				},
+				{
+					"at": 52.4,
+					"name": "Verse 2"
+				},
+				{
+					"at": 69.8,
+					"name": "Pre-chorus 2"
+				},
+				{
+					"at": 78.5,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 96,
+					"name": "Bridge"
+				},
+				{
+					"at": 113.5,
+					"name": "Solo"
+				},
+				{
+					"at": 130.9,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 148.4,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a standard pop structure with clear 4 and 8-bar phrases at 110 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 0,
+			"falseBoundaries": 10,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 9
+		},
+		"tokensIn": 1146,
+		"tokensOut": 2668,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 11279
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 16,
+					"name": "Verse"
+				},
+				{
+					"at": 32,
+					"name": "Chorus"
+				},
+				{
+					"at": 48,
+					"name": "Verse 2"
+				},
+				{
+					"at": 64,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 80,
+					"name": "Bridge"
+				},
+				{
+					"at": 96,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 112,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a perfectly symmetrical 8-bar structure with each bar lasting exactly 2 seconds at 90 bpm in 3/4 time."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 6,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 6
+		},
+		"tokensIn": 1089,
+		"tokensOut": 2925,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 12837
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 20.2,
+					"name": "Chorus"
+				}
+			],
+			"notes": "The recording follows the chart exactly, playing the 16 bars once at the specified tempo."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 0,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1609,
+		"tokensOut": 2261,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9971
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 15.2,
+					"name": "Verse"
+				},
+				{
+					"at": 30.5,
+					"name": "Chorus"
+				},
+				{
+					"at": 45.7,
+					"name": "Verse 2"
+				},
+				{
+					"at": 61,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 76.2,
+					"name": "Bridge"
+				},
+				{
+					"at": 91.4,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 106.7,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a consistent 8-bar structure at 126 BPM."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 6,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 6
+		},
+		"tokensIn": 1035,
+		"tokensOut": 2003,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9835
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "S-vocab",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 15.2,
+					"name": "Verse 1"
+				},
+				{
+					"at": 30.5,
+					"name": "Chorus 1"
+				},
+				{
+					"at": 45.7,
+					"name": "Verse 2"
+				},
+				{
+					"at": 61,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 76.2,
+					"name": "Bridge"
+				},
+				{
+					"at": 91.4,
+					"name": "Chorus 3"
+				},
+				{
+					"at": 106.7,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a very consistent 8-bar phrase structure at 126 bpm."
+		},
+		"grade": {
+			"boundariesTotal": 1,
+			"boundariesFound": 1,
+			"falseBoundaries": 6,
+			"namesTotal": 0,
+			"namesCorrect": 0,
+			"sectionCountDelta": 6
+		},
+		"tokensIn": 1064,
+		"tokensOut": 1594,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7460
+	},
+	{
+		"itemId": "contrast-b",
+		"arm": "S-blind",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Intro"
+				},
+				{
+					"at": 8,
+					"name": "Verse"
+				},
+				{
+					"at": 24,
+					"name": "Chorus"
+				},
+				{
+					"at": 32,
+					"name": "Verse 2"
+				},
+				{
+					"at": 48,
+					"name": "Chorus 2"
+				},
+				{
+					"at": 56,
+					"name": "Outro"
+				}
+			],
+			"notes": "The song follows a strict 8-bar and 4-bar structure at 120 BPM."
+		},
+		"grade": {
+			"boundariesTotal": 3,
+			"boundariesFound": 3,
+			"falseBoundaries": 2,
+			"namesTotal": 3,
+			"namesCorrect": 1,
+			"sectionCountDelta": 2
+		},
+		"tokensIn": 1473,
+		"tokensOut": 1516,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6827
+	},
+	{
+		"itemId": "contrast-c",
+		"arm": "S-chart",
+		"model": "google/gemini-3-flash",
+		"answer": {
+			"sections": [
+				{
+					"at": 0,
+					"name": "Verse"
+				},
+				{
+					"at": 12.6,
+					"name": "Interlude"
+				},
+				{
+					"at": 18.9,
+					"name": "Verse 2"
+				}
+			],
+			"notes": "The recording follows the chart's structure of two verses separated by an interlude."
+		},
+		"grade": {
+			"boundariesTotal": 2,
+			"boundariesFound": 2,
+			"falseBoundaries": 0,
+			"namesTotal": 2,
+			"namesCorrect": 2,
+			"sectionCountDelta": 0
+		},
+		"tokensIn": 1409,
+		"tokensOut": 2828,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 12360
 	}
 ]

@@ -1,5 +1,65 @@
 # stem-bench REPORT
 
+## Study 8 — section detection: they hear texture, not form (2026-10-28)
+
+**Question.** The last unmeasured AI feature, and the loophole test:
+Studies 4/7 showed the listening layer reads rather than hears, but
+what it DID register blind were gross structural events — and section
+boundaries are gross structural events. Registered in
+docs/BRIEF-STUDY8.md: the v0.192.0 `detectSectionsWithAi` ported
+verbatim, Study 4's mixes plus three new sparse/dense contrast mixes
+(boundaries a human hears instantly, names and seconds true by
+construction), arms blind / +vocabulary / +marked chart, 90 cells,
+two models, ~$0.60. Amendment 1 before publication: the bench's own
+2000-token cap truncated the rambling production model mid-JSON in 16
+cells — the budget-conflates-with-failure shape Study 2 caught in
+kimi, this time in our own harness — cap raised, failed cells re-run.
+
+**The loophole is real: models hear texture.** Blind, on the contrast
+mixes, the production model found 7/8 section boundaries and
+3.5-flash 8/8 — the program's first genuine listening result after
+four studies of text-reading verdicts. But the hearing is texture,
+not form: harmonic and tempo-change boundaries landed only 3/6 blind,
+and uniform single-section loops were subdivided into invented
+verse/chorus structure at 3–6 false boundaries per item (production
+blind noise 3.3/item overall; 3.5-flash notably cleaner at 1.0 —
+Study 4's generational equality does NOT extend to structural
+hearing). Prediction 2 substantially right; prediction 4 wrong in the
+instructive direction.
+
+**Gate S8-G1 FAILS by half a boundary.** The chart arm detected
+14/14 boundaries (100%) on the production model with every placement
+within ±4 s — but mean false boundaries landed at 0.53/item against
+the registered ≤ 0.50: eight false boundaries across fifteen items
+where the bound allowed seven and a half. 3.5-flash passes (0.47).
+The noise's source is itself the finding's sharpest nuance: even
+CHART-ANCHORED, uniform loops get subdivided (~1.2 false/item on
+loops, 0.0 on contrast and change items) — the chart's single [A]
+mark does not stop the form prior from inventing a chorus. Study 7
+found explicit chart text beats wrong settings; Study 8's corollary
+is that the chart's SILENCE does not beat the model's priors. Names
+complete the pattern: 8/8 from the chart, ≤ 3/8 without — names come
+from text, as everything always has.
+
+Ship guidance briefed: section detection should ship chart-gated like
+the song-check; blind mode is honest ONLY for arrangement-contrast
+boundaries and should be labeled so; and the parse-don't-ask rule
+extends here — take the section COUNT and NAMES from the chart's
+rehearsal marks mechanically, and ask the model only for what
+measured perfect and text cannot supply: the boundaries' placement in
+seconds. That applied-layer rule would zero the loop subdivision and
+pass the gate by construction.
+
+Scorecard: 1 wrong by letter (100% detection, gate lost on half a
+false boundary); 2 substantially right; 3 mixed (vocabulary moved
+nothing much); 4 wrong instructively. Two production-model cells
+remained unanswered even at the raised cap (rambling persists),
+counted as misses, disclosed.
+
+Disclosure: analyst Claude Fable 5; no Anthropic model measured;
+every grade mechanical, committed and tested before any scored run;
+Amendment 1 preceded publication and changed only the output budget.
+
 ## Study 7 — the redesigned song-check, re-measured (2026-10-28)
 
 **Question.** stem-shovel rebuilt the song-check in response to Study 4
