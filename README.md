@@ -113,6 +113,18 @@ because of the bench.
 Registration: [docs/BRIEF-STUDY6.md](docs/BRIEF-STUDY6.md). Findings:
 [REPORT.md](REPORT.md).
 
+## Study 6b: the key-in-force warning, registered
+
+stem-shovel shipped the key-in-force refinement on Study 6's
+exploratory number, measured on the very reads it was shaped on. Study
+6b gives the shipped rule pages it has never seen: 24 new engraved
+charts (honest sharp- and flat-key charts, modulating charts, and
+charts whose chords carry accidentals), each read clean and through
+the accidental-dropping PDF path, with the clean-read false-positive
+gate registered before any read. Registered, not yet run.
+
+Registration: [docs/BRIEF-STUDY6B.md](docs/BRIEF-STUDY6B.md).
+
 ## Study 7: the redesigned song-check, re-measured
 
 stem-shovel rebuilt the song-check after Study 4; Study 7 measured the

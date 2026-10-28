@@ -1,0 +1,2140 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261028",
+	"note": "Study 6b score specs (docs/BRIEF-STUDY6B.md), Study 3 spec shape. Three groups of 8: 'honest' (key signatures of 2+ accidentals whose chords legitimately carry none: every bare chord sits on a letter the key leaves natural), 'modulating' (two or three sections each marked with its own key at its first measure, every chord bare and honest in its own section), 'accidentals' (chords on the key's altered letters carrying their accidentals, so the corrupted page is detectable). pilot: true marks 2 per group. Each item engraves clean and corrupted (chord accidentals dropped, key signatures kept) by scripts/build-fixture6b.ts. Fictional titles throughout.",
+	"scores": [
+		{
+			"id": "copper-gate",
+			"title": "Copper Gate",
+			"partName": "Lead Sheet",
+			"group": "honest",
+			"pilot": true,
+			"measures": [
+				{
+					"key": [
+						2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 100,
+					"mark": "A Verse",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				}
+			]
+		},
+		{
+			"id": "cedar-hollow",
+			"title": "Cedar Hollow",
+			"partName": "Guitar",
+			"group": "honest",
+			"measures": [
+				{
+					"key": [
+						3,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 112,
+					"mark": "A Verse",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E7"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "dune-motel",
+			"title": "Dune Motel",
+			"partName": "Lead Sheet",
+			"group": "honest",
+			"measures": [
+				{
+					"key": [
+						4,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"mark": "A Verse",
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				}
+			]
+		},
+		{
+			"id": "gray-orchard",
+			"title": "Gray Orchard",
+			"partName": "Piano",
+			"group": "honest",
+			"measures": [
+				{
+					"key": [
+						2,
+						"minor"
+					],
+					"time": [
+						3,
+						4
+					],
+					"tempo": 84,
+					"mark": "A Verse",
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				}
+			]
+		},
+		{
+			"id": "ember-reach",
+			"title": "Ember Reach",
+			"partName": "Lead Sheet",
+			"group": "honest",
+			"pilot": true,
+			"measures": [
+				{
+					"key": [
+						-3,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 92,
+					"mark": "A Verse",
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"mark": "B Bridge",
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				}
+			]
+		},
+		{
+			"id": "fallow-line",
+			"title": "Fallow Line",
+			"partName": "Keys",
+			"group": "honest",
+			"measures": [
+				{
+					"key": [
+						-2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"mark": "A Verse",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				}
+			]
+		},
+		{
+			"id": "marrow-steps",
+			"title": "Marrow Steps",
+			"partName": "Lead Sheet",
+			"group": "honest",
+			"measures": [
+				{
+					"key": [
+						-2,
+						"minor"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 76,
+					"mark": "A Verse",
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				}
+			]
+		},
+		{
+			"id": "wicker-moon",
+			"title": "Wicker Moon",
+			"partName": "Piano",
+			"group": "honest",
+			"measures": [
+				{
+					"key": [
+						-4,
+						"minor"
+					],
+					"time": [
+						3,
+						4
+					],
+					"tempo": 88,
+					"mark": "A Verse",
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Fm7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				}
+			]
+		},
+		{
+			"id": "harbor-turn",
+			"title": "Harbor Turn",
+			"partName": "Lead Sheet",
+			"group": "modulating",
+			"pilot": true,
+			"measures": [
+				{
+					"key": [
+						1,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 108,
+					"mark": "A Verse",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"D7"
+					]
+				},
+				{
+					"key": [
+						2,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				}
+			]
+		},
+		{
+			"id": "slate-ferry",
+			"title": "Slate Ferry",
+			"partName": "Lead Sheet",
+			"group": "modulating",
+			"pilot": true,
+			"measures": [
+				{
+					"key": [
+						0,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 96,
+					"mark": "A Verse",
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"key": [
+						-3,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"G7"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				}
+			]
+		},
+		{
+			"id": "tinder-road",
+			"title": "Tinder Road",
+			"partName": "Guitar",
+			"group": "modulating",
+			"measures": [
+				{
+					"key": [
+						3,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"mark": "A Verse",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"key": [
+						-1,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				}
+			]
+		},
+		{
+			"id": "quill-bay",
+			"title": "Quill Bay",
+			"partName": "Lead Sheet",
+			"group": "modulating",
+			"measures": [
+				{
+					"key": [
+						2,
+						"major"
+					],
+					"time": [
+						3,
+						4
+					],
+					"tempo": 90,
+					"mark": "A Verse",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"A7"
+					]
+				},
+				{
+					"key": [
+						-2,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				}
+			]
+		},
+		{
+			"id": "lantern-hill",
+			"title": "Lantern Hill",
+			"partName": "Keys",
+			"group": "modulating",
+			"measures": [
+				{
+					"key": [
+						4,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 120,
+					"mark": "A Verse",
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"key": [
+						3,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"key": [
+						4,
+						"major"
+					],
+					"mark": "C Outro",
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				}
+			]
+		},
+		{
+			"id": "pewter-sound",
+			"title": "Pewter Sound",
+			"partName": "Lead Sheet",
+			"group": "modulating",
+			"measures": [
+				{
+					"key": [
+						-2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"mark": "A Verse",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"key": [
+						1,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "birch-relay",
+			"title": "Birch Relay",
+			"partName": "Guitar",
+			"group": "modulating",
+			"measures": [
+				{
+					"key": [
+						2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 104,
+					"mark": "A Verse",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"key": [
+						3,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"key": [
+						-1,
+						"major"
+					],
+					"mark": "C Outro",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				}
+			]
+		},
+		{
+			"id": "iron-tide",
+			"title": "Iron Tide",
+			"partName": "Lead Sheet",
+			"group": "modulating",
+			"measures": [
+				{
+					"key": [
+						-1,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 100,
+					"mark": "A Verse",
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"C"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Am"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"C7"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"key": [
+						2,
+						"major"
+					],
+					"mark": "B Chorus",
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"G"
+					]
+				},
+				{
+					"chords": [
+						"Em"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				}
+			]
+		},
+		{
+			"id": "amber-wake",
+			"title": "Amber Wake",
+			"partName": "Lead Sheet",
+			"group": "accidentals",
+			"pilot": true,
+			"measures": [
+				{
+					"key": [
+						-3,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 96,
+					"mark": "A Verse",
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Bb7"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Bb7"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Bb7"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				}
+			]
+		},
+		{
+			"id": "salt-meadow",
+			"title": "Salt Meadow",
+			"partName": "Guitar",
+			"group": "accidentals",
+			"pilot": true,
+			"measures": [
+				{
+					"key": [
+						3,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 116,
+					"mark": "A Verse",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E7"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "ninefold",
+			"title": "Ninefold",
+			"partName": "Lead Sheet",
+			"group": "accidentals",
+			"measures": [
+				{
+					"key": [
+						3,
+						"minor"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 80,
+					"mark": "A Verse",
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"C#7"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"D"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"C#7"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Bm"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"C#7"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				}
+			]
+		},
+		{
+			"id": "glass-acre",
+			"title": "Glass Acre",
+			"partName": "Keys",
+			"group": "accidentals",
+			"measures": [
+				{
+					"key": [
+						5,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"mark": "A Verse",
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"F#"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"G#m"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"F#7"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"F#"
+					]
+				},
+				{
+					"chords": [
+						"G#m"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"F#7"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				}
+			]
+		},
+		{
+			"id": "velvet-arch",
+			"title": "Velvet Arch",
+			"partName": "Piano",
+			"group": "accidentals",
+			"measures": [
+				{
+					"key": [
+						-5,
+						"major"
+					],
+					"time": [
+						3,
+						4
+					],
+					"tempo": 72,
+					"mark": "A Verse",
+					"chords": [
+						"Db"
+					]
+				},
+				{
+					"chords": [
+						"Gb"
+					]
+				},
+				{
+					"chords": [
+						"Ab7"
+					]
+				},
+				{
+					"chords": [
+						"Db"
+					]
+				},
+				{
+					"chords": [
+						"Bbm"
+					]
+				},
+				{
+					"chords": [
+						"Ebm"
+					]
+				},
+				{
+					"chords": [
+						"Ab7"
+					]
+				},
+				{
+					"chords": [
+						"Db"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Gb"
+					]
+				},
+				{
+					"chords": [
+						"Db"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Bbm"
+					]
+				},
+				{
+					"chords": [
+						"Ab7"
+					]
+				},
+				{
+					"chords": [
+						"Db"
+					]
+				}
+			]
+		},
+		{
+			"id": "rook-street",
+			"title": "Rook Street",
+			"partName": "Lead Sheet",
+			"group": "accidentals",
+			"measures": [
+				{
+					"key": [
+						-4,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 88,
+					"mark": "A Verse",
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Db"
+					]
+				},
+				{
+					"chords": [
+						"Eb7"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Bbm"
+					]
+				},
+				{
+					"chords": [
+						"Eb7"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Db"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"Fm"
+					]
+				},
+				{
+					"chords": [
+						"Bbm"
+					]
+				},
+				{
+					"chords": [
+						"Eb7"
+					]
+				},
+				{
+					"chords": [
+						"Ab"
+					]
+				}
+			]
+		},
+		{
+			"id": "kestrel-yard",
+			"title": "Kestrel Yard",
+			"partName": "Guitar",
+			"group": "accidentals",
+			"measures": [
+				{
+					"key": [
+						-2,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"tempo": 104,
+					"mark": "A Verse",
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"Eb"
+					]
+				},
+				{
+					"chords": [
+						"F"
+					]
+				},
+				{
+					"chords": [
+						"Dm"
+					]
+				},
+				{
+					"chords": [
+						"Gm"
+					]
+				},
+				{
+					"chords": [
+						"Cm"
+					]
+				},
+				{
+					"chords": [
+						"F7"
+					]
+				},
+				{
+					"chords": [
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "lowland-signal",
+			"title": "Lowland Signal",
+			"partName": "Lead Sheet",
+			"group": "accidentals",
+			"measures": [
+				{
+					"key": [
+						4,
+						"major"
+					],
+					"time": [
+						4,
+						4
+					],
+					"mark": "A Verse",
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				},
+				{
+					"chords": [
+						"G#m"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"mark": "B Chorus",
+					"chords": [
+						"A"
+					]
+				},
+				{
+					"chords": [
+						"B"
+					]
+				},
+				{
+					"chords": [
+						"C#m"
+					]
+				},
+				{
+					"chords": [
+						"F#m"
+					]
+				},
+				{
+					"chords": [
+						"B7"
+					]
+				},
+				{
+					"chords": [
+						"E"
+					]
+				}
+			]
+		}
+	]
+}
