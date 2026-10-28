@@ -99,6 +99,20 @@ reading the chart's chords.
 Registration: [docs/BRIEF-STUDY5.md](docs/BRIEF-STUDY5.md). Findings:
 [REPORT.md](REPORT.md).
 
+## Study 6 (micro): the warning heuristic, validated
+
+stem-shovel shipped a corrupted-chart warning from this bench's Study 3
+correction; Study 6 validated it at zero model spend, over existing
+reads of the same pages corrupted and clean. The shipped rule caught
+10/10 detectable corruptions; its documented blind spot measured at
+4/42 clean reads; a key-in-force refinement resolves the false
+positives, and its one residual flag caught a real misplaced-modulation
+read. The loop closed twice: the bench validated a feature that exists
+because of the bench.
+
+Registration: [docs/BRIEF-STUDY6.md](docs/BRIEF-STUDY6.md). Findings:
+[REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
