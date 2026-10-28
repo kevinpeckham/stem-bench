@@ -113,6 +113,21 @@ because of the bench.
 Registration: [docs/BRIEF-STUDY6.md](docs/BRIEF-STUDY6.md). Findings:
 [REPORT.md](REPORT.md).
 
+## Study 7: the redesigned song-check, re-measured
+
+stem-shovel rebuilt the song-check after Study 4; Study 7 measured the
+replacement. The deference failure is closed (zero wrong settings
+reach a song; raw echo under a truth-stating chart fell from 10-12/12
+to zero) — and the no-ear-estimates instruction fails 24/24 on
+chord-only charts, with every invented tempo the settings value
+verbatim: the fact line beats the instruction, the program's recurring
+law in its fourth costume. The application gate contains all harm.
+Ship guidance: parse tempo and meter from the chart; ask the model
+only what text cannot answer.
+
+Registration: [docs/BRIEF-STUDY7.md](docs/BRIEF-STUDY7.md). Findings:
+[REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
