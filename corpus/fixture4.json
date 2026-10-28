@@ -311,6 +311,66 @@
 				"key": "A minor",
 				"meter": "4/4"
 			}
+		},
+		{
+			"id": "contrast-a",
+			"title": "Contrast A",
+			"pulseless": false,
+			"truth": {
+				"tempo": 100,
+				"meter": "4/4",
+				"key": "C major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 77.8
+			},
+			"mp3": "corpus/mixes/contrast-a.mp3",
+			"chart": "Title: Contrast A\nPart: Lead Sheet (1 part)\nm1 key C major 4/4 tempo 100 \"100 bpm\": C\nm2: Am\nm3: F\nm4: G\nm5: C\nm6: Am\nm7: F\nm8: G\nm9: F\nm10: G\nm11: C\nm12: Am\nm13: F\nm14: G\nm15: C\nm16: C\nm17: C\nm18: Am\nm19: F\nm20: G\nm21: C\nm22: Am\nm23: F\nm24: G\nm25: F\nm26: G\nm27: C\nm28: Am\nm29: F\nm30: G\nm31: C\nm32: C",
+			"wrong": {
+				"tempo": "200",
+				"key": "F major",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "contrast-b",
+			"title": "Contrast B",
+			"pulseless": false,
+			"truth": {
+				"tempo": 120,
+				"meter": "4/4",
+				"key": "E minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 49
+			},
+			"mp3": "corpus/mixes/contrast-b.mp3",
+			"chart": "Title: Contrast B\nPart: Lead Sheet (1 part)\nm1 key E minor 4/4 tempo 120 \"120 bpm\": Em\nm2: C\nm3: Em\nm4: C\nm5: Em\nm6: C\nm7: G\nm8: D\nm9: Em\nm10: C\nm11: G\nm12: D\nm13: Am\nm14: C\nm15: B7\nm16: B7\nm17: C\nm18: D\nm19: Em\nm20: Em\nm21: C\nm22: D\nm23: G\nm24: B7",
+			"wrong": {
+				"tempo": "60",
+				"key": "A minor",
+				"meter": "3/4"
+			}
+		},
+		{
+			"id": "contrast-c",
+			"title": "Contrast C",
+			"pulseless": false,
+			"truth": {
+				"tempo": 76,
+				"meter": "6/8",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 32.578947368421055
+			},
+			"mp3": "corpus/mixes/contrast-c.mp3",
+			"chart": "Title: Contrast C\nPart: Lead Sheet (1 part)\nm1 key D major 6/8 tempo 76 \"76 bpm\": D\nm2: G\nm3: A\nm4: D\nm5: Bm\nm6: G\nm7: A\nm8: D\nm9: G\nm10: D\nm11: G\nm12: A\nm13: D\nm14: G\nm15: A\nm16: D\nm17: G\nm18: A\nm19: D\nm20: D",
+			"wrong": {
+				"tempo": "152",
+				"key": "G major",
+				"meter": "4/4"
+			}
 		}
 	]
 }

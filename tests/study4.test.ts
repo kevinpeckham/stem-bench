@@ -119,9 +119,9 @@ describe("gradeListen", () => {
 });
 
 describe("the committed fixture", () => {
-	test("14 items: 12 metered with charts, 2 pulseless without", () => {
+	test("17 items (Study 8 added three contrast mixes): 15 metered with charts, 2 pulseless without", () => {
 		const items = fixture.items;
-		expect(items).toHaveLength(14);
+		expect(items).toHaveLength(17);
 		expect(items.filter((i) => i.pulseless)).toHaveLength(2);
 		for (const i of items) {
 			expect(i.pulseless ? i.chart === null : typeof i.chart === "string").toBe(true);

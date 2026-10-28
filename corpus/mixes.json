@@ -1,21 +1,624 @@
 {
 	"version": 1,
 	"seed": "hand-authored-20261023",
-	"note": "Study 4 mix specs: tempo, meter and key known by construction (src/study4/synth4.ts). Sections change tempo or key at bar boundaries; pulseless items are pads whose registered correct tempo is null. Rendered to MP3 by scripts/build-fixture4.ts.",
+	"note": "Study 4 mix specs: tempo, meter and key known by construction (src/study4/synth4.ts). Sections change tempo or key at bar boundaries; pulseless items are pads whose registered correct tempo is null. Rendered to MP3 by scripts/build-fixture4.ts. Items contrast-a/b/c (2026-10-28, Study 8) add named sections with sparse/dense texture contrast.",
 	"mixes": [
-		{ "id": "drift-4a", "title": "Drift A", "meter": "4/4", "sections": [ { "bpm": 120, "key": "D major", "bars": ["D", "G", "A", "D", "Bm", "G", "A", "A", "D", "G", "A", "D", "G", "A", "D", "D"] } ] },
-		{ "id": "drift-4b", "title": "Drift B", "meter": "4/4", "sections": [ { "bpm": 84, "key": "Eb major", "bars": ["Eb", "Ab", "Bb", "Eb", "Cm", "Ab", "Bb", "Bb", "Eb", "Ab", "Bb", "Eb", "Ab", "Bb", "Eb", "Eb"] } ] },
-		{ "id": "waltz-a", "title": "Waltz A", "meter": "3/4", "sections": [ { "bpm": 96, "key": "G major", "bars": ["G", "C", "D", "G", "Em", "C", "D", "D", "G", "C", "D", "G", "C", "D", "G", "G", "C", "G"] } ] },
-		{ "id": "waltz-b", "title": "Waltz B", "meter": "3/4", "sections": [ { "bpm": 140, "key": "C minor", "bars": ["Cm", "Ab", "Bb", "Cm", "Fm", "Ab", "G7", "Cm", "Cm", "Ab", "Bb", "Cm", "Ab", "G7", "Cm", "Cm", "G7", "Cm"] } ] },
-		{ "id": "lilt-a", "title": "Lilt A", "meter": "6/8", "sections": [ { "bpm": 60, "key": "A major", "bars": ["A", "D", "E", "A", "F#m", "D", "E", "E", "A", "D", "E", "A", "D", "E", "A", "A"] } ] },
-		{ "id": "lilt-b", "title": "Lilt B", "meter": "6/8", "sections": [ { "bpm": 76, "key": "E minor", "bars": ["Em", "C", "D", "Em", "Am", "C", "B7", "Em", "Em", "C", "D", "Em", "C", "B7", "Em", "Em"] } ] },
-		{ "id": "shift-a", "title": "Shift A", "meter": "4/4", "sections": [ { "bpm": 100, "key": "C major", "bars": ["C", "F", "G", "C", "Am", "F", "G", "G"] }, { "bpm": 140, "key": "C major", "bars": ["C", "F", "G", "C", "F", "G", "C", "C"] } ] },
-		{ "id": "shift-b", "title": "Shift B", "meter": "4/4", "sections": [ { "bpm": 72, "key": "B minor", "bars": ["Bm", "G", "D", "A", "Bm", "G", "F#7", "F#7"] }, { "bpm": 108, "key": "B minor", "bars": ["Bm", "G", "D", "A", "G", "F#7", "Bm", "Bm"] } ] },
-		{ "id": "shift-c", "title": "Shift C", "meter": "3/4", "sections": [ { "bpm": 90, "key": "F major", "bars": ["F", "Bb", "C", "F", "Dm", "Bb", "C", "C", "F"] }, { "bpm": 120, "key": "F major", "bars": ["F", "Bb", "C", "F", "Bb", "C", "F", "F", "F"] } ] },
-		{ "id": "mod-a", "title": "Mod A", "meter": "4/4", "sections": [ { "bpm": 110, "key": "F major", "bars": ["F", "Bb", "C", "F", "Dm", "Bb", "C", "C"] }, { "bpm": 110, "key": "G major", "bars": ["G", "C", "D", "G", "Em", "C", "D", "G"] } ] },
-		{ "id": "mod-b", "title": "Mod B", "meter": "4/4", "sections": [ { "bpm": 95, "key": "A minor", "bars": ["Am", "Dm", "E7", "Am", "F", "Dm", "E7", "Am"] }, { "bpm": 95, "key": "C major", "bars": ["C", "F", "G", "C", "Am", "F", "G", "C"] } ] },
-		{ "id": "mod-c", "title": "Mod C", "meter": "4/4", "sections": [ { "bpm": 126, "key": "D major", "bars": ["D", "G", "A", "D", "Bm", "G", "A", "A"] }, { "bpm": 126, "key": "F major", "bars": ["F", "Bb", "C", "F", "Bb", "C", "F", "F"] } ] },
-		{ "id": "still-a", "title": "Still A", "meter": "4/4", "pulseless": true, "sections": [ { "bpm": 60, "key": "Bb major", "bars": ["Bb", "Eb", "F", "Bb", "Gm", "Eb", "F", "Bb", "Eb", "Bb"] } ] },
-		{ "id": "still-b", "title": "Still B", "meter": "4/4", "pulseless": true, "sections": [ { "bpm": 60, "key": "E minor", "bars": ["Em", "C", "Am", "Em", "C", "B7", "Em", "C", "B7", "Em"] } ] }
+		{
+			"id": "drift-4a",
+			"title": "Drift A",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 120,
+					"key": "D major",
+					"bars": [
+						"D",
+						"G",
+						"A",
+						"D",
+						"Bm",
+						"G",
+						"A",
+						"A",
+						"D",
+						"G",
+						"A",
+						"D",
+						"G",
+						"A",
+						"D",
+						"D"
+					]
+				}
+			]
+		},
+		{
+			"id": "drift-4b",
+			"title": "Drift B",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 84,
+					"key": "Eb major",
+					"bars": [
+						"Eb",
+						"Ab",
+						"Bb",
+						"Eb",
+						"Cm",
+						"Ab",
+						"Bb",
+						"Bb",
+						"Eb",
+						"Ab",
+						"Bb",
+						"Eb",
+						"Ab",
+						"Bb",
+						"Eb",
+						"Eb"
+					]
+				}
+			]
+		},
+		{
+			"id": "waltz-a",
+			"title": "Waltz A",
+			"meter": "3/4",
+			"sections": [
+				{
+					"bpm": 96,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"G",
+						"C",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "waltz-b",
+			"title": "Waltz B",
+			"meter": "3/4",
+			"sections": [
+				{
+					"bpm": 140,
+					"key": "C minor",
+					"bars": [
+						"Cm",
+						"Ab",
+						"Bb",
+						"Cm",
+						"Fm",
+						"Ab",
+						"G7",
+						"Cm",
+						"Cm",
+						"Ab",
+						"Bb",
+						"Cm",
+						"Ab",
+						"G7",
+						"Cm",
+						"Cm",
+						"G7",
+						"Cm"
+					]
+				}
+			]
+		},
+		{
+			"id": "lilt-a",
+			"title": "Lilt A",
+			"meter": "6/8",
+			"sections": [
+				{
+					"bpm": 60,
+					"key": "A major",
+					"bars": [
+						"A",
+						"D",
+						"E",
+						"A",
+						"F#m",
+						"D",
+						"E",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "lilt-b",
+			"title": "Lilt B",
+			"meter": "6/8",
+			"sections": [
+				{
+					"bpm": 76,
+					"key": "E minor",
+					"bars": [
+						"Em",
+						"C",
+						"D",
+						"Em",
+						"Am",
+						"C",
+						"B7",
+						"Em",
+						"Em",
+						"C",
+						"D",
+						"Em",
+						"C",
+						"B7",
+						"Em",
+						"Em"
+					]
+				}
+			]
+		},
+		{
+			"id": "shift-a",
+			"title": "Shift A",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 100,
+					"key": "C major",
+					"bars": [
+						"C",
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G",
+						"G"
+					]
+				},
+				{
+					"bpm": 140,
+					"key": "C major",
+					"bars": [
+						"C",
+						"F",
+						"G",
+						"C",
+						"F",
+						"G",
+						"C",
+						"C"
+					]
+				}
+			]
+		},
+		{
+			"id": "shift-b",
+			"title": "Shift B",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 72,
+					"key": "B minor",
+					"bars": [
+						"Bm",
+						"G",
+						"D",
+						"A",
+						"Bm",
+						"G",
+						"F#7",
+						"F#7"
+					]
+				},
+				{
+					"bpm": 108,
+					"key": "B minor",
+					"bars": [
+						"Bm",
+						"G",
+						"D",
+						"A",
+						"G",
+						"F#7",
+						"Bm",
+						"Bm"
+					]
+				}
+			]
+		},
+		{
+			"id": "shift-c",
+			"title": "Shift C",
+			"meter": "3/4",
+			"sections": [
+				{
+					"bpm": 90,
+					"key": "F major",
+					"bars": [
+						"F",
+						"Bb",
+						"C",
+						"F",
+						"Dm",
+						"Bb",
+						"C",
+						"C",
+						"F"
+					]
+				},
+				{
+					"bpm": 120,
+					"key": "F major",
+					"bars": [
+						"F",
+						"Bb",
+						"C",
+						"F",
+						"Bb",
+						"C",
+						"F",
+						"F",
+						"F"
+					]
+				}
+			]
+		},
+		{
+			"id": "mod-a",
+			"title": "Mod A",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 110,
+					"key": "F major",
+					"bars": [
+						"F",
+						"Bb",
+						"C",
+						"F",
+						"Dm",
+						"Bb",
+						"C",
+						"C"
+					]
+				},
+				{
+					"bpm": 110,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "mod-b",
+			"title": "Mod B",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 95,
+					"key": "A minor",
+					"bars": [
+						"Am",
+						"Dm",
+						"E7",
+						"Am",
+						"F",
+						"Dm",
+						"E7",
+						"Am"
+					]
+				},
+				{
+					"bpm": 95,
+					"key": "C major",
+					"bars": [
+						"C",
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G",
+						"C"
+					]
+				}
+			]
+		},
+		{
+			"id": "mod-c",
+			"title": "Mod C",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 126,
+					"key": "D major",
+					"bars": [
+						"D",
+						"G",
+						"A",
+						"D",
+						"Bm",
+						"G",
+						"A",
+						"A"
+					]
+				},
+				{
+					"bpm": 126,
+					"key": "F major",
+					"bars": [
+						"F",
+						"Bb",
+						"C",
+						"F",
+						"Bb",
+						"C",
+						"F",
+						"F"
+					]
+				}
+			]
+		},
+		{
+			"id": "still-a",
+			"title": "Still A",
+			"meter": "4/4",
+			"pulseless": true,
+			"sections": [
+				{
+					"bpm": 60,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "still-b",
+			"title": "Still B",
+			"meter": "4/4",
+			"pulseless": true,
+			"sections": [
+				{
+					"bpm": 60,
+					"key": "E minor",
+					"bars": [
+						"Em",
+						"C",
+						"Am",
+						"Em",
+						"C",
+						"B7",
+						"Em",
+						"C",
+						"B7",
+						"Em"
+					]
+				}
+			]
+		},
+		{
+			"id": "contrast-a",
+			"title": "Contrast A",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 100,
+					"key": "C major",
+					"name": "Verse",
+					"sparse": true,
+					"bars": [
+						"C",
+						"Am",
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G"
+					]
+				},
+				{
+					"bpm": 100,
+					"key": "C major",
+					"name": "Chorus",
+					"bars": [
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G",
+						"C",
+						"C"
+					]
+				},
+				{
+					"bpm": 100,
+					"key": "C major",
+					"name": "Verse",
+					"sparse": true,
+					"bars": [
+						"C",
+						"Am",
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G"
+					]
+				},
+				{
+					"bpm": 100,
+					"key": "C major",
+					"name": "Chorus",
+					"bars": [
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G",
+						"C",
+						"C"
+					]
+				}
+			]
+		},
+		{
+			"id": "contrast-b",
+			"title": "Contrast B",
+			"meter": "4/4",
+			"sections": [
+				{
+					"bpm": 120,
+					"key": "E minor",
+					"name": "Intro",
+					"sparse": true,
+					"bars": [
+						"Em",
+						"C",
+						"Em",
+						"C"
+					]
+				},
+				{
+					"bpm": 120,
+					"key": "E minor",
+					"name": "Verse",
+					"bars": [
+						"Em",
+						"C",
+						"G",
+						"D",
+						"Em",
+						"C",
+						"G",
+						"D"
+					]
+				},
+				{
+					"bpm": 120,
+					"key": "E minor",
+					"name": "Bridge",
+					"sparse": true,
+					"bars": [
+						"Am",
+						"C",
+						"B7",
+						"B7"
+					]
+				},
+				{
+					"bpm": 120,
+					"key": "E minor",
+					"name": "Chorus",
+					"bars": [
+						"C",
+						"D",
+						"Em",
+						"Em",
+						"C",
+						"D",
+						"G",
+						"B7"
+					]
+				}
+			]
+		},
+		{
+			"id": "contrast-c",
+			"title": "Contrast C",
+			"meter": "6/8",
+			"sections": [
+				{
+					"bpm": 76,
+					"key": "D major",
+					"name": "Verse",
+					"bars": [
+						"D",
+						"G",
+						"A",
+						"D",
+						"Bm",
+						"G",
+						"A",
+						"D"
+					]
+				},
+				{
+					"bpm": 76,
+					"key": "D major",
+					"name": "Interlude",
+					"sparse": true,
+					"bars": [
+						"G",
+						"D",
+						"G",
+						"A"
+					]
+				},
+				{
+					"bpm": 76,
+					"key": "D major",
+					"name": "Verse",
+					"bars": [
+						"D",
+						"G",
+						"A",
+						"D",
+						"G",
+						"A",
+						"D",
+						"D"
+					]
+				}
+			]
+		}
 	]
 }

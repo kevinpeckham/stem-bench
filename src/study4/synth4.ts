@@ -21,6 +21,10 @@ export interface Section4 {
 	key: string;
 	/** One chord per bar. */
 	bars: string[];
+	/** Study 8: a sparse section renders as soft whole-bar chords, no drums. */
+	sparse?: boolean;
+	/** Study 8: the section's name for section-detection ground truth. */
+	name?: string;
 }
 
 export interface MixSpec {
@@ -132,7 +136,12 @@ export function renderMix(spec: MixSpec, seed: number): Float32Array {
 		for (const chord of section.bars) {
 			const v = chordTones(chord);
 			if (v) {
-				if (spec.pulseless) {
+				if (section.sparse) {
+					// Study 8 contrast sections: one soft sustained chord per
+					// bar, no drums, no strummed subdivision.
+					addTone(out, at, barSec * 1.1, v.bass, 0.3, 2, 0.04);
+					for (const tone of v.tones) addTone(out, at + 0.02, barSec * 1.05, tone, 0.22, 2, 0.05);
+				} else if (spec.pulseless) {
 					// A pad: every tone enters within the first half of the bar
 					// with a slow attack; no rhythmic grid.
 					for (const tone of [v.bass + 12, ...v.tones]) {
