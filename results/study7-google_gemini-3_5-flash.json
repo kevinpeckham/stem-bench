@@ -1,0 +1,1909 @@
+[
+	{
+		"itemId": "drift-4a",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in key, tempo, and structure."
+		},
+		"applied": {
+			"tempo": 120,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in key, tempo, and structure.",
+		"tokensIn": 1501,
+		"tokensOut": 735,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3879
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"notes": "The chart matches the recording perfectly in key, meter, tempo, and chord progression."
+		},
+		"applied": {
+			"tempo": 120,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The chart matches the recording perfectly in key, meter, tempo, and chord progression.",
+		"tokensIn": 1500,
+		"tokensOut": 1337,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6927
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly.",
+		"tokensIn": 1469,
+		"tokensOut": 784,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4480
+	},
+	{
+		"itemId": "drift-4a",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "D major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in D major."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in D major.",
+		"tokensIn": 1468,
+		"tokensOut": 982,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6294
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "E♭ major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in key, tempo, and structure."
+		},
+		"applied": {
+			"tempo": 84,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in key, tempo, and structure.",
+		"tokensIn": 1856,
+		"tokensOut": 980,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5804
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "E♭ major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's key of E♭ major, 4/4 meter, and 84 bpm tempo."
+		},
+		"applied": {
+			"tempo": 84,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's key of E♭ major, 4/4 meter, and 84 bpm tempo.",
+		"tokensIn": 1857,
+		"tokensOut": 1066,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5125
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 84,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "Eb major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in Eb major at 84 bpm."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in Eb major at 84 bpm.",
+		"tokensIn": 1810,
+		"tokensOut": 849,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4831
+	},
+	{
+		"itemId": "drift-4b",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 168,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "Eb major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart exactly, playing Section A twice in Eb major."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart exactly, playing Section A twice in Eb major.",
+		"tokensIn": 1811,
+		"tokensOut": 1294,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6437
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "G major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in key, meter, and tempo."
+		},
+		"applied": {
+			"tempo": 96,
+			"meter": "3/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in key, meter, and tempo.",
+		"tokensIn": 1553,
+		"tokensOut": 905,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6094
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "G major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in G major at 96 bpm."
+		},
+		"applied": {
+			"tempo": 96,
+			"meter": "3/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in G major at 96 bpm.",
+		"tokensIn": 1554,
+		"tokensOut": 1113,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6677
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 96,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "G major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in G major."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in G major.",
+		"tokensIn": 1517,
+		"tokensOut": 956,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4624
+	},
+	{
+		"itemId": "waltz-a",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 192,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "G major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in G major."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in G major.",
+		"tokensIn": 1518,
+		"tokensOut": 700,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4364
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in C minor at 140 bpm."
+		},
+		"applied": {
+			"tempo": 140,
+			"meter": "3/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in C minor at 140 bpm.",
+		"tokensIn": 1300,
+		"tokensOut": 863,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5725
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's chord progression in C minor, though performed at a slower tempo than the marked 140 bpm."
+		},
+		"applied": {
+			"tempo": 140,
+			"meter": "3/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's chord progression in C minor, though performed at a slower tempo than the marked 140 bpm.",
+		"tokensIn": 1299,
+		"tokensOut": 1336,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6355
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 140,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "C minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in C minor with no key changes."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in C minor with no key changes.",
+		"tokensIn": 1256,
+		"tokensOut": 936,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6373
+	},
+	{
+		"itemId": "waltz-b",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 70,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "C minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in C minor at 70 bpm."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in C minor at 70 bpm.",
+		"tokensIn": 1255,
+		"tokensOut": 1086,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7172
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "A major",
+			"keyChanges": [],
+			"notes": "The chart matches the recording perfectly, staying in A major throughout."
+		},
+		"applied": {
+			"tempo": 60,
+			"meter": "6/8"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The chart matches the recording perfectly, staying in A major throughout.",
+		"tokensIn": 1500,
+		"tokensOut": 925,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6067
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"notes": "The recording does not match the provided chart, which is in 6/8 and A major; the recording is in B minor, 4/4 time, at 120 bpm."
+		},
+		"applied": {
+			"tempo": 120,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": false,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": false,
+			"appliedMeterCorrect": false,
+			"appliedWrongTempo": true,
+			"appliedWrongMeter": true
+		},
+		"notes": "The recording does not match the provided chart, which is in 6/8 and A major; the recording is in B minor, 4/4 time, at 120 bpm.",
+		"tokensIn": 1501,
+		"tokensOut": 1474,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7759
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 60,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "A major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's chord progression in A major."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's chord progression in A major.",
+		"tokensIn": 1470,
+		"tokensOut": 1032,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5481
+	},
+	{
+		"itemId": "lilt-a",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 120,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly in A major at 120 bpm."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly in A major at 120 bpm.",
+		"tokensIn": 1471,
+		"tokensOut": 911,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5025
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 76,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "E minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's progression, tempo, and meter perfectly."
+		},
+		"applied": {
+			"tempo": 76,
+			"meter": "6/8"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's progression, tempo, and meter perfectly.",
+		"tokensIn": 1332,
+		"tokensOut": 814,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5645
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 76,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "E minor",
+			"keyChanges": [],
+			"notes": "The chart's 6/8 meter and 76 bpm tempo mark match the recording's 16-measure structure in E minor."
+		},
+		"applied": {
+			"tempo": 76,
+			"meter": "6/8"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The chart's 6/8 meter and 76 bpm tempo mark match the recording's 16-measure structure in E minor.",
+		"tokensIn": 1333,
+		"tokensOut": 1390,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9489
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 76,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "E minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart and remains in E minor throughout."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart and remains in E minor throughout.",
+		"tokensIn": 1302,
+		"tokensOut": 1624,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 9379
+	},
+	{
+		"itemId": "lilt-b",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 152,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "E minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart exactly and remains in E minor throughout."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart exactly and remains in E minor throughout.",
+		"tokensIn": 1303,
+		"tokensOut": 902,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4674
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 19.2,
+					"bpm": 140
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"notes": "The tempo increases from 100 bpm to 140 bpm at 19.2 seconds (measure 9) as indicated in the chart."
+		},
+		"applied": {
+			"tempo": 100,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 1,
+			"rawTempoChangesTotal": 1,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The tempo increases from 100 bpm to 140 bpm at 19.2 seconds (measure 9) as indicated in the chart.",
+		"tokensIn": 1533,
+		"tokensOut": 1023,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5314
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 100,
+			"tempoChanges": [
+				{
+					"at": 19.2,
+					"bpm": 140
+				}
+			],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"notes": "The chart matches the recording perfectly, with a tempo change to 140 bpm at 19.2 seconds."
+		},
+		"applied": {
+			"tempo": 100,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 1,
+			"rawTempoChangesTotal": 1,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The chart matches the recording perfectly, with a tempo change to 140 bpm at 19.2 seconds.",
+		"tokensIn": 1533,
+		"tokensOut": 1989,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 11131
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 100,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "C major",
+			"keyChanges": [],
+			"notes": "The chart matches the recording perfectly in C major."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The chart matches the recording perfectly in C major.",
+		"tokensIn": 1495,
+		"tokensOut": 833,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 3828
+	},
+	{
+		"itemId": "shift-a",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": null,
+		"applied": null,
+		"grade": null,
+		"notes": "",
+		"tokensIn": 1495,
+		"tokensOut": 1996,
+		"outcome": "parse-error",
+		"error": "The model's answer did not make sense",
+		"latencyMs": 10414
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 72,
+			"tempoChanges": [
+				{
+					"at": 27,
+					"bpm": 108
+				}
+			],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"notes": "The tempo increases from 72 bpm to 108 bpm at measure 9 (approximately 27 seconds) while the key remains B minor throughout."
+		},
+		"applied": {
+			"tempo": 72,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 1,
+			"rawTempoChangesTotal": 1,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The tempo increases from 72 bpm to 108 bpm at measure 9 (approximately 27 seconds) while the key remains B minor throughout.",
+		"tokensIn": 1830,
+		"tokensOut": 1700,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 8964
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 72,
+			"tempoChanges": [
+				{
+					"at": 27,
+					"bpm": 108
+				}
+			],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"notes": "The tempo increases from 72 bpm to 108 bpm at measure 9 (27 seconds)."
+		},
+		"applied": {
+			"tempo": 72,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 1,
+			"rawTempoChangesTotal": 1,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The tempo increases from 72 bpm to 108 bpm at measure 9 (27 seconds).",
+		"tokensIn": 1831,
+		"tokensOut": 1605,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7531
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 72,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's structure, tempo, and key of B minor perfectly."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's structure, tempo, and key of B minor perfectly.",
+		"tokensIn": 1794,
+		"tokensOut": 1190,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6887
+	},
+	{
+		"itemId": "shift-b",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 144,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "B minor",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly, staying in B minor throughout."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly, staying in B minor throughout.",
+		"tokensIn": 1795,
+		"tokensOut": 1558,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7198
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 90,
+			"tempoChanges": [
+				{
+					"at": 18,
+					"bpm": 120
+				}
+			],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart perfectly, with the tempo change occurring at 18 seconds."
+		},
+		"applied": {
+			"tempo": 90,
+			"meter": "3/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 1,
+			"rawTempoChangesTotal": 1,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly, with the tempo change occurring at 18 seconds.",
+		"tokensIn": 1512,
+		"tokensOut": 885,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6132
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 90,
+			"tempoChanges": [
+				{
+					"at": 18,
+					"bpm": 120
+				}
+			],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's tempo change from 90 bpm to 120 bpm at 18 seconds."
+		},
+		"applied": {
+			"tempo": 90,
+			"meter": "3/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 1,
+			"rawTempoChangesTotal": 1,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's tempo change from 90 bpm to 120 bpm at 18 seconds.",
+		"tokensIn": 1513,
+		"tokensOut": 1245,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7005
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 90,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [],
+			"notes": "The recording matches the chart's structure, tempo, and meter, remaining in F major throughout."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart's structure, tempo, and meter, remaining in F major throughout.",
+		"tokensIn": 1468,
+		"tokensOut": 1321,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6498
+	},
+	{
+		"itemId": "shift-c",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 180,
+			"tempoChanges": [],
+			"meter": "6/8",
+			"key": "F major",
+			"keyChanges": [],
+			"notes": "The entire piece remains in F major throughout both sections."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 0,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The entire piece remains in F major throughout both sections.",
+		"tokensIn": 1469,
+		"tokensOut": 1532,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 7914
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 110,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [
+				{
+					"at": 17,
+					"key": "G major"
+				}
+			],
+			"notes": "The key changes to G major at measure 9 (17.5 seconds)."
+		},
+		"applied": {
+			"tempo": 110,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The key changes to G major at measure 9 (17.5 seconds).",
+		"tokensIn": 1579,
+		"tokensOut": 1080,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5784
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 110,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [
+				{
+					"at": 17.4,
+					"key": "G major"
+				}
+			],
+			"notes": "The recording matches the chart perfectly, modulating from F major to G major at measure 9."
+		},
+		"applied": {
+			"tempo": 110,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly, modulating from F major to G major at measure 9.",
+		"tokensIn": 1578,
+		"tokensOut": 817,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5460
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 110,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "F major",
+			"keyChanges": [
+				{
+					"at": 17,
+					"key": "G major"
+				}
+			],
+			"notes": "The recording matches the chart exactly, modulating from F major to G major at Section B."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart exactly, modulating from F major to G major at Section B.",
+		"tokensIn": 1546,
+		"tokensOut": 1320,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6493
+	},
+	{
+		"itemId": "mod-a",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 55,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "F major",
+			"keyChanges": [
+				{
+					"at": 26,
+					"key": "G major"
+				}
+			],
+			"notes": "The recording matches the chart perfectly, transitioning from F major to G major at Section B."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly, transitioning from F major to G major at Section B.",
+		"tokensIn": 1545,
+		"tokensOut": 996,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6164
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 95,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [
+				{
+					"at": 20,
+					"key": "C major"
+				}
+			],
+			"notes": "The recording matches the chart perfectly, with a key change from A minor to C major at 20 seconds."
+		},
+		"applied": {
+			"tempo": 95,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly, with a key change from A minor to C major at 20 seconds.",
+		"tokensIn": 1715,
+		"tokensOut": 982,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 4873
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": null,
+		"applied": null,
+		"grade": null,
+		"notes": "",
+		"tokensIn": 1716,
+		"tokensOut": 1995,
+		"outcome": "parse-error",
+		"error": "The model did not answer in the expected form",
+		"latencyMs": 10367
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 95,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "A minor",
+			"keyChanges": [
+				{
+					"at": 20,
+					"key": "C major"
+				}
+			],
+			"notes": "The song modulates from A minor to C major at the start of Section B."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The song modulates from A minor to C major at the start of Section B.",
+		"tokensIn": 1686,
+		"tokensOut": 1277,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6501
+	},
+	{
+		"itemId": "mod-b",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 190,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "A minor",
+			"keyChanges": [
+				{
+					"at": 8,
+					"key": "C major"
+				}
+			],
+			"notes": "The song modulates from A minor to C major at Section B."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The song modulates from A minor to C major at Section B.",
+		"tokensIn": 1687,
+		"tokensOut": 1389,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6609
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "R-true",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [
+				{
+					"at": 15.2,
+					"key": "F major"
+				}
+			],
+			"notes": "The recording matches the chart perfectly, with the key change to F major occurring at measure 9 (15.2 seconds)."
+		},
+		"applied": {
+			"tempo": 126,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The recording matches the chart perfectly, with the key change to F major occurring at measure 9 (15.2 seconds).",
+		"tokensIn": 1468,
+		"tokensOut": 1169,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 6139
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "R-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [
+				{
+					"at": 15,
+					"key": "F major"
+				}
+			],
+			"notes": "The chart matches the recording perfectly, with a key change to F major at measure 9."
+		},
+		"applied": {
+			"tempo": 126,
+			"meter": "4/4"
+		},
+		"grade": {
+			"rawTempoCorrect": true,
+			"rawMeterCorrect": true,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": false,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The chart matches the recording perfectly, with a key change to F major at measure 9.",
+		"tokensIn": 1467,
+		"tokensOut": 1131,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5275
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "R-chord",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 126,
+			"tempoChanges": [],
+			"meter": "4/4",
+			"key": "D major",
+			"keyChanges": [
+				{
+					"at": 15,
+					"key": "F major"
+				}
+			],
+			"notes": "The song transitions from D major to F major at Section B, starting at 15 seconds."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 1,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": false,
+			"echoedWrongMeter": false,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The song transitions from D major to F major at Section B, starting at 15 seconds.",
+		"tokensIn": 1435,
+		"tokensOut": 1028,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5231
+	},
+	{
+		"itemId": "mod-c",
+		"arm": "R-chord-wrong",
+		"model": "google/gemini-3.5-flash",
+		"raw": {
+			"tempo": 63,
+			"tempoChanges": [],
+			"meter": "3/4",
+			"key": "D major",
+			"keyChanges": [
+				{
+					"at": 23,
+					"key": "F major"
+				}
+			],
+			"notes": "The key changes from D major to F major at the start of Section B, around 23 seconds."
+		},
+		"applied": {
+			"tempo": null,
+			"meter": null
+		},
+		"grade": {
+			"rawTempoCorrect": false,
+			"rawMeterCorrect": false,
+			"rawKeyCorrect": true,
+			"rawTempoChangesFound": 0,
+			"rawTempoChangesTotal": 0,
+			"rawKeyChangesFound": 0,
+			"rawKeyChangesTotal": 1,
+			"rawInventedTempo": true,
+			"echoedWrongTempo": true,
+			"echoedWrongMeter": true,
+			"appliedTempoCorrect": true,
+			"appliedMeterCorrect": true,
+			"appliedWrongTempo": false,
+			"appliedWrongMeter": false
+		},
+		"notes": "The key changes from D major to F major at the start of Section B, around 23 seconds.",
+		"tokensIn": 1434,
+		"tokensOut": 971,
+		"outcome": "answered",
+		"error": null,
+		"latencyMs": 5450
+	}
+]

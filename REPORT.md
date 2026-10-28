@@ -1,5 +1,68 @@
 # stem-bench REPORT
 
+## Study 7 — the redesigned song-check, re-measured (2026-10-28)
+
+**Question.** stem-shovel rebuilt the song-check in response to Study 4
+(chart-reader framing, "Do not estimate a tempo by ear", bar-following
+facts instead of confirm/correct candidates, the `chartStatedAnswer`
+application gate). Study 7 measured the replacement: the v0.192.0 call
+ported verbatim and pinned, four arms over Study 4's metered mixes
+(score summary vs band chart × true vs wrong settings), two models,
+96 cells, ~$0.40 of the $5 fence. Grading at two levels: the RAW
+answer (chart obedience) and the APPLIED answer (what the gate lets
+through).
+
+**S7-G1 PASS, decisively: the deference failure is closed where it
+counts.** Zero wrong settings survived to application on the
+production model (0/24 per field; anchor: the retired design echoed
+wrong candidates 10–12/12 straight into the answer). Better still,
+the RAW echo under a truth-stating chart is also zero: told "the
+song's settings say tempo 240" while the chart's mark reads 120, the
+model follows the chart, 12/12. The chart-transcription framing
+works when there is a chart statement to transcribe.
+
+**S7-G2 FAILS at 24/24 — and the values convict the mechanism.** On
+chord-only charts (no tempo mark anywhere; the registered correct
+answer is null), the model NEVER answered null — but it did not
+estimate by ear either. Every single invented tempo equals the
+SETTINGS value verbatim: 120 when the settings said 120, 60 when they
+lied and said 60, both models, 47/47 cells. "Use them to follow the
+bars" reads, to the model, as "this is the tempo"; the instruction
+and the facts contradict, and the facts win. Meter identically. The
+harm is fully contained — `chartStatedAnswer` nulls both fields on a
+chart that states neither, 24/24 correct refusals — so the study gate
+fails by letter while no wrong value can reach a song. The recurring
+shape, fourth appearance: text beats instruction (Studies 1, 2, 4
+each found a costume for it).
+
+Reads: key from chords alone is perfect (12/12 both models — the band
+chart path's actual job works); keyChange placement under wrong-tempo
+bar-following degrades exactly as predicted (3/3 → 1/3 production,
+0/3 on 3.5-flash: the arithmetic inherits the lie); and 3.5-flash
+shows the guard's design limit — it echoed a wrong setting once under
+a truth-stating chart, and the presence-based gate (the chart SAYS a
+tempo, so keep the model's) passed the wrong value through, 1/22. The
+production model never did; the gate is production-scoped and PASSES.
+
+Ship guidance delivered: (1) never display the raw tempo/meter from
+chord-path answers (the applied nulls are the real result); (2) the
+deeper fix — `chartStatedAnswer` filters by PRESENCE when it could
+substitute by VALUE: the chart summary's tempo marks and time
+signature are machine-readable text, so tempo and meter need no model
+at all; parse them straight from the chart and reserve the model for
+what measured perfect — keys from chords and placement in seconds.
+
+Prediction scorecard: 1 half-right (G1 yes, G2 no at 24/24);
+2 wrong in both directions at once (score-chart echo fell to zero,
+chord-chart echo rose to twelve-twelfths — the prediction missed that
+the split IS the finding); 3 right in both halves; 4 wrong
+(production out-resisted 3.5-flash under the new prompt).
+
+Disclosure: analyst Claude Fable 5; no Anthropic model measured (no
+audio on the gateway); every grade mechanical, committed and tested
+before any scored run; the band-chart generator's
+no-tempo/no-meter property is asserted by test.
+
 ## Study 6 (micro) — the warning heuristic, validated (2026-10-28)
 
 **Question.** stem-shovel shipped `chartReadWarnings` from the Study 3
