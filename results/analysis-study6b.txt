@@ -1,0 +1,38 @@
+Study 6b — reproduction check over Study 6's 148 saved reader texts (52 corrupted, 96 clean). No reads.
+
+Production reader (fable):
+  H-scoped  detectable corrupted 10/10 fired; undetectable corrupted 0/12 fired; clean 1/42 FALSE POSITIVES — mod-c(claude-fable-5-1)
+  H-prod    detectable corrupted 10/10 fired; undetectable corrupted 0/12 fired; clean 0/42 FALSE POSITIVES
+
+All models (context):
+  H-scoped  detectable corrupted 20/28 fired (missed: slate-sky(claude-opus-4.8), quarry-road(claude-opus-4.8), ashen-waltz(claude-haiku-4.5), night-ferry(claude-haiku-4.5), slate-sky(claude-haiku-4.5), winter-pier(claude-haiku-4.5), lantern-row(claude-haiku-4.5), quarry-road(claude-haiku-4.5)); undetectable corrupted 0/24 fired; clean 1/96 FALSE POSITIVES — mod-c(claude-fable-5-1)
+  H-prod    detectable corrupted 20/28 fired (missed: slate-sky(claude-opus-4.8), quarry-road(claude-opus-4.8), ashen-waltz(claude-haiku-4.5), night-ferry(claude-haiku-4.5), slate-sky(claude-haiku-4.5), winter-pier(claude-haiku-4.5), lantern-row(claude-haiku-4.5), quarry-road(claude-haiku-4.5)); undetectable corrupted 0/24 fired; clean 0/96 FALSE POSITIVES
+
+Reproduction: H-scoped on the production reader 10/10, 0/12, 1/42 over 148 texts — REPRODUCES Study 6 exactly (10/10, 0/12, 1/42).
+
+Study 6b reads: 48 records (12 pilot), 48 scored, 0 floor effects
+  spend ≈ $1.59 (fable list price, from token usage)
+
+H-prod:
+  hit rate, detectable corrupted: 8/8 (100%)
+  silence rate, undetectable corrupted: 16/16 (100%)
+  clean false positives: 0/24 (0%)
+    honest: 0/8
+    modulating: 0/8
+    accidentals: 0/8
+
+H-scoped:
+  hit rate, detectable corrupted: 8/8 (100%)
+  silence rate, undetectable corrupted: 16/16 (100%)
+  clean false positives: 0/24 (0%)
+    honest: 0/8
+    modulating: 0/8
+    accidentals: 0/8
+
+The cost of H-prod's extra condition (H-scoped flags, H-prod does not):
+  none
+
+Gates (H-prod, production reader):
+  G1 clean flags ≤ 1 of 24: 0/24 — PASS
+  G2 catches ≥ 7 of 8 detectable: 8/8 — PASS
+  Prediction 3 (H-prod and H-scoped agree on every clean read): held

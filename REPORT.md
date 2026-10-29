@@ -1,5 +1,49 @@
 # stem-bench REPORT
 
+## Study 6b — the key-in-force warning, registered and validated on unseen pages (2026-10-29)
+
+**Registered by the stem-shovel agent, run by the bench** — the
+program's first study authored by the production side. stem-shovel
+shipped Study 6's exploratory key-in-force rule (their commit
+b2452d6) and then declined to trust it: a rule designed on the data
+it is scored on fits that data. Study 6b gave it reads it had never
+seen: 24 new charts engraved clean AND corrupted through a registered
+generator option reproducing the accidental-dropping path, with each
+of Study 6's named false-positive classes represented 8 items strong
+(honest bare-chord sharp/flat keys, modulating charts, and
+accidental-carrying charts whose corrupted pages are detectable).
+Verbatim port pinned at their commit; a TESTED only-quieter property
+between the shipped rule and the bench's exploratory variant; a
+zero-spend reproduction check gating the run (it reproduced Study 6
+exactly: 10/10, 0/12, 1/42). 48 reads by the production reader,
+pilot-fenced; ~$1.60 of the $6 cap.
+
+**Both gates PASS with a perfect sheet.** H-prod on the production
+reader: detectable corrupted reads **8/8** caught, undetectable
+corrupted reads **16/16** silent, clean reads **0/24** flagged —
+zeros in every false-positive class including the modulating charts
+where the pooled rule failed and the honest sharp-key charts where
+the shipped-before-refinement rule failed. The extra condition
+stem-shovel added when productionizing (no flag if any chord carries
+an accidental) cost nothing: not one read where the bench's variant
+flagged and theirs stayed silent. Predictions 1–4 all held, with
+prediction 2's allowed miss (a reader restoring an accidental from
+context) never materializing.
+
+The shipped warning is now validated on data it was not designed on:
+100% hit, 100% silence, 0% false alarm, on the production reader.
+The loop this closes is the program's longest: Study 5's anatomy
+found the corruption class → Study 3's correction described it →
+stem-shovel shipped a heuristic → Study 6 measured it and suggested
+the refinement → stem-shovel shipped the refinement and registered
+its own validation → Study 6b confirms it. Four hand-offs, each side
+checking the other.
+
+Disclosure: analyst Claude Fable 5; the reader is claude-fable-5-1;
+every instrument, label and page committed before the first read, by
+the agent whose rule was under test — and the bench ran it without
+adjustment.
+
 ## Study 8 — section detection: they hear texture, not form (2026-10-28)
 
 **Question.** The last unmeasured AI feature, and the loophole test:
