@@ -1,5 +1,98 @@
 # stem-bench REPORT
 
+## Study 9 — stem-aware analysis: the stems name the form, the sum keeps the time (2026-10-29)
+
+Drafted by the stem-shovel agent, finished and registered by the bench
+(c36f7fe): does reading the uploaded stems individually beat the summed
+mix that production's browser detector and both AI features actually
+use? Four zero-spend instruments over 21 items (the 15 pulsed Study
+4/8 specs plus 6 new misleading-stem specs whose fourth part — rubato
+lead, off-grid pad, noise/room track, double-time comp — is designed to
+pollute the summed onset envelope), stems shuffled so nothing knows
+which is the drums; plus a 12-call AI side arm. D-prod is a verbatim
+port of stem-shovel analysis.ts at a99fb18, rate-parametric and pinned
+at the bench's 22050 Hz (registered deviation).
+
+### Results
+
+**S9-G1 PASS, perfectly, on both grids.** D-activity (per-bar RMS per
+stem; boundary = the active-stem set changes and holds 2 bars) found
+**8/8** contrast boundaries with **0** false boundaries on the loops
+AND on the change items — identically on the truth bar grid and on the
+production-portable detected grid. The models' Study 8 blind score on
+the same items was 7-8/8 with 3-6 inventions per uniform loop; the
+chart-anchored production model still invented ~1 boundary per loop.
+The activity detector cannot invent structure on a loop *by
+construction* — the active set never changes. Its blindness is equally
+structural: all 6 tempo/key-change boundaries (arrangement unchanged)
+are invisible, as predicted — those belong to the chart. One honest
+caveat the mislead class surfaced: a noise/room track with slow swells
+toggles its own activity bit (+2 false on mislead-noise), so a shipped
+version wants the atonal-stem guard the brief's Q2/Q3 outputs provide.
+
+**S9-G2 FAIL, decisively — and the failure is the finding.** The draft
+asked whether keeping the sharpest single stem's tempo beats the sum.
+It does not: D-prod exact **18/21**, D-stem-tempo exact **11/21**, with
+7 regressions (5 of them octave errors) and 0 rescues. The sum was
+robust to ALL six misleading extras — pad, noise, rubato and both
+double-time comps left it exact — while the sharpest-single-stem rule
+repeatedly picked a bass or comp whose own autocorrelation is cleanest
+at half time. Summing the stems' onset envelopes is not a compromise
+production settled for; the cross-stem reinforcement at the true period
+IS the tempo signal. D-prod's only misses are a shared systematic: the
+two 6/8 lilts and 3/4 contrast-c read at 1.5× (the dotted-pulse 3:2
+confusion), which no stem-aware variant fixed either. The registered
+octave-disagreement flag fired on 10/21 items including clean ones
+(a half-time bass is normal music, not a hazard signal) — useless as
+shipped, reported as measured.
+
+**S9-G3 UNEVALUABLE (registered fallback), with a descriptive warning.**
+Production's key detection was right 20/21, so there is nothing to
+separate — but the one wrong answer (mod-a's global key on a modulating
+item) carried stem agreement **1.00** while production's own
+correlation margin ranked it 3rd-lowest of 21. On this corpus the
+agreement score is not just unproven, it pointed the wrong way on the
+only error available.
+
+**Q4 pilot (gemini-3-flash, 12 cells, ~$0.08):** giving the model the
+isolated bass+comp stem instead of the mix helped nowhere and hurt
+twice (waltz-a and mislead-rubato flipped right→wrong; one stem cell
+unparseable). Tempo answers were the familiar 120/126/128 genre prior
+in both conditions — Study 4's reading-not-hearing, unchanged by stem
+isolation. Prediction 4 said ≤1 item changes; 2 changed, both for the
+worse — the direction (no help) held, the count missed.
+
+Prediction scorecard: 1 right in full; 2 refuted in both halves (the
+sum survived the double-time comps, and sharpest-stem regressed); 3
+right (near-ceiling keys, G3 unevaluable) except that it guessed the
+agreement floor would sit on mislead items — the real floor was
+indifference to the one actual error; 4 right in direction, wrong in
+count.
+
+### What production should do with this
+
+Ship nothing for tempo and key: the summed-envelope detector beat every
+stem-aware variant tried against it, and its one weakness (3:2 on
+compound meters) is not fixed by stems. Consider shipping D-activity as
+a browser-side section detector: zero model cost, structurally immune
+to the loop-invention failure that survived even chart anchoring in
+Study 8, with the model kept for names and the chart for harmonic
+boundaries; guard it against sustained-noise stems. The Q4 matrix
+(84 calls, ~$1, fenced) remains open if closing the stem-to-model
+question across both Study 8 models is wanted.
+
+### Spend
+
+Zero for the gates; Q4 pilot ~$0.08 of the $8 cap. Matrix not run
+(awaiting go-ahead; the gates did not need it).
+
+### Disclosure
+
+Analyst Claude Fable 5; the Q4 model is Google's, outside the
+analyst's family. Every grade mechanical and committed before any
+scored result; one pre-registration smoke of the instruments on
+contrast-b disclosed in the brief and pinned in tests.
+
 ## Study 6b — the key-in-force warning, registered and validated on unseen pages (2026-10-29)
 
 **Registered by the stem-shovel agent, run by the bench** — the
