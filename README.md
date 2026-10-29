@@ -209,6 +209,28 @@ section fallback.
 Registration: [docs/BRIEF-STUDY10.md](docs/BRIEF-STUDY10.md).
 Findings: [REPORT.md](REPORT.md).
 
+## Study 11: the tempo ladder rule
+
+Study 10 left tempo's octave-family misses as the largest measured
+error class; the stem-shovel agent specified a fix to test — a
+ladder-aware comparison whose 3:2 rungs are licensed by a subdivision
+test — and the bench registered and ran it for $0 over the stored
+detections. The first runs caught two defects in the instrument
+itself, fixed by registered amendment: the subdivision hypothesis must
+be the DECLARED tempo (slower-of-pair is confounded by the 2:3 eighth
+mapping) and must require the hypothesis pulse to exist (a bogus
+hypothesis has no beat peak and games any relative floor). Verdict:
+every count-class miss recovers at its correct rung and the one true
+hearing error stays correctly rejected; subdivision reads 4/4 compound
+and 31/31 straight with swing splitting honestly. Two gates failed by
+letter on the wrong-value generator's own defects — zero genuinely
+wrong values were accepted in 255 rows — which is the program's sixth
+registration lesson: a wrong-value generator must respect every true
+label of an item.
+
+Registration: [docs/BRIEF-STUDY11.md](docs/BRIEF-STUDY11.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
