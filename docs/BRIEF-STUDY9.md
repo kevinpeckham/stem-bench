@@ -49,13 +49,12 @@ the mix is enough.
   listener model name the key from an isolated bass-plus-comp stem
   better than from the mix? Studies 4 and 7 predict no; this is the
   cheapest way to close the question.
-- **Q5, optional, exploratory: a spectrogram image to the model.** A
-  rendered waveform carries less than the onset envelope the detector
-  already holds, so it is not tested. A spectrogram makes pitch and
-  texture visible; one small arm may ask the vision path of the
-  listener model for key and section boundaries from a spectrogram PNG
-  of the mix. Registered as exploratory with its own fence, or deferred
-  to a Study 10 by the agent's judgment.
+- **Q5, dropped.** A spectrogram image to the model was considered;
+  the landscape review (docs/LANDSCAPE-2026-10-29.md, §4) found no
+  evidence that vision models read pitch, key or structure from
+  spectrograms, so it is not funded. The review also suggests the
+  study after this one: neural MIR baselines (Beat This!, LinkSeg, a
+  key CNN, ChordMini) against D-prod.
 
 ## Fixture (extend, committed before registration)
 
@@ -141,7 +140,6 @@ the mix is enough.
    smallest.
 4. Q4: the stem does not help the model name the key (≤ 1 item
    changes), consistent with Studies 4 and 7.
-5. Q5, if run: coarse structure sometimes, key rarely.
 
 ## Spend fences (draft)
 
@@ -149,8 +147,7 @@ the mix is enough.
 - Q4 pilot: 6 items × 2 conditions × 1 model, ≈ $0.50, on the
   registering go-ahead; matrix (all pulsed items, 2 models) ≈ $4, on
   Kevin's go-ahead after the pilot is committed.
-- Q5: ≤ $3 if registered, exploratory label mandatory.
-- Cap $8 in all.
+- Cap $5 in all.
 
 ## Left to the bench
 
@@ -159,8 +156,6 @@ the mix is enough.
 - The D-activity grid (truth bars vs detected tempo) and thresholds,
   fixed before the first run.
 - Whether key changes (Study 4's shift/mod items) are scored per stem.
-- Q5 in or out; if in, its rendering (mel spectrogram, size) and the
-  model's image path.
 - Gate counts and predictions restated against the final fixture.
 - Production fidelity: the port's commit is a99fb18; register any
   deviation (sample rate: production analyzes 32 kHz AudioBuffers, the
@@ -177,7 +172,7 @@ recorded in stem-shovel's FINDINGS.md and the mix stays the input.
 
 ## Disclosure
 
-Analyst Claude Fable 5; the models measured in Q4/Q5 are Google's,
+Analyst Claude Fable 5; the models measured in Q4 are Google's,
 outside the analyst's family. Every grade is mechanical; D-prod is a
 verbatim port pinned by test and does not chase stem-shovel changes
 mid-study. Zero model calls before registration.
