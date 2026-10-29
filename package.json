@@ -40,7 +40,9 @@
 		"study10:fixture": "bun scripts/build-fixture10.ts",
 		"study10:models": "bash scripts/fetch-models10.sh",
 		"study10:run": "bun scripts/run-study10.ts",
-		"study10:analyze": "bun scripts/analyze-study10.ts"
+		"study10:analyze": "bun scripts/analyze-study10.ts",
+		"study11:run": "bun scripts/run-study11.ts",
+		"study11:analyze": "bun scripts/analyze-study11.ts"
 	},
 	"dependencies": {
 		"@ai-sdk/gateway": "^4.0.82",
