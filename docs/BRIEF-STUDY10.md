@@ -54,10 +54,13 @@ browser port is the deployment question, measured apart):
 - **N-key-profiles** — D-prod's own chroma with the Krumhansl profiles
   swapped for Albrecht–Shanahan, and separately Temperley: the cheapest
   possible change, isolating the profile from the rest of the pipeline.
-- **N-key-cnn** — a CNN key model (madmom's Korzeniowski–Widmer, exported
-  to ONNX by the bench, or another with a permissive license and
-  published GiantSteps/FMAKv2 scores). Optional: in only if an export
-  with a reproducible test exists; otherwise recorded as not run.
+- **N-key-cnn** — a CNN key model with published GiantSteps/FMAKv2
+  scores. madmom's Korzeniowski–Widmer weights are CC BY-NC-SA, so they
+  can be measured but not shipped; a permissively licensed checkpoint
+  is preferred, and failing one the bench may train the published
+  architecture on its own synthesized set (registered as such). Optional:
+  in only if an export with a reproducible test exists; otherwise
+  recorded as not run.
 - **N-chord** — ChordMini (2.3 M parameters, 17 MB ONNX, 170 classes,
   MIT; huggingface.co/musetric/chordmini-onnx) with its CQT front end
   in TypeScript; chords mapped to the bench's symbol vocabulary
@@ -188,8 +191,13 @@ once if they win, the CNN behind a size check; chords; a new section
 detector feeding the chart-anchored model's placement). A failing gate
 closes the question for that component and is recorded in stem-shovel's
 FINDINGS.md. Licenses to carry forward: Beat This! and ChordMini MIT,
-LinkSeg CC-BY 4.0 (attribution in the app's built-with page); madmom's
-DBN and Essentia are excluded by license.
+LinkSeg CC-BY 4.0 (attribution in the app's built-with page). madmom's
+pretrained models (CC BY-NC-SA 4.0) and Essentia's library (AGPLv3) and
+models (CC BY-NC-ND 4.0) are non-commercial by default; either would
+need a commercial license from its authors before shipping, so N-key-cnn
+must come from a permissively licensed checkpoint or a model the bench
+trains itself, and an export of madmom's weights is for measurement
+only.
 
 ## Disclosure
 

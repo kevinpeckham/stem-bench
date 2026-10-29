@@ -73,9 +73,16 @@ alone moved a GiantSteps MIREX score from 0.58–0.60 to 0.668 in one
 non-peer-reviewed report [M5], and madmom's key CNN would need an ONNX
 export of our own (no port found).
 
-Licensing matters for a commercial app: madmom's DBN post-processing is
-patented and non-commercial [P24]; Essentia is AGPL [P5]; Music Flamingo
-is non-commercial [A2]; Beat This!, ChordMini MIT; LinkSeg CC-BY.
+Licensing matters for a commercial app (verified at the sources on
+2026-10-29): madmom's source is BSD but its pretrained model and data
+files are CC BY-NC-SA 4.0, with commercial use by arrangement with
+Gerhard Widmer (github.com/CPJKU/madmom README); a "patented DBN"
+claim from the practitioner pass could not be verified and is
+withdrawn. Essentia's library is AGPLv3 for non-commercial use and its
+pretrained models CC BY-NC-ND 4.0, with a commercial license from the
+MTG on request (essentia.upf.edu/licensing_information.html). Music
+Flamingo is non-commercial [A2]. Beat This! and ChordMini are MIT;
+LinkSeg is CC-BY 4.0.
 
 ## 3. Stems: the literature supports the idea and has not done our version
 
