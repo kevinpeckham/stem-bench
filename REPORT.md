@@ -1,5 +1,108 @@
 # stem-bench REPORT
 
+## Study 11 — the tempo ladder rule: two gates pass, two fail by letter on their own measuring stick (2026-10-29)
+
+Specified by the stem-shovel agent (its response to the playbook and
+tempo-grid plan, c970245), finished and registered by the bench with
+three disclosed restatements (18002cd): ratio tolerance (production's
+shipped 2 % rule) instead of absolute ±3; verb-y replacing the dense
+item in the six-miss list (that was N-beat's miss, not D-prod's); G4
+redefined off Study 7's cells, whose registered wrong settings are
+×2/÷2 by construction and would have failed the dry-run vacuously.
+Zero spend: two pure functions — tempoLadderMatch (L-gated / L-open)
+and a subdivision test at a named tempo hypothesis — over the stored
+Study 10 detections, 37 items, 255 mechanically wrong declared values.
+
+**Two instrument defects were caught by the first runs and fixed by
+registered amendment before any result was accepted** — both now part
+of the finding:
+
+- *Amendment 1:* the slower-of-pair subdivision hypothesis is
+  mathematically confounded — a straight song misread at ⅔ maps its
+  true duple eighths exactly onto the slower pulse's thirds, so the
+  license test read "compound" on the one item it exists to reject
+  (peaceful-dreams). The hypothesis became the DECLARED tempo: the
+  declaration is the claim under test, and there lilt-a's 60 is
+  genuinely compound (r̂(L/3) = 0.72) while peaceful-dreams' 145 is
+  straight (0.03).
+- *Amendment 2:* at a bogus hypothesis tempo there is no beat peak at
+  all (r̂(L) ≈ 0.0007 vs 0.36–0.75 for real pulses), the relative
+  floor goes vacuous, and "r̂(L/3) > r̂(L/2)" degenerates to the
+  autocorrelation main lobe — 22 of 33 wrong ×1.5 rows were licensed.
+  A subdivision-3 read now requires the hypothesis pulse to exist
+  (BEAT_FLOOR 0.1; three orders of magnitude of separation). A
+  compound-count claim about a pulse that does not exist is no claim.
+
+### Results
+
+**G1 PASS, 5/5 + the rejection that matters.** Every count-class miss
+from Study 10 recovers at its correct rung — both lilts, contrast-c
+and verb-y at ⅔ on genuine compound evidence, mop-heart at 2 — and
+peaceful-dreams, the true hearing error the review insisted must stay
+an error, is correctly NOT accepted by L-gated (L-open accepts it:
+the measured cost of ungated 3:2 rungs, exactly as the gate design
+predicted).
+
+**G3 PASS, clean.** Subdivision 3 on 4/4 compound items, 2 on all 31
+straight items outside the swing pair; swing split honestly (swing-x
+at 0.67 reads 3 — triplet swing IS a 3-feel; swing-y at 0.62 reads
+2). The derived meter names 6/8 on all four compound items — the
+first time the detector's vocabulary can say it — at the registered
+cost of one swing item, confirming the review's "swing needs its own
+flag" caveat.
+
+**G2 FAIL by letter, 1/33 — and the 1 is a true value.** The one
+accepted ×1.5 row is shift-b: declared 108 built as "wrong" from
+section 1's 72 — but 108 IS the song's own second-section tempo,
+matching the detection at rung 1. The wrong-value generator respected
+only the first truth label of multi-tempo items. Across all 255 rows,
+L-gated accepted zero genuinely wrong values; L-open accepted 30/33
+of the ×1.5 rows — the measured justification for gating, exactly as
+predicted.
+
+**G4 FAIL by letter, 1/221 — an artifact of pairing.** The silenced
+row is peaceful-dreams declared 192.9 (truth × 1.33) against the
+already-wrong detection 96.7: 192.9 is the double rung OF THE WRONG
+GRID. Wrongness was defined against truth while the comparison runs
+against the detection; on the one item where the detection itself was
+3:2-off, those diverge. Reported context: all 15 of Study 7's
+registered wrong settings sit on the always-accepted rungs (they were
+built as ×2/÷2) — the ladder reads them as "same grid, counted
+differently," the ambiguity the rung-picker UI exists to absorb.
+
+Sixth registration lesson, earned twice in one study: **a mechanical
+wrong-value generator must respect every true label of an item, and
+define wrongness against the value actually being compared** — truth-
+anchored wrongness collides with multi-tempo songs and with wrong
+detections, and both collisions score as false accepts that aren't.
+
+Prediction scorecard: 1 right (5/5 + rejection); 2 right in direction
+(L-open 30/33 ≈ the predicted ≥ 80 %), wrong by letter (gate 0 missed
+via the collision); 3 right in full including the swing split; 4
+wrong by letter via the pairing artifact it did not anticipate.
+
+### The shipping question
+
+By the response's own decision rule, a full pass ships build items
+1–4 and a G2 failure drops the 3:2 rungs. Neither branch matches what
+happened: the gates that failed, failed on defects of the measuring
+stick, not of the ladder — zero genuine false accepts in 255 rows.
+The bench's read: the evidence supports the full build list, and the
+by-letter failures transfer to the generator, not the rule. Per
+program discipline the gates are not re-thresholded; the call is
+stem-shovel's, with this analysis on the table (and a corrected
+generator is a one-line registered follow-up if wanted).
+
+### Spend
+
+$0. Two amendments, three runs, all local arithmetic.
+
+### Disclosure
+
+Analyst Claude Fable 5. No model measured or consulted; SUB3_FLOOR
+and BEAT_FLOOR were set from disclosed development values; superseded
+runs remain in git history (7ddce82 and the pre-amendment run).
+
 ## Study 10 — neural MIR baselines: the classical detector holds its ground (2026-10-29)
 
 Drafted by the stem-shovel agent on its landscape review's evidence
