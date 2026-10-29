@@ -1,0 +1,4152 @@
+{
+	"version": 1,
+	"port": "79ed4def",
+	"reads": [
+		{
+			"itemId": "drift-4a",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				120
+			],
+			"oldDetected": 120,
+			"oldExact": true,
+			"nw": {
+				"bpm": 120,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60,
+						"strength": 1.16
+					},
+					{
+						"factor": 2,
+						"bpm": 240,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 180,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "drift-4b",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				84
+			],
+			"oldDetected": 84,
+			"oldExact": true,
+			"nw": {
+				"bpm": 84,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 42,
+						"strength": 1.24
+					},
+					{
+						"factor": 2,
+						"bpm": 168,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 126,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 56,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 89.9,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 78.1,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 94.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 73.9,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 126,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 111.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 67.2,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "waltz-a",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "3/4",
+			"swing": null,
+			"trueTempos": [
+				96
+			],
+			"oldDetected": 96,
+			"oldExact": true,
+			"nw": {
+				"bpm": 96,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 48,
+						"strength": 0.98
+					},
+					{
+						"factor": 2,
+						"bpm": 192,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 144,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 64,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 102.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 89.3,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 107.5,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 84.5,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 144,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 127.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76.8,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "waltz-b",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "3/4",
+			"swing": null,
+			"trueTempos": [
+				140
+			],
+			"oldDetected": 140,
+			"oldExact": true,
+			"nw": {
+				"bpm": 140,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 70,
+						"strength": 0.99
+					},
+					{
+						"factor": 1.5,
+						"bpm": 210,
+						"strength": 0.01
+					},
+					{
+						"factor": 2,
+						"bpm": 280,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 93.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 149.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 130.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 156.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 123.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 210,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 186.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 112,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "lilt-a",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "6/8",
+			"swing": null,
+			"trueTempos": [
+				60
+			],
+			"oldDetected": 90,
+			"oldExact": false,
+			"nw": {
+				"bpm": 90,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 60,
+						"strength": 1.07
+					},
+					{
+						"factor": 0.5,
+						"bpm": 45,
+						"strength": 1.04
+					},
+					{
+						"factor": 2,
+						"bpm": 180,
+						"strength": 1.02
+					},
+					{
+						"factor": 1.5,
+						"bpm": 135,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 0.6666666666666666,
+				"strength": 1.07
+			},
+			"gatedMatch": null,
+			"wrongRows": []
+		},
+		{
+			"itemId": "lilt-b",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "6/8",
+			"swing": null,
+			"trueTempos": [
+				76
+			],
+			"oldDetected": 114,
+			"oldExact": false,
+			"nw": {
+				"bpm": 76,
+				"subdivision": 3,
+				"meter": "6/8",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 38,
+						"strength": 1.09
+					},
+					{
+						"factor": 1.5,
+						"bpm": 114,
+						"strength": 0.95
+					},
+					{
+						"factor": 2,
+						"bpm": 152,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 50.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 81.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 70.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 85.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 66.9,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 101.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 60.8,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-a",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				100,
+				140
+			],
+			"oldDetected": 100,
+			"oldExact": true,
+			"nw": {
+				"bpm": 100,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 50,
+						"strength": 1.12
+					},
+					{
+						"factor": 1.5,
+						"bpm": 150,
+						"strength": 0.63
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 66.7,
+						"strength": 0.26
+					},
+					{
+						"factor": 2,
+						"bpm": 200,
+						"strength": 0.02
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-b",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				72,
+				108
+			],
+			"oldDetected": 108,
+			"oldExact": true,
+			"nw": {
+				"bpm": 108,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 54,
+						"strength": 1.1
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 72,
+						"strength": 1
+					},
+					{
+						"factor": 2,
+						"bpm": 216,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 162,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-c",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "3/4",
+			"swing": null,
+			"trueTempos": [
+				90,
+				120
+			],
+			"oldDetected": 120,
+			"oldExact": true,
+			"nw": {
+				"bpm": 120,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60,
+						"strength": 0.99
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80,
+						"strength": 0.08
+					},
+					{
+						"factor": 2,
+						"bpm": 240,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 180,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 96.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 83.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 100.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 79.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 135,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 72,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-a",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				110
+			],
+			"oldDetected": 110,
+			"oldExact": true,
+			"nw": {
+				"bpm": 110,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 55,
+						"strength": 1.15
+					},
+					{
+						"factor": 2,
+						"bpm": 220,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 165,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 73.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 117.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 102.3,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 123.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 96.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 165,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 146.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 88,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-b",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				95
+			],
+			"oldDetected": 95,
+			"oldExact": true,
+			"nw": {
+				"bpm": 95,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 47.5,
+						"strength": 1.21
+					},
+					{
+						"factor": 2,
+						"bpm": 190,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 142.5,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 63.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 101.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 88.4,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 106.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 83.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 142.5,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 126.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-c",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				126
+			],
+			"oldDetected": 126,
+			"oldExact": true,
+			"nw": {
+				"bpm": 126,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 63,
+						"strength": 1.19
+					},
+					{
+						"factor": 1.5,
+						"bpm": 189,
+						"strength": 0.01
+					},
+					{
+						"factor": 2,
+						"bpm": 252,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 84,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 134.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 117.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 141.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 110.9,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 189,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 167.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 100.8,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-a",
+			"source": "band",
+			"class": "contrast",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				100
+			],
+			"oldDetected": 100,
+			"oldExact": true,
+			"nw": {
+				"bpm": 100,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 50,
+						"strength": 1.11
+					},
+					{
+						"factor": 2,
+						"bpm": 200,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 150,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 66.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-b",
+			"source": "band",
+			"class": "contrast",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				120
+			],
+			"oldDetected": 120,
+			"oldExact": true,
+			"nw": {
+				"bpm": 120,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60,
+						"strength": 1.14
+					},
+					{
+						"factor": 2,
+						"bpm": 240,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 180,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-c",
+			"source": "band",
+			"class": "contrast",
+			"meterTruth": "6/8",
+			"swing": null,
+			"trueTempos": [
+				76
+			],
+			"oldDetected": 114,
+			"oldExact": false,
+			"nw": {
+				"bpm": 76,
+				"subdivision": 3,
+				"meter": "6/8",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 38,
+						"strength": 1.04
+					},
+					{
+						"factor": 1.5,
+						"bpm": 114,
+						"strength": 0.97
+					},
+					{
+						"factor": 2,
+						"bpm": 152,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 50.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 81.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 70.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 85.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 66.9,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 101.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 60.8,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": 112,
+			"oldExact": true,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.14
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				88
+			],
+			"oldDetected": 88,
+			"oldExact": true,
+			"nw": {
+				"bpm": 88,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 44,
+						"strength": 1.12
+					},
+					{
+						"factor": 2,
+						"bpm": 176,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 132,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 58.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 94.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 81.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 77.4,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 132,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 117,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 70.4,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-noise",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": 132,
+			"oldExact": true,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.37
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.01
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-double",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				96
+			],
+			"oldDetected": 96,
+			"oldExact": true,
+			"nw": {
+				"bpm": 96,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 48,
+						"strength": 1.13
+					},
+					{
+						"factor": 2,
+						"bpm": 192,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 144,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 64,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 102.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 89.3,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 107.5,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 84.5,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 144,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 127.7,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76.8,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato-noise",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "3/4",
+			"swing": null,
+			"trueTempos": [
+				104
+			],
+			"oldDetected": 104,
+			"oldExact": true,
+			"nw": {
+				"bpm": 104,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 52,
+						"strength": 0.98
+					},
+					{
+						"factor": 2,
+						"bpm": 208,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 156,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 69.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 111.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 96.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 116.5,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 91.5,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 156,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 138.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 83.2,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad-double",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				72
+			],
+			"oldDetected": 72,
+			"oldExact": true,
+			"nw": {
+				"bpm": 72,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 36,
+						"strength": 1.1
+					},
+					{
+						"factor": 2,
+						"bpm": 144,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 108,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 48,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swing-x",
+			"source": "band",
+			"class": "hard-swing",
+			"meterTruth": "4/4",
+			"swing": 0.67,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": 112,
+			"oldExact": true,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.09
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0.48
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swing-y",
+			"source": "band",
+			"class": "hard-swing",
+			"meterTruth": "4/4",
+			"swing": 0.62,
+			"trueTempos": [
+				92
+			],
+			"oldDetected": 92,
+			"oldExact": true,
+			"nw": {
+				"bpm": 92,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 46,
+						"strength": 1.09
+					},
+					{
+						"factor": 1.5,
+						"bpm": 138,
+						"strength": 0.31
+					},
+					{
+						"factor": 2,
+						"bpm": 184,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 61.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-a",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				70
+			],
+			"oldDetected": 70,
+			"oldExact": true,
+			"nw": {
+				"bpm": 70,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 35,
+						"strength": 1.13
+					},
+					{
+						"factor": 2,
+						"bpm": 140,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 105,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 46.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 74.9,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 65.1,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 78.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 61.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 105,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 93.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 56,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-a",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				140
+			],
+			"oldDetected": 140,
+			"oldExact": true,
+			"nw": {
+				"bpm": 140,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 70,
+						"strength": 1.2
+					},
+					{
+						"factor": 1.5,
+						"bpm": 210,
+						"strength": 0.02
+					},
+					{
+						"factor": 2,
+						"bpm": 280,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 93.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 149.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 130.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 156.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 123.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 210,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 186.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 112,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-b",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "3/4",
+			"swing": null,
+			"trueTempos": [
+				72
+			],
+			"oldDetected": 72,
+			"oldExact": true,
+			"nw": {
+				"bpm": 72,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 36,
+						"strength": 0.96
+					},
+					{
+						"factor": 2,
+						"bpm": 144,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 108,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 48,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-b",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				144
+			],
+			"oldDetected": 144,
+			"oldExact": true,
+			"nw": {
+				"bpm": 144,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 72,
+						"strength": 1.19
+					},
+					{
+						"factor": 1.5,
+						"bpm": 216,
+						"strength": 0.02
+					},
+					{
+						"factor": 2,
+						"bpm": 288,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 96,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 154.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 133.9,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 161.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 126.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 216,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 191.5,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 115.2,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "verb-x",
+			"source": "band",
+			"class": "hard-reverb",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				100
+			],
+			"oldDetected": 100,
+			"oldExact": true,
+			"nw": {
+				"bpm": 100,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 50,
+						"strength": 1.33
+					},
+					{
+						"factor": 1.5,
+						"bpm": 150,
+						"strength": 0.03
+					},
+					{
+						"factor": 2,
+						"bpm": 200,
+						"strength": 0.01
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 66.7,
+						"strength": 0.01
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "verb-y",
+			"source": "band",
+			"class": "hard-reverb",
+			"meterTruth": "6/8",
+			"swing": null,
+			"trueTempos": [
+				84
+			],
+			"oldDetected": 126,
+			"oldExact": false,
+			"nw": {
+				"bpm": 126,
+				"subdivision": 2,
+				"meter": "3/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 63,
+						"strength": 0.98
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 84,
+						"strength": 0.97
+					},
+					{
+						"factor": 2,
+						"bpm": 252,
+						"strength": 0.89
+					},
+					{
+						"factor": 1.5,
+						"bpm": 189,
+						"strength": 0.12
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 0.6666666666666666,
+				"strength": 0.97
+			},
+			"gatedMatch": null,
+			"wrongRows": []
+		},
+		{
+			"itemId": "dense-x",
+			"source": "band",
+			"class": "hard-dense",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				126
+			],
+			"oldDetected": 126,
+			"oldExact": true,
+			"nw": {
+				"bpm": 126,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 63,
+						"strength": 1.23
+					},
+					{
+						"factor": 2,
+						"bpm": 252,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 189,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 84,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 134.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 117.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 141.1,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 110.9,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 189,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 167.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 100.8,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "dense-y",
+			"source": "band",
+			"class": "hard-dense",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				88
+			],
+			"oldDetected": 88,
+			"oldExact": true,
+			"nw": {
+				"bpm": 88,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 44,
+						"strength": 1.23
+					},
+					{
+						"factor": 2,
+						"bpm": 176,
+						"strength": 0.06
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 58.7,
+						"strength": 0.06
+					},
+					{
+						"factor": 1.5,
+						"bpm": 132,
+						"strength": 0.02
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 94.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 81.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 77.4,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 132,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 117,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 70.4,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "medmod-x",
+			"source": "band",
+			"class": "hard-mediantmod",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				104
+			],
+			"oldDetected": 104,
+			"oldExact": true,
+			"nw": {
+				"bpm": 104,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 52,
+						"strength": 1.13
+					},
+					{
+						"factor": 2,
+						"bpm": 208,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 156,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 69.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 111.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 96.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 116.5,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 91.5,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 156,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 138.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 83.2,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "medmod-y",
+			"source": "band",
+			"class": "hard-mediantmod",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				118
+			],
+			"oldDetected": 118,
+			"oldExact": true,
+			"nw": {
+				"bpm": 118,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 59,
+						"strength": 1.11
+					},
+					{
+						"factor": 2,
+						"bpm": 236,
+						"strength": 0
+					},
+					{
+						"factor": 1.5,
+						"bpm": 177,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 78.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 126.3,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 109.7,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 132.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 103.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 177,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 156.9,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 94.4,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "eat-all-the-clocks",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				120
+			],
+			"oldDetected": 120,
+			"oldExact": true,
+			"nw": {
+				"bpm": 120,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60,
+						"strength": 1.13
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80,
+						"strength": 0.6
+					},
+					{
+						"factor": 2,
+						"bpm": 240,
+						"strength": 0.54
+					},
+					{
+						"factor": 1.5,
+						"bpm": 180,
+						"strength": 0.08
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "letter-lands",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": 132,
+			"oldExact": true,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.08
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0.25
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0.24
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.12
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mop-heart",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "3/4",
+			"swing": null,
+			"trueTempos": [
+				224
+			],
+			"oldDetected": 112,
+			"oldExact": false,
+			"nw": {
+				"bpm": 74.7,
+				"subdivision": 3,
+				"meter": "6/8",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 37.4,
+						"strength": 1.01
+					},
+					{
+						"factor": 1.5,
+						"bpm": 112.1,
+						"strength": 0.88
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 49.8,
+						"strength": 0.17
+					},
+					{
+						"factor": 2,
+						"bpm": 149.4,
+						"strength": 0.16
+					}
+				]
+			},
+			"trueRungInAlternates": null,
+			"gatedMatch": null,
+			"wrongRows": []
+		},
+		{
+			"itemId": "peaceful-dreams",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "4/4",
+			"swing": null,
+			"trueTempos": [
+				145
+			],
+			"oldDetected": 96.7,
+			"oldExact": false,
+			"nw": {
+				"bpm": 96.7,
+				"subdivision": 3,
+				"meter": "6/8",
+				"alternates": [
+					{
+						"factor": 1.5,
+						"bpm": 145.1,
+						"strength": 0.99
+					},
+					{
+						"factor": 0.5,
+						"bpm": 48.4,
+						"strength": 0.93
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 64.5,
+						"strength": 0.16
+					},
+					{
+						"factor": 2,
+						"bpm": 193.4,
+						"strength": 0.13
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1.5,
+				"strength": 0.99
+			},
+			"gatedMatch": {
+				"factor": 1.5
+			},
+			"wrongRows": []
+		},
+		{
+			"itemId": "swingstress-92-6",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.6,
+			"trueTempos": [
+				92
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 92,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 46,
+						"strength": 1.09
+					},
+					{
+						"factor": 1.5,
+						"bpm": 138,
+						"strength": 0.09
+					},
+					{
+						"factor": 2,
+						"bpm": 184,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 61.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-62",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.62,
+			"trueTempos": [
+				92
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 92,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 46,
+						"strength": 1.1
+					},
+					{
+						"factor": 1.5,
+						"bpm": 138,
+						"strength": 0.31
+					},
+					{
+						"factor": 2,
+						"bpm": 184,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 61.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-645",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.645,
+			"trueTempos": [
+				92
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 92,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 46,
+						"strength": 1.09
+					},
+					{
+						"factor": 1.5,
+						"bpm": 138,
+						"strength": 0.47
+					},
+					{
+						"factor": 2,
+						"bpm": 184,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 61.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-67",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.67,
+			"trueTempos": [
+				92
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 92,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 46,
+						"strength": 1.1
+					},
+					{
+						"factor": 1.5,
+						"bpm": 138,
+						"strength": 0.46
+					},
+					{
+						"factor": 2,
+						"bpm": 184,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 61.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-7",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.7,
+			"trueTempos": [
+				92
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 92,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 46,
+						"strength": 1.08
+					},
+					{
+						"factor": 1.5,
+						"bpm": 138,
+						"strength": 0.46
+					},
+					{
+						"factor": 2,
+						"bpm": 184,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 61.3,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-6",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.6,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.11
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0.28
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0.05
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0.04
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-62",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.62,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.1
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0.46
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-645",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.645,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.1
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0.47
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-67",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.67,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.1
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0.48
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-7",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.7,
+			"trueTempos": [
+				112
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 112,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 56,
+						"strength": 1.09
+					},
+					{
+						"factor": 1.5,
+						"bpm": 168,
+						"strength": 0.46
+					},
+					{
+						"factor": 2,
+						"bpm": 224,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 74.7,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-6",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.6,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.15
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.23
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0.09
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0.07
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-62",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.62,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.14
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.41
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0.02
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0.01
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-645",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.645,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.15
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.46
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-67",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.67,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.14
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.46
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-7",
+			"source": "swing",
+			"class": "swing-stress",
+			"meterTruth": "4/4",
+			"swing": 0.7,
+			"trueTempos": [
+				132
+			],
+			"oldDetected": null,
+			"oldExact": false,
+			"nw": {
+				"bpm": 132,
+				"subdivision": 2,
+				"meter": "4/4",
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.13
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.44
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0
+					}
+				]
+			},
+			"trueRungInAlternates": {
+				"factor": 1,
+				"strength": 1
+			},
+			"gatedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false
+				}
+			]
+		}
+	]
+}
