@@ -1,0 +1,439 @@
+{
+	"version": 1,
+	"mode": "pilot",
+	"models": [
+		"google/gemini-3-flash"
+	],
+	"cells": [
+		{
+			"itemId": "drift-4a",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 120,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "C major",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The piece follows a standard I-V-vi-IV chord progression in C major at a consistent tempo."
+			},
+			"grade": {
+				"tempoCorrect": true,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece follows a standard I-V-vi-IV chord progression in C major at a consistent tempo.",
+			"confidence": 1,
+			"tokensIn": 1283,
+			"tokensOut": 685,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 4567,
+			"condition": "mix"
+		},
+		{
+			"itemId": "drift-4a",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 120,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "C major",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The piece follows a steady I-IV-V-I progression in C major at 120 BPM."
+			},
+			"grade": {
+				"tempoCorrect": true,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece follows a steady I-IV-V-I progression in C major at 120 BPM.",
+			"confidence": 1,
+			"tokensIn": 1283,
+			"tokensOut": 1121,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 6353,
+			"condition": "stem"
+		},
+		{
+			"itemId": "waltz-a",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 90,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "G major",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The piece maintains a steady 90 BPM with a simple I-IV-V progression in G major throughout."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": false,
+				"keyCorrect": true,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece maintains a steady 90 BPM with a simple I-IV-V progression in G major throughout.",
+			"confidence": 1,
+			"tokensIn": 1327,
+			"tokensOut": 670,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 5341,
+			"condition": "mix"
+		},
+		{
+			"itemId": "waltz-a",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 128,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "C minor",
+				"keyChanges": [],
+				"confidence": 0.95,
+				"notes": "The track is a repetitive electronic loop with a steady pulse and a C minor bassline."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": false,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The track is a repetitive electronic loop with a steady pulse and a C minor bassline.",
+			"confidence": 0.95,
+			"tokensIn": 1327,
+			"tokensOut": 759,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 4422,
+			"condition": "stem"
+		},
+		{
+			"itemId": "contrast-b",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 120,
+				"tempoChanges": [
+					{
+						"at": 8,
+						"bpm": 140
+					},
+					{
+						"at": 11.4,
+						"bpm": 120
+					}
+				],
+				"meter": "4/4",
+				"key": "C major",
+				"keyChanges": [
+					{
+						"at": 8,
+						"key": "D major"
+					},
+					{
+						"at": 11.4,
+						"key": "C major"
+					}
+				],
+				"confidence": 0.95,
+				"notes": "The piece features a brief middle section that shifts up in both tempo and key."
+			},
+			"grade": {
+				"tempoCorrect": true,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 2,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 2,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece features a brief middle section that shifts up in both tempo and key.",
+			"confidence": 0.95,
+			"tokensIn": 1683,
+			"tokensOut": 1902,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 9177,
+			"condition": "mix"
+		},
+		{
+			"itemId": "contrast-b",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": null,
+			"grade": null,
+			"defer": null,
+			"notes": "",
+			"confidence": null,
+			"tokensIn": 1683,
+			"tokensOut": 1996,
+			"outcome": "parse-error",
+			"error": "The model's answer did not make sense",
+			"latencyMs": 12807,
+			"condition": "stem"
+		},
+		{
+			"itemId": "mislead-rubato",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 126,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "G major",
+				"keyChanges": [],
+				"confidence": 0.95,
+				"notes": "The piece follows a steady I-V-vi-IV progression in G major."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": true,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece follows a steady I-V-vi-IV progression in G major.",
+			"confidence": 0.95,
+			"tokensIn": 1341,
+			"tokensOut": 717,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 4266,
+			"condition": "mix"
+		},
+		{
+			"itemId": "mislead-rubato",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 128,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "G minor",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The track is a steady 128 BPM loop with a i-VI-VII-v chord progression in G minor."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The track is a steady 128 BPM loop with a i-VI-VII-v chord progression in G minor.",
+			"confidence": 1,
+			"tokensIn": 1341,
+			"tokensOut": 943,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 4993,
+			"condition": "stem"
+		},
+		{
+			"itemId": "mislead-pad",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 128,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "G minor",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The track maintains a steady electronic pulse at a standard house/dance tempo."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The track maintains a steady electronic pulse at a standard house/dance tempo.",
+			"confidence": 1,
+			"tokensIn": 1574,
+			"tokensOut": 635,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 4345,
+			"condition": "mix"
+		},
+		{
+			"itemId": "mislead-pad",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 120,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "G minor",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The track maintains a consistent 120 BPM with a standard i-VI-III-VII chord progression in G minor."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": false,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The track maintains a consistent 120 BPM with a standard i-VI-III-VII chord progression in G minor.",
+			"confidence": 1,
+			"tokensIn": 1574,
+			"tokensOut": 700,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 5645,
+			"condition": "stem"
+		},
+		{
+			"itemId": "mislead-double",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 126,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "C major",
+				"keyChanges": [],
+				"confidence": 0.95,
+				"notes": "The piece follows a standard I-V-vi-IV progression in C major at a steady tempo."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": true,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece follows a standard I-V-vi-IV progression in C major at a steady tempo.",
+			"confidence": 0.95,
+			"tokensIn": 1483,
+			"tokensOut": 854,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 5206,
+			"condition": "mix"
+		},
+		{
+			"itemId": "mislead-double",
+			"arm": "L-blind",
+			"model": "google/gemini-3-flash",
+			"answer": {
+				"tempo": 126,
+				"tempoChanges": [],
+				"meter": "4/4",
+				"key": "C major",
+				"keyChanges": [],
+				"confidence": 1,
+				"notes": "The piece features a simple ascending diatonic chord progression (I-ii-iii-IV) in C major."
+			},
+			"grade": {
+				"tempoCorrect": false,
+				"octaveError": false,
+				"meterCorrect": true,
+				"keyCorrect": true,
+				"tempoChangesFound": 0,
+				"tempoChangesTotal": 0,
+				"falseTempoChanges": 0,
+				"keyChangesFound": 0,
+				"keyChangesTotal": 0,
+				"falseKeyChanges": 0,
+				"inventedTempo": false
+			},
+			"defer": null,
+			"notes": "The piece features a simple ascending diatonic chord progression (I-ii-iii-IV) in C major.",
+			"confidence": 1,
+			"tokensIn": 1483,
+			"tokensOut": 662,
+			"outcome": "answered",
+			"error": null,
+			"latencyMs": 5285,
+			"condition": "stem"
+		}
+	]
+}

@@ -1,0 +1,1606 @@
+{
+	"version": 1,
+	"fixture": "hand-authored-20261023+hand-authored-20261029",
+	"records": [
+		{
+			"itemId": "drift-4a",
+			"class": "loop",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.9364022261655545
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.4266435088647256
+				},
+				"key": {
+					"value": "D major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.938092363252667
+				},
+				"perStem": [
+					{
+						"bpm": 60,
+						"strength": 0.9288632525714612
+					},
+					{
+						"bpm": 120,
+						"strength": 0.8545525586819338
+					},
+					{
+						"bpm": 120,
+						"strength": 0.938092363252667
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "D major",
+					"confidence": 1
+				},
+				"agreement": 0.5,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "drift-4b",
+			"class": "loop",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 84,
+					"confidence": 0.9412110839366262
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.37944513663618623
+				},
+				"key": {
+					"value": "E♭ major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 84,
+					"confidence": 0.9533724390911041
+				},
+				"perStem": [
+					{
+						"bpm": 84,
+						"strength": 0.6454487620957295
+					},
+					{
+						"bpm": 84,
+						"strength": 0.9533724390911041
+					},
+					{
+						"bpm": 84,
+						"strength": 0.8893144242834481
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "E♭ major",
+					"confidence": 1
+				},
+				"agreement": 0.5,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "waltz-a",
+			"class": "loop",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 96,
+					"confidence": 0.9426995758287953
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.8868110711462797
+				},
+				"key": {
+					"value": "G major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 96,
+					"confidence": 0.9563921671724093
+				},
+				"perStem": [
+					{
+						"bpm": 96,
+						"strength": 0.9563921671724093
+					},
+					{
+						"bpm": 96,
+						"strength": 0.8784914178592758
+					},
+					{
+						"bpm": 80.8,
+						"strength": 0.9491777207946909
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "G major",
+					"confidence": 1
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "waltz-b",
+			"class": "loop",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 140,
+					"confidence": 0.9377284076563824
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.9050241816841127
+				},
+				"key": {
+					"value": "C minor",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 140,
+					"confidence": 0.9412652700460961
+				},
+				"perStem": [
+					{
+						"bpm": 140,
+						"strength": 0.9412652700460961
+					},
+					{
+						"bpm": 117.2,
+						"strength": 0.9360679788825363
+					},
+					{
+						"bpm": 140,
+						"strength": 0.8595786300396582
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "C minor",
+					"confidence": 1
+				},
+				"agreement": 0.6666666666666666,
+				"tonalStems": 3
+			}
+		},
+		{
+			"itemId": "lilt-a",
+			"class": "loop",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 90,
+					"confidence": 0.9147293305888725
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.8939440241163409
+				},
+				"key": {
+					"value": "A major",
+					"confidence": 0.8990422076232498
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 90,
+					"confidence": 0.9202316585482616
+				},
+				"perStem": [
+					{
+						"bpm": 90,
+						"strength": 0.8152425131369917
+					},
+					{
+						"bpm": 60,
+						"strength": 0.8121948501791096
+					},
+					{
+						"bpm": 90,
+						"strength": 0.9202316585482616
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "A major",
+					"confidence": 0.8990422076232498
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "lilt-b",
+			"class": "loop",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 114,
+					"confidence": 0.9191186249074063
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.8599871739289255
+				},
+				"key": {
+					"value": "E minor",
+					"confidence": 0.9072523058044655
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 114,
+					"confidence": 0.922220441491685
+				},
+				"perStem": [
+					{
+						"bpm": 78,
+						"strength": 0.8943733142018508
+					},
+					{
+						"bpm": 114,
+						"strength": 0.8273562449541266
+					},
+					{
+						"bpm": 114,
+						"strength": 0.922220441491685
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "E minor",
+					"confidence": 0.9072523058044655
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "shift-a",
+			"class": "change",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 100,
+					"confidence": 0.8765684720433887
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.24245732144199336
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 70,
+					"confidence": 0.9063763062331106
+				},
+				"perStem": [
+					{
+						"bpm": 100,
+						"strength": 0.8886059970156249
+					},
+					{
+						"bpm": 70,
+						"strength": 0.9063763062331106
+					},
+					{
+						"bpm": 100,
+						"strength": 0.7819931228321416
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "C major",
+					"confidence": 1
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "shift-b",
+			"class": "change",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 108,
+					"confidence": 0.9030788960809938
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.4651319732775647
+				},
+				"key": {
+					"value": "B minor",
+					"confidence": 0.8604826884496246
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 53.8,
+					"confidence": 0.9298724257379605
+				},
+				"perStem": [
+					{
+						"bpm": 107.9,
+						"strength": 0.7650414365250633
+					},
+					{
+						"bpm": 108,
+						"strength": 0.9185004866249639
+					},
+					{
+						"bpm": 53.8,
+						"strength": 0.9298724257379605
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "B minor",
+					"confidence": 0.8604826884496246
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "shift-c",
+			"class": "change",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.8789229445065099
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.3937423708165915
+				},
+				"key": {
+					"value": "F major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 99,
+					"confidence": 0.8984339558264509
+				},
+				"perStem": [
+					{
+						"bpm": 99,
+						"strength": 0.8984339558264509
+					},
+					{
+						"bpm": 120,
+						"strength": 0.8968413750949292
+					},
+					{
+						"bpm": 90,
+						"strength": 0.7484565197570332
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "F major",
+					"confidence": 1
+				},
+				"agreement": 0.5,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "mod-a",
+			"class": "change",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 110,
+					"confidence": 0.9328443172784281
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.3954012901507524
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 0.707525096081413
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 110,
+					"confidence": 0.939505965380277
+				},
+				"perStem": [
+					{
+						"bpm": 110,
+						"strength": 0.8503359404887918
+					},
+					{
+						"bpm": 55,
+						"strength": 0.9302167495771618
+					},
+					{
+						"bpm": 110,
+						"strength": 0.939505965380277
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "C major",
+					"confidence": 0.707525096081413
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "mod-b",
+			"class": "change",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 95,
+					"confidence": 0.9418861519248087
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.42669839703273943
+				},
+				"key": {
+					"value": "A minor",
+					"confidence": 0.4513624845246098
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 47.5,
+					"confidence": 0.9561570570661838
+				},
+				"perStem": [
+					{
+						"bpm": 47.5,
+						"strength": 0.9561570570661838
+					},
+					{
+						"bpm": 95,
+						"strength": 0.8710078434320739
+					},
+					{
+						"bpm": 95,
+						"strength": 0.9538332173952083
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "A minor",
+					"confidence": 0.4513624845246098
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "mod-c",
+			"class": "change",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 126,
+					"confidence": 0.9366306686180429
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.433153397995246
+				},
+				"key": {
+					"value": "F major",
+					"confidence": 0.4444117799378611
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 126,
+					"confidence": 0.9379652166034402
+				},
+				"perStem": [
+					{
+						"bpm": 63,
+						"strength": 0.9322953601038514
+					},
+					{
+						"bpm": 126,
+						"strength": 0.9379652166034402
+					},
+					{
+						"bpm": 126,
+						"strength": 0.8527571702060192
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "F major",
+					"confidence": 0.4444117799378611
+				},
+				"agreement": 0.5,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "contrast-a",
+			"class": "contrast",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 100,
+					"confidence": 0.9312196995164312
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.3979285116626002
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 0.9673705223915845
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 50,
+					"confidence": 0.947045731504373
+				},
+				"perStem": [
+					{
+						"bpm": 100,
+						"strength": 0.8634375272282309
+					},
+					{
+						"bpm": 100,
+						"strength": 0.9419055935108535
+					},
+					{
+						"bpm": 50,
+						"strength": 0.947045731504373
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [
+					19.2,
+					38.39999999999999,
+					57.59999999999998
+				],
+				"activeSets": [
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"100",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": [
+					19.2,
+					38.39999999999999,
+					57.59999999999998
+				]
+			},
+			"keyAgree": {
+				"key": {
+					"value": "C major",
+					"confidence": 0.9673705223915845
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "contrast-b",
+			"class": "contrast",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.9364878327294347
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.4680346642709743
+				},
+				"key": {
+					"value": "E minor",
+					"confidence": 0.054934180572594915
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.9386395271669268
+				},
+				"perStem": [
+					{
+						"bpm": 60,
+						"strength": 0.9340414544302033
+					},
+					{
+						"bpm": 120,
+						"strength": 0.9386395271669268
+					},
+					{
+						"bpm": 120,
+						"strength": 0.8517072740424824
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [
+					8,
+					24,
+					32
+				],
+				"activeSets": [
+					"001",
+					"001",
+					"001",
+					"001",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"001",
+					"001",
+					"001",
+					"001",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": [
+					8,
+					24,
+					32
+				]
+			},
+			"keyAgree": {
+				"key": {
+					"value": "E minor",
+					"confidence": 0.054934180572594915
+				},
+				"agreement": 0.5,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "contrast-c",
+			"class": "contrast",
+			"extra": null,
+			"prod": {
+				"tempo": {
+					"bpm": 114,
+					"confidence": 0.919655345670767
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.7931920718486678
+				},
+				"key": {
+					"value": "D major",
+					"confidence": 0.9331185369187218
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 114,
+					"confidence": 0.9228166812864325
+				},
+				"perStem": [
+					{
+						"bpm": 114,
+						"strength": 0.8344942788255378
+					},
+					{
+						"bpm": 114,
+						"strength": 0.9228166812864325
+					},
+					{
+						"bpm": 95.3,
+						"strength": 0.8881542315013763
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [
+					12.631578947368423,
+					18.947368421052634
+				],
+				"activeSets": [
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"100",
+					"100",
+					"100",
+					"100",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111",
+					"111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": [
+					12.631578947368423,
+					18.947368421052634
+				]
+			},
+			"keyAgree": {
+				"key": {
+					"value": "D major",
+					"confidence": 0.9331185369187218
+				},
+				"agreement": 1,
+				"tonalStems": 2
+			}
+		},
+		{
+			"itemId": "mislead-rubato",
+			"class": "mislead",
+			"extra": "rubato-lead",
+			"prod": {
+				"tempo": {
+					"bpm": 112,
+					"confidence": 0.9323298934968804
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.3483640733179517
+				},
+				"key": {
+					"value": "G major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 112,
+					"confidence": 0.9382545743361521
+				},
+				"perStem": [
+					{
+						"bpm": 82.8,
+						"strength": 0.7246878219521525
+					},
+					{
+						"bpm": 112,
+						"strength": 0.8538670806949495
+					},
+					{
+						"bpm": 112,
+						"strength": 0.9382545743361521
+					},
+					{
+						"bpm": 56,
+						"strength": 0.9235064102734555
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "G major",
+					"confidence": 1
+				},
+				"agreement": 0.6666666666666666,
+				"tonalStems": 3
+			}
+		},
+		{
+			"itemId": "mislead-pad",
+			"class": "mislead",
+			"extra": "pad",
+			"prod": {
+				"tempo": {
+					"bpm": 88,
+					"confidence": 0.9412548376958478
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.27687339211815826
+				},
+				"key": {
+					"value": "F major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 49.5,
+					"confidence": 0.969342897407839
+				},
+				"perStem": [
+					{
+						"bpm": 49.5,
+						"strength": 0.969342897407839
+					},
+					{
+						"bpm": 88,
+						"strength": 0.8843595954230168
+					},
+					{
+						"bpm": 88,
+						"strength": 0.9553520196075487
+					},
+					{
+						"bpm": 105.3,
+						"strength": 0.7711166680066072
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "F major",
+					"confidence": 1
+				},
+				"agreement": 1,
+				"tonalStems": 3
+			}
+		},
+		{
+			"itemId": "mislead-noise",
+			"class": "mislead",
+			"extra": "noise",
+			"prod": {
+				"tempo": {
+					"bpm": 132,
+					"confidence": 0.9376115235633427
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.376866224590357
+				},
+				"key": {
+					"value": "A major",
+					"confidence": 0.9395070989616232
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 132,
+					"confidence": 0.9383555026687191
+				},
+				"perStem": [
+					{
+						"bpm": 132,
+						"strength": 0.859721051911251
+					},
+					{
+						"bpm": 148.6,
+						"strength": 0.45797249203474705
+					},
+					{
+						"bpm": 132,
+						"strength": 0.9383555026687191
+					},
+					{
+						"bpm": 66,
+						"strength": 0.9232395865609367
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [
+					12.727272727272727,
+					19.999999999999996
+				],
+				"activeSets": [
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1011",
+					"1111",
+					"1111",
+					"1111",
+					"1011",
+					"1111",
+					"1111",
+					"1111",
+					"1011",
+					"1111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": [
+					12.727272727272727,
+					19.999999999999996
+				]
+			},
+			"keyAgree": {
+				"key": {
+					"value": "A major",
+					"confidence": 0.9395070989616232
+				},
+				"agreement": 0.6666666666666666,
+				"tonalStems": 3
+			}
+		},
+		{
+			"itemId": "mislead-double",
+			"class": "mislead",
+			"extra": "double-comp",
+			"prod": {
+				"tempo": {
+					"bpm": 96,
+					"confidence": 0.9380559532594609
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.4231055805825624
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 48,
+					"confidence": 0.9565248403832292
+				},
+				"perStem": [
+					{
+						"bpm": 96,
+						"strength": 0.9554345955345199
+					},
+					{
+						"bpm": 96,
+						"strength": 0.8786896331051737
+					},
+					{
+						"bpm": 96,
+						"strength": 0.8861370199938127
+					},
+					{
+						"bpm": 48,
+						"strength": 0.9565248403832292
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "C major",
+					"confidence": 1
+				},
+				"agreement": 1,
+				"tonalStems": 3
+			}
+		},
+		{
+			"itemId": "mislead-rubato-noise",
+			"class": "mislead",
+			"extra": "rubato-lead",
+			"prod": {
+				"tempo": {
+					"bpm": 104,
+					"confidence": 0.9260648266273647
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.8065074235114118
+				},
+				"key": {
+					"value": "D major",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 104,
+					"confidence": 0.9408198349578729
+				},
+				"perStem": [
+					{
+						"bpm": 104,
+						"strength": 0.8511735181567961
+					},
+					{
+						"bpm": 81.3,
+						"strength": 0.6468524224168164
+					},
+					{
+						"bpm": 87,
+						"strength": 0.9389138476343662
+					},
+					{
+						"bpm": 104,
+						"strength": 0.9408198349578729
+					}
+				],
+				"octaveFlag": false
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "D major",
+					"confidence": 1
+				},
+				"agreement": 1,
+				"tonalStems": 3
+			}
+		},
+		{
+			"itemId": "mislead-pad-double",
+			"class": "mislead",
+			"extra": "double-comp",
+			"prod": {
+				"tempo": {
+					"bpm": 72,
+					"confidence": 0.9326360028661254
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.4118688395715841
+				},
+				"key": {
+					"value": "B minor",
+					"confidence": 1
+				}
+			},
+			"stemTempo": {
+				"tempo": {
+					"bpm": 72,
+					"confidence": 0.9535867494909464
+				},
+				"perStem": [
+					{
+						"bpm": 72,
+						"strength": 0.853779273001399
+					},
+					{
+						"bpm": 144,
+						"strength": 0.9031316474155602
+					},
+					{
+						"bpm": 72,
+						"strength": 0.9535867494909464
+					},
+					{
+						"bpm": 72.9,
+						"strength": 0.6195422970328577
+					}
+				],
+				"octaveFlag": true
+			},
+			"activityTruthGrid": {
+				"boundaries": [],
+				"activeSets": [
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111",
+					"1111"
+				]
+			},
+			"activityDetectedGrid": {
+				"boundaries": []
+			},
+			"keyAgree": {
+				"key": {
+					"value": "B minor",
+					"confidence": 1
+				},
+				"agreement": 1,
+				"tonalStems": 3
+			}
+		}
+	]
+}
