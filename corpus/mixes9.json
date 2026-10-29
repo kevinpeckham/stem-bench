@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261029",
+	"note": "Study 9 misleading-stem specs (src/study9/parts.ts): each adds an extra part designed to pollute the SUMMED onset envelope while the drums carry the true pulse. Kept apart from mixes.json so Studies 4/7/8 fixtures and filters are untouched. Truth by construction as ever.",
+	"mixes": [
+		{ "id": "mislead-rubato", "title": "Mislead Rubato", "meter": "4/4", "extra": "rubato-lead", "sections": [ { "bpm": 112, "key": "G major", "bars": ["G", "C", "D", "G", "Em", "C", "D", "G", "G", "C", "D", "G", "C", "D", "G", "G"] } ] },
+		{ "id": "mislead-pad", "title": "Mislead Pad", "meter": "4/4", "extra": "pad", "sections": [ { "bpm": 88, "key": "F major", "bars": ["F", "Bb", "C", "F", "Dm", "Bb", "C", "F", "F", "Bb", "C", "F", "Bb", "C", "F", "F"] } ] },
+		{ "id": "mislead-noise", "title": "Mislead Noise", "meter": "4/4", "extra": "noise", "sections": [ { "bpm": 132, "key": "A major", "bars": ["A", "D", "E", "A", "F#m", "D", "E", "A", "A", "D", "E", "A", "D", "E", "A", "A"] } ] },
+		{ "id": "mislead-double", "title": "Mislead Double", "meter": "4/4", "extra": "double-comp", "sections": [ { "bpm": 96, "key": "C major", "bars": ["C", "F", "G", "C", "Am", "F", "G", "C", "C", "F", "G", "C", "F", "G", "C", "C"] } ] },
+		{ "id": "mislead-rubato-noise", "title": "Mislead Rubato Noise", "meter": "3/4", "extra": "rubato-lead", "sections": [ { "bpm": 104, "key": "D major", "bars": ["D", "G", "A", "D", "Bm", "G", "A", "D", "D", "G", "A", "D", "G", "A", "D", "D", "A", "D"] } ] },
+		{ "id": "mislead-pad-double", "title": "Mislead Pad Double", "meter": "4/4", "extra": "double-comp", "sections": [ { "bpm": 72, "key": "B minor", "bars": ["Bm", "G", "D", "A", "Bm", "G", "F#7", "Bm", "Bm", "G", "D", "A", "G", "F#7", "Bm", "Bm"] } ] }
+	]
+}

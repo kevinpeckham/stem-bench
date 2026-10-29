@@ -1,10 +1,13 @@
-# BRIEF — stem-bench Study 9: stem-aware analysis (draft)
+# BRIEF — stem-bench Study 9: stem-aware analysis
 
-**DRAFT, not yet registered.** Written by the stem-shovel side
-(2026-10-29) for the stem-bench agent to finish designing, register by
-commit, pilot and run under the program's rules (CLAUDE.md). The
-section "Left to the bench" lists what this draft leaves open; nothing
-here is a result.
+**REGISTERED.** Drafted by the stem-shovel side (2026-10-29, commit
+ea2b381); finished and registered by the bench the same day. The
+bench's design decisions are marked ⟨bench⟩ throughout; the draft's
+"Left to the bench" list is resolved in "Bench decisions" below.
+Registration precedes every scored result; the one disclosed exception
+is a development smoke test of the four instruments on a single item
+(contrast-b, zero model spend), whose values are pinned in
+tests/study9.test.ts so the port cannot drift.
 
 ## Why
 
@@ -49,124 +52,126 @@ the mix is enough.
   listener model name the key from an isolated bass-plus-comp stem
   better than from the mix? Studies 4 and 7 predict no; this is the
   cheapest way to close the question.
-- **Q5, dropped.** A spectrogram image to the model was considered;
-  the landscape review (docs/LANDSCAPE-2026-10-29.md, §4) found no
-  evidence that vision models read pitch, key or structure from
-  spectrograms, so it is not funded. The review also suggests the
-  study after this one: neural MIR baselines (Beat This!, LinkSeg, a
-  key CNN, ChordMini) against D-prod.
+- **Q5 ⟨bench⟩: DEFERRED.** The spectrogram-image arm is out of this
+  study; if it is ever run it is a Study 10 with its own registration.
 
-## Fixture (extend, committed before registration)
+## Fixture (committed with this brief)
 
-- **Per-part rendering.** Extend `src/study4/synth4.ts` so `renderMix`
-  can return the parts separately — at least drums, bass and comp
-  (strum or pad) — with a test that their float sum equals the existing
-  mix within 1e-6 per sample for every committed Study 4/7/8 spec, so
-  every existing truth (tempo, meter, key, changes, sections) carries
-  over unchanged and the existing fixtures stay byte-identical.
-- **Unhelpful stems (new specs, truth by construction).** A handful of
-  items add a fourth part designed to mislead the summed envelope: a
-  rubato lead line (free-time melody, no grid), a slow pad with
-  arbitrary onsets, a seeded noise/room track, and a comp whose
-  subdivision suggests double time against the drums. Pulseless items
-  stay excluded as in Studies 7 and 8.
-- **Real stems (secondary arm).** Kevin holds exclusive rights to
-  MMKK's original songs, whose true stems and band-declared settings
-  are on Stem Shovel; Study 10's brief registers the exception and the
-  fetch. D-activity, D-stem-tempo and D-key-agree run on them as a
-  secondary arm, graded against the band's declarations, with the
-  chart's section marks as the section truth.
-- **Stem order and names are hidden** from every instrument (stems are
-  `s1…sN`, shuffled per item with a seed): the detector must find the
-  rhythm section, not be told.
+- **Per-part rendering** ⟨bench⟩: `src/study9/parts.ts` `renderParts`
+  makes the SAME synthesis calls as `renderMix`, in the same order on
+  the same seeded stream, routed into drums / bass / comp (plus the
+  optional `extra`), normalized once by the sum's peak.
+  `renderMix` itself is untouched; tests/study9.test.ts pins the parts'
+  float sum to `renderMix` within 1e-6 per sample for every committed
+  spec, so every existing truth carries over and the committed MP3s
+  stay what they were.
+- **Items** ⟨bench⟩: the 15 pulsed Study 4/8 specs (6 loops, 6
+  tempo/key-change items, 3 contrast items; the 2 pulseless items stay
+  excluded as in Studies 7 and 8 — the ported detector has no null
+  tempo path, so the Study 4 honesty measure does not apply to it)
+  plus **6 misleading-stem specs** in corpus/mixes9.json (seeds 9000+i):
+  rubato lead ×2 (one in 3/4), slow off-grid pad, seeded noise/room
+  track, double-time comp ×2 (one over a pad-tempo 72 minor item). 21
+  items in all; fixture9.json records truth, class, truth bar grid,
+  section truth, stem order and MP3 paths.
+- **Stem order and names are hidden** from every instrument: stems are
+  shuffled per item by `stemOrder(n, seed)` (seeded Fisher–Yates,
+  recorded in the fixture); the detector must find the rhythm section,
+  not be told.
 
 ## Instruments (committed, pinned by test)
 
-- **D-prod** — production's detector ported verbatim: `extractFeatures`
-  per stem, `combineFeatures`, `analyse` (tempo, meter, key) from
-  stem-shovel `src/lib/audio/analysis.ts` at a99fb18, plus
-  `extractKeySegments`/`detectKeys` if key changes are scored. The
-  baseline every variant is compared with.
-- **D-stem-tempo** — per-stem autocorrelation with production's
-  detrending and refinement, reporting each stem's bpm and peak
-  sharpness; the answer is the sharpest stem's; a registered
-  disagreement flag when the top two stems' tempos differ by an octave.
-- **D-activity** — per-bar RMS per stem on the truth grid (the bench
-  knows the bars; a production port would use the detected tempo and
-  the agent should register which grid the instrument gets), a stem
-  "active" above a registered fraction of its own peak RMS, a boundary
-  where the active set changes and holds for ≥ 2 bars; names not
-  attempted (Study 8 showed naming belongs to the chart).
-- **D-key-agree** — production's `detectKey` per stem, weighted as
-  `combineFeatures` weights chroma; the answer is the production key,
-  the new output an agreement score (fraction of tonal stems whose key
-  is the answer or its relative); compared with production's confidence
-  as a separator of right from wrong.
-- **AI side arm (Q4)** — production's song-check question, chartless,
-  as Study 4's blind arm, over the mix and over the harmonic stem,
-  listener model(s) as Study 8 (google/gemini-3-flash, 3.5-flash).
+- **D-prod** — production's detector ported verbatim in
+  `src/study9/analysis.ts` from stem-shovel `src/lib/audio/analysis.ts`
+  at a99fb18: `extractFeatures` per stem, `combineFeatures`, `analyse`
+  (tempo, meter, key). The baseline every variant is compared with.
+- **D-stem-tempo** — `analyse` per stem; the answer is the stem with
+  the highest tempo confidence (production's own peak-sharpness
+  measure); a registered disagreement flag when the top two stems'
+  tempos sit within 6% of a 2.0 ratio.
+- **D-activity** — per-bar RMS per stem; a stem is active in a bar
+  when its RMS is ≥ 0.2 of its own peak bar RMS (ACTIVE_FRACTION); a
+  boundary where the active-stem set changes and the new set holds
+  ≥ 2 bars (HOLD_BARS). ⟨bench⟩ Both registered grids are run: the
+  **truth bar grid** (primary — the bench knows the bars) and the
+  **detected grid** (secondary — D-prod's own tempo and meter anchored
+  at 0, what a production port would have). Names not attempted.
+- **D-key-agree** — the answer is production's key from the combined
+  features; the new output is the fraction of tonal stems (tonality ≥
+  0.35 of the max, production's own reuse threshold) whose own
+  `detectKey` lands on the answer or its relative.
+- **AI side arm (Q4)** — production's song-check question, chartless
+  and candidate-less: exactly Study 4's L-blind cell over the mix MP3
+  and over the harmonic stem (bass + comp) MP3.
 
-## Registered measures (draft)
+## Registered measures
 
-- Tempo: exact within 1 bpm; octave errors counted apart; null
-  answers on pulseless items counted correct as in Study 4.
-- Sections: Study 8's `grade8` — boundaries within ±4 s, false
-  boundaries per item, split by contrast / harmonic-shift / uniform
-  items.
-- Key: accuracy; for Q3, the mean score on right answers minus the
-  mean on wrong ones for each confidence measure (and a simple
-  rank statistic the agent registers).
+- Tempo: exact within 1 bpm of the initial tempo or ⟨bench⟩ any
+  section's tempo on tempo-change items (the detector reports one
+  number for a song that has two; either is a truth); octave errors
+  (within 1 bpm of half or double a truth tempo) counted apart.
+- Sections: boundaries within ±4 s (grade8's tolerance), false
+  boundaries per item, split by contrast / change / loop / mislead.
+- Key: right when it names the item's key or ⟨bench⟩ any section's key
+  on modulating items; for Q3, mean score on right answers minus mean
+  on wrong for each confidence measure, plus ⟨bench⟩ AUC (the
+  probability a random right answer outscores a random wrong one,
+  ties ½).
 - Every measure paired per item against D-prod.
+- ⟨bench⟩ Key changes are NOT scored per stem (deferred; the global
+  key is the production surface being measured).
 
-## Gates (draft, for the agent to confirm against the fixture counts)
+## Gates (final, against the 21-item fixture)
 
-- **G1 (Q1):** D-activity finds ≥ the Study 8 chart-arm boundary recall
-  on contrast items and places **0** boundaries on single-section
-  loops.
-- **G2 (Q2):** D-stem-tempo is exact on every item D-prod is exact on,
-  and on ≥ half the unhelpful-stem items where D-prod is not; no new
-  octave errors.
-- **G3 (Q3):** the agreement score's right-minus-wrong separation
-  exceeds production confidence's.
-- Q4 and Q5 carry no gate: measured recommendations either way.
+- **S9-G1 (Q1):** D-activity on the truth grid finds **8/8** contrast
+  boundaries (the Study 8 chart-arm recall on those items) and places
+  **0** boundaries on the 6 single-section loops.
+- **S9-G2 (Q2):** D-stem-tempo is exact on every item D-prod is exact
+  on (no regressions, and no regression may be an octave error), and
+  on ≥ half the mislead items where D-prod is not exact. ⟨bench⟩ If
+  D-prod errs on fewer than 2 mislead items the rescue clause is
+  vacuous and the gate reduces to the no-regression clauses — reported
+  as "the sum was robust", which is itself the shipping answer.
+- **S9-G3 (Q3):** the agreement score's right-minus-wrong separation
+  exceeds production confidence's AND its AUC is at least
+  confidence's. ⟨bench⟩ If fewer than 3 key answers are wrong across
+  the 21 items the gate is UNEVALUABLE on this corpus — reported as
+  such, not failed (a separator cannot be measured without errors to
+  separate).
+- Q4 carries no gate: a measured recommendation either way.
 
-## Predictions (draft; the agent re-registers them in its own words)
+## Predictions (the bench's, registered before any result)
 
-1. D-activity passes G1: stem activity IS the texture the model
+1. S9-G1 passes: stem activity IS the texture the Study 8 models
    heard, and a set-change detector cannot invent structure on a
-   uniform loop. Harmonic-shift boundaries with no arrangement change
-   stay invisible to it, as they were to the model (those belong to
-   the chart).
-2. D-stem-tempo equals D-prod on clean items and wins on the rubato
-   and noise items; the double-time comp item is where it may lose,
-   choosing the comp's sharper half-period — the disagreement flag
-   fires there, which is the point of registering it.
-3. Agreement separates better than the correlation margin but
-   modestly; the relative-minor case is where production's margin is
-   smallest.
-4. Q4: the stem does not help the model name the key (≤ 1 item
-   changes), consistent with Studies 4 and 7.
+   uniform loop. The 6 change-item boundaries (tempo/key shifts with
+   no arrangement change) stay invisible to it, as they were to the
+   blind model — those belong to the chart.
+2. D-prod survives the pad and noise extras (detrending and onset
+   weighting absorb them) but errs on at least one double-comp item
+   (the summed envelope's sharpest period halves); the rubato lead is
+   the coin flip. D-stem-tempo is exact wherever D-prod is and on the
+   double-comp items too; the octave flag fires on both double-comp
+   items — and also benignly on clean items whose bass walks in half
+   time (disclosed: it fired on the contrast-b smoke).
+3. Production key detection is at or near 21/21 on this synthetic
+   corpus, so S9-G3 lands UNEVALUABLE; the agreement score is reported
+   descriptively (its floor should sit on the mislead items, whose
+   extra stem is atonal or rhythm-only).
+4. Q4: the stem does not help the model name the key (≤ 1 item changes
+   per model), consistent with Studies 4 and 7.
 
-## Spend fences (draft)
+## Spend fences
 
 - D-prod, D-stem-tempo, D-activity, D-key-agree: zero model spend.
-- Q4 pilot: 6 items × 2 conditions × 1 model, ≈ $0.50, on the
-  registering go-ahead; matrix (all pulsed items, 2 models) ≈ $4, on
-  Kevin's go-ahead after the pilot is committed.
-- Cap $5 in all.
-
-## Left to the bench
-
-- The per-part renderer's exact parts and the byte-identity test.
-- The unhelpful-stem specs (how many; the agent chooses ≥ 6).
-- The D-activity grid (truth bars vs detected tempo) and thresholds,
-  fixed before the first run.
-- Whether key changes (Study 4's shift/mod items) are scored per stem.
-- Gate counts and predictions restated against the final fixture.
-- Production fidelity: the port's commit is a99fb18; register any
-  deviation (sample rate: production analyzes 32 kHz AudioBuffers, the
-  bench renders 22050 Hz; `extractFeatures` must be checked at that
-  rate and the deviation registered).
+- Q4 pilot ⟨bench⟩: the 6 registered items (drift-4a, waltz-a,
+  contrast-b, mislead-rubato, mislead-double, mislead-pad) × 2
+  conditions × google/gemini-3-flash = 12 calls, ≈ $0.15, on the
+  registering go-ahead; matrix: all 21 items × 2 conditions × the two
+  Study 8 models = 84 calls, ≈ $1, on Kevin's go-ahead after the pilot
+  is committed.
+- Q5: deferred, no fence.
+- Cap $8 in all.
 
 ## What production does with the result
 
@@ -176,9 +181,44 @@ placement; a D-stem-tempo pass replaces the summed envelope; a Q3 pass
 becomes the confidence the song page shows. A fail on any of them is
 recorded in stem-shovel's FINDINGS.md and the mix stays the input.
 
+## Production fidelity and registered deviations
+
+- `src/study9/analysis.ts` is a verbatim port of stem-shovel
+  `src/lib/audio/analysis.ts` at **a99fb18** (whole file, `@ts-nocheck`
+  under the bench's stricter compiler); it does not chase stem-shovel
+  changes mid-study.
+- **Deviation (sample rate):** production analyzes 32 kHz
+  AudioBuffers; the bench renders 22050 Hz. The port is rate-parametric
+  (`fps = sampleRate / HOP`); tests/study9.test.ts pins `fps` at the
+  bench rate, and the disclosed smoke run detected a clean item's
+  tempo, meter and key exactly at 22050 Hz.
+- The Q4 cell is Study 4's L-blind runner verbatim (registered
+  deviations unchanged: temperature 0, maxOutputTokens 2000,
+  maxRetries 4 on transport).
+
 ## Disclosure
 
 Analyst Claude Fable 5; the models measured in Q4 are Google's,
 outside the analyst's family. Every grade is mechanical; D-prod is a
-verbatim port pinned by test and does not chase stem-shovel changes
-mid-study. Zero model calls before registration.
+verbatim port pinned by test. Zero model calls before registration;
+the single pre-registration smoke of the zero-spend instruments on
+contrast-b is disclosed above and pinned in the tests.
+
+## Postscript (2026-10-29, after registration and run)
+
+The stem-shovel side updated its draft upstream (20e82c9, 0e4a32c)
+after the bench had taken ea2b381 as its base; the registered text
+above is what the study ran against, and the upstream changes are
+recorded here rather than merged:
+
+- **Q5** was dropped there outright on the landscape review's evidence
+  (docs/LANDSCAPE-2026-10-29.md §4: no evidence vision models read
+  pitch, key or structure from spectrograms) — stronger than the
+  bench's "deferred", same effect, and the bench adopts the review's
+  conclusion: no spectrogram study will be registered.
+- A **real-stems secondary arm** (the MMKK catalog, Kevin's exclusive
+  rights, truth from the band's declarations) was added to the draft
+  after registration. It was NOT run in Study 9 and its absence
+  changes nothing registered here; it belongs to Study 10's scope,
+  whose draft (docs/BRIEF-STUDY10.md) registers the rights exception
+  and the fetch.

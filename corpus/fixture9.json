@@ -1,0 +1,1163 @@
+{
+	"version": 1,
+	"corpus": "hand-authored-20261023+hand-authored-20261029",
+	"items": [
+		{
+			"id": "drift-4a",
+			"class": "loop",
+			"seed": 4000,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				2,
+				0
+			],
+			"truth": {
+				"tempo": 120,
+				"meter": "4/4",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 33
+			},
+			"barStarts": [
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/drift-4a.mp3",
+			"harmonicMp3": "corpus/mixes9/drift-4a-harmonic.mp3"
+		},
+		{
+			"id": "drift-4b",
+			"class": "loop",
+			"seed": 4001,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				0,
+				2
+			],
+			"truth": {
+				"tempo": 84,
+				"meter": "4/4",
+				"key": "Eb major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 46.714285714285715
+			},
+			"barStarts": [
+				0,
+				2.857142857142857,
+				5.714285714285714,
+				8.571428571428571,
+				11.428571428571429,
+				14.285714285714286,
+				17.142857142857142,
+				20,
+				22.857142857142858,
+				25.714285714285715,
+				28.571428571428573,
+				31.42857142857143,
+				34.285714285714285,
+				37.14285714285714,
+				39.99999999999999,
+				42.85714285714285,
+				45.7142857142857
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/drift-4b.mp3",
+			"harmonicMp3": "corpus/mixes9/drift-4b-harmonic.mp3"
+		},
+		{
+			"id": "waltz-a",
+			"class": "loop",
+			"seed": 4002,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				0,
+				2,
+				1
+			],
+			"truth": {
+				"tempo": 96,
+				"meter": "3/4",
+				"key": "G major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 34.75
+			},
+			"barStarts": [
+				0,
+				1.875,
+				3.75,
+				5.625,
+				7.5,
+				9.375,
+				11.25,
+				13.125,
+				15,
+				16.875,
+				18.75,
+				20.625,
+				22.5,
+				24.375,
+				26.25,
+				28.125,
+				30,
+				31.875,
+				33.75
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/waltz-a.mp3",
+			"harmonicMp3": "corpus/mixes9/waltz-a-harmonic.mp3"
+		},
+		{
+			"id": "waltz-b",
+			"class": "loop",
+			"seed": 4003,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				0,
+				1,
+				2
+			],
+			"truth": {
+				"tempo": 140,
+				"meter": "3/4",
+				"key": "C minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 24.142857142857146
+			},
+			"barStarts": [
+				0,
+				1.2857142857142858,
+				2.5714285714285716,
+				3.8571428571428577,
+				5.142857142857143,
+				6.428571428571429,
+				7.714285714285714,
+				9,
+				10.285714285714286,
+				11.571428571428573,
+				12.85714285714286,
+				14.142857142857146,
+				15.428571428571432,
+				16.71428571428572,
+				18.000000000000004,
+				19.28571428571429,
+				20.571428571428573,
+				21.857142857142858,
+				23.142857142857142
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/waltz-b.mp3",
+			"harmonicMp3": "corpus/mixes9/waltz-b-harmonic.mp3"
+		},
+		{
+			"id": "lilt-a",
+			"class": "loop",
+			"seed": 4004,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				2,
+				1,
+				0
+			],
+			"truth": {
+				"tempo": 60,
+				"meter": "6/8",
+				"key": "A major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 33
+			},
+			"barStarts": [
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/lilt-a.mp3",
+			"harmonicMp3": "corpus/mixes9/lilt-a-harmonic.mp3"
+		},
+		{
+			"id": "lilt-b",
+			"class": "loop",
+			"seed": 4005,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				2,
+				0
+			],
+			"truth": {
+				"tempo": 76,
+				"meter": "6/8",
+				"key": "E minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 26.263157894736842
+			},
+			"barStarts": [
+				0,
+				1.5789473684210527,
+				3.1578947368421053,
+				4.7368421052631575,
+				6.315789473684211,
+				7.894736842105264,
+				9.473684210526317,
+				11.05263157894737,
+				12.631578947368423,
+				14.210526315789476,
+				15.78947368421053,
+				17.368421052631582,
+				18.947368421052634,
+				20.526315789473685,
+				22.105263157894736,
+				23.684210526315788,
+				25.26315789473684
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/lilt-b.mp3",
+			"harmonicMp3": "corpus/mixes9/lilt-b-harmonic.mp3"
+		},
+		{
+			"id": "shift-a",
+			"class": "change",
+			"seed": 4006,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				0,
+				1,
+				2
+			],
+			"truth": {
+				"tempo": 100,
+				"meter": "4/4",
+				"key": "C major",
+				"tempoChanges": [
+					{
+						"at": 19.2,
+						"bpm": 140
+					}
+				],
+				"keyChanges": [],
+				"durationSec": 33.91428571428571
+			},
+			"barStarts": [
+				0,
+				2.4,
+				4.8,
+				7.199999999999999,
+				9.6,
+				12,
+				14.4,
+				16.8,
+				19.2,
+				20.914285714285715,
+				22.62857142857143,
+				24.342857142857145,
+				26.05714285714286,
+				27.771428571428576,
+				29.48571428571429,
+				31.200000000000006,
+				32.91428571428572
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					},
+					{
+						"at": 19.2,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/shift-a.mp3",
+			"harmonicMp3": "corpus/mixes9/shift-a-harmonic.mp3"
+		},
+		{
+			"id": "shift-b",
+			"class": "change",
+			"seed": 4007,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				2,
+				0,
+				1
+			],
+			"truth": {
+				"tempo": 72,
+				"meter": "4/4",
+				"key": "B minor",
+				"tempoChanges": [
+					{
+						"at": 26.666666666666668,
+						"bpm": 108
+					}
+				],
+				"keyChanges": [],
+				"durationSec": 45.44444444444444
+			},
+			"barStarts": [
+				0,
+				3.3333333333333335,
+				6.666666666666667,
+				10,
+				13.333333333333334,
+				16.666666666666668,
+				20,
+				23.333333333333332,
+				26.666666666666664,
+				28.888888888888886,
+				31.111111111111107,
+				33.33333333333333,
+				35.55555555555555,
+				37.77777777777777,
+				39.99999999999999,
+				42.222222222222214,
+				44.444444444444436
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					},
+					{
+						"at": 26.666666666666668,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/shift-b.mp3",
+			"harmonicMp3": "corpus/mixes9/shift-b-harmonic.mp3"
+		},
+		{
+			"id": "shift-c",
+			"class": "change",
+			"seed": 4008,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				0,
+				2
+			],
+			"truth": {
+				"tempo": 90,
+				"meter": "3/4",
+				"key": "F major",
+				"tempoChanges": [
+					{
+						"at": 18,
+						"bpm": 120
+					}
+				],
+				"keyChanges": [],
+				"durationSec": 32.5
+			},
+			"barStarts": [
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				19.5,
+				21,
+				22.5,
+				24,
+				25.5,
+				27,
+				28.5,
+				30,
+				31.5
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					},
+					{
+						"at": 18,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/shift-c.mp3",
+			"harmonicMp3": "corpus/mixes9/shift-c-harmonic.mp3"
+		},
+		{
+			"id": "mod-a",
+			"class": "change",
+			"seed": 4009,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				2,
+				1,
+				0
+			],
+			"truth": {
+				"tempo": 110,
+				"meter": "4/4",
+				"key": "F major",
+				"tempoChanges": [],
+				"keyChanges": [
+					{
+						"at": 17.454545454545453,
+						"key": "G major"
+					}
+				],
+				"durationSec": 35.90909090909091
+			},
+			"barStarts": [
+				0,
+				2.1818181818181817,
+				4.363636363636363,
+				6.545454545454545,
+				8.727272727272727,
+				10.909090909090908,
+				13.09090909090909,
+				15.272727272727272,
+				17.454545454545453,
+				19.636363636363633,
+				21.818181818181813,
+				23.999999999999993,
+				26.181818181818173,
+				28.363636363636353,
+				30.545454545454533,
+				32.72727272727271,
+				34.90909090909089
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					},
+					{
+						"at": 17.454545454545453,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/mod-a.mp3",
+			"harmonicMp3": "corpus/mixes9/mod-a-harmonic.mp3"
+		},
+		{
+			"id": "mod-b",
+			"class": "change",
+			"seed": 4010,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				2,
+				0
+			],
+			"truth": {
+				"tempo": 95,
+				"meter": "4/4",
+				"key": "A minor",
+				"tempoChanges": [],
+				"keyChanges": [
+					{
+						"at": 20.210526315789473,
+						"key": "C major"
+					}
+				],
+				"durationSec": 41.421052631578945
+			},
+			"barStarts": [
+				0,
+				2.526315789473684,
+				5.052631578947368,
+				7.578947368421052,
+				10.105263157894736,
+				12.631578947368421,
+				15.157894736842106,
+				17.68421052631579,
+				20.210526315789476,
+				22.73684210526316,
+				25.263157894736846,
+				27.78947368421053,
+				30.315789473684216,
+				32.8421052631579,
+				35.36842105263158,
+				37.89473684210527,
+				40.42105263157895
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					},
+					{
+						"at": 20.210526315789473,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/mod-b.mp3",
+			"harmonicMp3": "corpus/mixes9/mod-b-harmonic.mp3"
+		},
+		{
+			"id": "mod-c",
+			"class": "change",
+			"seed": 4011,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				0,
+				2
+			],
+			"truth": {
+				"tempo": 126,
+				"meter": "4/4",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [
+					{
+						"at": 15.238095238095237,
+						"key": "F major"
+					}
+				],
+				"durationSec": 31.476190476190474
+			},
+			"barStarts": [
+				0,
+				1.9047619047619047,
+				3.8095238095238093,
+				5.7142857142857135,
+				7.619047619047619,
+				9.523809523809524,
+				11.428571428571429,
+				13.333333333333334,
+				15.238095238095239,
+				17.142857142857142,
+				19.047619047619047,
+				20.952380952380953,
+				22.857142857142858,
+				24.761904761904763,
+				26.666666666666668,
+				28.571428571428573,
+				30.476190476190478
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					},
+					{
+						"at": 15.238095238095237,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/mod-c.mp3",
+			"harmonicMp3": "corpus/mixes9/mod-c-harmonic.mp3"
+		},
+		{
+			"id": "contrast-a",
+			"class": "contrast",
+			"seed": 4014,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				2,
+				0,
+				1
+			],
+			"truth": {
+				"tempo": 100,
+				"meter": "4/4",
+				"key": "C major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 77.8
+			},
+			"barStarts": [
+				0,
+				2.4,
+				4.8,
+				7.199999999999999,
+				9.6,
+				12,
+				14.4,
+				16.8,
+				19.2,
+				21.599999999999998,
+				23.999999999999996,
+				26.399999999999995,
+				28.799999999999994,
+				31.199999999999992,
+				33.599999999999994,
+				35.99999999999999,
+				38.39999999999999,
+				40.79999999999999,
+				43.19999999999999,
+				45.59999999999999,
+				47.999999999999986,
+				50.399999999999984,
+				52.79999999999998,
+				55.19999999999998,
+				57.59999999999998,
+				59.99999999999998,
+				62.39999999999998,
+				64.79999999999998,
+				67.19999999999999,
+				69.6,
+				72,
+				74.4,
+				76.80000000000001
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": "Verse"
+					},
+					{
+						"at": 19.2,
+						"name": "Chorus"
+					},
+					{
+						"at": 38.4,
+						"name": "Verse"
+					},
+					{
+						"at": 57.599999999999994,
+						"name": "Chorus"
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/contrast-a.mp3",
+			"harmonicMp3": "corpus/mixes9/contrast-a-harmonic.mp3"
+		},
+		{
+			"id": "contrast-b",
+			"class": "contrast",
+			"seed": 4015,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				1,
+				0,
+				2
+			],
+			"truth": {
+				"tempo": 120,
+				"meter": "4/4",
+				"key": "E minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 49
+			},
+			"barStarts": [
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": "Intro"
+					},
+					{
+						"at": 8,
+						"name": "Verse"
+					},
+					{
+						"at": 24,
+						"name": "Bridge"
+					},
+					{
+						"at": 32,
+						"name": "Chorus"
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/contrast-b.mp3",
+			"harmonicMp3": "corpus/mixes9/contrast-b-harmonic.mp3"
+		},
+		{
+			"id": "contrast-c",
+			"class": "contrast",
+			"seed": 4016,
+			"extra": null,
+			"stems": 3,
+			"stemOrder": [
+				2,
+				0,
+				1
+			],
+			"truth": {
+				"tempo": 76,
+				"meter": "6/8",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 32.578947368421055
+			},
+			"barStarts": [
+				0,
+				1.5789473684210527,
+				3.1578947368421053,
+				4.7368421052631575,
+				6.315789473684211,
+				7.894736842105264,
+				9.473684210526317,
+				11.05263157894737,
+				12.631578947368423,
+				14.210526315789476,
+				15.78947368421053,
+				17.368421052631582,
+				18.947368421052634,
+				20.526315789473685,
+				22.105263157894736,
+				23.684210526315788,
+				25.26315789473684,
+				26.84210526315789,
+				28.42105263157894,
+				29.999999999999993,
+				31.578947368421044
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": "Verse"
+					},
+					{
+						"at": 12.631578947368421,
+						"name": "Interlude"
+					},
+					{
+						"at": 18.94736842105263,
+						"name": "Verse"
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes/contrast-c.mp3",
+			"harmonicMp3": "corpus/mixes9/contrast-c-harmonic.mp3"
+		},
+		{
+			"id": "mislead-rubato",
+			"class": "mislead",
+			"seed": 9000,
+			"extra": "rubato-lead",
+			"stems": 4,
+			"stemOrder": [
+				3,
+				2,
+				0,
+				1
+			],
+			"truth": {
+				"tempo": 112,
+				"meter": "4/4",
+				"key": "G major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 35.285714285714285
+			},
+			"barStarts": [
+				0,
+				2.142857142857143,
+				4.285714285714286,
+				6.428571428571429,
+				8.571428571428571,
+				10.714285714285714,
+				12.857142857142856,
+				14.999999999999998,
+				17.142857142857142,
+				19.285714285714285,
+				21.428571428571427,
+				23.57142857142857,
+				25.71428571428571,
+				27.857142857142854,
+				29.999999999999996,
+				32.14285714285714,
+				34.285714285714285
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes9/mislead-rubato.mp3",
+			"harmonicMp3": "corpus/mixes9/mislead-rubato-harmonic.mp3"
+		},
+		{
+			"id": "mislead-pad",
+			"class": "mislead",
+			"seed": 9001,
+			"extra": "pad",
+			"stems": 4,
+			"stemOrder": [
+				1,
+				2,
+				0,
+				3
+			],
+			"truth": {
+				"tempo": 88,
+				"meter": "4/4",
+				"key": "F major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 44.63636363636363
+			},
+			"barStarts": [
+				0,
+				2.727272727272727,
+				5.454545454545454,
+				8.181818181818182,
+				10.909090909090908,
+				13.636363636363635,
+				16.363636363636363,
+				19.09090909090909,
+				21.818181818181817,
+				24.545454545454543,
+				27.27272727272727,
+				29.999999999999996,
+				32.72727272727273,
+				35.45454545454545,
+				38.18181818181818,
+				40.90909090909091,
+				43.63636363636363
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes9/mislead-pad.mp3",
+			"harmonicMp3": "corpus/mixes9/mislead-pad-harmonic.mp3"
+		},
+		{
+			"id": "mislead-noise",
+			"class": "mislead",
+			"seed": 9002,
+			"extra": "noise",
+			"stems": 4,
+			"stemOrder": [
+				2,
+				3,
+				0,
+				1
+			],
+			"truth": {
+				"tempo": 132,
+				"meter": "4/4",
+				"key": "A major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 30.09090909090909
+			},
+			"barStarts": [
+				0,
+				1.8181818181818181,
+				3.6363636363636362,
+				5.454545454545454,
+				7.2727272727272725,
+				9.09090909090909,
+				10.909090909090908,
+				12.727272727272727,
+				14.545454545454545,
+				16.363636363636363,
+				18.18181818181818,
+				19.999999999999996,
+				21.818181818181813,
+				23.63636363636363,
+				25.454545454545446,
+				27.272727272727263,
+				29.09090909090908
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes9/mislead-noise.mp3",
+			"harmonicMp3": "corpus/mixes9/mislead-noise-harmonic.mp3"
+		},
+		{
+			"id": "mislead-double",
+			"class": "mislead",
+			"seed": 9003,
+			"extra": "double-comp",
+			"stems": 4,
+			"stemOrder": [
+				0,
+				2,
+				3,
+				1
+			],
+			"truth": {
+				"tempo": 96,
+				"meter": "4/4",
+				"key": "C major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 41
+			},
+			"barStarts": [
+				0,
+				2.5,
+				5,
+				7.5,
+				10,
+				12.5,
+				15,
+				17.5,
+				20,
+				22.5,
+				25,
+				27.5,
+				30,
+				32.5,
+				35,
+				37.5,
+				40
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes9/mislead-double.mp3",
+			"harmonicMp3": "corpus/mixes9/mislead-double-harmonic.mp3"
+		},
+		{
+			"id": "mislead-rubato-noise",
+			"class": "mislead",
+			"seed": 9004,
+			"extra": "rubato-lead",
+			"stems": 4,
+			"stemOrder": [
+				2,
+				3,
+				1,
+				0
+			],
+			"truth": {
+				"tempo": 104,
+				"meter": "3/4",
+				"key": "D major",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 32.15384615384615
+			},
+			"barStarts": [
+				0,
+				1.7307692307692308,
+				3.4615384615384617,
+				5.1923076923076925,
+				6.923076923076923,
+				8.653846153846153,
+				10.384615384615383,
+				12.115384615384613,
+				13.846153846153843,
+				15.576923076923073,
+				17.307692307692303,
+				19.038461538461533,
+				20.769230769230763,
+				22.499999999999993,
+				24.230769230769223,
+				25.961538461538453,
+				27.692307692307683,
+				29.423076923076913,
+				31.153846153846143
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes9/mislead-rubato-noise.mp3",
+			"harmonicMp3": "corpus/mixes9/mislead-rubato-noise-harmonic.mp3"
+		},
+		{
+			"id": "mislead-pad-double",
+			"class": "mislead",
+			"seed": 9005,
+			"extra": "double-comp",
+			"stems": 4,
+			"stemOrder": [
+				2,
+				3,
+				0,
+				1
+			],
+			"truth": {
+				"tempo": 72,
+				"meter": "4/4",
+				"key": "B minor",
+				"tempoChanges": [],
+				"keyChanges": [],
+				"durationSec": 54.333333333333336
+			},
+			"barStarts": [
+				0,
+				3.3333333333333335,
+				6.666666666666667,
+				10,
+				13.333333333333334,
+				16.666666666666668,
+				20,
+				23.333333333333332,
+				26.666666666666664,
+				29.999999999999996,
+				33.33333333333333,
+				36.666666666666664,
+				40,
+				43.333333333333336,
+				46.66666666666667,
+				50.00000000000001,
+				53.33333333333334
+			],
+			"sections": {
+				"sections": [
+					{
+						"at": 0,
+						"name": null
+					}
+				]
+			},
+			"mixMp3": "corpus/mixes9/mislead-pad-double.mp3",
+			"harmonicMp3": "corpus/mixes9/mislead-pad-double-harmonic.mp3"
+		}
+	]
+}

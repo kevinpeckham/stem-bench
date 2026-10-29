@@ -31,7 +31,12 @@
 		"study7:run": "bun scripts/run-study7.ts",
 		"study7:analyze": "bun scripts/analyze-study7.ts",
 		"study8:run": "bun scripts/run-study8.ts",
-		"study8:analyze": "bun scripts/analyze-study8.ts"
+		"study8:analyze": "bun scripts/analyze-study8.ts",
+		"study9:fixture": "bun scripts/build-fixture9.ts",
+		"study9:run": "bun scripts/run-study9.ts",
+		"study9:q4-pilot": "bun scripts/run-study9-q4.ts pilot",
+		"study9:q4-matrix": "bun scripts/run-study9-q4.ts matrix",
+		"study9:analyze": "bun scripts/analyze-study9.ts"
 	},
 	"dependencies": {
 		"@ai-sdk/gateway": "^4.0.82",
