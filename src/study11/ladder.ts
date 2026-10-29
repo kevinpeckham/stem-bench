@@ -85,6 +85,17 @@ export interface SubdivisionRead {
  */
 export const SUB3_FLOOR = 0.4;
 
+/**
+ * Amendment 2: a subdivision-3 claim is only a claim when the
+ * hypothesis PULSE exists — r̂ at the beat lag itself must clear an
+ * absolute floor. Without it, a bogus 1.5× hypothesis has rBeat ≈ 0,
+ * the relative floor is vacuous, and r̂(L/3) > r̂(L/2) degenerates to
+ * "shorter lag wins on the autocorrelation main lobe" (measured:
+ * genuine pulse hypotheses sit at r̂ 0.36–0.75, bogus ones at
+ * 0.001–0.01 — three orders of magnitude of separation).
+ */
+export const BEAT_FLOOR = 0.1;
+
 /** r̂ at a (possibly fractional) lag: the mean of the integer lags ±1 around it. */
 function rAt(x: Float32Array, lag: number): number {
 	const center = Math.round(lag);
@@ -107,7 +118,8 @@ export function subdivisionOf(onset: Float32Array, fps: number, bpm: number): Su
 	const rBeat = rAt(x, beatLag) / zero;
 	const r2 = rAt(x, beatLag / 2) / zero;
 	const r3 = rAt(x, beatLag / 3) / zero;
-	return { subdivision: r3 > r2 && r3 >= SUB3_FLOOR * rBeat ? 3 : 2, rBeat, r2, r3 };
+	const sub3 = rBeat >= BEAT_FLOOR && r3 > r2 && r3 >= SUB3_FLOOR * rBeat;
+	return { subdivision: sub3 ? 3 : 2, rBeat, r2, r3 };
 }
 
 /**

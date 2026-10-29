@@ -161,3 +161,17 @@ instrument defects, fixed here and re-registered before re-running:
    108 and was scored a mismatch against the first section's 72.
 
 Gates, predictions and all other definitions are unchanged.
+
+## Amendment 2 (2026-10-29, before any result is accepted)
+
+The Amendment 1 run exposed a second instrument hole, in G2's
+direction this time: S-sub at a BOGUS hypothesis tempo (a ×1.5 wrong
+declaration on a straight item) has no beat peak at all (r̂(L) ≈
+0.0007 vs 0.36–0.75 for genuine pulses), which makes the relative
+floor vacuous and reduces r̂(L/3) > r̂(L/2) to "the shorter lag wins
+on the autocorrelation main lobe" — 22 of 33 ×1.5 straight rows were
+wrongly licensed. Fix, registered: a subdivision-3 read additionally
+requires r̂(L) ≥ BEAT_FLOOR (0.1, absolute; the measured separation
+is three orders of magnitude). Principled reading: a compound-count
+claim about a pulse that does not exist is not a claim. Gates and
+predictions unchanged; the superseded runs stay in git history.
