@@ -1,0 +1,3568 @@
+{
+	"version": 1,
+	"items": [
+		{
+			"itemId": "drift-4a",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				120
+			],
+			"detected": 120,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7026849987097411,
+				"r2": 7.827895041006532e-7,
+				"r3": 0.00008839152987993582
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7026849987097411,
+				"r2": 7.827895041006532e-7,
+				"r3": 0.00008839152987993582
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7026849987097411,
+				"r2": 7.827895041006532e-7,
+				"r3": 0.00008839152987993582
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "drift-4b",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				84
+			],
+			"detected": 84,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6898553891473335,
+				"r2": 0,
+				"r3": 0.0003621017781190098
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6898553891473335,
+				"r2": 0,
+				"r3": 0.0003621017781190098
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6898553891473335,
+				"r2": 0,
+				"r3": 0.0003621017781190098
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 89.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 78.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 94.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 73.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 126,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 111.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 67.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "waltz-a",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "3/4",
+			"trueTempos": [
+				96
+			],
+			"detected": 96,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7261435650629464,
+				"r2": 0,
+				"r3": 0.000045224738980684234
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7261435650629464,
+				"r2": 0,
+				"r3": 0.000045224738980684234
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7261435650629464,
+				"r2": 0,
+				"r3": 0.000045224738980684234
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 102.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 89.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 107.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 84.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 144,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 127.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "waltz-b",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "3/4",
+			"trueTempos": [
+				140
+			],
+			"detected": 140,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6954885535405716,
+				"r2": 0,
+				"r3": 0.006490759708574072
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6954885535405716,
+				"r2": 0,
+				"r3": 0.006490759708574072
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6954885535405716,
+				"r2": 0,
+				"r3": 0.006490759708574072
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 149.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 130.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 156.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 123.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 210,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 186.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 112,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "lilt-a",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "6/8",
+			"trueTempos": [
+				60
+			],
+			"detected": 90,
+			"prodExact": false,
+			"subAtTrue": {
+				"subdivision": 3,
+				"rBeat": 0.7498212890318904,
+				"r2": 0.00008404079383904417,
+				"r3": 0.7200648344382987
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7170935824625344,
+				"r2": 0.7200648344382987,
+				"r3": 0.002378087829043268
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 3,
+				"rBeat": 0.7498212890318904,
+				"r2": 0.00008404079383904417,
+				"r3": 0.7200648344382987
+			},
+			"gated": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"open": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 64.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 55.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 67.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 52.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 79.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 48,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "lilt-b",
+			"source": "band",
+			"class": "loop",
+			"meterTruth": "6/8",
+			"trueTempos": [
+				76
+			],
+			"detected": 114,
+			"prodExact": false,
+			"subAtTrue": {
+				"subdivision": 3,
+				"rBeat": 0.7490112238537223,
+				"r2": 0.000854090679262775,
+				"r3": 0.718599235566637
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.723351357053522,
+				"r2": 0.718599235566637,
+				"r3": 0.0006382561554068991
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 3,
+				"rBeat": 0.7490112238537223,
+				"r2": 0.000854090679262775,
+				"r3": 0.718599235566637
+			},
+			"gated": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"open": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 81.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 70.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 85.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 66.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 101.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 60.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "shift-a",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				100,
+				140
+			],
+			"detected": 100,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.3831802959437129,
+				"r2": 0.007840584552481053,
+				"r3": 0.00011513435732412897
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.3831802959437129,
+				"r2": 0.007840584552481053,
+				"r3": 0.00011513435732412897
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.3831802959437129,
+				"r2": 0.007840584552481053,
+				"r3": 0.00011513435732412897
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "shift-b",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				72,
+				108
+			],
+			"detected": 108,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.3577541277279113,
+				"r2": 0.005048736262787181,
+				"r3": 0.0002817922382557856
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.35914250016409327,
+				"r2": 0.0002817922382557856,
+				"r3": 0.007508051266305887
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.3577541277279113,
+				"r2": 0.005048736262787181,
+				"r3": 0.0002817922382557856
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": false,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "shift-c",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "3/4",
+			"trueTempos": [
+				90,
+				120
+			],
+			"detected": 120,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.36867311335950026,
+				"r2": 0.0003936300011706302,
+				"r3": 0.000001914402770961825
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.3513815829872591,
+				"r2": 0,
+				"r3": 0.006514828190339847
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.36867311335950026,
+				"r2": 0.0003936300011706302,
+				"r3": 0.000001914402770961825
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 96.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 83.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 100.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 79.2,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 135,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 119.7,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": false,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 72,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mod-a",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				110
+			],
+			"detected": 110,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.725016273785178,
+				"r2": 0,
+				"r3": 0.0000613739795291967
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.725016273785178,
+				"r2": 0,
+				"r3": 0.0000613739795291967
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.725016273785178,
+				"r2": 0,
+				"r3": 0.0000613739795291967
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 117.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 102.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 123.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 96.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 165,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 146.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 88,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mod-b",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				95
+			],
+			"detected": 95,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6990811592738267,
+				"r2": 0,
+				"r3": 0.000024245993811926222
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6990811592738267,
+				"r2": 0,
+				"r3": 0.000024245993811926222
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6990811592738267,
+				"r2": 0,
+				"r3": 0.000024245993811926222
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 101.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 88.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 106.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 83.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 142.5,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 126.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mod-c",
+			"source": "band",
+			"class": "change",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				126
+			],
+			"detected": 126,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.680722706853746,
+				"r2": 0.00002760339089190321,
+				"r3": 0.00009472608825266272
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.680722706853746,
+				"r2": 0.00002760339089190321,
+				"r3": 0.00009472608825266272
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.680722706853746,
+				"r2": 0.00002760339089190321,
+				"r3": 0.00009472608825266272
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 134.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 117.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 141.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 110.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 189,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 167.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 100.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "contrast-a",
+			"source": "band",
+			"class": "contrast",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				100
+			],
+			"detected": 100,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6960334368616335,
+				"r2": 0.00004584049172234934,
+				"r3": 0.0005290569907628858
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6960334368616335,
+				"r2": 0.00004584049172234934,
+				"r3": 0.0005290569907628858
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6960334368616335,
+				"r2": 0.00004584049172234934,
+				"r3": 0.0005290569907628858
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "contrast-b",
+			"source": "band",
+			"class": "contrast",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				120
+			],
+			"detected": 120,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6855708343749303,
+				"r2": 0.000022427834011542754,
+				"r3": 0.0003272490668906222
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6855708343749303,
+				"r2": 0.000022427834011542754,
+				"r3": 0.0003272490668906222
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6855708343749303,
+				"r2": 0.000022427834011542754,
+				"r3": 0.0003272490668906222
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "contrast-c",
+			"source": "band",
+			"class": "contrast",
+			"meterTruth": "6/8",
+			"trueTempos": [
+				76
+			],
+			"detected": 114,
+			"prodExact": false,
+			"subAtTrue": {
+				"subdivision": 3,
+				"rBeat": 0.7231518929802901,
+				"r2": 0.0007172518121818903,
+				"r3": 0.7105391823268037
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7097857364277872,
+				"r2": 0.7105391823268037,
+				"r3": 0.0007843183935084009
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 3,
+				"rBeat": 0.7231518929802901,
+				"r2": 0.0007172518121818903,
+				"r3": 0.7105391823268037
+			},
+			"gated": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"open": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 81.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 70.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 85.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 66.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 101.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 60.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7141249606177006,
+				"r2": 0.00016934290112341052,
+				"r3": 0.0014395024858436776
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7141249606177006,
+				"r2": 0.00016934290112341052,
+				"r3": 0.0014395024858436776
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7141249606177006,
+				"r2": 0.00016934290112341052,
+				"r3": 0.0014395024858436776
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				88
+			],
+			"detected": 88,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7090276704765124,
+				"r2": 0.00006287090641369306,
+				"r3": 0.000631849720546277
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7090276704765124,
+				"r2": 0.00006287090641369306,
+				"r3": 0.000631849720546277
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7090276704765124,
+				"r2": 0.00006287090641369306,
+				"r3": 0.000631849720546277
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 94.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 81.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 98.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 77.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 132,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 117,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 70.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mislead-noise",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.5426852495803841,
+				"r2": 0.0006233149680639027,
+				"r3": 0.0016035435095367982
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.5426852495803841,
+				"r2": 0.0006233149680639027,
+				"r3": 0.0016035435095367982
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.5426852495803841,
+				"r2": 0.0006233149680639027,
+				"r3": 0.0016035435095367982
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mislead-double",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				96
+			],
+			"detected": 96,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7085278668735638,
+				"r2": 0.0010165269785616352,
+				"r3": 0.000007713341462415491
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7085278668735638,
+				"r2": 0.0010165269785616352,
+				"r3": 0.000007713341462415491
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7085278668735638,
+				"r2": 0.0010165269785616352,
+				"r3": 0.000007713341462415491
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 102.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 89.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 107.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 84.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 144,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 127.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato-noise",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "3/4",
+			"trueTempos": [
+				104
+			],
+			"detected": 104,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7217832933306813,
+				"r2": 0.0019043421927567043,
+				"r3": 0.00143856369144517
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7217832933306813,
+				"r2": 0.0019043421927567043,
+				"r3": 0.00143856369144517
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7217832933306813,
+				"r2": 0.0019043421927567043,
+				"r3": 0.00143856369144517
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 111.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 96.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 116.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 91.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 156,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 138.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 83.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad-double",
+			"source": "band",
+			"class": "mislead",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				72
+			],
+			"detected": 72,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7074182585675429,
+				"r2": 0.0022507370191578945,
+				"r3": 0.0003518976496849802
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7074182585675429,
+				"r2": 0.0022507370191578945,
+				"r3": 0.0003518976496849802
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7074182585675429,
+				"r2": 0.0022507370191578945,
+				"r3": 0.0003518976496849802
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				}
+			]
+		},
+		{
+			"itemId": "swing-x",
+			"source": "band",
+			"class": "hard-swing",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 3,
+				"rBeat": 0.7226517401640613,
+				"r2": 0.00011998575169215554,
+				"r3": 0.34323930316820367
+			},
+			"subAtDetected": {
+				"subdivision": 3,
+				"rBeat": 0.7226517401640613,
+				"r2": 0.00011998575169215554,
+				"r3": 0.34323930316820367
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 3,
+				"rBeat": 0.7226517401640613,
+				"r2": 0.00011998575169215554,
+				"r3": 0.34323930316820367
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "swing-y",
+			"source": "band",
+			"class": "hard-swing",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7131042077519757,
+				"r2": 0,
+				"r3": 0.11920975571110998
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7131042077519757,
+				"r2": 0,
+				"r3": 0.11920975571110998
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7131042077519757,
+				"r2": 0,
+				"r3": 0.11920975571110998
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-a",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				70
+			],
+			"detected": 70,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7068714199247443,
+				"r2": 1.1193986636039456e-9,
+				"r3": 0.001074985586266386
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7068714199247443,
+				"r2": 1.1193986636039456e-9,
+				"r3": 0.001074985586266386
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7068714199247443,
+				"r2": 1.1193986636039456e-9,
+				"r3": 0.001074985586266386
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 74.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 65.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 78.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 61.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 105,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 93.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 56,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-a",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				140
+			],
+			"detected": 140,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6600944578422556,
+				"r2": 0.00013021769749741734,
+				"r3": 0.005473251280768799
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6600944578422556,
+				"r2": 0.00013021769749741734,
+				"r3": 0.005473251280768799
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6600944578422556,
+				"r2": 0.00013021769749741734,
+				"r3": 0.005473251280768799
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 149.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 130.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 156.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 123.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 210,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 186.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 112,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-b",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "3/4",
+			"trueTempos": [
+				72
+			],
+			"detected": 72,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7251659035585621,
+				"r2": 0,
+				"r3": 0.000025675732303633546
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7251659035585621,
+				"r2": 0,
+				"r3": 0.000025675732303633546
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7251659035585621,
+				"r2": 0,
+				"r3": 0.000025675732303633546
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-b",
+			"source": "band",
+			"class": "hard-octave",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				144
+			],
+			"detected": 144,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6635348059071438,
+				"r2": 0.00025565505349207544,
+				"r3": 0.00527632587805524
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6635348059071438,
+				"r2": 0.00025565505349207544,
+				"r3": 0.00527632587805524
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6635348059071438,
+				"r2": 0.00025565505349207544,
+				"r3": 0.00527632587805524
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 154.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 133.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 161.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 126.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 216,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 191.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 115.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "verb-x",
+			"source": "band",
+			"class": "hard-reverb",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				100
+			],
+			"detected": 100,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.5982944445125414,
+				"r2": 0.002022149648192655,
+				"r3": 0.012897280557866807
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.5982944445125414,
+				"r2": 0.002022149648192655,
+				"r3": 0.012897280557866807
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.5982944445125414,
+				"r2": 0.002022149648192655,
+				"r3": 0.012897280557866807
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				}
+			]
+		},
+		{
+			"itemId": "verb-y",
+			"source": "band",
+			"class": "hard-reverb",
+			"meterTruth": "6/8",
+			"trueTempos": [
+				84
+			],
+			"detected": 126,
+			"prodExact": false,
+			"subAtTrue": {
+				"subdivision": 3,
+				"rBeat": 0.5967244142683361,
+				"r2": 0.013192213481865021,
+				"r3": 0.5459300635520509
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.5942673520704449,
+				"r2": 0.5459300635520509,
+				"r3": 0.061853916219893945
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 3,
+				"rBeat": 0.5967244142683361,
+				"r2": 0.013192213481865021,
+				"r3": 0.5459300635520509
+			},
+			"gated": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"open": {
+				"match": true,
+				"rung": 0.6666666666666666
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 89.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 78.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 94.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 73.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 111.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 67.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "dense-x",
+			"source": "band",
+			"class": "hard-dense",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				126
+			],
+			"detected": 126,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.671356745397438,
+				"r2": 0.000001460443593525023,
+				"r3": 0.00000964305264057377
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.671356745397438,
+				"r2": 0.000001460443593525023,
+				"r3": 0.00000964305264057377
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.671356745397438,
+				"r2": 0.000001460443593525023,
+				"r3": 0.00000964305264057377
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 134.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 117.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 141.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 110.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 189,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 167.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 100.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "dense-y",
+			"source": "band",
+			"class": "hard-dense",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				88
+			],
+			"detected": 88,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6382749479671089,
+				"r2": 0.03508878161737938,
+				"r3": 0.016839866598476694
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6382749479671089,
+				"r2": 0.03508878161737938,
+				"r3": 0.016839866598476694
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6382749479671089,
+				"r2": 0.03508878161737938,
+				"r3": 0.016839866598476694
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 94.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 81.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 98.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 77.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 132,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 117,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 70.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "medmod-x",
+			"source": "band",
+			"class": "hard-mediantmod",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				104
+			],
+			"detected": 104,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7123840161038707,
+				"r2": 0,
+				"r3": 0.0000343901250983248
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7123840161038707,
+				"r2": 0,
+				"r3": 0.0000343901250983248
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7123840161038707,
+				"r2": 0,
+				"r3": 0.0000343901250983248
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 111.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 96.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 116.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 91.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 156,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 138.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 83.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "medmod-y",
+			"source": "band",
+			"class": "hard-mediantmod",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				118
+			],
+			"detected": 118,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.7031396270576648,
+				"r2": 0.000002778553292989146,
+				"r3": 0.000023493197781906985
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.7031396270576648,
+				"r2": 0.000002778553292989146,
+				"r3": 0.000023493197781906985
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.7031396270576648,
+				"r2": 0.000002778553292989146,
+				"r3": 0.000023493197781906985
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 126.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 109.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 132.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 103.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 177,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 156.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 94.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "eat-all-the-clocks",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				120
+			],
+			"detected": 120,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.5732644735573347,
+				"r2": 0.3095943080628388,
+				"r3": 0.035089518227364926
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.5732644735573347,
+				"r2": 0.3095943080628388,
+				"r3": 0.035089518227364926
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.5732644735573347,
+				"r2": 0.3095943080628388,
+				"r3": 0.035089518227364926
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				}
+			]
+		},
+		{
+			"itemId": "letter-lands",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"prodExact": true,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.6263851527861357,
+				"r2": 0.16476082273222858,
+				"r3": 0.037845721496811896
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.6263851527861357,
+				"r2": 0.16476082273222858,
+				"r3": 0.037845721496811896
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.6263851527861357,
+				"r2": 0.16476082273222858,
+				"r3": 0.037845721496811896
+			},
+			"gated": {
+				"match": true,
+				"rung": 1
+			},
+			"open": {
+				"match": true,
+				"rung": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"gatedAccept": false,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "mop-heart",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "3/4",
+			"trueTempos": [
+				224
+			],
+			"detected": 112,
+			"prodExact": false,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.5400647632536225,
+				"r2": 0.05534143307193107,
+				"r3": 0.07678159518516034
+			},
+			"subAtDetected": {
+				"subdivision": 2,
+				"rBeat": 0.5301650988154892,
+				"r2": 0.5400647632536225,
+				"r3": 0.10339598926527309
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 2,
+				"rBeat": 0.5301650988154892,
+				"r2": 0.5400647632536225,
+				"r3": 0.10339598926527309
+			},
+			"gated": {
+				"match": true,
+				"rung": 2
+			},
+			"open": {
+				"match": true,
+				"rung": 2
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 239.7,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 208.3,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 250.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 197.1,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 336,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 297.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 179.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				}
+			]
+		},
+		{
+			"itemId": "peaceful-dreams",
+			"source": "mmkk",
+			"class": "real",
+			"meterTruth": "4/4",
+			"trueTempos": [
+				145
+			],
+			"detected": 96.7,
+			"prodExact": false,
+			"subAtTrue": {
+				"subdivision": 2,
+				"rBeat": 0.39777204025662144,
+				"r2": 0.42418508811241745,
+				"r3": 0.028305762616643734
+			},
+			"subAtDetected": {
+				"subdivision": 3,
+				"rBeat": 0.4079376863608196,
+				"r2": 0.057797073496054605,
+				"r3": 0.42418508811241745
+			},
+			"subAtSlowerOfPair": {
+				"subdivision": 3,
+				"rBeat": 0.4079376863608196,
+				"r2": 0.057797073496054605,
+				"r3": 0.42418508811241745
+			},
+			"gated": {
+				"match": false,
+				"rung": null
+			},
+			"open": {
+				"match": true,
+				"rung": 1.5
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 155.2,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 134.9,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 162.4,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 127.6,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 2
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 217.5,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 192.9,
+					"gatedAccept": true,
+					"openAccept": true,
+					"currentRuleFires": true,
+					"subUsed": 3
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 116,
+					"gatedAccept": false,
+					"openAccept": false,
+					"currentRuleFires": true,
+					"subUsed": 3
+				}
+			]
+		}
+	],
+	"study7Rows": [
+		{
+			"truth": 120,
+			"wrong": 60,
+			"onRung": true
+		},
+		{
+			"truth": 84,
+			"wrong": 168,
+			"onRung": true
+		},
+		{
+			"truth": 96,
+			"wrong": 192,
+			"onRung": true
+		},
+		{
+			"truth": 140,
+			"wrong": 70,
+			"onRung": true
+		},
+		{
+			"truth": 60,
+			"wrong": 120,
+			"onRung": true
+		},
+		{
+			"truth": 76,
+			"wrong": 152,
+			"onRung": true
+		},
+		{
+			"truth": 100,
+			"wrong": 200,
+			"onRung": true
+		},
+		{
+			"truth": 72,
+			"wrong": 144,
+			"onRung": true
+		},
+		{
+			"truth": 90,
+			"wrong": 180,
+			"onRung": true
+		},
+		{
+			"truth": 110,
+			"wrong": 55,
+			"onRung": true
+		},
+		{
+			"truth": 95,
+			"wrong": 190,
+			"onRung": true
+		},
+		{
+			"truth": 126,
+			"wrong": 63,
+			"onRung": true
+		},
+		{
+			"truth": 100,
+			"wrong": 200,
+			"onRung": true
+		},
+		{
+			"truth": 120,
+			"wrong": 60,
+			"onRung": true
+		},
+		{
+			"truth": 76,
+			"wrong": 152,
+			"onRung": true
+		}
+	]
+}
