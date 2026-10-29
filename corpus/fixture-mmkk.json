@@ -1,0 +1,587 @@
+{
+	"version": 1,
+	"fetched": "2026-10-29",
+	"sources": 7,
+	"songs": [
+		{
+			"slug": "eat-all-the-clocks",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/eat-all-the-clocks",
+			"title": "Eat All the Clocks",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Emin"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 120
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Part I",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Part II",
+					"start": 28
+				},
+				{
+					"index": "III",
+					"name": "Verse",
+					"start": 44
+				},
+				{
+					"index": "IV",
+					"name": "Chorus - 1",
+					"start": 56
+				},
+				{
+					"index": "V",
+					"name": "Bridge",
+					"start": 72
+				},
+				{
+					"index": "III",
+					"name": "Verse",
+					"start": 96
+				},
+				{
+					"index": "IV",
+					"name": "Chorus - 2",
+					"start": 108
+				},
+				{
+					"index": "IV",
+					"name": "Chorus - 3",
+					"start": 124
+				},
+				{
+					"index": "VI",
+					"name": "Out",
+					"start": 140
+				}
+			],
+			"chart": "key: Emin・4/4 ・ 120 bpm\n\n**Structure**\nPart 1・Part 2・Verse・Chorus・Bridge・Verse・Chorus x2・Outro\n\n**I - Part 1**\n\\| Em Am | x14\n\n**II  - Part 2**\nD5 | A7 | Em7 | Em7 | C | D | A | A\n\n**III - Verse**\nE5(7) | Am7 G5(7) | x3\n\n**IV - Chorus**\nD5 | A7 | E5(7) | E5(7) | x3\n\n**V - Bridge**\nE5(7) | E5(7) | A5(7) | A5(7) |  E5(7) | E5(7) | A5(7) |  A5(7) | -- | -- | A5(7) riff x2\n\n**VI - Out**\nEm\n",
+			"stems": [
+				{
+					"name": "Bass Synth",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/XU0erT56-CZ1t16KGRPxa.wav",
+					"sha256": "6eb6ed3cd9972edb6a0f271f4c2031877a1d020be40c24b96fd321bf5bd6e994",
+					"bytes": 40559330,
+					"seconds": 140.6,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Bass Guitar",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/8hyF0DWzKbEu9GKb26KRY.wav",
+					"sha256": "51f63fc80e68e57cf21339ae47b22d8f870d88c4c04875d9ec77bfc2a5f4ee5d",
+					"bytes": 42528024,
+					"seconds": 147.5,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Guitar",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/293jQKCDi0yAhORLAHOng.wav",
+					"sha256": "5a9036d21cb921171a264cbe0ef941c00a07661945105cbb190bb64530a74992",
+					"bytes": 41740548,
+					"seconds": 144.7,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Drums",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/UESpPq1JDQ05pYJICLbzo.wav",
+					"sha256": "12f13beef97b8c5fcad9bd53d3ed15a7c56117dc3428b68a1ab074e80f2edc9f",
+					"bytes": 40953074,
+					"seconds": 142,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Keys",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/9NU1xoCh0CyJZOP3x-PUf.wav",
+					"sha256": "d8710da9b68abd09d35227ea9ccf39800420791dd72bbc43777f0b2e179443d9",
+					"bytes": 41937418,
+					"seconds": 145.4,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Eat all the Clocks",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/demos/yBbWRO2soPRWaRPBfNCKA.m4a",
+					"sha256": "b947dc244d54d17886f0cdcc80b1561a618c49660b3cc3fe7511ec9a7eeda9a1",
+					"bytes": 763360,
+					"seconds": 45.5,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": {
+				"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/NxwMJzM6nphC7YGAs-WzT/mix-0dc7b74a0057bbb9-mu5wotj8.mp3",
+				"sha256": "a02a8b40a9176a19a8394e646d1ec316475509a8a49981bfd295378e58e25efb",
+				"bytes": 3540762,
+				"seconds": 147.5
+			}
+		},
+		{
+			"slug": "i-liked-you-wild",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/i-liked-you-wild",
+			"title": "I Liked You Wild",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Fmaj"
+					}
+				],
+				"meter": [],
+				"tempo": []
+			},
+			"sections": null,
+			"chart": null,
+			"stems": [
+				{
+					"name": "I Didn’t Mind",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/1R-61KpXjCfLTmjOnH_Zl/demos/4Dp0OhGGJHBgeOA6SQY6F.mp3",
+					"sha256": "44daf24653746c75c94be2051363a2ef431722327907b43bd37899af1d089cf0",
+					"bytes": 530241,
+					"seconds": 33.2,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": null
+		},
+		{
+			"slug": "letter-lands",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/letter-lands",
+			"title": "Letter Lands",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "F#maj"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 132
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Intro",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 7.2727
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 21.8182
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 36.3636
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 50.9091
+				},
+				{
+					"index": "IV",
+					"name": "Bridge",
+					"start": 65.4545
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 80
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 94.5455
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 109.0909
+				},
+				{
+					"index": "V",
+					"name": "Outro",
+					"start": 123.6364
+				}
+			],
+			"chart": "key: F#maj・4/4・bpm 132\n\n**Structure**\nIntro・Verse・Chorus・Verse・Chorus・Bridge・Verse・Chorus・Verse・Outro\n\n**I - Intro**\n\\| F♯(5)(7) Esus4 | x4\n\n**II - Verse**\n\\| F♯(5)(7) Esus4 | x8\n\n**III - Chorus**\n\\|  B5(7) x2  |  F#(5) x2  |  C#(5)(7)   |  E5(7)  |  F#(5)(7) Esus4  x2\n\n**IV - Bridge**\nD5(7)  |  D5(7)  |  E5(7)  | E5(7)  | F#(5)(7)  | F#(5)(7)  | C#(7)  |  C#(7)\n\n**V - Outro**\n\\| B5(7) Asus4 | x4\n\\| F♯(5)(7) Esus4 | x4\n",
+			"stems": [
+				{
+					"name": "Bass Synth",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/V3dfR8ggR5eRPyLfgi6g6/liIKVYQWNcVHGNSnYD81h.wav",
+					"sha256": "fcdf38c5eb679f6206de6ba7956bbe918547d09ca50be9206a99c48bb2485687",
+					"bytes": 40166160,
+					"seconds": 139.3,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Drums",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/V3dfR8ggR5eRPyLfgi6g6/aBNcxdU6vJH3u5bE9ccoL.wav",
+					"sha256": "ed344843dec59cab3d57bc0de24f87bcf51178557b385453a42322342305578e",
+					"bytes": 40756774,
+					"seconds": 141.3,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Keys",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/V3dfR8ggR5eRPyLfgi6g6/Mep-_2zMc1Tbo4xM0Qeuk.wav",
+					"sha256": "c38b50ff3b259850ec876b10c9477c8f3c888e3998bf1989912bd455e582bfda",
+					"bytes": 39378686,
+					"seconds": 136.5,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Bass Guitar",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/V3dfR8ggR5eRPyLfgi6g6/NrVcE058NsqsDgIrSplGl.wav",
+					"sha256": "5ba8d76738469cc4153478407cb1b47b7a54f6dbca6f417818ed65c45a073d71",
+					"bytes": 40756774,
+					"seconds": 141.3,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Guitar",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/V3dfR8ggR5eRPyLfgi6g6/FH1OvHulR3Ey00Fmk9SWv.wav",
+					"sha256": "438c6508ee8047bfeddc4187f8962f1c3d60287bad7c1a91de4b0561a863f0c4",
+					"bytes": 39969292,
+					"seconds": 138.6,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": {
+				"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/V3dfR8ggR5eRPyLfgi6g6/mix-55133ff5ecc548b1-mu5wp4dm.mp3",
+				"sha256": "845ff1b8949780a0c7d4c853359ee518185815a220c9c13cd17782619c70168d",
+				"bytes": 3393300,
+				"seconds": 141.3
+			}
+		},
+		{
+			"slug": "mop-heart",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/mop-heart",
+			"title": "Mop Heart",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Amaj"
+					},
+					{
+						"start": 99.6429,
+						"value": "Bmaj"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "3/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 224
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Intro",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Verse - 1",
+					"start": 3.2143
+				},
+				{
+					"index": "III",
+					"name": "Chorus - 1",
+					"start": 16.0714
+				},
+				{
+					"index": "II",
+					"name": "Verse - 2",
+					"start": 38.5714
+				},
+				{
+					"index": "III",
+					"name": "Chorus - 2",
+					"start": 51.4286
+				},
+				{
+					"index": "II",
+					"name": "Verse - 3",
+					"start": 73.9286
+				},
+				{
+					"index": "II",
+					"name": "Verse - 4",
+					"start": 86.7857
+				},
+				{
+					"index": "IV",
+					"name": "Outro",
+					"start": 99.6429
+				}
+			],
+			"chart": null,
+			"stems": [
+				{
+					"name": "Drums",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/W2ilkmwgWyAz2E8nQzeCZ/iAurB3CuKt0P-6E5ZsAkd-v1.wav",
+					"sha256": "4ad80b2ff237517f22622fdf7612fff2689d168b945b5f2b0383d13532778dae",
+					"bytes": 32882782,
+					"seconds": 114,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Vox",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/W2ilkmwgWyAz2E8nQzeCZ/itJdKC1DgZo7gpmmFL9or.wav",
+					"sha256": "e31341f8ae1c6d3511d8ad8f2c10dbbd07c7857b31325280fc06221317bf5e06",
+					"bytes": 10241518,
+					"seconds": 35.5,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Bass",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/W2ilkmwgWyAz2E8nQzeCZ/zfs0omUaZflHDBf6OaS8N-v1.wav",
+					"sha256": "3da65ed315991c488657accbf7271514a9521d71e63a55c531192e4f305ff4a6",
+					"bytes": 32882782,
+					"seconds": 114,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Keys",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/W2ilkmwgWyAz2E8nQzeCZ/xkGE8Z6hB-ZaAlzA0srJv-v1.wav",
+					"sha256": "0b612d41147041c47ec1e5b62ce38fede6c22faeb82953e5bdd8e7411c8befa5",
+					"bytes": 32882782,
+					"seconds": 114,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": {
+				"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/W2ilkmwgWyAz2E8nQzeCZ/mix-e344a8ee5057901d-mu5wp7nu.mp3",
+				"sha256": "b5e409d39c880f0f89d7dd888d971696e45c58ce5d6f6b3d1492ca16fc5c3af2",
+				"bytes": 2738385,
+				"seconds": 114
+			}
+		},
+		{
+			"slug": "peaceful-dreams",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/peaceful-dreams",
+			"title": "Peaceful Dreams",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Dmaj"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 145
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Intro",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Verse I",
+					"start": 33.1034
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 66.2069
+				},
+				{
+					"index": "II",
+					"name": "Verse I",
+					"start": 79.4483
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 112.5517
+				},
+				{
+					"index": "IV",
+					"name": "Bridge",
+					"start": 125.7931
+				},
+				{
+					"index": "V",
+					"name": "Verse II",
+					"start": 139.0345
+				},
+				{
+					"index": "II",
+					"name": "Verse I",
+					"start": 172.1379
+				},
+				{
+					"index": "VI",
+					"name": "Interlude",
+					"start": 205.2414
+				},
+				{
+					"index": "VII",
+					"name": "Outro",
+					"start": 218.4828
+				}
+			],
+			"chart": "Key: D · 145 bpm\n\n**Structure**\nIntro・VI・Chorus・VI・Chorus・Bridge ・VII ・VI・Interlude・Outro\n\n**Intro I**\nD(7)sus4・D(7)Sus4・C5・G5(7)・D(7)sus4 x 8\n\n**Verse II (7ths)**\nD5 x2・A5 x2・G5(7) x2・D5 x2・A5・B5(7)・G5(7) x4・D5 x2・A5・G5(7)・D5 x2\n\n**Chorus III**\nG5(7) x2・D5 x2・C5・G5(7)・D(7)sus4 x2\n\n**Bridge IV**\nBm7 x2 Em7 x2 G7 x2 A7sus4 x2\n\n**Verse V (Triads)**\nD x2・A x2・G x2・D・A・Bm・G x4・D x2・A・Gm・D x2\n\n**Interlude VI**\nD(7)Sus4\n\n**Outro VII**\nD5 x20\n",
+			"stems": [
+				{
+					"name": "Ambient Layers",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/92i5e5PtkOl78KB4T58nc.wav",
+					"sha256": "5d6487613871b5f37efc1184484f269b938f5036d97dc7a762297dac89d967b3",
+					"bytes": 73832376,
+					"seconds": 256,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Bass Guitar",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/z7Y6ucBnUuB3aumS0MGnC.wav",
+					"sha256": "3f41e01a9abaa8fb493c70a449c0fae79585e71fd7a7998547f3b66e29728ea5",
+					"bytes": 59460668,
+					"seconds": 206.2,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Bass Synth",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/_1lA-x_wD2SsBevYcxE-S.wav",
+					"sha256": "754d719e8b5f85f6ee911bfe15843ccd22452f515eda53e0abd7ddef13a0a6a5",
+					"bytes": 73832386,
+					"seconds": 256,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Drums",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/2edlJ3G9munBSuenTjFrc.wav",
+					"sha256": "1e8457d2ceeda413a4f80a56dbaa7b666a6403d48891507725ea4cfa39e003e7",
+					"bytes": 74029248,
+					"seconds": 256.7,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Guitars",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/OjbVbCbZ67GJLCopd3Cku.wav",
+					"sha256": "bd4530d711f1fae38c4f6b2a04c58725f00985a5e468320c6074cfabdc265d6c",
+					"bytes": 73832376,
+					"seconds": 256,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Keys",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/KRDOzZSOa_HedEV7NPRxB.wav",
+					"sha256": "4e3f4974f7ac6d44d4ca1e91bb3d3a806b745f1d40dcd6fbf5c0f47429288b0e",
+					"bytes": 73241756,
+					"seconds": 254,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": {
+				"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/3tXoIVhjXdO0iF1y5Xw0C/mix-0270fcf08f4ad25b-mu5wpfkx.mp3",
+				"sha256": "554467863be0bc623933508ffaaa9c08710aece11f8be6ac809528d2b6df9169",
+				"bytes": 6162135,
+				"seconds": 256.7
+			}
+		},
+		{
+			"slug": "the-bells",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/the-bells",
+			"title": "The Bells",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Gmaj"
+					}
+				],
+				"meter": [],
+				"tempo": []
+			},
+			"sections": null,
+			"chart": null,
+			"stems": [
+				{
+					"name": "Bells Turn",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/Z6bMhrzm-kR-sRWWY7Gsg/demos/RP6qn0dn0V4LSo1qtDxEK.m4a",
+					"sha256": "7d13cc7f522192e030f9c57af0775fb9b0a012d4fa18e36ebb1b94e646a73469",
+					"bytes": 811284,
+					"seconds": 94.4,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": null
+		},
+		{
+			"slug": "the-cure-was-my-beatles",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/the-cure-was-my-beatles",
+			"title": "The Cure was My Beatles",
+			"declared": {
+				"key": [],
+				"meter": [],
+				"tempo": []
+			},
+			"sections": null,
+			"chart": null,
+			"stems": [
+				{
+					"name": "the-cure-was-my-beatles",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/YX8CBefGtKduDcU9BSODh/demos/enqmmypE5khljcakxppSH.m4a",
+					"sha256": "e85697e11c45ecbe833518b4a8d6eae02aa435ff8c37fae9c5043e5f45376e8f",
+					"bytes": 4733794,
+					"seconds": 110.5,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": null
+		}
+	]
+}

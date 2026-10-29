@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"note": "Study 10 MMKK amendment (docs/BRIEF-STUDY10.md): the public MMKK catalog on stemshovel.com — every song of the account's one public project (Badverbs), inventoried 2026-10-29 from the public project page. Kevin holds exclusive rights and authorized the download; audio lands in corpus-mmkk/ (gitignored), only hashes and labels are committed (corpus/fixture-mmkk.json).",
+	"account": "mmkk",
+	"project": "badverbs",
+	"songs": [
+		"https://www.stemshovel.com/mmkk/projects/badverbs/eat-all-the-clocks",
+		"https://www.stemshovel.com/mmkk/projects/badverbs/i-liked-you-wild",
+		"https://www.stemshovel.com/mmkk/projects/badverbs/letter-lands",
+		"https://www.stemshovel.com/mmkk/projects/badverbs/mop-heart",
+		"https://www.stemshovel.com/mmkk/projects/badverbs/peaceful-dreams",
+		"https://www.stemshovel.com/mmkk/projects/badverbs/the-bells",
+		"https://www.stemshovel.com/mmkk/projects/badverbs/the-cure-was-my-beatles"
+	]
+}

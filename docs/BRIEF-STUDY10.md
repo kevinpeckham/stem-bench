@@ -223,6 +223,62 @@ LinkSeg CC-BY 4.0 (attribution in the app's built-with page); madmom
 (CC BY-NC-SA) and Essentia (AGPL / CC BY-NC-ND) stay out absent a
 commercial license.
 
+## Amendment 1 — the MMKK real-recordings arm (2026-10-29, registered before its run)
+
+Kevin authorized the fetch ("No MMKK songs are private[,] they are
+publicly available on pages on www.stemshovel.com[,] feel free to
+download and copy as needed"), and the catalog turned out fully
+public: no credentials were needed. corpus/mmkk-sources.json commits
+the inventory (the account's one public project, Badverbs, 7 songs);
+scripts/fetch-mmkk.ts downloads each public song page's payload — the
+band's settings rows ({kind, start, value}: key, meter, tempo, WITH
+declared start times), the section list (name + declared start
+seconds), the chart document, every stem's original upload and the
+rendered mix — into gitignored corpus-mmkk/, decodes to the bench
+shape (ffmpeg, 22050 Hz mono f32le), and commits only
+corpus/fixture-mmkk.json (urls, SHA-256, bytes, durations, labels,
+provenance).
+
+What the catalog holds: 4 full-band songs with stems, settings and
+timed sections (eat-all-the-clocks Em 4/4 120; letter-lands F#maj 4/4
+132; mop-heart Amaj→Bmaj 3/4 224; peaceful-dreams Dmaj 4/4 145) and 3
+single-stem sketches with partial labels (i-liked-you-wild Fmaj only;
+the-bells Gmaj only; the-cure-was-my-beatles nothing declared). Blank
+labels are unscored, as registered.
+
+Registered scoring (scripts/run-study10-mmkk.ts, same graders):
+
+- **Tempo** (4 songs): against any declared tempo row, at BOTH ±1
+  (the study's primary) and ±3 (the quantization-aware secondary —
+  registered here up front, unlike the synthetic arm where ±3 was
+  post-hoc); octave class apart; the 6/8 3× rule as registered.
+- **Meter** (4), **key** (6): declared values ("F#maj" → "F# major");
+  any declared row counts.
+- **Sections** (4 songs, declared starts in seconds): boundaries at
+  ±4 s and ±0.5 s via the registered seg grader, for N-seg (on
+  N-beat's beats) AND Study 9's D-activity on the real stems (grid:
+  D-prod's tempo and meter anchored at 0 — the detected-grid variant,
+  since real recordings declare no bar grid).
+- **Beats**: ungraded (real recordings carry no per-beat truth);
+  N-beat's beat count and IBI stability are reported descriptively.
+- **Chords**: unscored (the charts' spellings — "F♯(5)(7)" — are
+  outside both vocabularies and carry no bar-aligned truth).
+- **Inputs**: D-prod and D-activity get the per-stem buffers
+  (production's real shape, Study 9's dProd); N-beat, N-seg and the
+  key-profile candidates get the rendered mix where one exists, else
+  the stems' sum.
+- **Disagreement rule** (as registered in the arm): a detector that
+  contradicts a declaration is scored against it in the primary
+  table, and the item is additionally flagged with the audio's own
+  evidence when that evidence clearly disputes the declaration
+  (e.g. a stable measured grid at a different value); both reads are
+  reported. mop-heart's declared 224 bpm in 3/4 is the likely case.
+
+No gates are re-thresholded: the synthetic-arm verdicts above stand.
+The amendment's results are their own table, answering the one open
+question — whether the neural candidates' real-recording advantage
+appears on the material production was tuned on.
+
 ## Disclosure
 
 Analyst Claude Fable 5. No language model is measured or consulted;
