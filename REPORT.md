@@ -97,9 +97,58 @@ these models get their home-field rematch — and where N-beat's ±3
 tie, its 0.89 beat grid, and its honest pulseless nulls suggest the
 beat tracker, alone among the candidates, could still earn a place.
 
+### Amendment 1 — the home-field rematch on MMKK's real recordings (2026-10-29, same day)
+
+Kevin authorized the fetch and the catalog turned out fully public —
+no credentials needed. The amendment (registered 2ed4d15 before its
+run) scored the instruments against the band's own declarations on 7
+real songs (4 full-band with stems, settings and DECLARED section
+start times; 3 single-stem sketches, blank labels unscored). The
+synthetic gates stand; this table answers the domain question the
+synthetic arm could not.
+
+**The domain warning was real — in both directions.**
+
+- **Sections flip.** LinkSeg, which invented 54 boundaries on
+  synthetic loops, finds real form: 29/33 declared boundaries at ±4 s
+  (letter-lands 8/9 with ZERO false boundaries; mop-heart 7/7 +1),
+  consistent with its published ~78 % at 3 s. Study 9's D-activity,
+  perfect on synthetic arrangements, drops to 25/33 with 19 false on
+  real stems (its detected-grid anchoring and real dynamics don't
+  mix). For songs without charts, the 1.5 MB CC-BY segmenter is now a
+  measured candidate; with a chart, Study 8's chart-anchored model
+  still holds the names.
+- **Tempo: production's failure classes are real-world classes.** At
+  ±1, D-prod 2/4 vs N-beat 1/4 — but D-prod's two misses are GROSS:
+  exactly half of mop-heart's declared 224, and exactly 2/3 of
+  peaceful-dreams' declared 145 (the 3:2 confusion, now on a real
+  recording). At the registered ±3 read N-beat leads 3/4 to 2/4, its
+  one miss being 214.3 vs the declared 224 (4 %; the disagreement
+  flag notes D-prod's exact-half supports the declaration, so this
+  one is scored a real miss, not a disputed label). n=4 — direction,
+  not proof: the trained tracker degrades gracefully where the
+  autocorrelation fails in octave classes.
+- **Meter holds for production** (4/4 vs N-beat's 3/4 — N-beat read
+  the real 3/4 waltz as 4/4).
+- **Key: the profile question closes hard.** Krumhansl 4/6 against
+  Albrecht–Shanahan 1/6 and Temperley 1/6 — the literature profiles
+  collapse into parallel-minor and subdominant flips on real mixes
+  (F# major → F# minor, F → Bb). The synthetic arm said
+  "interchangeable"; the real arm says production's choice is the
+  right one. G-key's FAIL is now a confirmed keep-KK.
+
+Amended ship guidance to stem-shovel: keep the detector exactly as
+is for tempo (the 3:2/half classes are known, and the neural
+alternative isn't ±1-accurate on real material either), keep
+Krumhansl without a second thought, and consider LinkSeg — not the
+synthetic-corpus winner D-activity — as the no-chart section
+fallback, behind the chart when one exists.
+
 ### Spend
 
-$0. Model downloads ~30 MB, hash-pinned; everything else local CPU.
+$0 in both arms. Model downloads ~30 MB hash-pinned; the MMKK fetch
+~800 MB of public audio into a gitignored folder (hashes committed);
+everything else local CPU.
 
 ### Disclosure
 
