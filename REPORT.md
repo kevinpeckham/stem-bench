@@ -1,5 +1,85 @@
 # stem-bench REPORT
 
+## Study 11b — the shipped tempo ladder: the margins are honest, the confound shipped (2026-10-29)
+
+Requested by the stem-shovel side and run on their shipped v0.200.0
+(verbatim port at 79ed4def): the sub-beat test (1.15 margin, 0.55
+triplet share), the super-beat test (1.05 margin, 0.2 floor, pulse
+re-picked at 1.5L), and the shipped tempoLadderMatch, over the
+Study 11 corpus, a new 15-item swing-stress sweep (ratios 0.60–0.70 ×
+three tempi, the addendum's request) and the lesson-6-corrected
+wrong-tempo set. Zero spend. One disclosed pre-registration smoke
+shaped the predictions.
+
+**V3 PASS, 15/15 — the triplet-share argument is validated.** Not one
+swing item at any ratio or tempo read compound; every tempo exact.
+TRIPLET_SHARE 0.55 (their AM-GM "swing cannot exceed 0.5" argument)
+holds across the full sweep, including 0.67 triplet swing where
+Study 11's sketch rule had read 3. **V4 PASS, 0/332** false accepts
+through the shipped ladder with the corrected generator — the
+generator fix retro-confirms Study 11's read that its by-letter
+failures were collisions, not ladder defects.
+
+**V1 FAIL 2/4, and the margin numbers say why it cannot simply be
+tuned up.** lilt-b and contrast-c now detect their 6/8 EXACTLY (76,
+subdivision 3 — two of Study 10's octave-family misses fixed at the
+detector level by the super-beat re-pick). But lilt-a's super-beat
+ratio is 1.029 against the 1.05 margin (their own fixtures measured
+1.02–1.12 — the bench's lighter accents land at the bottom of that
+band), and verb-y's reverb smears it to **0.991 — inside the straight
+items' 0.91–0.97 band**, where no margin reaches it without letting
+straight songs through. The save is complete, though: on all 4
+compound items the true dotted tempo sits ON the shipped alternates
+ladder (strengths 0.97–1.07, top rung) — the rung-picker UI surfaces
+the right count everywhere the 6/8 call misses.
+
+**V2 FAIL — and this is the finding that matters: both scorable real
+recordings flipped to 6/8.** mop-heart re-picked to 74.7 = 224/3, the
+BAR pulse of a fast waltz counted in one. The hearing is musically
+defensible (a bar of three IS a group of three) but the consequence
+is a regression: declared 224 sat on the old detection's ladder at ×2
+and sits on the new one's at ×3 — a rung the ladder does not have.
+And peaceful-dreams' sub-beat test fired at the detector's own
+⅔-wrong pulse — **Study 11 Amendment 1's confound, now in shipped
+code**: at 96.7, L/3 IS the true eighth of the 145 grid, the
+subdivision call is structurally unable to tell "compound here" from
+"straight at 1.5× of here," and the shipped ladder then matched the
+declared 145 at ×1.5 ON THE DETECTOR'S OWN CONFOUNDED FLAG — the
+warning that Study 11's G1 required to stay loud goes silent, for the
+wrong reason.
+
+### Verdict delivered
+
+Keep TRIPLET_SHARE and the ladder util as shipped (V3/V4 clean); keep
+the super-beat re-pick (it fixed two items exactly). Two fixes named:
+(1) the compound flag that EXCUSES a declared/detected 3:2 gap must be
+evaluated at the DECLARED tempo's lag, not the detector's own —
+Study 11 Amendment 1's rule, which separates lilt-a (compound at
+declared 60, r̂ 0.72) from peaceful-dreams (straight at declared 145,
+0.03); (2) fast triple meter needs either a ×3 rung or a
+3/4-in-one expression — mop-heart's 74.7 is a defensible hearing with
+no rung to land on. The 6/8 OUTPUT is not a stop-ship (false fires on
+declared-straight real songs are contained by fix 1 at the warning
+surface; the alternates carry the truth); the margin itself should
+not be lowered (verb-y proves the bands overlap).
+
+Prediction scorecard: 1 half-right (predicted 0–1 of 4, got 2 — the
+re-pick works more often than the smoke suggested); 2 WRONG in the
+instructive direction (predicted real recordings stay straight; both
+flipped — the named false-6/8 risk materialized exactly where the
+addendum said to stress); 3 and 4 right in full.
+
+### Spend
+
+$0. The program's four ladder-thread studies (10, Amendment, 11, 11b)
+total ~$0.08, all of it Study 9's Q4 pilot.
+
+### Disclosure
+
+Analyst Claude Fable 5; verbatim port pinned at 79ed4def; the
+development smoke disclosed in the brief; no model measured or
+consulted.
+
 ## Study 11 — the tempo ladder rule: two gates pass, two fail by letter on their own measuring stick (2026-10-29)
 
 Specified by the stem-shovel agent (its response to the playbook and
