@@ -1,0 +1,457 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261029-study11b",
+	"note": "Study 11b swing-stress set (docs/BRIEF-STUDY11B.md): swing ratios 0.60-0.70 at three tempi, rendered by src/study10/synth10.ts. All truth 4/4, subdivision truth 2: the shipped TRIPLET_SHARE 0.55 floor is the thinnest margin in the v0.200.0 build (stem-shovel addendum), and these items stress it plus the DOTTED_MARGIN 1.05 super-beat test from the false-fire side.",
+	"mixes": [
+		{
+			"id": "swingstress-92-6",
+			"title": "Swing Stress 92 at 0.6",
+			"meter": "4/4",
+			"swing": 0.6,
+			"sections": [
+				{
+					"bpm": 92,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-92-62",
+			"title": "Swing Stress 92 at 0.62",
+			"meter": "4/4",
+			"swing": 0.62,
+			"sections": [
+				{
+					"bpm": 92,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-92-645",
+			"title": "Swing Stress 92 at 0.645",
+			"meter": "4/4",
+			"swing": 0.645,
+			"sections": [
+				{
+					"bpm": 92,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-92-67",
+			"title": "Swing Stress 92 at 0.67",
+			"meter": "4/4",
+			"swing": 0.67,
+			"sections": [
+				{
+					"bpm": 92,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-92-7",
+			"title": "Swing Stress 92 at 0.7",
+			"meter": "4/4",
+			"swing": 0.7,
+			"sections": [
+				{
+					"bpm": 92,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-112-6",
+			"title": "Swing Stress 112 at 0.6",
+			"meter": "4/4",
+			"swing": 0.6,
+			"sections": [
+				{
+					"bpm": 112,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"G",
+						"G",
+						"C",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-112-62",
+			"title": "Swing Stress 112 at 0.62",
+			"meter": "4/4",
+			"swing": 0.62,
+			"sections": [
+				{
+					"bpm": 112,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"G",
+						"G",
+						"C",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-112-645",
+			"title": "Swing Stress 112 at 0.645",
+			"meter": "4/4",
+			"swing": 0.645,
+			"sections": [
+				{
+					"bpm": 112,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"G",
+						"G",
+						"C",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-112-67",
+			"title": "Swing Stress 112 at 0.67",
+			"meter": "4/4",
+			"swing": 0.67,
+			"sections": [
+				{
+					"bpm": 112,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"G",
+						"G",
+						"C",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-112-7",
+			"title": "Swing Stress 112 at 0.7",
+			"meter": "4/4",
+			"swing": 0.7,
+			"sections": [
+				{
+					"bpm": 112,
+					"key": "G major",
+					"bars": [
+						"G",
+						"C",
+						"D",
+						"G",
+						"Em",
+						"C",
+						"D",
+						"G",
+						"G",
+						"C",
+						"D",
+						"G",
+						"C",
+						"D",
+						"G",
+						"G"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-132-6",
+			"title": "Swing Stress 132 at 0.6",
+			"meter": "4/4",
+			"swing": 0.6,
+			"sections": [
+				{
+					"bpm": 132,
+					"key": "A major",
+					"bars": [
+						"A",
+						"D",
+						"E",
+						"A",
+						"F#m",
+						"D",
+						"E",
+						"A",
+						"A",
+						"D",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-132-62",
+			"title": "Swing Stress 132 at 0.62",
+			"meter": "4/4",
+			"swing": 0.62,
+			"sections": [
+				{
+					"bpm": 132,
+					"key": "A major",
+					"bars": [
+						"A",
+						"D",
+						"E",
+						"A",
+						"F#m",
+						"D",
+						"E",
+						"A",
+						"A",
+						"D",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-132-645",
+			"title": "Swing Stress 132 at 0.645",
+			"meter": "4/4",
+			"swing": 0.645,
+			"sections": [
+				{
+					"bpm": 132,
+					"key": "A major",
+					"bars": [
+						"A",
+						"D",
+						"E",
+						"A",
+						"F#m",
+						"D",
+						"E",
+						"A",
+						"A",
+						"D",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-132-67",
+			"title": "Swing Stress 132 at 0.67",
+			"meter": "4/4",
+			"swing": 0.67,
+			"sections": [
+				{
+					"bpm": 132,
+					"key": "A major",
+					"bars": [
+						"A",
+						"D",
+						"E",
+						"A",
+						"F#m",
+						"D",
+						"E",
+						"A",
+						"A",
+						"D",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"A"
+					]
+				}
+			]
+		},
+		{
+			"id": "swingstress-132-7",
+			"title": "Swing Stress 132 at 0.7",
+			"meter": "4/4",
+			"swing": 0.7,
+			"sections": [
+				{
+					"bpm": 132,
+					"key": "A major",
+					"bars": [
+						"A",
+						"D",
+						"E",
+						"A",
+						"F#m",
+						"D",
+						"E",
+						"A",
+						"A",
+						"D",
+						"E",
+						"A",
+						"D",
+						"E",
+						"A",
+						"A"
+					]
+				}
+			]
+		}
+	]
+}

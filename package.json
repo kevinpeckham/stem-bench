@@ -42,7 +42,9 @@
 		"study10:run": "bun scripts/run-study10.ts",
 		"study10:analyze": "bun scripts/analyze-study10.ts",
 		"study11:run": "bun scripts/run-study11.ts",
-		"study11:analyze": "bun scripts/analyze-study11.ts"
+		"study11:analyze": "bun scripts/analyze-study11.ts",
+		"study11b:run": "bun scripts/run-study11b.ts",
+		"study11b:analyze": "bun scripts/analyze-study11b.ts"
 	},
 	"dependencies": {
 		"@ai-sdk/gateway": "^4.0.82",
