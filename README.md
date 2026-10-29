@@ -172,6 +172,43 @@ change. Cross-agent registration now runs in both directions.
 Registration: [docs/BRIEF-STUDY6B.md](docs/BRIEF-STUDY6B.md).
 Findings: [REPORT.md](REPORT.md).
 
+## Study 9: stem-aware analysis
+
+Drafted by the stem-shovel agent, finished and run by the bench: does
+reading the uploaded stems individually beat the summed mix the
+detector actually uses? Four zero-model-spend instruments over 21
+items, six carrying a stem built to sabotage the sum. The sabotage
+failed: the summed onset envelope was exact on 18 of 21 including all
+six misleading stems, while picking the sharpest single stem scored 11
+with seven regressions — cross-stem reinforcement IS the tempo signal.
+What the stems do hold is the arrangement: a which-stems-are-sounding
+detector found 8/8 section boundaries with zero inventions on loops.
+And a per-stem key agreement score gave its maximum to the study's one
+wrong key answer — a confidence signal pointing the wrong way.
+
+Registration: [docs/BRIEF-STUDY9.md](docs/BRIEF-STUDY9.md). Findings:
+[REPORT.md](REPORT.md).
+
+## Study 10: neural MIR baselines, and the home-field rematch
+
+The stem-shovel agent's landscape review asked whether the app hears
+with obsolete code; the bench ran the review's own candidates — Beat
+This!, LinkSeg, ChordMini, two literature key-profile swaps, all
+real, hash-pinned, $0 — against the production detector on a hard
+synthetic set, then on MMKK's real public catalog with the band's
+declarations as truth. Synthetic: all five gates failed in
+production's favor (one lesson: a ±1 bpm tolerance measured the
+neural tracker's 20 ms output grid, not its hearing — ±3 is a dead
+tie). Real recordings flipped the section result: LinkSeg found 29/33
+declared boundaries where Study 9's activity detector collapsed, the
+tempo detector's 3:2 and half-time classes showed up on real songs,
+and Krumhansl beat both literature profiles 4/6 to 1/6. Keep the
+detector, keep the templates; LinkSeg is the measured no-chart
+section fallback.
+
+Registration: [docs/BRIEF-STUDY10.md](docs/BRIEF-STUDY10.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
