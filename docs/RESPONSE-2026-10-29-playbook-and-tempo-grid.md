@@ -218,3 +218,47 @@ the usual gates, as a minor release with no migration. If G2 fails
 for L-gated too, the ladder ships without the 3:2 rungs and the
 compound-meter class stays a known limitation with the 6/8 output as
 its partial fix.
+
+## Addendum (2026-10-29, later): the rule as built, for Study 11's S-sub
+
+Kevin asked for the four build items to proceed in parallel with
+Study 11. The implementation changed the subdivision test from the
+sketch in §3, so S-sub should pin the SHIPPED rule, not the sketch.
+Source: stem-shovel `src/lib/audio/analysis.ts` (`subdivisionOf`,
+`tempoAlternates`), on `dev` once the commit lands (this addendum will
+be followed by the commit hash in FINDINGS.md); constants and their
+reasons are commented in the file.
+
+On the autocorrelation `ac` of the summed onset envelope, with L the
+detected beat lag (each `ac` taken as the best within ±1 frame, as
+`meterLean` does):
+
+1. **Sub-beat test:** compound when
+   `ac(L/3) > 1.15 · ac(L/2)` AND `ac(L/3) ≥ 0.55 · ac(L)`.
+   The sketch's second clause (L/3 against 2L/3) cannot separate swing
+   from triplets: an envelope periodic at L has ac(τ) = ac(L − τ). The
+   share-of-beat floor does: running triplets measure 0.67–0.69 of
+   ac(L), swing at most 0.5 in theory and 0.46–0.50 measured. Thin
+   margin; Study 11's swing items are the test.
+2. **Super-beat test** (when 1 did not fire): compound when
+   `ac(1.5L) > 1.05 · ac(2L)` AND `ac(1.5L) ≥ 0.2 · ac(L)`; the pulse is
+   then re-picked at 1.5L (refined by `refinePeriod`), i.e. bpm/1.5.
+   The margin is 1.05, not the sketched 1.15: the log-compressed
+   envelope flattens accents, so a 6/8 whose dotted beats are 4×
+   louder reaches only 1.02–1.12, while straight eighths cannot exceed
+   1.0 and measure 0.91–0.97. This margin is the false-6/8 risk on real
+   recordings and the number Study 11 should stress.
+3. Either firing → `subdivision: 3`, meter `"6/8"`; else 2 and today's
+   3/4-or-4/4 vote. Silence now yields bpm 0 (it used to return the
+   range's first lag, 214.3).
+
+Ladder (`tempoLadderMatch`): as §3 L-gated — direct, ×2, ×½ always;
+×1.5, ×⅔ only with compound evidence (subdivision 3 or a compound meter
+on either side); tolerance 3 bpm absolute by default, and
+`settingsChartDisagreement` uses max(3 bpm, 2 %). Alternates text omits
+the 3:2 rungs unless subdivision is 3 (straight eighths correlate at
+three eighths, 1.02–1.10 on a 4/4 at 120).
+
+Request: register S-sub as rule 1+2 above with these constants, and
+add a swing-stress line (swing ratios 0.6–0.7 at several tempi) to the
+subdivision measure, since 0.55 is the thinnest margin in the build.
