@@ -1,5 +1,113 @@
 # stem-bench REPORT
 
+## Study 10 — neural MIR baselines: the classical detector holds its ground (2026-10-29)
+
+Drafted by the stem-shovel agent on its landscape review's evidence
+(docs/LANDSCAPE-2026-10-29.md), finished and registered by the bench
+(5e8913d): four published neural-MIR candidates — Beat This! small
+(MIT), LinkSeg 7-class (CC-BY 4.0), ChordMini (MIT), and two
+literature key-profile swaps — against production's hand-rolled
+detector and template matcher, on 35 band items (the Study 4/8/9
+corpus plus a 12-item hard set: swing, octave-boundary tempi, reverb,
+dense, mediant modulations) and 20 chord songs (Study 1's 16 plus 4
+extended-chord progressions). All weights hash-pinned and verified
+against published tables; runners are vendored reference code; zero
+LLM spend; three one-item development smokes disclosed in the brief.
+
+### Results: all five gates FAIL — each in production's favor
+
+**G-beat FAIL, with the study's most instructive nuance.** At the
+registered ±1 bpm, D-prod is exact 29/33 to N-beat's 18/33. But
+N-beat derives tempo from the median inter-beat interval on a 20 ms
+frame grid, so its answers land at 142.9 for 140, 111.1 for 110 —
+musically right, numerically outside the registered letter. A
+disclosed, unregistered sensitivity read at Study 4's model-grade ±3
+is a dead tie, 29/33 each — with different misses: both engines drop
+the three 3:2 compound-meter items; N-beat alone halves one dense
+item (the registered octave flag case) and smears two tempo-shift
+items; D-prod alone misses the 6/8 reverb item. Fifth registration
+lesson of the program: an absolute tolerance at DSP precision
+measures the candidate's output quantization, not its hearing. What
+the gate letter cannot take away: N-beat's beat F-measure at ±70 ms
+is **0.892** (downbeats 0.867) — a per-beat grid production simply
+does not have — and on the two pulseless pads it emitted 3 and 1
+beats (tempo null), the honest answer D-prod structurally cannot give.
+
+**G-meter FAIL.** On 4/4 and 3/4 items N-beat's downbeat-vote meter
+is 21/29 against D-prod's 27/29, and it named 6/8 on only 1 of the 4
+compound items (it tracks the eighth-note pulse there, so its
+downbeat spacing votes 6 only once). The draft's hope that the
+neural tracker brings 6/8 for free is dead on this corpus.
+
+**G-key FAIL, exactly as predicted.** Krumhansl 29/33,
+Albrecht–Shanahan 29/33, Temperley 30/33 (+1, gate needed +3, zero
+new confusions — Temperley's win is mod-c's modulation target). All
+four shared misses are modulating items where the global key is a
+blend by construction. On synthetic diatonic pop the profile tables
+are interchangeable; the literature's gap lives on real recordings —
+deferred to the MMKK amendment.
+
+**G-seg FAIL, decisively — the loop-invention disease is not cured
+by graph attention.** LinkSeg placed **54 false boundaries across the
+22 single-section items** (~2.5/item), worse than the chart-anchored
+LLM's ~1.2/loop in Study 8, and found 5/8 contrast boundaries at ±4 s
+(0/8 at ±0.5 s) against the Study 8 chart arm's 8/8 and Study 9
+D-activity's 8/8 with zero inventions. The published operating point
+(8 s peak window, tau 0) trades everything for recall on real-music
+form and still misses a third of the bench's plainest boundaries. On
+this fixture the free stem-activity detector from Study 9 beats the
+published neural segmenter outright.
+
+**G-chord FAIL overall; the hard set splits it.** Full-vocabulary:
+the production matcher 483/504 bars to ChordMini's 418 — the neural
+model hears triads where the truth says maj7/m7 (full-vocab 38/64 on
+the hard progressions vs the matcher's 59/64). Maj-min: matcher
+490/504 vs 470/504 overall, but on the hard progressions ChordMini
+edges it 61/64 to 59/64, and one song is a catastrophe worth naming:
+static-bloom (the N.C.-bar song) collapsed to 4/28 under ChordMini
+while the matcher read 27/28. Basic Pitch + templates, tuned on this
+synth, is simply the stronger chord reader here; the matcher's
+weakest clause (sevenths) was already fixed by Study 1's
+missing-tone penalty.
+
+**Budget:** every candidate fits (N-beat 8.3 s per 90 s of audio on
+this CPU — inflated by the registered export-defect workaround of
+250-frame chunks — N-seg 5.4 s, N-chord 3.7 s, all ≤ 10 s; D-prod
+1.2 s and 0 MB). Deployment was never the blocker; accuracy was.
+
+Prediction scorecard: 3 right (G-key, including the
+Temperley-mod-c detail); 1 wrong at the registered letter and right
+at the disclosed ±3 read; 2 wrong in both clauses; 4 wrong except the
+hard-set maj-min edge; 5 half-right (contrast recall failed as
+predicted, but the 0-false clause failed much harder than predicted);
+6 wrong in the happy direction (N-chord fit the time budget).
+
+### What production does with this
+
+Nothing ships. The question the landscape review raised — "is the
+app hearing with obsolete code?" — closes with a measured answer: on
+truth-by-construction material, production's summed-envelope
+autocorrelation, per-stem meter vote, Krumhansl templates and Basic
+Pitch + v0.142 matcher beat or match every published candidate tried,
+at zero weight bytes. Honest boundary: this corpus is synthetic
+additive-tone pop, the material templates were born on; the review's
+neural-model gaps were measured on real recordings. The registered
+MMKK real-recordings amendment (pending Kevin's credentials) is where
+these models get their home-field rematch — and where N-beat's ±3
+tie, its 0.89 beat grid, and its honest pulseless nulls suggest the
+beat tracker, alone among the candidates, could still earn a place.
+
+### Spend
+
+$0. Model downloads ~30 MB, hash-pinned; everything else local CPU.
+
+### Disclosure
+
+Analyst Claude Fable 5. No language model measured or consulted;
+every grade mechanical, committed and tested before the full run; the
+±1→±3 tempo sensitivity read is disclosed as unregistered analysis,
+clearly separated from the registered gate verdicts.
+
 ## Study 9 — stem-aware analysis: the stems name the form, the sum keeps the time (2026-10-29)
 
 Drafted by the stem-shovel agent, finished and registered by the bench
