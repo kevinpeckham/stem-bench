@@ -85,16 +85,34 @@ progression, extended chords (7ths, sus, slash basses) — the cases the
 review names as where templates and autocorrelation fail and the
 neural models were built. The agent registers the count (≥ 12).
 
-**Real recordings** are the open question. The program rule is all
-music synthesized, and the review warns that synthesized pop is kind to
-template methods, so a win here on synthetic items understates the
-neural models' advantage and a loss overstates nothing. Options for
-Kevin to decide at registration: (a) stay synthetic and say so in the
-report; (b) register an exception for a small CC-licensed multitrack set
-(MedleyDB is CC BY-NC, so not for a commercial-use question; FMA
-full-track CC material has no stems but has tempo/key labels for some
-tracks; the agent surveys and proposes ≤ 20 items) with the truth
-labels' provenance recorded. Default (a).
+**Real recordings: the MMKK catalog.** The program rule is all music
+synthesized, written to keep copyrighted and user audio out of the
+bench. Kevin is the exclusive rights holder of MMKK's original songs,
+whose stems, mixes, settings and charts live in the MMKK account on
+Stem Shovel, so a registered exception for that catalog breaks neither
+reason for the rule. The review warns that synthesized pop is kind to
+template methods, and these are the recordings the detector was tuned
+on (docs/audio-engine.md: "every declared tempo exact, four of five
+keys right"), so they are the real test of the hard-set claims.
+
+- **Truth** is the band's own declaration: the song's tempo, meter and
+  key rows (with their changes), the chart's chords per bar and its
+  section marks, as entered by the band. Provenance is recorded per
+  label; a label the band left blank is not scored. A declared tempo
+  is the intent, and a played tempo can drift, so beats are graded
+  only where the band's grid holds (a registered tolerance), and a
+  disagreement between detector and declaration on a real song is
+  reported with the audio's own evidence rather than scored as wrong
+  outright.
+- **Audio stays out of the repository.** Stems and mixes are fetched
+  by a script with Kevin's credentials into a gitignored folder; the
+  fixture commits their ids, hashes, durations and labels only. The
+  rule change (an exception for material whose rights the program's
+  owner holds) is registered in CLAUDE.md with this brief.
+- **Count**: every MMKK song with stems and a declared tempo and key
+  (the agent inventories them through the app; ≈ 10–20 expected).
+  Study 9's secondary arms run on the same stems, true stems with no
+  bleed, which no published model has seen.
 
 ## Registered measures
 
@@ -176,8 +194,8 @@ on the full fixture including the hard set:
 - The hard-set specs and count; the 6/8 and swing renderers if
   `synth4.ts` lacks them (register as synthesis extensions with the
   byte-identity check on existing fixtures, as Study 8 did).
-- The real-recording decision (default: none) and, if any, the set and
-  its label provenance.
+- The MMKK fetch script, the per-label provenance, and the beat-grid
+  tolerance for played tempo drift.
 - Gate counts restated against the final fixture.
 - Production fidelity: D-prod analyzes 32 kHz AudioBuffers in the
   browser; the bench renders 22 050 Hz. Register the rate used and

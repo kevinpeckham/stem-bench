@@ -70,6 +70,12 @@ the mix is enough.
   arbitrary onsets, a seeded noise/room track, and a comp whose
   subdivision suggests double time against the drums. Pulseless items
   stay excluded as in Studies 7 and 8.
+- **Real stems (secondary arm).** Kevin holds exclusive rights to
+  MMKK's original songs, whose true stems and band-declared settings
+  are on Stem Shovel; Study 10's brief registers the exception and the
+  fetch. D-activity, D-stem-tempo and D-key-agree run on them as a
+  secondary arm, graded against the band's declarations, with the
+  chart's section marks as the section truth.
 - **Stem order and names are hidden** from every instrument (stems are
   `s1…sN`, shuffled per item with a seed): the detector must find the
   rhythm section, not be told.
