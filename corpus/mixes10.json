@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261029-study10",
+	"note": "Study 10 hard set, band renderer (src/study10/synth10.ts): the landscape review's failure cases for templates and autocorrelation — swing eighths, octave-boundary tempi (~70/~140), reverb tail, dense arrangement, a chromatic-mediant modulation. Single-section items double as no-boundary section probes. Truth by construction.",
+	"mixes": [
+		{ "id": "swing-x", "title": "Swing X", "meter": "4/4", "swing": 0.67, "sections": [ { "bpm": 112, "key": "G major", "bars": ["G", "C", "D", "G", "Em", "C", "D", "G", "G", "C", "D", "G", "C", "D", "G", "G"] } ] },
+		{ "id": "swing-y", "title": "Swing Y", "meter": "4/4", "swing": 0.62, "sections": [ { "bpm": 92, "key": "Bb major", "bars": ["Bb", "Eb", "F", "Bb", "Gm", "Eb", "F", "Bb", "Bb", "Eb", "F", "Bb", "Eb", "F", "Bb", "Bb"] } ] },
+		{ "id": "oct-low-a", "title": "Octave Low A", "meter": "4/4", "sections": [ { "bpm": 70, "key": "D major", "bars": ["D", "G", "A", "D", "Bm", "G", "A", "D", "D", "G", "A", "D"] } ] },
+		{ "id": "oct-high-a", "title": "Octave High A", "meter": "4/4", "sections": [ { "bpm": 140, "key": "E minor", "bars": ["Em", "C", "D", "Em", "Am", "C", "D", "Em", "Em", "C", "D", "Em", "C", "D", "Em", "Em", "Am", "D", "Em", "Em"] } ] },
+		{ "id": "oct-low-b", "title": "Octave Low B", "meter": "3/4", "sections": [ { "bpm": 72, "key": "F major", "bars": ["F", "Bb", "C", "F", "Dm", "Bb", "C", "F", "F", "Bb", "C", "F"] } ] },
+		{ "id": "oct-high-b", "title": "Octave High B", "meter": "4/4", "sections": [ { "bpm": 144, "key": "A minor", "bars": ["Am", "F", "G", "Am", "Dm", "F", "G", "Am", "Am", "F", "G", "Am", "F", "G", "Am", "Am", "Dm", "G", "Am", "Am"] } ] },
+		{ "id": "verb-x", "title": "Verb X", "meter": "4/4", "reverb": true, "sections": [ { "bpm": 100, "key": "C major", "bars": ["C", "F", "G", "C", "Am", "F", "G", "C", "C", "F", "G", "C", "F", "G", "C", "C"] } ] },
+		{ "id": "verb-y", "title": "Verb Y", "meter": "6/8", "reverb": true, "sections": [ { "bpm": 84, "key": "D minor", "bars": ["Dm", "Bb", "C", "Dm", "F", "Bb", "C", "Dm", "Dm", "Bb", "C", "Dm"] } ] },
+		{ "id": "dense-x", "title": "Dense X", "meter": "4/4", "dense": true, "sections": [ { "bpm": 126, "key": "E major", "bars": ["E", "A", "B", "E", "C#m", "A", "B", "E", "E", "A", "B", "E", "A", "B", "E", "E"] } ] },
+		{ "id": "dense-y", "title": "Dense Y", "meter": "4/4", "dense": true, "reverb": true, "sections": [ { "bpm": 88, "key": "Ab major", "bars": ["Ab", "Db", "Eb", "Ab", "Fm", "Db", "Eb", "Ab", "Ab", "Db", "Eb", "Ab", "Db", "Eb", "Ab", "Ab"] } ] },
+		{ "id": "medmod-x", "title": "Mediant Mod X", "meter": "4/4", "sections": [ { "bpm": 104, "key": "F major", "bars": ["F", "Bb", "C", "F", "Dm", "Bb", "C", "F"] }, { "bpm": 104, "key": "A major", "bars": ["A", "D", "E", "A", "F#m", "D", "E", "A"] } ] },
+		{ "id": "medmod-y", "title": "Mediant Mod Y", "meter": "4/4", "sections": [ { "bpm": 118, "key": "C major", "bars": ["C", "F", "G", "C", "Am", "F", "G", "C"] }, { "bpm": 118, "key": "Eb major", "bars": ["Eb", "Ab", "Bb", "Eb", "Cm", "Ab", "Bb", "Eb"] } ] }
+	]
+}

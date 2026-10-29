@@ -1,0 +1,11 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261029-study10",
+	"note": "Study 10 hard-set chord progressions, Study 1 renderer (src/fixture/synth.ts, 4/4, one chord per bar): extended qualities — sevenths, sus chords, a diminished passing chord — the review's template-vocabulary case. Graded like Study 1 (gradeChords per bar), maj-min and with sevenths. Slash basses are excluded: the bench vocabulary has no slash spelling (registered in the brief).",
+	"songs": [
+		{ "id": "seventh-row", "title": "Seventh Row", "key": "C major", "bpm": 96, "chords": ["Cmaj7", "Am7", "Dm7", "G7", "Cmaj7", "Am7", "Dm7", "G7", "Em7", "Am7", "Dm7", "G7", "Cmaj7", "Fmaj7", "G7", "Cmaj7"] },
+		{ "id": "seventh-mile", "title": "Seventh Mile", "key": "E minor", "bpm": 120, "chords": ["Em7", "Am7", "B7", "Em7", "Cmaj7", "Am7", "B7", "Em7", "Em7", "G7", "Cmaj7", "B7", "Em7", "Am7", "B7", "Em7"] },
+		{ "id": "sus-garden", "title": "Sus Garden", "key": "D major", "bpm": 108, "chords": ["Dsus2", "D", "Gsus4", "G", "Asus4", "A7sus4", "D", "D", "Dsus2", "D", "Gsus4", "G", "A7sus4", "A", "D", "D"] },
+		{ "id": "passing-dim", "title": "Passing Dim", "key": "F major", "bpm": 100, "chords": ["F", "Fmaj7", "Gm7", "Abdim", "Am7", "Dm7", "Gm7", "C7", "F", "Fmaj7", "Bb", "Bbm", "Am7", "Dm7", "Gm7", "C7"] }
+	]
+}

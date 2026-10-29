@@ -2,3 +2,6 @@ node_modules/
 .env.local
 *.raw
 coverage/
+models/
+.venv-study10/
+__pycache__/
