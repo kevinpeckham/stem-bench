@@ -140,3 +140,24 @@ Analyst Claude Fable 5. No model is measured or consulted; every
 number is a pure function of committed fixtures, stored detections and
 re-rendered envelopes. The SUB3_FLOOR constant was set from disclosed
 development smokes before registration, like Study 9's ACTIVE_FRACTION.
+
+## Amendment 1 (2026-10-29, before any result is accepted)
+
+The first full run — disclosed, its output superseded — caught two
+instrument defects, fixed here and re-registered before re-running:
+
+1. **The slower-of-pair subdivision hypothesis is confounded.** A
+   straight song misread at ⅔ maps its true duple eighths exactly onto
+   the slower pulse's thirds (peaceful-dreams: the 145-grid eighth at
+   0.207 s IS 96.7-beat/3), so the license test read "compound" on the
+   one item it exists to reject. The registered hypothesis becomes the
+   DECLARED tempo — the declaration is the claim under test: lilt-a's
+   declared 60 is genuinely compound there (r̂(L/3) ≈ 0.72) while
+   peaceful-dreams' declared 145 is straight there (0.03). The
+   slower-of-pair read stays in the results record so the confound
+   remains visible.
+2. **Tempo-change items must match against any declared row** (rung 1
+   first): shift-b's detection equals its second section's declared
+   108 and was scored a mismatch against the first section's 72.
+
+Gates, predictions and all other definitions are unchanged.

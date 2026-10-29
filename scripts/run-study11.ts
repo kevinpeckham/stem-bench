@@ -83,16 +83,33 @@ function readItem(
 	const primaryTruth = trueTempos[0]!;
 	const subAtTrue = subdivisionOf(envelope.onset, envelope.fps, primaryTruth);
 	const subAtDetected = subdivisionOf(envelope.onset, envelope.fps, detected);
-	const slower = Math.min(primaryTruth, detected);
-	const subAtSlowerOfPair = subdivisionOf(envelope.onset, envelope.fps, slower);
-	// The declared-vs-detected ladder read, compound evidence at the pair's slower pulse.
-	const gated = tempoLadderMatch(primaryTruth, detected, subAtSlowerOfPair.subdivision, "L-gated");
-	const open = tempoLadderMatch(primaryTruth, detected, subAtSlowerOfPair.subdivision, "L-open");
+	// Amendment 1: compound evidence is evaluated AT THE DECLARED TEMPO —
+	// the declaration is the hypothesis under test. (The first run's
+	// slower-of-pair rule was confounded: a straight song misread at 2/3
+	// maps its true duple eighths exactly onto the slower pulse's thirds.)
+	// A tempo-change item matches when ANY declared row matches; rung 1
+	// is tried first via the rung order inside tempoLadderMatch.
+	const ladderRead = (variant: "L-gated" | "L-open") => {
+		let best: { match: boolean; rung: number | null } = { match: false, rung: null };
+		for (const d of trueTempos) {
+			const sub = subdivisionOf(envelope.onset, envelope.fps, d).subdivision;
+			const m = tempoLadderMatch(d, detected, sub, variant);
+			if (m.match && (!best.match || m.rung === 1)) best = m;
+			if (best.match && best.rung === 1) break;
+		}
+		return best;
+	};
+	const gated = ladderRead("L-gated");
+	const open = ladderRead("L-open");
+	const subAtSlowerOfPair = subdivisionOf(
+		envelope.onset,
+		envelope.fps,
+		Math.min(primaryTruth, detected),
+	); // kept in the record so the confound stays visible in the data
 	const prodExact = trueTempos.some((t) => Math.abs(detected - t) <= 1);
 	const compound = meterTruth === "6/8";
 	const wrongRows = wrongTempoSet(primaryTruth, compound).map((row) => {
-		const slowerW = Math.min(row.declared, detected);
-		const subW = subdivisionOf(envelope.onset, envelope.fps, slowerW).subdivision;
+		const subW = subdivisionOf(envelope.onset, envelope.fps, row.declared).subdivision;
 		return {
 			...row,
 			gatedAccept: tempoLadderMatch(row.declared, detected, subW, "L-gated").match,
