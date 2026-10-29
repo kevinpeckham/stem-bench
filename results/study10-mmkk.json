@@ -1,0 +1,780 @@
+{
+	"version": 1,
+	"fetched": "2026-10-29",
+	"songs": [
+		{
+			"slug": "eat-all-the-clocks",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Emin"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 120
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Part I",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Part II",
+					"start": 28
+				},
+				{
+					"index": "III",
+					"name": "Verse",
+					"start": 44
+				},
+				{
+					"index": "IV",
+					"name": "Chorus - 1",
+					"start": 56
+				},
+				{
+					"index": "V",
+					"name": "Bridge",
+					"start": 72
+				},
+				{
+					"index": "III",
+					"name": "Verse",
+					"start": 96
+				},
+				{
+					"index": "IV",
+					"name": "Chorus - 2",
+					"start": 108
+				},
+				{
+					"index": "IV",
+					"name": "Chorus - 3",
+					"start": 124
+				},
+				{
+					"index": "VI",
+					"name": "Out",
+					"start": 140
+				}
+			],
+			"stems": [
+				"Bass Synth",
+				"Bass Guitar",
+				"Guitar",
+				"Drums",
+				"Keys",
+				"Eat all the Clocks"
+			],
+			"usedMix": "rendered-mix",
+			"prod": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.8658192449866774
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.11313722929929977
+				},
+				"key": {
+					"value": "A major",
+					"confidence": 0.2831891110160374
+				},
+				"ms": 6506
+			},
+			"keys": {
+				"kk": {
+					"value": "A major",
+					"confidence": 0.2831891110160374
+				},
+				"as": {
+					"value": "A minor",
+					"confidence": 0.31324609624598754
+				},
+				"tp": {
+					"value": "A minor",
+					"confidence": 0.28022684527062935
+				}
+			},
+			"activity": {
+				"boundaries": [
+					2,
+					8,
+					12,
+					20,
+					28,
+					44,
+					56,
+					72,
+					88,
+					92,
+					96,
+					108,
+					142
+				]
+			},
+			"nbeat": {
+				"tempo": 120,
+				"meter": "4/4",
+				"beatCount": 270,
+				"ms": 5696
+			},
+			"nseg": {
+				"boundaries": [
+					0.2612244897959184,
+					18.744308390022674,
+					44.26303854875283,
+					55.77433106575964,
+					71.76707482993197,
+					88.24163265306123,
+					95.75328798185942,
+					107.26458049886621,
+					123.76816326530613
+				],
+				"ms": 2656
+			}
+		},
+		{
+			"slug": "i-liked-you-wild",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Fmaj"
+					}
+				],
+				"meter": [],
+				"tempo": []
+			},
+			"sections": null,
+			"stems": [
+				"I Didn’t Mind"
+			],
+			"usedMix": "single-stem",
+			"prod": {
+				"tempo": {
+					"bpm": 132.4,
+					"confidence": 0.48520543569495495
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.0038115782339887155
+				},
+				"key": {
+					"value": "F major",
+					"confidence": 0.9599426455575064
+				},
+				"ms": 450
+			},
+			"keys": {
+				"kk": {
+					"value": "F major",
+					"confidence": 0.9599426455575064
+				},
+				"as": {
+					"value": "Bb major",
+					"confidence": 0
+				},
+				"tp": {
+					"value": "Bb major",
+					"confidence": 0
+				}
+			},
+			"activity": null,
+			"nbeat": {
+				"tempo": 69.8,
+				"meter": "4/4",
+				"beatCount": 39,
+				"ms": 3169
+			},
+			"nseg": {
+				"boundaries": [
+					3.0185941043083897,
+					15.82439909297052,
+					26.923537414965985
+				],
+				"ms": 2117
+			}
+		},
+		{
+			"slug": "letter-lands",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "F#maj"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 132
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Intro",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 7.2727
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 21.8182
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 36.3636
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 50.9091
+				},
+				{
+					"index": "IV",
+					"name": "Bridge",
+					"start": 65.4545
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 80
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 94.5455
+				},
+				{
+					"index": "II",
+					"name": "Verse",
+					"start": 109.0909
+				},
+				{
+					"index": "V",
+					"name": "Outro",
+					"start": 123.6364
+				}
+			],
+			"stems": [
+				"Bass Synth",
+				"Drums",
+				"Keys",
+				"Bass Guitar",
+				"Guitar"
+			],
+			"usedMix": "rendered-mix",
+			"prod": {
+				"tempo": {
+					"bpm": 132,
+					"confidence": 0.87297727535451
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.13507177522562913
+				},
+				"key": {
+					"value": "F♯ major",
+					"confidence": 0.25733432898186015
+				},
+				"ms": 5504
+			},
+			"keys": {
+				"kk": {
+					"value": "F# major",
+					"confidence": 0.25733432898186015
+				},
+				"as": {
+					"value": "F# minor",
+					"confidence": 0.4306730720164764
+				},
+				"tp": {
+					"value": "F# minor",
+					"confidence": 0.03815692245937896
+				}
+			},
+			"activity": {
+				"boundaries": [
+					3.6363636363636362,
+					7.2727272727272725,
+					14.545454545454545,
+					21.818181818181813,
+					36.36363636363635,
+					49.09090909090909,
+					61.818181818181834,
+					65.45454545454547,
+					92.72727272727266,
+					109.09090909090898,
+					123.63636363636348,
+					130.90909090909074,
+					138.181818181818
+				]
+			},
+			"nbeat": {
+				"tempo": 130.4,
+				"meter": "4/4",
+				"beatCount": 273,
+				"ms": 5421
+			},
+			"nseg": {
+				"boundaries": [
+					0.2438095238095238,
+					23.173514739229027,
+					36.14185941043084,
+					50.683356009070295,
+					65.23646258503402,
+					79.77215419501134,
+					94.77224489795918,
+					108.86675736961452,
+					123.41405895691611
+				],
+				"ms": 2585
+			}
+		},
+		{
+			"slug": "mop-heart",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Amaj"
+					},
+					{
+						"start": 99.6429,
+						"value": "Bmaj"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "3/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 224
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Intro",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Verse - 1",
+					"start": 3.2143
+				},
+				{
+					"index": "III",
+					"name": "Chorus - 1",
+					"start": 16.0714
+				},
+				{
+					"index": "II",
+					"name": "Verse - 2",
+					"start": 38.5714
+				},
+				{
+					"index": "III",
+					"name": "Chorus - 2",
+					"start": 51.4286
+				},
+				{
+					"index": "II",
+					"name": "Verse - 3",
+					"start": 73.9286
+				},
+				{
+					"index": "II",
+					"name": "Verse - 4",
+					"start": 86.7857
+				},
+				{
+					"index": "IV",
+					"name": "Outro",
+					"start": 99.6429
+				}
+			],
+			"stems": [
+				"Drums",
+				"Vox",
+				"Bass",
+				"Keys"
+			],
+			"usedMix": "rendered-mix",
+			"prod": {
+				"tempo": {
+					"bpm": 112,
+					"confidence": 0.8497453441163847
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.08746829457278049
+				},
+				"key": {
+					"value": "A major",
+					"confidence": 0.6111437415624503
+				},
+				"ms": 4016
+			},
+			"keys": {
+				"kk": {
+					"value": "A major",
+					"confidence": 0.6111437415624503
+				},
+				"as": {
+					"value": "A minor",
+					"confidence": 0.11927706632139756
+				},
+				"tp": {
+					"value": "A minor",
+					"confidence": 0.015801719939692038
+				}
+			},
+			"activity": {
+				"boundaries": [
+					3.2142857142857144,
+					16.071428571428573,
+					22.500000000000004,
+					38.57142857142856,
+					51.428571428571395,
+					106.07142857142863
+				]
+			},
+			"nbeat": {
+				"tempo": 214.3,
+				"meter": "4/4",
+				"beatCount": 312,
+				"ms": 5469
+			},
+			"nseg": {
+				"boundaries": [
+					0.28444444444444444,
+					15.934693877551021,
+					38.434829931972786,
+					51.16517006802721,
+					60.67374149659864,
+					73.80462585034013,
+					89.06594104308391,
+					99.90385487528346
+				],
+				"ms": 2554
+			}
+		},
+		{
+			"slug": "peaceful-dreams",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Dmaj"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 145
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Intro",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Verse I",
+					"start": 33.1034
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 66.2069
+				},
+				{
+					"index": "II",
+					"name": "Verse I",
+					"start": 79.4483
+				},
+				{
+					"index": "III",
+					"name": "Chorus",
+					"start": 112.5517
+				},
+				{
+					"index": "IV",
+					"name": "Bridge",
+					"start": 125.7931
+				},
+				{
+					"index": "V",
+					"name": "Verse II",
+					"start": 139.0345
+				},
+				{
+					"index": "II",
+					"name": "Verse I",
+					"start": 172.1379
+				},
+				{
+					"index": "VI",
+					"name": "Interlude",
+					"start": 205.2414
+				},
+				{
+					"index": "VII",
+					"name": "Outro",
+					"start": 218.4828
+				}
+			],
+			"stems": [
+				"Ambient Layers",
+				"Bass Guitar",
+				"Bass Synth",
+				"Drums",
+				"Guitars",
+				"Keys"
+			],
+			"usedMix": "rendered-mix",
+			"prod": {
+				"tempo": {
+					"bpm": 96.7,
+					"confidence": 0.8211720212498758
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.21059740423556902
+				},
+				"key": {
+					"value": "D major",
+					"confidence": 0.7533873565260598
+				},
+				"ms": 6326
+			},
+			"keys": {
+				"kk": {
+					"value": "D major",
+					"confidence": 0.7533873565260598
+				},
+				"as": {
+					"value": "D major",
+					"confidence": 0.006473870996130948
+				},
+				"tp": {
+					"value": "D major",
+					"confidence": 0.2104544451248187
+				}
+			},
+			"activity": {
+				"boundaries": [
+					4.963805584281282,
+					19.855222337125127,
+					32.264736297828335,
+					49.63805584281285,
+					59.565667011375425,
+					67.01137538779736,
+					79.42088934850058,
+					126.57704239917283,
+					143.95036194415724,
+					151.39607032057913,
+					158.84177869700102,
+					171.25129265770417,
+					205.997931747673,
+					210.96173733195425,
+					223.3712512926574
+				]
+			},
+			"nbeat": {
+				"tempo": 142.9,
+				"meter": "4/4",
+				"beatCount": 460,
+				"ms": 8260
+			},
+			"nseg": {
+				"boundaries": [
+					0.22058956916099773,
+					10.361904761904762,
+					32.90267573696145,
+					50.700770975056685,
+					65.5847619047619,
+					85.66421768707482,
+					112.14657596371882,
+					125.38195011337868,
+					136.55655328798184,
+					145.86195011337867,
+					171.9437641723356,
+					190.1424036281179,
+					205.03219954648526,
+					218.91192743764174,
+					244.3435827664399,
+					253.43419501133786
+				],
+				"ms": 2721
+			}
+		},
+		{
+			"slug": "the-bells",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "Gmaj"
+					}
+				],
+				"meter": [],
+				"tempo": []
+			},
+			"sections": null,
+			"stems": [
+				"Bells Turn"
+			],
+			"usedMix": "single-stem",
+			"prod": {
+				"tempo": {
+					"bpm": 94.8,
+					"confidence": 0.7180497312747485
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.03845404311134557
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 0
+				},
+				"ms": 1236
+			},
+			"keys": {
+				"kk": {
+					"value": "C major",
+					"confidence": 0
+				},
+				"as": {
+					"value": "C major",
+					"confidence": 0.008212996617004364
+				},
+				"tp": {
+					"value": "C major",
+					"confidence": 0.4429114322956429
+				}
+			},
+			"activity": null,
+			"nbeat": {
+				"tempo": 93.7,
+				"meter": "1",
+				"beatCount": 138,
+				"ms": 5001
+			},
+			"nseg": {
+				"boundaries": [
+					0.6791836734693878,
+					14.918820861678004,
+					22.981950113378684,
+					32.38603174603175,
+					50.75301587301587,
+					63.43691609977324,
+					76.60843537414966
+				],
+				"ms": 2312
+			}
+		},
+		{
+			"slug": "the-cure-was-my-beatles",
+			"declared": {
+				"key": [],
+				"meter": [],
+				"tempo": []
+			},
+			"sections": null,
+			"stems": [
+				"the-cure-was-my-beatles"
+			],
+			"usedMix": "single-stem",
+			"prod": {
+				"tempo": {
+					"bpm": 94.1,
+					"confidence": 0.7108583292862393
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.08653493618585904
+				},
+				"key": {
+					"value": "E minor",
+					"confidence": 0.3497896264797866
+				},
+				"ms": 1165
+			},
+			"keys": {
+				"kk": {
+					"value": "E minor",
+					"confidence": 0.3497896264797866
+				},
+				"as": {
+					"value": "E minor",
+					"confidence": 0.8599910306707459
+				},
+				"tp": {
+					"value": "E minor",
+					"confidence": 0.5696679487223819
+				}
+			},
+			"activity": null,
+			"nbeat": {
+				"tempo": 96.8,
+				"meter": "6/8",
+				"beatCount": 111,
+				"ms": 5067
+			},
+			"nseg": {
+				"boundaries": [
+					7.302675736961451,
+					29.930521541950114,
+					50.58467120181406,
+					60.766621315192744,
+					77.15410430839003
+				],
+				"ms": 2355
+			}
+		}
+	]
+}
