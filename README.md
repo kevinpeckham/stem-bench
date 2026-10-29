@@ -157,6 +157,21 @@ placement in seconds.
 Registration: [docs/BRIEF-STUDY8.md](docs/BRIEF-STUDY8.md). Findings:
 [REPORT.md](REPORT.md).
 
+## Study 6b: the key-in-force warning, validated on unseen pages
+
+The program's first study registered by the production agent itself:
+stem-shovel shipped Study 6's suggested refinement, then declined to
+trust a rule designed on the data it was scored on, and registered its
+own validation here — new pages its rule had never seen, a pinned
+verbatim port, a tested only-quieter property, and a zero-spend
+reproduction gate. The bench ran it unmodified. Both gates passed with
+a perfect sheet (8/8 detectable hits, 16/16 silence, 0/24 clean
+flags); the verdict delivered back was the rare kind: nothing to
+change. Cross-agent registration now runs in both directions.
+
+Registration: [docs/BRIEF-STUDY6B.md](docs/BRIEF-STUDY6B.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
