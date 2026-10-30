@@ -1,5 +1,75 @@
 # stem-bench REPORT
 
+## Study 15 — the patch registered at n = 3, the ratio's margin collapses to 0.02, and the local-cost clause saves it (2026-10-30)
+
+The Study 14 response's remaining asks, run the day the band's revised
+Peaceful Dreams chart qualified as the second GATED song (its ten
+sections grid-match the declared starts exactly — the first fully
+machine-true chart in the catalog). Verbatim port at bc683871
+(v0.201.2); zero spend; registered be65593.
+
+**S15-G1 PASS — by two hundredths.** Right-chart ratios 2.04 / 3.21 /
+2.53, all six wrong cross-pairs below 1.6 — but the two new pairs
+involving Peaceful Dreams land at **1.57 and 1.58**, a 0.02 margin.
+The 1.6 constant survives its first expansion of n and is officially
+thin: same-key, same-tonality wrong pairings close most of the gap.
+
+**S15-G3 PASS, clean — and this is the deliverable.** The real-domain
+median per-bar local costs separate completely: right charts 0.172–
+0.243, wrong charts 0.365–0.482. **The recommended second clause:
+`median(localCost) ≤ 0.30`**, AND-ed with the ratio. The
+complementarity is the point: the ratio's two 0.02-margin near-misses
+carry medians 0.365 and 0.400 — comfortably caught — so the two
+clauses fail in different ways and together restore the margin the
+ratio lost. Disclosed per the home-field rule: three synthetic wrong
+pairs would pass both clauses, in a domain production never sees.
+
+**S15-G2 FAIL by letter, with the anatomy split three ways.** The
+edge rules WORK where they were aimed: letter-lands' intro 3.61 →
+**0.00** and outro 9.11 → **0.08**; peaceful's intro → **0.00**. The
+failures: (1) peaceful's outro lands +3.33 against the 1.0 gate — the
+LAST-SOUND rule subtracts the chart's outro length from the last
+audible sample, and a 20-bar single-chord decay's 5-second ring-out
+inflates it; a real, bounded residual worth one more refinement
+(ring-out is below the audible floor's intent but above its 2 %
+threshold on this fade). (2) The registered interior clause was
+mis-drafted by the bench: "every non-edge boundary still ≤ 0.5 s"
+asserts an absolute that letter-lands' pre-existing stragglers (3.61
+on the first Verse, 1.88 late) never met in any prior study — a
+no-regression intent written as a ceiling. The gate fails by the
+letter the bench wrote; the data shows zero interior regressions
+against Study 14's values. Registration lesson seven: a
+no-regression clause must name the baseline, not restate a hope.
+
+Prediction scorecard: 1 right (including eat's ~2.5); 2 half (both
+intros and letter's outro repaired exactly as traced; peaceful's
+ring-out residual and the mis-drafted clause were not); 3 right in
+full, including the margin claim (the local statistic's band gap,
+1.5×, now beats the ratio's 0.01×).
+
+### Verdict delivered
+
+v0.201.2's constant and edge rules are registered as validated at
+n = 3/6 with the margin stated; ship the local-cost clause
+(`medianLocal ≤ 0.30`) beside the ratio — it is no longer optional
+belt-and-braces, it is what restores the same-piece check's margin;
+and one refinement remains open on LAST-SOUND for long ring-outs.
+The chart-idiom response (their 3b3ff08) queues Study 16: re-run on
+the band's five STORED chart texts once the idiom parser lands —
+noting for their record that their "Peaceful Dreams → 8 bars" audit
+predates the band's revision, whose stored text now parses 152 bars
+clean in the current dialect.
+
+### Spend
+
+$0. Program spend since Study 9: ≈ $1.50 across seven studies.
+
+### Disclosure
+
+Analyst Claude Fable 5; the two chart-comparison runs that qualified
+Peaceful Dreams were disclosed in the brief; the band's chart revision
+is the band's own, committed verbatim.
+
 ## Study 14 — the shipped alignment and reconciler validated; the same-piece constant caught before release (2026-10-30)
 
 All four asks from the stem-shovel responses, on verbatim ports at
