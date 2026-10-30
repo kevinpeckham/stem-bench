@@ -272,6 +272,27 @@ free regression fixture. Verdict: ship the patch.
 Registration: [docs/BRIEF-STUDY11C.md](docs/BRIEF-STUDY11C.md).
 Findings: [REPORT.md](REPORT.md).
 
+## Study 12: chart-to-seconds by synthesize-and-align
+
+The arc-closer. After eleven studies, exactly one hearing job
+remained with the model: placing section boundaries in seconds.
+Study 12 took it with fifty-year-old math — the chart rendered as
+plain chord pads at the declared tempo, chroma-DTW against the
+recording, every bar's timestamp read off the warping path. 95 % of
+560 synthetic bar starts within a quarter second; all 8 contrast
+boundaries within half a second, the precision metric every listener
+scored zero on; tempo changes tracked straight through; and the
+wrong-chart probe separates right from wrong charts by an order of
+magnitude, turning the by-ear "same piece?" question into a number.
+The registered real-recording gate failed by one boundary with the
+anatomy as the finding: six mid-song boundaries at 0.02–0.11 seconds,
+the edges lost where the chart stops describing the performance. The
+binding constraint is now chart quality — a data problem, not a
+hearing problem.
+
+Registration: [docs/BRIEF-STUDY12.md](docs/BRIEF-STUDY12.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
