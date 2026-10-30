@@ -1,0 +1,367 @@
+{
+	"version": 1,
+	"pin": "bc683871",
+	"real": [
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"ratio": 2.040737323488219,
+			"samePiece": true,
+			"firstSound": 0,
+			"lastSound": 138.26267573696146,
+			"sections": [
+				{
+					"name": "Intro",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "Verse",
+					"placed": 10.88,
+					"declared": 7.2727,
+					"err": 3.61,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 21.9,
+					"declared": 21.8182,
+					"err": 0.08,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 36.39,
+					"declared": 36.3636,
+					"err": 0.02,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 51,
+					"declared": 50.9091,
+					"err": 0.09,
+					"hedged": false
+				},
+				{
+					"name": "Bridge",
+					"placed": 65.51,
+					"declared": 65.4545,
+					"err": 0.06,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 79.89,
+					"declared": 80,
+					"err": -0.11,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 94.5,
+					"declared": 94.5455,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 107.21,
+					"declared": 109.0909,
+					"err": -1.88,
+					"hedged": false
+				},
+				{
+					"name": "Outro",
+					"placed": 123.72,
+					"declared": 123.6364,
+					"err": 0.08,
+					"hedged": true
+				}
+			]
+		},
+		{
+			"slug": "peaceful-dreams",
+			"gated": true,
+			"ratio": 3.210749742492324,
+			"samePiece": true,
+			"firstSound": 0,
+			"lastSound": 254.91555555555556,
+			"sections": [
+				{
+					"name": "I Intro",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "II Verse",
+					"placed": 33.27,
+					"declared": 33.1034,
+					"err": 0.17,
+					"hedged": false
+				},
+				{
+					"name": "III Chorus",
+					"placed": 66.17,
+					"declared": 66.2069,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "II Verse",
+					"placed": 79.43,
+					"declared": 79.4483,
+					"err": -0.02,
+					"hedged": false
+				},
+				{
+					"name": "III Chorus",
+					"placed": 112.51,
+					"declared": 112.5517,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "IV Bridge",
+					"placed": 126.01,
+					"declared": 125.7931,
+					"err": 0.22,
+					"hedged": false
+				},
+				{
+					"name": "V Verse (Triads)",
+					"placed": 139.08,
+					"declared": 139.0345,
+					"err": 0.05,
+					"hedged": false
+				},
+				{
+					"name": "II Verse",
+					"placed": 172.31,
+					"declared": 172.1379,
+					"err": 0.17,
+					"hedged": false
+				},
+				{
+					"name": "VI Interlude",
+					"placed": 204.09,
+					"declared": 205.2414,
+					"err": -1.15,
+					"hedged": false
+				},
+				{
+					"name": "VII Outro",
+					"placed": 221.81,
+					"declared": 218.4828,
+					"err": 3.33,
+					"hedged": true
+				}
+			]
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"ratio": 2.5309652395044284,
+			"samePiece": true,
+			"firstSound": 0,
+			"lastSound": 141.86430839002267,
+			"sections": [
+				{
+					"name": "Part 1",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "Part 2",
+					"placed": 28.07,
+					"declared": 28,
+					"err": 0.07,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 44.06,
+					"declared": 44,
+					"err": 0.06,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 56.24,
+					"declared": 56,
+					"err": 0.24,
+					"hedged": false
+				},
+				{
+					"name": "Bridge",
+					"placed": 73.99,
+					"declared": 72,
+					"err": 1.99,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 93.66,
+					"declared": 96,
+					"err": -2.34,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 101.47,
+					"declared": 108,
+					"err": -6.53,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 116.02,
+					"declared": 124,
+					"err": -7.98,
+					"hedged": false
+				},
+				{
+					"name": "Outro",
+					"placed": 133.86,
+					"declared": 140,
+					"err": -6.14,
+					"hedged": true
+				}
+			]
+		}
+	],
+	"localStats": [
+		{
+			"itemId": "letter-lands",
+			"kind": "right-real",
+			"medianLocal": 0.24292613360050477,
+			"ratio": 2.040737323488219
+		},
+		{
+			"itemId": "peaceful-dreams",
+			"kind": "right-real",
+			"medianLocal": 0.17153197795980507,
+			"ratio": 3.210749742492324
+		},
+		{
+			"itemId": "eat-all-the-clocks",
+			"kind": "right-real",
+			"medianLocal": 0.2239353469052872,
+			"ratio": 2.5309652395044284
+		},
+		{
+			"itemId": "letter-lands⊗peaceful-dreams",
+			"kind": "wrong-real",
+			"medianLocal": 0.47039392230167887,
+			"ratio": 1.1327817828235272
+		},
+		{
+			"itemId": "letter-lands⊗eat-all-the-clocks",
+			"kind": "wrong-real",
+			"medianLocal": 0.4821144702372613,
+			"ratio": 1.1660960121602781
+		},
+		{
+			"itemId": "peaceful-dreams⊗letter-lands",
+			"kind": "wrong-real",
+			"medianLocal": 0.45563525675158756,
+			"ratio": 1.153301765668269
+		},
+		{
+			"itemId": "peaceful-dreams⊗eat-all-the-clocks",
+			"kind": "wrong-real",
+			"medianLocal": 0.36457058148724697,
+			"ratio": 1.5846733369557873
+		},
+		{
+			"itemId": "eat-all-the-clocks⊗letter-lands",
+			"kind": "wrong-real",
+			"medianLocal": 0.41679746461542033,
+			"ratio": 1.243860445387267
+		},
+		{
+			"itemId": "eat-all-the-clocks⊗peaceful-dreams",
+			"kind": "wrong-real",
+			"medianLocal": 0.4000824733570315,
+			"ratio": 1.5706742643952176
+		},
+		{
+			"itemId": "drift-4a",
+			"kind": "right-synth",
+			"medianLocal": 0.01428209561290163,
+			"ratio": 41.60091409559594
+		},
+		{
+			"itemId": "drift-4a⊗waltz-b",
+			"kind": "wrong-synth",
+			"medianLocal": 0.7013987121837479,
+			"ratio": 0.600367022098143
+		},
+		{
+			"itemId": "waltz-b",
+			"kind": "right-synth",
+			"medianLocal": 0.02382534394772457,
+			"ratio": 24.180841088677155
+		},
+		{
+			"itemId": "waltz-b⊗drift-4a",
+			"kind": "wrong-synth",
+			"medianLocal": 0.5947242660955949,
+			"ratio": 0.58341489723616
+		},
+		{
+			"itemId": "contrast-b",
+			"kind": "right-synth",
+			"medianLocal": 0.01589179438139711,
+			"ratio": 48.9628455719883
+		},
+		{
+			"itemId": "contrast-b⊗mod-a",
+			"kind": "wrong-synth",
+			"medianLocal": 0.18877265001841198,
+			"ratio": 2.3711202755296727
+		},
+		{
+			"itemId": "mod-a",
+			"kind": "right-synth",
+			"medianLocal": 0.01613071700895502,
+			"ratio": 35.36150105945388
+		},
+		{
+			"itemId": "mod-a⊗contrast-b",
+			"kind": "wrong-synth",
+			"medianLocal": 0.3928862663874911,
+			"ratio": 2.0476572308116334
+		},
+		{
+			"itemId": "swing-x",
+			"kind": "right-synth",
+			"medianLocal": 0.0198186907471846,
+			"ratio": 30.138026070260242
+		},
+		{
+			"itemId": "swing-x⊗oct-low-a",
+			"kind": "wrong-synth",
+			"medianLocal": 0.2013177427563917,
+			"ratio": 2.427232035952939
+		},
+		{
+			"itemId": "oct-low-a",
+			"kind": "right-synth",
+			"medianLocal": 0.01285941356704948,
+			"ratio": 48.81274799751154
+		},
+		{
+			"itemId": "oct-low-a⊗swing-x",
+			"kind": "wrong-synth",
+			"medianLocal": 0.19876209914724788,
+			"ratio": 2.2963000006652132
+		}
+	]
+}
