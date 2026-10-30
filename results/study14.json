@@ -108,6 +108,22 @@
 			"controlCost": 0.7143780924984177,
 			"ratio": 2.2963000006652132,
 			"wrongOverRight": 19.443542156157747
+		},
+		{
+			"recording": "letter-lands",
+			"chart": "eat-all-the-clocks",
+			"kind": "wrong-real",
+			"cost": 0.4736468344952089,
+			"controlCost": 0.5523176848772023,
+			"ratio": 1.1660960121602781
+		},
+		{
+			"recording": "eat-all-the-clocks",
+			"chart": "letter-lands",
+			"kind": "wrong-real",
+			"cost": 0.4448026500428867,
+			"controlCost": 0.5532724223917818,
+			"ratio": 1.243860445387267
 		}
 	],
 	"armB": {
@@ -321,5 +337,6 @@
 			"lastPlaced": 139.17532879818594,
 			"lastDeclared": 140
 		}
-	]
+	],
+	"amendment1": "real-domain wrong pairs added after arms A-D; see brief"
 }
