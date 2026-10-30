@@ -102,3 +102,28 @@ not just a validation), with **F (mix QA)** as the cheap ship-win to
 run alongside either. B (the reconciler) whenever a stem-shovel brief
 wants the chord-hint path improved; D and E piggyback on the first
 real session data A or C brings in.
+
+## Update (2026-10-30, after Studies 12 and 13)
+
+- **C (sessions intelligence) is PARKED by Kevin**, with reasoning the
+  bench endorses: practice recordings diverge from references in
+  arrangement, key, instrumentation and tempo, and their structure is
+  non-linear (sections looped and worked at length) — the exact
+  conditions under which version matching and subsequence alignment
+  both fail (Study 12's own lesson: alignment dies where the recording
+  stops following the reference, and a rehearsal is mostly that). A
+  narrow fragment survives unparked for some future day: silence-gap
+  take splitting needs no matching at all.
+- **New candidate from Study 13, now ranked first: the transcription
+  successor.** Study 13 named the note transcription on real timbres
+  as the chord feature's binding constraint (38.2 % with Basic Pitch).
+  The study: MT3-class / newer open transcription models against Basic
+  Pitch, scored through the SAME committed pipeline (matcher + Study
+  12 bar grid) on the same real bars — the Study 10 shape, pointed at
+  the measured bottleneck, with real-audio truth already in hand.
+- A and B are done (Studies 12 and 13). The standing queue: the
+  transcription successor, mix QA (F), MERT probes scoped to
+  stem-role labeling + key + octave-class (I — its sessions synergy is
+  moot now, so it stands alone on the stem-labeling product case),
+  the tempo map (D, weakened without sessions), the swing flag (E),
+  lyrics alignment (G).
