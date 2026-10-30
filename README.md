@@ -293,6 +293,25 @@ hearing problem.
 Registration: [docs/BRIEF-STUDY12.md](docs/BRIEF-STUDY12.md).
 Findings: [REPORT.md](REPORT.md).
 
+## Study 13: the chord path on real audio, and the reconciler
+
+The reconciler question answered as a registered conditional: measure
+the thing it would improve first. The measurement was the finding —
+production's chord path, 95.8 % at home on the synthetic bench, reads
+a real recording at 38.2 %, with the note transcription on real
+timbres as the binding constraint. The reconciler then earned its
+keep: one text-only pass over the key, the detected chords and the
+transcribed notes lifted 29/76 to 41/76 with twelve fixes and ZERO
+breaks — the anti-agreement-trap gate passed at infinity, for both
+models, at about a cent a song. The first time in the program an LLM
+improved a hearing result, achieved by never hearing anything. One
+amendment en route: our own 4000-token output cap truncated every
+pilot cell while the models narrated per-bar, the Study 8 lesson
+relearned.
+
+Registration: [docs/BRIEF-STUDY13.md](docs/BRIEF-STUDY13.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
