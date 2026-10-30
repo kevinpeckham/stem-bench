@@ -1,5 +1,74 @@
 # stem-bench REPORT
 
+## Study 11c — the declared-meter gate validated; the bench's own rule retired on the record (2026-10-30)
+
+The three validations stem-shovel requested for its patch at 2cf70cb
+(the ×3 rung; the 3:2 and ×3 gates moved to the DECLARED meter, off
+the detector's flag entirely; alternates labels fixed). Verbatim port
+pinned; zero spend; arms 1 and 3 are pure functions over Study 11b's
+stored reads, arm 2 renders three new items. The bench registered the
+prediction of its own proposed rule's defeat before running.
+
+**C1 PASS, perfectly.** The declared-meter gate over the full 11b
+corpus: 0 of 332 corrected wrong rows accepted, no true-count match
+lost, and THREE gained over the shipped v0.200.0 rule — lilt-a and
+verb-y match at ⅔ through their declared 6/8 (data where the acoustic
+margin missed), and mop-heart matches at ×3 through its declared 3/4:
+"224, counted three to the bar." peaceful-dreams stays loud, now by
+data instead of by luck.
+
+**C2: the mirror did its job twice over.** The bench's declared-lag
+rule accepted **3 of 3** wrong values, exactly as the registered
+prediction traced — on straight running eighths, a ⅔-wrong declared
+tempo puts its lag's third on the eighth grid and every clause of the
+bench's amended rule (BEAT_FLOOR included: the declared lag sits on
+the grid too, r̂ 0.64–0.66) licenses the rung. **The bench's rule is
+retired on the record, by the measurement its proposer registered.**
+The gate verdict is FAIL by letter, though, on its other half: the
+declared-meter gate accepted 1 of 3 — and the anatomy matters. On
+mirror-138 the DETECTOR itself misread the straight eighths at 92
+with a compound flag (at 92, a third of the lag IS the 138 eighth —
+the peaceful-dreams confound, now reproduced on synthetic material),
+and the wrong declared 92 matched the wrong detection DIRECTLY at
+rung 1, which no gate governs. A ladder cannot reject
+declared-equals-detected; the failure class is Study 11's lesson 6
+again (wrongness defined against truth, compared against a wrong
+detection), not a gate leak — the gates themselves never opened.
+
+**C3 PASS.** The ×3 rung opens nowhere but triple-declared meters
+(0 leaks, 0 off-tolerance accepts); the exact-3× rows are accepted on
+all 5 triple-declared items — the ×2-class count ambiguity, now
+quantified, living where it belongs: in the rung picker.
+
+**The bonus finding: mirror-138.** The mirror fixture incidentally
+built the first SYNTHETIC reproduction of the detection-side ⅔+false-
+compound confound (truth 138, detected 92 "6/8", the true tempo on
+the alternates at strength 0.96). stem-shovel gains a regression
+fixture for the detector confound that previously existed only on one
+real recording — and the patched comparison surface already contains
+it correctly: the declared-meter gate refuses to call 138-vs-92 a
+count, so the warning stays loud.
+
+Prediction scorecard: 1 right in full; 2 half — the declared-lag 3/3
+exactly as traced, the declared-meter 0/3 missed (1/3 via the
+collision class the prediction did not anticipate); 3 right in full.
+
+Verdict to stem-shovel: ship the patch to production as is. The
+declared-meter gate strictly dominates both its predecessors on
+everything a gate controls; the one C2 accept is detection-side and
+pre-existing, with mirror-138 as its new regression fixture.
+
+### Spend
+
+$0. The ladder thread closes at five studies (10, its amendment, 11,
+11b, 11c) for ~$0.08 total, all of it Study 9's pilot.
+
+### Disclosure
+
+Analyst Claude Fable 5; verbatim port pinned at 2cf70cb; no model
+measured or consulted; the registered predictions included the
+bench's own rule losing.
+
 ## Study 11b — the shipped tempo ladder: the margins are honest, the confound shipped (2026-10-29)
 
 Requested by the stem-shovel side and run on their shipped v0.200.0
