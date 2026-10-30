@@ -1,5 +1,94 @@
 # stem-bench REPORT
 
+## Study 12 — chart-to-seconds by synthesize-and-align: code takes the model's last job, and the edges talk back (2026-10-30)
+
+The candidates memo's recommendation A, registered by the bench
+(e431bf6): render the chart as sustained chord pads at the declared
+tempo, chroma-DTW the render against the recording, and every bar —
+hence every section mark and chord — gets a timestamp with no model.
+This was the one hearing job Study 8 had left to the LLM (boundary
+placement in seconds). Zero spend: a 92.9 ms chromagram on the port's
+own fft, DTW with non-stalling reference steps and a subsequence mode
+for count-ins and tails, and a pad renderer that knows nothing the
+chart doesn't state. Real-arm truth: the bench's disclosed
+transcriptions of the public MMKK charts (letter-lands gated —
+unambiguous, duration cross-checks; eat-all-the-clocks exploratory
+with a disclosed −26 s reading mismatch; peaceful-dreams excluded as
+untranscribable — a real-world limit of chart-driven anything).
+
+### Results
+
+**G1a PASS at exactly the letter: 532/560 bar starts (95.0 %) within
+±0.25 s.** By class the errors live where physics says: reverb tails
+(worst 1.32–1.44 s) and dense mixes; the mediant modulations were
+perfect to the hop. **G1b PASS 8/8 — the headline.** Every contrast
+section boundary within ±0.5 s, the precision metric every listener
+failed (Study 8's models ≈ 0/8 there, Study 10's neural segmenter
+0/8, the literature's best model reader 0.423 at ±0.5 on real music).
+Reported beside it: **7/8 tempo/key-change boundaries at ±0.5 s** —
+boundaries that are structurally invisible to stem activity and that
+blind models found half the time. DTW does not care that the tempo
+moved; that is the method.
+
+**The wrong-chart probe: 6/6, separations 8.6–16.3×.** The right
+chart's path cost sits an order of magnitude under the wrong one on
+every registered pair. The "is this chart this recording?" question —
+which production currently asks the model to answer by ear — is a
+number.
+
+**G2 FAIL by one boundary, and the anatomy is the finding.** On the
+real letter-lands recording: 8/9 boundaries at ±4 s (parity with the
+neural segmenter), 6/9 at ±0.5 s against the registered ≥ 7/9. But
+look at where: the SIX mid-song boundaries landed at **0.02–0.11
+seconds** — precision no listener in eleven studies has approached on
+a real recording — while the three misses are the edges: the first
+boundary (3.6 s, the subsequence start absorbing the real intro), the
+second-to-last (1.9 s) and the outro (9.1 s, where the chart's 8-bar
+outro reading meets a 3-second performance tail). Alignment is
+sub-tenth-second wherever the performance follows the chart and fails
+exactly where the chart stops describing the performance. The
+neural segmenter edges it 7/9-to-6/9 at ±0.5 on this one song by
+being merely mediocre everywhere instead of perfect in the middle and
+lost at the ends. eat-all-the-clocks behaved exactly as predicted:
+clean until the bench's uncertain Bridge reading (0.07–0.24 s), then
+2.0 → 8.0 s adrift, re-anchoring at the outro — a wrong transcription
+degrades placement locally and visibly, which is what a shipping
+path-cost/edge-confidence gate would catch.
+
+Prediction scorecard: 1 right (including the tempo-change tracking);
+2 half — the error SHAPE was predicted ("where the performance
+departs from the chart, the outro tail") but the gate count missed by
+one; 3 right in full; 4 right in full.
+
+### What production does with this
+
+Ship guidance: alignment takes placement, behind two mechanical
+gates — the path cost (the probe's 8.6× floor separates right from
+wrong charts) and an edge flag (first/last boundaries carry the
+chart-fidelity risk; show them hedged, as the rung picker does for
+tempo). The model's remaining role in this feature, if the edge flag
+is accepted as UI: nothing. The probe ships separately as the
+same-piece check, replacing the by-ear clause in `askAiAboutMix`.
+Real-arm honesty: the method is only as good as the chart and the
+transcription — peaceful-dreams could not even be transcribed — so
+chart-quality is now the binding constraint, which is a data problem,
+not a hearing problem. The program's arc completes: every hearing
+task measured across twelve studies now has a code-or-data answer
+that beats or matches the model, except the one thing the models
+genuinely hear (texture contrast, Study 8) — and code took that too
+(Study 9's activity detector on stems; this study's alignment from
+charts).
+
+### Spend
+
+$0.
+
+### Disclosure
+
+Analyst Claude Fable 5. No model measured or consulted; the MMKK
+transcriptions were committed before any alignment ran; declared
+starts touched scoring only.
+
 ## Study 11c — the declared-meter gate validated; the bench's own rule retired on the record (2026-10-30)
 
 The three validations stem-shovel requested for its patch at 2cf70cb
