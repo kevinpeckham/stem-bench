@@ -1,0 +1,61 @@
+{
+	"version": 1,
+	"models": [
+		"anthropic/claude-fable-5-1",
+		"google/gemini-3.5-flash"
+	],
+	"cells": [
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"model": "anthropic/claude-fable-5-1",
+			"outcome": "parse-error",
+			"error": "no JSON in the answer",
+			"chords": null,
+			"grade": null,
+			"delta": null,
+			"tokensIn": 12779,
+			"tokensOut": 4000,
+			"latencyMs": 49441
+		},
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"model": "google/gemini-3.5-flash",
+			"outcome": "parse-error",
+			"error": "no JSON in the answer",
+			"chords": null,
+			"grade": null,
+			"delta": null,
+			"tokensIn": 11471,
+			"tokensOut": 3996,
+			"latencyMs": 20056
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"model": "anthropic/claude-fable-5-1",
+			"outcome": "parse-error",
+			"error": "no JSON in the answer",
+			"chords": null,
+			"grade": null,
+			"delta": null,
+			"tokensIn": 11966,
+			"tokensOut": 4000,
+			"latencyMs": 50926
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"model": "google/gemini-3.5-flash",
+			"outcome": "parse-error",
+			"error": "no JSON in the answer",
+			"chords": null,
+			"grade": null,
+			"delta": null,
+			"tokensIn": 10672,
+			"tokensOut": 3996,
+			"latencyMs": 13197
+		}
+	]
+}

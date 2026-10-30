@@ -96,3 +96,15 @@ Analyst Claude Fable 5, and arm 2 measures claude-fable-5-1 (the same
 family): tolerable as in Study 1 because every grade is mechanical,
 committed and tested before any call. The MMKK chart transcriptions
 and alignment are Study 12's committed artifacts, unchanged.
+
+## Amendment 1 (2026-10-30, after the pilot's first run)
+
+All four pilot cells failed by truncation at the registered 4000-token
+output cap (every cell pinned at ~4000 out; the models narrate per-bar
+reasoning before the JSON) — the same budget-conflates-with-failure
+class Study 8's Amendment 1 hit in our own harness. The cap rises to
+16000; nothing else changes; the four cells re-run under the fence
+(the truncated run cost ≈ $0.25 and is kept in git history). Fable
+additionally ignores the registered temperature-0 deviation (the
+gateway warns it is unsupported for that model) — disclosed, not
+actionable.

@@ -3,7 +3,9 @@
  * LLM pass over the detected chords, the key and the transcribed notes
  * per bar, graded mechanically against the chart transcription. Runs
  * only when arm 1's registered trigger fired (gated accuracy < 90 %).
- * Registered deviations as ever: temperature 0, maxOutputTokens 4000,
+ * Registered deviations as ever: temperature 0, maxOutputTokens 16000
+ * (Amendment 1 — the 4000 cap truncated every pilot cell mid-narration,
+ * the Study 8 Amendment 1 class),
  * maxRetries 4. Models: the production chart-draft model and the cheap
  * contrast. ~$0.30 for the pilot; fence $3.
  */
@@ -62,7 +64,7 @@ for (const song of arm1.songs as {
 				system: RECONCILE_SYSTEM,
 				prompt: question,
 				temperature: 0,
-				maxOutputTokens: 4000,
+				maxOutputTokens: 16000,
 				maxRetries: 4,
 			} as Parameters<typeof generateText>[0]);
 			text = result.text;
