@@ -231,6 +231,28 @@ label of an item.
 Registration: [docs/BRIEF-STUDY11.md](docs/BRIEF-STUDY11.md).
 Findings: [REPORT.md](REPORT.md).
 
+## Study 11b: the shipped tempo ladder, validated
+
+stem-shovel built the tempo ladder in production (v0.200.0) in
+parallel with Study 11, with a sharper subdivision rule than the
+bench's sketch, and asked for a validation of the shipped rule plus a
+swing-stress sweep. The sweep came back clean — 15/15 straight at
+exact tempi, their triplet-share argument validated — the ladder
+accepted 0 of 332 corrected wrong rows, and the super-beat re-pick
+fixed two of Study 10's octave misses outright. The costly half
+landed on real recordings, exactly where their addendum said to
+stress: the fast waltz re-picked to its bar pulse, a defensible
+hearing with no ladder rung to land on, and the sub-beat test fired
+at the detector's own ⅔-wrong pulse — Study 11's amendment confound,
+shipped — silencing a warning the gates required to stay loud. The
+margin numbers forbid tuning (reverb pushes a true 6/8 inside the
+straight items' band); the fixes are the declared-tempo hypothesis
+and a ×3 rung, and the alternates ladder already carries the truth
+everywhere the 6/8 call misses.
+
+Registration: [docs/BRIEF-STUDY11B.md](docs/BRIEF-STUDY11B.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
