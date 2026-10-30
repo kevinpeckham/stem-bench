@@ -1,0 +1,4090 @@
+{
+	"version": 1,
+	"port": "2cf70cb",
+	"arm1": [
+		{
+			"itemId": "drift-4a",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				120
+			],
+			"detected": 120,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "drift-4b",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				84
+			],
+			"detected": 84,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 89.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 78.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 94.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 73.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 126,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 111.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 67.2,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "waltz-a",
+			"source": "band",
+			"meter": "3/4",
+			"gates": {
+				"compound": false,
+				"triple": true
+			},
+			"trueTempos": [
+				96
+			],
+			"detected": 96,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 102.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 89.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 107.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 84.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 144,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 127.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76.8,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "waltz-b",
+			"source": "band",
+			"meter": "3/4",
+			"gates": {
+				"compound": false,
+				"triple": true
+			},
+			"trueTempos": [
+				140
+			],
+			"detected": 140,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 149.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 130.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 156.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 123.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 210,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 186.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 112,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "lilt-a",
+			"source": "band",
+			"meter": "6/8",
+			"gates": {
+				"compound": true,
+				"triple": false
+			},
+			"trueTempos": [
+				60
+			],
+			"detected": 90,
+			"shippedMatch": null,
+			"patchedMatch": {
+				"factor": 0.6666666666666666
+			},
+			"wrongRows": []
+		},
+		{
+			"itemId": "lilt-b",
+			"source": "band",
+			"meter": "6/8",
+			"gates": {
+				"compound": true,
+				"triple": false
+			},
+			"trueTempos": [
+				76
+			],
+			"detected": 76,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 81.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 70.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 85.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 66.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 101.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 60.8,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-a",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				100,
+				140
+			],
+			"detected": 100,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-b",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				72,
+				108
+			],
+			"detected": 108,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-c",
+			"source": "band",
+			"meter": "3/4",
+			"gates": {
+				"compound": false,
+				"triple": true
+			},
+			"trueTempos": [
+				90,
+				120
+			],
+			"detected": 120,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 96.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 83.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 100.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 79.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 135,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 72,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-a",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				110
+			],
+			"detected": 110,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 117.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 102.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 123.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 96.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 165,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 146.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 88,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-b",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				95
+			],
+			"detected": 95,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 101.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 88.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 106.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 83.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 142.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 126.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-c",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				126
+			],
+			"detected": 126,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 134.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 117.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 141.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 110.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 189,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 167.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 100.8,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-a",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				100
+			],
+			"detected": 100,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-b",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				120
+			],
+			"detected": 120,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-c",
+			"source": "band",
+			"meter": "6/8",
+			"gates": {
+				"compound": true,
+				"triple": false
+			},
+			"trueTempos": [
+				76
+			],
+			"detected": 76,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 81.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 70.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 85.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 66.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 101.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 60.8,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				88
+			],
+			"detected": 88,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 94.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 81.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 77.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 132,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 117,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 70.4,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-noise",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-double",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				96
+			],
+			"detected": 96,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 102.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 89.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 107.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 84.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 144,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 127.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 76.8,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato-noise",
+			"source": "band",
+			"meter": "3/4",
+			"gates": {
+				"compound": false,
+				"triple": true
+			},
+			"trueTempos": [
+				104
+			],
+			"detected": 104,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 111.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 96.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 116.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 91.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 156,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 138.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 83.2,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad-double",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				72
+			],
+			"detected": 72,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swing-x",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swing-y",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-a",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				70
+			],
+			"detected": 70,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 74.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 65.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 78.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 61.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 105,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 93.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 56,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-a",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				140
+			],
+			"detected": 140,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 149.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 130.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 156.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 123.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 210,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 186.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 112,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-b",
+			"source": "band",
+			"meter": "3/4",
+			"gates": {
+				"compound": false,
+				"triple": true
+			},
+			"trueTempos": [
+				72
+			],
+			"detected": 72,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 77,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 67,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 80.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 63.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 108,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 95.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 57.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-b",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				144
+			],
+			"detected": 144,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 154.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 133.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 161.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 126.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 216,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 191.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 115.2,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "verb-x",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				100
+			],
+			"detected": 100,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 107,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 93,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 112,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 88,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 150,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 133,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 80,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "verb-y",
+			"source": "band",
+			"meter": "6/8",
+			"gates": {
+				"compound": true,
+				"triple": false
+			},
+			"trueTempos": [
+				84
+			],
+			"detected": 126,
+			"shippedMatch": null,
+			"patchedMatch": {
+				"factor": 0.6666666666666666
+			},
+			"wrongRows": []
+		},
+		{
+			"itemId": "dense-x",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				126
+			],
+			"detected": 126,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 134.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 117.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 141.1,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 110.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 189,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 167.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 100.8,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "dense-y",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				88
+			],
+			"detected": 88,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 94.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 81.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 77.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 132,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 117,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 70.4,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "medmod-x",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				104
+			],
+			"detected": 104,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 111.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 96.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 116.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 91.5,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 156,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 138.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 83.2,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "medmod-y",
+			"source": "band",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				118
+			],
+			"detected": 118,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 126.3,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 109.7,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 132.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 103.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 177,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 156.9,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 94.4,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "eat-all-the-clocks",
+			"source": "mmkk",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				120
+			],
+			"detected": 120,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 128.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 111.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 134.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 180,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 159.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 96,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "letter-lands",
+			"source": "mmkk",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "mop-heart",
+			"source": "mmkk",
+			"meter": "3/4",
+			"gates": {
+				"compound": false,
+				"triple": true
+			},
+			"trueTempos": [
+				224
+			],
+			"detected": 74.7,
+			"shippedMatch": null,
+			"patchedMatch": {
+				"factor": 3
+			},
+			"wrongRows": []
+		},
+		{
+			"itemId": "peaceful-dreams",
+			"source": "mmkk",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				145
+			],
+			"detected": 96.7,
+			"shippedMatch": {
+				"factor": 1.5
+			},
+			"patchedMatch": null,
+			"wrongRows": []
+		},
+		{
+			"itemId": "swingstress-92-6",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-62",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-645",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-67",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-7",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				92
+			],
+			"detected": 92,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 98.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 85.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 103,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 81,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 138,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 122.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 73.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-6",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-62",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-645",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-67",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-7",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				112
+			],
+			"detected": 112,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 119.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 104.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 125.4,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 98.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 168,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 149,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 89.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-6",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-62",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-645",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-67",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-7",
+			"source": "swing",
+			"meter": "4/4",
+			"gates": {
+				"compound": false,
+				"triple": false
+			},
+			"trueTempos": [
+				132
+			],
+			"detected": 132,
+			"shippedMatch": {
+				"factor": 1
+			},
+			"patchedMatch": {
+				"factor": 1
+			},
+			"wrongRows": [
+				{
+					"multiplier": 1.07,
+					"declared": 141.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.93,
+					"declared": 122.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.12,
+					"declared": 147.8,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.88,
+					"declared": 116.2,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.5,
+					"declared": 198,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 1.33,
+					"declared": 175.6,
+					"accept": false,
+					"acceptPatched": false
+				},
+				{
+					"multiplier": 0.8,
+					"declared": 105.6,
+					"accept": false,
+					"acceptPatched": false
+				}
+			]
+		}
+	],
+	"arm2": [
+		{
+			"itemId": "mirror-96",
+			"truth": 96,
+			"detected": 96,
+			"detectedSubdivision": 2,
+			"wrongDeclared": 64,
+			"subAtDeclared": {
+				"subdivision": 3,
+				"r3": 0.6725603144052733,
+				"r2": 0.0014250062716775183,
+				"rBeat": 0.6630065492652933
+			},
+			"declaredLagAccept": true,
+			"declaredMeterAccept": false
+		},
+		{
+			"itemId": "mirror-120",
+			"truth": 120,
+			"detected": 120,
+			"detectedSubdivision": 2,
+			"wrongDeclared": 80,
+			"subAtDeclared": {
+				"subdivision": 3,
+				"r3": 0.6464432787495107,
+				"r2": 0.002224843096516906,
+				"rBeat": 0.651191370820511
+			},
+			"declaredLagAccept": true,
+			"declaredMeterAccept": false
+		},
+		{
+			"itemId": "mirror-138",
+			"truth": 138,
+			"detected": 92,
+			"detectedSubdivision": 3,
+			"wrongDeclared": 92,
+			"subAtDeclared": {
+				"subdivision": 3,
+				"r3": 0.6387211146988264,
+				"r2": 0.0013226874916744814,
+				"rBeat": 0.6407243368172134
+			},
+			"declaredLagAccept": true,
+			"declaredMeterAccept": true
+		}
+	],
+	"arm3": [
+		{
+			"itemId": "drift-4a",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 120,
+			"rows": [
+				{
+					"declared": 360,
+					"accept": false
+				},
+				{
+					"declared": 364,
+					"accept": false
+				},
+				{
+					"declared": 356,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "drift-4b",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 84,
+			"rows": [
+				{
+					"declared": 252,
+					"accept": false
+				},
+				{
+					"declared": 256,
+					"accept": false
+				},
+				{
+					"declared": 248,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "waltz-a",
+			"meter": "3/4",
+			"triple": true,
+			"detected": 96,
+			"rows": [
+				{
+					"declared": 288,
+					"accept": true
+				},
+				{
+					"declared": 292,
+					"accept": false
+				},
+				{
+					"declared": 284,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "waltz-b",
+			"meter": "3/4",
+			"triple": true,
+			"detected": 140,
+			"rows": [
+				{
+					"declared": 420,
+					"accept": true
+				},
+				{
+					"declared": 424,
+					"accept": false
+				},
+				{
+					"declared": 416,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "lilt-b",
+			"meter": "6/8",
+			"triple": false,
+			"detected": 76,
+			"rows": [
+				{
+					"declared": 228,
+					"accept": false
+				},
+				{
+					"declared": 232,
+					"accept": false
+				},
+				{
+					"declared": 224,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-a",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 100,
+			"rows": [
+				{
+					"declared": 300,
+					"accept": false
+				},
+				{
+					"declared": 304,
+					"accept": false
+				},
+				{
+					"declared": 296,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-b",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 108,
+			"rows": [
+				{
+					"declared": 324,
+					"accept": false
+				},
+				{
+					"declared": 328,
+					"accept": false
+				},
+				{
+					"declared": 320,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "shift-c",
+			"meter": "3/4",
+			"triple": true,
+			"detected": 120,
+			"rows": [
+				{
+					"declared": 360,
+					"accept": true
+				},
+				{
+					"declared": 364,
+					"accept": false
+				},
+				{
+					"declared": 356,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-a",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 110,
+			"rows": [
+				{
+					"declared": 330,
+					"accept": false
+				},
+				{
+					"declared": 334,
+					"accept": false
+				},
+				{
+					"declared": 326,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-b",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 95,
+			"rows": [
+				{
+					"declared": 285,
+					"accept": false
+				},
+				{
+					"declared": 289,
+					"accept": false
+				},
+				{
+					"declared": 281,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mod-c",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 126,
+			"rows": [
+				{
+					"declared": 378,
+					"accept": false
+				},
+				{
+					"declared": 382,
+					"accept": false
+				},
+				{
+					"declared": 374,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-a",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 100,
+			"rows": [
+				{
+					"declared": 300,
+					"accept": false
+				},
+				{
+					"declared": 304,
+					"accept": false
+				},
+				{
+					"declared": 296,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-b",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 120,
+			"rows": [
+				{
+					"declared": 360,
+					"accept": false
+				},
+				{
+					"declared": 364,
+					"accept": false
+				},
+				{
+					"declared": 356,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "contrast-c",
+			"meter": "6/8",
+			"triple": false,
+			"detected": 76,
+			"rows": [
+				{
+					"declared": 228,
+					"accept": false
+				},
+				{
+					"declared": 232,
+					"accept": false
+				},
+				{
+					"declared": 224,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 88,
+			"rows": [
+				{
+					"declared": 264,
+					"accept": false
+				},
+				{
+					"declared": 268,
+					"accept": false
+				},
+				{
+					"declared": 260,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-noise",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-double",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 96,
+			"rows": [
+				{
+					"declared": 288,
+					"accept": false
+				},
+				{
+					"declared": 292,
+					"accept": false
+				},
+				{
+					"declared": 284,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-rubato-noise",
+			"meter": "3/4",
+			"triple": true,
+			"detected": 104,
+			"rows": [
+				{
+					"declared": 312,
+					"accept": true
+				},
+				{
+					"declared": 316,
+					"accept": false
+				},
+				{
+					"declared": 308,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "mislead-pad-double",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 72,
+			"rows": [
+				{
+					"declared": 216,
+					"accept": false
+				},
+				{
+					"declared": 220,
+					"accept": false
+				},
+				{
+					"declared": 212,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swing-x",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swing-y",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 92,
+			"rows": [
+				{
+					"declared": 276,
+					"accept": false
+				},
+				{
+					"declared": 280,
+					"accept": false
+				},
+				{
+					"declared": 272,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-a",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 70,
+			"rows": [
+				{
+					"declared": 210,
+					"accept": false
+				},
+				{
+					"declared": 214,
+					"accept": false
+				},
+				{
+					"declared": 206,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-a",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 140,
+			"rows": [
+				{
+					"declared": 420,
+					"accept": false
+				},
+				{
+					"declared": 424,
+					"accept": false
+				},
+				{
+					"declared": 416,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-low-b",
+			"meter": "3/4",
+			"triple": true,
+			"detected": 72,
+			"rows": [
+				{
+					"declared": 216,
+					"accept": true
+				},
+				{
+					"declared": 220,
+					"accept": false
+				},
+				{
+					"declared": 212,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "oct-high-b",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 144,
+			"rows": [
+				{
+					"declared": 432,
+					"accept": false
+				},
+				{
+					"declared": 436,
+					"accept": false
+				},
+				{
+					"declared": 428,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "verb-x",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 100,
+			"rows": [
+				{
+					"declared": 300,
+					"accept": false
+				},
+				{
+					"declared": 304,
+					"accept": false
+				},
+				{
+					"declared": 296,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "dense-x",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 126,
+			"rows": [
+				{
+					"declared": 378,
+					"accept": false
+				},
+				{
+					"declared": 382,
+					"accept": false
+				},
+				{
+					"declared": 374,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "dense-y",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 88,
+			"rows": [
+				{
+					"declared": 264,
+					"accept": false
+				},
+				{
+					"declared": 268,
+					"accept": false
+				},
+				{
+					"declared": 260,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "medmod-x",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 104,
+			"rows": [
+				{
+					"declared": 312,
+					"accept": false
+				},
+				{
+					"declared": 316,
+					"accept": false
+				},
+				{
+					"declared": 308,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "medmod-y",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 118,
+			"rows": [
+				{
+					"declared": 354,
+					"accept": false
+				},
+				{
+					"declared": 358,
+					"accept": false
+				},
+				{
+					"declared": 350,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "eat-all-the-clocks",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 120,
+			"rows": [
+				{
+					"declared": 360,
+					"accept": false
+				},
+				{
+					"declared": 364,
+					"accept": false
+				},
+				{
+					"declared": 356,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "letter-lands",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-6",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 92,
+			"rows": [
+				{
+					"declared": 276,
+					"accept": false
+				},
+				{
+					"declared": 280,
+					"accept": false
+				},
+				{
+					"declared": 272,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-62",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 92,
+			"rows": [
+				{
+					"declared": 276,
+					"accept": false
+				},
+				{
+					"declared": 280,
+					"accept": false
+				},
+				{
+					"declared": 272,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-645",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 92,
+			"rows": [
+				{
+					"declared": 276,
+					"accept": false
+				},
+				{
+					"declared": 280,
+					"accept": false
+				},
+				{
+					"declared": 272,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-67",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 92,
+			"rows": [
+				{
+					"declared": 276,
+					"accept": false
+				},
+				{
+					"declared": 280,
+					"accept": false
+				},
+				{
+					"declared": 272,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-92-7",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 92,
+			"rows": [
+				{
+					"declared": 276,
+					"accept": false
+				},
+				{
+					"declared": 280,
+					"accept": false
+				},
+				{
+					"declared": 272,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-6",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-62",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-645",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-67",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-112-7",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 112,
+			"rows": [
+				{
+					"declared": 336,
+					"accept": false
+				},
+				{
+					"declared": 340,
+					"accept": false
+				},
+				{
+					"declared": 332,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-6",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-62",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-645",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-67",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		},
+		{
+			"itemId": "swingstress-132-7",
+			"meter": "4/4",
+			"triple": false,
+			"detected": 132,
+			"rows": [
+				{
+					"declared": 396,
+					"accept": false
+				},
+				{
+					"declared": 400,
+					"accept": false
+				},
+				{
+					"declared": 392,
+					"accept": false
+				}
+			]
+		}
+	]
+}
