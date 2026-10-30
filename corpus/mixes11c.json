@@ -1,0 +1,100 @@
+{
+	"version": 1,
+	"seed": "hand-authored-20261030-study11c",
+	"note": "Study 11c mirror fixture (stem-shovel RESPONSE-2026-10-30 item 2): straight 4/4 with RUNNING EIGHTHS (swing 0.5 = the straight offbeat) at three tempi, each paired with a genuinely WRONG declared tempo at exactly 2/3 of truth. The case the bench's declared-lag rule cannot survive by construction (the declared lag's third IS the eighth grid) and the shipped declared-meter gate rejects by data. Scored under both rules so the fix-1 choice is measured, not argued.",
+	"mixes": [
+		{
+			"id": "mirror-96",
+			"title": "Mirror 96",
+			"meter": "4/4",
+			"swing": 0.5,
+			"wrongDeclared": 64,
+			"sections": [
+				{
+					"bpm": 96,
+					"key": "Bb major",
+					"bars": [
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Gm",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Eb",
+						"F",
+						"Bb",
+						"Bb"
+					]
+				}
+			]
+		},
+		{
+			"id": "mirror-120",
+			"title": "Mirror 120",
+			"meter": "4/4",
+			"swing": 0.5,
+			"wrongDeclared": 80,
+			"sections": [
+				{
+					"bpm": 120,
+					"key": "C major",
+					"bars": [
+						"C",
+						"F",
+						"G",
+						"C",
+						"Am",
+						"F",
+						"G",
+						"C",
+						"C",
+						"F",
+						"G",
+						"C",
+						"F",
+						"G",
+						"C",
+						"C"
+					]
+				}
+			]
+		},
+		{
+			"id": "mirror-138",
+			"title": "Mirror 138",
+			"meter": "4/4",
+			"swing": 0.5,
+			"wrongDeclared": 92,
+			"sections": [
+				{
+					"bpm": 138,
+					"key": "E minor",
+					"bars": [
+						"Em",
+						"C",
+						"D",
+						"Em",
+						"Am",
+						"C",
+						"D",
+						"Em",
+						"Em",
+						"C",
+						"D",
+						"Em",
+						"C",
+						"D",
+						"Em",
+						"Em"
+					]
+				}
+			]
+		}
+	]
+}
