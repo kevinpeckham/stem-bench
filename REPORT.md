@@ -26,9 +26,13 @@ subdivision 3 — two of Study 10's octave-family misses fixed at the
 detector level by the super-beat re-pick). But lilt-a's super-beat
 ratio is 1.029 against the 1.05 margin (their own fixtures measured
 1.02–1.12 — the bench's lighter accents land at the bottom of that
-band), and verb-y's reverb smears it to **0.991 — inside the straight
-items' 0.91–0.97 band**, where no margin reaches it without letting
-straight songs through. The save is complete, though: on all 4
+band), and verb-y's reverb smears it to **0.991 — below 1.0, the straight
+envelope's theoretical ceiling** (their own AM-GM bound; measured
+straight items sit just under at 0.91–0.97), so no margin that is
+safe by construction can reach it. [Corrected 2026-10-30: this
+originally read "inside the 0.91–0.97 band," which 0.991 is not —
+the operative claim is the ceiling, caught in the downstream's
+sourcing pass.] The save is complete, though: on all 4
 compound items the true dotted tempo sits ON the shipped alternates
 ladder (strengths 0.97–1.07, top rung) — the rung-picker UI surfaces
 the right count everywhere the 6/8 call misses.
