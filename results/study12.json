@@ -1,0 +1,450 @@
+{
+	"version": 1,
+	"synth": [
+		{
+			"itemId": "drift-4a",
+			"class": "loop",
+			"barCount": 16,
+			"maxAbsErr": 0.5109297052154176,
+			"within025": 15,
+			"sectionErrs": [],
+			"normalizedCost": 0.03942422938244185
+		},
+		{
+			"itemId": "drift-4b",
+			"class": "loop",
+			"barCount": 16,
+			"maxAbsErr": 0.09287981859410431,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.034421072905686564
+		},
+		{
+			"itemId": "waltz-a",
+			"class": "loop",
+			"barCount": 18,
+			"maxAbsErr": 0.6181916099773233,
+			"within025": 17,
+			"sectionErrs": [],
+			"normalizedCost": 0.043008542768215995
+		},
+		{
+			"itemId": "waltz-b",
+			"class": "loop",
+			"barCount": 18,
+			"maxAbsErr": 0.041768707482994216,
+			"within025": 18,
+			"sectionErrs": [],
+			"normalizedCost": 0.05246869976309382
+		},
+		{
+			"itemId": "lilt-a",
+			"class": "loop",
+			"barCount": 16,
+			"maxAbsErr": 0.18594104308390058,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.0454091871133964
+		},
+		{
+			"itemId": "lilt-b",
+			"class": "loop",
+			"barCount": 16,
+			"maxAbsErr": 0.5572789115646231,
+			"within025": 15,
+			"sectionErrs": [],
+			"normalizedCost": 0.05304156992251518
+		},
+		{
+			"itemId": "shift-a",
+			"class": "change",
+			"barCount": 16,
+			"maxAbsErr": 0.6093424036281156,
+			"within025": 14,
+			"sectionErrs": [
+				0.03337868480725703
+			],
+			"normalizedCost": 0.038363665471310204
+		},
+		{
+			"itemId": "shift-b",
+			"class": "change",
+			"barCount": 16,
+			"maxAbsErr": 0.09287981859410431,
+			"within025": 16,
+			"sectionErrs": [
+				0.0050793650793679035
+			],
+			"normalizedCost": 0.032225709770300155
+		},
+		{
+			"itemId": "shift-c",
+			"class": "change",
+			"barCount": 18,
+			"maxAbsErr": 0.5759637188208622,
+			"within025": 15,
+			"sectionErrs": [
+				0.5759637188208622
+			],
+			"normalizedCost": 0.043071628908213234
+		},
+		{
+			"itemId": "mod-a",
+			"class": "change",
+			"barCount": 16,
+			"maxAbsErr": 0.09287981859410431,
+			"within025": 16,
+			"sectionErrs": [
+				0.04300968872397348
+			],
+			"normalizedCost": 0.03784650979017986
+		},
+		{
+			"itemId": "mod-b",
+			"class": "change",
+			"barCount": 16,
+			"maxAbsErr": 0.0927270557345814,
+			"within025": 16,
+			"sectionErrs": [
+				0.027802840434418385
+			],
+			"normalizedCost": 0.03226052863429599
+		},
+		{
+			"itemId": "mod-c",
+			"class": "change",
+			"barCount": 16,
+			"maxAbsErr": 0.09505668934240497,
+			"within025": 16,
+			"sectionErrs": [
+				0.08997732426303884
+			],
+			"normalizedCost": 0.03824441562048596
+		},
+		{
+			"itemId": "contrast-a",
+			"class": "contrast",
+			"barCount": 32,
+			"maxAbsErr": 0.46113378684805184,
+			"within025": 31,
+			"sectionErrs": [
+				0.06675736961451406,
+				7.105427357601002e-15,
+				1.4210854715202004e-14
+			],
+			"normalizedCost": 0.0196881499224201
+		},
+		{
+			"itemId": "contrast-b",
+			"class": "contrast",
+			"barCount": 24,
+			"maxAbsErr": 0.5512018140589561,
+			"within025": 22,
+			"sectionErrs": [
+				0.08671201814058982,
+				0.018503401360543847,
+				0.04934240362810982
+			],
+			"normalizedCost": 0.027827176991830873
+		},
+		{
+			"itemId": "contrast-c",
+			"class": "contrast",
+			"barCount": 20,
+			"maxAbsErr": 0.5572789115646266,
+			"within025": 19,
+			"sectionErrs": [
+				1.7763568394002505e-15,
+				3.552713678800501e-15
+			],
+			"normalizedCost": 0.0428268591560005
+		},
+		{
+			"itemId": "mislead-rubato",
+			"class": "mislead",
+			"barCount": 16,
+			"maxAbsErr": 0.5373242630385491,
+			"within025": 14,
+			"sectionErrs": [],
+			"normalizedCost": 0.07888948427869555
+		},
+		{
+			"itemId": "mislead-pad",
+			"class": "mislead",
+			"barCount": 16,
+			"maxAbsErr": 0.7850092764378473,
+			"within025": 14,
+			"sectionErrs": [],
+			"normalizedCost": 0.07013665343683816
+		},
+		{
+			"itemId": "mislead-noise",
+			"class": "mislead",
+			"barCount": 16,
+			"maxAbsErr": 0.09424860853432193,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.03516399386215127
+		},
+		{
+			"itemId": "mislead-double",
+			"class": "mislead",
+			"barCount": 16,
+			"maxAbsErr": 0.09278911564625503,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.045607121610451065
+		},
+		{
+			"itemId": "mislead-rubato-noise",
+			"class": "mislead",
+			"barCount": 18,
+			"maxAbsErr": 0.4679295307866713,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.09464347175251113
+		},
+		{
+			"itemId": "mislead-pad-double",
+			"class": "mislead",
+			"barCount": 16,
+			"maxAbsErr": 0.18068027210884452,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.03877247419896338
+		},
+		{
+			"itemId": "swing-x",
+			"class": "hard-swing",
+			"barCount": 16,
+			"maxAbsErr": 0.09287981859410431,
+			"within025": 16,
+			"sectionErrs": [],
+			"normalizedCost": 0.03948088398539813
+		},
+		{
+			"itemId": "swing-y",
+			"class": "hard-swing",
+			"barCount": 16,
+			"maxAbsErr": 0.6825830622103837,
+			"within025": 15,
+			"sectionErrs": [],
+			"normalizedCost": 0.03825243363396368
+		},
+		{
+			"itemId": "oct-low-a",
+			"class": "hard-octave",
+			"barCount": 12,
+			"maxAbsErr": 0.09287981859410431,
+			"within025": 12,
+			"sectionErrs": [],
+			"normalizedCost": 0.03259788115333535
+		},
+		{
+			"itemId": "oct-high-a",
+			"class": "hard-octave",
+			"barCount": 20,
+			"maxAbsErr": 0.4246712018140606,
+			"within025": 19,
+			"sectionErrs": [],
+			"normalizedCost": 0.03813487343483981
+		},
+		{
+			"itemId": "oct-low-b",
+			"class": "hard-octave",
+			"barCount": 12,
+			"maxAbsErr": 0.8050793650793651,
+			"within025": 11,
+			"sectionErrs": [],
+			"normalizedCost": 0.04476619449834931
+		},
+		{
+			"itemId": "oct-high-b",
+			"class": "hard-octave",
+			"barCount": 20,
+			"maxAbsErr": 0.5519274376417265,
+			"within025": 18,
+			"sectionErrs": [],
+			"normalizedCost": 0.040068881882496146
+		},
+		{
+			"itemId": "verb-x",
+			"class": "hard-reverb",
+			"barCount": 16,
+			"maxAbsErr": 1.2074376417233594,
+			"within025": 15,
+			"sectionErrs": [],
+			"normalizedCost": 0.05761685974581976
+		},
+		{
+			"itemId": "verb-y",
+			"class": "hard-reverb",
+			"barCount": 12,
+			"maxAbsErr": 1.3179138321995474,
+			"within025": 11,
+			"sectionErrs": [],
+			"normalizedCost": 0.07827538999720521
+		},
+		{
+			"itemId": "dense-x",
+			"class": "hard-dense",
+			"barCount": 16,
+			"maxAbsErr": 0.37442176870748334,
+			"within025": 15,
+			"sectionErrs": [],
+			"normalizedCost": 0.03661846910840883
+		},
+		{
+			"itemId": "dense-y",
+			"class": "hard-dense",
+			"barCount": 16,
+			"maxAbsErr": 1.4351680065965766,
+			"within025": 14,
+			"sectionErrs": [],
+			"normalizedCost": 0.021511523033330513
+		},
+		{
+			"itemId": "medmod-x",
+			"class": "hard-mediantmod",
+			"barCount": 16,
+			"maxAbsErr": 0.09269841269840384,
+			"within025": 16,
+			"sectionErrs": [
+				0.0356671899529033
+			],
+			"normalizedCost": 0.036113755177715395
+		},
+		{
+			"itemId": "medmod-y",
+			"class": "hard-mediantmod",
+			"barCount": 16,
+			"maxAbsErr": 0.09203120796341224,
+			"within025": 16,
+			"sectionErrs": [
+				0.008609093354856157
+			],
+			"normalizedCost": 0.04061755000316558
+		}
+	],
+	"probe": [
+		{
+			"recording": "drift-4a",
+			"chart": "waltz-b",
+			"rightCost": 0.03942422938244185,
+			"wrongCost": 0.6409510739807888
+		},
+		{
+			"recording": "waltz-b",
+			"chart": "drift-4a",
+			"rightCost": 0.05246869976309382,
+			"wrongCost": 0.6204785521548872
+		},
+		{
+			"recording": "contrast-b",
+			"chart": "mod-a",
+			"rightCost": 0.027827176991830873,
+			"wrongCost": 0.36057269059617547
+		},
+		{
+			"recording": "mod-a",
+			"chart": "contrast-b",
+			"rightCost": 0.03784650979017986,
+			"wrongCost": 0.3273050929005908
+		},
+		{
+			"recording": "swing-x",
+			"chart": "oct-low-a",
+			"rightCost": 0.03948088398539813,
+			"wrongCost": 0.34337023410150647
+		},
+		{
+			"recording": "oct-low-a",
+			"chart": "swing-x",
+			"rightCost": 0.03259788115333535,
+			"wrongCost": 0.3510826844269063
+		}
+	],
+	"real": [
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"declaredCount": 10,
+			"chartCount": 10,
+			"placed": [
+				7.2,
+				10.9,
+				21.9,
+				36.4,
+				51,
+				65.5,
+				79.9,
+				94.5,
+				107.2,
+				114.5
+			],
+			"declared": [
+				0,
+				7.2727,
+				21.8182,
+				36.3636,
+				50.9091,
+				65.4545,
+				80,
+				94.5455,
+				109.0909,
+				123.6364
+			],
+			"errs": [
+				3.61,
+				0.08,
+				0.02,
+				0.09,
+				0.06,
+				0.11,
+				0.04,
+				1.88,
+				9.11
+			],
+			"normalizedCost": 0.25657905067399633
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"declaredCount": 9,
+			"chartCount": 9,
+			"placed": [
+				2.4,
+				28.1,
+				44.1,
+				56.2,
+				74,
+				93.7,
+				101.5,
+				116,
+				139.2
+			],
+			"declared": [
+				0,
+				28,
+				44,
+				56,
+				72,
+				96,
+				108,
+				124,
+				140
+			],
+			"errs": [
+				0.07,
+				0.06,
+				0.24,
+				1.99,
+				2.34,
+				6.53,
+				7.98,
+				0.82
+			],
+			"normalizedCost": 0.25030680681210754
+		}
+	]
+}
