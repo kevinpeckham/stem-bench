@@ -253,6 +253,25 @@ everywhere the 6/8 call misses.
 Registration: [docs/BRIEF-STUDY11B.md](docs/BRIEF-STUDY11B.md).
 Findings: [REPORT.md](REPORT.md).
 
+## Study 11c: the declared-meter gate, and the mirror that retired a rule
+
+stem-shovel patched the ladder after Study 11b — the 3:2 and ×3 rung
+gates moved to the song's declared time signature, off the detector's
+flag entirely — rejecting the bench's proposed acoustic rule with a
+constructed counterexample, and asked for three validations including
+a mirror fixture aimed at the bench's own rule. The bench registered
+the prediction of its own defeat before running, and it landed: the
+declared-lag rule accepted 3 of 3 wrong values on straight running
+eighths declared at ⅔, and is withdrawn. The declared-meter gate
+passed everything a gate controls: 0 of 332 wrong rows, three matches
+gained, the fast waltz counted three to the bar, the true error kept
+loud by data. The mirror also produced the first synthetic
+reproduction of the detection-side ⅔-plus-false-compound confound — a
+free regression fixture. Verdict: ship the patch.
+
+Registration: [docs/BRIEF-STUDY11C.md](docs/BRIEF-STUDY11C.md).
+Findings: [REPORT.md](REPORT.md).
+
 ## Run it
 
 ```sh
