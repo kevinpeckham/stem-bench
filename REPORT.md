@@ -1,5 +1,87 @@
 # stem-bench REPORT
 
+## Study 13 — the chord path meets real audio, and the reconciler earns its keep (2026-10-30)
+
+The reconciler question ("would it still have value?") answered as a
+registered two-arm conditional (e932906): first measure what it would
+improve, then run it only if there is headroom. Study 12's artifacts
+made the measurement possible — the bar grid in recording seconds and
+bar-aligned chord truth on real audio.
+
+**Arm 1 — the finding that matters most: production's chord path
+scores 38.2 % on a real recording.** Basic Pitch + the v0.142 matcher
+— 95.8 % at home on the synthetic bench, the Study 10 winner over
+ChordMini — reads the real letter-lands at 29/76 bars (strict-first
+20/76; the registered power-chord allowance did real work, 9 bars),
+and the exploratory eat-all-the-clocks at 27.9 %. The home-field gap
+is not the predicted 15–30 points; it is nearly 60. Real synth pads,
+guitar voicings and sustained textures are what Study 1's fixture
+gotcha warned about (rich harmonics defeat the transcription), now
+measured instead of suspected. The 80–83 literature plateau was never
+the matcher's to claim. The registered trigger (< 90 %) fired without
+drama.
+
+**Amendment 1, our recurring own-harness lesson:** all four pilot
+cells truncated at the registered 4000-token output cap — the models
+narrate per-bar before the JSON — the exact budget-conflates-with-
+failure class Study 8's Amendment 1 hit. Cap to 16000, re-run under
+the fence; the truncated run stays in history. (Fable also ignores
+the temperature-0 deviation — the gateway says unsupported —
+disclosed.)
+
+**Arm 2 — S13-G2 PASS for both models, and the agreement-trap clause
+came back spotless.** One text-only pass over the key, the detected
+chords and production's own per-bar note lines:
+
+| model | reconciled | baseline | fixes | breaks |
+|---|---|---|---|---|
+| claude-fable-5-1 (production) | **41/76 (53.9 %)** | 29/76 | **12** | **0** |
+| gemini-3.5-flash | 36/76 (47.4 %) | 29/76 | 7 | 0 |
+
++15.7 points for the production model with ZERO right-answers broken
+across 27 changed bars — the double-fix gate (fixes ≥ 2× breaks),
+registered against Study 9's agreement trap, passed at infinity. The
+exploratory song moved the same direction (fable +3, 0 breaks);
+gemini burned the full 16k budget narrating 86 bars and never reached
+the JSON there — the budget failure mode of that family (Studies 2
+and 8), not the over-editing one I predicted for it.
+
+Prediction scorecard: 1 right in direction, wrong in magnitude (the
+real gap is far larger than the 60s–80s guess); 2 right (fable
+passes; changed 27/76 just over the "under a third" sub-claim); 3
+wrong in the instructive direction (gemini passed the gate cleanly on
+the gated song and failed by budget, not by over-editing, on the
+other); 4 right.
+
+### What production does with this
+
+Two findings, in order of weight. First: **chord drafts on real user
+audio are far weaker than any synthetic number suggested** — 38 %,
+with the transcription (not the matcher, not the model) as the
+binding constraint; that reframes the chord-hint feature's honest
+quality bar and is worth a UI hedge regardless of anything else.
+Second: the reconciler is real and cheap — a text-only pass by the
+model production already runs for chart drafts lifts the real-audio
+number 16 points with zero breaks for about a cent a song. Ship shape:
+reconcile inside the chart-draft job (symbols in, symbols out), keep
+the detector's chord when the model's answer parses to nothing, and
+cap output generously (Amendment 1's lesson). The ceiling remains the
+transcription: 54 % reconciled is better, not good — if the chord
+feature matters, the next investment is Basic Pitch's successor on
+real timbres, not more model.
+
+### Spend
+
+≈ $0.60 of the $3 fence (including the truncated first pilot). The
+program's model spend since Study 9: ≈ $0.70.
+
+### Disclosure
+
+Analyst Claude Fable 5; arm 2 measures claude-fable-5-1 (same family),
+tolerable as in Study 1 because every grade is mechanical, committed
+and tested before any call. One registered trigger, one amendment,
+truncated run preserved.
+
 ## Study 12 — chart-to-seconds by synthesize-and-align: code takes the model's last job, and the edges talk back (2026-10-30)
 
 The candidates memo's recommendation A, registered by the bench
