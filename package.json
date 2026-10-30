@@ -51,7 +51,9 @@
 		"study12:analyze": "bun scripts/analyze-study12.ts",
 		"study13:arm1": "bun scripts/run-study13.ts",
 		"study13:arm2": "bun scripts/run-study13-reconcile.ts",
-		"study13:analyze": "bun scripts/analyze-study13.ts"
+		"study13:analyze": "bun scripts/analyze-study13.ts",
+		"study14:run": "bun scripts/run-study14.ts",
+		"study14:arm-e": "bun scripts/run-study14-reconcile.ts"
 	},
 	"dependencies": {
 		"@ai-sdk/gateway": "^4.0.82",
