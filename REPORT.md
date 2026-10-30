@@ -1,5 +1,92 @@
 # stem-bench REPORT
 
+## Study 14 — the shipped alignment and reconciler validated; the same-piece constant caught before release (2026-10-30)
+
+All four asks from the stem-shovel responses, on verbatim ports at
+their pins (the alignment set at 39c25b5, the reconciler utils at
+5b2288f8), registered at 3cfd698 with one amendment. ≈ $0.40.
+
+**G1 PASS, exact.** Their parsers round-trip the bench's material
+perfectly: `chordChartBars` reproduces both MMKK transcriptions bar
+for bar and section for section from the band-markdown conventions
+(76/76, 86/86), `chartBars` reads a Study 8 marked measure summary to
+its spec (24/24, marks, tempo, meter), and the 6/8-in-eighths
+convention renders exactly the app's bar seconds (2.000 s at 180).
+Future bench studies can feed production's own parsers.
+
+**G2 FAIL — and this is the study's reason to exist: the shipped
+same-piece constant rejects the band's own correct charts.** The
+tritone-ratio landscape: right charts score 24–49 on synthetic audio
+but **2.04 and 2.53 on the real recordings — both below the shipped
+threshold of 3** — so `samePiece` comes back false on correct charts,
+every placement gets hedged, and the song-check's card would tell the
+band their own chart "does not seem to match." Amendment 1 added the
+missing measurement, the real-domain wrong pairs: **1.17 and 1.24.**
+So on real audio — the only domain production sees — the control DOES
+separate (wrongs ≤ 1.24, rights ≥ 2.04), just not at 3.
+**Recommendation: ALIGNMENT_SAME_PIECE_RATIO ≈ 1.6** (the real-domain
+midpoint), with the honest caveats attached: n = 2 per class, one
+band, and the margin is a factor of ~1.6 rather than Study 12's order
+of magnitude — worth a second check (the local-cost median is already
+computed and separates further) before trusting it at scale. The
+synthetic numbers that inspired the 3 were real but belong to a
+domain production never sees — the home-field lesson, third
+appearance.
+
+**G3 FAIL by letter, via that same constant and nothing else.** The
+shipped aligner itself, fed through its own parser from the markdown:
+six of eight non-edge boundaries within 0.11 s of the band's declared
+starts (Study 12's precision reproduced through the production code
+path), edges hedged as designed, 1.1 s to align a 141 s song in Bun.
+The only failing clause is `samePiece` — the constant again.
+
+**G4 PASS, and production's configuration is strictly better than the
+bench's.** The reconciler under the shipped `thinking: adaptive,
+effort: low`: letter-lands **44/76 (fixes 15, breaks 0)** against the
+bench's thinking-off 41/76 (12/0), in half the output tokens — the
+thinking mode eats the per-bar narration that forced Study 13's cap
+amendment. The exploratory song improved too (28/86, 4/0). Zero
+breaks across every reconciler run in two studies.
+
+**Arm D — the edge fixes, measured (their ask 3).** The FIRST-ONSET
+snap repairs both real intros outright (letter-lands' first section
+placed 7.15 s with the declared start at 0 and first audible energy
+at 0.00; eat 2.41 → 0.00). The LAST-SOUND rule, stated as "the final
+section starts at the last audible sound minus the chart's final-
+section duration," repairs letter-lands' 9.11 s outro miss to
+**0.03 s** — but would worsen eat (whose outro length the bench's
+transcription guessed wrong), so it must ship gated on samePiece and
+hedged like the rest. Both are one-line additions to
+`alignedPlacements`.
+
+Prediction scorecard: 1 right; 2 WRONG in the direction that matters
+(the real-domain collapse of the tritone ratio was not predicted —
+the amendment exists because the registered pairs couldn't see it);
+3 half (the aligner clause passed; samePiece failed); 4 right; 5
+half-right (the last-sound rule exceeded expectations on the clean
+chart and inherits chart quality exactly as feared).
+
+### Verdict delivered
+
+Do not release the alignment with the constant at 3 — it hedges
+everything on real audio and mislabels correct charts as mismatched.
+Set it near 1.6 (or add the local-cost check) and both real behaviors
+come right: correct charts place with sub-tenth mid-song precision,
+wrong charts still refuse. Ship the two edge rules behind the
+samePiece gate. The reconciler needs nothing: the production config
+out-performs the bench's measurement of it.
+
+### Spend
+
+≈ $0.40 of the $2 fence (arm E's two calls). Program spend since
+Study 9: ≈ $1.10.
+
+### Disclosure
+
+Analyst Claude Fable 5; arm E measures claude-fable-5-1 (family
+disclosure as before; mechanical grades committed first). Ten files
+ported verbatim; one amendment, registered before any verdict.
+
 ## Study 13 — the chord path meets real audio, and the reconciler earns its keep (2026-10-30)
 
 The reconciler question ("would it still have value?") answered as a
