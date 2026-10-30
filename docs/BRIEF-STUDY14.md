@@ -88,3 +88,18 @@ disclosure as Studies 1 and 13; every grade mechanical and committed
 first). Ten files ported verbatim at the named pins; the bench's
 `fft` import is the Study 9 port of the same function (byte-identical
 at a99fb18; their file's local changes since do not touch it).
+
+## Amendment 1 (2026-10-30, after arms A–D, before verdicts)
+
+Arm A found the registered pair set insufficient to set the constant:
+right-chart tritone ratios are 24–49 on synthetic but **2.0 and 2.5 on
+the real recordings — below the shipped 3** — while synthetic
+wrong-chart ratios reach 2.4; the bands overlap ACROSS domains, but
+production only ever sees real audio, and the registered pairs carry
+no real-domain wrong pairing. Amendment: the two real cross-pairings
+(letter-lands' recording against eat-all-the-clocks' chart and the
+reverse) are added to arm A, so the real-domain separation — the one
+production needs — is measured before any recommendation. No gate
+changes; S14-G2 will be judged by its letter (and its letter already
+fails on the real right-charts; the amendment measures what to
+recommend instead).

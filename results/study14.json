@@ -1,0 +1,325 @@
+{
+	"version": 1,
+	"pins": {
+		"alignment": "39c25b5",
+		"reconciler": "5b2288f8"
+	},
+	"armA": [
+		{
+			"itemId": "letter-lands",
+			"kind": "right-real",
+			"cost": 0.25657905068531467,
+			"controlCost": 0.5236104451586971,
+			"ratio": 2.040737323488219
+		},
+		{
+			"itemId": "eat-all-the-clocks",
+			"kind": "right-real",
+			"cost": 0.25030680673145383,
+			"controlCost": 0.6335178270486628,
+			"ratio": 2.5309652395044284
+		},
+		{
+			"itemId": "drift-4a",
+			"kind": "right-synth",
+			"cost": 0.017973921932468304,
+			"controlCost": 0.7477315822735617,
+			"ratio": 41.60091409559594
+		},
+		{
+			"itemId": "drift-4a⊗waltz-b",
+			"kind": "wrong-synth",
+			"cost": 0.6387980918076438,
+			"controlCost": 0.38351330810053125,
+			"ratio": 0.600367022098143,
+			"wrongOverRight": 35.54027296923502
+		},
+		{
+			"itemId": "waltz-b",
+			"kind": "right-synth",
+			"cost": 0.027754549036613438,
+			"controlCost": 0.6711283397422472,
+			"ratio": 24.180841088677155
+		},
+		{
+			"itemId": "waltz-b⊗drift-4a",
+			"kind": "wrong-synth",
+			"cost": 0.6009966946348234,
+			"controlCost": 0.35063042483964735,
+			"ratio": 0.58341489723616,
+			"wrongOverRight": 21.653988823309522
+		},
+		{
+			"itemId": "contrast-b",
+			"kind": "right-synth",
+			"cost": 0.013812300731773126,
+			"controlCost": 0.6762895477236686,
+			"ratio": 48.9628455719883
+		},
+		{
+			"itemId": "contrast-b⊗mod-a",
+			"kind": "wrong-synth",
+			"cost": 0.25910358117559495,
+			"controlCost": 0.6143657547878016,
+			"ratio": 2.3711202755296727,
+			"wrongOverRight": 18.758900939621597
+		},
+		{
+			"itemId": "mod-a",
+			"kind": "right-synth",
+			"cost": 0.018582501573442094,
+			"controlCost": 0.657105149076576,
+			"ratio": 35.36150105945388
+		},
+		{
+			"itemId": "mod-a⊗contrast-b",
+			"kind": "wrong-synth",
+			"cost": 0.31892705707399127,
+			"controlCost": 0.6530532945190327,
+			"ratio": 2.0476572308116334,
+			"wrongOverRight": 17.162762280068808
+		},
+		{
+			"itemId": "swing-x",
+			"kind": "right-synth",
+			"cost": 0.022168100901784903,
+			"controlCost": 0.668102802906153,
+			"ratio": 30.138026070260242
+		},
+		{
+			"itemId": "swing-x⊗oct-low-a",
+			"kind": "wrong-synth",
+			"cost": 0.2611304638259598,
+			"controlCost": 0.6338242273616196,
+			"ratio": 2.427232035952939,
+			"wrongOverRight": 11.779559511339755
+		},
+		{
+			"itemId": "oct-low-a",
+			"kind": "right-synth",
+			"cost": 0.01600015227130362,
+			"controlCost": 0.7810114007409554,
+			"ratio": 48.81274799751154
+		},
+		{
+			"itemId": "oct-low-a⊗swing-x",
+			"kind": "wrong-synth",
+			"cost": 0.31109963519203504,
+			"controlCost": 0.7143780924984177,
+			"ratio": 2.2963000006652132,
+			"wrongOverRight": 19.443542156157747
+		}
+	],
+	"armB": {
+		"checks": [
+			{
+				"slug": "letter-lands",
+				"parsedBars": 76,
+				"wantBars": 76,
+				"chordsEqual": true,
+				"sectionsEqual": true,
+				"warnings": []
+			},
+			{
+				"slug": "eat-all-the-clocks",
+				"parsedBars": 86,
+				"wantBars": 86,
+				"chordsEqual": true,
+				"sectionsEqual": true,
+				"warnings": []
+			},
+			{
+				"slug": "contrast-b-summary",
+				"parsedBars": 24,
+				"wantBars": 24,
+				"tempo": 120,
+				"meter": "4/4",
+				"sections": [
+					"Intro",
+					"Verse",
+					"Bridge",
+					"Chorus"
+				],
+				"warnings": []
+			},
+			{
+				"slug": "six-eight-eighths",
+				"barSeconds": 2,
+				"want": 2
+			}
+		]
+	},
+	"armC": [
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"ms": 1115,
+			"samePiece": false,
+			"ratio": 2.040737323488219,
+			"sections": [
+				{
+					"name": "Intro",
+					"start": 7.151746031746032,
+					"hedged": true,
+					"declared": 0,
+					"err": 7.151746031746032
+				},
+				{
+					"name": "Verse",
+					"start": 10.880989486703772,
+					"hedged": true,
+					"declared": 7.2727,
+					"err": 3.6082894867037716
+				},
+				{
+					"name": "Chorus",
+					"start": 21.90248608534322,
+					"hedged": true,
+					"declared": 21.8182,
+					"err": 0.08428608534321924
+				},
+				{
+					"name": "Verse",
+					"start": 36.38626262626262,
+					"hedged": true,
+					"declared": 36.3636,
+					"err": 0.02266262626262261
+				},
+				{
+					"name": "Chorus",
+					"start": 50.99649556792414,
+					"hedged": true,
+					"declared": 50.9091,
+					"err": 0.0873955679241405
+				},
+				{
+					"name": "Bridge",
+					"start": 65.51384869099155,
+					"hedged": true,
+					"declared": 65.4545,
+					"err": 0.059348690991555486
+				},
+				{
+					"name": "Verse",
+					"start": 79.89188208616778,
+					"hedged": true,
+					"declared": 80,
+					"err": 0.10811791383221703
+				},
+				{
+					"name": "Chorus",
+					"start": 94.50211502782928,
+					"hedged": true,
+					"declared": 94.5455,
+					"err": 0.043384972170727565
+				},
+				{
+					"name": "Verse",
+					"start": 107.20831168831164,
+					"hedged": true,
+					"declared": 109.0909,
+					"err": 1.882588311688366
+				},
+				{
+					"name": "Outro",
+					"start": 114.52747887033594,
+					"hedged": true,
+					"declared": 123.6364,
+					"err": 9.108921129664054
+				}
+			]
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"ms": 1182,
+			"samePiece": false,
+			"ratio": 2.5309652395044284,
+			"sections": [
+				{
+					"name": "Part 1",
+					"start": 2.4148752834467118,
+					"hedged": true,
+					"declared": 0,
+					"err": 2.4148752834467118
+				},
+				{
+					"name": "Part 2",
+					"start": 28.071292517006803,
+					"hedged": true,
+					"declared": 28,
+					"err": 0.07129251700680328
+				},
+				{
+					"name": "Verse",
+					"start": 44.058956916099774,
+					"hedged": true,
+					"declared": 44,
+					"err": 0.05895691609977405
+				},
+				{
+					"name": "Chorus",
+					"start": 56.23546485260771,
+					"hedged": true,
+					"declared": 56,
+					"err": 0.23546485260771277
+				},
+				{
+					"name": "Bridge",
+					"start": 73.99401360544218,
+					"hedged": true,
+					"declared": 72,
+					"err": 1.994013605442177
+				},
+				{
+					"name": "Verse",
+					"start": 93.65659863945578,
+					"hedged": true,
+					"declared": 96,
+					"err": 2.3434013605442203
+				},
+				{
+					"name": "Chorus",
+					"start": 101.46775510204081,
+					"hedged": true,
+					"declared": 108,
+					"err": 6.532244897959188
+				},
+				{
+					"name": "Chorus",
+					"start": 116.02195011337868,
+					"hedged": true,
+					"declared": 124,
+					"err": 7.978049886621321
+				},
+				{
+					"name": "Outro",
+					"start": 139.17532879818594,
+					"hedged": true,
+					"declared": 140,
+					"err": 0.8246712018140556
+				}
+			]
+		}
+	],
+	"armD": [
+		{
+			"slug": "letter-lands",
+			"firstOnset": 0,
+			"lastSound": 138.16,
+			"firstPlaced": 7.151746031746032,
+			"firstDeclared": 0,
+			"lastPlaced": 114.52747887033594,
+			"lastDeclared": 123.6364
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"firstOnset": 0,
+			"lastSound": 140.41,
+			"firstPlaced": 2.4148752834467118,
+			"firstDeclared": 0,
+			"lastPlaced": 139.17532879818594,
+			"lastDeclared": 140
+		}
+	]
+}
