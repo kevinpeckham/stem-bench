@@ -9,7 +9,7 @@ the alignment ports from Study 15 are unchanged at the pins). All five
 stored Badverbs charts were migrated; the four public ones are the
 corpus, fetched verbatim with the band's current declared sections
 (Interbellum is not on a public page — disclosed, out of scope).
-Registered f6678cf; Amendment 1 (exploratory-pair refusal handling)
+Registered b589daf; Amendment 1 (exploratory-pair refusal handling)
 before results were accepted; zero spend. **All four gates pass; all
 four predictions hit.**
 
