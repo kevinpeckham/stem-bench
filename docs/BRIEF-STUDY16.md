@@ -159,3 +159,14 @@ $0. No model runs. Pilot fence and matrix fence vacuous.
   bodies are byte-identical between the two parsers' inputs.
 - Fetching the corpus preceded this registration; no fetched chart was
   parsed before the brief and graders were committed.
+
+## Amendment 1 (2026-11-01, registered before results were accepted)
+
+The first run crashed in the EXPLORATORY mop-heart cross-pairs after
+every gate had printed: `alignChart` throws when a chart runs more
+than twice the recording ("check its tempo" — production's own
+refusal), and peaceful-dreams' 253 s chart against mop-heart's ~112 s
+recording trips it. The runner now catches the throw for exploratory
+cross-pairs and records the refusal — which, for a wrong pair, is the
+production path giving the right answer by construction. No gate, no
+grader and no gated pair is touched; the run is repeated whole.

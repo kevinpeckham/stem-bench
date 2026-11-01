@@ -169,14 +169,22 @@ for (const rec of GATED_C) {
 		console.log(`armC wrong ${rec} vs ${chart}: ratio ${p.ratio.toFixed(2)} medLocal ${medLocal.toFixed(3)} twoClause ${pass}`);
 	}
 }
-// mop-heart cross pairs, exploratory (first appearance of the song; not gated).
+// mop-heart cross pairs, exploratory (first appearance of the song; not
+// gated). Amendment 1: alignChart THROWS when a chart runs more than
+// twice the recording (production's own refusal — peaceful's 253 s chart
+// against mop-heart's recording); the runner records the refusal, which
+// for a wrong pair is the right answer by construction.
 for (const other of GATED_C) {
 	for (const [rec, chart] of [["mop-heart", other], [other, "mop-heart"]] as const) {
 		const bars = barsOf.get(chart);
 		if (!bars) continue;
-		const a = alignChart(bars, audioOf.get(rec)!, 22050);
-		const p = alignedPlacements(bars, a);
-		localStats.push({ itemId: `${rec}⊗${chart}`, kind: "wrong-real-expl", medianLocal: median(a.localCost), ratio: p.ratio });
+		try {
+			const a = alignChart(bars, audioOf.get(rec)!, 22050);
+			const p = alignedPlacements(bars, a);
+			localStats.push({ itemId: `${rec}⊗${chart}`, kind: "wrong-real-expl", medianLocal: median(a.localCost), ratio: p.ratio });
+		} catch (e) {
+			localStats.push({ itemId: `${rec}⊗${chart}`, kind: "wrong-real-expl", refused: (e as Error).message });
+		}
 	}
 }
 gate("G3", GATED_C.every((s) => rightPass.get(s)) && wrongAllFail, "two-clause same-piece: 3 right pairs pass, 6 wrong pairs fail");
