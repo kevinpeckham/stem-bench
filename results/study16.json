@@ -1,0 +1,709 @@
+{
+	"version": 1,
+	"pins": {
+		"stemShovel": [
+			"371831ae",
+			"b5ed9ed2",
+			"a0926c65"
+		],
+		"barmark": "0.5.0",
+		"retired": "39c25b5",
+		"alignment": "bc683871"
+	},
+	"armA": [
+		{
+			"slug": "letter-lands",
+			"bars": 76,
+			"diffs": [],
+			"retiredWarnings": [],
+			"adapterWarnings": []
+		},
+		{
+			"slug": "peaceful-dreams",
+			"bars": 152,
+			"diffs": [],
+			"retiredWarnings": [],
+			"adapterWarnings": []
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"bars": 86,
+			"diffs": [],
+			"retiredWarnings": [],
+			"adapterWarnings": []
+		}
+	],
+	"armB": [
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": true,
+			"bars": 71,
+			"warnings": [],
+			"grid": [
+				{
+					"name": "Part 1",
+					"declared": 0,
+					"grid": 0,
+					"err": 0
+				},
+				{
+					"name": "Part 2",
+					"declared": 28,
+					"grid": 28,
+					"err": 0
+				},
+				{
+					"name": "Verse",
+					"declared": 44,
+					"grid": 44,
+					"err": 0
+				},
+				{
+					"name": "Chorus",
+					"declared": 56,
+					"grid": 56,
+					"err": 0
+				},
+				{
+					"name": "Bridge",
+					"declared": 72,
+					"grid": 72,
+					"err": 0
+				},
+				{
+					"name": "Verse",
+					"declared": 96,
+					"grid": 96,
+					"err": 0
+				},
+				{
+					"name": "Chorus",
+					"declared": 108,
+					"grid": 108,
+					"err": 0
+				},
+				{
+					"name": "Chorus",
+					"declared": 124,
+					"grid": 124,
+					"err": 0
+				},
+				{
+					"name": "Outro",
+					"declared": 140,
+					"grid": 140,
+					"err": 0
+				}
+			],
+			"maxGridErr": 0,
+			"contentDiffs": null
+		},
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"bars": 76,
+			"warnings": [],
+			"grid": [
+				{
+					"name": "Intro",
+					"declared": 0,
+					"grid": 0,
+					"err": 0
+				},
+				{
+					"name": "Verse",
+					"declared": 7.2727,
+					"grid": 7.2727272727272725,
+					"err": 0.000027272727272098507
+				},
+				{
+					"name": "Chorus",
+					"declared": 21.8182,
+					"grid": 21.818181818181813,
+					"err": -0.000018181818187912313
+				},
+				{
+					"name": "Verse",
+					"declared": 36.3636,
+					"grid": 36.36363636363635,
+					"err": 0.000036363636354508344
+				},
+				{
+					"name": "Chorus",
+					"declared": 50.9091,
+					"grid": 50.909090909090914,
+					"err": -0.000009090909088627086
+				},
+				{
+					"name": "Bridge",
+					"declared": 65.4545,
+					"grid": 65.45454545454547,
+					"err": 0.00004545454547155714
+				},
+				{
+					"name": "Verse",
+					"declared": 80,
+					"grid": 79.99999999999997,
+					"err": -2.842170943040401e-14
+				},
+				{
+					"name": "Chorus",
+					"declared": 94.5455,
+					"grid": 94.54545454545448,
+					"err": -0.00004545454552840056
+				},
+				{
+					"name": "Verse",
+					"declared": 109.0909,
+					"grid": 109.09090909090898,
+					"err": 0.000009090908974940248
+				},
+				{
+					"name": "Outro",
+					"declared": 123.6364,
+					"grid": 123.63636363636348,
+					"err": -0.000036363636510827746
+				}
+			],
+			"maxGridErr": 0.00004545454552840056,
+			"contentDiffs": []
+		},
+		{
+			"slug": "mop-heart",
+			"gated": false,
+			"bars": 140,
+			"warnings": [],
+			"grid": [
+				{
+					"name": "Intro",
+					"declared": 0,
+					"grid": 0,
+					"err": 0
+				},
+				{
+					"name": "Verse",
+					"declared": 3.2143,
+					"grid": 3.2142857142857144,
+					"err": -0.000014285714285744433
+				},
+				{
+					"name": "Chorus",
+					"declared": 16.0714,
+					"grid": 16.071428571428573,
+					"err": 0.000028571428572377044
+				},
+				{
+					"name": "Verse",
+					"declared": 38.5714,
+					"grid": 38.57142857142856,
+					"err": 0.000028571428565271617
+				},
+				{
+					"name": "Chorus",
+					"declared": 51.4286,
+					"grid": 51.42857142857145,
+					"err": -0.000028571428551060762
+				},
+				{
+					"name": "Verse",
+					"declared": 73.9286,
+					"grid": 73.9285714285715,
+					"err": -0.00002857142850132277
+				},
+				{
+					"name": "Verse",
+					"declared": 86.7857,
+					"grid": 86.78571428571439,
+					"err": 0.000014285714385664505
+				},
+				{
+					"name": "Outro",
+					"declared": 99.6429,
+					"grid": 99.64285714285728,
+					"err": -0.00004285714271645702
+				}
+			],
+			"maxGridErr": 0.00004285714271645702,
+			"contentDiffs": null
+		},
+		{
+			"slug": "peaceful-dreams",
+			"gated": true,
+			"bars": 153,
+			"warnings": [],
+			"grid": [
+				{
+					"name": "Intro",
+					"declared": 0,
+					"grid": 0,
+					"err": 0
+				},
+				{
+					"name": "Verse",
+					"declared": 33.1034,
+					"grid": 33.10344827586207,
+					"err": 0.00004827586207056811
+				},
+				{
+					"name": "Chorus",
+					"declared": 66.2069,
+					"grid": 66.20689655172414,
+					"err": -0.0000034482758621834364
+				},
+				{
+					"name": "Verse",
+					"declared": 79.4483,
+					"grid": 79.44827586206902,
+					"err": -0.000024137930978440636
+				},
+				{
+					"name": "Chorus",
+					"declared": 112.5517,
+					"grid": 112.55172413793123,
+					"err": 0.00002413793123423602
+				},
+				{
+					"name": "Bridge",
+					"declared": 125.7931,
+					"grid": 125.79310344827611,
+					"err": 0.0000034482761179788213
+				},
+				{
+					"name": "Verse (Triads)",
+					"declared": 139.0345,
+					"grid": 139.03448275862098,
+					"err": -0.000017241379026700088
+				},
+				{
+					"name": "Verse",
+					"declared": 172.1379,
+					"grid": 172.1379310344832,
+					"err": 0.00003103448318597657
+				},
+				{
+					"name": "Interlude",
+					"declared": 205.2414,
+					"grid": 205.2413793103454,
+					"err": -0.00002068965460466643
+				},
+				{
+					"name": "Outro",
+					"declared": 218.4828,
+					"grid": 218.48275862069028,
+					"err": -0.00004137930972092363
+				}
+			],
+			"maxGridErr": 0.00004827586207056811,
+			"contentDiffs": []
+		}
+	],
+	"real": [
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": true,
+			"ratio": 2.6324089543802414,
+			"medianLocal": 0.20745545093502318,
+			"twoClausePass": true,
+			"firstSound": 0,
+			"lastSound": 141.86430839002267,
+			"medianAbsErr": 0.09,
+			"sections": [
+				{
+					"name": "Part 1",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "Part 2",
+					"placed": 28.07,
+					"declared": 28,
+					"err": 0.07,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 43.97,
+					"declared": 44,
+					"err": -0.03,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 56.09,
+					"declared": 56,
+					"err": 0.09,
+					"hedged": false
+				},
+				{
+					"name": "Bridge",
+					"placed": 72.32,
+					"declared": 72,
+					"err": 0.32,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 95.6,
+					"declared": 96,
+					"err": -0.4,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 107.96,
+					"declared": 108,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 124.1,
+					"declared": 124,
+					"err": 0.1,
+					"hedged": false
+				},
+				{
+					"name": "Outro",
+					"placed": 139.86,
+					"declared": 140,
+					"err": -0.14,
+					"hedged": true
+				}
+			]
+		},
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"ratio": 1.895289147576381,
+			"medianLocal": 0.21028416715562342,
+			"twoClausePass": true,
+			"firstSound": 0,
+			"lastSound": 138.26267573696146,
+			"medianAbsErr": 0.05,
+			"sections": [
+				{
+					"name": "Intro",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "Verse",
+					"placed": 10.88,
+					"declared": 7.2727,
+					"err": 3.61,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 21.78,
+					"declared": 21.8182,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 36.32,
+					"declared": 36.3636,
+					"err": -0.05,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 50.86,
+					"declared": 50.9091,
+					"err": -0.05,
+					"hedged": false
+				},
+				{
+					"name": "Bridge",
+					"placed": 65.42,
+					"declared": 65.4545,
+					"err": -0.03,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 79.38,
+					"declared": 80,
+					"err": -0.62,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 94.5,
+					"declared": 94.5455,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 106.33,
+					"declared": 109.0909,
+					"err": -2.76,
+					"hedged": false
+				},
+				{
+					"name": "Outro",
+					"placed": 123.72,
+					"declared": 123.6364,
+					"err": 0.08,
+					"hedged": true
+				}
+			]
+		},
+		{
+			"slug": "mop-heart",
+			"gated": false,
+			"ratio": 1.961790905095994,
+			"medianLocal": 0.24830159462160534,
+			"twoClausePass": true,
+			"firstSound": 0,
+			"lastSound": 113.60149659863946,
+			"medianAbsErr": 0.1,
+			"sections": [
+				{
+					"name": "Intro",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "Verse",
+					"placed": 6.16,
+					"declared": 3.2143,
+					"err": 2.94,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 16.16,
+					"declared": 16.0714,
+					"err": 0.09,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 38.47,
+					"declared": 38.5714,
+					"err": -0.11,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 51.4,
+					"declared": 51.4286,
+					"err": -0.03,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 73.92,
+					"declared": 73.9286,
+					"err": 0,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 86.64,
+					"declared": 86.7857,
+					"err": -0.15,
+					"hedged": false
+				},
+				{
+					"name": "Outro",
+					"placed": 100.74,
+					"declared": 99.6429,
+					"err": 1.1,
+					"hedged": true
+				}
+			]
+		},
+		{
+			"slug": "peaceful-dreams",
+			"gated": true,
+			"ratio": 3.182208251873725,
+			"medianLocal": 0.17749492182499832,
+			"twoClausePass": true,
+			"firstSound": 0,
+			"lastSound": 254.91555555555556,
+			"medianAbsErr": 0.11000000000000001,
+			"sections": [
+				{
+					"name": "Intro",
+					"placed": 0,
+					"declared": 0,
+					"err": 0,
+					"hedged": true
+				},
+				{
+					"name": "Verse",
+					"placed": 33.27,
+					"declared": 33.1034,
+					"err": 0.17,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 66.17,
+					"declared": 66.2069,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 79.43,
+					"declared": 79.4483,
+					"err": -0.02,
+					"hedged": false
+				},
+				{
+					"name": "Chorus",
+					"placed": 112.51,
+					"declared": 112.5517,
+					"err": -0.04,
+					"hedged": false
+				},
+				{
+					"name": "Bridge",
+					"placed": 126.01,
+					"declared": 125.7931,
+					"err": 0.22,
+					"hedged": false
+				},
+				{
+					"name": "Verse (Triads)",
+					"placed": 139.08,
+					"declared": 139.0345,
+					"err": 0.05,
+					"hedged": false
+				},
+				{
+					"name": "Verse",
+					"placed": 172.31,
+					"declared": 172.1379,
+					"err": 0.17,
+					"hedged": false
+				},
+				{
+					"name": "Interlude",
+					"placed": 204,
+					"declared": 205.2414,
+					"err": -1.24,
+					"hedged": false
+				},
+				{
+					"name": "Outro",
+					"placed": 220.16,
+					"declared": 218.4828,
+					"err": 1.67,
+					"hedged": true
+				}
+			]
+		}
+	],
+	"localStats": [
+		{
+			"itemId": "eat-all-the-clocks",
+			"kind": "right-real",
+			"medianLocal": 0.20745545093502318,
+			"ratio": 2.6324089543802414
+		},
+		{
+			"itemId": "letter-lands",
+			"kind": "right-real",
+			"medianLocal": 0.21028416715562342,
+			"ratio": 1.895289147576381
+		},
+		{
+			"itemId": "mop-heart",
+			"kind": "right-real",
+			"medianLocal": 0.24830159462160534,
+			"ratio": 1.961790905095994
+		},
+		{
+			"itemId": "peaceful-dreams",
+			"kind": "right-real",
+			"medianLocal": 0.17749492182499832,
+			"ratio": 3.182208251873725
+		},
+		{
+			"itemId": "letter-lands⊗peaceful-dreams",
+			"kind": "wrong-real",
+			"medianLocal": 0.4752480718824599,
+			"ratio": 1.1329887694845682
+		},
+		{
+			"itemId": "letter-lands⊗eat-all-the-clocks",
+			"kind": "wrong-real",
+			"medianLocal": 0.4386802798225766,
+			"ratio": 1.2145274581727092
+		},
+		{
+			"itemId": "peaceful-dreams⊗letter-lands",
+			"kind": "wrong-real",
+			"medianLocal": 0.3972993835806846,
+			"ratio": 1.1824409848079296
+		},
+		{
+			"itemId": "peaceful-dreams⊗eat-all-the-clocks",
+			"kind": "wrong-real",
+			"medianLocal": 0.34107393297282135,
+			"ratio": 1.552664435699548
+		},
+		{
+			"itemId": "eat-all-the-clocks⊗letter-lands",
+			"kind": "wrong-real",
+			"medianLocal": 0.33270578533411027,
+			"ratio": 1.234281188254004
+		},
+		{
+			"itemId": "eat-all-the-clocks⊗peaceful-dreams",
+			"kind": "wrong-real",
+			"medianLocal": 0.4005088665906121,
+			"ratio": 1.5682285459345637
+		},
+		{
+			"itemId": "mop-heart⊗letter-lands",
+			"kind": "wrong-real-expl",
+			"medianLocal": 0.35945231761587293,
+			"ratio": 1.1907639337180966
+		},
+		{
+			"itemId": "letter-lands⊗mop-heart",
+			"kind": "wrong-real-expl",
+			"medianLocal": 0.4366322184602419,
+			"ratio": 1.2949786155919818
+		},
+		{
+			"itemId": "mop-heart⊗peaceful-dreams",
+			"kind": "wrong-real-expl",
+			"refused": "The chart runs more than twice as long as the recording; check its tempo"
+		},
+		{
+			"itemId": "peaceful-dreams⊗mop-heart",
+			"kind": "wrong-real-expl",
+			"medianLocal": 0.31443722835845417,
+			"ratio": 1.5648253675080024
+		},
+		{
+			"itemId": "mop-heart⊗eat-all-the-clocks",
+			"kind": "wrong-real-expl",
+			"medianLocal": 0.3408916081701006,
+			"ratio": 1.5611813742582454
+		},
+		{
+			"itemId": "eat-all-the-clocks⊗mop-heart",
+			"kind": "wrong-real-expl",
+			"medianLocal": 0.32310208585113287,
+			"ratio": 1.7430921325138202
+		}
+	],
+	"gates": {
+		"failed": []
+	}
+}
