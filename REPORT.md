@@ -1,5 +1,72 @@
 # stem-bench REPORT
 
+## Study 16 — the chart reads barmark: the adoption validated end to end, the migration grid-perfect, and a wrong pair finally defeats the ratio clause (2026-11-01)
+
+The adoption study. stem-shovel retired its in-house chart parser for
+the barmark standard (pins 371831ae / b5ed9ed2 / a0926c65, barmark
+0.5.0 exact; the adapter port is byte-identical below the imports and
+the alignment ports from Study 15 are unchanged at the pins). All five
+stored Badverbs charts were migrated; the four public ones are the
+corpus, fetched verbatim with the band's current declared sections
+(Interbellum is not on a public page — disclosed, out of scope).
+Registered f6678cf; Amendment 1 (exploratory-pair refusal handling)
+before results were accepted; zero spend. **All four gates pass; all
+four predictions hit.**
+
+**S16-G1 PASS — the parsers agree bar for bar.** The three committed
+app-dialect texts through the retired `chordChartBars` and through
+`barmark` 0.5.0 behind the production adapter (identical bodies, each
+parser its registered dialect header): 76 / 152 / 86 bars, zero
+differences, zero warnings. Nothing the app could read was lost in the
+adoption.
+
+**S16-G2 PASS — the migration is grid-perfect.** Every public migrated
+chart parses with zero warnings and lands EVERY band-declared section
+start at **0.0000 s** error on its own grid — letter-lands (76 bars,
+10 sections), peaceful-dreams (153: the verified 152 plus the
+grammar's ring-out attack bar), eat-all-the-clocks (71, the band's
+corrected play-order form), and exploratory mop-heart (140 bars, 8
+sections, 3/4 at 224 bpm with a mid-chart key change). Content against
+the verified lists: letter and peaceful zero differences under the
+registered normalization (Logic parentheticals fold onto the bench
+vocabulary: `F#5(7)` ≡ `F#5`, `C#(7)` ≡ `C#7`).
+
+**S16-G3 PASS — and the two-clause design finally earns its keep on a
+gated-set scale and beyond.** Right pairs: ratios 1.90 / 3.18 / 2.63,
+median local costs 0.177–0.210, all passing both clauses. All six
+registered wrong pairs fail. But the margins kept eroding: the wrong
+pairs peak at 1.55 / 1.57 on the ratio (Study 15's thin 0.02 again),
+caught by local costs 0.33–0.48. And in the EXPLORATORY mop-heart
+cross-pairs, the eat-recording × mop-chart pair scores **ratio 1.74 —
+the first real wrong pair ABOVE the 1.6 gate** — and is rejected only
+by the second clause (median local 0.323 > 0.30). The ratio clause
+alone is now demonstrably insufficient on real material; the AND is
+load-bearing, exactly as Study 15's complementarity analysis
+predicted. (One exploratory pair was refused outright by production's
+own too-long check — the right answer by construction.)
+
+**S16-G4 PASS — no placement regression.** letter-lands median
+|section error| 0.05 s (baseline 0.08), peaceful-dreams 0.11 s
+(baseline 0.11), through the entirely new parse path.
+
+**The predictions, 4/4.** P1: bar counts exactly 76 / 153 / 71.
+P2: eat-all-the-clocks — exploratory in every prior study because its
+chart was wrong — drops from median |err| **1.99 s to 0.09 s** with
+the band's corrected chart and is now gate-grade on every measure; the
+Study 12 finding that the chart, not the aligner, was the bottleneck
+is confirmed by the fix. P3: ratios moved at most 0.14 where content
+was preserved (letter 2.04 → 1.90, the beat-level refinements in the
+migrated chart change the rendered reference). P4: mop-heart's
+first-ever alignment passes the two-clause gates.
+
+Recommendation delivered to stem-shovel (FINDINGS): adoption
+validated, ship with confidence; the one standing ask is the
+LAST-SOUND ring-out refinement (Study 15's +3.33 outro residual, still
+visible here as peaceful's ±1.7 s tail sections), and the bench's
+standing recommendation to adopt the medianLocal ≤ 0.30 clause in
+production `samePiece` is now urgent rather than prophylactic — a real
+catalog pair crosses the ratio gate.
+
 ## Study 15 — the patch registered at n = 3, the ratio's margin collapses to 0.02, and the local-cost clause saves it (2026-10-30)
 
 The Study 14 response's remaining asks, run the day the band's revised
