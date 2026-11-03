@@ -1,5 +1,28 @@
 # stem-bench REPORT
 
+## Study 16b (micro) — the shipped two-clause samePiece: the escapee class is closed by production code (2026-11-03)
+
+The Study 6b pattern: stem-shovel shipped Study 16's urgent ask at
+2d585b75 (citing the escapee by name in its commit message), and the
+bench validated the ship on the registered corpus. Verbatim port pinned
+by test; zero spend; registered before the run.
+
+**All gates PASS, 15/15 pair verdicts, both predictions hit.** The
+constants are exactly the recommended pair (1.6 AND-ed with 0.30,
+inclusive boundary). All four right pairs stay samePiece true. All
+eleven alignable wrong pairs are false — including eat-recording ×
+mop-heart-chart at ratio 1.74, the pair that defeated the ratio clause
+in Study 16 and would have been called the same piece by the previous
+production code. Placements and hedges are byte-equal to Study 16
+(the clause touches only the verdict, as designed). The one
+non-alignable pair stays refused by production's own too-long check.
+
+The alignment thread that opened with Study 12 is now fully closed on
+shipped code: placement validated (12, 15, 16), the same-piece gate
+validated twice and hardened once (14's constant catch, 15's
+complementarity analysis, 16's escapee, 16b's confirmation of the
+ship). Verdict to stem-shovel: nothing to change.
+
 ## Study 16 — the chart reads barmark: the adoption validated end to end, the migration grid-perfect, and a wrong pair finally defeats the ratio clause (2026-11-01)
 
 The adoption study. stem-shovel retired its in-house chart parser for
