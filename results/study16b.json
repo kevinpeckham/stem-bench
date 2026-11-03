@@ -1,0 +1,122 @@
+{
+	"version": 1,
+	"pin": "2d585b75",
+	"pairs": [
+		{
+			"rec": "eat-all-the-clocks",
+			"chart": "eat-all-the-clocks",
+			"kind": "right",
+			"ratio": 2.6324089543802414,
+			"samePiece": true
+		},
+		{
+			"rec": "eat-all-the-clocks",
+			"chart": "letter-lands",
+			"kind": "wrong",
+			"ratio": 1.234281188254004,
+			"samePiece": false
+		},
+		{
+			"rec": "eat-all-the-clocks",
+			"chart": "mop-heart",
+			"kind": "wrong",
+			"ratio": 1.7430921325138202,
+			"samePiece": false
+		},
+		{
+			"rec": "eat-all-the-clocks",
+			"chart": "peaceful-dreams",
+			"kind": "wrong",
+			"ratio": 1.5682285459345637,
+			"samePiece": false
+		},
+		{
+			"rec": "letter-lands",
+			"chart": "eat-all-the-clocks",
+			"kind": "wrong",
+			"ratio": 1.2145274581727092,
+			"samePiece": false
+		},
+		{
+			"rec": "letter-lands",
+			"chart": "letter-lands",
+			"kind": "right",
+			"ratio": 1.895289147576381,
+			"samePiece": true
+		},
+		{
+			"rec": "letter-lands",
+			"chart": "mop-heart",
+			"kind": "wrong",
+			"ratio": 1.2949786155919818,
+			"samePiece": false
+		},
+		{
+			"rec": "letter-lands",
+			"chart": "peaceful-dreams",
+			"kind": "wrong",
+			"ratio": 1.1329887694845682,
+			"samePiece": false
+		},
+		{
+			"rec": "mop-heart",
+			"chart": "eat-all-the-clocks",
+			"kind": "wrong",
+			"ratio": 1.5611813742582454,
+			"samePiece": false
+		},
+		{
+			"rec": "mop-heart",
+			"chart": "letter-lands",
+			"kind": "wrong",
+			"ratio": 1.1907639337180966,
+			"samePiece": false
+		},
+		{
+			"rec": "mop-heart",
+			"chart": "mop-heart",
+			"kind": "right",
+			"ratio": 1.961790905095994,
+			"samePiece": true
+		},
+		{
+			"rec": "mop-heart",
+			"chart": "peaceful-dreams",
+			"kind": "wrong",
+			"refused": "The chart runs more than twice as long as the recording; check its tempo"
+		},
+		{
+			"rec": "peaceful-dreams",
+			"chart": "eat-all-the-clocks",
+			"kind": "wrong",
+			"ratio": 1.552664435699548,
+			"samePiece": false
+		},
+		{
+			"rec": "peaceful-dreams",
+			"chart": "letter-lands",
+			"kind": "wrong",
+			"ratio": 1.1824409848079296,
+			"samePiece": false
+		},
+		{
+			"rec": "peaceful-dreams",
+			"chart": "mop-heart",
+			"kind": "wrong",
+			"ratio": 1.5648253675080024,
+			"samePiece": false
+		},
+		{
+			"rec": "peaceful-dreams",
+			"chart": "peaceful-dreams",
+			"kind": "right",
+			"ratio": 3.182208251873725,
+			"samePiece": true
+		}
+	],
+	"placementsEqual": true,
+	"hedgesEqual": true,
+	"gates": {
+		"failed": []
+	}
+}
