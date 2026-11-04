@@ -1,0 +1,49 @@
+{
+	"version": 1,
+	"cells": [
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"model": "anthropic/claude-fable-5-1",
+			"config": "thinking-adaptive-low (production)",
+			"baselineArm": "Dmix",
+			"outcome": "answered",
+			"error": null,
+			"grade": {
+				"bars": 76,
+				"right": 47,
+				"strictFirstRight": 0,
+				"powerAllowance": 47
+			},
+			"delta": {
+				"fixes": 4,
+				"breaks": 16,
+				"changed": 42
+			},
+			"tokensOut": 1914,
+			"latencyMs": 26988
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"model": "anthropic/claude-fable-5-1",
+			"config": "thinking-adaptive-low (production)",
+			"baselineArm": "Dmix",
+			"outcome": "answered",
+			"error": null,
+			"grade": {
+				"bars": 86,
+				"right": 53,
+				"strictFirstRight": 18,
+				"powerAllowance": 34
+			},
+			"delta": {
+				"fixes": 0,
+				"breaks": 0,
+				"changed": 3
+			},
+			"tokensOut": 263,
+			"latencyMs": 4850
+		}
+	]
+}

@@ -1,5 +1,104 @@
 # stem-bench REPORT
 
+## Study 17 — the transcription successor: the neural rematch wins on real timbres, and the reconciler meets its first breaks (2026-11-04)
+
+Study 13 named the transcription stage as the binding constraint on
+real-recording chord drafts (38.2 % gated) and pointed the next
+investment at "Basic Pitch's successor on real timbres, not more
+model." Three zero-model successors measured against that cliff
+(registered d374708; brief docs/BRIEF-STUDY17.md): per-stem
+transcription into the same matcher (B), bar-pooled chroma into the
+same matcher (C), and ChordMini — Study 10's synthetic loser — on its
+first real audio with bar-aligned chord truth (D). One conditional
+reconciler arm (E) on the winner.
+
+**G1 PASS, exact.** The anchor reproduced Study 13 arm 1 to the digit
+(29/76, strict-first 20, power 9; exploratory 24/86) before anything
+new was read.
+
+**G2 and G3 PASS, both through arm D.** ChordMini on the mix scores
+**59/76 (77.6 %)** on the gated song and 53/86 (61.6 %) exploratory —
+past the 37/76 successor gate AND past 44/76, production's reconciled
+number, so a zero-model front end now beats code-plus-model. Study
+10's synthetic verdict reverses on real audio, the home-field lesson's
+third instrument class (sections flipped with LinkSeg, now chords with
+ChordMini).
+
+**The anatomy matters as much as the number.** The gated chart's truth
+is 74 power-chord and 50 sus4 slots — this band writes roots and
+colors, not sevenths — and D's gated credit came ENTIRELY through the
+registered power-chord allowance (strict-first 0): it reads roots as
+plain triads. A disclosed, unregistered root-only read makes the real
+ranking visible: anchor 53/76 roots, B 65, C 68, D-mix 70 (exploratory:
+D-mix 75/84, anchor 60). Every successor out-reads the anchor at the
+root level; the registered differences are quality dressing. Arm C is
+the sharpest case: 0/76 under the registered grade — its pooled chroma
+dresses nearly every right root in a hallucinated seventh (the exact
+over-read class its pre-registration self-proof surfaced and the brief
+disclosed), and the allowance admits only maj/m/5 qualities — while
+holding 68/76 roots. A quality fix would need a mass threshold, which
+is a tuned parameter, so it belongs to a registered follow-up or
+nowhere. Arm B splits by stem inventory, and the mechanism is legible:
+letter-lands has no vocal stem and B improves (32/76 registered, 65
+roots vs the anchor's 53); eat's stem set includes the vocal stem,
+whose transcribed melody pollutes the merged harmony, and B drops
+(15/86, roots 47 vs 60). If per-stem transcription ships anywhere,
+vocal-labeled stems stay out of the chord evidence — untested here,
+registered nowhere, so a hypothesis, not a finding. The disclosed
+D-harm read (ChordMini on the summed non-drum audio) beat D-mix on the
+gated song (63/76) and collapsed exploratory (33/86 vs 53) — the
+registered choice of the mix, ChordMini's native domain, survives.
+
+**G4 FAIL — the reconciler's first breaks in three studies, and the
+gate built for this caught it.** E stacked Study 14's production
+reconciler path on D-mix with arm A's note lines as evidence (the
+registered design: C and D produce no notes). Gated: 59 → **47**,
+fixes 4, breaks **16** — after two studies of zero breaks. The
+mechanism is exactly the agreement trap the gate was registered
+against, in a new costume: D's chords are better than the transcribed
+notes support, so "correct the chords toward the notes" destroys
+information. The reconciler's measured value is conditional on its
+evidence channel being the one that produced the draft. On the
+exploratory song it changed nothing (0/0). Negative result, kept
+loudly: do not stack the note-reconciler on a non-note front end.
+
+Prediction scorecard: 1 right (exact). 2 wrong (B 32 < the predicted
+35 floor, and it fell on the exploratory song). 3 wrong, spectacularly
+(C registered 0/76; the disclosed over-read class at full scale — C > B
+held only in the unregistered root read, 68 > 65). 4 half (direction
+right, magnitude exceeded the 40–50 band, and the strict-first-0
+anatomy was not foreseen; the predicted maj7/m7 miss class does not
+exist in this truth). 5 right (G3 passed via D, one of the two named).
+6 wrong in the instructive direction (predicted breaks ≤ 2 and ≥ 50
+reconciled; got 16 breaks, 47, G4 FAIL).
+
+### What production does with this
+
+ChordMini on the mix is the measured chord front end for real
+recordings: 38 % → 78 % registered on the gated song (roots 70–75 of
+76–84 on both), 4–6 s per song on CPU, ~30 MB of pinned weights, zero
+API spend. Its limits ship with it: the output vocabulary is
+root-level (it will never spell F#5 or Esus4), so the draft layer that
+renders chart symbols decides the dressing — for this band's material,
+root-plus-power-spelling covers most of the chart. Do NOT run the
+Study 13/14 note-reconciler on its output (G4: 16 breaks); the
+reconciler remains valid only on the Basic Pitch path whose notes it
+reads. The home-field rule is now three-for-three: no detector
+decision for real recordings gets made on synthetic numbers again.
+
+### Spend
+
+Arms A–D $0 (local CPU, ~40 min of transcription). Arm E two calls,
+≈ $0.30 of the $2 fence. Program spend since Study 9: ≈ $1.80.
+
+### Disclosure
+
+Analyst Claude Fable 5; arm E measures claude-fable-5-1 (same family;
+every grade mechanical and committed before any call). The root-only
+table is disclosed, unregistered analysis, clearly separated from the
+registered gates. The gateway ignores temperature on this family
+(standing disclosure); no temperature was set.
+
 ## Study 16b (micro) — the shipped two-clause samePiece: the escapee class is closed by production code (2026-11-03)
 
 The Study 6b pattern: stem-shovel shipped Study 16's urgent ask at
