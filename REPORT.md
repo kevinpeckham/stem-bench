@@ -1,5 +1,84 @@
 # stem-bench REPORT
 
+## Study 18 — the matcher's two new rules on real audio: both earn their keep, and the handoff's own hedge is overturned (2026-11-06)
+
+stem-shovel v0.231.0 changed two matcher rules after re-scoring THIS
+bench's fixture notes (the handoff is committed verbatim at
+docs/HANDOFF-2026-11-06-matcher-v0231.md): a bass note must sound for
+15 % of the bar to earn the root bonus, and a template tone under 12 %
+of the profile counts as missing at a 0.12 cost. The app could verify
+the synthetic side; its real-audio table was a disclosed approximation
+(notes rebuilt from `barNotes` text, baseline 48/76 where the stored
+truth is 29/76) whose directional read said the presence rule was a
+wash or a small loss there. Study 18 ran the proper measurement:
+registered 2b692cf, one parameterized port of the v0.231 matcher pinned
+bar-for-bar to the v0.142 port at the old constants, notes
+RE-TRANSCRIBED from the committed raws, two rules measured separately.
+Zero spend, no model calls.
+
+**All four gates PASS.**
+
+- **S18-G1 (anchor), PASS exact:** the v0.142 configuration over the
+  re-transcribed notes reads 29/76 (strict-first 20, power 9) and
+  24/86 — the anchor's third exact reproduction.
+- **S18-G2 (fixture), PASS exact:** the handoff's five-row table
+  reproduces to the digit (424 / 432 / 432 / 439 / 439 of 440;
+  static-bloom 20 → 28 of 28), re-derived through the bench's
+  registered port. `matcher3Segments` / `matcher3PerBar` now sit beside
+  the v0.141/v0.142 fields in corpus/fixture.json (nothing rewritten).
+- **S18-G3 (the bass rule), PASS:** bass-only lifts the gated song
+  29 → 39/76 and the exploratory song 24 → 26/86. Both inside the
+  registered central estimates.
+- **S18-G4 (the presence rule), PASS — and the hedge is overturned:**
+  shipped reads 41/76 and 30/86, total 71 against bass-only's 65, so
+  the presence rule is net +6 on real audio where the handoff's
+  approximation read it as a wash or a loss. The app's stated judgment
+  ("an under-claimed power chord is the better failure for a chart
+  hint") was right on the merits, and now it is right on the numbers:
+  the lossy note reconstruction (sub-150 ms notes and start times
+  dropped) was the artifact, not the rule. Strict-first rises too
+  (20 → 24 gated, 18 → 23 exploratory), so the gain is genuine
+  readings, not allowance credit.
+
+**The headline:** two constants and one duration check take the real
+chord path from 38.2 % to **53.9 %** on the gated song — 41/76, exactly
+Study 13's reconciled number. The free code change is worth as much on
+this song as the language-model reconciler pass was. The ordering from
+Study 17 is unchanged, and the report says so plainly: ChordMini on the
+mix still reads 59/76, eighteen bars past the improved matcher, so the
+front-end swap remains the measured next step; the improved matcher
+raises the floor the app already ships, not the ceiling.
+
+**The sweep (disclosed, ungated):** shipped (0.12 / 0.15) sits on the
+plateau on both songs. Bass 0.10 readmits pickups on the gated song
+(41 → 37); bass 0.25 regresses the exploratory song, whose bass moves
+faster, exactly as the handoff reasoned. presentShare 0.15 buys one to
+two bars on the gated song's power-chord-heavy truth and nothing
+reliable elsewhere — informational for the app, no re-tuning
+recommended, and none performed.
+
+**Prediction scorecard:** 1 right (exact), 2 right, 3 right in full
+(both central estimates hit: +10 and +2), 4 WRONG in the happy
+direction (predicted the presence rule's real net in [-5, 0) and a
+revert recommendation; measured +6 — the registered gate, adopted
+unchanged from the handoff's own suggested rule, settles it the other
+way), 5 mostly right (the bass 0.25 regression and the letter-lands
+monotonicity both appear; the plateau is flatter than predicted).
+
+**Cross-study notes (the handoff's items 3 and 4):** Study 10's
+ChordMini fields are untouched; any re-tabling moves the production
+matcher's synthetic column to 439/440. Studies 13/14/17 reconciler
+cells stand as computed from the stored v0.142 hints; the hint baseline
+has moved from 29/76 to 41/76 for anything measured after v0.231.0, and
+future studies gate anchors against the version they pin.
+
+**Disclosure:** analyst Claude Fable 5; no model measured; every grade
+mechanical and committed before the run. The bench verified the
+handoff's synthetic claims pre-registration by running the app's own
+pre- and post-fix chords.ts over the fixture notes (disclosed in the
+brief, prediction 2); the registered gate re-derived them through the
+bench's port. Spend $0; ~8 minutes of transcription CPU.
+
 ## Study 17 — the transcription successor: the neural rematch wins on real timbres, and the reconciler meets its first breaks (2026-11-04)
 
 Study 13 named the transcription stage as the binding constraint on

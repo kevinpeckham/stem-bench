@@ -1,0 +1,1412 @@
+{
+	"version": 1,
+	"fixtureTable": [
+		{
+			"label": "v0.142 (0.05 / 0.08 / -)",
+			"right": 424,
+			"expected": 424
+		},
+		{
+			"label": "bass 0.15 only",
+			"right": 432,
+			"expected": 432
+		},
+		{
+			"label": "bass + present 0.12, old penalty",
+			"right": 432,
+			"expected": 432
+		},
+		{
+			"label": "SHIPPED (0.12 / 0.12 / 0.15)",
+			"right": 439,
+			"expected": 439
+		},
+		{
+			"label": "present 0.15 variant",
+			"right": 439,
+			"expected": 439
+		}
+	],
+	"staticBloom": {
+		"pre": 20,
+		"post": 28
+	},
+	"songs": [
+		{
+			"slug": "letter-lands",
+			"gated": true,
+			"noteCount": 1179,
+			"truth": [
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"B5"
+				],
+				[
+					"B5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"C#5"
+				],
+				[
+					"E5"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"B5"
+				],
+				[
+					"B5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"C#5"
+				],
+				[
+					"E5"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"D5"
+				],
+				[
+					"D5"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"C#7"
+				],
+				[
+					"C#7"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"B5"
+				],
+				[
+					"B5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"F#5"
+				],
+				[
+					"C#5"
+				],
+				[
+					"E5"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"B5",
+					"Asus4"
+				],
+				[
+					"B5",
+					"Asus4"
+				],
+				[
+					"B5",
+					"Asus4"
+				],
+				[
+					"B5",
+					"Asus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				],
+				[
+					"F#5",
+					"Esus4"
+				]
+			],
+			"anchor": {
+				"perBar": [
+					"F#m",
+					"F#m7",
+					"F#m",
+					"F#7sus4",
+					"F#m",
+					"F#m7",
+					"F#m",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"B5",
+					"B5",
+					"F#5",
+					"F#5",
+					"F#5",
+					"E5",
+					"Esus2",
+					"F#7sus4",
+					"Bsus2",
+					"Bsus2",
+					"Bsus2",
+					"B7sus4",
+					"Esus2",
+					"Esus2",
+					"F#m7",
+					"F#m7",
+					"B7",
+					"B7",
+					"F#5",
+					"F#5",
+					"C#m7/E",
+					"F#7sus4",
+					"F#5",
+					"F#5",
+					"Asus4",
+					"Gsus2",
+					"E5",
+					"E5",
+					"F#5",
+					"F#5",
+					"Absus4",
+					"Absus4",
+					"Bsus2",
+					"Bsus2",
+					"B7",
+					"B7",
+					"Esus2",
+					"Esus2",
+					"F#m7/A",
+					"Esus2",
+					"B5",
+					"B5",
+					"F#5",
+					"C#sus4",
+					"C#5",
+					"E5",
+					"F#m/E",
+					"Esus2",
+					"F#m/E",
+					"Esus2",
+					"F#m7/E",
+					"Bsus2",
+					"F#m",
+					"B5",
+					"F#m",
+					"Bsus4",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"B7",
+					"B5"
+				],
+				"grade": {
+					"bars": 76,
+					"right": 29,
+					"strictFirstRight": 20,
+					"powerAllowance": 9
+				}
+			},
+			"bassOnly": {
+				"perBar": [
+					"F#m",
+					"F#m7",
+					"F#m",
+					"F#7sus4",
+					"F#m",
+					"F#m7",
+					"F#m",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"B5",
+					"B5",
+					"F#5",
+					"F#5",
+					"C#5",
+					"E5",
+					"F#m7",
+					"F#7sus4",
+					"F#m",
+					"F#m",
+					"F#m",
+					"F#m",
+					"Esus2",
+					"F#m7",
+					"F#m7/E",
+					"Esus2",
+					"B7",
+					"B7",
+					"F#5",
+					"C#sus4",
+					"Bsus2",
+					"E7",
+					"F#5",
+					"F#5",
+					"D5",
+					"Dsus4",
+					"E5",
+					"E5",
+					"F#5",
+					"F#5",
+					"C#5",
+					"C#/F",
+					"F#m",
+					"F#m",
+					"F#m",
+					"F#m",
+					"F#m7",
+					"F#m7/E",
+					"F#m7/E",
+					"F#m7/A",
+					"B5",
+					"B5",
+					"F#5",
+					"F#5",
+					"C#5",
+					"Bsus4",
+					"F#m",
+					"Esus2",
+					"F#m",
+					"Esus2",
+					"F#m",
+					"Bsus2",
+					"F#m",
+					"B5",
+					"F#m",
+					"Bsus4",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"B7",
+					"B5"
+				],
+				"grade": {
+					"bars": 76,
+					"right": 39,
+					"strictFirstRight": 21,
+					"powerAllowance": 18
+				}
+			},
+			"shipped": {
+				"perBar": [
+					"F#m",
+					"F#m7",
+					"F#m",
+					"F#7sus4",
+					"F#m",
+					"F#m7",
+					"F#m",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"F#7sus4",
+					"B5",
+					"B5",
+					"F#5",
+					"F#5",
+					"C#5",
+					"E5",
+					"F#m7",
+					"F#7sus4",
+					"F#m",
+					"F#m",
+					"F#m",
+					"F#m",
+					"Esus2",
+					"F#m7",
+					"F#m7/E",
+					"Esus2",
+					"B7",
+					"B7",
+					"F#5",
+					"F#5/C#",
+					"Bsus2",
+					"E7",
+					"F#5",
+					"F#5",
+					"D5",
+					"D5",
+					"E5",
+					"E5",
+					"F#5",
+					"F#5",
+					"C#5",
+					"C#/F",
+					"F#5",
+					"F#m",
+					"F#m",
+					"F#m",
+					"F#m7",
+					"Esus2",
+					"Esus2",
+					"F#m7/A",
+					"B5",
+					"B5",
+					"F#5",
+					"F#5",
+					"C#5",
+					"Bsus4",
+					"F#m",
+					"Esus2",
+					"F#m",
+					"Esus2",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"F#m",
+					"B5",
+					"B7",
+					"B5"
+				],
+				"grade": {
+					"bars": 76,
+					"right": 41,
+					"strictFirstRight": 24,
+					"powerAllowance": 17
+				}
+			},
+			"sweep": [
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 37
+				},
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 41
+				},
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 39
+				},
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 39
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 37
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 41
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 39
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 40
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 37
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 41
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 39
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 41
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 37
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 42
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 40
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 43
+				}
+			]
+		},
+		{
+			"slug": "eat-all-the-clocks",
+			"gated": false,
+			"noteCount": 985,
+			"truth": [
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"Em",
+					"Am"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"Em7"
+				],
+				[
+					"Em7"
+				],
+				[
+					"C"
+				],
+				[
+					"D"
+				],
+				[
+					"A"
+				],
+				[
+					"A"
+				],
+				[
+					"E5"
+				],
+				[
+					"Am7",
+					"G5"
+				],
+				[
+					"E5"
+				],
+				[
+					"Am7",
+					"G5"
+				],
+				[
+					"E5"
+				],
+				[
+					"Am7",
+					"G5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"A5"
+				],
+				[
+					"A5"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"A5"
+				],
+				[
+					"A5"
+				],
+				[
+					""
+				],
+				[
+					""
+				],
+				[
+					"A5"
+				],
+				[
+					"A5"
+				],
+				[
+					"E5"
+				],
+				[
+					"Am7",
+					"G5"
+				],
+				[
+					"E5"
+				],
+				[
+					"Am7",
+					"G5"
+				],
+				[
+					"E5"
+				],
+				[
+					"Am7",
+					"G5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"D5"
+				],
+				[
+					"A7"
+				],
+				[
+					"E5"
+				],
+				[
+					"E5"
+				],
+				[
+					"Em"
+				],
+				[
+					"Em"
+				],
+				[
+					"Em"
+				],
+				[
+					"Em"
+				]
+			],
+			"anchor": {
+				"perBar": [
+					"Am7",
+					"Em",
+					"Esus4",
+					"Esus4",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"E7sus4",
+					"Asus4",
+					"Esus4",
+					"A7sus4/G",
+					"E7sus4/G",
+					"C",
+					"Asus4",
+					"Asus2",
+					"A5",
+					"Em",
+					"Esus4",
+					"Em",
+					"Gsus2",
+					"Em",
+					"Dsus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Dsus2",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"E5",
+					"E5",
+					"E5",
+					"Em/G",
+					"Gsus2",
+					"A5",
+					"E5",
+					"E5",
+					"Esus4",
+					"Esus4",
+					"A5",
+					"A5",
+					"A5",
+					"A7sus4",
+					"A5",
+					"E7sus4",
+					"Em",
+					"A5",
+					"E5",
+					"Em",
+					"Esus4",
+					"A5",
+					"E5",
+					"Em",
+					"Esus4",
+					"A5",
+					"G/D",
+					"D5",
+					"Asus4",
+					"A5",
+					"Esus4",
+					"Dsus2",
+					"Asus4",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Asus4",
+					"A5",
+					"Esus4",
+					"Dsus2",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Em",
+					"Em",
+					"Em",
+					"Em"
+				],
+				"grade": {
+					"bars": 86,
+					"right": 24,
+					"strictFirstRight": 18,
+					"powerAllowance": 6
+				}
+			},
+			"bassOnly": {
+				"perBar": [
+					"Am7",
+					"Em",
+					"Esus4",
+					"Esus4",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Asus2",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"E7sus4",
+					"Dsus2",
+					"Esus4",
+					"Dsus2",
+					"E7sus4",
+					"C",
+					"Dsus2",
+					"Asus2",
+					"A5",
+					"Em",
+					"B7sus4",
+					"Em",
+					"Asus2",
+					"Em",
+					"Gsus2",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"E5",
+					"E5",
+					"E5",
+					"Em/G",
+					"Asus2",
+					"A5",
+					"E5",
+					"E5",
+					"Esus4",
+					"Esus4",
+					"A5",
+					"A5",
+					"A5",
+					"A7sus4",
+					"A5",
+					"A7sus4",
+					"Em",
+					"A5",
+					"E5",
+					"Em",
+					"Esus4",
+					"A5",
+					"E5",
+					"Em",
+					"Esus4",
+					"A5",
+					"G/D",
+					"D5",
+					"Asus4",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Em",
+					"Em",
+					"Em",
+					"Em"
+				],
+				"grade": {
+					"bars": 86,
+					"right": 26,
+					"strictFirstRight": 20,
+					"powerAllowance": 6
+				}
+			},
+			"shipped": {
+				"perBar": [
+					"Am",
+					"Em",
+					"Esus4",
+					"Esus4",
+					"Asus2",
+					"A5",
+					"A5",
+					"A5",
+					"A5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"E7sus4",
+					"Dsus2",
+					"Esus4",
+					"Dsus2",
+					"Esus4",
+					"C",
+					"D5",
+					"A5",
+					"A5",
+					"Em",
+					"B7sus4",
+					"Em",
+					"Asus2",
+					"Em",
+					"Gsus2",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"E5",
+					"Esus4",
+					"Esus4",
+					"Esus4",
+					"E5",
+					"E5",
+					"E5",
+					"Em/G",
+					"A5",
+					"A5",
+					"E5",
+					"E5",
+					"Esus4",
+					"Esus4",
+					"A5",
+					"A5",
+					"A5",
+					"A5",
+					"A5",
+					"Asus4",
+					"Em",
+					"A5",
+					"E5",
+					"Em",
+					"Esus4",
+					"A5",
+					"E5",
+					"Em",
+					"Esus4",
+					"A5",
+					"G/D",
+					"D5",
+					"Asus4",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"D5",
+					"A5",
+					"Esus4",
+					"Esus4",
+					"Em",
+					"Em",
+					"Em",
+					"Em"
+				],
+				"grade": {
+					"bars": 86,
+					"right": 30,
+					"strictFirstRight": 23,
+					"powerAllowance": 6
+				}
+			},
+			"sweep": [
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 27
+				},
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 27
+				},
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 27
+				},
+				{
+					"cfg": {
+						"presentShare": 0.08,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 26
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 29
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 29
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 29
+				},
+				{
+					"cfg": {
+						"presentShare": 0.1,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 28
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 30
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 30
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 31
+				},
+				{
+					"cfg": {
+						"presentShare": 0.12,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 29
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.1
+					},
+					"right": 30
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.15
+					},
+					"right": 30
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.2
+					},
+					"right": 31
+				},
+				{
+					"cfg": {
+						"presentShare": 0.15,
+						"missingPenalty": 0.12,
+						"bassMinShare": 0.25
+					},
+					"right": 30
+				}
+			]
+		}
+	]
+}
