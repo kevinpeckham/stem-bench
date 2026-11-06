@@ -1,5 +1,58 @@
 # stem-bench REPORT
 
+## Study 19 — the ChordMini port gated: perfect frame parity, and the bench's numbers are now the app's (2026-11-06)
+
+stem-shovel shipped the Study 17 chord pipeline in TypeScript (app
+commit 2256d489: librosa's CQT baked into a plan, a 255-tap Kaiser
+half-band in place of soxr, the SHA-pinned `chordnet.onnx` under
+onnxruntime-web in a child process, the reference smoothing, the
+bench's vote and label map) and asked the bench to gate the port
+(`docs/bench-brief-chordmini-2026-11-06.md` in the app repo; its
+promised parity table was absent, so everything here is measured
+fresh). The app's code ran AS COMMITTED from a pinned worktree, no
+bench port; the reference is `nchord.py` exactly as Study 10 pinned it.
+Registered 5b773aa. Zero model-API spend.
+
+**Both gates PASS, at the strongest possible reading.**
+
+- **S19-G1 (frame parity), PASS at 100.000 %:** zero disagreeing
+  frames on all four public mixes — 1,522 + 1,588 + 2,764 + 1,228 =
+  7,102 frames, every per-frame label identical to the Python
+  reference's. The TS CQT (Kaiser resampler included), the wasm ONNX
+  inference and the smoothing reproduce numpy + librosa + the Python
+  runtime bit-for-bit at argmax level. Frame counts match exactly per
+  song.
+- **S19-G2 (bar parity), PASS exact:** the app's per-bar vote reads
+  **59/76** gated and **53/86** exploratory — Study 17's registered
+  numbers to the bar, not merely within the one-bar tolerance.
+
+**The one disclosed difference, fully anatomized:** the internal
+cross-check (the app's vote over the REFERENCE's frames vs nchord's own
+perBar) differs on letter-lands at exactly two bars, 61 and 63. Both
+are exact 5-to-5 frame ties between raw `F#` and `F#:min`; numpy's
+argmax breaks a tie toward the lower vocab index (F#m), the app's vote
+toward the first label the bar encounters (F#). The truth at both bars
+is F#5, the power allowance admits either reading, and the grade is
+identical either way. Tie-break order on exact ties is the entire
+remaining daylight between the two implementations.
+
+**Prediction scorecard:** 1 right and exceeded (predicted ≥ 99.9 %,
+measured 100.000 % everywhere), 2 right exactly (identical scores
+predicted and found), 3 vacuously satisfied (no disagreeing frames
+exist to locate), 4 right (frame counts equal).
+
+**Standing rule restated:** the app never runs the reconciler on the
+model's chords (Study 17 G4, sixteen breaks); the shipped code's
+comment carries it and nothing here changes it.
+
+**Verdict:** ship stands; the bench's Study 17 numbers are now the
+app's own, by measurement rather than citation. Pre-registration
+checks: the app's `chart-symbols.json` is the bench's vocab map (170
+entries, zero diffs) and its `chordVocab` matches in index order.
+Disclosure: analyst Claude Fable 5; no model API measured; every grade
+mechanical and committed before the run; ~30 seconds of compute per
+song. Spend $0.
+
 ## Study 18 — the matcher's two new rules on real audio: both earn their keep, and the handoff's own hedge is overturned (2026-11-06)
 
 stem-shovel v0.231.0 changed two matcher rules after re-scoring THIS
