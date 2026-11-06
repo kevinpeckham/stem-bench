@@ -44,7 +44,7 @@ const ROWS: { label: string; cfg: MatcherConfig; expected: number }[] = [
 	{ label: "present 0.15 variant", cfg: { presentShare: 0.15, missingPenalty: 0.12, bassMinShare: 0.15 }, expected: 439 },
 ];
 const fixtureTable: { label: string; right: number; expected: number }[] = [];
-let staticBloom: { pre: number; post: number } | null = null;
+const staticBloom = { pre: 0, post: 0 };
 const shippedBySong = new Map<string, { segments: ReturnType<typeof chordsPerBar231>; perBar: string[] }>();
 for (const row of ROWS) {
 	let right = 0;
@@ -58,8 +58,8 @@ for (const row of ROWS) {
 		const hits = song.truth.filter((c: string, b: number) => sameChord(c, bars[b]!)).length;
 		right += hits;
 		if (song.id === "static-bloom") {
-			if (row.cfg === V142) staticBloom = { pre: hits, post: staticBloom?.post ?? 0 };
-			if (row.cfg === SHIPPED && staticBloom) staticBloom.post = hits;
+			if (row.cfg === V142) staticBloom.pre = hits;
+			if (row.cfg === SHIPPED) staticBloom.post = hits;
 		}
 		if (row.cfg === SHIPPED)
 			shippedBySong.set(song.id, {
@@ -72,10 +72,10 @@ for (const row of ROWS) {
 }
 const g2 =
 	fixtureTable.every((r) => r.right === r.expected) &&
-	staticBloom?.pre === 20 &&
-	staticBloom?.post === 28;
+	staticBloom.pre === 20 &&
+	staticBloom.post === 28;
 console.log(
-	`static-bloom: ${staticBloom?.pre} → ${staticBloom?.post} of 28\nS18-G2 (fixture table reproduces the handoff): ${g2 ? "PASS" : "FAIL"}`,
+	`static-bloom: ${staticBloom.pre} → ${staticBloom.post} of 28\nS18-G2 (fixture table reproduces the handoff): ${g2 ? "PASS" : "FAIL"}`,
 );
 if (g2) {
 	for (const song of fixture.songs) {
