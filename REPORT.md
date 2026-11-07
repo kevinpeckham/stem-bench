@@ -1,5 +1,76 @@
 # stem-bench REPORT
 
+## Study 20b — the power hint on held-out songs: both gates FAIL — one on the merits, one on the bench's own registration error (2026-11-07)
+
+Study 20's one asset — the power call's 22-of-23 precision — was frozen
+verbatim and taken to two songs whose charts the bench had never seen
+(registration 7c40f9a BEFORE the truth arrived; the charts came from
+Kevin after the app's firewall blocked the planned public-page fetch,
+committed verbatim with provenance at 80d24d7). Kevin's direction: the
+blind pitch-floor variant rides as a disclosed secondary arm. $0 spent.
+
+**S20B-G2 FAIL — the bench's registration error, owned and fully
+diagnosed.** The anchors re-ran at 25 fires / 24 right (letter-lands)
+and 16 / 10 (eat) against registered constants of 23/22 and 12/7. The
+cause is not the pipeline: Study 20's anatomy counted bare `X5`
+SYMBOLS, but the registered implementation counts `rule === "power"`
+FIRINGS, which include power calls the full candidate then dressed with
+a slash (2 on letter, 4 on eat). The re-derivation from the committed
+study20.json reproduces the 20b firing record BAR FOR BAR on both
+anchors, so reproducibility holds exactly; the constants I registered
+were derived from the wrong column. The gate fails as registered and is
+not re-thresholded; the diagnosis stands beside it.
+
+**S20B-G1 FAIL on the merits: 60.9 % held-out precision (39 of 64)
+against the 0.75 line.** The anatomy is a regime story, not noise:
+
+- **peaceful-dreams: 81 % (39/48), and on in-vocabulary power bars the
+  rule was PERFECT — 39 of 39.** Its nine misses: six on `X5(7)` bars,
+  where the power-class read was right and all six would grade right if
+  the hint had the chart's `(7)` spelling (the vocabulary gap Kevin
+  flagged mid-study, measured); one on a 7sus4 bar; two on the triads
+  verse. Genuine wrong fires: three.
+- **mop-heart: 0 % (0/16).** Every fire landed on a plain major-triad
+  bar. Sparse 3/4 material (Vox, Bass, Keys; ~5.5 transcribed notes a
+  bar at 224 bpm, against letter-lands' ~15.5) simply fails to put the
+  third on the page, and the rule reads that silence as a power chord.
+  "No third transcribed" is evidence of absence only when the
+  arrangement is dense enough that a played third would have been
+  transcribed. Even crediting peaceful's six spelling-gap bars, the
+  held-out total is 45/64 = 70.3 % — the gate fails either way,
+  and mop-heart is why.
+- **Arm B (blind pitch floor) is worse, decisively: 48.8 % (39/80).**
+  On mop-heart it fired 33 times, all wrong — the floor strips the bass
+  register where that arrangement actually carries its thirds, so it
+  manufactures false absences. The registered decision rule keeps A; B
+  is reported and not recommended.
+
+**Verdict: do not ship the power hint.** Its precision is not a number,
+it is a function of arrangement density: 96 % on letter-lands, 81 % on
+peaceful-dreams, 0 % on mop-heart, and the hint cannot tell which song
+it is in. The one defensible successor idea the data names is a density
+precondition (fire only when the bar carries enough transcribed
+evidence that an absent third is informative) plus the `(7)` spelling —
+registered fresh and blind if the app wants it; the bench does not
+recommend further spend unprompted. The card's hedge stays "never a
+power chord."
+
+**Prediction scorecard:** 1 WRONG (G2 — the bench's own constants), 2
+WRONG (64 fires, above the 10–35 band), 3 WRONG (60.9 %), 4 half (B
+fired more, as predicted, but its precision fell 12 points, outside the
+0.10 band — the floor's rationale inverts on bass-carried
+arrangements), 5 WRONG (root-conditioned held-out precision 64 %, not
+≥ 85 % — mop's fires were root-right and still wrong, because the truth
+is a triad).
+
+**Disclosure:** analyst Claude Fable 5; zero model-API calls; grades
+mechanical and registered before the truth was seen. One pre-run
+instrument amendment (render-only parenthetical strip, 80d24d7) and one
+mid-study clarification to Kevin about it are in the session record;
+the graded truth was never softened. Transcription counts matched the
+prior studies exactly (1179 and 985 notes), so the anchors' inputs were
+bit-identical.
+
 ## Study 20 — coloring ChordMini's roots from the notes: all four gates FAIL, and the hypothesis is refuted as specified (2026-11-07)
 
 The app's brief (committed as docs/bench-brief-chord-colors-2026-11-07.md
