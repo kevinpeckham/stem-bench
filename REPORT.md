@@ -2435,3 +2435,61 @@ everything upstream of it remains the shipped one.
 The analyst model is Claude Fable 5; the matrix includes
 claude-fable-5-1. Every grade is mechanical, committed and tested before
 any scored run; no model output was judged by any model or person.
+
+## Study 25 — the corrected end-to-end: the draft on the true grid (registered docs/BRIEF-STUDY25.md, run 2026-11-07)
+
+The correction's follow-up, registered at 07b37ad and run the same
+day: arm B4 drafts each song on the TRUE grid — the declared period
+(now known exact) anchored at chart bar one, resolved in-run by the
+committed best-shift procedure (an oracle construction, disclosed as
+the chartless feature's upper bound). One fable call per song,
+prompt/model identical to Studies 23/23b/24.
+
+**Amendment 1 (same day, before reporting):** the registered anchor
+procedure was defective on eat-all-the-clocks — the shift search chose
+a non-physical anchor (−7.585 s, bar one more than three bars before
+the audio) on a one-root hint margin, and the bar-0 clamp then produced
+a non-monotonic grid head. Void first-run numbers disclosed in the
+brief and preserved as results/study25-defective-run1.json; the fix
+(candidate anchors ≤ −period excluded, unit-tested) registered at
+d005b48 before the eat-only re-run. The near-tie itself (56 vs 55
+hint roots for "skips four chart bars" vs "opens on bar one") is a
+corollary of eat's arrangement mismatch.
+
+| song | anchor (shift) | B4 roots | grid-given baseline | S25 gate |
+|---|---|---|---|---|
+| letter-lands | −0.121 s (−4) | **72/76** | 72/76 | G1 ok — exact parity |
+| peaceful-dreams | −0.119 s (−4) | **152/153**, dialect 12 | 151/153 | G1 ok — above baseline |
+| mop-heart | 0.315 s (−4) | 103/140 | 131/140 | G1 MISS |
+| eat-all-the-clocks | 0.415 s (−1) | 49/84 full; prefix 49/71 | 68/84 full; prefix 55/71 | G2 MISS |
+
+**S25-G1 FAIL** (mop-heart), **S25-G2 FAIL** — both informative:
+
+- mop-heart's miss is anchor PHASE, not period or indexing: the oracle
+  anchor carries the DTW start's sub-bar residue (0.315 s), 115 ms off
+  the comb phase, and at 224 bpm that is ~43% of a beat — the bins
+  straddle. Study 24's B3 (comb phase, same period) drafted 136/140 on
+  this song, ABOVE baseline. The hint-root-maximizing anchor is not
+  the draft-maximizing anchor; whole-bar shift search cannot repair a
+  sub-bar phase error.
+- eat's prefix miss (69.0% vs 77.5%) says the chart/recording
+  arrangement mismatch is NOT confined to the unplayed ~13-bar tail —
+  the played span itself diverges from the chart's bar list, which the
+  DTW baseline hides by construction (its bins follow the chart through
+  the audio).
+
+Predictions: 1 WRONG (G1 missed on mop), 2 registered open — the FAIL
+reading held, 3 RIGHT (peaceful dialect 12 ≥ 11), 4 RIGHT (E4 bar-one
+error 0.12/0.12/0.39 s on letter/peaceful/eat, 2.93 s ≈ 3.7 bars on
+mop), 5 RIGHT (77,741 in / 15,348 out ≈ $0.35 incl. the void run, of
+the $2 fence).
+
+**Synthesis across Studies 24 + 25 (the corrected grid story):** with
+the true period free (it is the declared bpm) the best measured
+chartless construction per song is comb-phase B3 or oracle-anchor B4,
+and the better of the two reaches parity or above on every
+arrangement-matched song — letter 72/76 = baseline, peaceful 152/153 >
+151, mop 136/140 > 131. The feature recipe this measures: declared
+period + onset-comb phase, with bar one near t = 0; the open problems
+are picking phase to beat-level precision at fast tempos and the
+chart-vs-recording arrangement mismatch, which no grid can close.
