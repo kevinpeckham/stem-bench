@@ -2554,3 +2554,53 @@ the LSQ slope was 1% biased — use the comb. Chart-version note: the
 app's 80-bar Letter Lands chart fails the median acceptance check
 (1.50 s) where the bench's 76-bar chart passes (1.699 s); the recipe
 sidesteps the question by making the median land at the comb period.
+
+## Correction 2 (2026-11-07, prompted by Kevin): eat-all-the-clocks never had an arrangement mismatch — the bench's chart fixture had 15 phantom bars
+
+Kevin: "according to the barmark parser there are 71 bars which
+matches the hand-added sections precisely and matches the song
+precisely — so we may still have a gap somewhere." The gap was ours.
+The live chart (stemshovel.com, chartVersion 131) has 71 bars: each
+Chorus is the 4-bar line x2 (8 bars) where the fixture inventoried on
+2026-10-29 carries x3 (12), and the Outro is one bar plus a fade where
+the fixture carries four. 15 phantom bars — exactly the "~13 bars the
+recording never plays". Whether the 10-29 snapshot matched an older
+chart version is checkable in the app's chart history; either way the
+fixture no longer describes the song. The corrected chart is committed
+as corpus/mmkk-charts-eat-v131.json; the adjudication as
+scripts/diag-eat71-2026-11-07.ts.
+
+Mechanically adjudicated ($0): reader hints on the true grid score
+65/71 against the live chart, UNIFORM across the song, vs 56/84 with
+decay against the fixture; the DTW aligns eat's interior at 0.45 s
+mean against a 71-bar reference; the Study 26c recipe then repairs its
+ends to 0.01–0.45 s, all within a quarter bar. Study 25b (one fable
+call, registered 13c0565) drafted 56/69 on the corrected chart vs the
+hints' 65/69 — S25B-G1 FAIL as registered, and the same 81% the old
+grid-given baseline scored: eat's drafting ceiling is song difficulty
+(vocal-heavy, two-chord bars), not grid.
+
+**Withdrawn or re-graded:**
+
+1. "eat's chart is ~13 bars longer than its recording plays" (the
+   first correction's finding 3, and Studies 25/26's framing) —
+   withdrawn. The band's chart matches the recording; the fixture
+   didn't.
+2. Study 25's S25-G2 reading ("the arrangement mismatch extends into
+   the played span") — an artifact of grading against the wrong chart.
+3. Study 26's "forced, not seduced" — downgraded to OPEN. The
+   trim-to-drums ablation was ill-posed as constructed (it removes
+   audio the chart's first bars need), and with correct anchors the
+   other three charts FIT their audio, so the "charts overrun the
+   audio on every song" support is withdrawn. The recipe's measured
+   results are unaffected; the cause of the end compression on
+   letter-lands and peaceful-dreams is back on the table.
+
+**Upgraded:** Study 26's refusal check caught exactly what it should:
+a chart that disagrees with its recording. Its documented purpose is
+now "wrong-chart detector", and it found the bench's own error before
+the bench did. The fixture-vs-live audit of the other three songs
+found no divergence (letter 76, peaceful 153, mop 140 bars, matching;
+the alignment-ends ASK's "80-bar" Letter Lands figure is also off —
+the live chart is 76). Studies 13–26's eat numbers stand as measured
+against the superseded fixture, so marked.
