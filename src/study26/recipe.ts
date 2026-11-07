@@ -168,6 +168,8 @@ export function repairEndsV2(
 	onset: Float32Array,
 	fps: number,
 	period: number,
+	/** 26c (v3) passes SLIDE_FRACTION (0.25): the half-bar-ambiguity fence. */
+	slideFraction = SLIDE_FRACTION_V2,
 ): RecipeOut | null {
 	const n = ts.length;
 	const lo = Math.floor(0.2 * n);
@@ -183,8 +185,8 @@ export function repairEndsV2(
 	const { iFirst, iLast } = span;
 	const intro = Array.from({ length: iFirst }, (_, k) => ts[iFirst]! - (iFirst - k) * period);
 	const outro = Array.from({ length: n - 1 - iLast }, (_, j) => ts[iLast]! + (j + 1) * period);
-	const introSlide = intro.length > 0 ? combSlide(onset, fps, intro, SLIDE_FRACTION_V2 * period) : 0;
-	const outroSlide = outro.length > 0 ? combSlide(onset, fps, outro, SLIDE_FRACTION_V2 * period) : 0;
+	const introSlide = intro.length > 0 ? combSlide(onset, fps, intro, slideFraction * period) : 0;
+	const outroSlide = outro.length > 0 ? combSlide(onset, fps, outro, slideFraction * period) : 0;
 	const barStarts = [
 		...intro.map((t) => t + introSlide),
 		...ts.slice(iFirst, iLast + 1),

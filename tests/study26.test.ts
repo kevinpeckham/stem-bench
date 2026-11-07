@@ -124,3 +124,22 @@ describe("repairEndsV2 (Study 26b)", () => {
 		expect(repairEndsV2(ts, new Float32Array(1000), 125, P)).toBeNull();
 	});
 });
+
+describe("repairEndsV2 at the v3 slide range (Study 26c)", () => {
+	test("the narrow range cannot reach a half-bar-off onset lattice", () => {
+		// Impulses sit at the true bars AND at strong half-bar backbeats;
+		// the narrow slide stays on the bar.
+		const n = 60;
+		const fps = 125;
+		const env = impulsesAtTrueBars(fps, n);
+		for (let i = 0; i < n; i++) {
+			const f = Math.round((0.4 + i * P + P / 2) * fps);
+			if (f < env.length) env[f] = 2; // louder backbeat
+		}
+		const out = repairEndsV2(corruptedTs(), env, fps, P, 0.25);
+		expect(out).not.toBeNull();
+		for (const i of [0, 1, 2, 3]) {
+			expect(Math.abs(out!.barStarts[i]! - (0.4 + i * P))).toBeLessThanOrEqual(0.25 * P);
+		}
+	});
+});

@@ -125,3 +125,29 @@ letter and peaceful pass; mop is registered uncertain — its DTW middle
 is itself offset ~0.4 s, which extrapolation faithfully copies, so a
 mop failure names whole-grid re-phasing as the next remedy rather than
 end repair. $0.
+
+## Study 26c (registered 2026-11-07, same day, after 26b's results were committed)
+
+26b measured: letter-lands PERFECT (0.02–0.05 s ends), the eat refusal
+held, and the ±0.5-period slide BROKE peaceful-dreams' intro (+0.60 s:
+at that range the comb reaches the half-bar backbeat lattice, which
+v1's ±0.25 range excluded by construction), while mop-heart's outro
+(0.32 s) is the DTW middle's own phase offset, which no end repair can
+remove and which the app's shipped acceptance nonetheless passes.
+
+26c registers **v3 = the comb period (26b's change 1) with v1's
+±0.25·period slide range** (26b's change 2 withdrawn: the narrow range
+is a half-bar-ambiguity fence, not a tuning knob). Gates, set before
+the v3 run on 26/26b's committed numbers:
+
+- **S26C-G1**: letter-lands and peaceful-dreams pass the full bar —
+  app acceptance AND every end bar within 0.25·period of the true grid.
+- **S26C-G2**: mop-heart passes the app's shipped acceptance (bar 1
+  within one declared bar of first sound, median within 15%); its
+  ends-vs-truth are reported, with the registered expectation of a
+  ~0.3 s outro residual inherited from its middle — the named remaining
+  problem (whole-grid phase at fast tempos, Study 25's mop finding),
+  out of scope for an end repair.
+- **S26C-G3**: the eat refusal, unchanged.
+
+Prediction: all three gates pass. $0.

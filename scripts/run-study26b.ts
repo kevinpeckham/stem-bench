@@ -59,7 +59,8 @@ for (const chart of songs) {
 	const comb = jointOnsetComb(feat.onset, feat.fps, period);
 	const mixSpan = audibleSpan(mix, RATE);
 
-	const recipe = repairEndsV2(ts, feat.onset, feat.fps, comb.period);
+	const V3 = process.argv.includes("--v3");
+	const recipe = repairEndsV2(ts, feat.onset, feat.fps, comb.period, V3 ? 0.25 : undefined);
 	console.log(
 		`\n${chart.slug}: comb period ${comb.period.toFixed(4)}s (declared ${period.toFixed(4)}s)`,
 	);
@@ -103,8 +104,8 @@ for (const chart of songs) {
 }
 
 writeFileSync(
-	`${root}results/study26b.json`,
+	`${root}results/study26${process.argv.includes("--v3") ? "c" : "b"}.json`,
 	`${JSON.stringify({ version: 1, songs: out }, null, "\t")}\n`,
 );
-console.log(`\nS26B-G1 (v2 recipe: app acceptance + ends within 0.25 bar of truth, three matched songs): ${g1 ? "PASS" : "FAIL"}`);
-console.log(`S26B-G2 (v2 refuses eat-all-the-clocks): ${g2 ? "PASS" : "FAIL"}`);
+console.log(`\nS26B/C-G1 (recipe: app acceptance + ends within 0.25 bar of truth, three matched songs): ${g1 ? "PASS" : "FAIL"}`);
+console.log(`S26B/C-G2 (refuses eat-all-the-clocks): ${g2 ? "PASS" : "FAIL"}`);
