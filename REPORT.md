@@ -1,5 +1,71 @@
 # stem-bench REPORT
 
+## Study 23 — recording to chart: all four gates FAIL on the chart the app would parse, while the same answers' JSON channel quietly contains the best chord numbers the program has ever measured (2026-11-07)
+
+The end-to-end composition, run as registered (6b0c0b5, grid-given per
+Study 22's decision, hints from the shipped reader, production prompt
+and call shape, one fable call per song; measured spend ≈ $0.31 against
+the $2 fence). Every gate was set on the CHART channel — the draft's
+markdown read through the production barmark adapter, the thing a user
+would see — and every gate failed:
+
+- **S23-G1 FAIL:** peaceful-dreams' chart does not parse at all.
+- **S23-G2 FAIL:** only letter-lands' chart carries the right bar count
+  (76); eat renders 68 of 86 bars, mop-heart 84 of 140.
+- **S23-G3 FAIL:** with bars missing, the chart channel's index-paired
+  roots collapse (30/84, 38/140).
+- **S23-G4 FAIL:** 0 of peaceful's 62 dialect bars on the chart channel.
+
+**The anatomy inverts the verdict's texture: the model did the musical
+job, and lost it in serialization.** The same answers' `chords` field
+(production's bar-exact JSON channel) grades:
+
+- letter-lands 76 bars, roots 72/76 — ABOVE the hint's 70;
+- eat-all-the-clocks 86 bars, roots 68/84 (the one true regression,
+  7 points under the hint on the vocal-heavy song);
+- **peaceful-dreams 153 bars, roots 151/153 — above the hint's 149 —
+  with strict 84/153 against the reader's 20, and 11 of the 62 dialect
+  bars EXACTLY right**: D7sus4 written strictly 11 times where the
+  reader alone scores zero by vocabulary, and G7 on ten G5(7) bars —
+  the seventh heard, the chart's spelling absent from every example,
+  the same half-heard signature Study 21 measured in the reader;
+- mop-heart 140 bars, roots 131/140, strict 129/140.
+
+Had the gates been set on the JSON channel, G1/G2 pass trivially, G4
+passes at 11 ≥ 10, and only G3 fails (eat). They were not, and they are
+not re-thresholded: the chart channel is what ships, and it is broken
+in a specific, legible way. Peaceful's chart writes CELL-level repeats
+("| D5 x8 |") that the band's notation does not define — invited by the
+production prompt's own compact example ("D(7)sus4 · D5 x2") — and the
+parser refuses the document. Mop under-writes its repeats and loses 56
+bars. The failure is not hearing, not harmony, not structure detection
+(the section lists are sensible); it is the last step, serializing an
+already-correct per-bar answer into parseable barmark.
+
+**Verdict to the app:** the auto-chart composition is one deterministic
+step away from viable. The draft's JSON already carries bar-exact
+chords and section starts; a chart BUILT from those fields by code —
+rather than trusted from the model's free markdown — would have passed
+G1, G2 and G4 on this pilot, with only eat's root regression left to
+examine. Constraining the prompt's chart examples to row notation is
+the weaker second option. Nothing ships from this pilot; the fix is an
+app-side design choice and any re-test is a new registration.
+
+**Prediction scorecard — a clean sweep of the right kind:** all five
+predictions WRONG on the gated channel, and every predicted MECHANISM
+visible in the JSON channel (parse quality, hint-following roots,
+7sus4-led dialect recovery concentrated exactly where the prompt's
+examples reach, mop's strictness). The bench predicted the music and
+failed to predict the serialization.
+
+**Disclosures:** analyst Claude Fable 5, measured model claude-fable-5-1
+(same family; grades mechanical and registered first). The gateway
+reports temperature is not supported by this model and ignored — the
+program's standing temperature-0 deviation is therefore void on fable
+calls (as the Claude 5 gateway notes already record); calls are
+production-shaped either way. The run also surfaced that peaceful-dreams
+transcribes to 2,477 notes (the densest input yet, 25.7k prompt tokens).
+
 ## Study 22 — the bar grid from the recording alone: the sanity gate caught the bench's metric, the decision gate failed everywhere, and the real finding is that the program's truth cannot certify a grid finer than itself (2026-11-07)
 
 The recording-to-chart question (Kevin, 2026-11-07) stands on a prior
