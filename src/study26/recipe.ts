@@ -152,3 +152,46 @@ export function audibleSpan(
 	}
 	return { first, last };
 }
+
+/** 26b's wider end-slide range (brief addendum, registered before the v2 run). */
+export const SLIDE_FRACTION_V2 = 0.5;
+
+/**
+ * Recipe v2 (Study 26b): the comb period replaces the LSQ slope; the
+ * middle keeps only the phase (median residual) and trust roles; the
+ * end slide range widens to ±0.5·period. `period` is the onset joint
+ * comb's fit at the declared tempo, computed by the caller
+ * (jointOnsetComb, Study 24).
+ */
+export function repairEndsV2(
+	ts: number[],
+	onset: Float32Array,
+	fps: number,
+	period: number,
+): RecipeOut | null {
+	const n = ts.length;
+	const lo = Math.floor(0.2 * n);
+	const hi = Math.max(lo + 2, Math.ceil(0.8 * n));
+	const residuals = ts
+		.slice(lo, hi)
+		.map((t, j) => t - (lo + j) * period)
+		.sort((a, b) => a - b);
+	const phase = residuals[Math.floor(residuals.length / 2)]!;
+	const fit: InteriorFit = { period, predict: (i) => phase + i * period };
+	const span = trustedSpan(ts, fit);
+	if (!span || span.iLast - span.iFirst + 1 < MIN_TRUSTED_SHARE * n) return null;
+	const { iFirst, iLast } = span;
+	const intro = Array.from({ length: iFirst }, (_, k) => ts[iFirst]! - (iFirst - k) * period);
+	const outro = Array.from({ length: n - 1 - iLast }, (_, j) => ts[iLast]! + (j + 1) * period);
+	const introSlide = intro.length > 0 ? combSlide(onset, fps, intro, SLIDE_FRACTION_V2 * period) : 0;
+	const outroSlide = outro.length > 0 ? combSlide(onset, fps, outro, SLIDE_FRACTION_V2 * period) : 0;
+	const barStarts = [
+		...intro.map((t) => t + introSlide),
+		...ts.slice(iFirst, iLast + 1),
+		...outro.map((t) => t + outroSlide),
+	];
+	const confidence = barStarts.map((_, i) =>
+		i >= iFirst && i <= iLast ? ("aligned" as const) : ("extrapolated" as const),
+	);
+	return { barStarts, confidence, interiorPeriod: period, iFirst, iLast, slides: { intro: introSlide, outro: outroSlide } };
+}

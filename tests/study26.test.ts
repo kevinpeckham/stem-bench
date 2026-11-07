@@ -9,6 +9,7 @@ import {
 	combSlide,
 	interiorFit,
 	repairEnds,
+	repairEndsV2,
 	trustedSpan,
 } from "../src/study26/recipe.js";
 
@@ -97,5 +98,29 @@ describe("audibleSpan", () => {
 		expect(span.first).toBeLessThanOrEqual(2.05);
 		expect(span.last).toBeGreaterThanOrEqual(6.9);
 		expect(span.last).toBeLessThanOrEqual(7.05);
+	});
+});
+
+describe("repairEndsV2 (Study 26b)", () => {
+	test("a biased-slope middle no longer corrupts the tail when the period is given", () => {
+		// Middle wobble engineered to bias an LSQ slope: early middle bars
+		// run late, late middle bars run early. v2 takes the period as
+		// given and only needs the median phase.
+		const n = 60;
+		const ts = Array.from({ length: n }, (_, i) => 0.4 + i * P);
+		for (let i = 12; i < 30; i++) ts[i]! += 0.15;
+		for (let i = 30; i < 48; i++) ts[i]! -= 0.15;
+		for (let i = 0; i < 5; i++) ts[i] = 7.0 - i * 0.9;
+		for (let i = 55; i < 60; i++) ts[i] = ts[54]! + (i - 54) * 0.7;
+		const fps = 125;
+		const out = repairEndsV2(ts, impulsesAtTrueBars(fps, n), fps, P);
+		expect(out).not.toBeNull();
+		for (const i of [0, 1, 2, 3, 56, 57, 58, 59]) {
+			expect(Math.abs(out!.barStarts[i]! - (0.4 + i * P))).toBeLessThanOrEqual(0.25 * P);
+		}
+	});
+	test("still refuses an untrusted interior", () => {
+		const ts = Array.from({ length: 60 }, (_, i) => ((i * 7919) % 97) + (i % 2) * 40);
+		expect(repairEndsV2(ts, new Float32Array(1000), 125, P)).toBeNull();
 	});
 });

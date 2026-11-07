@@ -92,3 +92,36 @@ unaffected by construction.
 
 $0 (mechanical only). Instruments in src/study26/ with unit tests;
 runner scripts/run-study26.ts; results in results/study26.json.
+
+## Study 26b (registered 2026-11-07, same day, after 26's results were committed)
+
+26's registered gates measured honestly: G2 PASS (eat refused), G1 FAIL
+(letter's outro by ~1.3 s, mop's intro by 0.66 s), G3 FAIL with a
+design disclosure — the trim-to-drums construction is ill-posed because
+the full chart does not fit the sliced span, so the slice cannot test
+the hazy-ends hypothesis; what it DID establish is that removing the
+"hazy" audio fixes nothing, i.e. the compression is forced (the ends
+have nowhere to go), not seduced.
+
+26b registers recipe v2 with two changes, both motivated by 26's
+committed numbers before any v2 run:
+
+1. **The interior period comes from the onset joint comb**
+   (jointOnsetComb, Study 24's instrument, ±10% of the chart's declared
+   tempo — an input the worker has), replacing the LSQ slope, which 26
+   measured 0.95% biased on letter-lands (compounding to 0.5 s over 29
+   extrapolated bars) while the comb measured ≤ 0.02% on all four
+   songs. The LSQ fit keeps only the trust/phase role: the fit line is
+   the comb period with the median of (ts[i] − i·period) over the
+   middle 60% as phase.
+2. **The end slide range widens to ±0.5 · period** (from ±0.25), since
+   26 measured residual end offsets (letter outro ~1.3 s before slide
+   correction at the biased period; mop ~0.65 s) that the narrow range
+   could not reach. The trust tolerance stays 0.25 · period.
+
+Gates: **S26B-G1** = S26-G1 under v2 (letter-lands, peaceful-dreams,
+mop-heart); **S26B-G2** = the eat refusal, unchanged. Predictions:
+letter and peaceful pass; mop is registered uncertain — its DTW middle
+is itself offset ~0.4 s, which extrapolation faithfully copies, so a
+mop failure names whole-grid re-phasing as the next remedy rather than
+end repair. $0.
