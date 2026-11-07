@@ -138,7 +138,11 @@ for (const { chart, heldOut } of songs) {
 	const truth: string[][] = [];
 	for (const s of chart.sections)
 		for (const chords of s.bars) {
-			bars.push({ chords, bpm: chart.bpm });
+			// Render-only amendment (disclosed, pre-run, no gate or constant
+			// change): parenthetical extensions are stripped for the alignment
+			// pads — the renderer has no voicing for "5(7)" — while the graded
+			// truth stays verbatim.
+			bars.push({ chords: chords.map((c) => c.replace(/\(.*\)$/, "")), bpm: chart.bpm });
 			truth.push(chords);
 		}
 	const mixRawPath = `${root}corpus-mmkk/${chart.slug}/mix.mp3.22050.f32le.raw`;
