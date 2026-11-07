@@ -1,5 +1,72 @@
 # stem-bench REPORT
 
+## Study 21 — the chord reader on the rest of the catalog: the roots generalize at 90 %, the all-triad song is the program's first big strict result, and the gate fails on the grade's vocabulary, not the reader's hearing (2026-11-07)
+
+The shipped reader's real-audio numbers rested on the two songs the
+pipeline was developed against. Study 20b banked truth for the other two
+charted Badverbs songs AFTER the reader shipped, so this study graded it
+there (registered fbf1110; $0; no transcription — the reader works on
+the mix). One registered grading decision, made pre-data: the power
+allowance extends to truth quality "5(7)" (a power chord with an
+optional seventh declares no third either), pinned identical to the
+Study 13 grade wherever that quality is absent.
+
+- **S21-G1 PASS exact:** the anchors reproduce 59/76 and 53/86 — the
+  fourth reproduction.
+- **S21-G2 FAIL as registered:** peaceful-dreams reads 73/153 (47.7 %)
+  against the 50 % line; mop-heart reads 107/140 (76.4 %) and passes
+  its half easily. The gate fails by four bars, and the anatomy says
+  the four bars — and forty more — are the grade's vocabulary, not the
+  reader's hearing.
+
+**The anatomy:**
+
+- **Roots, the number that transfers: 90.3 % across the catalog**
+  (letter-lands 70/76, eat 75/84, peaceful-dreams **149/153 — 97.4 %,
+  the best root performance in the program**, mop-heart 115/140).
+- **mop-heart is the program's first big STRICT result:** 107 of its
+  140 bars exactly right, zero allowance credit — plain major triads
+  are the model's native vocabulary, and the sparse 3/4 arrangement
+  that destroyed the note-channel power hint (16 fires, 16 misses in
+  Study 20b) does not trouble a reader that hears the mix. Prediction 3
+  landed exactly: on an all-triad chart, right means strictly right.
+- **peaceful-dreams fails on dialect, not hearing.** 62 of its 153 bars
+  (40 %) carry qualities outside the allowance vocabulary. On the 32
+  X5(7) bars the model answers X7 on 24 — it HEARS the optional
+  seventh — but "7" is not in the registered allowance set {maj, m, 5},
+  so only its 6 plain-maj answers credit. On the 30 7sus4 bars it
+  answers X7 or Xsus4 (roots right 29 of 30), each half of the truth,
+  credit zero. The registered gate stands un-re-thresholded; the
+  disclosed root-level and per-class reads carry the real story, as
+  Study 17's did.
+- The verbatim-grade delta was 6 bars, not the predicted 15–30, for
+  the same reason: the model says 7, not maj, on 5(7) bars, so the
+  extension had little to credit. A wrong prediction that uncovered a
+  better fact.
+
+**Prediction scorecard:** 1 RIGHT (exact), 2 WRONG twice over (47.7 %
+below the band; delta 6 — the model hears the seventh), 3 RIGHT
+exactly (strict-first = right, 107 = 107), 4 WRONG (G2 fails on
+peaceful-dreams), 5 RIGHT (combined 292/453 = 64.5 %, within ten points
+of the two-song 69.1 %).
+
+**What it means:** nothing changes in the app — the reader is already
+shipped and Study 17's hedge already says it will not spell the chart's
+colors. What changed is the evidence: the reader's roots now stand on
+four songs instead of two, at 82–97 % per song, and the colors it
+misses are half-heard (the seventh in 5(7), the sus-or-seventh split in
+7sus4) rather than unheard — which is precisely the raw material the
+draft layer reads. The suggested end-to-end draft study inherits this
+as its baseline. A future grading note, registered before it is needed:
+charts in other dialects will keep hitting allowance-vocabulary edges,
+and the honest fix is per-study registration of the allowance against
+the chart's own symbol census, never post-hoc.
+
+**Disclosure:** analyst Claude Fable 5; zero model calls; the one new
+grader is pinned by test to Study 13's wherever 5(7) is absent (both
+anchors, mop-heart, the whole fixture vocabulary), so no prior number
+moved. Spend $0.
+
 ## Study 20b — the power hint on held-out songs: both gates FAIL — one on the merits, one on the bench's own registration error (2026-11-07)
 
 Study 20's one asset — the power call's 22-of-23 precision — was frozen
