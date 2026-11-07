@@ -1,5 +1,88 @@
 # stem-bench REPORT
 
+## Study 23b — the chartless-song grid kills the draft BOTH ways: a perfect tap does not save the declared tempo, and the registered decision is true-tempo estimation (2026-11-07)
+
+Run as registered (6b2d599, $2 fence, ≈$0.6 spent by token parity with
+Study 23's measured $0.31 — the runner logged tokens, 129,892 in /
+24,647 out, not dollars). Both arms build the grid a CHARTLESS song
+would actually have — period from the declared bpm and meter, bar count
+from the recording's length — and everything downstream (transcription
+binning, nchord hints, prompt, model, grading) is Study 23's verbatim.
+B2 anchors the grid at the aligned truth's first bar start (a perfect
+user tap); B1 takes Study 22's blind onset-comb phase. Gates sat on the
+JSON chords channel, index-paired against the chart, baselines
+recomputed in-run from results/study23.json.
+
+**S23B-G1 FAIL on every song — the tap arm is the WORST arm measured.**
+B2 roots against the grid-given baseline: letter-lands 39/76 vs 72/76,
+eat-all-the-clocks 21/84 vs 68/84, peaceful-dreams 64/153 vs 151/153,
+mop-heart 53/140 vs 131/140. The mechanical anatomy says why with no
+room for argument: B2's grid hits the truth lattice at EXACTLY ONE bar
+per song — its own anchor — and its mean per-bar error runs 3.3 to
+8.4 SECONDS (multiple bars adrift by mid-song). The phase was perfect
+by construction, so the entire error is the period: the declared bpm is
+not the recording's tempo, and a uniform grid built from it walks off
+the truth within a dozen bars no matter where it starts.
+
+**S23B-G2 PASS, but inverted: the blind comb BEAT the perfect tap on
+all four songs** (52, 51, 138, 133 roots — mop-heart lands ABOVE its
+grid-given baseline, 133/140 vs 131/140, and peaceful reaches 138/153).
+Two mechanisms, both visible in the committed records, neither a
+vindication of blind grids: (1) the comb fits the whole recording's
+onsets, so its wrong-by-whole-bars phase acts as a crude mid-song
+recentering of the wrong-period lattice (B1 mean |err| roughly half of
+B2's, e.g. mop 596 ms vs 3,347 ms); (2) these songs' progressions
+repeat, so index-paired roots forgive a grid shifted by whole loops.
+B1's grids are still not truth (index hits 7/86 at best): the scores
+survive because the music is periodic, not because the bars are right.
+
+**The registered decision table fires its third row: uniform grids are
+insufficient even anchored. The feature needs alignment-grade grids or
+true-tempo estimation — the declared bpm cannot be trusted as the
+period, and no tap UX fixes that.** The dialect casualty confirms the
+stakes: peaceful's 62 chart-dialect bars, 11 exactly right grid-given
+(Study 23), drop to 4 (B2) and 6 (B1) — color spelling needs the right
+notes in the right bar.
+
+**The downbeat shootout ($0, Kevin's tap-free question):** graded by
+circular anchor error against the truth's first bar start, hit within
+15% of a bar. The onset comb E1 hits 3/4 songs (53/15/115 ms; misses
+peaceful at 766 ms). The chord-change comb E3 hits 2/4 (73/179 ms),
+the bass comb E2 1/4, and the music-start anchor E4 2/4 — including
+letter-lands at 121 ms, the one case no mod-period comb can express
+(its charted music starts 7.15 s in). So yes: tap-free anchoring is
+already roughly tap-grade on this corpus — and it is the wrong
+question. B2 just proved a PERFECT anchor is worth nothing under a
+wrong period. The measurement that matters next is the period itself
+(the E3 comb generalizes to a phase-and-period search over the shipped
+reader's chord-change times, at zero new UX).
+
+**Prediction scorecard (registered first, scored against the data):**
+
+1. "G1 fails via letter and eat; mop within 5 points; peaceful
+   marginal" — HALF RIGHT. G1 failed, but on ALL FOUR songs; mop's tap
+   arm lost 56 points, not <5. The declared-tempo rot is universal,
+   not a two-song defect.
+2. "G2 also fails, B1 below B2 on at least two songs" — WRONG, fully
+   inverted: G2 passed with B1 above B2 everywhere.
+3. "B2's index error grows roughly linearly (period error, not phase
+   error), making the decision true-tempo estimation" — CONFIRMED in
+   mechanism (anchor-bar hit, then seconds of drift; phase perfect by
+   construction leaves only the period), though the runner persisted
+   the anatomy as per-song summaries (hits, mean |err|), not the
+   per-bar curve — disclosed.
+4. "peaceful's dialect ≤ 5 of 62 under B2" — RIGHT (4).
+5. "Spend ≤ $0.80" — RIGHT (≈ $0.6 by token parity).
+6. "E3 beats E1 on ≥ 3 songs; E4 within a bar of letter's 7.15 s" —
+   HALF WRONG: E1 beat E3 (3 hits vs 2); the E4-letter clause was
+   RIGHT (121 ms).
+
+Disclosure: analyst Claude Fable 5, measured model claude-fable-5-1
+(same family; every grade mechanical and committed before the run). The
+gateway ignores temperature on this model (standing note since Study
+23). All graders and the comb are prior studies' committed instruments;
+results in results/study23b.json.
+
 ## Study 23 — recording to chart: all four gates FAIL on the chart the app would parse, while the same answers' JSON channel quietly contains the best chord numbers the program has ever measured (2026-11-07)
 
 The end-to-end composition, run as registered (6b0c0b5, grid-given per
