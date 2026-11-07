@@ -1,0 +1,113 @@
+{
+	"version": 1,
+	"songs": {
+		"letter-lands": {
+			"combPeriod": 1.8185454545454554,
+			"R4b": {
+				"outcome": "repaired",
+				"trusted": {
+					"iFirst": 14,
+					"iLast": 58
+				},
+				"slides": {
+					"intro": -0.159272727272727,
+					"outro": 0
+				},
+				"first4": [
+					0.046778602350016296,
+					0.047142238713652196,
+					0.04750587507729165,
+					0.047869511440927326
+				],
+				"last4": [
+					0.015235415378242578,
+					0.015599051741872927,
+					0.015962688105531697,
+					0.016326324469162046
+				],
+				"median": 1.8185454545454558,
+				"bar1": -0.0742213976499837,
+				"firstSound": 0.01,
+				"appAccept": {
+					"bar1Ok": true,
+					"medianOk": true
+				},
+				"endsWithinQuarterBar": true
+			}
+		},
+		"eat-all-the-clocks": {
+			"combPeriod": 2.0003999999999995,
+			"R4b": {
+				"outcome": "refused"
+			}
+		},
+		"peaceful-dreams": {
+			"combPeriod": 1.6551724137931034,
+			"R4b": {
+				"outcome": "repaired",
+				"trusted": {
+					"iFirst": 20,
+					"iLast": 122
+				},
+				"slides": {
+					"intro": 0.6024137931034492,
+					"outro": 0
+				},
+				"first4": [
+					0.8880570021111871,
+					0.8880570021111902,
+					0.8880570021111902,
+					0.8880570021111893
+				],
+				"last4": [
+					0.11384557041236576,
+					0.11384557041233734,
+					0.11384557041236576,
+					0.11384557041236576
+				],
+				"median": 1.6551724137931103,
+				"bar1": 0.7690570021111871,
+				"firstSound": 0,
+				"appAccept": {
+					"bar1Ok": true,
+					"medianOk": true
+				},
+				"endsWithinQuarterBar": false
+			}
+		},
+		"mop-heart": {
+			"combPeriod": 0.8035714285714262,
+			"R4b": {
+				"outcome": "repaired",
+				"trusted": {
+					"iFirst": 14,
+					"iLast": 126
+				},
+				"slides": {
+					"intro": 0.09821428571428713,
+					"outro": 0
+				},
+				"first4": [
+					0.11236394557819179,
+					0.11236394557819507,
+					0.11236394557819662,
+					0.11236394557819818
+				],
+				"last4": [
+					0.3204988662131001,
+					0.3204988662131143,
+					0.3204988662131143,
+					0.3204988662131001
+				],
+				"median": 0.8035714285714306,
+				"bar1": 0.2026360544218082,
+				"firstSound": 0,
+				"appAccept": {
+					"bar1Ok": true,
+					"medianOk": true
+				},
+				"endsWithinQuarterBar": false
+			}
+		}
+	}
+}
