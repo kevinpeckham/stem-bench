@@ -2493,3 +2493,64 @@ arrangement-matched song — letter 72/76 = baseline, peaceful 152/153 >
 period + onset-comb phase, with bar one near t = 0; the open problems
 are picking phase to beat-level precision at fast tempos and the
 chart-vs-recording arrangement mismatch, which no grid can close.
+
+## Studies 26 / 26b / 26c — the alignment's weak ends: cause refuted, recipe shipped-shape (registered docs/BRIEF-STUDY26.md, all $0, run 2026-11-07)
+
+stem-shovel's ASK (docs/bench-brief-alignment-ends-2026-11-07.md): the
+shipped chart alignment's bar map is unusable at the ends (their Letter
+Lands: bar 1 at 8.06 s, 0.9 s intro "bars", last bar 15 s early), the
+app now refuses such maps, and the deliverable is a cause and a
+browser-worker recipe that gets Letter Lands through the acceptance
+gate without loosening it.
+
+**Baseline (design diagnostic, vs the true grid the correction gave
+us):** the middle is good and the ends are broken on the three
+arrangement-matched songs (letter 0.18 s mean mid vs 7.3/15.3 s ends;
+peaceful 0.16 vs 6.6/23.3; mop 0.42 vs ~3/3.6), while eat's interior is
+corrupted by its arrangement mismatch (7.8 s mean). The app's bar-1
+acceptance rule fails ALL FOUR MMKK songs on bench numbers — the
+shipped refusal currently refuses the whole set.
+
+**The cause is not Kevin's hazy-audio seduction — the trim-to-drums
+ablation refuted it (S26-G3 FAIL, with a design disclosure):** slicing
+the audio to the drum span fixed nothing, because the chart still
+cannot fit the sliced span; the end compression is FORCED (subsequence
+DTW must place every chart bar and the ends have no room), not seduced
+by low-contrast chroma. The middle-good/ends-bad shape of his
+hypothesis was right.
+
+**The recipe converged in three registered steps:**
+
+- 26 (v1, Kevin's proposal with an LSQ slope): peaceful perfect,
+  letter's intro repaired 7.3 s → 0.05 s, but the LSQ period came out
+  0.95% biased and compounded to 1.3 s over letter's 29 extrapolated
+  tail bars; mop inherits its middle's own offset. G1 FAIL.
+- 26b (comb period, ±0.5-bar slide): letter perfect (0.02–0.05 s), but
+  the wide slide reaches the half-bar backbeat lattice and broke
+  peaceful's intro by +0.60 s. G1 FAIL. Two lessons priced: the comb
+  is the period instrument; ±0.25 period is a half-bar-ambiguity
+  fence, not a tuning knob.
+- 26c (v3 = comb period + the 0.25 fence): **all three gates PASS** —
+  letter 0.05/0.02 s ends, peaceful 0.06/0.11 s, mop app-accepted with
+  the registered-expected 0.32 s outro residual (its DTW middle's own
+  phase offset, Study 25's 224 bpm finding; whole-grid re-phasing is
+  the named next remedy, out of an end-repair's scope), eat refused by
+  the recipe's own interior-trust check (trusted span < 50% of bars),
+  which is the right user-facing answer for an arrangement mismatch.
+
+The shipped-shape recipe (src/study26/recipe.ts, unit-tested; one DTW
+as today plus an onset envelope and comb sweeps, no second DTW pass):
+(1) align; (2) period = onset joint comb within ±10% of the chart's
+declared tempo; (3) phase = median residual over the middle 60%,
+trusted = within 0.25·period, refuse if the trusted span is under half
+the bars; (4) keep the aligned trusted span, extrapolate the ends at
+the comb period; (5) slide each end by the δ in ±0.25·period that
+maximizes mean detrended onset energy at its lines; (6) per-bar
+confidence: aligned vs extrapolated+slid.
+
+Estimator notes for the worker: the interior duration MEDIAN
+underestimates the tempo (skewed noise; letter 1.699 vs 1.818 s) and
+the LSQ slope was 1% biased — use the comb. Chart-version note: the
+app's 80-bar Letter Lands chart fails the median acceptance check
+(1.50 s) where the bench's 76-bar chart passes (1.699 s); the recipe
+sidesteps the question by making the median land at the comb period.
