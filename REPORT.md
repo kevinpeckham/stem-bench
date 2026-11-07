@@ -1,5 +1,86 @@
 # stem-bench REPORT
 
+## Study 20 — coloring ChordMini's roots from the notes: all four gates FAIL, and the hypothesis is refuted as specified (2026-11-07)
+
+The app's brief (committed as docs/bench-brief-chord-colors-2026-11-07.md
+in its repo) proposed `colorChord`: with the root fixed by the model, let
+the bar's note profile choose the chart's color — power chord, sus4,
+sus2, a major/minor flip, a slash bass — without ever touching the root.
+The bench verified the brief's premises (roots 70/76 and 75/84; letter's
+truth is 74 power + 50 sus4 slots), registered its own pass lines at the
+brief's suggested shape (2e523e6), built the candidate to spec with
+pinned instruments, and ran it. **Every gate fails.** $0 spent.
+
+- **S20-G1 FAIL (the point):** A1 strict reads 22/76 and 14/86 against
+  pass lines of 46 and 38. The synthetic sweep said 438/440; the real
+  recordings say 22/76 — the program's home-field lesson (Studies 13,
+  17, 18) repeats in its sharpest form yet.
+- **S20-G2 FAIL (roots fall):** root-level drops 59 → 55 on letter-lands
+  and 53 → 33 on eat-all-the-clocks. The recoloring is destructive
+  exactly where the model was already credited: Em → Esus4 on seven E5
+  bars, sus2 and slash dressings on power-chord truth, each one
+  trading an allowance-credited triad for a wrong color.
+- **S20-G3 FAIL:** the cost of guessing is 4 on letter-lands (at the
+  line) and 20 on eat (five times it).
+- **S20-G4 FAIL, reversed:** the negative control BEATS the candidate —
+  A3 (the matcher's own templates, root forced, sevenths allowed) totals
+  48 strict against A1's 36, and on eat it even beats the raw model
+  (26 vs 19 strict) by writing the m and m7 colors eat's truth actually
+  contains. The premise that the seventh fence was the protective piece
+  is refuted: the hand rules, not the sevenths, are what loses.
+
+**The anatomy (why the notes cannot color these bars):**
+
+- **The power rule is precise and starved.** When A1 said power chord it
+  was right 22 of 23 times on letter-lands. But it reached only ~23 of
+  the ~74 power bars: on the rest, the re-transcription's profile shows
+  a third or a fourth above the 12 % line that the recording's guitars
+  never played — harmonic smear and bleed, the same artifact class
+  Study 13 documented at the chromagram floor. On roughly 50 of
+  letter's power bars the right color is UNREACHABLE by any
+  profile-threshold rule, because the note evidence itself contradicts
+  it (the brief's "colors not reachable" answer, measured).
+- **The sus rules are the damage.** 20 sus4 and 5 sus2 calls on eat, 0
+  right; 8 sus4-class calls on letter, 0 right. Phantom fourths turn
+  credited triads into uncredited sus chords.
+- **The slash rule, flagged pre-run as unvalidatable, behaved exactly
+  that way:** 14 firings across both songs, zero slash chords in any
+  truth, every firing a cost.
+- **The flip**: fired 3 times, all on letter-lands where no maj/min
+  truth exists, 0 right. The registered decision rule drops it.
+- **The bench's own registered interpretation cost bars and is owned
+  here:** sus4-before-power (registered because the brief's literal
+  order made sus4 unreachable) sent 3 letter and 11 eat bars to sus4
+  where power would have been strict-right. Under the brief's literal
+  order the scores would be ~25/76 and ~25/86 — every gate still fails.
+- **The vocal-stem split barely matters here:** excluding eat's vocal
+  stem moves A1 by +1.
+
+**Prediction scorecard (mostly wrong, as a refutation should be):** 1
+WRONG (predicted 50–62 and 40–50), 2 WRONG (predicted a dip ≤ 1;
+measured −4 and −20), 3 half wrong (letter's cost 4 is at the line, eat's
+20 is five times it), 4 WRONG REVERSED (predicted A3 under half of A1;
+A3 won), 5 half right (the flip's record and the drop recommendation,
+yes; slashes fired 14 times, not ≤ 2), 6 RIGHT (the fixture picked
+0.12; A2 ≡ A1 everywhere), 7 RIGHT (vocal +1, inside +0..+4).
+
+**Verdict to the app:** do not ship `colorChord`; the card's hedge stays
+"never a power chord." The one measured asset worth a successor brief is
+the power rule's precision: root and fifth dominant with third, fourth
+AND second all absent was right 22 of 23 times when it fired. A
+candidate that ONLY makes that call (no sus, no flip, no slash, model
+otherwise untouched) would have scored ~22/76 strict at a cost of ~1 —
+a hint, not a recoloring. That is a different study, registered fresh if
+the app wants it.
+
+**Disclosure:** analyst Claude Fable 5; zero model-API calls; every
+grade mechanical and committed before the run (barmark 0.17.0 strict
+grade — aliased, because Study 16 pins the bare dependency at the app's
+0.5.0; evidence arithmetic pinned to the Study 18 port over all 440
+fixture bars; the forced-root control pinned to chordOf231 exactly).
+Notes channel: the bench's summed-stem transcription, a disclosed
+difference from the app's per-stem weighting.
+
 ## Study 19 — the ChordMini port gated: perfect frame parity, and the bench's numbers are now the app's (2026-11-06)
 
 stem-shovel shipped the Study 17 chord pipeline in TypeScript (app
