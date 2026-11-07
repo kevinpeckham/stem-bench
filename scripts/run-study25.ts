@@ -84,13 +84,19 @@ const study23 = JSON.parse(readFileSync(`${root}results/study23.json`, "utf8")) 
 	songs: Record<string, { answer?: { chords: string } }>;
 };
 
-const songs = [...(mmkkCharts.songs as ChartSong[]), ...(charts20b.songs as ChartSong[])];
+// Amendment 1 (2026-11-07): `--only <slug>` re-runs one song and merges
+// into the committed results file (the other songs' rows are kept).
+const only = process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null;
+const songs = [...(mmkkCharts.songs as ChartSong[]), ...(charts20b.songs as ChartSong[])].filter(
+	(s) => !only || s.slug === only,
+);
+if (songs.length === 0) throw new Error(`no song matches --only ${only}`);
 const dir = mkdtempSync(join(tmpdir(), "stem-bench25-"));
 const gateway = createGateway({ apiKey });
 const beatsOf = (meter: string) => (meter === "3/4" ? 3 : 4);
-const out: Record<string, unknown> = {};
-let g1 = true;
-let g2 = true;
+const out: Record<string, unknown> = only
+	? (JSON.parse(readFileSync(`${root}results/study25.json`, "utf8")) as { songs: Record<string, unknown> }).songs
+	: {};
 
 function runNchord(mixRawPath: string, slug: string, tag: string, barStarts: number[]): string[] {
 	const barsFile = join(dir, `${slug}-${tag}-bars.json`);
@@ -130,7 +136,7 @@ for (const chart of songs) {
 	const nU = Math.max(1, Math.floor((durationSec - dtwStart) / period));
 	const uniformStarts = Array.from({ length: nU }, (_, i) => dtwStart + i * period);
 	const hintsU = runNchord(mixRawPath, chart.slug, "uniform", uniformStarts);
-	const fit = bestShiftAnchor(hintsU, truth, dtwStart, period);
+	const fit = bestShiftAnchor(hintsU, truth, dtwStart, period, 6, -period);
 	console.log(
 		`  declared period ${period.toFixed(4)}s | dtw start ${dtwStart.toFixed(2)}s | anchor ${fit.anchor.toFixed(3)}s (shift ${fit.shift}, hint roots ${fit.right}/${fit.bearing})`,
 	);
@@ -229,8 +235,6 @@ for (const chart of songs) {
 	if (!parsed?.success) {
 		b4 = { outcome: "parse-error", barsOffered: n, text: result.text.slice(0, 1500) };
 		console.log(`  B4: NO VALID ANSWER (${n} bars offered)`);
-		if (MATCHED.has(chart.slug)) g1 = false;
-		else g2 = false;
 	} else {
 		const expandedRaw = expandChords(parsed.output.chords);
 		const perBar = Array.from({ length: n }, (_, i) => expandedRaw[i] ?? "");
@@ -254,7 +258,6 @@ for (const chart of songs) {
 		};
 		if (MATCHED.has(chart.slug)) {
 			const ok = roots.right / roots.bearing >= baseline.right / baseline.bearing - 0.05;
-			if (!ok) g1 = false;
 			console.log(
 				`  B4 (${n} bars): roots ${roots.right}/${roots.bearing} vs baseline ${baseline.right}/${baseline.bearing} -> S25-G1 ${ok ? "ok" : "MISS"} | dialect ${dialect}`,
 			);
@@ -264,7 +267,6 @@ for (const chart of songs) {
 			const prefixBase = rootScore(basePadded.slice(0, pfx), truth.slice(0, pfx));
 			const ok =
 				prefixRoots.right / prefixRoots.bearing >= prefixBase.right / prefixBase.bearing - 0.05;
-			if (!ok) g2 = false;
 			b4 = { ...b4, playable, prefixRoots, prefixBaseline: prefixBase };
 			console.log(
 				`  B4 (${n} bars, ${playable} playable): roots ${roots.right}/${roots.bearing} (full baseline ${baseline.right}/${baseline.bearing}) | prefix ${prefixRoots.right}/${prefixRoots.bearing} vs prefix baseline ${prefixBase.right}/${prefixBase.bearing} -> S25-G2 ${ok ? "ok" : "MISS"} | dialect ${dialect}`,
@@ -286,6 +288,36 @@ for (const chart of songs) {
 }
 rmSync(dir, { recursive: true, force: true });
 writeFileSync(`${root}results/study25.json`, `${JSON.stringify({ version: 1, model: MODEL, songs: out }, null, "\t")}\n`);
+
+// Gates, computed over the merged results so an --only re-run still
+// grades every song.
+interface Row {
+	baseline: { right: number; bearing: number };
+	B4: {
+		outcome: string;
+		roots?: { right: number; bearing: number };
+		prefixRoots?: { right: number; bearing: number };
+		prefixBaseline?: { right: number; bearing: number };
+	};
+}
+let g1 = true;
+let g2 = true;
+for (const [slug, rowU] of Object.entries(out)) {
+	const row = rowU as unknown as Row;
+	if (row.B4.outcome !== "answered") {
+		if (MATCHED.has(slug)) g1 = false;
+		else g2 = false;
+		continue;
+	}
+	if (MATCHED.has(slug)) {
+		const r = row.B4.roots;
+		if (!r || r.right / r.bearing < row.baseline.right / row.baseline.bearing - 0.05) g1 = false;
+	} else {
+		const p = row.B4.prefixRoots;
+		const b = row.B4.prefixBaseline;
+		if (!p || !b || p.right / p.bearing < b.right / b.bearing - 0.05) g2 = false;
+	}
+}
 console.log(
 	`\nS25-G1 (B4 roots within 5pp of the grid-given baseline on the three matched songs): ${g1 ? "PASS" : "FAIL"}`,
 );

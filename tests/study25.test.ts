@@ -45,6 +45,17 @@ describe("bestShiftAnchor", () => {
 		expect(fit.anchor).toBeCloseTo(3.0, 6);
 	});
 
+	test("Amendment 1: a non-physical anchor is excluded even when it scores best", () => {
+		// Shift -5 would pair perfectly, but its anchor (2.41 - 5*2 = -7.59)
+		// is more than a bar before the audio; the physical runner-up wins.
+		const hintsU = truth.slice(5).map((bar) => bar[0]!);
+		const unrestricted = bestShiftAnchor(hintsU, truth, 2.41, 2.0);
+		expect(unrestricted.shift).toBe(-5);
+		const fit = bestShiftAnchor(hintsU, truth, 2.41, 2.0, 6, -2.0);
+		expect(fit.shift).toBeGreaterThanOrEqual(-2);
+		expect(fit.anchor).toBeGreaterThan(-2.0);
+	});
+
 	test("missing indices grade as empty, not as a crash", () => {
 		const hintsU = truth.slice(0, 3).map((bar) => bar[0]!); // far fewer hints than bars
 		const fit = bestShiftAnchor(hintsU, truth, 0, 1.0, 2);

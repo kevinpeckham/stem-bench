@@ -85,3 +85,26 @@ errors restated against the true anchor.
 ## Spend fence
 
 $2. Four fable calls expected ≈ $0.3. No matrix leg.
+
+## Amendment 1 (2026-11-07, same day, before any reporting)
+
+The registered anchor procedure was defective on eat-all-the-clocks:
+the shift search chose s = −5 (anchor −7.585 s) over s = −1 (anchor
+0.410 s) on a one-root hint margin (56 vs 55), and the registered
+clamp — barStarts[0] = max(0, anchor) — only moves bar 0, so the grid
+came out non-monotonic (bar 0 at 0, bar 1 at −5.585 s), which no bar
+sequence can be; describeBars and the reader assume monotonic starts.
+Per the defective-instrument rule: the first eat run's numbers are
+VOID and disclosed here (B4 51/84 full, prefix 51/75 vs 59/75, S25-G2
+MISS, through the broken grid head), the first results file is
+preserved as results/study25-defective-run1.json, and the fix is
+registered before the re-run: candidate shifts whose anchor ≤ −period
+are excluded (chart bar one may begin at most one bar before the
+audio, so the clamp can affect only bar 0 and by less than one
+period), implemented as bestShiftAnchor's minAnchor parameter with a
+unit test, runner passes −period. Only eat re-runs (--only merge mode
+added to the runner); the three valid songs' scored rows are kept, not
+re-rolled. The excluded s = −5 candidate is also a finding in itself:
+by hints alone, "the recording skips the chart's first four bars" and
+"the recording opens on chart bar one" are nearly indistinguishable on
+this song (56 vs 55), a direct corollary of the arrangement mismatch.

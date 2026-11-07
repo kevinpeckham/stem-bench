@@ -35,9 +35,17 @@ export function bestShiftAnchor(
 	gridStart: number,
 	period: number,
 	maxShift = 6,
+	/**
+	 * Amendment 1 (2026-11-07): candidate anchors at or below this are
+	 * excluded. Registered as −period: chart bar one may begin at most
+	 * one bar before the audio, so the bar-0 clamp can never produce a
+	 * non-monotonic grid (the defect the first eat run exposed).
+	 */
+	minAnchor = Number.NEGATIVE_INFINITY,
 ): AnchorFit {
 	let best: AnchorFit | null = null;
 	for (const s of shiftOrder(maxShift)) {
+		if (gridStart + s * period <= minAnchor) continue;
 		const perBar = Array.from({ length: truth.length }, (_, i) => hintsU[i + s] ?? "");
 		const score = rootScore(perBar, truth);
 		if (best === null || score.right > best.right) {

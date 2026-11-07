@@ -1,0 +1,594 @@
+{
+	"version": 1,
+	"model": "anthropic/claude-fable-5-1",
+	"songs": {
+		"letter-lands": {
+			"declared": {
+				"bpm": 132,
+				"meter": "4/4",
+				"period": 1.8181818181818181
+			},
+			"bars": 76,
+			"durationSec": 141.3,
+			"dtwStart": 7.152,
+			"anchor": {
+				"time": -0.121,
+				"shift": -4,
+				"hintRoots": {
+					"right": 70,
+					"bearing": 76
+				}
+			},
+			"playable": 77,
+			"shootout": {
+				"e1": {
+					"phase": 1.7500000000000013,
+					"circularMs": 53
+				},
+				"e2": {
+					"phase": 0.9100000000000006,
+					"circularMs": 787
+				},
+				"e3": {
+					"phase": 1.7700000000000014,
+					"circularMs": 73
+				},
+				"e4": {
+					"start": 0,
+					"circularMs": 121,
+					"barOneErrSec": 0.12
+				}
+			},
+			"baseline": {
+				"right": 72,
+				"bearing": 76
+			},
+			"B4": {
+				"outcome": "answered",
+				"barsOffered": 76,
+				"barsAnswered": 75,
+				"roots": {
+					"right": 72,
+					"bearing": 76
+				},
+				"dialectStrict": 0,
+				"strict": {
+					"bars": 76,
+					"right": 35,
+					"strictFirstRight": 35
+				},
+				"allowance21": {
+					"bars": 76,
+					"right": 70,
+					"strictFirstRight": 35,
+					"powerAllowance": 35
+				},
+				"answer": {
+					"chords": "F#5 % % % F#m % % % F#5 % % % B5 % F#5 % C#5 E5 F#m % % % % % % % % % B5 % F#5 % C#5 E5 F#5 % D5 % E5 % F#5 % C#5 % F#m % % % % % % % B5 % F#5 % C#5 E5 F#m % % % % % % % % % F#5 B5 A5 % F#m % %",
+					"sections": [
+						{
+							"index": "I",
+							"name": "Intro",
+							"bar": 1
+						},
+						{
+							"index": "II",
+							"name": "Verse",
+							"bar": 13
+						},
+						{
+							"index": "III",
+							"name": "Chorus",
+							"bar": 19
+						},
+						{
+							"index": "IV",
+							"name": "Verse",
+							"bar": 29
+						},
+						{
+							"index": "V",
+							"name": "Bridge",
+							"bar": 35
+						},
+						{
+							"index": "VI",
+							"name": "Chorus",
+							"bar": 45
+						},
+						{
+							"index": "VII",
+							"name": "Verse",
+							"bar": 53
+						},
+						{
+							"index": "VIII",
+							"name": "Chorus",
+							"bar": 59
+						},
+						{
+							"index": "IX",
+							"name": "Outro",
+							"bar": 69
+						}
+					],
+					"progressions": [
+						{
+							"section": "Intro",
+							"chords": "| F#5 x4 | F#m x4 | F#5 x4 |"
+						},
+						{
+							"section": "Verse",
+							"chords": "| B5 | B5 | F#5 | F#5 | C#5 | E5 |"
+						},
+						{
+							"section": "Chorus",
+							"chords": "| F#m x10 |"
+						},
+						{
+							"section": "Verse",
+							"chords": "| B5 | B5 | F#5 | F#5 | C#5 | E5 |"
+						},
+						{
+							"section": "Bridge",
+							"chords": "| F#5 | F#5 | D5 | D5 | E5 | E5 | F#5 | F#5 | C#5 | C#5 |"
+						},
+						{
+							"section": "Chorus",
+							"chords": "| F#m x8 |"
+						},
+						{
+							"section": "Verse",
+							"chords": "| B5 | B5 | F#5 | F#5 | C#5 | E5 |"
+						},
+						{
+							"section": "Chorus",
+							"chords": "| F#m x10 |"
+						},
+						{
+							"section": "Outro",
+							"chords": "| F#5 | B5 | A5 | A5 | F#m | F#m | F#m |"
+						}
+					],
+					"chart": "# letter lands\n132 bpm · 4/4 · F#\n\nStructure: Intro – Verse – Chorus – Verse – Bridge – Chorus – Verse – Chorus – Outro\n\n## I. Intro (bar 1)\n| F#5 x4 | F#m x4 | F#5 x4 |\n\n## II. Verse (bar 13)\n| B5 | B5 | F#5 | F#5 | C#5 | E5 |\n\n## III. Chorus (bar 19)\n| F#m x10 |\n\n## IV. Verse (bar 29)\n| B5 | B5 | F#5 | F#5 | C#5 | E5 |\n\n## V. Bridge (bar 35)\n| F#5 | F#5 | D5 | D5 | E5 | E5 | F#5 | F#5 | C#5 | C#5 |\n\n## VI. Chorus (bar 45)\n| F#m x8 |\n\n## VII. Verse (bar 53)\n| B5 | B5 | F#5 | F#5 | C#5 | E5 |\n\n## VIII. Chorus (bar 59)\n| F#m x10 |\n\n## IX. Outro (bar 69)\n| F#5 | B5 | A5 | A5 | F#m | F#m | F#m |\n",
+					"notes": "The chorus riff clearly has A natural (F#-A-C#-E) so it's charted F#m despite the F# major key; verse/bridge chords are bare power chords, and the sparse outro bars 69-72 are uncertain."
+				},
+				"tokensIn": 13827,
+				"tokensOut": 2240,
+				"latencyMs": 23659
+			}
+		},
+		"eat-all-the-clocks": {
+			"declared": {
+				"bpm": 120,
+				"meter": "4/4",
+				"period": 2
+			},
+			"bars": 86,
+			"durationSec": 147.5,
+			"dtwStart": 2.415,
+			"anchor": {
+				"time": -7.585,
+				"shift": -5,
+				"hintRoots": {
+					"right": 56,
+					"bearing": 84
+				}
+			},
+			"playable": 77,
+			"shootout": {
+				"e1": {
+					"phase": 0.4300000000000002,
+					"circularMs": 15
+				},
+				"e2": {
+					"phase": 1.9900000000000015,
+					"circularMs": 425
+				},
+				"e3": {
+					"phase": 1.9600000000000015,
+					"circularMs": 455
+				},
+				"e4": {
+					"start": 0.023219954648526078,
+					"circularMs": 392,
+					"barOneErrSec": 7.61
+				}
+			},
+			"baseline": {
+				"right": 68,
+				"bearing": 84
+			},
+			"B4": {
+				"outcome": "answered",
+				"barsOffered": 86,
+				"barsAnswered": 85,
+				"roots": {
+					"right": 51,
+					"bearing": 84
+				},
+				"dialectStrict": 0,
+				"strict": {
+					"bars": 86,
+					"right": 21,
+					"strictFirstRight": 15
+				},
+				"allowance21": {
+					"bars": 86,
+					"right": 34,
+					"strictFirstRight": 15,
+					"powerAllowance": 13
+				},
+				"answer": {
+					"chords": "N.C. % % Em % % % % Am % % % % % Em % % % D A Em % C D Am Em % Am Em Am Em Am D A Esus4 % D A Em % E5 % A5 % E5 % A5 % % % Asus4 % Em Am Em Am Em Am D A Esus4 % D A Esus4 % D A Esus4 % D A E5 % Em % N.C. % % % % % % % %",
+					"sections": [
+						{
+							"index": "I",
+							"name": "Intro",
+							"bar": 1
+						},
+						{
+							"index": "II",
+							"name": "Verse",
+							"bar": 9
+						},
+						{
+							"index": "III",
+							"name": "Chorus",
+							"bar": 27
+						},
+						{
+							"index": "IV",
+							"name": "Bridge",
+							"bar": 41
+						},
+						{
+							"index": "V",
+							"name": "Chorus",
+							"bar": 53
+						},
+						{
+							"index": "VI",
+							"name": "Outro",
+							"bar": 75
+						}
+					],
+					"progressions": [
+						{
+							"section": "Intro",
+							"chords": "| N.C. | N.C. | N.C. | Em | Em | Em | Em | Em |"
+						},
+						{
+							"section": "Verse",
+							"chords": "| Am x6 | Em x4 | D | A | Em | Em | C | D | Am | Em |"
+						},
+						{
+							"section": "Chorus",
+							"chords": "| Em | Am | x3 | D | A | Esus4 | Esus4 | D | A | Em | Em |"
+						},
+						{
+							"section": "Bridge",
+							"chords": "| E5 | E5 | A5 | A5 | x2 | A5 | A5 | Asus4 | Asus4 |"
+						},
+						{
+							"section": "Chorus",
+							"chords": "| Em | Am | x3 | D | A | Esus4 | Esus4 | x3 | D | A | E5 | E5 |"
+						},
+						{
+							"section": "Outro",
+							"chords": "| Em | Em | N.C. (ring out) |"
+						}
+					],
+					"chart": "# eat all the clocks\n120 bpm · Em · 4/4\n\n**Structure:** Intro – Verse – Chorus – Bridge – Chorus – Outro\n\n## I. Intro (bar 1)\n| N.C. | N.C. | N.C. | Em | Em | Em | Em | Em |\n(pickup on Em in bar 4)\n\n## II. Verse (bar 9)\n| Am x6 | Em x4 | D | A | Em | Em | C | D | Am | Em |\n\n## III. Chorus (bar 27)\n| Em | Am | x3\n| D | A | Esus4 | Esus4 | D | A | Em | Em |\n\n## IV. Bridge (bar 41)\n| E5 | E5 | A5 | A5 | x2\n| A5 | A5 | Asus4 | Asus4 |\n\n## V. Chorus (bar 53)\n| Em | Am | x3\n| D | A | Esus4 | Esus4 | x3\n| D | A | E5 | E5 |\n\n## VI. Outro (bar 75)\n| Em | Em | N.C. (ring out) |",
+					"notes": "Verse bars 9–26 are murky in the transcription (E and A bass both present throughout); the Am/Em split and the C in bar 23 are best guesses, and the Em/Am alternation in the choruses could equally be played as E5/A5 power chords."
+				},
+				"tokensIn": 12536,
+				"tokensOut": 2555,
+				"latencyMs": 30612,
+				"playable": 77,
+				"prefixRoots": {
+					"right": 51,
+					"bearing": 75
+				},
+				"prefixBaseline": {
+					"right": 59,
+					"bearing": 75
+				}
+			}
+		},
+		"peaceful-dreams": {
+			"declared": {
+				"bpm": 145,
+				"meter": "4/4",
+				"period": 1.6551724137931034
+			},
+			"bars": 153,
+			"durationSec": 256.7,
+			"dtwStart": 6.502,
+			"anchor": {
+				"time": -0.119,
+				"shift": -4,
+				"hintRoots": {
+					"right": 134,
+					"bearing": 153
+				}
+			},
+			"playable": 155,
+			"shootout": {
+				"e1": {
+					"phase": 0.7700000000000005,
+					"circularMs": 766
+				},
+				"e2": {
+					"phase": 0,
+					"circularMs": 119
+				},
+				"e3": {
+					"phase": 0.060000000000000005,
+					"circularMs": 179
+				},
+				"e4": {
+					"start": 0,
+					"circularMs": 119,
+					"barOneErrSec": 0.12
+				}
+			},
+			"baseline": {
+				"right": 151,
+				"bearing": 153
+			},
+			"B4": {
+				"outcome": "answered",
+				"barsOffered": 153,
+				"barsAnswered": 152,
+				"roots": {
+					"right": 152,
+					"bearing": 153
+				},
+				"dialectStrict": 12,
+				"strict": {
+					"bars": 153,
+					"right": 73,
+					"strictFirstRight": 73
+				},
+				"allowance21": {
+					"bars": 153,
+					"right": 127,
+					"strictFirstRight": 73,
+					"powerAllowance": 54
+				},
+				"answer": {
+					"chords": "D7sus4 % % % D7 % % % C5 % G5 % D5 % % % % % % % % % A5 % G5 % D5 % A Bm G5 % % % D5 % A5 G5 D5 % G5 % D5 % C5 G5 D7sus4 % D5 % A5 % G5 % D5 % A5 Bm G5 % % % D5 % A5 G5 D5 % G5 % D5 % C5 G5 D7sus4 % Bm % Em % G % A5 % D % A % G % D % A Bm G % % % D % A G D % % % A5 % G5 % D5 % A5 Bm G5 % % % D5 % A5 G5 D5 % D7sus4 % % % D5 % % % % D % % % % % % % % % % % % % % % % % %",
+					"sections": [
+						{
+							"index": "I",
+							"name": "Intro",
+							"bar": 1
+						},
+						{
+							"index": "II",
+							"name": "Verse 1",
+							"bar": 13
+						},
+						{
+							"index": "III",
+							"name": "Chorus 1",
+							"bar": 21
+						},
+						{
+							"index": "IV",
+							"name": "Verse 2",
+							"bar": 35
+						},
+						{
+							"index": "V",
+							"name": "Chorus 2",
+							"bar": 49
+						},
+						{
+							"index": "VI",
+							"name": "Verse 3",
+							"bar": 63
+						},
+						{
+							"index": "VII",
+							"name": "Bridge",
+							"bar": 77
+						},
+						{
+							"index": "VIII",
+							"name": "Solo",
+							"bar": 85
+						},
+						{
+							"index": "IX",
+							"name": "Chorus 3",
+							"bar": 105
+						},
+						{
+							"index": "X",
+							"name": "Outro",
+							"bar": 125
+						}
+					],
+					"progressions": [
+						{
+							"section": "Intro",
+							"chords": "| D7sus4 x4 | D7 x4 | C5 | C5 | G5 | G5 |"
+						},
+						{
+							"section": "Verse 1",
+							"chords": "| D5 x8 |"
+						},
+						{
+							"section": "Chorus 1",
+							"chords": "| D5 | D5 | A5 | A5 | G5 | G5 | D5 | D5 | A | Bm | G5 x4 |"
+						},
+						{
+							"section": "Verse 2",
+							"chords": "| D5 | D5 | A5 | G5 | D5 | D5 | G5 | G5 | D5 | D5 | C5 | G5 | D7sus4 | D7sus4 |"
+						},
+						{
+							"section": "Chorus 2",
+							"chords": "| D5 | D5 | A5 | A5 | G5 | G5 | D5 | D5 | A5 | Bm | G5 x4 |"
+						},
+						{
+							"section": "Verse 3",
+							"chords": "| D5 | D5 | A5 | G5 | D5 | D5 | G5 | G5 | D5 | D5 | C5 | G5 | D7sus4 | D7sus4 |"
+						},
+						{
+							"section": "Bridge",
+							"chords": "| Bm | Bm | Em | Em | G | G | A5 | A5 |"
+						},
+						{
+							"section": "Solo",
+							"chords": "| D | D | A | A | G | G | D | D | A | Bm | G x4 | D | D | A | G | D | D |"
+						},
+						{
+							"section": "Chorus 3",
+							"chords": "| D5 | D5 | A5 | A5 | G5 | G5 | D5 | D5 | A5 | Bm | G5 x4 | D5 | D5 | A5 | G5 | D5 | D5 |"
+						},
+						{
+							"section": "Outro",
+							"chords": "| D7sus4 x4 | D5 x5 | D x19 |"
+						}
+					],
+					"chart": "# peaceful dreams\n145 bpm · D · 4/4\n\nStructure: Intro – Verse 1 – Chorus 1 – Verse 2 – Chorus 2 – Verse 3 – Bridge – Solo – Chorus 3 – Outro\n\n## I. Intro (bar 1)\n| D7sus4 x4 | D7 x4 | C5 | C5 | G5 | G5 |\n\n## II. Verse 1 (bar 13)\n| D5 x8 |\n\n## III. Chorus 1 (bar 21)\n| D5 | D5 | A5 | A5 | G5 | G5 | D5 | D5 | A | Bm | G5 x4 |\n\n## IV. Verse 2 (bar 35)\n| D5 | D5 | A5 | G5 | D5 | D5 | G5 | G5 | D5 | D5 | C5 | G5 | D7sus4 | D7sus4 |\n\n## V. Chorus 2 (bar 49)\n| D5 | D5 | A5 | A5 | G5 | G5 | D5 | D5 | A5 | Bm | G5 x4 |\n\n## VI. Verse 3 (bar 63)\n| D5 | D5 | A5 | G5 | D5 | D5 | G5 | G5 | D5 | D5 | C5 | G5 | D7sus4 | D7sus4 |\n\n## VII. Bridge (bar 77)\n| Bm | Bm | Em | Em | G | G | A5 | A5 |\n\n## VIII. Solo (bar 85)\n| D | D | A | A | G | G | D | D | A | Bm | G x4 | D | D | A | G | D | D |\n\n## IX. Chorus 3 (bar 105)\n| D5 | D5 | A5 | A5 | G5 | G5 | D5 | D5 | A5 | Bm | G5 x4 | D5 | D5 | A5 | G5 | D5 | D5 |\n\n## X. Outro (bar 125)\n| D7sus4 x4 | D5 x5 | D x19 |  (riff over D, ring out)",
+					"notes": "Power chords vs full triads are a judgment call throughout (G bars often carry an F giving G7 colour); section boundaries around bars 19–22 and 99–106 are approximate since D5 vamps blur the seams."
+				},
+				"tokensIn": 27862,
+				"tokensOut": 4536,
+				"latencyMs": 48716
+			}
+		},
+		"mop-heart": {
+			"declared": {
+				"bpm": 224,
+				"meter": "3/4",
+				"period": 0.8035714285714286
+			},
+			"bars": 140,
+			"durationSec": 114,
+			"dtwStart": 3.529,
+			"anchor": {
+				"time": 0.315,
+				"shift": -4,
+				"hintRoots": {
+					"right": 111,
+					"bearing": 140
+				}
+			},
+			"playable": 141,
+			"shootout": {
+				"e1": {
+					"phase": 0.20000000000000004,
+					"circularMs": 115
+				},
+				"e2": {
+					"phase": 0.01,
+					"circularMs": 305
+				},
+				"e3": {
+					"phase": 0.05,
+					"circularMs": 265
+				},
+				"e4": {
+					"start": 3.240467573696145,
+					"circularMs": 289,
+					"barOneErrSec": 2.93
+				}
+			},
+			"baseline": {
+				"right": 131,
+				"bearing": 140
+			},
+			"B4": {
+				"outcome": "answered",
+				"barsOffered": 140,
+				"barsAnswered": 139,
+				"roots": {
+					"right": 103,
+					"bearing": 140
+				},
+				"dialectStrict": 0,
+				"strict": {
+					"bars": 140,
+					"right": 79,
+					"strictFirstRight": 79
+				},
+				"allowance21": {
+					"bars": 140,
+					"right": 103,
+					"strictFirstRight": 103,
+					"powerAllowance": 0
+				},
+				"answer": {
+					"chords": "N.C. % % A % D E A % D E A % D E A % D E G % % % A % % % F % % % A % % % G % % % E % % % % % % % A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# G % % % A % % % F % % % A % % % G % % % E % % % % % % % A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# A D D/F# E/G# B E F#7 F# B E F#7 F# B % F#7 F# B % F#7 F#",
+					"sections": [
+						{
+							"index": "I",
+							"name": "Intro",
+							"bar": 1
+						},
+						{
+							"index": "II",
+							"name": "Verse 1",
+							"bar": 20
+						},
+						{
+							"index": "III",
+							"name": "Chorus 1",
+							"bar": 48
+						},
+						{
+							"index": "IV",
+							"name": "Verse 2",
+							"bar": 64
+						},
+						{
+							"index": "V",
+							"name": "Chorus 2",
+							"bar": 92
+						},
+						{
+							"index": "VI",
+							"name": "Outro",
+							"bar": 124
+						}
+					],
+					"progressions": [
+						{
+							"section": "Intro",
+							"chords": "| N.C. | N.C. | N.C. | then | A | A | D | E | x4"
+						},
+						{
+							"section": "Verse 1",
+							"chords": "| G | G | G | G | A | A | A | A | F | F | F | F | A | A | A | A | G | G | G | G | E | E | E | E | E | E | E | E |"
+						},
+						{
+							"section": "Chorus 1",
+							"chords": "| A | D | D/F# | E/G# | x4"
+						},
+						{
+							"section": "Verse 2",
+							"chords": "| G | G | G | G | A | A | A | A | F | F | F | F | A | A | A | A | G | G | G | G | E | E | E | E | E | E | E | E |"
+						},
+						{
+							"section": "Chorus 2",
+							"chords": "| A | D | D/F# | E/G# | x8"
+						},
+						{
+							"section": "Outro",
+							"chords": "| B | E | F#7 | F# | x2 then | B | B | F#7 | F# | x2"
+						}
+					],
+					"chart": "# mop heart\n**Key: A · 3/4 · 224 bpm (fast waltz, feel in 4-bar groups)**\n\nStructure: Intro – Verse 1 – Chorus 1 – Verse 2 – Chorus 2 – Outro (modulates to B)\n\n## I. Intro (bars 1–19)\n| N.C. | N.C. | N.C. |\n| A | A | D | E | x4\n\n## II. Verse 1 (bars 20–47)\n| G | G | G | G | A | A | A | A |\n| F | F | F | F | A | A | A | A |\n| G | G | G | G | E | E | E | E | E | E | E | E |\n\n## III. Chorus 1 (bars 48–63)\n| A | D | D/F# | E/G# | x4\n\n## IV. Verse 2 (bars 64–91)\n| G | G | G | G | A | A | A | A |\n| F | F | F | F | A | A | A | A |\n| G | G | G | G | E | E | E | E | E | E | E | E |\n\n## V. Chorus 2 (bars 92–123)\n| A | D | D/F# | E/G# | x8\n\n## VI. Outro – modulates to B (bars 124–139)\n| B | E | F#7 | F# | x2\n| B | B | F#7 | F# | x2\n",
+					"notes": "Chorus bars 3–4 are a walking bass (D/F# → E/G#) that could be read as F#m and E; the verse G bars have a low E under them (possibly Em/C/E) and the exact bar where G hands off to E (around bar 40) is uncertain."
+				},
+				"tokensIn": 11023,
+				"tokensOut": 3243,
+				"latencyMs": 38574
+			}
+		}
+	}
+}
