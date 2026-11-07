@@ -1,5 +1,101 @@
 # stem-bench REPORT
 
+## Study 24 — true-tempo estimation splits the catalog: reader-derived grids reach baseline parity on steady songs (with the program's best dialect number ever), and the wandering songs have no uniform grid to find (2026-11-07)
+
+Run as registered (2bd7ca9, $2 fence, ≈ $0.3 by token parity — 64,605
+in / 12,012 out). P1 (chord-change joint comb over the shipped reader's
+grid-free segment boundaries) and P2 (onset joint comb) searched
+period ± 10% around declared with phase, two-stage; arm B3 re-ran the
+Study 23b pipeline verbatim with P1's fitted (phase, period) — the
+period the only variable against 23b's B1.
+
+**S24-G2 FAIL as a whole, and the split IS the finding.** On the two
+songs that hold their declared tempo, the fitted chartless grid takes
+the draft to baseline parity with zero UX: peaceful-dreams 148/153
+roots (grid-given baseline 151/153, within 2 points) **with 18 of its
+62 dialect bars written exactly — ABOVE grid-given's 11, the best
+dialect number the program has measured**; mop-heart 136/140, ABOVE its
+131/140 baseline. On the two songs that don't, the draft stays
+collapsed (letter-lands 36/76, eat-all-the-clocks 24/84, both below
+even 23b's declared-period comb arm).
+
+**The deep mechanical fact reframes 23b: those songs have no uniform
+grid at all.** The in-run least-squares uniform fit to the aligned
+truth ITSELF hits only 3/76, 5/86, 5/153 and 17/140 truth bars at 15%
+tolerance — the recordings (or the DTW ruler, within its ~400 ms
+wander) drift beyond what ANY single (phase, period) can track. 23b's
+"the declared bpm is wrong" was half the story; the other half is that
+on letter and eat the tempo is not a constant, so the comb did not fail
+to find the true period — a single true period does not exist there.
+
+**S24-G1 PASSES as registered and the pass is disclosed as hollow — an
+instrument lesson, not a recovery claim.** The registered "ceiling"
+(the least-squares fit, index-paired hits) minimizes squared error, not
+hits; under wandering truth it lands between tempo regimes and hits
+almost nothing, so "within 10 points of the ceiling" was trivially
+satisfiable (B3 beat it everywhere: 7 vs 3, 24 vs 5, 84 vs 5, 69 vs
+17). By the gate's registered INTENT — did the search recover the best
+uniform grid — letter-lands is a miss: P1 returned 1.914 s where even
+the declared 1.818 s serves the draft better. Lesson for any future
+grid gate: the ceiling must be a hits-MAXIMIZING uniform search, not a
+least-squares line. The gate stands as registered; its construction is
+what failed, and no decision leans on it below.
+
+**The combs themselves:** P2 (onsets) landed closer to the truth-fit
+period than P1 (chord changes) on three of four songs — the
+chord-change comb, the study's premise, is the WEAKER period
+instrument on this corpus (it drifted letter to a worse-than-declared
+period; both combs returned essentially the declared period on eat,
+whose reader segments were already the noisiest in 23b's shootout). One
+unregistered observation worth its own study: P1's residual score
+orders the four songs exactly by draft success (0.137 and 0.229 s on
+the two parity songs, 0.281 and 0.343 s on the two failures) — a
+candidate zero-cost confidence signal for the feature to decline
+gracefully, needing its own registration before anything leans on it.
+
+**The decision, honestly composed.** The registered table's literal row
+for G1-pass/G2-fail says the residual is the start bar; the anatomy
+contradicts that rationale (G1's shifted pairing already removed the
+start-bar factor, and letter's best shift still hits 7/76), so the
+operative prescription is the G1-fail row's: for wandering songs the
+grid leg needs beat-tracking-grade instruments or an alignment path.
+The composite verdict to the app: ship-shaped for steady songs
+(reader-derived uniform grid, no tap, no chart, baseline-parity drafts
+and the best color recovery measured), undefined for wandering ones,
+and the boundary may be mechanically detectable for free.
+
+**Prediction scorecard:** (1) "G1 passes on all four" — RIGHT by the
+letter, hollow as disclosed above. (2) "G2 fails via letter; peaceful
+and mop within 5 points" — RIGHT in every named part (eat, unnamed,
+also failed). (3) "P1 closer to the truth-fit than P2 on 3+ songs" —
+WRONG, inverted: P2 won three of four. (4) "B3 >= 23b's B1 everywhere"
+— WRONG, split 2–2 (the fitted period helped exactly where a period
+exists). (5) "music-start variant helps letter, hurts peaceful" —
+WRONG on both halves: letter's musicStart is 0.0 s (the recording
+opens loud), so the variant starts at 0.45 s and hits 1/76, and
+peaceful's is unchanged. (6) "spend <= $0.60" — RIGHT (≈ $0.3).
+
+Disclosure: analyst Claude Fable 5, measured model claude-fable-5-1
+(same family; grades mechanical, registered first). The gateway ignores
+temperature on this model. Results in results/study24.json.
+
+### Correction (2026-11-07, same day, found by Study 24's variant data): Study 23b's E4 claim was wrong as published
+
+The 23b report, its FINDINGS verdict and its dashboard entry said the
+music-start anchor (E4) "catches letter-lands' 7.15 s intro at 121 ms."
+It does not. E4's anchor on letter-lands is t = 0.0 s — the recording
+opens with a loud note — which is 7.15 s (about four bars) BEFORE the
+charted music; the 121 ms figure is the CIRCULAR (mod-period) error,
+i.e. exactly the coincidence a comb would report, not the past-a-phase
+detection E4 was designed for. Prediction 6's E4 clause ("within one
+bar of the 7.15 s truth start, which no comb can express") therefore
+scored WRONG, not right as published. Across the corpus E4 found the
+audio start, not the charted-music start (raw offsets −7.15, −2.39,
+−6.5 and −0.29 s), so NOTHING measured yet detects an uncharted intro.
+The shootout's other numbers are unaffected. The FINDINGS entry, the
+auto-chart brief addendum and the dashboard entry carry the same dated
+correction.
+
 ## Study 23b — the chartless-song grid kills the draft BOTH ways: a perfect tap does not save the declared tempo, and the registered decision is true-tempo estimation (2026-11-07)
 
 Run as registered (6b2d599, $2 fence, ≈$0.6 spent by token parity with
@@ -48,9 +144,10 @@ notes in the right bar.
 circular anchor error against the truth's first bar start, hit within
 15% of a bar. The onset comb E1 hits 3/4 songs (53/15/115 ms; misses
 peaceful at 766 ms). The chord-change comb E3 hits 2/4 (73/179 ms),
-the bass comb E2 1/4, and the music-start anchor E4 2/4 — including
-letter-lands at 121 ms, the one case no mod-period comb can express
-(its charted music starts 7.15 s in). So yes: tap-free anchoring is
+the bass comb E2 1/4, and the music-start anchor E4 2/4 by
+circular error — a figure corrected the same day: see the Correction
+under Study 24 (E4's letter-lands anchor is t = 0, four bars before the
+charted music; the 121 ms is mod-period coincidence). So yes: tap-free anchoring is
 already roughly tap-grade on this corpus — and it is the wrong
 question. B2 just proved a PERFECT anchor is worth nothing under a
 wrong period. The measurement that matters next is the period itself
@@ -74,8 +171,9 @@ reader's chord-change times, at zero new UX).
 4. "peaceful's dialect ≤ 5 of 62 under B2" — RIGHT (4).
 5. "Spend ≤ $0.80" — RIGHT (≈ $0.6 by token parity).
 6. "E3 beats E1 on ≥ 3 songs; E4 within a bar of letter's 7.15 s" —
-   HALF WRONG: E1 beat E3 (3 hits vs 2); the E4-letter clause was
-   RIGHT (121 ms).
+   WRONG on both clauses: E1 beat E3 (3 hits vs 2), and the E4-letter
+   clause's published RIGHT (121 ms) is corrected to WRONG under Study
+   24 (the anchor was t = 0, four bars early; 121 ms was circular).
 
 Disclosure: analyst Claude Fable 5, measured model claude-fable-5-1
 (same family; every grade mechanical and committed before the run). The
