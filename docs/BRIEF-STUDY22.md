@@ -73,6 +73,30 @@ bar duration. Mean absolute error in ms is reported beside the hit rate.
   uniform grid; fail means that study must carry grid-given and
   grid-derived arms.
 
+## Amendment 1 — the scoring metric, re-registered after a defective first run (2026-11-07)
+
+The registered metric paired grid index to bar index
+(|grid_i − truth_i|). The first run's sanity gate failed at 0 % on every
+synthetic render and thereby proved that metric defective: a blind phase
+estimate exists only modulo the period, so a comb that landed 68 ms from
+the render's true downbeats scored zero because the whole grid compared
+one bar shifted. Per the program's rules (defective grader: stop, fix,
+re-register, re-run), the metric is replaced by LATTICE distance — each
+truth bar start scores against the nearest point of the infinite lattice
+{phase + k × period}: err_i = |((truth_i − phase + period/2) mod period)
+− period/2| — with each arm's period reported beside its hit rate, since
+a lattice at half the true period contains the true lattice and would
+otherwise take silent octave credit. Thresholds (15 %, 95 %, 80 %) are
+unchanged. DISCLOSED: the defective run's real-song numbers were seen
+before this amendment (committed in the session record); the amendment
+was chosen to fix the proven wraparound defect and nothing else, and the
+sanity gate re-arbitrates it. The first run also surfaced a truth-
+resolution fact that the report must carry regardless of outcome: the
+chart-anchored DTW bar starts jitter by hundreds of milliseconds bar to
+bar (which per-bar chord grading tolerates and Study 21's 97 % roots
+demonstrate), so a failure of G2 may indicate the truth's resolution
+rather than the grid's quality, and the report must say which.
+
 ## Spend fence
 
 **$0.** Local CPU only; no model calls, no transcription.

@@ -15,7 +15,7 @@ import { type RefBar, renderReference } from "../src/study12/reference.js";
 import type { Meter4 } from "../src/study4/synth4.js";
 import { analyse, extractFeatures } from "../src/study9/analysis.js";
 import { asBuffer } from "../src/study9/instruments.js";
-import { fitUniformGrid, gridHits, phaseFromOnset, uniformGrid } from "../src/study22/grid.js";
+import { fitUniformGrid, latticeHits, phaseFromOnset } from "../src/study22/grid.js";
 
 const root = new URL("../", import.meta.url).pathname;
 const RATE = 22050;
@@ -61,20 +61,17 @@ for (const chart of songs) {
 	// S22-G1 sanity: A2 pipeline on the synthetic render, exact truth known.
 	const refFeat = extractFeatures(asBuffer(ref.samples, RATE));
 	const refPhase = phaseFromOnset(refFeat.onset, refFeat.fps, declaredPeriod);
-	const sanity = gridHits(
-		uniformGrid({ period: declaredPeriod, phase: refPhase }, n),
-		ref.barStarts,
-	);
+	const sanity = latticeHits({ period: declaredPeriod, phase: refPhase }, ref.barStarts);
 	if (sanity.hitRate < 0.95) g1 = false;
 
 	// Arms on the real recording.
 	const feat = extractFeatures(asBuffer(mix, RATE));
 	const detection = analyse(feat);
 	const a0fit = fitUniformGrid(truth);
-	const a0 = gridHits(uniformGrid(a0fit, n), truth);
+	const a0 = latticeHits(a0fit, truth);
 
 	const a2phase = phaseFromOnset(feat.onset, feat.fps, declaredPeriod);
-	const a2 = gridHits(uniformGrid({ period: declaredPeriod, phase: a2phase }, n), truth);
+	const a2 = latticeHits({ period: declaredPeriod, phase: a2phase }, truth);
 	if (a2.hitRate < 0.8) g2 = false;
 
 	const a1period = detection.tempo.bpm
@@ -82,7 +79,7 @@ for (const chart of songs) {
 		: 0;
 	const a1phase = a1period ? phaseFromOnset(feat.onset, feat.fps, a1period) : 0;
 	const a1 = a1period
-		? gridHits(uniformGrid({ period: a1period, phase: a1phase }, n), truth)
+		? latticeHits({ period: a1period, phase: a1phase }, truth)
 		: { hits: 0, n, hitRate: 0, meanAbsMs: 0, tolMs: 0 };
 
 	console.log(
@@ -91,14 +88,21 @@ for (const chart of songs) {
 	console.log(
 		`  A2 declared+phase: ${(a2.hitRate * 100).toFixed(1)}% (phase ${a2phase.toFixed(2)}s vs truth start ${truth[0]!.toFixed(2)}s, tol ±${a2.tolMs}ms) | A1 detector: ${detection.tempo.bpm.toFixed(1)} bpm ${detection.meter.value} -> ${(a1.hitRate * 100).toFixed(1)}% (declared/detected = ${(chart.bpm / (detection.tempo.bpm || 1)).toFixed(3)})`,
 	);
+	const durations = truth.slice(1).map((t, i) => t - truth[i]!);
+	const sortedD = [...durations].sort((a, b) => a - b);
 	out[chart.slug] = {
 		declared: { bpm: chart.bpm, meter: chart.meter, periodSec: declaredPeriod },
 		bars: n,
 		truthStart: Math.round(truth[0]! * 1000) / 1000,
+		truthJitter: {
+			medianBar: sortedD[Math.floor(sortedD.length / 2)],
+			p5: sortedD[Math.floor(0.05 * sortedD.length)],
+			p95: sortedD[Math.floor(0.95 * sortedD.length)],
+		},
 		sanity,
 		a0: { ...a0, fit: { period: a0fit.period, phase: a0fit.phase } },
-		a2: { ...a2, phase: a2phase },
-		a1: { ...a1, detected: detection.tempo, meter: detection.meter },
+		a2: { ...a2, period: declaredPeriod, phase: a2phase },
+		a1: { ...a1, period: a1period, detected: detection.tempo, meter: detection.meter },
 	};
 }
 

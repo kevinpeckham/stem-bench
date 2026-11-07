@@ -42,8 +42,19 @@ export interface GridScore {
 
 export const TOL_FRACTION = 0.15;
 
-/** Bar i of the grid against bar i of truth; tolerance is a fraction of the median truth bar. */
-export function gridHits(grid: number[], truth: number[], tolFraction = TOL_FRACTION): GridScore {
+/**
+ * Amendment 1 (docs/BRIEF-STUDY22.md): each truth bar start against the
+ * NEAREST point of the lattice {phase + k·period} — a phase estimate
+ * exists only modulo the period, so index pairing (the first run's
+ * defective metric) scored a 68 ms-accurate comb as zero. The arm's
+ * period is reported beside the rate, because a half-period lattice
+ * contains the true one and would otherwise take silent octave credit.
+ */
+export function latticeHits(
+	fit: UniformFit,
+	truth: number[],
+	tolFraction = TOL_FRACTION,
+): GridScore {
 	const durations = truth
 		.slice(1)
 		.map((t, i) => t - truth[i]!)
@@ -52,8 +63,9 @@ export function gridHits(grid: number[], truth: number[], tolFraction = TOL_FRAC
 	const tol = median * tolFraction;
 	let hits = 0;
 	let sumAbs = 0;
-	for (let i = 0; i < truth.length; i++) {
-		const err = Math.abs((grid[i] ?? Number.POSITIVE_INFINITY) - truth[i]!);
+	for (const t of truth) {
+		const m = ((((t - fit.phase) % fit.period) + fit.period) % fit.period) + 0;
+		const err = fit.period > 0 ? Math.min(m, fit.period - m) : Number.POSITIVE_INFINITY;
 		sumAbs += Number.isFinite(err) ? err : 0;
 		if (err <= tol) hits++;
 	}

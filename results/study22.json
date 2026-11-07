@@ -1,0 +1,205 @@
+{
+	"version": 1,
+	"songs": {
+		"letter-lands": {
+			"declared": {
+				"bpm": 132,
+				"meter": "4/4",
+				"periodSec": 1.8181818181818181
+			},
+			"bars": 77,
+			"truthStart": 7.152,
+			"sanity": {
+				"hits": 0,
+				"n": 77,
+				"hitRate": 0,
+				"meanAbsMs": 1750,
+				"tolMs": 273
+			},
+			"a0": {
+				"hits": 3,
+				"n": 77,
+				"hitRate": 0.03896103896103896,
+				"meanAbsMs": 2388,
+				"tolMs": 255,
+				"fit": {
+					"period": 1.6534148332761736,
+					"phase": 4.666327166957984
+				}
+			},
+			"a2": {
+				"hits": 1,
+				"n": 77,
+				"hitRate": 0.012987012987012988,
+				"meanAbsMs": 3844,
+				"tolMs": 255,
+				"phase": 1.7500000000000013
+			},
+			"a1": {
+				"hits": 1,
+				"n": 77,
+				"hitRate": 0.012987012987012988,
+				"meanAbsMs": 3844,
+				"tolMs": 255,
+				"detected": {
+					"bpm": 132,
+					"confidence": 0.8613115833308094
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.05392388459732076
+				}
+			}
+		},
+		"eat-all-the-clocks": {
+			"declared": {
+				"bpm": 120,
+				"meter": "4/4",
+				"periodSec": 2
+			},
+			"bars": 87,
+			"truthStart": 2.415,
+			"sanity": {
+				"hits": 0,
+				"n": 87,
+				"hitRate": 0,
+				"meanAbsMs": 1930,
+				"tolMs": 300
+			},
+			"a0": {
+				"hits": 5,
+				"n": 87,
+				"hitRate": 0.05747126436781609,
+				"meanAbsMs": 2685,
+				"tolMs": 280,
+				"fit": {
+					"period": 1.615459109696708,
+					"phase": 6.920997068977414
+				}
+			},
+			"a2": {
+				"hits": 7,
+				"n": 87,
+				"hitRate": 0.08045977011494253,
+				"meanAbsMs": 10150,
+				"tolMs": 280,
+				"phase": 0.4300000000000002
+			},
+			"a1": {
+				"hits": 7,
+				"n": 87,
+				"hitRate": 0.08045977011494253,
+				"meanAbsMs": 10150,
+				"tolMs": 280,
+				"detected": {
+					"bpm": 120,
+					"confidence": 0.8645092669032584
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.03789008148289725
+				}
+			}
+		},
+		"peaceful-dreams": {
+			"declared": {
+				"bpm": 145,
+				"meter": "4/4",
+				"periodSec": 1.6551724137931034
+			},
+			"bars": 154,
+			"truthStart": 6.502,
+			"sanity": {
+				"hits": 0,
+				"n": 154,
+				"hitRate": 0,
+				"meanAbsMs": 1580,
+				"tolMs": 248
+			},
+			"a0": {
+				"hits": 5,
+				"n": 154,
+				"hitRate": 0.032467532467532464,
+				"meanAbsMs": 3561,
+				"tolMs": 243,
+				"fit": {
+					"period": 1.5671584279976034,
+					"phase": 4.289064238836588
+				}
+			},
+			"a2": {
+				"hits": 3,
+				"n": 154,
+				"hitRate": 0.01948051948051948,
+				"meanAbsMs": 3520,
+				"tolMs": 243,
+				"phase": 0.7700000000000005
+			},
+			"a1": {
+				"hits": 1,
+				"n": 154,
+				"hitRate": 0.006493506493506494,
+				"meanAbsMs": 67426,
+				"tolMs": 243,
+				"detected": {
+					"bpm": 96.7,
+					"confidence": 0.822726925058671
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.05408220920803949
+				}
+			}
+		},
+		"mop-heart": {
+			"declared": {
+				"bpm": 224,
+				"meter": "3/4",
+				"periodSec": 0.8035714285714286
+			},
+			"bars": 141,
+			"truthStart": 3.529,
+			"sanity": {
+				"hits": 0,
+				"n": 141,
+				"hitRate": 0,
+				"meanAbsMs": 730,
+				"tolMs": 121
+			},
+			"a0": {
+				"hits": 17,
+				"n": 141,
+				"hitRate": 0.12056737588652482,
+				"meanAbsMs": 636,
+				"tolMs": 122,
+				"fit": {
+					"period": 0.7890535401097675,
+					"phase": 1.0363832210871777
+				}
+			},
+			"a2": {
+				"hits": 6,
+				"n": 141,
+				"hitRate": 0.0425531914893617,
+				"meanAbsMs": 618,
+				"tolMs": 122,
+				"phase": 0.20000000000000004
+			},
+			"a1": {
+				"hits": 0,
+				"n": 141,
+				"hitRate": 0,
+				"meanAbsMs": 57309,
+				"tolMs": 122,
+				"detected": {
+					"bpm": 112,
+					"confidence": 0.8304456761828679
+				},
+				"meter": {
+					"value": "3/4",
+					"confidence": 0.07713868503625487
+				}
+			}
+		}
+	}
+}
