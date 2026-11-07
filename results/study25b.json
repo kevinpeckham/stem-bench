@@ -1,0 +1,95 @@
+{
+	"version": 1,
+	"model": "anthropic/claude-fable-5-1",
+	"chart": "corpus/mmkk-charts-eat-v131.json (chartVersion 131)",
+	"anchor": 0.415,
+	"bars": 71,
+	"hintScore": {
+		"right": 65,
+		"bearing": 69
+	},
+	"roots": {
+		"right": 56,
+		"bearing": 69
+	},
+	"dialectStrict": 0,
+	"strict": {
+		"bars": 71,
+		"right": 37,
+		"strictFirstRight": 26
+	},
+	"allowance21": {
+		"bars": 71,
+		"right": 50,
+		"strictFirstRight": 26,
+		"powerAllowance": 13
+	},
+	"answer": {
+		"chords": "Am % Em % A5 Am % % % % % % % % D A5 Em7 % C D A5 % Em Asus2 Em Asus2 Em Asus2 D A E5 % D A E5 % % % A5 % E5 % A5 % A5 % Asus4 % Em Asus2 Em Asus2 Em Asus2 D A E5 % D A E5 % D A E5 % D A E5 %",
+		"sections": [
+			{
+				"index": "I",
+				"name": "Intro",
+				"bar": 1
+			},
+			{
+				"index": "II",
+				"name": "Verse 1",
+				"bar": 5
+			},
+			{
+				"index": "III",
+				"name": "Chorus",
+				"bar": 23
+			},
+			{
+				"index": "IV",
+				"name": "Verse 2",
+				"bar": 33
+			},
+			{
+				"index": "V",
+				"name": "Chorus",
+				"bar": 49
+			},
+			{
+				"index": "VI",
+				"name": "Outro",
+				"bar": 59
+			}
+		],
+		"progressions": [
+			{
+				"section": "Intro",
+				"chords": "| Am | Am | Em | Em |"
+			},
+			{
+				"section": "Verse 1",
+				"chords": "| A5 | Am x9 | D | A5 | Em7 | Em7 | C | D | A5 | A5 |"
+			},
+			{
+				"section": "Chorus",
+				"chords": "| Em | Asus2 | x3 | D | A | E5 | E5 |"
+			},
+			{
+				"section": "Verse 2",
+				"chords": "| D | A | E5 x4 | A5 | A5 | E5 | E5 | A5 x4 | Asus4 | Asus4 |"
+			},
+			{
+				"section": "Chorus",
+				"chords": "| Em | Asus2 | x3 | D | A | E5 | E5 |"
+			},
+			{
+				"section": "Outro",
+				"chords": "| D | A | E5 | E5 | x3"
+			}
+		],
+		"chart": "# eat all the clocks\n120 bpm · Em · 4/4\n\n**Structure:** Intro – Verse 1 – Chorus – Verse 2 – Chorus – Outro\n\n## I. Intro (bars 1–4)\n| Am | Am | Em | Em |\n\n## II. Verse 1 (bars 5–22)\n| A5 | Am x9 | D | A5 | Em7 | Em7 | C | D | A5 | A5 |\n\n## III. Chorus (bars 23–32)\n| Em | Asus2 | x3\n| D | A | E5 | E5 |\n\n## IV. Verse 2 (bars 33–48)\n| D | A | E5 x4 | A5 | A5 | E5 | E5 | A5 x4 | Asus4 | Asus4 |\n\n## V. Chorus (bars 49–58)\n| Em | Asus2 | x3\n| D | A | E5 | E5 |\n\n## VI. Outro (bars 59–70)\n| D | A | E5 | E5 | x3\n",
+		"notes": "Long E/A pedal passages are ambiguous between Em, Am, A5 and E5 (riff-based); bars 17–20 (Em7–C–D) and the Asus2 voicing in the chorus are the least certain."
+	},
+	"tokensIn": 12058,
+	"tokensOut": 2345,
+	"gate": {
+		"S25B-G1": "FAIL"
+	}
+}
