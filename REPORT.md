@@ -1,5 +1,83 @@
 # stem-bench REPORT
 
+## Correction (2026-11-07, prompted by Kevin): the recordings are metronome-exact at their declared tempos — the broken legs were the bench's DTW ruler and one chart's arrangement, and Studies 23b/24's tempo interpretations are withdrawn
+
+Kevin's correction ("their tempo is precisely metronomically constant"
+— the songs from stems/mix, as opposed to the demos) was verified the
+same hour, off the raw audio with no DTW involved
+(scripts/diag-tempo-2026-11-07.ts): a wide fine comb sweep over the
+onset envelope finds razor-sharp peaks (peak/median 5.2–7.2) at
+131.97–131.99, 120.00, 144.96–144.98 and 223.82–223.97 bpm against
+declared 132/120/145/224. The corpus is the manifest's stems/mix, so
+the caveat about demos does not apply. **Every recording is click-exact
+at its declared tempo.**
+
+What was actually broken, localized by a second $0 diagnostic
+(scripts/diag-arrangement-2026-11-07.ts, the shipped reader's hints
+graded per 16-bar window under the DTW grid vs the TRUE uniform grid):
+
+1. **The DTW ruler's bar geometry is unusable, far beyond its known
+   ~400 ms wander.** Its "bar durations" on letter-lands span
+   0.91–2.43 s against a true 1.818 s, and its grids drift up to
+   14–22 s from any uniform line. Its per-bar BINS remain musically
+   aligned to the chart (DTW-grid hints 70/76, 74/84, 149/153,
+   115/140), which is why every prior per-bar CHORD grade stands —
+   but nothing geometric derived from it (anchors, periods, index
+   pairings of uniform arms) was ever truth.
+2. **The '7.15 s and 6.5 s intros' never existed.** The true-grid
+   hints score best at shift −4 on letter-lands AND peaceful-dreams:
+   chart bar one sits at t ≈ −0.12 s on both — the recordings open ON
+   the downbeat. The DTW start was four bars late. Study 13's arm D
+   had this receipt in 2026 ink ("first section declared at 0, first
+   audible energy at 0.00") and Studies 23b/24 trusted the ruler over
+   it. Consequently the earlier same-day correction UNDER Study 24
+   ("E4 finds the audio start, not the charted start") was itself
+   wrong in its explanation: the audio start IS the charted start on
+   these songs; E4's t = 0 was within ~0.12 s of true chart bar one,
+   and prediction 6's premise (7.15 s as truth) is what dissolves.
+3. **eat-all-the-clocks' chart does not match its recording's
+   arrangement.** 86 chart bars at 120 bpm need 172 s; the recording
+   is 147.5 s — about 13 chart bars have no audio. The true-grid hint
+   windows decay 14/16 → 0/6 toward the tail while the DTW grid
+   "scores" by compression. No grid of any kind can chart bars that
+   were not played.
+
+**What this withdraws.** Study 23b's headline ("a perfect tap does not
+save the declared tempo") and Study 24's ("the tempo is not a
+constant") are both withdrawn as interpretations. 23b's B2 arm never
+simulated a user tap: its anchor was the RULER's first bar — on two
+songs four bars late — so the index-paired grading punished every
+uniform arm by whole-bar shifts while the grid-given baseline was
+shift-aligned by construction. The gates measured what their registered
+constructions measured and are not re-scored; the constructions
+themselves are now known defective as simulations of the feature.
+Study 24's "truth-fit period" ruler (the LSQ fit) is void with them.
+
+**What this reverses into good news, re-scored against the true
+periods:** Study 24's P2 onset joint comb found the true period on ALL
+FOUR songs (1.8185 vs 1.8182, 2.0004 vs 2.0000, 1.6552 exact, 0.8036
+exact — ≤ 0.02%), and P1's chord-change comb on three of four (letter
+its one real miss, 5.3% off). The bench reported that perfection as
+"24% off fit" against its own broken ruler. With the true tempo
+recoverable mechanically and bar one at t ≈ 0 on these recordings, the
+chartless pipeline's INPUTS are already near chart-grade on the three
+arrangement-matched songs: true-grid reader hints 70/76, 134/153,
+111/140 (eat's 55/84 is the arrangement mismatch, not hearing).
+
+**What stands:** every per-bar chord grade in Studies 13–24 (binned by
+DTW, which tracks the chart musically); Study 22's core claim that grid
+geometry cannot be certified against this truth (now strengthened:
+the truth's geometry is the broken part); Study 23's serialization
+verdict; Study 24's dialect result (18/62 on peaceful under a
+near-true-period grid).
+
+**Proposed next (not run — needs a registration go-ahead): Study 25,**
+the corrected end-to-end: grid = declared period anchored at true bar
+one (t ≈ 0, or the onset joint comb's fit), drafts on all four songs,
+graded index-paired against the chart. Registered prediction would be
+near-baseline on letter/peaceful/mop and an arrangement-capped eat.
+~$0.3.
+
 ## Study 24 — true-tempo estimation splits the catalog: reader-derived grids reach baseline parity on steady songs (with the program's best dialect number ever), and the wandering songs have no uniform grid to find (2026-11-07)
 
 Run as registered (2bd7ca9, $2 fence, ≈ $0.3 by token parity — 64,605
