@@ -1,5 +1,69 @@
 # stem-bench REPORT
 
+## Study 22 — the bar grid from the recording alone: the sanity gate caught the bench's metric, the decision gate failed everywhere, and the real finding is that the program's truth cannot certify a grid finer than itself (2026-11-07)
+
+The recording-to-chart question (Kevin, 2026-11-07) stands on a prior
+one: an auto-written chart has no chart to align, so can a usable bar
+grid come from the recording alone? Registered 0f2e02d with the shipped
+tempo detector's catalog-tuning and 210 bpm range cap disclosed up
+front; $0.
+
+**The first run failed its own sanity gate, as designed.** S22-G1 ran
+the declared-tempo-plus-blind-phase pipeline on each chart's SYNTHETIC
+render, whose true bar starts are exact, and scored 0 % on all four —
+because the registered metric paired grid index to bar index while a
+blind phase estimate exists only modulo the period. The comb had in
+fact landed 68 ms from the render's downbeats. Per the program's rules
+the metric was replaced (amendment 1, 7466564: lattice distance, each
+truth bar start against the nearest lattice point, the arm's period
+reported beside the rate so a half-period lattice cannot take silent
+octave credit), with the defective run's real-song numbers disclosed as
+seen. On the re-run **S22-G1 PASSES at 100.0 % on all four renders.**
+
+**S22-G2 FAIL, decisively: the declared-tempo arm reads 8.5–68.8 %
+against the 80 % line — and the least-squares CEILING reads only
+27.3–37.9 %.** When the best uniform grid that can be fit to the truth
+itself misses two-thirds of the truth at ±15 % of a bar (mean absolute
+error ~400 ms, against tolerances of 122–280 ms), no derivable grid
+could have passed. The mechanism is the finding:
+
+- **The chart-anchored DTW truth resolves bar positions to a few
+  hundred milliseconds, no finer.** Its step size is 93 ms and its path
+  wanders: consecutive truth bar durations swing hundreds of ms (p5–p95
+  on letter-lands: 0.91–2.15 s around a 1.70 s median). Per-bar CHORD
+  grading tolerates this — a boundary a few hundred ms off barely moves
+  a 1.7 s bar's vote, which is why Study 21 read 97 % roots on the same
+  grids — but a bar-position gate at ±15 % of a bar is finer than the
+  ruler. Whether the bands also genuinely drift cannot be separated
+  from the ruler's wander with these instruments.
+- One open observation is recorded without adjudication: letter-lands'
+  chart declares 132 bpm and the (catalog-tuned) detector agrees at
+  132.0, while the truth's median bar implies ~141. Either the chart's
+  figure is nominal or the DTW compresses; finer truth would say.
+- **Arm A1 (fully blind detector): every detected tempo sits on a
+  Study 11 ladder rung of the declared** (1.0, 1.0, 1.499, 2.0 — the
+  224 bpm song capped to half time by the detector's range, as
+  disclosed), and the off-rung grids score 3.5 % and 27.9 %.
+
+**The registered decision:** the end-to-end draft study may NOT assume
+a derivable uniform grid. Constructively: it should run grid-given
+(the chart-anchored alignment, like every chord study) and register the
+no-chart grid as an open problem that needs finer truth than the bench
+owns — human-tapped downbeats or a validated beat tracker — before it
+can even be measured, let alone passed.
+
+**Prediction scorecard:** 1 WRONG as first registered (the sanity gate
+failed — on the bench's own metric — and RIGHT after the amendment it
+forced), 2 WRONG in the most decision-relevant direction (ceiling
+28–38 %, not ≥ 90 %), 3 NOT EVALUABLE (its premise, a ≥ 90 % ceiling,
+never occurred), 4 RIGHT in full (all four on ladder rungs; raw-octave
+grids under 50 %), 5 RIGHT (mop-heart weakest at 8.5 %).
+
+**Disclosure:** analyst Claude Fable 5; zero model calls; both runs'
+numbers committed; the amendment changed the metric's wraparound
+behavior only, with thresholds untouched, and the synthetic sanity gate
+re-arbitrated it.
+
 ## Study 21 — the chord reader on the rest of the catalog: the roots generalize at 90 %, the all-triad song is the program's first big strict result, and the gate fails on the grade's vocabulary, not the reader's hearing (2026-11-07)
 
 The shipped reader's real-audio numbers rested on the two songs the

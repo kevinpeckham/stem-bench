@@ -9,18 +9,23 @@
 			},
 			"bars": 77,
 			"truthStart": 7.152,
+			"truthJitter": {
+				"medianBar": 1.6985693671407915,
+				"p5": 0.9090909090909065,
+				"p95": 2.150286538857955
+			},
 			"sanity": {
-				"hits": 0,
+				"hits": 77,
 				"n": 77,
-				"hitRate": 0,
-				"meanAbsMs": 1750,
+				"hitRate": 1,
+				"meanAbsMs": 68,
 				"tolMs": 273
 			},
 			"a0": {
-				"hits": 3,
+				"hits": 21,
 				"n": 77,
-				"hitRate": 0.03896103896103896,
-				"meanAbsMs": 2388,
+				"hitRate": 0.2727272727272727,
+				"meanAbsMs": 421,
 				"tolMs": 255,
 				"fit": {
 					"period": 1.6534148332761736,
@@ -28,19 +33,21 @@
 				}
 			},
 			"a2": {
-				"hits": 1,
+				"hits": 53,
 				"n": 77,
-				"hitRate": 0.012987012987012988,
-				"meanAbsMs": 3844,
+				"hitRate": 0.6883116883116883,
+				"meanAbsMs": 271,
 				"tolMs": 255,
+				"period": 1.8181818181818181,
 				"phase": 1.7500000000000013
 			},
 			"a1": {
-				"hits": 1,
+				"hits": 53,
 				"n": 77,
-				"hitRate": 0.012987012987012988,
-				"meanAbsMs": 3844,
+				"hitRate": 0.6883116883116883,
+				"meanAbsMs": 271,
 				"tolMs": 255,
+				"period": 1.8181818181818181,
 				"detected": {
 					"bpm": 132,
 					"confidence": 0.8613115833308094
@@ -59,18 +66,23 @@
 			},
 			"bars": 87,
 			"truthStart": 2.415,
+			"truthJitter": {
+				"medianBar": 1.8634013605442163,
+				"p5": 1,
+				"p95": 2.253877551020416
+			},
 			"sanity": {
-				"hits": 0,
+				"hits": 87,
 				"n": 87,
-				"hitRate": 0,
-				"meanAbsMs": 1930,
+				"hitRate": 1,
+				"meanAbsMs": 70,
 				"tolMs": 300
 			},
 			"a0": {
-				"hits": 5,
+				"hits": 33,
 				"n": 87,
-				"hitRate": 0.05747126436781609,
-				"meanAbsMs": 2685,
+				"hitRate": 0.3793103448275862,
+				"meanAbsMs": 386,
 				"tolMs": 280,
 				"fit": {
 					"period": 1.615459109696708,
@@ -78,19 +90,21 @@
 				}
 			},
 			"a2": {
-				"hits": 7,
+				"hits": 17,
 				"n": 87,
-				"hitRate": 0.08045977011494253,
-				"meanAbsMs": 10150,
+				"hitRate": 0.19540229885057472,
+				"meanAbsMs": 460,
 				"tolMs": 280,
+				"period": 2,
 				"phase": 0.4300000000000002
 			},
 			"a1": {
-				"hits": 7,
+				"hits": 17,
 				"n": 87,
-				"hitRate": 0.08045977011494253,
-				"meanAbsMs": 10150,
+				"hitRate": 0.19540229885057472,
+				"meanAbsMs": 460,
 				"tolMs": 280,
+				"period": 2,
 				"detected": {
 					"bpm": 120,
 					"confidence": 0.8645092669032584
@@ -109,18 +123,23 @@
 			},
 			"bars": 154,
 			"truthStart": 6.502,
+			"truthJitter": {
+				"medianBar": 1.6170646649464402,
+				"p5": 0.8275862068965409,
+				"p95": 2.0634482758620685
+			},
 			"sanity": {
-				"hits": 0,
+				"hits": 154,
 				"n": 154,
-				"hitRate": 0,
-				"meanAbsMs": 1580,
+				"hitRate": 1,
+				"meanAbsMs": 75,
 				"tolMs": 248
 			},
 			"a0": {
-				"hits": 5,
+				"hits": 44,
 				"n": 154,
-				"hitRate": 0.032467532467532464,
-				"meanAbsMs": 3561,
+				"hitRate": 0.2857142857142857,
+				"meanAbsMs": 400,
 				"tolMs": 243,
 				"fit": {
 					"period": 1.5671584279976034,
@@ -128,19 +147,21 @@
 				}
 			},
 			"a2": {
-				"hits": 3,
+				"hits": 25,
 				"n": 154,
-				"hitRate": 0.01948051948051948,
-				"meanAbsMs": 3520,
+				"hitRate": 0.16233766233766234,
+				"meanAbsMs": 602,
 				"tolMs": 243,
+				"period": 1.6551724137931034,
 				"phase": 0.7700000000000005
 			},
 			"a1": {
-				"hits": 1,
+				"hits": 43,
 				"n": 154,
-				"hitRate": 0.006493506493506494,
-				"meanAbsMs": 67426,
+				"hitRate": 0.2792207792207792,
+				"meanAbsMs": 595,
 				"tolMs": 243,
+				"period": 2.481902792140641,
 				"detected": {
 					"bpm": 96.7,
 					"confidence": 0.822726925058671
@@ -159,18 +180,23 @@
 			},
 			"bars": 141,
 			"truthStart": 3.529,
+			"truthJitter": {
+				"medianBar": 0.814098639455878,
+				"p5": 0.4017857142857135,
+				"p95": 1.0118197278911083
+			},
 			"sanity": {
-				"hits": 0,
+				"hits": 141,
 				"n": 141,
-				"hitRate": 0,
-				"meanAbsMs": 730,
+				"hitRate": 1,
+				"meanAbsMs": 74,
 				"tolMs": 121
 			},
 			"a0": {
-				"hits": 17,
+				"hits": 45,
 				"n": 141,
-				"hitRate": 0.12056737588652482,
-				"meanAbsMs": 636,
+				"hitRate": 0.3191489361702128,
+				"meanAbsMs": 186,
 				"tolMs": 122,
 				"fit": {
 					"period": 0.7890535401097675,
@@ -178,19 +204,21 @@
 				}
 			},
 			"a2": {
-				"hits": 6,
+				"hits": 12,
 				"n": 141,
-				"hitRate": 0.0425531914893617,
-				"meanAbsMs": 618,
+				"hitRate": 0.0851063829787234,
+				"meanAbsMs": 230,
 				"tolMs": 122,
+				"period": 0.8035714285714286,
 				"phase": 0.20000000000000004
 			},
 			"a1": {
-				"hits": 0,
+				"hits": 5,
 				"n": 141,
-				"hitRate": 0,
-				"meanAbsMs": 57309,
+				"hitRate": 0.03546099290780142,
+				"meanAbsMs": 398,
 				"tolMs": 122,
+				"period": 1.6071428571428572,
 				"detected": {
 					"bpm": 112,
 					"confidence": 0.8304456761828679
