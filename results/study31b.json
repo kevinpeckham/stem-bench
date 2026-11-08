@@ -1,0 +1,426 @@
+{
+	"version": 1,
+	"model": "anthropic/claude-fable-5-1",
+	"weights": {
+		"w1": 2,
+		"w2": 1,
+		"w3": 1,
+		"w4": 2,
+		"w5": 1,
+		"w6": 2,
+		"w7": 1
+	},
+	"songs": {
+		"letter-lands": {
+			"grid": {
+				"anchor": 0.8300000000000005,
+				"period": 1.8185454545454554,
+				"n": 75
+			},
+			"beat": 0.45463636363636384,
+			"beats": 4,
+			"truthCls": 2,
+			"votes": {
+				"w1": {
+					"cls": 2,
+					"detail": {
+						"phaseBeats": 2.174,
+						"distBeats": 0.174
+					}
+				},
+				"w2": {
+					"cls": null,
+					"detail": {
+						"abstain": "fade",
+						"last": 89.74512471655329
+					}
+				},
+				"w3": {
+					"cls": null,
+					"detail": {
+						"abstain": "remainder",
+						"remainder": 1
+					}
+				},
+				"w4": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							10,
+							11,
+							19,
+							14
+						],
+						"margin": 5,
+						"changes": 54
+					}
+				},
+				"w5": {
+					"cls": 1,
+					"detail": {
+						"hist": [
+							0,
+							9,
+							2,
+							0
+						],
+						"crashes": 11
+					}
+				},
+				"w6": {
+					"cls": null,
+					"detail": {
+						"abstain": "bass veto",
+						"drums": 0,
+						"bass": 3,
+						"modeUsed": "kick-only (snare bins not opposite)"
+					}
+				},
+				"w7": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							1,
+							0,
+							17,
+							0
+						],
+						"peaks": 18
+					}
+				}
+			},
+			"span": {
+				"first": 0.01,
+				"last": 137.87
+			}
+		},
+		"peaceful-dreams": {
+			"grid": {
+				"anchor": 0.7700000000000005,
+				"period": 1.6551724137931034,
+				"n": 153
+			},
+			"beat": 0.41379310344827586,
+			"beats": 4,
+			"truthCls": 2,
+			"votes": {
+				"w1": {
+					"cls": 2,
+					"detail": {
+						"phaseBeats": 2.139,
+						"distBeats": 0.139
+					}
+				},
+				"w2": {
+					"cls": null,
+					"detail": {
+						"abstain": "fade",
+						"last": 89.73351473922902
+					}
+				},
+				"w3": {
+					"cls": null,
+					"detail": {
+						"abstain": "remainder",
+						"remainder": 1
+					}
+				},
+				"w4": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							14,
+							11,
+							56,
+							27
+						],
+						"margin": 29,
+						"changes": 108
+					}
+				},
+				"w5": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							2,
+							2,
+							14,
+							1
+						],
+						"crashes": 19
+					}
+				},
+				"w6": {
+					"cls": null,
+					"detail": {
+						"abstain": "bass veto",
+						"drums": 0,
+						"bass": 2,
+						"modeUsed": "kick-only (snare bins not opposite)"
+					}
+				},
+				"w7": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							0,
+							0,
+							42,
+							0
+						],
+						"peaks": 42
+					}
+				}
+			},
+			"span": {
+				"first": 0,
+				"last": 254.32
+			}
+		},
+		"mop-heart": {
+			"grid": {
+				"anchor": 0.20000000000000004,
+				"period": 0.8035714285714262,
+				"n": 140
+			},
+			"beat": 0.26785714285714207,
+			"beats": 3,
+			"truthCls": 2,
+			"votes": {
+				"w1": {
+					"cls": null,
+					"detail": {
+						"phaseBeats": 2.253,
+						"distBeats": 0.253
+					}
+				},
+				"w2": {
+					"cls": null,
+					"detail": {
+						"abstain": "fade",
+						"last": 89.82639455782314
+					}
+				},
+				"w3": {
+					"cls": null,
+					"detail": {
+						"abstain": "remainder",
+						"remainder": 2
+					}
+				},
+				"w4": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							26,
+							4,
+							33
+						],
+						"margin": 7,
+						"changes": 63
+					}
+				},
+				"w5": {
+					"cls": 0,
+					"detail": {
+						"hist": [
+							7,
+							7,
+							6
+						],
+						"crashes": 20
+					}
+				},
+				"w6": {
+					"cls": null,
+					"detail": {
+						"abstain": "bass veto",
+						"drums": 1,
+						"bass": 0,
+						"modeUsed": "kick (3/4)"
+					}
+				},
+				"w7": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							5,
+							0,
+							6
+						],
+						"peaks": 11
+					}
+				}
+			},
+			"span": {
+				"first": 0,
+				"last": 112.53
+			}
+		},
+		"eat-all-the-clocks": {
+			"grid": {
+				"anchor": 0.4300000000000002,
+				"period": 2.0003999999999995,
+				"n": 70
+			},
+			"beat": 0.5000999999999999,
+			"beats": 4,
+			"truthCls": 3,
+			"votes": {
+				"w1": {
+					"cls": 3,
+					"detail": {
+						"phaseBeats": 3.14,
+						"distBeats": 0.14
+					}
+				},
+				"w2": {
+					"cls": null,
+					"detail": {
+						"abstain": "fade",
+						"last": 89.68707482993197
+					}
+				},
+				"w3": {
+					"cls": null,
+					"detail": {
+						"abstain": "remainder",
+						"remainder": 3
+					}
+				},
+				"w4": {
+					"cls": 3,
+					"detail": {
+						"hist": [
+							7,
+							11,
+							9,
+							46
+						],
+						"margin": 35,
+						"changes": 73
+					}
+				},
+				"w5": {
+					"cls": 2,
+					"detail": {
+						"hist": [
+							1,
+							1,
+							13,
+							1
+						],
+						"crashes": 16
+					}
+				},
+				"w6": {
+					"cls": null,
+					"detail": {
+						"abstain": "bass veto",
+						"drums": 2,
+						"bass": 3,
+						"modeUsed": "kick-only (snare bins not opposite)"
+					}
+				},
+				"w7": {
+					"cls": 3,
+					"detail": {
+						"hist": [
+							0,
+							0,
+							0,
+							20
+						],
+						"peaks": 20
+					}
+				}
+			},
+			"span": {
+				"first": 0,
+				"last": 140.12
+			},
+			"adjudication": {
+				"mixFirst": 0,
+				"drumFirstHit": 0.058049886621315196,
+				"nonDrumFirst": 0,
+				"truth": -0.085,
+				"verdict": "BAR LINE AT TIME ZERO (no pickup, no pre-roll)"
+			}
+		}
+	},
+	"dropped": [],
+	"decisions": {
+		"letter-lands": {
+			"scores": [
+				0,
+				1,
+				5,
+				0
+			],
+			"decided": 2,
+			"undecided": false,
+			"correct": true
+		},
+		"peaceful-dreams": {
+			"scores": [
+				0,
+				0,
+				6,
+				0
+			],
+			"decided": 2,
+			"undecided": false,
+			"correct": true
+		},
+		"mop-heart": {
+			"scores": [
+				1,
+				0,
+				3
+			],
+			"decided": 2,
+			"undecided": false,
+			"correct": true
+		},
+		"eat-all-the-clocks": {
+			"scores": [
+				0,
+				0,
+				1,
+				5
+			],
+			"decided": 3,
+			"undecided": false,
+			"correct": true
+		}
+	},
+	"arms": {
+		"a1TimeZeroAlone": 3,
+		"a2HarmonicAlone": 4
+	},
+	"redrafts": {
+		"letter-lands": {
+			"roots": {
+				"right": 51,
+				"bearing": 75
+			},
+			"pct": 0.68,
+			"refPct": 0.9473684210526315
+		},
+		"peaceful-dreams": {
+			"roots": {
+				"right": 94,
+				"bearing": 153
+			},
+			"pct": 0.6143790849673203,
+			"refPct": 0.9869281045751634
+		}
+	},
+	"gates": {
+		"S31B-G1": "PASS",
+		"S31B-G2": "PASS",
+		"S31B-G3": "FAIL"
+	},
+	"tokensIn": 41832,
+	"tokensOut": 6541
+}
