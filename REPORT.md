@@ -2719,3 +2719,42 @@ Predictions: 1 right, 2 right in mechanism (the pickup sits at half a
 beat, not a quarter — an eighth is half a beat, the brief's own units
 caught the drafter), 3 right including the registered letter-lands
 uncertainty resolving to pass, 4 right, 5 right ($0).
+
+## Study 30 — downbeat disambiguation for the chartless grid: both gates FAIL, published as found
+
+Registered f0e71e2; brief docs/BRIEF-STUDY30.md; two fable calls
+(42,051 in / 6,237 out ≈ $0.15 of a $0.5 fence).
+
+**S30-G1 FAIL: chroma novelty (D1, the registered primary) is not a
+downbeat detector — 0 of 4.** The anatomy is in the committed scores:
+on letter-lands the BACKBEAT outscores the true downbeat (0.0585 vs
+0.0468); on mop-heart the two leading candidates tie to four decimals;
+on peaceful-dreams the winning margin is 4 percent, noise; and on
+eat-all-the-clocks the novelty moved the anchor OFF the already
+correct base to shift 3. The same chroma smear that made the DTW
+geometry wander (the 2026-11-07 correction) makes frame-to-frame
+novelty mush at beat granularity. D2 (kick-band onsets, the reported
+secondary) was right on 2 of 4 (letter, mop) and wrong the same two
+ways available (kept a backbeat on peaceful, moved eat off a correct
+base). **S30-G2 FAIL by consequence:** letter's re-draft repeated
+Study 28's 81.3% and peaceful's got WORSE (61.4%, the novelty had
+moved it to a different wrong beat). Predictions: 1 wrong decisively
+(the primary scored zero), 2 wrong, 3 half (eat was the hard case,
+but by derailment rather than near-miss), 4 right on spend.
+
+**The standing read.** Two cheap chartless scorers are now measured
+and dead: raw comb phase (Study 28) and chroma novelty (this study);
+kick-band onsets are half-reliable and can also move a correct anchor.
+One result cuts across all three: on every song, at least one scorer
+preferred a wrong shift over the correct base, so any shipped
+disambiguator needs the humility to keep the base — and nothing
+measured so far earns the right to overrule it. Named candidate
+remedies, none registered: the transcription's bass-note changes at
+candidate bar lines (a downbeat witness the pipeline already
+computes); the shipped reader's hint-change concentration per
+candidate; or the product answer, which the measurements now make
+precise — the period is exact, the lattice is known, and the only
+missing information is a single bit of which beat is one, so a
+one-tap bar-one gesture from the user resolves what three studies of
+DSP could not, with zero risk. The honest summary for the auto-chart
+feature: machine-exact tempo and length, human-disambiguated anchor.
