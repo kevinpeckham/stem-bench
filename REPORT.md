@@ -2758,3 +2758,84 @@ missing information is a single bit of which beat is one, so a
 one-tap bar-one gesture from the user resolves what three studies of
 DSP could not, with zero risk. The honest summary for the auto-chart
 feature: machine-exact tempo and length, human-disambiguated anchor.
+
+## Study 31 / Correction 4 / 31b / 31c — the downbeat from witnesses the song already carries
+
+Registered 7a821f4 (31), b90a3b6 (31b), b26da2d (31c); source: the
+app's ASK (bench-brief-study31-downbeat-witnesses-2026-11-08.md),
+amended per the bench's accepted review (categorical G1, corrected G3
+numbers, the eat adjudication promoted to a named arm, harmonic rhythm
+on the bench's own nchord per-beat as a disclosed substitution).
+Family spend ≈ $0.39 of a $0.5 fence (six fable calls across three
+runs; the gateway ignores temperature on this family, so re-draft
+scores carry a few bars of sampling noise, disclosed in 31b's brief).
+
+**Study 31 as registered: all three gates FAIL — and the failure
+pattern was the finding.** Three independent witnesses (time zero,
+harmonic rhythm with margin 35, all 20 section boundaries) agreed with
+the truth exactly on letter, peaceful and mop, and agreed WITH EACH
+OTHER on eat, one beat before the registered truth. G2, screening
+against that truth, dropped all three and left an empty vote.
+
+**CORRECTION 4 (2026-11-08): eat-all-the-clocks' truth anchor is
+−0.085 s, not +0.415 s.** The registered +0.415 was Study 25's
+hint-fit (55/84) made against the phantom-bars 86-bar chart, before
+Correction 2, and never re-derived after it; the hint instrument is
+measured flat across a two-beat range on this song (65/66/66 of 69 at
+0/−1/−2 beats; 50 at +1), so it never had the power to pin the phase.
+Four independent constructions put bar one at −0.06 to −0.07 s: the
+chart-informed DTW grid — whose verdict sat in Studies 27 and 29's
+committed numbers all along as the constant 0.474 s offset politely
+misread as "eat's quarter-bar edge" — plus Study 31's chord-change
+histogram, section boundaries and time zero. The non-drum stems sound
+from the file's first sample: there is no one-beat pickup; the bar
+line is at time zero, exactly the app's DAW-export argument.
+Re-readings this forces, in place: v5 was RIGHT on eat all along
+(ends ≈ 0.03–0.05 s from the corrected truth, not 0.47); Study 28's
+"eat anchored on the downbeat" becomes one beat late like the ruler
+it matched, making the comb phase wrong on all FOUR songs; Study 30's
+scorers re-read classwise under the corrected ruler go 2/4 (novelty)
+and 3/4 (kick band) rather than 0/4 and 2/4 — still unshippable, and
+letter's backbeat-outscores-downbeat anatomy stands, but the
+"moved a correct base" tally there leaned on a base that was not
+correct. The published Study 30 conclusions carry a dated correction.
+
+**Study 31b (corrected ruler; w2's fade measured against the final
+bar line instead of the ring-out, a disclosed instrument fix):
+S31B-G1 PASS — the vote finds the true class on all four songs
+(5–1, 6–1, 3–1, 5–1), none undecided. A2: HARMONIC RHYTHM ALONE IS
+4 OF 4 — the single witness the app's brief says it ships first. A1:
+time zero 3 of 4 (mop abstains at 0.34 beat off the lattice; never
+wrong).** S31B-G2 passes vacuously (no song's base is correct under
+the corrected ruler; the app's fifth and sixth songs give it teeth).
+Witness post-mortem: w5 crashes voted 1 of 4 (not a downbeat witness
+as built); w6 stems self-vetoed on every song (drums and bass never
+agreed); w3 abstained everywhere by design (every song shows an end
+remainder); w2, fixed, still abstained everywhere (all four songs
+measure a fade by the registered rule).
+
+**S31B-G3 failed and exposed the family's second instrument defect:
+whole-bar placement.** A beat class names a position modulo one bar,
+and the runner placed voted anchors at base + shift — bar TWO on
+letter and peaceful — so index-paired drafts collapsed (68.0%, 61.4%).
+Study 30's peaceful 61.4% was the same defect wearing a different hat.
+**Study 31c registered the placement rule (bar one contains the first
+sound, fenced at one bar before it) and re-ran the re-draft arm:
+S31C-G3 PASS — letter 71/75 = 94.7%, EXACTLY the chart-given
+reference; peaceful 152/153 = 99.3%, ABOVE its 98.7% reference. The
+first chartless drafts to reach reference parity.** Placements landed
+as predicted: −0.079 s (truth −0.121) and −0.058 s (truth −0.119);
+first sounds 0.010 s and 0.000 s — the DAW-export time-zero argument
+holds on the whole corpus.
+
+**The standing read for the auto-chart feature.** Everything is now
+machine-measured on this corpus: period exact (Study 24), length
+within one bar (Study 28), bar one from the witness vote with
+harmonic rhythm 4-of-4 alone (31b), whole-bar placement by first
+sound (31c), and drafts at chart parity on the result. The bar-one
+tap retreats to the fallback behind an honest "undecided", as the
+app's brief asked. Predictions: Study 31's P2 ("pickup") was wrong —
+Correction 4 was the answer; P3 (time zero dropped by G2) was an
+artifact of the broken ruler; P6 (G3) came true only after the
+placement amendment; the rest held, including 31c's registered
+prediction of first-ever reference parity.
