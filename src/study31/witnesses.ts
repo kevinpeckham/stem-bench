@@ -117,6 +117,44 @@ export function w2LastOnset(
 	};
 }
 
+/**
+ * W2 v2 (Study 32b): the ritardando check ignores sub-beat intervals
+ * (fills and running eighths) before taking the median, per the app's
+ * note on 31d — an eighth-note gap rounds to one beat and halves the
+ * "local beat", reading busy endings as slowdowns.
+ */
+export function w2LastOnsetV2(
+	pk: number[],
+	anchor: number,
+	beat: number,
+	beats: number,
+	span: { first: number; last: number },
+): Vote {
+	if (pk.length === 0) return { cls: null, detail: { abstain: "no strong onsets" } };
+	const last = pk[pk.length - 1]!;
+	if (last < span.last - 4 * beats * beat) return { cls: null, detail: { abstain: "fade", last } };
+	const windowPk = pk.filter((t) => t >= last - 8 * beat);
+	const locals: number[] = [];
+	for (let i = 1; i < windowPk.length; i++) {
+		const d = windowPk[i]! - windowPk[i - 1]!;
+		if (d < 0.75 * beat) continue;
+		const m = Math.round(d / beat);
+		if (m >= 1) locals.push(d / m);
+	}
+	if (locals.length === 0) return { cls: null, detail: { abstain: "too few end onsets", last } };
+	const localBeat = median(locals);
+	if (Math.abs(localBeat - beat) / beat > 0.03)
+		return {
+			cls: null,
+			detail: { abstain: "ritardando", localBeat: Number(localBeat.toFixed(4)), beat },
+		};
+	const snapBeats = Math.abs(last - (anchor + Math.round((last - anchor) / beat) * beat)) / beat;
+	return {
+		cls: classOf(last, anchor, beat, beats),
+		detail: { last: Number(last.toFixed(3)), snapBeats: Number(snapBeats.toFixed(3)) },
+	};
+}
+
 /** W3: both ends together. */
 export function w3BothEnds(pk: number[], anchor: number, beat: number, beats: number): Vote {
 	if (pk.length < 2) return { cls: null, detail: { abstain: "too few onsets" } };

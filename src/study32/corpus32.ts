@@ -39,13 +39,26 @@ export function addChord(samples: Float32Array, at: number, dur: number, chord: 
 	}
 }
 
-/** 65 Hz kick thump, 90 ms. */
-export function addKick(samples: Float32Array, at: number, amp = 1.0): void {
+/**
+ * 65 Hz kick thump, 90 ms. `click` adds a 6 ms broadband beater tick
+ * (Study 32b): a pure 65 Hz sine is nearly invisible to the spectral
+ * flux onset envelope, which left Study 32's "correct base" renders
+ * backbeat-dominant in flux.
+ */
+export function addKick(samples: Float32Array, at: number, amp = 1.0, click = false): void {
 	const from = Math.max(0, Math.floor(at * RATE32));
 	const n = Math.floor(0.09 * RATE32);
 	for (let i = 0; i < n && from + i < samples.length; i++) {
 		const t = i / RATE32;
 		samples[from + i]! += amp * Math.exp(-t / 0.025) * Math.sin(2 * Math.PI * 65 * t);
+	}
+	if (click) {
+		let seed = from + 7;
+		const cn = Math.floor(0.006 * RATE32);
+		for (let i = 0; i < cn && from + i < samples.length; i++) {
+			seed = (seed * 1103515245 + 12345) & 0x7fffffff;
+			samples[from + i]! += amp * 0.5 * (seed / 0x3fffffff - 1) * Math.exp(-i / RATE32 / 0.002);
+		}
 	}
 }
 
@@ -95,6 +108,8 @@ export interface SongSpec {
 	snareAmp: number;
 	/** Stretch factor applied to the last three bars' beats (1 = steady). */
 	ritStretch?: number;
+	/** Study 32b: give the kick a flux-visible beater click. */
+	kickClick?: boolean;
 	baseShouldBeCorrect: boolean;
 }
 
@@ -137,7 +152,7 @@ export function renderSong(spec: SongSpec): Item {
 			addChord(samples, Math.max(0, t0 - lead), barDur, chord);
 			if (b === spec.bars - 1) addChord(samples, t0 + barDur - lead, 1.0, next);
 		}
-		addKick(samples, t0, spec.kickAmp);
+		addKick(samples, t0, spec.kickAmp, spec.kickClick ?? false);
 		if (spec.beats === 4) {
 			addSnare(samples, bt(1), spec.snareAmp);
 			addSnare(samples, bt(3), spec.snareAmp);

@@ -114,3 +114,39 @@ describe("addChord", () => {
 		expect(energyAround(samples, 0.85)).toBeGreaterThan(energyAround(samples, 0.5));
 	});
 });
+
+describe("w2LastOnsetV2 (Study 32b)", async () => {
+	const { w2LastOnsetV2 } = await import("../src/study31/witnesses.js");
+	const span = { first: 0, last: 20 };
+	test("running eighths at the end no longer read as a ritardando", () => {
+		const pk = [16.0, 16.5, 17.0, 17.25, 17.5, 17.75, 18.0, 18.25, 18.5, 18.75, 19.0];
+		const v = w2LastOnsetV2(pk, 1.0, 0.5, 4, span);
+		expect(v.cls).not.toBeNull();
+	});
+	test("a genuine ritardando still abstains", () => {
+		const pk = [16.4, 17.0, 17.62, 18.3, 19.0];
+		const v = w2LastOnsetV2(pk, 1.0, 0.5, 4, span);
+		expect(v.detail.abstain).toBe("ritardando");
+	});
+	test("the fade reading stands", () => {
+		const v = w2LastOnsetV2([5.0, 5.5, 6.0], 1.0, 0.5, 4, span);
+		expect(v.detail.abstain).toBe("fade");
+	});
+});
+
+describe("addKick click (Study 32b)", async () => {
+	const { addKick, RATE32: R } = await import("../src/study32/corpus32.js");
+	test("the beater tick adds broadband energy at the onset", () => {
+		const plain = new Float32Array(R);
+		const clicky = new Float32Array(R);
+		addKick(plain, 0.5, 1.0, false);
+		addKick(clicky, 0.5, 1.0, true);
+		let dp = 0;
+		let dc = 0;
+		for (let i = Math.floor(0.5 * R); i < Math.floor(0.506 * R); i++) {
+			dp += Math.abs(plain[i]! - (plain[i - 1] ?? 0));
+			dc += Math.abs(clicky[i]! - (clicky[i - 1] ?? 0));
+		}
+		expect(dc).toBeGreaterThan(2 * dp);
+	});
+});
