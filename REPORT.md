@@ -2648,3 +2648,74 @@ recommended worker recipe: same cost class (one extra comb slide).
 Predictions: 1 right (A3 wins, though the margin was thinner and the
 move larger than predicted — "within 150 ms" was wrong, it was 381 ms),
 2–4 right. Spend $0.
+
+## Study 28 — the capstone chartless draft: an honest FAIL that found the backbeat in the wild
+
+Registered 523dde2; four fable calls, 65,474 in / 10,671 out tokens
+(≈$0.25 of a $1 fence); brief docs/BRIEF-STUDY28.md.
+
+**S28-G1 FAIL, and the failure is the finding: the onset comb's raw
+PHASE is a beat detector, not a downbeat detector.** The chartless
+grid (comb period + comb-lattice anchor near the first sound) anchored
+letter-lands at +0.830 s (2.1 beats late — the backbeat lattice) and
+peaceful-dreams at +0.770 s (2.15 beats), drafting 61/75 (81.3% vs the
+94.7% reference) and 137/153 (89.5% vs 98.7%). mop-heart anchored one
+beat late and still drafted 135/140, ABOVE its 93.6% reference (long
+same-chord spans tolerate a beat), and eat-all-the-clocks anchored on
+the downbeat (+0.015 s) and drafted 55/68 = 80.9% vs its 81.2%
+reference. **S28-G2 PASS: the length leg is solid** — derived bar
+counts 75/153/140/70 against charts 76/153/140/71, every song within
+one bar from the audible span and the exact period alone. Predictions:
+1 wrong on two songs (the gate), 2 right, 3 right on spend. The comb
+PERIOD remains exact everywhere; what the auto-chart feature lacks is
+downbeat disambiguation — named, not registered.
+
+## Study 29 — can a backbeat-heavy mix pull recipe v5 off the downbeat? No, and here is the fence's catch map
+
+Registered ea1fd3f before the run; source: the app's ASK
+(bench-brief-v5-backbeat-2026-11-08.md); $0. Both gates PASS, and
+Study 28's same-day specimen (above) is the untethered contrast case.
+
+- **Arm 1 (catch map):** the downbeat is caught for x in roughly
+  [−0.4, +0.45] beats at EVERY downbeat weight, including w = 0.1
+  (downbeat ten times weaker than the backbeat), at 120 and 200 bpm.
+  Within the half-beat fence no other beat is reachable, so weight
+  cannot matter; the edges shave at 0.45 only by the 0.05-beat sweep
+  grid and the 10 ms comb step. The ASK's fence arithmetic is
+  confirmed.
+- **Arm 2 (in-window competitors):** the knife-edge exists exactly
+  where the ASK guessed. An eighth-note pickup (0.8 energy, half a
+  beat before the bar) captures the slide against a 0.3-weight
+  downbeat, and hi-hat off-eighths capture it at h ≥ w. Both are
+  boundary ties at the fence edge on synthetic impulses; arm 3 tests
+  whether real material gets near them.
+- **Arm 3 (kick-removed mixes, the gated arm): all four songs PASS
+  their Study 27 standards.** 150 Hz 4th-order high-pass on the drum
+  stems, remixed: deltas −0.05 to −0.14 beats, letter 0.04–0.06 s
+  ends / 0.051 s middle, peaceful 0.02–0.07 / 0.042, mop exact, eat-71
+  at its usual quarter-bar edge. The snare-and-hats mix did not move
+  the slide off the downbeat.
+- **Arm 4 (real phase errors, in beats):** letter 0.10, peaceful 0.09,
+  mop 0.05 (and its DTW-phase-to-lattice distance 0.05), eat 0.06 —
+  all an order of magnitude inside the fence. The ASK's "0.38 s =
+  1.4 beats" arithmetic was right and its premise was not: that number
+  was the superseded TRUTH ANCHOR'S error (the ruler Study 27
+  corrected), not the DTW's phase error, which is why v5 never
+  strained the fence on mop.
+- **S29-G2 (control): the full-mix runs reproduce Study 27's deltas
+  within 2 ms.** The remedy arm did not run: it was registered
+  conditional on an arm-3 failure and there was none.
+
+**The combined verdict for the app:** v5 as shipped (DTW tether +
+half-beat fence) is safe on everything measured, including
+kick-removed mixes; the one theoretical capture needs a weak downbeat
+AND a competitor at the fence edge, which no real arm produced. The
+construction that DOES get captured is the untethered chartless
+anchor (Study 28, the auto-chart grid leg), and the ASK's proposed
+downbeat check is exactly the missing instrument there — the named
+next remedy, for the auto-chart feature rather than the alignment.
+
+Predictions: 1 right, 2 right in mechanism (the pickup sits at half a
+beat, not a quarter — an eighth is half a beat, the brief's own units
+caught the drafter), 3 right including the registered letter-lands
+uncertainty resolving to pass, 4 right, 5 right ($0).
