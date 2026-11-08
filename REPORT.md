@@ -2604,3 +2604,47 @@ found no divergence (letter 76, peaceful 153, mop 140 bars, matching;
 the alignment-ends ASK's "80-bar" Letter Lands figure is also off —
 the live chart is 76). Studies 13–26's eat numbers stand as measured
 against the superseded fixture, so marked.
+
+## Study 27 — whole-grid re-phasing at fast tempos (recipe v5), and mop-heart's true anchor
+
+Registered d883201 before the run; brief docs/BRIEF-STUDY27.md; $0.
+
+**Arm A (anchor adjudication) moved the truth.** The incumbent mop
+anchor, 0.315 s (Study 25's oracle, inherited by Study 26 as truth),
+lost to the onset lattice: the v5 anchor from the MIX envelope and the
+v5 anchor from the DRUMS-STEM envelope agree exactly at −0.066 s, two
+independent envelopes naming the same lattice, 0.381 s (47% of a bar)
+earlier than the oracle. The registered hint-root rule picked it
+(115/140 vs 113/140 — a thin 2-root margin, disclosed; the hint
+instrument pools chroma per bar and is phase-tolerant on this song's
+long same-chord spans, so the decisive evidence is physical agreement
+of the two combs plus Study 24's committed drafting split, 136/140 at
+the comb phase vs 103/140 at the oracle). Consequence, registered in
+the brief: 26c's mop row was measured against the superseded anchor —
+its 0.42 s "middle offset" and 0.32 s "outro residual" were mostly the
+ruler, not the map; the app-acceptance verdict stands. Third ruler
+correction of the arc: first the DTW geometry, then the eat fixture,
+now the oracle anchor at the one tempo where sub-bar error matters
+most.
+
+**Arm B (recipe v5): all gates PASS.**
+
+| song | delta | first 4 / last 4 vs truth | middle mean | gate |
+|---|---|---|---|---|
+| letter-lands | −0.047 s | 0.05 / 0.07 s | 0.060 s | S27-G2 ok |
+| peaceful-dreams | −0.037 s | 0.06 / 0.06 s | 0.064 s | S27-G2 ok |
+| mop-heart | −0.014 s | 0.00 / 0.00 s | 0.000 s | S27-G1 ok (vs the refined truth v5 itself defines on this song — circular for the error numbers, disclosed; the non-circular content is the comb agreement, the hint win and app acceptance) |
+| eat vs 86-bar fixture | — | REFUSED | — | S27-G3 ok (the wrong-chart detector survives v5) |
+| eat vs corrected 71-bar chart | −0.030 s | 0.48 / 0.45 s | 0.468 s | S27-G3 ok (within the quarter-bar line, as in 26c) |
+
+v5 = v3 with one added move: a single whole-grid combSlide of the
+uniform line onto the onset lattice, fenced at ±0.5 beat
+(period / meter beats), so sub-beat phase corrects and the slide can
+never hop the lattice (tests/study27.test.ts proves the fence).
+Letter and peaceful moved ~40 ms onto the lattice with no regression;
+mop snapped exactly; the refusal is unchanged. v5 supersedes v3 as the
+recommended worker recipe: same cost class (one extra comb slide).
+
+Predictions: 1 right (A3 wins, though the margin was thinner and the
+move larger than predicted — "within 150 ms" was wrong, it was 381 ms),
+2–4 right. Spend $0.
