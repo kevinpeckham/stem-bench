@@ -2839,3 +2839,31 @@ Correction 4 was the answer; P3 (time zero dropped by G2) was an
 artifact of the broken ruler; P6 (G3) came true only after the
 placement amendment; the rest held, including 31c's registered
 prediction of first-ever reference parity.
+
+## Study 31d — the app's review acted on: the 90-second cap and the lead-corrected time zero
+
+Registered a545263 from the app's review of 31/31b (appended to its
+brief, stem-shovel aa9cf5db); $0, no model calls. The review found a
+real instrument defect the bench missed: extractFeatures caps at 90
+seconds, so w2, w3 and w6 never saw the back half of letter (138 s) or
+peaceful (254 s) — their 31/31b abstentions were unmeasured, not
+measured. It also read w1's four committed distances (0.079, 0.058,
+0.068, 0.070 s at four different tempos) as the onset envelope's
+documented ~0.07 s lead, measured by a witness that does not read the
+envelope — the ruler's uniform bias made visible.
+
+Results: **S31D-G1 PASS — both vote variants (registered w1 and
+lead-corrected w1) select the true class on all four songs, none
+undecided.** The lead-corrected time zero is **4 of 4 with distances
+0.02, 0.03, 0.008 and 0.000 beat** — the app's prediction exactly;
+mop's 31b abstention was the 0.25-beat fence catching the lead, not
+the song. Uncapped, the ends witnesses are now honestly dead on this
+corpus: w2 abstains by ritardando on all four full songs, w3 by
+remainder, and w6's drums and bass disagree on every song even with
+the whole recording. The final roster for the app: time zero
+(lead-corrected), harmonic rhythm and section scale are each 4 of 4
+alone; crashes 1 of 4 and the ends and stems unusable as built; the
+vote is 4 of 4 in every variant. The standing systematic: every truth
+in the family (−0.121, −0.119, −0.066, −0.085) is the downbeat at or
+near time zero read ~0.07 s early by the envelope — a disclosed,
+uniform ruler bias that beat-class scoring is immune to.
