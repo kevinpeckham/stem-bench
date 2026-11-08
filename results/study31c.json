@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"model": "anthropic/claude-fable-5-1",
+	"songs": {
+		"letter-lands": {
+			"anchor": -0.07927272727272716,
+			"cls": 2,
+			"roots": {
+				"right": 71,
+				"bearing": 75
+			},
+			"pct": 0.9466666666666667,
+			"refPct": 0.9473684210526315
+		},
+		"peaceful-dreams": {
+			"anchor": -0.05758620689655136,
+			"cls": 2,
+			"roots": {
+				"right": 152,
+				"bearing": 153
+			},
+			"pct": 0.9934640522875817,
+			"refPct": 0.9869281045751634
+		}
+	},
+	"gates": {
+		"S31C-G3": "PASS"
+	},
+	"tokensIn": 41685,
+	"tokensOut": 6097
+}
