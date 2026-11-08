@@ -2963,3 +2963,26 @@ sixth songs, resolves as: G1 passes for every shipping witness with the
 honest fixture, G2 passes on synthetics and names one real do-not-place
 case. The real fifth and sixth songs remain the confirmation when they
 arrive.
+
+### Dated note (2026-11-08, same day): the endings do not slow down
+
+Kevin flagged the published phrase "every one ends in a ritardando or
+an uneven tail": the band reports that NO corpus song slows at the end
+(the one Badverbs song that does, Interbellum, is not in the corpus).
+He is right, and the measurement agrees
+(scripts/diag-endings-2026-11-08.ts, $0): the final-window onset gaps
+are fills and running eighths at the click — eat's last bars are
+metronome-exact eighths at 0.49–0.51 beat, letter and mop end in dense
+sub-beat fills (gaps 0.39–0.84 beat), peaceful plays eighths, rests
+5.4 beats, then lands its final hit 0.03 beat from the lattice — plus
+0.2–0.4 s of ring-out above the 2% audibility floor. A true ritardando
+would show gaps LONGER than a beat and growing; none exist. So the
+31d/32b claim is corrected: "abstaining by ritardando" was the
+instrument's label for BUSY endings, not a property of the music; the
+recordings hold their click to the last bar, consistent with the
+metronome-exactness correction of 2026-11-07. The end witness's
+decline STANDS, with its reason corrected: w2's local-beat estimator
+(v1 and v2 both) cannot distinguish a busy ending from a slowdown, and
+these songs end busy. Kevin's lingering-sustain hypothesis is the
+smaller, true remainder: every song rings 0.2–0.4 s past its last
+strong onset.
