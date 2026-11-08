@@ -1,0 +1,151 @@
+{
+	"version": 1,
+	"armA": {
+		"scores": {
+			"A1-oracle": {
+				"anchor": 0.315,
+				"right": 113,
+				"bearing": 140
+			},
+			"A2-mix-comb": {
+				"anchor": -0.06633786848043766,
+				"right": 115,
+				"bearing": 140
+			},
+			"A3-drums-comb": {
+				"anchor": -0.06633786848043766,
+				"right": 115,
+				"bearing": 140
+			}
+		},
+		"winner": {
+			"id": "A3-drums-comb",
+			"anchor": -0.06633786848043766
+		}
+	},
+	"songs": {
+		"armA": {
+			"scores": {
+				"A1-oracle": {
+					"anchor": 0.315,
+					"right": 113,
+					"bearing": 140
+				},
+				"A2-mix-comb": {
+					"anchor": -0.06633786848043766,
+					"right": 115,
+					"bearing": 140
+				},
+				"A3-drums-comb": {
+					"anchor": -0.06633786848043766,
+					"right": 115,
+					"bearing": 140
+				}
+			},
+			"winner": {
+				"id": "A3-drums-comb",
+				"anchor": -0.06633786848043766
+			}
+		},
+		"letter-lands": {
+			"outcome": "re-phased",
+			"delta": -0.047318181818181856,
+			"combPeriod": 1.8185454545454554,
+			"first4": [
+				0.04635796742937988,
+				0.04672160379301715,
+				0.04708524015665416,
+				0.04744887652029117
+			],
+			"last4": [
+				0.07290342197489963,
+				0.0732670583385584,
+				0.07363069470221717,
+				0.07399433106579067
+			],
+			"midMean": 0.060176149247590176,
+			"appAccept": {
+				"bar1Ok": true,
+				"medianOk": true
+			},
+			"endsWithinQuarterBar": true
+		},
+		"peaceful-dreams": {
+			"outcome": "re-phased",
+			"delta": -0.03689655172413788,
+			"combPeriod": 1.6551724137931034,
+			"first4": [
+				0.06408796622099841,
+				0.06408796622099833,
+				0.06408796622099855,
+				0.0640879662209981
+			],
+			"last4": [
+				0.06408796622099544,
+				0.06408796622099544,
+				0.06408796622099544,
+				0.06408796622099544
+			],
+			"midMean": 0.06408796622099544,
+			"appAccept": {
+				"bar1Ok": true,
+				"medianOk": true
+			},
+			"endsWithinQuarterBar": true
+		},
+		"mop-heart": {
+			"outcome": "re-phased",
+			"delta": -0.013928571428571063,
+			"combPeriod": 0.8035714285714262,
+			"first4": [
+				0,
+				2.4424906541753444e-15,
+				4.884981308350689e-15,
+				7.105427357601002e-15
+			],
+			"last4": [
+				3.410605131648481e-13,
+				3.410605131648481e-13,
+				3.268496584496461e-13,
+				3.410605131648481e-13
+			],
+			"midMean": 1.7090642626606176e-13,
+			"appAccept": {
+				"bar1Ok": true,
+				"medianOk": true
+			},
+			"endsWithinQuarterBar": true
+		},
+		"eat-86-fixture": {
+			"outcome": "refused"
+		},
+		"eat-71-corrected": {
+			"outcome": "re-phased",
+			"delta": -0.030049999999999855,
+			"combPeriod": 2.0003999999999995,
+			"first4": [
+				0.4821973922902224,
+				0.481797392290223,
+				0.48139739229022327,
+				0.48099739229022376
+			],
+			"last4": [
+				0.45499739229023817,
+				0.4545973922902249,
+				0.45419739229024003,
+				0.45379739229022675
+			],
+			"midMean": 0.46799739229024573,
+			"appAccept": {
+				"bar1Ok": true,
+				"medianOk": true
+			},
+			"endsWithinQuarterBar": true
+		}
+	},
+	"gates": {
+		"S27-G1": "PASS",
+		"S27-G2": "PASS",
+		"S27-G3": "PASS"
+	}
+}
