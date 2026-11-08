@@ -1,0 +1,779 @@
+{
+	"version": 1,
+	"rows": [
+		{
+			"name": "render-100",
+			"arm": "arm1",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.08000000000000185,
+				"period": 2.3999999999999964,
+				"n": 48
+			},
+			"beat": 0.5999999999999991,
+			"spanFirst": 0
+		},
+		{
+			"name": "render-132",
+			"arm": "arm1+2a",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "render-180-double",
+			"arm": "arm1",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": 0,
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07333333333332859,
+				"period": 1.3333333333333295,
+				"n": 48
+			},
+			"beat": 0.33333333333333237,
+			"spanFirst": 0
+		},
+		{
+			"name": "render-132-rit",
+			"arm": "arm1",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "start-pickup",
+			"arm": "arm2",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 3,
+				"w1lead": 3,
+				"w2": "abstain(ritardando)",
+				"w2v2": 3,
+				"w3": 3,
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					3,
+					0,
+					0,
+					2
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": 0.38000000000000017,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "start-halfbar-silence",
+			"arm": "arm2",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 2,
+				"w1lead": 2,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					3,
+					0,
+					2,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": 0.8300000000000005,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0.9
+		},
+		{
+			"name": "start-2s-silence",
+			"arm": "arm2",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": "abstain(?)",
+				"w2": "abstain(ritardando)",
+				"w2v2": 0,
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					3,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": 1.928181818181819,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 1.99
+		},
+		{
+			"name": "start-countin",
+			"arm": "arm2",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 49
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "harm-one-and-three",
+			"arm": "arm3",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": 3,
+				"w3": "abstain(remainder)",
+				"w4": 2,
+				"w5": "abstain(too few crashes)",
+				"w7": 2
+			},
+			"ship": {
+				"scores": [
+					2,
+					0,
+					3,
+					0
+				],
+				"decided": 0,
+				"undecided": true
+			},
+			"full": {
+				"decided": 0,
+				"undecided": true
+			},
+			"shipOk": false,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "harm-two-bar",
+			"arm": "arm3",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "harm-vamp",
+			"arm": "arm3",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": 3,
+				"w3": "abstain(remainder)",
+				"w4": "abstain(too few changes)",
+				"w5": "abstain(too few crashes)",
+				"w7": "abstain(too few boundaries)"
+			},
+			"ship": {
+				"scores": [
+					2,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "harm-anticipate",
+			"arm": "arm3",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07818181818181769,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "backbeat-heavy",
+			"arm": "arm4",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": 3,
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.06818181818181768,
+				"period": 1.818181818181819,
+				"n": 48
+			},
+			"beat": 0.45454545454545475,
+			"spanFirst": 0
+		},
+		{
+			"name": "waltz-140",
+			"arm": "arm5",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": 2,
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07571428571429051,
+				"period": 1.2857142857142914,
+				"n": 48
+			},
+			"beat": 0.42857142857143044,
+			"spanFirst": 0
+		},
+		{
+			"name": "waltz-140-pickup",
+			"arm": "arm5",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 2,
+				"w1lead": 2,
+				"w2": "abstain(ritardando)",
+				"w2v2": "abstain(ritardando)",
+				"w3": 2,
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					3,
+					0,
+					2
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": 0.35000000000000014,
+				"period": 1.2857142857142914,
+				"n": 48
+			},
+			"beat": 0.42857142857143044,
+			"spanFirst": 0
+		},
+		{
+			"name": "six8-72",
+			"arm": "arm5",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 0,
+				"w1lead": 0,
+				"w2": "abstain(ritardando)",
+				"w2v2": 0,
+				"w3": "abstain(remainder)",
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					5,
+					0
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": -0.07666666666666888,
+				"period": 1.66666666666667,
+				"n": 48
+			},
+			"beat": 0.833333333333335,
+			"spanFirst": 0
+		},
+		{
+			"name": "six8-72-pickup",
+			"arm": "arm5",
+			"truthCls": 0,
+			"baseCorrect": true,
+			"witnesses": {
+				"w1": 1,
+				"w1lead": 1,
+				"w2": "abstain(ritardando)",
+				"w2v2": 1,
+				"w3": 1,
+				"w4": 0,
+				"w5": "abstain(too few crashes)",
+				"w7": 0
+			},
+			"ship": {
+				"scores": [
+					3,
+					2
+				],
+				"decided": 0,
+				"undecided": false
+			},
+			"full": {
+				"decided": 0,
+				"undecided": false
+			},
+			"shipOk": true,
+			"grid": {
+				"anchor": 0.7600000000000005,
+				"period": 1.66666666666667,
+				"n": 48
+			},
+			"beat": 0.833333333333335,
+			"spanFirst": 0
+		}
+	],
+	"realW2": {
+		"letter-lands-original": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.418,
+				"beat": 0.45454545454545475
+			},
+			"truthCls": 0,
+			"right": false
+		},
+		"letter-lands-pad1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.418,
+				"beat": 0.45454545454545475
+			},
+			"truthCls": 3,
+			"right": false
+		},
+		"letter-lands-trim1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4296,
+				"beat": 0.45454545454545475
+			},
+			"truthCls": 3,
+			"right": false
+		},
+		"peaceful-dreams-original": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4342,
+				"beat": 0.41379310344827586
+			},
+			"truthCls": 2,
+			"right": false
+		},
+		"peaceful-dreams-pad1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4354,
+				"beat": 0.41379310344827586
+			},
+			"truthCls": 2,
+			"right": false
+		},
+		"peaceful-dreams-trim1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4528,
+				"beat": 0.41379310344827586
+			},
+			"truthCls": 2,
+			"right": false
+		},
+		"mop-heart-original": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.209,
+				"beat": 0.26785714285714207
+			},
+			"truthCls": 2,
+			"right": false
+		},
+		"mop-heart-pad1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.209,
+				"beat": 0.26785714285714207
+			},
+			"truthCls": 2,
+			"right": false
+		},
+		"mop-heart-trim1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.2148,
+				"beat": 0.26785714285714207
+			},
+			"truthCls": 2,
+			"right": false
+		},
+		"eat-all-the-clocks-original": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4586,
+				"beat": 0.4999999999999999
+			},
+			"truthCls": 3,
+			"right": false
+		},
+		"eat-all-the-clocks-pad1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4063,
+				"beat": 0.4999999999999999
+			},
+			"truthCls": 3,
+			"right": false
+		},
+		"eat-all-the-clocks-trim1.0": {
+			"cls": null,
+			"detail": {
+				"abstain": "ritardando",
+				"localBeat": 0.4586,
+				"beat": 0.4999999999999999
+			},
+			"truthCls": 3,
+			"right": false
+		}
+	},
+	"undecided": {
+		"count": 1,
+		"of": 11
+	},
+	"gates": {
+		"S32B-G1": "FAIL",
+		"S32B-G2": "PASS",
+		"S32B-G3": "FAIL"
+	},
+	"g1Violations": [
+		"waltz-140: w2v2 voted 2"
+	]
+}

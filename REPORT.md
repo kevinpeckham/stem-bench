@@ -2867,3 +2867,99 @@ vote is 4 of 4 in every variant. The standing systematic: every truth
 in the family (−0.121, −0.119, −0.066, −0.085) is the downbeat at or
 near time zero read ~0.07 s early by the envelope — a disclosed,
 uniform ruler bias that beat-class scoring is immune to.
+
+## Study 32 / 32b — the downbeat vote against songs built to fool it
+
+Registered 2026-11-08 (docs/BRIEF-STUDY32.md, commit 4981bbb; docs/
+BRIEF-STUDY32B.md, commit b424c7c). The brief was the APP'S
+(bench-brief-study32-downbeat-adversarial-2026-11-08.md), adopted whole
+with six registered reconciliations. 37 items: five synthetic arms from
+a committed mini-synth (correct bases at 100/132/180 bpm plus a
+ritardando; five start variants; four harmonic-rhythm foolers; a
+backbeat mix; 3/4 and 6/8 with pickups) and the four real songs re-cut
+by 0.3/1.0/2.5-beat pads and a 1.0-beat trim against the Correction-4
+truths shifted. Ship vote exactly as the app shipped it: lead-corrected
+time zero (2), chord changes under a 1.2 top-to-runner-up ratio rule
+(2), sections (1), 31b humility rule, full seven-witness vote reported
+beside it. Spend 41,478 in / 6,976 out ≈ $0.16 of a $0.3 fence.
+
+**Run one (results/study32.json): S32-G1 FAIL, S32-G2 FAIL, S32-G3
+PASS, arm 7 PASS.** The G1 failure was the bench's fixture, not a
+witness: the mini-synth's kick was a pure 65 Hz sine, nearly invisible
+to the spectral-flux onset envelope, so every "correct base" render was
+backbeat-dominant IN FLUX and the comb landed on beat 2 — the
+construction never produced its premise. The real songs produced it
+instead: letter-lands' original and two of its pads have correct bases
+under the corrected ruler, and there the gate's teeth caught something
+real — **w5 (crashes) voted to move a correct base all three times**.
+w5 was already outside the ship vote; it is now formally dead. No
+shipping witness ever moved a correct base. The G2 failures named two
+cases: the two-chord-bar render (w4 and w7 both confidently wrong — but
+see 32b: an artifact of the shifted base) and **mop-heart's 0.3-beat
+pad**, where the fractional cut knocked out the lead-corrected time
+zero (off-lattice) and the ratio-ruled chord witness at once, leaving a
+lone wrong 1-point section vote holding the base. Uncorrected time zero
+was RIGHT there: the 0.07 s lead correction hurts on cuts that do not
+start on a beat. S32-G3 passed (all four originals keep their 31d
+verdicts, 5-0, 5-0, 5-0, 5-0 by beat class) and arm 7 passed: drafts on
+the 1.0-beat-pad cuts, bars placed by the voted class under the 31c
+rule, scored 72/76 = 94.7% (letter, EXACTLY the chart-grid reference)
+and 152/153 = 99.3% (peaceful, above it). Across the sixteen real
+re-cuts: one wrong (mop pad 0.3), four undecided (base kept, honest),
+eleven right. And w2 abstained "ritardando" on all 37 items — the
+eighth-note artifact the app's note (stem-shovel 4d3b0f8b) had just
+diagnosed: an eighth-note gap rounds to one beat and halves the local
+beat.
+
+**Study 32b (results/study32b.json): the fixture's correction plus the
+app's w2 fix, $0.** The kick got a 6 ms broadband beater click
+(committed, tested); w2 v2 skips sub-0.75-beat intervals before its
+median (the app's fix, committed beside v1 with tests). Re-run, every
+synthetic base is correct as constructed, and the picture inverts:
+
+- **S32B-G2 PASS.** Across all eleven re-run adversarial synthetics
+  the ship vote never decided a wrong class. The two-chord fooler—the
+  run-one violation—resolved to UNDECIDED, base kept, base correct.
+  The registered mechanism prediction was wrong in an instructive way:
+  the ratio rule did NOT abstain w4 (its histogram favored one of the
+  two change classes past 1.2); the HUMILITY MARGIN held the vote. The
+  pickup, half-bar silence, 2 s silence and count-in all resolved
+  correctly (the count-in self-defeating in 4/4, as predicted, twice);
+  the anticipation render did NOT fool w4 (the chord model snapped the
+  eighth-early changes to their bars) — that prediction was wrong too,
+  in the vote's favor. 3/4 and 6/8 with pickups: all correct.
+- **The backbeat case got tested in both directions across the two
+  runs.** Run one (flux-weak kick): base WRONG on the backbeat render,
+  vote moved it to the truth 5-0. Run two (clicky kick): base CORRECT,
+  vote kept it 5-0. The vote neither chases the snare nor freezes.
+- **S32B-G1 FAIL — by exactly one witness, and it is the applicant.**
+  w2 v2, the new end witness being auditioned for a weight-1 seat,
+  voted class 2 on the waltz's correct base (and scattershot
+  elsewhere: these renders end on a beat-4 snare, and the witness
+  faithfully votes the LAST ONSET'S class — the "songs end on the
+  downbeat" assumption is false even on steady synthetics). The gate
+  worked: teeth restored, and they bit the one witness not yet vetted.
+- **S32B-G3 FAIL, and the real songs settle it.** Even with the
+  eighth-note filter, w2 v2 abstains "ritardando" on all twelve
+  real-song reads: letter's end runs 8% short of the lattice beat and
+  mop's 22% (0.78-beat swing intervals pass the 0.75 filter and drag
+  the median), so the abstention is now a measurement, not an
+  artifact. **The end witness stays out.** The app's hoped-for
+  weight-1 seat is declined on the evidence.
+
+**The production answer.** Within everything measured: the ship vote
+(lead-corrected time zero 2, ratio-ruled chord changes 2, sections 1,
+humility rule) kept six of six correct bases at three tempos and three
+meters, never decided a wrong class on any honest synthetic adversary,
+moved a wrong backbeat base to the truth, and on the real re-cuts went
+fifteen right, four undecided, one wrong. The one wrong names the
+do-not-place rule: **a start that is not beat-aligned (the 0.3-beat
+pad) silences the vote's strong witnesses and should keep the declared
+grid or ask, not decide** — detectable in the app as time zero
+off-lattice AND chord ratio under threshold at once. w5 and the end
+witness stay out; the one-tap stays the fallback behind an honest
+undecided. S32-G1+G2, the app's registered stand-in for the fifth and
+sixth songs, resolves as: G1 passes for every shipping witness with the
+honest fixture, G2 passes on synthetics and names one real do-not-place
+case. The real fifth and sixth songs remain the confirmation when they
+arrive.
