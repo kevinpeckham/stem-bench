@@ -1,0 +1,260 @@
+{
+	"version": 1,
+	"lead": 0.07,
+	"songs": {
+		"letter-lands": {
+			"truthCls": 2,
+			"w1": {
+				"cls": 2,
+				"detail": {
+					"phaseBeats": 2.174,
+					"distBeats": 0.174
+				}
+			},
+			"w1lead": {
+				"cls": 2,
+				"detail": {
+					"phaseBeats": 2.02,
+					"distBeats": 0.02
+				}
+			},
+			"w2": {
+				"cls": null,
+				"detail": {
+					"abstain": "ritardando",
+					"localBeat": 0.2554,
+					"beat": 0.45463636363636384
+				}
+			},
+			"w3": {
+				"cls": null,
+				"detail": {
+					"abstain": "remainder",
+					"remainder": 2
+				}
+			},
+			"w6": {
+				"cls": null,
+				"detail": {
+					"abstain": "bass veto",
+					"drums": 1,
+					"bass": 3,
+					"modeUsed": "kick-only (snare bins not opposite)"
+				}
+			},
+			"voteRegistered": {
+				"scores": [
+					0,
+					1,
+					5,
+					0
+				],
+				"winner": 2,
+				"decided": 2,
+				"undecided": false
+			},
+			"voteLead": {
+				"scores": [
+					0,
+					1,
+					5,
+					0
+				],
+				"winner": 2,
+				"decided": 2,
+				"undecided": false
+			}
+		},
+		"peaceful-dreams": {
+			"truthCls": 2,
+			"w1": {
+				"cls": 2,
+				"detail": {
+					"phaseBeats": 2.139,
+					"distBeats": 0.139
+				}
+			},
+			"w1lead": {
+				"cls": 2,
+				"detail": {
+					"phaseBeats": 1.97,
+					"distBeats": 0.03
+				}
+			},
+			"w2": {
+				"cls": null,
+				"detail": {
+					"abstain": "ritardando",
+					"localBeat": 0.2206,
+					"beat": 0.41379310344827586
+				}
+			},
+			"w3": {
+				"cls": null,
+				"detail": {
+					"abstain": "remainder",
+					"remainder": 2
+				}
+			},
+			"w6": {
+				"cls": null,
+				"detail": {
+					"abstain": "bass veto",
+					"drums": 0,
+					"bass": 3,
+					"modeUsed": "snare+kick"
+				}
+			},
+			"voteRegistered": {
+				"scores": [
+					0,
+					0,
+					6,
+					0
+				],
+				"winner": 2,
+				"decided": 2,
+				"undecided": false
+			},
+			"voteLead": {
+				"scores": [
+					0,
+					0,
+					6,
+					0
+				],
+				"winner": 2,
+				"decided": 2,
+				"undecided": false
+			}
+		},
+		"mop-heart": {
+			"truthCls": 2,
+			"w1": {
+				"cls": null,
+				"detail": {
+					"phaseBeats": 2.253,
+					"distBeats": 0.253
+				}
+			},
+			"w1lead": {
+				"cls": 2,
+				"detail": {
+					"phaseBeats": 1.992,
+					"distBeats": 0.008
+				}
+			},
+			"w2": {
+				"cls": null,
+				"detail": {
+					"abstain": "ritardando",
+					"localBeat": 0.1683,
+					"beat": 0.26785714285714207
+				}
+			},
+			"w3": {
+				"cls": null,
+				"detail": {
+					"abstain": "remainder",
+					"remainder": 2
+				}
+			},
+			"w6": {
+				"cls": null,
+				"detail": {
+					"abstain": "bass veto",
+					"drums": 1,
+					"bass": 0,
+					"modeUsed": "kick (3/4)"
+				}
+			},
+			"voteRegistered": {
+				"scores": [
+					1,
+					0,
+					3
+				],
+				"winner": 2,
+				"decided": 2,
+				"undecided": false
+			},
+			"voteLead": {
+				"scores": [
+					1,
+					0,
+					5
+				],
+				"winner": 2,
+				"decided": 2,
+				"undecided": false
+			}
+		},
+		"eat-all-the-clocks": {
+			"truthCls": 3,
+			"w1": {
+				"cls": 3,
+				"detail": {
+					"phaseBeats": 3.14,
+					"distBeats": 0.14
+				}
+			},
+			"w1lead": {
+				"cls": 3,
+				"detail": {
+					"phaseBeats": 3,
+					"distBeats": 0
+				}
+			},
+			"w2": {
+				"cls": null,
+				"detail": {
+					"abstain": "ritardando",
+					"localBeat": 0.2554,
+					"beat": 0.5000999999999999
+				}
+			},
+			"w3": {
+				"cls": null,
+				"detail": {
+					"abstain": "remainder",
+					"remainder": 3
+				}
+			},
+			"w6": {
+				"cls": null,
+				"detail": {
+					"abstain": "bass veto",
+					"drums": 2,
+					"bass": 0,
+					"modeUsed": "snare+kick"
+				}
+			},
+			"voteRegistered": {
+				"scores": [
+					0,
+					0,
+					1,
+					5
+				],
+				"winner": 3,
+				"decided": 3,
+				"undecided": false
+			},
+			"voteLead": {
+				"scores": [
+					0,
+					0,
+					1,
+					5
+				],
+				"winner": 3,
+				"decided": 3,
+				"undecided": false
+			}
+		}
+	},
+	"a1Lead": 4,
+	"gates": {
+		"S31D-G1": "PASS"
+	}
+}
