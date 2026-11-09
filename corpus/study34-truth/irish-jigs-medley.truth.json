@@ -1,0 +1,6 @@
+{
+	"tier": "class-only",
+	"source": "Patrick J. Gaffny, Medley of Irish Jigs, 78 rpm (archive.org 78_medley-of-irish-jigs_patrick-j-gaffny_gbia3002021a, pre-1926 public domain).",
+	"expected": { "meter": "6/8" },
+	"note": "The medley's constituent tunes are unidentified and no published harmony exists for this specific performance, so no harmonic truth is registered. Graded class-only: refusal/save class and meter plausibility (a jig is compound duple; a 4/4 chart of it is recorded as an observation, not a gate). Counts toward no accuracy gate."
+}

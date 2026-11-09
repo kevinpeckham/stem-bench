@@ -1,0 +1,7 @@
+{
+	"tier": "class-only",
+	"source": "Zez Confrey, Kitten on the Keys, Jack Mills Inc. 1921 (public domain; archive.org kittenonkeys00zezc, sheet PDF sha256 recorded below). Solo piano novelty, F major, common time.",
+	"sheetSha256": "see corpus/study34-sources.json entry; the 1921 first edition was fetched and reviewed 2026-11-09",
+	"expected": { "meter": "4/4", "key": "F" },
+	"note": "No machine-checkable published truth exists for this slot: the only sources are engraved scans of dense chromatic novelty writing, and eye transcription was judged too error-prone for registered truth (docs/VALIDATION-STUDY34-INSTRUMENTS.md rejects hand timelines that cannot be validated). Graded class-only: refusal/save class, meter plausibility, and the gated global key calibration against the expected F (margin >= 0.02, else recorded as inconclusive). Counts toward no accuracy gate."
+}

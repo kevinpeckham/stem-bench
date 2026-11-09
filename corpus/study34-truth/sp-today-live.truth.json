@@ -1,0 +1,6 @@
+{
+	"tier": "class-only",
+	"source": "The Smashing Pumpkins, Today, live audience recording 2022-11-19 (archive.org tsp2022-11-19.aud1, taper-permitted CC BY). Composition copyrighted; analyzed privately, nothing republished.",
+	"expected": { "key": "Eb", "keyBasis": "Musicnotes MN0044258 lists the original published key as Eb major", "meter": "4/4" },
+	"note": "Public chord references for this song are user-submitted and inconsistent, so no sequence truth is registered. Graded class-only: refusal/save class, meter plausibility, and the gated global key calibration against the expected Eb (margin >= 0.02, else inconclusive). The slot's purpose is the noisy-live-capture breadth test. Counts toward no accuracy gate."
+}
