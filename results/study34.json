@@ -1,0 +1,669 @@
+{
+	"model": "anthropic/claude-fable-5-1",
+	"results": {
+		"eat-control": {
+			"declared": {
+				"bpm": 120,
+				"meter": "4/4",
+				"key": "Em"
+			},
+			"placed": {
+				"n": 70,
+				"anchor": -0.05999999999999983,
+				"cls": 3
+			},
+			"noteCount": 852,
+			"draftBars": 69,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse",
+					"bar": 14
+				},
+				{
+					"name": "Chorus",
+					"bar": 22
+				},
+				{
+					"name": "Bridge",
+					"bar": 32
+				},
+				{
+					"name": "Chorus",
+					"bar": 48
+				},
+				{
+					"name": "Outro",
+					"bar": 58
+				}
+			],
+			"roots": {
+				"right": 67,
+				"bearing": 68
+			},
+			"quals": {
+				"right": 40,
+				"bearing": 68
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 1,
+			"sections": null,
+			"barOneErr": 0.025000000000000175,
+			"truthBarCount": 71,
+			"class": "saved-below-threshold"
+		},
+		"interbellum": {
+			"class": "refused",
+			"declared": {
+				"bpm": 115,
+				"meter": "4/4",
+				"key": "C"
+			},
+			"placed": {
+				"n": 63,
+				"anchor": -0.061739130434783185
+			},
+			"noteCount": 812
+		},
+		"dippermouth-blues": {
+			"declared": {
+				"bpm": 91.1,
+				"meter": "4/4",
+				"key": "C major"
+			},
+			"placed": {
+				"n": 57,
+				"anchor": -1.549648737650926,
+				"cls": 0
+			},
+			"noteCount": 254,
+			"draftBars": 56,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Chorus 1",
+					"bar": 4
+				},
+				{
+					"name": "Chorus 2",
+					"bar": 16
+				},
+				{
+					"name": "Chorus 3 (Solo)",
+					"bar": 28
+				},
+				{
+					"name": "Chorus 4",
+					"bar": 40
+				},
+				{
+					"name": "Tag",
+					"bar": 52
+				}
+			],
+			"roots": {
+				"right": 26,
+				"bearing": 56
+			},
+			"quals": {
+				"right": 33,
+				"bearing": 56
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 57,
+			"sections": {
+				"right": 5,
+				"bearing": 6
+			},
+			"barOneErr": 1.284648737650926,
+			"truthBarCount": 114,
+			"class": "confidently-wrong"
+		},
+		"st-louis-blues": {
+			"declared": {
+				"bpm": 106.1,
+				"meter": "4/4",
+				"key": "B♭ major"
+			},
+			"placed": {
+				"n": 75,
+				"anchor": 0.4000000000000002,
+				"cls": 0
+			},
+			"noteCount": 629,
+			"draftBars": 74,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 2
+				},
+				{
+					"name": "Verse 2",
+					"bar": 14
+				},
+				{
+					"name": "Bridge (tango)",
+					"bar": 26
+				},
+				{
+					"name": "Verse 3",
+					"bar": 42
+				},
+				{
+					"name": "Verse 4",
+					"bar": 54
+				},
+				{
+					"name": "Outro",
+					"bar": 66
+				}
+			],
+			"roots": {
+				"right": 6,
+				"bearing": 75
+			},
+			"quals": {
+				"right": 33,
+				"bearing": 75
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 22,
+			"sections": {
+				"right": 2,
+				"bearing": 5
+			},
+			"barOneErr": 0.25699999999999984,
+			"truthBarCount": 53,
+			"class": "confidently-wrong"
+		},
+		"livery-stable-blues": {
+			"declared": {
+				"bpm": 83.2,
+				"meter": "4/4",
+				"key": "E♭ major"
+			},
+			"placed": {
+				"n": 68,
+				"anchor": -0.08788461538461467,
+				"cls": 3
+			},
+			"noteCount": 1155,
+			"draftBars": 67,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Chorus 1",
+					"bar": 4
+				},
+				{
+					"name": "Chorus 2",
+					"bar": 10
+				},
+				{
+					"name": "Chorus 3",
+					"bar": 16
+				},
+				{
+					"name": "Chorus 4",
+					"bar": 22
+				},
+				{
+					"name": "Chorus 5 (breaks)",
+					"bar": 29
+				},
+				{
+					"name": "Chorus 6",
+					"bar": 36
+				},
+				{
+					"name": "Chorus 7",
+					"bar": 42
+				},
+				{
+					"name": "Chorus 8",
+					"bar": 48
+				},
+				{
+					"name": "Chorus 9 (breaks)",
+					"bar": 56
+				},
+				{
+					"name": "Outro",
+					"bar": 62
+				}
+			],
+			"roots": {
+				"right": 43,
+				"bearing": 67
+			},
+			"quals": {
+				"right": 41,
+				"bearing": 59
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 57,
+			"sections": {
+				"right": 11,
+				"bearing": 11
+			},
+			"barOneErr": 1.4848846153846147,
+			"truthBarCount": 125,
+			"class": "confidently-wrong"
+		},
+		"roll-called-up-yonder": {
+			"declared": {
+				"bpm": 78.6,
+				"meter": "4/4",
+				"key": "C minor"
+			},
+			"placed": {
+				"n": 56,
+				"anchor": 0.1964122137404627,
+				"cls": 3
+			},
+			"noteCount": 144,
+			"draftBars": 55,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 7
+				},
+				{
+					"name": "Interlude",
+					"bar": 21
+				},
+				{
+					"name": "Verse 2",
+					"bar": 24
+				},
+				{
+					"name": "Break",
+					"bar": 37
+				},
+				{
+					"name": "Verse 3",
+					"bar": 42
+				},
+				{
+					"name": "Outro",
+					"bar": 54
+				}
+			],
+			"roots": {
+				"right": 0,
+				"bearing": 16
+			},
+			"quals": {
+				"right": 2,
+				"bearing": 16
+			},
+			"barCountOff": 40,
+			"truthBarCount": 16,
+			"class": "confidently-wrong"
+		},
+		"three-oclock-waltz": {
+			"declared": {
+				"bpm": 77.9,
+				"meter": "4/4",
+				"key": "A minor"
+			},
+			"placed": {
+				"n": 62,
+				"anchor": 1.0000000000000007,
+				"cls": 0
+			},
+			"noteCount": 199,
+			"draftBars": 61,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse",
+					"bar": 6
+				},
+				{
+					"name": "Chorus",
+					"bar": 16
+				},
+				{
+					"name": "Interlude",
+					"bar": 30
+				},
+				{
+					"name": "Verse",
+					"bar": 36
+				},
+				{
+					"name": "Outro",
+					"bar": 55
+				}
+			],
+			"roots": {
+				"right": 5,
+				"bearing": 61
+			},
+			"quals": {
+				"right": 16,
+				"bearing": 61
+			},
+			"barCountOff": 56,
+			"truthBarCount": 118,
+			"class": "confidently-wrong"
+		},
+		"jw-let-it-in": {
+			"declared": {
+				"bpm": 121,
+				"meter": "4/4",
+				"key": "D minor"
+			},
+			"placed": {
+				"n": 121,
+				"anchor": 0.19413223140495983,
+				"cls": 3
+			},
+			"noteCount": 2410,
+			"draftBars": 120,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 8
+				},
+				{
+					"name": "Chorus",
+					"bar": 16
+				},
+				{
+					"name": "Tag",
+					"bar": 32
+				},
+				{
+					"name": "Verse 2",
+					"bar": 36
+				},
+				{
+					"name": "Chorus",
+					"bar": 52
+				},
+				{
+					"name": "Tag",
+					"bar": 68
+				},
+				{
+					"name": "Bridge",
+					"bar": 72
+				},
+				{
+					"name": "Break",
+					"bar": 84
+				},
+				{
+					"name": "Verse 3",
+					"bar": 88
+				},
+				{
+					"name": "Final Chorus",
+					"bar": 104
+				}
+			],
+			"roots": {
+				"right": 18,
+				"bearing": 21
+			},
+			"quals": {
+				"right": 20,
+				"bearing": 25
+			},
+			"sequenceInvariant": false,
+			"publishedLen": 35,
+			"class": "saved-below-threshold"
+		},
+		"jw-same-boat": {
+			"declared": {
+				"bpm": 123.1,
+				"meter": "4/4",
+				"key": "B♭ minor"
+			},
+			"placed": {
+				"n": 98,
+				"anchor": 0.6500000000000004,
+				"cls": 0
+			},
+			"noteCount": 1388,
+			"draftBars": 97,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 10
+				},
+				{
+					"name": "Verse 2",
+					"bar": 32
+				},
+				{
+					"name": "Chorus",
+					"bar": 52
+				},
+				{
+					"name": "Verse 3",
+					"bar": 72
+				},
+				{
+					"name": "Outro",
+					"bar": 90
+				}
+			],
+			"roots": {
+				"right": 16,
+				"bearing": 18
+			},
+			"quals": {
+				"right": 11,
+				"bearing": 11
+			},
+			"sequenceInvariant": true,
+			"publishedLen": 19,
+			"class": "saved-below-threshold"
+		},
+		"kitten-on-the-keys": {
+			"declared": {
+				"bpm": 110.6,
+				"meter": "4/4",
+				"key": "C major"
+			},
+			"placed": {
+				"n": 99,
+				"anchor": -0.34338155515369806,
+				"cls": 0
+			},
+			"noteCount": 739,
+			"draftBars": 98,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "A Strain",
+					"bar": 1
+				},
+				{
+					"name": "Trio",
+					"bar": 21
+				},
+				{
+					"name": "A Strain (reprise)",
+					"bar": 37
+				},
+				{
+					"name": "B Strain",
+					"bar": 47
+				},
+				{
+					"name": "Coda",
+					"bar": 81
+				}
+			],
+			"meterDeclared": "4/4",
+			"meterExpected": "4/4",
+			"keyExpected": "F",
+			"keyCheck": {
+				"transpose": 7,
+				"margin": 0.024662642241661814
+			},
+			"class": "saved"
+		},
+		"sp-today-live": {
+			"declared": {
+				"bpm": 88.3,
+				"meter": "4/4",
+				"key": "E♭ major"
+			},
+			"placed": {
+				"n": 83,
+				"anchor": -0.5844280860702149,
+				"cls": 1
+			},
+			"noteCount": 1276,
+			"draftBars": 82,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 6
+				},
+				{
+					"name": "Chorus 1",
+					"bar": 20
+				},
+				{
+					"name": "Verse 2",
+					"bar": 30
+				},
+				{
+					"name": "Interlude",
+					"bar": 44
+				},
+				{
+					"name": "Chorus 2",
+					"bar": 52
+				},
+				{
+					"name": "Outro",
+					"bar": 62
+				},
+				{
+					"name": "End",
+					"bar": 70
+				}
+			],
+			"meterDeclared": "4/4",
+			"meterExpected": "4/4",
+			"keyExpected": "Eb",
+			"keyCheck": {
+				"transpose": 0,
+				"margin": 0.010218764979121886
+			},
+			"class": "saved"
+		},
+		"irish-jigs-medley": {
+			"declared": {
+				"bpm": 135,
+				"meter": "4/4",
+				"key": "E minor"
+			},
+			"placed": {
+				"n": 96,
+				"anchor": 1.9913333333333332,
+				"cls": 3
+			},
+			"noteCount": 834,
+			"draftBars": 95,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Jig 1",
+					"bar": 4
+				},
+				{
+					"name": "Jig 2",
+					"bar": 32
+				},
+				{
+					"name": "Jig 3",
+					"bar": 76
+				},
+				{
+					"name": "Outro",
+					"bar": 90
+				}
+			],
+			"meterDeclared": "4/4",
+			"meterExpected": "6/8",
+			"keyExpected": null,
+			"keyCheck": null,
+			"class": "saved"
+		}
+	},
+	"gates": {
+		"g1": false,
+		"g2": false,
+		"classes": [
+			"refused",
+			"confidently-wrong",
+			"confidently-wrong",
+			"confidently-wrong",
+			"confidently-wrong",
+			"confidently-wrong",
+			"saved-below-threshold",
+			"saved-below-threshold"
+		]
+	},
+	"tokensIn": 131699,
+	"tokensOut": 29627,
+	"spend": 0.707803
+}

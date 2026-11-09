@@ -237,17 +237,34 @@ for (const slot of SLOTS) {
 	}
 	if (!parsed?.success) {
 		console.log(`[${slot.slug}] REFUSED / no valid answer`);
-		results[slot.slug] = { class: "refused", declared, placed: { n: placed.grid.n, anchor: placed.anchor }, noteCount: notes.length };
+		results[slot.slug] = {
+			class: "refused",
+			declared,
+			placed: { n: placed.grid.n, anchor: placed.anchor },
+			noteCount: notes.length,
+			rawDraft: result.text,
+		};
 		continue;
 	}
 	const expanded = expandChords(parsed.output.chords);
 	const draftSections = parsed.output.sections.map((s) => ({ name: s.name, bar: s.bar - 1 }));
+	// The app's two verdict inputs (app brief, "two more columns per song",
+	// 2026-11-09): the draft step's bar count against the grid's, and the
+	// share of bars with no named chord. Raw draft text kept so any later
+	// column can be computed without re-spending. NOTE: the first Study 34
+	// run predates these fields; its results file lacks rawDraft and
+	// unknownShare, disclosed in the report.
+	const unknownShare =
+		expanded.length > 0 ? expanded.filter((c) => c === "?" || c === "N.C." || c === "").length / expanded.length : null;
 	const record: Record<string, unknown> = {
 		declared,
 		placed: { n: placed.grid.n, anchor: placed.anchor, cls: placed.cls },
 		noteCount: notes.length,
 		draftBars: expanded.length,
+		barCountChanged: expanded.length !== placed.grid.n,
+		unknownShare,
 		draftSections,
+		rawDraft: result.text,
 	};
 
 	if (slot.tier === 1) {
