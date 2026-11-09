@@ -1,0 +1,73 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/myfavoriteregret (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 56455c8cc3b472ee95f3a4c7d38ac5e32d4b531ea0e9615711acc6803d6dc75c",
+	"declared": {
+		"key": "D Major",
+		"bpm": 65,
+		"meter": "6/8",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Intro": [
+			"G",
+			"C/G",
+			"G",
+			"G",
+			"C/G",
+			"G",
+			"Em",
+			"D/F#",
+			"G",
+			"C",
+			"C",
+			"D/F#",
+			"G"
+		],
+		"Verse": [
+			"G",
+			"Em",
+			"C",
+			"G",
+			"D",
+			"C",
+			"G",
+			"G",
+			"Em",
+			"C",
+			"G",
+			"D",
+			"G"
+		],
+		"Chorus": [
+			"C",
+			"G",
+			"D",
+			"G",
+			"C",
+			"Em",
+			"Am",
+			"D/F#",
+			"G"
+		],
+		"Bridge": [
+			"F#m11",
+			"B7",
+			"Em",
+			"G",
+			"Am",
+			"D/F#",
+			"G/B",
+			"Em",
+			"Am",
+			"D/F#",
+			"G"
+		]
+	},
+	"transposition": {
+		"value": 7,
+		"basis": "Gated global calibration (2026-11-09, pre-registration): transpose 7 at 0.667, runner-up 0.562, margin 0.105 ACCEPTED by the 0.02 gate"
+	},
+	"spanFirstSound": 0.02,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

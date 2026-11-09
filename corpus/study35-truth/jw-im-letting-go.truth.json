@@ -1,0 +1,62 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/imlettinggo (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 381a29c8865daa541c70adb984faae6f206e261c65d3b5d469281a703f6400ca",
+	"declared": {
+		"key": "A Minor",
+		"bpm": 76,
+		"meter": "4/4",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Intro": [
+			"Cmaj7",
+			"Em",
+			"Cmaj7",
+			"Em",
+			"D"
+		],
+		"Verse": [
+			"Cmaj7",
+			"Em",
+			"Cmaj7",
+			"Em",
+			"D",
+			"Cmaj7",
+			"C",
+			"Em",
+			"D",
+			"Cmaj7",
+			"C",
+			"D"
+		],
+		"Chorus": [
+			"G",
+			"Em",
+			"Bm",
+			"D",
+			"G",
+			"Em",
+			"Bm",
+			"D"
+		],
+		"Ending": [
+			"C",
+			"G",
+			"D/F#",
+			"C",
+			"G",
+			"D/F#",
+			"C",
+			"G",
+			"D/F#",
+			"C"
+		]
+	},
+	"transposition": {
+		"value": 5,
+		"basis": "Gated global calibration (2026-11-09, pre-registration): transpose 5 at 0.661, runner-up 0.597, margin 0.064 ACCEPTED by the 0.02 gate"
+	},
+	"spanFirstSound": 0.12,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

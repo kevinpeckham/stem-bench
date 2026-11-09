@@ -1,0 +1,53 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/gravity (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 bcdb896a018033fe63931f114c1eccc703c6d34694b9480735f2cabf2ec940e9",
+	"declared": {
+		"key": "F Major",
+		"bpm": 48,
+		"meter": "6/8",
+		"feel": "Swing"
+	},
+	"sections": {
+		"Intro": [
+			"Em",
+			"F",
+			"Em",
+			"Dm"
+		],
+		"Verse": [
+			"C",
+			"Am",
+			"G",
+			"F",
+			"C",
+			"Am",
+			"Em",
+			"F"
+		],
+		"Chorus": [
+			"G/B",
+			"C",
+			"F",
+			"G/B",
+			"C",
+			"F"
+		],
+		"Bridge": [
+			"C",
+			"Em",
+			"F",
+			"G",
+			"C",
+			"Em",
+			"F",
+			"G"
+		]
+	},
+	"transposition": {
+		"value": 5,
+		"basis": "Gated global calibration (2026-11-09, pre-registration): transpose 5 at 0.654, runner-up 0.566, margin 0.089 ACCEPTED by the 0.02 gate"
+	},
+	"spanFirstSound": 0.3,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

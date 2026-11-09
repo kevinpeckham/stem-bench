@@ -1,0 +1,56 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/cherubs (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 2730b3402bbe14a6707fd6b144416af2cbde324557ada3eec5b35eb96ee87971",
+	"declared": {
+		"key": "D Major",
+		"bpm": 165,
+		"meter": "4/4",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Verse": [
+			"D",
+			"G",
+			"Bm",
+			"A",
+			"G"
+		],
+		"Chorus": [
+			"D",
+			"G",
+			"Bm",
+			"G",
+			"D"
+		],
+		"Bridge": [
+			"Em",
+			"Bm",
+			"Em",
+			"Bm",
+			"A",
+			"Em",
+			"Bm",
+			"A",
+			"G"
+		],
+		"EndChorus": [
+			"Bm",
+			"G",
+			"Bm",
+			"A",
+			"G",
+			"Bm",
+			"G",
+			"Bm",
+			"A",
+			"G"
+		]
+	},
+	"transposition": {
+		"value": null,
+		"basis": "Gated global calibration REFUSED (top 7 margin 0.001 < 0.02); roots graded transposition-invariantly (LCS over successive-root intervals)"
+	},
+	"spanFirstSound": 0.86,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

@@ -1,0 +1,94 @@
+{
+ "fetched": "2026-11-09",
+ "license": "This work is licensed under a Creative Commons Attribution 4.0 License (each page, verified 2026-11-09)",
+ "songs": {
+  "jw-gravity": {
+   "page": "https://www.joshwoodward.com/song/gravity",
+   "mp3": "https://www.joshwoodward.com/mp3/DirtyWings/JoshWoodward-DW-04-Gravity.mp3",
+   "mp3Sha256": "bcdb896a018033fe63931f114c1eccc703c6d34694b9480735f2cabf2ec940e9",
+   "key": "F Major",
+   "tempo": "48 bpm",
+   "meter": "6/8 Swing",
+   "length": "3:56",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Tuning: on the CD, it was CADGCE, capo 2.\n\nTo play with an acoustic, slap a capo on the 5th fret:\n\nIntro:\nEm  F  Em  Dm\n\nVerse:\nC   Am   G    F\nC   Am   Em   F\n\nPost-Verse/Chorus (\"I Never Cried\"):\nG/B  C  F\nG/B  C  F\n\nBridge (\"Everything falls...\"):\nC   Em   F    G\nC   Em   F    G"
+  },
+  "jw-my-favorite-regret": {
+   "page": "https://www.joshwoodward.com/song/myfavoriteregret",
+   "mp3": "https://www.joshwoodward.com/mp3/JoshWoodward-AttS-04-MyFavoriteRegret.mp3",
+   "mp3Sha256": "56455c8cc3b472ee95f3a4c7d38ac5e32d4b531ea0e9615711acc6803d6dc75c",
+   "key": "D Major",
+   "tempo": "65 bpm",
+   "meter": "6/8 Straight",
+   "length": null,
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Capo on 7th-ish fret\n\n\nIntro: \nG  C/G  G\nG  C/G  G\nEm D/F# G  C\nC  D/F# G\n\n\nE|------------------------------------3---3---2---0-------------------0--------------------\nB|--0---1---3---0-1-0-----0---1---3---0---0---0---0---3---0---1---3---1-----1-0-----0------\nG|--0---0---0---------2-0-0---0---0---------------0---2---0---0---0---0-----0---0-2---2-0--\nD|--0---2---0-------------0---2---0-------------------0---------------------2-----0-----0--\nA|------------------------------------------------------------0---2---3-----3--------------\nE|--3---3---3---3---------3---3---3---3---3---2---0---2---3-----------------------2-----3--\n\n\nVerse: \nG  Em   C\nG  D    C  G\nG  Em   C\nG  D    G\n\nChorus:\nC  G   D  G\nC  Em  \nAm D/F# G\n\nBridge:\nF#m 11 (20220x)    B7\nEm  G\nAm  D/F#\nG/B Em\nAm  D/F#\nG"
+  },
+  "jw-california-lullabye": {
+   "page": "https://www.joshwoodward.com/song/californialullabye",
+   "mp3": "https://www.joshwoodward.com/mp3/JoshWoodward-TheBeautifulMachine-01-CaliforniaLullabye.mp3",
+   "mp3Sha256": "bd1c40a0f766c087753ad048e76246d6365b353f083ed58b17958c507578db3f",
+   "key": "A Major",
+   "tempo": "176 bpm",
+   "meter": "4/4 Straight",
+   "length": "4:14",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Standard tuning, capo on 2nd fret:\n\nVerse 1: \nG   Em   C    G\nG   Em   C    D\n\nChorus 1:\nC   G    Am   D    Em\n\nVerse 2:\nG   Em   C    G\nG   Em   C    D\n\nChorus 2:\nC   G    Am   D    Em\nAm  Cm   G\n\nBridge:\nC   B7   Em\nC   B7   Em   F\nAm  G/B  C    D\n\nChorus 3:\nC   G    Am   D    Em\nC   G    Am   D    Em\nAm  Cm   G\n\nEnd:\nG   Am   G"
+  },
+  "jw-swansong": {
+   "page": "https://www.joshwoodward.com/song/swansong",
+   "mp3": "https://www.joshwoodward.com/mp3/Breadcrumbs/JoshWoodward-Breadcrumbs-01-Swansong.mp3",
+   "mp3Sha256": "321174573eea651b267fe217a9b56501ee7a335c3de6ced8cf89b4c7811fb811",
+   "key": "G# Major",
+   "tempo": "170 bpm",
+   "meter": "4/4 Straight",
+   "length": "4:22",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Tuning on the CD: GGDGBD, capo somewhere\n\nTuning live: Standard, capo 1\n\nIntro:\n---------------------------------\n-0---1-0----------0---1-0-----1--\n-0-------2-0-2/4--0-------2-0-0--\n-0----------------0-----------2--\n-2----------------0-----------x--\n-3----------------3-----------3--\n\nVerse (G  D/F#  Em):\n--------------------------------------------------------\n--0---1-0------0---1-3-1-0-1-------0-1-0-1-0-1-0-1-0-0--\n--0-------2-0--0-------------2---2-------------------0--\n--0------------0-------------0-----------------------2--\n--0------------0-------------0-----------------------2--\n--3------------3-------------2-----------------------0--\n\nThen:  C  G  D/F#\nPre-chorus: Am  C  G,  Am  C  D   \n\nChorus: \nEm  C   G  Gmaj7  \nEm  C   D  G\n\nBridge:\n079987  x6987x  x5777x  577555          (Em, B/Eb, D, Am)\n079987  x6987x  x02210  x32010  x54030  (Em, B/Eb, Am, C, D)\n\nEnd:\nG  Am  C\n\n----------------------------------------------\n----------------------------------------------\n----------------------------------------------\n----------------------------------------------\n----------------------------------------------\n----------------------------------------------"
+  },
+  "jw-afterglow": {
+   "page": "https://www.joshwoodward.com/song/afterglow",
+   "mp3": "https://www.joshwoodward.com/mp3/TheSimpleLife/JoshWoodward-TheSimpleLife-211-Afterglow.mp3",
+   "mp3Sha256": "381c321b886003d068a8abbb1fa0eecbc47e4f0cff55f766cb6430e24a055ab0",
+   "key": "A Major",
+   "tempo": "98 bpm",
+   "meter": "4/4 Straight",
+   "length": "3:28",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Tuning: Standard\n\n<b>Verse:</b>\nA \nA  E\nF  A\nE\n\n<b>Chorus:</b>\nBm  D\nA\n\n<b>Bridge:</b>\nD  A\nD  A\nBm  D\nA"
+  },
+  "jw-cherubs": {
+   "page": "https://www.joshwoodward.com/song/cherubs",
+   "mp3": "https://www.joshwoodward.com/mp3/Ashes/JoshWoodward-Ashes-02-Cherubs.mp3",
+   "mp3Sha256": "2730b3402bbe14a6707fd6b144416af2cbde324557ada3eec5b35eb96ee87971",
+   "key": "D Major",
+   "tempo": "165 bpm",
+   "meter": "4/4 Straight",
+   "length": "4:16",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Verse: \n    D       G   \n    Bm  A   G\n    (repeat)\n\nChorus:\n    D   G   Bm  G   D\n\nBridge:\n    Em  Bm  Em  Bm  A\n    Em  Bm  A   G\n\nEnd Chorus:\n    Bm  G   Bm  A   G\n    Bm  G   Bm  A   G"
+  },
+  "jw-goodbye-to-spring": {
+   "page": "https://www.joshwoodward.com/song/goodbyetospring",
+   "mp3": "https://www.joshwoodward.com/mp3/OnlyWhispering/JoshWoodward-OnlyWhispering-11-GoodbyeToSpring.mp3",
+   "mp3Sha256": "ddf28a5286473f1761ce4f50e6ffe79e9c45b3bfc7fe94764d221a35263edc9c",
+   "key": "A# Major",
+   "tempo": "240 bpm",
+   "meter": "4/4 Straight",
+   "length": "4:06",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Tuning: This was recorded in Open C (down a whole step), but these days (including the live video), I play it in standard tuned down a whole step like this:\n\nIntro:\nC  Am  F  G\n\nVerse:\nC      G        Am      F\nC      F        G       C\n\nChorus 1:\nC      Am       F       G\n\nVerse 2 (same as verse 1)\n\nChorus 2:\nC      Am       F       G\nC      Am       F       G       Bb\n\nBridge:\nE7     Am       E7      F\n\nSolo (same as verse)\n\nChorus:\nC      Am       F       G\nC      Am       F       G       \nC      Am       F       G\nC      Am       F       G       \n\n\n\nWant to play the guitar part a little fancier? The intro and chorus some little details. Here are the more accurate chords for the C/Am/F/G repeating section:\n\nC:   x32010  x30010  x33010  x32010\nAm:  x02210  x00210  x03210  x02210\nF:   13321x  13301x  13321x           (play the low F with your thumb)\nG:   320033          323003\n\nThen, in the verse, the start of the riff looks like this: \n\n--0--0--------------0--0--\n--1--1--------------1--1--\n--0--0--------------0--0--\n--2--2--------------2--2--\n--3--3----------2-3-3--3--\n----------0-1-3-----------"
+  },
+  "jw-im-letting-go": {
+   "page": "https://www.joshwoodward.com/song/imlettinggo",
+   "mp3": "https://www.joshwoodward.com/mp3/TheSimpleLife/JoshWoodward-TheSimpleLife-107-ImLettingGo.mp3",
+   "mp3Sha256": "381a29c8865daa541c70adb984faae6f206e261c65d3b5d469281a703f6400ca",
+   "key": "A Minor",
+   "tempo": "76 bpm",
+   "meter": "4/4 Straight",
+   "length": "3:12",
+   "licenseLine": "Creative Commons Attribution 4.0",
+   "chordsVerbatim": "Tuning: Standard, Capo 5\n\nCmaj7 = x3200x\n\nIntro:\nCmaj7  Em  Cmaj7  Em  D\n\nVerse:\nCmaj7  Em  Cmaj7  Em  D\nCmaj7  C  Em  D\nCmaj7  C  D\n\nChorus:\nG  Em  Bm  D\nG  Em  Bm  D\n\nEnding:\nC  G  D/F#\nC  G  D/F#\nC  G  D/F#\nC"
+  }
+ }
+}

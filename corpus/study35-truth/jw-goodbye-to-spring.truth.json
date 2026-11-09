@@ -1,0 +1,76 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/goodbyetospring (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 ddf28a5286473f1761ce4f50e6ffe79e9c45b3bfc7fe94764d221a35263edc9c",
+	"declared": {
+		"key": "A# Major",
+		"bpm": 240,
+		"meter": "4/4",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Intro": [
+			"C",
+			"Am",
+			"F",
+			"G"
+		],
+		"Verse": [
+			"C",
+			"G",
+			"Am",
+			"F",
+			"C",
+			"F",
+			"G",
+			"C"
+		],
+		"Chorus1": [
+			"C",
+			"Am",
+			"F",
+			"G"
+		],
+		"Chorus2": [
+			"C",
+			"Am",
+			"F",
+			"G",
+			"C",
+			"Am",
+			"F",
+			"G",
+			"Bb"
+		],
+		"Bridge": [
+			"E7",
+			"Am",
+			"E7",
+			"F"
+		],
+		"FinalChorus": [
+			"C",
+			"Am",
+			"F",
+			"G",
+			"C",
+			"Am",
+			"F",
+			"G",
+			"C",
+			"Am",
+			"F",
+			"G",
+			"C",
+			"Am",
+			"F",
+			"G"
+		]
+	},
+	"transposition": {
+		"value": null,
+		"basis": "Gated global calibration REFUSED (top 5 margin 0.011 < 0.02); roots graded transposition-invariantly (LCS over successive-root intervals)"
+	},
+	"spanFirstSound": 0,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

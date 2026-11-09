@@ -1,0 +1,63 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/swansong (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 321174573eea651b267fe217a9b56501ee7a335c3de6ced8cf89b4c7811fb811",
+	"declared": {
+		"key": "G# Major",
+		"bpm": 170,
+		"meter": "4/4",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Verse": [
+			"G",
+			"D/F#",
+			"Em"
+		],
+		"Then": [
+			"C",
+			"G",
+			"D/F#"
+		],
+		"PreChorus": [
+			"Am",
+			"C",
+			"G",
+			"Am",
+			"C",
+			"D"
+		],
+		"Chorus": [
+			"Em",
+			"C",
+			"G",
+			"Gmaj7",
+			"Em",
+			"C",
+			"D",
+			"G"
+		],
+		"Bridge": [
+			"Em",
+			"B/Eb",
+			"D",
+			"Am",
+			"Em",
+			"B/Eb",
+			"Am",
+			"C",
+			"D"
+		],
+		"End": [
+			"G",
+			"Am",
+			"C"
+		]
+	},
+	"transposition": {
+		"value": null,
+		"basis": "Gated global calibration REFUSED (top 1 margin 0.011 < 0.02); roots graded transposition-invariantly (LCS over successive-root intervals)"
+	},
+	"spanFirstSound": 1.16,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

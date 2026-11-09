@@ -1,0 +1,41 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/afterglow (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 381c321b886003d068a8abbb1fa0eecbc47e4f0cff55f766cb6430e24a055ab0",
+	"declared": {
+		"key": "A Major",
+		"bpm": 98,
+		"meter": "4/4",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Verse": [
+			"A",
+			"A",
+			"E",
+			"F",
+			"A",
+			"E"
+		],
+		"Chorus": [
+			"Bm",
+			"D",
+			"A"
+		],
+		"Bridge": [
+			"D",
+			"A",
+			"D",
+			"A",
+			"Bm",
+			"D",
+			"A"
+		]
+	},
+	"transposition": {
+		"value": 0,
+		"basis": "Gated global calibration (2026-11-09, pre-registration): transpose 0 at 0.624, runner-up 0.579, margin 0.046 ACCEPTED by the 0.02 gate"
+	},
+	"spanFirstSound": 0.28,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}

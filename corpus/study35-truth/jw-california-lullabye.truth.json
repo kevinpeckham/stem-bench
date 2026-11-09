@@ -1,0 +1,89 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/californialullabye (Tablature & Chords), fetched 2026-11-09; symbols transcribed verbatim, tab-only lines excluded (full block in corpus/study35-chords-verbatim.json)",
+	"license": "CC BY 4.0 (joshwoodward.com); audio from the artist's own MP3 link, sha256 bd1c40a0f766c087753ad048e76246d6365b353f083ed58b17958c507578db3f",
+	"declared": {
+		"key": "A Major",
+		"bpm": 176,
+		"meter": "4/4",
+		"feel": "Straight"
+	},
+	"sections": {
+		"Verse1": [
+			"G",
+			"Em",
+			"C",
+			"G",
+			"G",
+			"Em",
+			"C",
+			"D"
+		],
+		"Chorus1": [
+			"C",
+			"G",
+			"Am",
+			"D",
+			"Em"
+		],
+		"Verse2": [
+			"G",
+			"Em",
+			"C",
+			"G",
+			"G",
+			"Em",
+			"C",
+			"D"
+		],
+		"Chorus2": [
+			"C",
+			"G",
+			"Am",
+			"D",
+			"Em",
+			"Am",
+			"Cm",
+			"G"
+		],
+		"Bridge": [
+			"C",
+			"B7",
+			"Em",
+			"C",
+			"B7",
+			"Em",
+			"F",
+			"Am",
+			"G/B",
+			"C",
+			"D"
+		],
+		"Chorus3": [
+			"C",
+			"G",
+			"Am",
+			"D",
+			"Em",
+			"C",
+			"G",
+			"Am",
+			"D",
+			"Em",
+			"Am",
+			"Cm",
+			"G"
+		],
+		"End": [
+			"G",
+			"Am",
+			"G"
+		]
+	},
+	"transposition": {
+		"value": 2,
+		"basis": "Gated global calibration (2026-11-09, pre-registration): transpose 2 at 0.613, runner-up 0.566, margin 0.047 ACCEPTED by the 0.02 gate"
+	},
+	"spanFirstSound": 1.54,
+	"note": "Sequence truth only (Tier 3, Study 34 grading): LCS over collapsed roots (interval-invariant where the gate refused) and over quality families."
+}
