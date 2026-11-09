@@ -1,0 +1,107 @@
+{
+	"version": 1,
+	"note": "Study 34 breadth corpus (docs/CORPUS-STUDY34.md), pinned 2026-11-09 after Kevin's rights pass. Audio is fetched to corpus-study34/ (gitignored); only hashes, durations and labels are committed (corpus/fixture-study34.json). Slots 1-2 reuse the badverbs inventory (corpus-mmkk/). US recordings published through 1925 are public domain (MMA 100-year term); JAAH annotations are CC BY (github.com/MTG/JAAH).",
+	"items": [
+		{
+			"slug": "eat-control",
+			"kind": "badverbs",
+			"source": "corpus-mmkk/eat-all-the-clocks",
+			"category": "clean MMKK control, excluded from G2",
+			"truth": "band chart (corpus/badverbs-charts/eat-all-the-clocks.chart.md)"
+		},
+		{
+			"slug": "interbellum",
+			"kind": "badverbs",
+			"source": "corpus-mmkk/interbellum",
+			"category": "key change at the bridge, genuine ritardando, sevenths and slash bass",
+			"truth": "band chart (corpus/badverbs-charts/interbellum.chart.md)"
+		},
+		{
+			"slug": "jw-let-it-in",
+			"kind": "archive",
+			"identifier": "JoshWoodward-Ashes",
+			"file": "JoshWoodward-Ashes-01-LetItIn.mp3",
+			"page": "https://www.joshwoodward.com/song/letitin",
+			"category": "solo singer with acoustic guitar",
+			"license": "CC BY 4.0 (archive.org item licenseurl; the artist releases all songs CC BY)",
+			"truth": "bench chart, Kevin spot-check"
+		},
+		{
+			"slug": "jw-same-boat",
+			"kind": "archive",
+			"identifier": "JoshWoodward-TheShadeFromOurTrees",
+			"file": "JoshWoodward-TheShadeFromOurTrees-04-SameBoat.mp3",
+			"page": "https://www.joshwoodward.com/song/sameboat",
+			"category": "second acoustic voice, different album and era",
+			"license": "CC BY 4.0 (archive.org item licenseurl)",
+			"truth": "bench chart, Kevin spot-check"
+		},
+		{
+			"slug": "kitten-on-the-keys",
+			"kind": "archive",
+			"identifier": "78_kitten-on-the-keys_zez-confrey-zez-confrey_gbia0566187a",
+			"category": "solo piano (1921 novelty, the composer playing)",
+			"license": "public domain (US sound recording, 1921)",
+			"truth": "bench chart from the PD published sheet, verified against the recording"
+		},
+		{
+			"slug": "three-oclock-waltz",
+			"kind": "archive",
+			"identifier": "78_three-oclock-in-the-morning_paul-whiteman-and-his-orchestra-j-robledo_gbia3033387a",
+			"category": "3/4 (1922 waltz)",
+			"license": "public domain (US sound recording, 1922)",
+			"truth": "bench chart from the PD sheet, verified"
+		},
+		{
+			"slug": "dippermouth-blues",
+			"kind": "archive",
+			"identifier": "JV-506-1923-QmcAz5oYhG3xCpMdqE3eUGmfsGHz7vPeUdJnP1Ai9uwWxE.mp3",
+			"identifierNote": "the OKeh master is the JAAH-annotated take; JV-607 (150.13 s vs JAAH 148.93 s) is fetched, JV-506 is the Gennett take kept out",
+			"identifierOverride": "JV-607-1923-QmdctUnF6VrGE2KcBtERWezA4FLpFQTaycQd49vRzPTLV6.mp3",
+			"category": "jazz with sevenths as written harmony (King Oliver's Creole Jazz Band, 1923)",
+			"license": "public domain (US sound recording, 1923); annotation CC BY (JAAH)",
+			"truth": "JAAH annotation dippermouth_blues.json, re-aligned to this transfer"
+		},
+		{
+			"slug": "st-louis-blues",
+			"kind": "archive",
+			"identifier": "JV-1426-1925-QmbmBn5Ba1cfLVumJWCYAqTypcHu2Wmx9Tr7RMSfRNBRC8.mp3",
+			"category": "slow blues, low-tempo end, voice-led (Bessie Smith with Louis Armstrong, 1925)",
+			"license": "public domain (US sound recording, 1925); annotation CC BY (JAAH)",
+			"truth": "JAAH annotation st_louis_blues.json, re-aligned (191.9 s transfer vs 193.17 s annotated)"
+		},
+		{
+			"slug": "livery-stable-blues",
+			"kind": "archive",
+			"identifier": "loc-jukebox-186254-livery-stable-blues",
+			"category": "extreme tempo, earliest and roughest signal (ODJB, 1917, acoustic horn)",
+			"license": "public domain (US sound recording, 1917); annotation CC BY (JAAH)",
+			"truth": "JAAH annotation livery_stable_blues.json, re-aligned (187.59 s transfer vs 190.64 s annotated)"
+		},
+		{
+			"slug": "sp-today-live",
+			"kind": "archive",
+			"identifier": "tsp2022-11-19.aud1",
+			"file": "04 - Today.mp3",
+			"category": "live with audience noise (The Smashing Pumpkins, Today, Hollywood Bowl 2022, audience recording)",
+			"license": "recording CC BY 4.0 (taper's license on the item); composition copyrighted, analyzed privately, chart truth kept to roots and qualities",
+			"truth": "bench chart from public chord references, verified by bench instruments"
+		},
+		{
+			"slug": "roll-called-up-yonder",
+			"kind": "archive",
+			"identifier": "78_when-the-roll-is-called-up-yonder_chautauqua-preachers-quartet-black_gbia0532872b",
+			"category": "a cappella vocal quartet: no drums at all, the grid's hardest case",
+			"license": "public domain (US sound recording, 1923)",
+			"truth": "bench chart from the PD hymnal harmony"
+		},
+		{
+			"slug": "irish-jigs-medley",
+			"kind": "archive",
+			"identifier": "78_medley-of-irish-jigs_patrick-j-gaffny_gbia3002021a",
+			"category": "6/8 fiddle medley (1923): fast compound meter, no drums, melody-dominant, tune changes as sections",
+			"license": "public domain (US sound recording, 1923)",
+			"truth": "bench chart from tune-book harmony, tune boundaries as sections"
+		}
+	]
+}
