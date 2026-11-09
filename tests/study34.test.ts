@@ -6,7 +6,17 @@
  */
 import { describe, expect, test } from "bun:test";
 import { alignBeats } from "../src/study34/align.js";
-import { bassPc, qualityFamily, qualityScore, sectionScore, slashScore } from "../src/study34/grade34.js";
+import {
+	bassPc,
+	familyOf,
+	pairBarsByTime,
+	qualityFamily,
+	qualityScore,
+	rootOf,
+	sectionScore,
+	sequenceScore,
+	slashScore,
+} from "../src/study34/grade34.js";
 import { harteToSymbol, parseJaah } from "../src/study34/jaah.js";
 import { parseMidi } from "../src/study34/midi.js";
 import { labelBar, midiBarChords } from "../src/study34/midichords.js";
@@ -119,6 +129,27 @@ describe("the three graders", () => {
 	});
 	test("sectionScore matches within one bar", () => {
 		expect(sectionScore([0, 8, 16], [0, 9, 20])).toEqual({ right: 2, bearing: 3 });
+	});
+	test("pairBarsByTime pairs by midpoint and survives different bar counts", () => {
+		const truthBars = [
+			{ start: 0, chords: ["C"] },
+			{ start: 2, chords: ["F"] },
+			{ start: 4, chords: ["G"] },
+		];
+		// draft grid shifted 0.3s and one bar short
+		const { answers, truth } = pairBarsByTime([0.3, 2.3], ["C", "F"], truthBars);
+		expect(answers).toEqual(["C", "F"]);
+		expect(truth).toEqual([["C"], ["F"]]);
+	});
+	test("sequenceScore collapses repeats and takes the LCS over the projection", () => {
+		const published = ["Dm", "C", "G/B", "Bbmaj7", "Am", "A"];
+		// published roots collapse to [D C B Bb A] (Am and A share a root); draft misses G(B bass is dropped)
+		const draft = ["Dm", "Dm", "C", "C", "Bb", "Am", "A7"];
+		const roots = sequenceScore(draft, published, rootOf);
+		expect(roots).toEqual({ right: 4, bearing: 5 });
+		const families = sequenceScore(draft, published, familyOf);
+		// published families: min maj maj maj min maj; draft: min maj maj min dom->... LCS over collapsed family runs
+		expect(families.bearing).toBe(4); // min maj min maj after collapsing
 	});
 });
 

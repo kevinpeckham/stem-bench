@@ -68,3 +68,73 @@ export function sectionScore(truthBars: number[], draftBars: number[]): FamilySc
 	for (const t of truthBars) if (draftBars.some((d) => Math.abs(d - t) <= 1)) right++;
 	return { right, bearing: truthBars.length };
 }
+
+/**
+ * Tier 1 (time truth): pair each draft bar with the truth bar whose
+ * span contains the draft bar's midpoint, then grade roots and quality
+ * families on the pairs. Robust to the draft grid finding a different
+ * bar count than the annotation.
+ */
+export function pairBarsByTime(
+	draftStarts: number[],
+	draftChords: string[],
+	truthBars: { start: number; chords: string[] }[],
+): { answers: string[]; truth: string[][] } {
+	const answers: string[] = [];
+	const truth: string[][] = [];
+	const spans = truthBars.map((b, i) => ({
+		from: b.start,
+		to: i + 1 < truthBars.length ? truthBars[i + 1]!.start : b.start + (b.start - (truthBars[i - 1]?.start ?? b.start - 2)),
+		chords: b.chords,
+	}));
+	for (const [i, start] of draftStarts.entries()) {
+		const end = i + 1 < draftStarts.length ? draftStarts[i + 1]! : start + (start - (draftStarts[i - 1] ?? start - 2));
+		const mid = (start + end) / 2;
+		const hit = spans.find((s) => mid >= s.from && mid < s.to);
+		if (!hit) continue;
+		answers.push(draftChords[i] ?? "");
+		truth.push(hit.chords);
+	}
+	return { answers, truth };
+}
+
+/**
+ * Tier 3 (sequence truth): the draft chart's collapsed chord sequence
+ * against the published progression, as the longest common subsequence
+ * over pitch-class roots (and separately over quality families).
+ * Score = LCS length / published length.
+ */
+export function sequenceScore(
+	draftChords: string[],
+	published: string[],
+	project: (symbol: string) => string | null,
+): FamilyScore {
+	const collapse = (list: string[]): string[] => {
+		const out: string[] = [];
+		for (const raw of list) {
+			const p = project(raw);
+			if (p === null) continue;
+			if (out[out.length - 1] !== p) out.push(p);
+		}
+		return out;
+	};
+	const a = collapse(draftChords);
+	const b = collapse(published);
+	const dp: number[][] = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+	for (let i = 1; i <= a.length; i++)
+		for (let j = 1; j <= b.length; j++)
+			dp[i]![j] = a[i - 1] === b[j - 1] ? dp[i - 1]![j - 1]! + 1 : Math.max(dp[i - 1]![j]!, dp[i]![j - 1]!);
+	return { right: dp[a.length]![b.length]!, bearing: b.length };
+}
+
+/** Root projection for sequenceScore: pitch class as a string, or null for unparsable. */
+export function rootOf(symbol: string): string | null {
+	const p = parseChord(symbol);
+	return p.ok && p.pc !== null ? String(p.pc) : null;
+}
+
+/** Quality-family projection for sequenceScore. */
+export function familyOf(symbol: string): string | null {
+	const p = parseChord(symbol);
+	return p.ok && p.pc !== null ? qualityFamily(p.quality) : null;
+}
