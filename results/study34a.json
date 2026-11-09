@@ -1,0 +1,998 @@
+{
+	"partA": {
+		"eat-all-the-clocks": {
+			"truth": {
+				"tempo": 120,
+				"meter": "4/4",
+				"key": "E minor"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 120,
+					"confidence": 0.8632994434067698,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 60,
+							"strength": 1.32
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 80,
+							"strength": 0.51
+						},
+						{
+							"factor": 2,
+							"bpm": 240,
+							"strength": 0.45
+						},
+						{
+							"factor": 1.5,
+							"bpm": 180,
+							"strength": 0.1
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.037528718779197695
+				},
+				"key": {
+					"value": "A minor",
+					"confidence": 0.19444126263890116
+				}
+			},
+			"tempoRight": true,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": false,
+			"study34Declared": null
+		},
+		"interbellum": {
+			"truth": {
+				"tempo": 115,
+				"meter": "4/4",
+				"key": "C major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 115,
+					"confidence": 0.8755016499926902,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 57.5,
+							"strength": 1.08
+						},
+						{
+							"factor": 2,
+							"bpm": 230,
+							"strength": 0.9
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 76.7,
+							"strength": 0.88
+						},
+						{
+							"factor": 1.5,
+							"bpm": 172.5,
+							"strength": 0.04
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.009969335177896367
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 0.860598445758288
+				}
+			},
+			"tempoRight": true,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": true,
+			"study34Declared": {
+				"bpm": 115,
+				"meter": "4/4",
+				"key": "C"
+			}
+		},
+		"letter-lands": {
+			"truth": {
+				"tempo": 132,
+				"meter": "4/4",
+				"key": "F# major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 132,
+					"confidence": 0.8599336112718992,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 66,
+							"strength": 1.26
+						},
+						{
+							"factor": 1.5,
+							"bpm": 198,
+							"strength": 0.16
+						},
+						{
+							"factor": 2,
+							"bpm": 264,
+							"strength": 0.13
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 88,
+							"strength": 0.13
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.05382757998310239
+				},
+				"key": {
+					"value": "F♯ major",
+					"confidence": 0.19879235816791008
+				}
+			},
+			"tempoRight": true,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": true,
+			"study34Declared": null
+		},
+		"mop-heart": {
+			"truth": {
+				"tempo": 224,
+				"meter": "3/4",
+				"key": "A major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 74.7,
+					"confidence": 0.8293502814197256,
+					"subdivision": 3,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 37.4,
+							"strength": 1.01
+						},
+						{
+							"factor": 1.5,
+							"bpm": 112.1,
+							"strength": 0.81
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 49.8,
+							"strength": 0.22
+						},
+						{
+							"factor": 2,
+							"bpm": 149.4,
+							"strength": 0.21
+						}
+					]
+				},
+				"meter": {
+					"value": "6/8",
+					"confidence": 0.029402229745713604
+				},
+				"key": {
+					"value": "A minor",
+					"confidence": 0.33912911659592604
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": null,
+			"meterRight": false,
+			"keyRight": false,
+			"study34Declared": null
+		},
+		"peaceful-dreams": {
+			"truth": {
+				"tempo": 145,
+				"meter": "4/4",
+				"key": "D major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 96.7,
+					"confidence": 0.8231174729707457,
+					"subdivision": 3,
+					"alternates": [
+						{
+							"factor": 1.5,
+							"bpm": 145.1,
+							"strength": 0.96
+						},
+						{
+							"factor": 0.5,
+							"bpm": 48.4,
+							"strength": 0.86
+						},
+						{
+							"factor": 2,
+							"bpm": 193.4,
+							"strength": 0.17
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 64.5,
+							"strength": 0.17
+						}
+					]
+				},
+				"meter": {
+					"value": "6/8",
+					"confidence": 0.05363824254283718
+				},
+				"key": {
+					"value": "D major",
+					"confidence": 0.9181448330894084
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": {
+				"factor": 1.5,
+				"bpm": 145.1,
+				"strength": 0.96
+			},
+			"meterRight": false,
+			"keyRight": true,
+			"study34Declared": null
+		},
+		"dippermouth-blues": {
+			"truth": {
+				"tempo": 185.5,
+				"meter": "4/4",
+				"key": "C major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 91.1,
+					"confidence": 0.7582741491440824,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 2,
+							"bpm": 182.2,
+							"strength": 1.08
+						},
+						{
+							"factor": 0.5,
+							"bpm": 45.6,
+							"strength": 1.04
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 60.7,
+							"strength": 0.92
+						},
+						{
+							"factor": 1.5,
+							"bpm": 136.6,
+							"strength": 0.31
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.0009874208606510137
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 0.30604661340153116
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": {
+				"factor": 2,
+				"bpm": 182.2,
+				"strength": 1.08
+			},
+			"meterRight": true,
+			"keyRight": true,
+			"study34Declared": {
+				"bpm": 91.1,
+				"meter": "4/4",
+				"key": "C major"
+			}
+		},
+		"st-louis-blues": {
+			"truth": {
+				"tempo": 67,
+				"meter": "4/4",
+				"key": "D major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 64.5,
+					"confidence": 0.47623603321127145,
+					"subdivision": 3,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 32.3,
+							"strength": 0.94
+						},
+						{
+							"factor": 1.5,
+							"bpm": 96.8,
+							"strength": 0.94
+						},
+						{
+							"factor": 2,
+							"bpm": 129,
+							"strength": 0.72
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 43,
+							"strength": 0.72
+						}
+					]
+				},
+				"meter": {
+					"value": "6/8",
+					"confidence": 0.0037993696621405936
+				},
+				"key": {
+					"value": "B♭ major",
+					"confidence": 0.04940556450892819
+				}
+			},
+			"tempoRight": true,
+			"trueTempoOnRung": null,
+			"meterRight": false,
+			"keyRight": false,
+			"study34Declared": {
+				"bpm": 106.1,
+				"meter": "4/4",
+				"key": "B♭ major"
+			}
+		},
+		"livery-stable-blues": {
+			"truth": {
+				"tempo": 163.8,
+				"meter": "4/4",
+				"key": "Eb major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 83.2,
+					"confidence": 0.5449282272676121,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 41.6,
+							"strength": 0.97
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 55.5,
+							"strength": 0.9
+						},
+						{
+							"factor": 2,
+							"bpm": 166.4,
+							"strength": 0.89
+						},
+						{
+							"factor": 1.5,
+							"bpm": 124.8,
+							"strength": 0.55
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.0006540399504402965
+				},
+				"key": {
+					"value": "E♭ major",
+					"confidence": 0.6971957067698793
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": {
+				"factor": 2,
+				"bpm": 166.4,
+				"strength": 0.89
+			},
+			"meterRight": true,
+			"keyRight": true,
+			"study34Declared": {
+				"bpm": 83.2,
+				"meter": "4/4",
+				"key": "E♭ major"
+			}
+		},
+		"roll-called-up-yonder": {
+			"truth": {
+				"tempo": 97.1,
+				"meter": "4/4",
+				"key": "Ab major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 78.6,
+					"confidence": 0.5555737114989947,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 39.3,
+							"strength": 0.79
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 52.4,
+							"strength": 0.4
+						},
+						{
+							"factor": 2,
+							"bpm": 157.2,
+							"strength": 0.35
+						},
+						{
+							"factor": 1.5,
+							"bpm": 117.9,
+							"strength": 0.35
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.008463546411290098
+				},
+				"key": {
+					"value": "C minor",
+					"confidence": 0.1598653431477357
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": false,
+			"study34Declared": {
+				"bpm": 78.6,
+				"meter": "4/4",
+				"key": "C minor"
+			}
+		},
+		"three-oclock-waltz": {
+			"truth": {
+				"tempo": 141.6,
+				"meter": "3/4",
+				"key": "C major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 77.9,
+					"confidence": 0.5255343112275772,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 39,
+							"strength": 0.85
+						},
+						{
+							"factor": 1.5,
+							"bpm": 116.9,
+							"strength": 0.41
+						},
+						{
+							"factor": 2,
+							"bpm": 155.8,
+							"strength": 0.38
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 51.9,
+							"strength": 0.37
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.004357441077008489
+				},
+				"key": {
+					"value": "A minor",
+					"confidence": 1
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": null,
+			"meterRight": false,
+			"keyRight": false,
+			"study34Declared": {
+				"bpm": 77.9,
+				"meter": "4/4",
+				"key": "A minor"
+			}
+		},
+		"jw-let-it-in": {
+			"truth": {
+				"tempo": 121,
+				"meter": "4/4",
+				"key": "D minor"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 121,
+					"confidence": 0.8088059999888352,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 60.5,
+							"strength": 1.17
+						},
+						{
+							"factor": 1.5,
+							"bpm": 181.5,
+							"strength": 0.4
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 80.7,
+							"strength": 0.16
+						},
+						{
+							"factor": 2,
+							"bpm": 242,
+							"strength": 0.14
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.037636839605193824
+				},
+				"key": {
+					"value": "D minor",
+					"confidence": 0.04314103790173718
+				}
+			},
+			"tempoRight": true,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": true,
+			"study34Declared": {
+				"bpm": 121,
+				"meter": "4/4",
+				"key": "D minor"
+			}
+		},
+		"jw-same-boat": {
+			"truth": {
+				"tempo": 93,
+				"meter": "4/4",
+				"key": "F# major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 123.1,
+					"confidence": 0.5683774318278934,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 1.5,
+							"bpm": 184.6,
+							"strength": 1.26
+						},
+						{
+							"factor": 0.5,
+							"bpm": 61.6,
+							"strength": 1.11
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 82.1,
+							"strength": 0.87
+						},
+						{
+							"factor": 2,
+							"bpm": 246.2,
+							"strength": 0.83
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.017145094965235818
+				},
+				"key": {
+					"value": "B♭ minor",
+					"confidence": 0
+				}
+			},
+			"tempoRight": false,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": false,
+			"study34Declared": {
+				"bpm": 123.1,
+				"meter": "4/4",
+				"key": "B♭ minor"
+			}
+		},
+		"kitten-on-the-keys": {
+			"truth": {
+				"tempo": null,
+				"meter": "4/4",
+				"key": "F major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 83.4,
+					"confidence": 0.6664861819403157,
+					"subdivision": 3,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 41.7,
+							"strength": 1.5
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 55.6,
+							"strength": 1.5
+						},
+						{
+							"factor": 1.5,
+							"bpm": 125.1,
+							"strength": 0.84
+						},
+						{
+							"factor": 2,
+							"bpm": 166.8,
+							"strength": 0.76
+						}
+					]
+				},
+				"meter": {
+					"value": "6/8",
+					"confidence": 0.016941932584102534
+				},
+				"key": {
+					"value": "C major",
+					"confidence": 0.4322374851561359
+				}
+			},
+			"tempoRight": null,
+			"trueTempoOnRung": null,
+			"meterRight": false,
+			"keyRight": false,
+			"study34Declared": {
+				"bpm": 110.6,
+				"meter": "4/4",
+				"key": "C major"
+			}
+		},
+		"sp-today-live": {
+			"truth": {
+				"tempo": null,
+				"meter": "4/4",
+				"key": "Eb major"
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 88.3,
+					"confidence": 0.7437115341858039,
+					"subdivision": 2,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 44.2,
+							"strength": 0.96
+						},
+						{
+							"factor": 2,
+							"bpm": 176.6,
+							"strength": 0.88
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 58.9,
+							"strength": 0.74
+						},
+						{
+							"factor": 1.5,
+							"bpm": 132.5,
+							"strength": 0.28
+						}
+					]
+				},
+				"meter": {
+					"value": "4/4",
+					"confidence": 0.0014177085485882568
+				},
+				"key": {
+					"value": "E♭ major",
+					"confidence": 0.8986632182009129
+				}
+			},
+			"tempoRight": null,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": true,
+			"study34Declared": {
+				"bpm": 88.3,
+				"meter": "4/4",
+				"key": "E♭ major"
+			}
+		},
+		"irish-jigs-medley": {
+			"truth": {
+				"tempo": null,
+				"meter": "6/8",
+				"key": null
+			},
+			"detection": {
+				"tempo": {
+					"bpm": 135,
+					"confidence": 0.579313833589367,
+					"subdivision": 3,
+					"alternates": [
+						{
+							"factor": 0.5,
+							"bpm": 67.5,
+							"strength": 0.94
+						},
+						{
+							"factor": 1.5,
+							"bpm": 202.5,
+							"strength": 0.82
+						},
+						{
+							"factor": 0.6666666666666666,
+							"bpm": 90,
+							"strength": 0.53
+						},
+						{
+							"factor": 2,
+							"bpm": 270,
+							"strength": 0.48
+						}
+					]
+				},
+				"meter": {
+					"value": "6/8",
+					"confidence": 0.0030576651286813184
+				},
+				"key": {
+					"value": "E minor",
+					"confidence": 0.040445495527079434
+				}
+			},
+			"tempoRight": null,
+			"trueTempoOnRung": null,
+			"meterRight": true,
+			"keyRight": null,
+			"study34Declared": {
+				"bpm": 135,
+				"meter": "4/4",
+				"key": "E minor"
+			}
+		}
+	},
+	"separation": {
+		"note": "A threshold read off fifteen recordings is a hypothesis for the next corpus, not a finding.",
+		"tempoConfidence": {
+			"threshold": 0.8446419463458124,
+			"errors": 2,
+			"direction": "wrong-below",
+			"n": 12,
+			"wrongCount": 7,
+			"within10pct": [
+				"eat-all-the-clocks",
+				"interbellum",
+				"letter-lands",
+				"mop-heart",
+				"peaceful-dreams",
+				"jw-let-it-in"
+			]
+		},
+		"strongestAlternate": {
+			"threshold": 1.045,
+			"errors": 3,
+			"direction": "wrong-below",
+			"n": 12,
+			"wrongCount": 7,
+			"within10pct": [
+				"interbellum",
+				"mop-heart",
+				"peaceful-dreams",
+				"dippermouth-blues",
+				"livery-stable-blues"
+			]
+		},
+		"meterConfidence": {
+			"threshold": -0.49934596004955967,
+			"errors": 5,
+			"direction": "wrong-below",
+			"n": 15,
+			"wrongCount": 5,
+			"within10pct": []
+		},
+		"keyConfidence": {
+			"threshold": 0.19661681040340562,
+			"errors": 4,
+			"direction": "wrong-below",
+			"n": 14,
+			"wrongCount": 7,
+			"within10pct": [
+				"eat-all-the-clocks",
+				"letter-lands"
+			]
+		}
+	},
+	"partC": {
+		"eat-all-the-clocks": {
+			"declared": {
+				"bpm": 120,
+				"meter": "4/4"
+			},
+			"gridPeriod": 1.9999999999999996,
+			"gridN": 70,
+			"anchor": -0.05999999999999983,
+			"firstSound": 0,
+			"pickupBeats": -0.11999999999999969,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": -0.085,
+			"truthPickupBeats": -0.17000000000000004,
+			"note": null
+		},
+		"interbellum": {
+			"declared": {
+				"bpm": 115,
+				"meter": "4/4"
+			},
+			"gridPeriod": 2.086956521739134,
+			"gridN": 63,
+			"anchor": -0.061739130434783185,
+			"firstSound": 0,
+			"pickupBeats": -0.11833333333333423,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": 0,
+			"truthPickupBeats": 0,
+			"note": null
+		},
+		"letter-lands": {
+			"declared": {
+				"bpm": 132,
+				"meter": "4/4"
+			},
+			"gridPeriod": 1.818181818181819,
+			"gridN": 76,
+			"anchor": -0.06818181818181768,
+			"firstSound": 0.01,
+			"pickupBeats": -0.1719999999999988,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": 0,
+			"truthPickupBeats": -0.021999999999999992,
+			"note": "Study 31d family truth; ~0.07s early ruler bias disclosed"
+		},
+		"mop-heart": {
+			"declared": {
+				"bpm": 224,
+				"meter": "3/4"
+			},
+			"gridPeriod": 0.8035714285714262,
+			"gridN": 140,
+			"anchor": -0.06785714285714195,
+			"firstSound": 0,
+			"pickupBeats": -0.2533333333333307,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": 0,
+			"truthPickupBeats": 0,
+			"note": "Study 31d family truth; ~0.07s early ruler bias disclosed"
+		},
+		"peaceful-dreams": {
+			"declared": {
+				"bpm": 145,
+				"meter": "4/4"
+			},
+			"gridPeriod": 1.6551724137931034,
+			"gridN": 153,
+			"anchor": -0.05758620689655136,
+			"firstSound": 0,
+			"pickupBeats": -0.1391666666666658,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": 0,
+			"truthPickupBeats": 0,
+			"note": "Study 31d family truth; ~0.07s early ruler bias disclosed"
+		},
+		"dippermouth-blues": {
+			"declared": {
+				"bpm": 186,
+				"meter": "4/4"
+			},
+			"gridPeriod": 1.2802580645161332,
+			"gridN": 114,
+			"anchor": -0.09025806451613239,
+			"firstSound": 0.55,
+			"pickupBeats": -2.000403144527317,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": -0.265,
+			"truthPickupBeats": -2.5463616206409916,
+			"note": null
+		},
+		"st-louis-blues": {
+			"declared": {
+				"bpm": 67,
+				"meter": "4/4"
+			},
+			"gridPeriod": 3.860776119402968,
+			"gridN": 49,
+			"anchor": -0.15077611940300306,
+			"firstSound": 0.63,
+			"pickupBeats": -0.8089317746026078,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": 0.657,
+			"truthPickupBeats": 0.027973650027834626,
+			"note": null
+		},
+		"livery-stable-blues": {
+			"declared": {
+				"bpm": 164,
+				"meter": "4/4"
+			},
+			"gridPeriod": 1.6068292682926832,
+			"gridN": 115,
+			"anchor": -1.016829268292683,
+			"firstSound": 0.08,
+			"pickupBeats": -2.730418943533697,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": 1.397,
+			"truthPickupBeats": 3.278506375227686,
+			"note": null
+		},
+		"roll-called-up-yonder": {
+			"declared": {
+				"bpm": 97,
+				"meter": "4/4"
+			},
+			"gridPeriod": 2.4989690721649565,
+			"gridN": 76,
+			"anchor": 0.3300000000000001,
+			"firstSound": 0.91,
+			"pickupBeats": -0.9283828382838252,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": null,
+			"truthPickupBeats": null,
+			"note": "no time truth; the engraving opens on a downbeat (no pickup)"
+		},
+		"three-oclock-waltz": {
+			"declared": {
+				"bpm": 142,
+				"meter": "3/4"
+			},
+			"gridPeriod": 1.277239436619715,
+			"gridN": 149,
+			"anchor": 1.497239436619715,
+			"firstSound": 1.55,
+			"pickupBeats": -0.12392483789864514,
+			"classedPickupAtHalfBar": false,
+			"truthBarOne": null,
+			"truthPickupBeats": null,
+			"note": "no time truth; the engraving opens on a downbeat (no pickup)"
+		}
+	}
+}
