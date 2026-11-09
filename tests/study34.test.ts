@@ -15,6 +15,7 @@ import {
 	rootOf,
 	sectionScore,
 	sequenceScore,
+	sequenceScoreIntervals,
 	slashScore,
 } from "../src/study34/grade34.js";
 import { harteToSymbol, parseJaah } from "../src/study34/jaah.js";
@@ -150,6 +151,12 @@ describe("the three graders", () => {
 		const families = sequenceScore(draft, published, familyOf);
 		// published families: min maj maj maj min maj; draft: min maj maj min dom->... LCS over collapsed family runs
 		expect(families.bearing).toBe(4); // min maj min maj after collapsing
+	});
+	test("sequenceScoreIntervals is blind to transposition", () => {
+		const published = ["F", "Em", "G", "Am"];
+		const draftTransposed = ["F#", "Fm", "G#", "A#m"]; // +1 semitone throughout
+		const s = sequenceScoreIntervals(draftTransposed, published);
+		expect(s).toEqual({ right: 3, bearing: 3 });
 	});
 });
 

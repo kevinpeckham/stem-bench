@@ -127,6 +127,32 @@ export function sequenceScore(
 	return { right: dp[a.length]![b.length]!, bearing: b.length };
 }
 
+/**
+ * Transposition-invariant variant for a slot whose absolute key failed
+ * the calibration gate (jw-same-boat): the collapsed root sequences are
+ * reduced to successive pitch-class intervals before the LCS, which no
+ * capo or transfer-pitch shift can disturb.
+ */
+export function sequenceScoreIntervals(draftChords: string[], published: string[]): FamilyScore {
+	const roots = (list: string[]): number[] => {
+		const out: number[] = [];
+		for (const raw of list) {
+			const p = parseChord(raw);
+			if (!p.ok || p.pc === null) continue;
+			if (out[out.length - 1] !== p.pc) out.push(p.pc);
+		}
+		return out;
+	};
+	const deltas = (pcs: number[]): string[] => pcs.slice(1).map((pc, i) => String((pc - pcs[i]! + 12) % 12));
+	const a = deltas(roots(draftChords));
+	const b = deltas(roots(published));
+	const dp: number[][] = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+	for (let i = 1; i <= a.length; i++)
+		for (let j = 1; j <= b.length; j++)
+			dp[i]![j] = a[i - 1] === b[j - 1] ? dp[i - 1]![j - 1]! + 1 : Math.max(dp[i - 1]![j]!, dp[i]![j - 1]!);
+	return { right: dp[a.length]![b.length]!, bearing: b.length };
+}
+
 /** Root projection for sequenceScore: pitch class as a string, or null for unparsable. */
 export function rootOf(symbol: string): string | null {
 	const p = parseChord(symbol);

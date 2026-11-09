@@ -3,7 +3,10 @@
 	"source": "Artist's own chart: https://www.joshwoodward.com/song/sameboat (Tablature & Chords), fetched 2026-11-09",
 	"license": "CC BY 4.0 (joshwoodward.com); audio via archive.org JoshWoodward-TheShadeFromOurTrees",
 	"declared": { "key": "F# major", "bpm": 93, "meter": "4/4", "tuning": "Capo 8 or something" },
-	"transposition": { "value": null, "basis": "the chart is written in capo shapes (F, Em, G...) while the declared key is F# major; the shift is resolved at truth build by the gated global calibration, and the slot is flagged for Kevin's spot-check if the gate refuses" },
+	"transposition": {
+		"value": null,
+		"basis": "the chart is written in capo shapes (F, Em, G...) while the declared key is F# major. Gated global calibration (2026-11-09, pre-registration): top +1 at 0.579, runner-up +6 at 0.573, margin 0.006 REFUSED by the 0.02 gate. +1 agrees with the declared key and is recorded as observational only; ROOTS ARE GRADED TRANSPOSITION-INVARIANTLY for this slot (LCS over successive-root intervals), which no capo can disturb. Quality families are transposition-free. Full table: +1 .579, +6 .573, +11 .525, +8 .472, +9 .471, +4 .468, +2 .433, +10 .422, +3 .409, +5 .409, +7 .377, +0 .370"
+	},
 	"sections": {
 		"Verse": ["F", "Em", "F", "Em", "G"],
 		"Chorus": ["F", "G", "Am", "D/F#", "F", "G"],
