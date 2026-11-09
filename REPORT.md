@@ -3052,3 +3052,53 @@ Kevin's go) is the test of whether that edge is real.
 
 Spend: 80,779 in / 12,005 out ≈ $0.30 — the pilot fence to the cent
 (registered estimate $0.25; drafts 5, transcriptions 20, all else $0).
+
+### Study 33 matrix (same day): peaceful-dreams settles it — the mono downmix is the whole answer
+
+The matrix (peaceful-dreams × the five arms, reg 88fceeb, scope fix
+c396220 disclosed below) answered the pilot's one open question and
+re-confirmed everything else:
+
+| arm | input | notes | roots |
+|---|---|---|---|
+| R | non-drum stem sum | 2,477 | 151/153 = 98.7% |
+| A | mono mix | 2,673 | 152/153 = 99.3% |
+| B | L/R pseudo-stems | 5,393 | 152/153 = 99.3% |
+| C | mid/side pseudo-stems | 4,942 | 146/153 = 95.4% |
+| D | HPSS harmonic | 2,314 | 152/153 = 99.3% |
+
+**S33-G1 PASS again, to the bar:** arm R reproduced the frozen ref
+exactly on both songs now (72/76 and 151/153). **S33-G2 PASS again —
+the question is closed:** L/R-as-two-stems went one bar under mono on
+letter and tied it on peaceful, at double the transcription both
+times. Not worth it, on both songs, final. **The unregistered headline
+held twice:** the plain mono mix drafted ABOVE the stems sum on both
+songs (97.4% vs 94.7%; 99.3% vs 98.7%) — a fresh stereo file needs no
+stems to draft at stems quality.
+
+**Mid/side's pilot edge was noise, and worse: the side channel can
+poison the draft.** The one arm that beat mono on letter (+1 bar)
+crashed to 146/153 on peaceful, six bars under mono — the side
+channel's ~2,270 extra notes (cymbals, reverb, width) read as harmony
+in enough bars to hurt. The production answer sharpens: no mid/side
+either.
+
+**S33-G3 split honestly:** FAIL on the pilot (letter, −2.7 points),
+PASS on the matrix (peaceful, D tied A); across both songs the mean
+(−0.013) sits inside the registered −0.02. The finding stands as the
+pilot published it: HPSS is inconsistent per song and never helps —
+pure cost.
+
+**The production answer, final:** a chartless stereo upload goes into
+the pipeline as its mono downmix — same grid, same hints, same draft,
+stems-ceiling quality on both songs measured. No channel splitting, no
+mid/side, no source separation.
+
+Disclosures. (1) The runner as registered re-ran the pilot song in
+--matrix mode, outside the registered matrix scope; corrected to
+peaceful-alone before any paid call (c396220), pilot untouched. (2)
+**The matrix fence was exceeded:** 191,152 in / 21,321 out ≈ $0.68
+against the registered $0.6. The estimate assumed stems-sum-sized
+prompts; arms B and C carry nearly twice the notes (5,393 and 4,942),
+and peaceful's bar lines grew the drafts to ≈38k tokens in each. Found
+after the run completed; published as spent. Study 33 total ≈ $0.98.
