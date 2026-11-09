@@ -1,0 +1,87 @@
+{
+	"version": 1,
+	"model": "anthropic/claude-fable-5-1",
+	"matrix": false,
+	"songs": {
+		"letter-lands": {
+			"placed": {
+				"cls": 0,
+				"anchor": -0.06818181818181768,
+				"n": 76
+			},
+			"arms": {
+				"R": {
+					"pct": 0.9473684210526315,
+					"roots": {
+						"right": 72,
+						"bearing": 76
+					},
+					"noteCount": 1179
+				},
+				"A": {
+					"pct": 0.9736842105263158,
+					"roots": {
+						"right": 74,
+						"bearing": 76
+					},
+					"noteCount": 1049
+				},
+				"B": {
+					"pct": 0.9605263157894737,
+					"roots": {
+						"right": 73,
+						"bearing": 76
+					},
+					"noteCount": 2049
+				},
+				"C": {
+					"pct": 0.9868421052631579,
+					"roots": {
+						"right": 75,
+						"bearing": 76
+					},
+					"noteCount": 1824
+				},
+				"D": {
+					"pct": 0.9473684210526315,
+					"roots": {
+						"right": 72,
+						"bearing": 76
+					},
+					"noteCount": 998
+				}
+			},
+			"refPct": 0.9473684210526315
+		}
+	},
+	"sweep": {
+		"ceiling": 0.9968984349489499,
+		"widths": {
+			"0": {
+				"mono": 0.9610490582866329,
+				"left": 0.9610490582866329,
+				"side": 0,
+				"hpss": 0.9967676124065868
+			},
+			"1": {
+				"mono": 0.9452095841515171,
+				"left": 0,
+				"side": 0.9968987882511127,
+				"hpss": 0.9956448808725165
+			},
+			"0.5": {
+				"mono": 0.9588029224424128,
+				"left": 0.9416450775248935,
+				"side": 0.9968984349489499,
+				"hpss": 0.996773242721642
+			}
+		}
+	},
+	"gates": {
+		"S33-G1": "PASS",
+		"S33-G2": "PASS",
+		"S33-G3": "FAIL"
+	},
+	"tokensIn": 80779,
+	"tokensOut": 12005
+}
