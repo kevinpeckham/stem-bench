@@ -8,6 +8,15 @@ import { describe, expect, test } from "bun:test";
 import { alignBeats } from "../src/study34/align.js";
 import { bassPc, qualityFamily, qualityScore, sectionScore, slashScore } from "../src/study34/grade34.js";
 import { harteToSymbol, parseJaah } from "../src/study34/jaah.js";
+import {
+	alignRigid,
+	alignSequenceToTime,
+	calibrateKeyGlobal,
+	calibrateTransposition,
+	chordTemplate,
+	transposeSymbol,
+	truthAtTime,
+} from "../src/study34/seqalign.js";
 
 describe("harteToSymbol", () => {
 	test("maps the families and drops what the grading ignores", () => {
@@ -108,5 +117,80 @@ describe("the three graders", () => {
 	});
 	test("sectionScore matches within one bar", () => {
 		expect(sectionScore([0, 8, 16], [0, 9, 20])).toEqual({ right: 2, bearing: 3 });
+	});
+});
+
+describe("seqalign", () => {
+	// 10 fps synthetic chroma: C for 4 s, F for 6 s, G for 3 s, C for 5 s
+	const plan: [string, number][] = [
+		["C", 4],
+		["F", 6],
+		["G", 3],
+		["C", 5],
+	];
+	const hopSec = 0.1;
+	const makeFrames = (transpose: number): Float32Array[] => {
+		const frames: Float32Array[] = [];
+		for (const [chord, sec] of plan) {
+			const tpl = chordTemplate(chord, transpose)!;
+			for (let i = 0; i < sec / hopSec; i++) frames.push(tpl);
+		}
+		return frames;
+	};
+	test("recovers the boundaries of a known progression", () => {
+		const { segments, score } = alignSequenceToTime(
+			plan.map(([c]) => c),
+			makeFrames(0),
+			hopSec,
+		);
+		expect(segments.map((s) => s.chord)).toEqual(["C", "F", "G", "C"]);
+		expect(Math.abs(segments[1]!.from - 4)).toBeLessThan(0.25);
+		expect(Math.abs(segments[2]!.from - 10)).toBeLessThan(0.25);
+		expect(Math.abs(segments[3]!.from - 13)).toBeLessThan(0.25);
+		expect(score).toBeGreaterThan(0.95); // frames ARE the templates
+	});
+	test("calibrateTransposition finds a capo", () => {
+		const { transpose } = calibrateTransposition(
+			plan.map(([c]) => c),
+			makeFrames(3),
+			hopSec,
+		);
+		expect(transpose).toBe(3);
+	});
+	test("alignRigid recovers tempo and offset of a fixed chain", () => {
+		// 30 units (short chains leave tempo/offset ties; length breaks them by drift)
+		const chain = Array.from({ length: 30 }, (_, i) => ["C", "F", "G", "Am", "Dm", "E"][i % 6]!);
+		const hopSec = 0.1;
+		const unitTrue = 1.02;
+		const offsetTrue = 1.5;
+		const frames: Float32Array[] = [];
+		const silent = new Float32Array(12);
+		for (let t = 0; t < 400; t++) {
+			const sec = t * hopSec;
+			const u = Math.floor((sec - offsetTrue) / unitTrue);
+			frames.push(u >= 0 && u < chain.length ? chordTemplate(chain[u]!)! : silent);
+		}
+		const fit = alignRigid(chain, frames, hopSec, 1.0);
+		expect(Math.abs(fit.unitSec - unitTrue)).toBeLessThan(0.01);
+		expect(Math.abs(fit.offset - offsetTrue)).toBeLessThan(0.15);
+		expect(fit.contrast).toBeGreaterThan(1.1);
+	});
+	test("calibrateKeyGlobal finds a global transposition", () => {
+		const chords = ["C", "F", "G", "Am"];
+		const frames = chords.flatMap((c) => Array.from({ length: 20 }, () => chordTemplate(c, 4)!));
+		const key = calibrateKeyGlobal(chords, frames);
+		expect(key.transpose).toBe(4);
+		expect(key.score - key.runnerUp).toBeGreaterThan(0.02);
+	});
+	test("truthAtTime reads segments; transposeSymbol keeps quality and bass", () => {
+		const segs = [
+			{ chord: "C", from: 0, to: 4 },
+			{ chord: "F", from: 4, to: 10 },
+		];
+		expect(truthAtTime(segs, 5)).toBe("F");
+		expect(truthAtTime(segs, 11)).toBe("");
+		expect(transposeSymbol("Gm7", 2)).toBe("Am7");
+		expect(transposeSymbol("G/B", 1)).toBe("Ab/C");
+		expect(transposeSymbol("N.C.", 5)).toBe("N.C.");
 	});
 });
