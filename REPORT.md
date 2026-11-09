@@ -2986,3 +2986,69 @@ decline STANDS, with its reason corrected: w2's local-beat estimator
 these songs end busy. Kevin's lingering-sustain hypothesis is the
 smaller, true remainder: every song rings 0.2–0.4 s past its last
 strong onset.
+
+## Study 33 (pilot) — the stereo file as two stems
+
+Kevin's question (docs/BRIEF-STUDY33.md, reg 88fceeb): the app drafts a
+barmark chart from a fresh song with stems — how well does that work on
+a stereo file, and is it worth treating the stereo file as two stems?
+The grid half was already settled (Studies 28–32 ran on mono downmixes
+of these exact stereo mixes), so the study isolates the draft's
+transcription input: five arms on letter-lands, one shared grid, vote,
+placement and hint set, graded by rootScore against the chart.
+Scoping measurement first: the four corpus mixes correlate L/R at
+0.83–0.90 with the side channel 10–13 dB under the mid, weakest below
+200 Hz — kick and bass centered, the separation in cymbals and width.
+
+**The arms (letter-lands, frozen stems ref 72/76 = 94.7%).**
+
+| arm | transcription input | notes | roots |
+|---|---|---|---|
+| R | non-drum stem sum (the stems pipeline) | 1,179 | 72/76 = 94.7% |
+| A | mono mix (the naive stereo-file path) | 1,049 | 74/76 = 97.4% |
+| B | L and R as two pseudo-stems | 2,049 | 73/76 = 96.1% |
+| C | mid and side as two pseudo-stems | 1,824 | 75/76 = 98.7% |
+| D | HPSS harmonic of the mono mix | 998 | 72/76 = 94.7% |
+
+**Gates.** S33-G1 PASS: arm R reproduces the frozen ref exactly
+(72/76). S33-G2 PASS — the registered answer confirmed: L/R-as-two-
+stems (96.1%) does not beat the plain mono mix (97.4%); it doubles the
+transcription for one bar less. S33-G3 **FAIL, published as found**:
+HPSS cost two bars against the mono mix (94.7% vs 97.4%, under the
+registered −0.02 tolerance by 0.7 points) — the median filter reads
+real strummed attacks and vibrato as percussive and takes harmony with
+them.
+
+**The headline nobody registered: the mono mix drafts AT the stems
+ceiling.** P1 predicted drum bleed would cost bars (A below R within 15
+points); A landed ABOVE R, 97.4% vs 94.7%. Basic Pitch transcribes the
+drums weakly (the mix yielded FEWER notes than the stems sum, 1,049 vs
+1,179 — masking), and the draft model reads through what bleed remains.
+On this pilot a fresh stereo file needs no stems at all to draft at
+stems quality. P2 half right: B sat within noise below A; C came out
+one bar ABOVE everything — all five arms span three bars, the
+disclosed sampling-noise scale (the gateway ignores temperature on
+fable-5-1), so C's edge is a matrix question, not a conclusion.
+
+**The synthetic separation sweep ($0, chord-tone purity, ceiling
+99.7%).** P3 right on its own terms: at width 0 the side channel is
+silence (0 notes) and the mono sum reads 96.1%; at width 0.5 and 1.0
+the side channel isolates the chords perfectly (99.7%, by
+construction); HPSS sits at the ceiling (99.6–99.7%) at every width —
+on synthetics. The left channel collapses to drums-only at full width
+(0 notes). The sweep and G3 together name the finding: median-filter
+HPSS is perfect on clean synthetic sustains and LOSES real harmony;
+the side channel is pure harmony exactly when the mix pans harmony,
+which these real mixes mostly do not (side −10 to −13 dB, lows
+centered).
+
+**The production answer (pilot).** A stereo upload with no stems can
+go straight into the draft pipeline as its mono downmix: same grid,
+same hints, stems-ceiling quality on this pilot. Do not split L/R (two
+transcriptions for nothing), do not HPSS. Mid/side is the only
+candidate that beat mono, by one bar inside sampling noise — the
+registered matrix (peaceful-dreams × the five arms, fence $0.6,
+Kevin's go) is the test of whether that edge is real.
+
+Spend: 80,779 in / 12,005 out ≈ $0.30 — the pilot fence to the cent
+(registered estimate $0.25; drafts 5, transcriptions 20, all else $0).
