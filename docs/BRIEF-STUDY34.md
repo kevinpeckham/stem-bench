@@ -18,11 +18,15 @@ prompt to claude-fable-5-1 through the gateway (temperature ignored by
 the gateway; sampling noise disclosed since Study 32).
 
 **Declared inputs for wild recordings** (registered design decision):
-a public upload has no user declarations, so "declared" tempo and
-meter come from the production DSP port — study9 `analyse()`
-(detectTempo, detectMeter) on the mono features. The two Badverbs
-slots keep their page declarations (the app's real chartless flow has
-them); every non-Badverbs slot uses `analyse()`. Each slot's record
+a public upload has no user declarations, so "declared" tempo, meter
+AND key come from the production DSP port — study9 `analyse()`
+(detectTempo, detectMeter, detectKey) on the production-capped mono
+features, exactly as run-study10/22 call it. The production meter
+detector only knows 4/4 and 3/4, so the 6/8 jig necessarily gets a
+wrong prior; that is production reality and part of the breadth
+measurement. The two Badverbs slots keep their page declarations (the
+app's real chartless flow has them); every non-Badverbs slot uses
+`analyse()`. Each slot's record
 notes which path it took.
 
 ## Corpus (pinned d3e7f8c, audio gitignored, hashes committed)
