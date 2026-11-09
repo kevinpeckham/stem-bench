@@ -1,0 +1,566 @@
+{
+	"model": "anthropic/claude-fable-5-1",
+	"results": {
+		"dippermouth-blues": {
+			"arm": 1,
+			"declared": {
+				"bpm": 186,
+				"meter": "4/4",
+				"key": "C major"
+			},
+			"placed": {
+				"n": 114,
+				"anchor": -0.09025806451613239,
+				"cls": 0,
+				"gridBpm": 187.4622052005638,
+				"gridOffPct": 0.00786131828260108
+			},
+			"noteCount": 254,
+			"draftBars": 113,
+			"barCountChanged": true,
+			"unknownShare": 0,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Head",
+					"bar": 4
+				},
+				{
+					"name": "Clarinet Solo",
+					"bar": 16
+				},
+				{
+					"name": "Ensemble",
+					"bar": 40
+				},
+				{
+					"name": "Cornet Solo",
+					"bar": 52
+				},
+				{
+					"name": "Out Chorus",
+					"bar": 88
+				},
+				{
+					"name": "Tag",
+					"bar": 112
+				}
+			],
+			"rawDraft": "{\"chords\":\"C % % G7 C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C % % C7 F % C % G7 % C % C\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Head\",\"bar\":5},{\"index\":\"III\",\"name\":\"Clarinet Solo\",\"bar\":17},{\"index\":\"IV\",\"name\":\"Ensemble\",\"bar\":41},{\"index\":\"V\",\"name\":\"Cornet Solo\",\"bar\":53},{\"index\":\"VI\",\"name\":\"Out Chorus\",\"bar\":89},{\"index\":\"VII\",\"name\":\"Tag\",\"bar\":113}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| C | C | C | G7 |\"},{\"section\":\"Head\",\"chords\":\"| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C |\"},{\"section\":\"Clarinet Solo\",\"chords\":\"| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C | x2\"},{\"section\":\"Ensemble\",\"chords\":\"| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C |\"},{\"section\":\"Cornet Solo\",\"chords\":\"| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C | x3\"},{\"section\":\"Out Chorus\",\"chords\":\"| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C |\"},{\"section\":\"Tag\",\"chords\":\"| C |\"}],\"chart\":\"# Dippermouth Blues\\n186 bpm · C major · 4/4\\n\\n**Structure:** Intro (4) – Head (12) – Clarinet Solo (2×12) – Ensemble (12) – Cornet Solo (3×12) – Out Chorus (12) – Tag (1)\\n\\n## I. Intro (bar 1)\\n| C | C | C | G7 |\\n\\n## II. Head (bar 5)\\n| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C |\\n\\n## III. Clarinet Solo (bar 17)\\n| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C | x2\\n\\n## IV. Ensemble (bar 41)\\n| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C |\\n\\n## V. Cornet Solo (bar 53)\\n| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C | x3\\n\\n## VI. Out Chorus (bar 89)\\n| C | C | C | C7 | F | F | C | C | G7 | G7 | C | C |\\n\\n## VII. Tag (bar 113)\\n| C |\\n\",\"notes\":\"Transcription is very sparse (mostly melody fragments with blue Eb), so the 12-bar blues in C is assumed from the song's known form; section labels by instrument are approximate.\"}",
+			"roots": {
+				"right": 75,
+				"bearing": 114
+			},
+			"quals": {
+				"right": 64,
+				"bearing": 113
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 0,
+			"sections": {
+				"right": 3,
+				"bearing": 6
+			},
+			"barOneErr": 0.17474193548386763,
+			"truthBarCount": 114,
+			"class": "confidently-wrong"
+		},
+		"st-louis-blues": {
+			"arm": 1,
+			"declared": {
+				"bpm": 67,
+				"meter": "4/4",
+				"key": "B♭ major"
+			},
+			"placed": {
+				"n": 49,
+				"anchor": -0.15077611940300306,
+				"cls": 0,
+				"gridBpm": 62.163666728521335,
+				"gridOffPct": 0.07218407867878604
+			},
+			"noteCount": 629,
+			"draftBars": 48,
+			"barCountChanged": true,
+			"unknownShare": 0,
+			"draftSections": [
+				{
+					"name": "Verse 1 (Blues)",
+					"bar": 0
+				},
+				{
+					"name": "Verse 2 (Blues)",
+					"bar": 12
+				},
+				{
+					"name": "Tango (Minor Strain)",
+					"bar": 24
+				},
+				{
+					"name": "Verse 3 (Blues)",
+					"bar": 40
+				}
+			],
+			"rawDraft": "{\"chords\":\"Bb7 Eb7 Bb7 Bb7 Eb7 Eb7 Bb7 Bb7 F7 Eb7 Bb7 F7 Bb7 Eb7 Bb7 Bb7 Eb7 Eb7 Bb7 Bb7 F7 Eb7 Bb7 F7 Gm D7 Gm D7 Gm D7 Gm G7 Cm D7 Gm D7 Gm D7 Gm F7 Bb7 Eb7 Bb7 Bb7 Eb7 Eb7 Bb7 Bb7\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1 (Blues)\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2 (Blues)\",\"bar\":13},{\"index\":\"III\",\"name\":\"Tango (Minor Strain)\",\"bar\":25},{\"index\":\"IV\",\"name\":\"Verse 3 (Blues)\",\"bar\":41}],\"progressions\":[{\"section\":\"Verse 1 (Blues)\",\"chords\":\"| Bb7 | Eb7 | Bb7 | Bb7 | Eb7 | Eb7 | Bb7 | Bb7 | F7 | Eb7 | Bb7 | F7 |\"},{\"section\":\"Verse 2 (Blues)\",\"chords\":\"| Bb7 | Eb7 | Bb7 | Bb7 | Eb7 | Eb7 | Bb7 | Bb7 | F7 | Eb7 | Bb7 | F7 |\"},{\"section\":\"Tango (Minor Strain)\",\"chords\":\"| Gm | D7 | Gm | D7 | Gm | D7 | Gm | G7 | Cm | D7 | Gm | D7 | Gm | D7 | Gm | F7 |\"},{\"section\":\"Verse 3 (Blues)\",\"chords\":\"| Bb7 | Eb7 | Bb7 | Bb7 | Eb7 | Eb7 | Bb7 | Bb7 |\"}],\"chart\":\"# St. Louis Blues\\n**Key:** Bb major · **Tempo:** 67 bpm · **Time:** 4/4\\n\\n**Structure:** Verse 1 (12-bar) – Verse 2 (12-bar) – Tango/Minor Strain (16 bars, Gm) – Verse 3 (blues, 8 bars to end)\\n\\n## I. Verse 1 (Blues) — bar 1\\n| Bb7 | Eb7 | Bb7 | Bb7 |\\n| Eb7 | Eb7 | Bb7 | Bb7 |\\n| F7 | Eb7 | Bb7 | F7 |\\n\\n## II. Verse 2 (Blues) — bar 13\\n| Bb7 | Eb7 | Bb7 | Bb7 |\\n| Eb7 | Eb7 | Bb7 | Bb7 |\\n| F7 | Eb7 | Bb7 | F7 |\\n\\n## III. Tango (Minor Strain) — bar 25\\n| Gm | D7 | Gm | D7 |\\n| Gm | D7 | Gm | G7 |\\n| Cm | D7 | Gm | D7 |\\n| Gm | D7 | Gm | F7 |\\n\\n## IV. Verse 3 (Blues) — bar 41\\n| Bb7 | Eb7 | Bb7 | Bb7 |\\n| Eb7 | Eb7 | Bb7 | Bb7 | (recording cuts off / fade)\\n\",\"notes\":\"Transcription is very noisy (mostly melody fragments around Eb/F and D/A), so the chart follows the standard St. Louis Blues form in Bb—12-bar blues choruses and a Gm/D7 minor tango strain at bars 25–40—rather than the bar-by-bar matcher guesses; the exact minor-strain turnaround (bars 32–33, 40) is the least certain.\"}",
+			"roots": {
+				"right": 3,
+				"bearing": 49
+			},
+			"quals": {
+				"right": 24,
+				"bearing": 49
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 4,
+			"sections": {
+				"right": 4,
+				"bearing": 5
+			},
+			"barOneErr": 0.8077761194030031,
+			"truthBarCount": 53,
+			"class": "confidently-wrong"
+		},
+		"livery-stable-blues": {
+			"arm": 1,
+			"declared": {
+				"bpm": 164,
+				"meter": "4/4",
+				"key": "E♭ major"
+			},
+			"placed": {
+				"n": 115,
+				"anchor": -1.016829268292683,
+				"cls": 0,
+				"gridBpm": 149.36247723132965,
+				"gridOffPct": 0.0892531876138436
+			},
+			"noteCount": 1155,
+			"draftBars": 114,
+			"barCountChanged": true,
+			"unknownShare": 0.008771929824561403,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Chorus 1",
+					"bar": 5
+				},
+				{
+					"name": "Chorus 2",
+					"bar": 17
+				},
+				{
+					"name": "Chorus 3",
+					"bar": 27
+				},
+				{
+					"name": "Chorus 4",
+					"bar": 39
+				},
+				{
+					"name": "Barnyard Break",
+					"bar": 50
+				},
+				{
+					"name": "Chorus 5",
+					"bar": 53
+				},
+				{
+					"name": "Barnyard Break",
+					"bar": 61
+				},
+				{
+					"name": "Chorus 6",
+					"bar": 64
+				},
+				{
+					"name": "Chorus 7",
+					"bar": 75
+				},
+				{
+					"name": "Chorus 8",
+					"bar": 86
+				},
+				{
+					"name": "Barnyard Break",
+					"bar": 94
+				},
+				{
+					"name": "Chorus 9",
+					"bar": 97
+				},
+				{
+					"name": "Barnyard Break",
+					"bar": 105
+				},
+				{
+					"name": "Outro",
+					"bar": 108
+				}
+			],
+			"rawDraft": "{\"chords\":\"N.C. Eb % % % % % Eb7 Eb Ab % C7 % F7 Bb7 Eb % % Eb7 Ab % Eb C7 % F7 Bb7 Eb % % % Eb7 Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Bb7 Eb % % % % Ab Eb C7 % F7 Eb\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Chorus 1\",\"bar\":6},{\"index\":\"III\",\"name\":\"Chorus 2\",\"bar\":18},{\"index\":\"IV\",\"name\":\"Chorus 3\",\"bar\":28},{\"index\":\"V\",\"name\":\"Chorus 4\",\"bar\":40},{\"index\":\"VI\",\"name\":\"Barnyard Break\",\"bar\":51},{\"index\":\"VII\",\"name\":\"Chorus 5\",\"bar\":54},{\"index\":\"VIII\",\"name\":\"Barnyard Break\",\"bar\":62},{\"index\":\"IX\",\"name\":\"Chorus 6\",\"bar\":65},{\"index\":\"X\",\"name\":\"Chorus 7\",\"bar\":76},{\"index\":\"XI\",\"name\":\"Chorus 8\",\"bar\":87},{\"index\":\"XII\",\"name\":\"Barnyard Break\",\"bar\":95},{\"index\":\"XIII\",\"name\":\"Chorus 9\",\"bar\":98},{\"index\":\"XIV\",\"name\":\"Barnyard Break\",\"bar\":106},{\"index\":\"XV\",\"name\":\"Outro\",\"bar\":109}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| N.C. | Eb | Eb | Eb | Eb |\"},{\"section\":\"Chorus 1\",\"chords\":\"| Eb | Eb | Eb7 | Eb | Ab | Ab | C7 | C7 | F7 | Bb7 | Eb | Eb |\"},{\"section\":\"Chorus 2\",\"chords\":\"| Eb | Eb7 | Ab | Ab | Eb | C7 | C7 | F7 | Bb7 | Eb |\"},{\"section\":\"Chorus 3\",\"chords\":\"| Eb | Eb | Eb | Eb7 | Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\"},{\"section\":\"Chorus 4\",\"chords\":\"| Eb | Eb | Eb | Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\"},{\"section\":\"Barnyard Break\",\"chords\":\"| Eb | Eb | Eb | (horse whinny / rooster breaks over Eb)\"},{\"section\":\"Chorus 5\",\"chords\":\"| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\"},{\"section\":\"Chorus 6\",\"chords\":\"| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb | Eb | Eb | Eb |\"},{\"section\":\"Chorus 7\",\"chords\":\"| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb | Eb | Eb | Eb |\"},{\"section\":\"Chorus 8\",\"chords\":\"| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\"},{\"section\":\"Chorus 9\",\"chords\":\"| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\"},{\"section\":\"Outro\",\"chords\":\"| Ab | Eb | C7 | C7 | F7 | Eb |\"}],\"chart\":\"# Livery Stable Blues\\n164 bpm · Eb major · 4/4\\n\\n**Structure:** Intro – Chorus x4 – Break – Chorus – Break – Chorus x3 – Break – Chorus – Break – Outro\\n\\nCore 12-bar blues cycle (all choruses): `| Eb | Eb | Eb | Eb7 | Ab | Ab(Eb) | C7 | C7 | F7 | Bb7 | Eb | Eb |`\\n\\n## I. Intro (bar 1)\\n| N.C. | Eb | Eb | Eb | Eb |\\n\\n## II. Chorus 1 (bar 6)\\n| Eb | Eb | Eb7 | Eb | Ab | Ab | C7 | C7 | F7 | Bb7 | Eb | Eb |\\n\\n## III. Chorus 2 (bar 18)\\n| Eb | Eb7 | Ab | Ab | Eb | C7 | C7 | F7 | Bb7 | Eb |\\n\\n## IV. Chorus 3 (bar 28)\\n| Eb | Eb | Eb | Eb7 | Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\\n\\n## V. Chorus 4 (bar 40)\\n| Eb | Eb | Eb | Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\\n\\n## VI. Barnyard Break (bar 51)\\n| Eb | Eb | Eb | — animal-sound breaks, band lays out\\n\\n## VII. Chorus 5 (bar 54)\\n| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\\n\\n## VIII. Barnyard Break (bar 62)\\n| Eb | Eb | Eb |\\n\\n## IX. Chorus 6 (bar 65)\\n| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb | Eb | Eb | Eb |\\n\\n## X. Chorus 7 (bar 76)\\n| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb | Eb | Eb | Eb |\\n\\n## XI. Chorus 8 (bar 87)\\n| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\\n\\n## XII. Barnyard Break (bar 95)\\n| Eb | Eb | Eb |\\n\\n## XIII. Chorus 9 (bar 98)\\n| Ab | Eb | C7 | C7 | F7 | Bb7 | Eb | Eb |\\n\\n## XIV. Barnyard Break (bar 106)\\n| Eb | Eb | Eb |\\n\\n## XV. Outro (bar 109)\\n| Ab | Eb | C7 | C7 | F7 | Eb |\",\"notes\":\"Chorus boundaries are approximate since the transcription's 12-bar cycle drifts by a bar in places (the Ab bars are sometimes 1, sometimes 2) and the animal-sound breaks are sparse; the Eb–Ab–C7–F7–Bb7–Eb blues cycle itself is solid.\"}",
+			"roots": {
+				"right": 60,
+				"bearing": 113
+			},
+			"quals": {
+				"right": 66,
+				"bearing": 101
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 10,
+			"sections": {
+				"right": 8,
+				"bearing": 11
+			},
+			"barOneErr": 2.413829268292683,
+			"truthBarCount": 125,
+			"class": "confidently-wrong"
+		},
+		"roll-called-up-yonder": {
+			"arm": 1,
+			"declared": {
+				"bpm": 97,
+				"meter": "4/4",
+				"key": "C minor"
+			},
+			"placed": {
+				"n": 76,
+				"anchor": 0.3300000000000001,
+				"cls": 0,
+				"gridBpm": 96.03960396039574,
+				"gridOffPct": 0.009900990099013013
+			},
+			"noteCount": 144,
+			"draftBars": 75,
+			"barCountChanged": true,
+			"unknownShare": 0.25333333333333335,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 9
+				},
+				{
+					"name": "Verse 2",
+					"bar": 17
+				},
+				{
+					"name": "Interlude",
+					"bar": 25
+				},
+				{
+					"name": "Verse 3",
+					"bar": 33
+				},
+				{
+					"name": "Chorus",
+					"bar": 41
+				},
+				{
+					"name": "Break",
+					"bar": 49
+				},
+				{
+					"name": "Verse 4",
+					"bar": 56
+				},
+				{
+					"name": "Chorus",
+					"bar": 64
+				},
+				{
+					"name": "Outro",
+					"bar": 72
+				}
+			],
+			"rawDraft": "{\"chords\":\"N.C. % % % % % % % % Cm % Ab Cm % Ab % % Cm % Bb Ab Cm Ab % Cm Cm % % Bb % % % Ab Cm % Ab Cm % Ab % % Cm % Bb Cm % Ab % Cm N.C. % % % % % % Cm % Ab Bb Cm % Bb Cm Cm % Bb Ab Cm % Ab Cm N.C. % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":10},{\"index\":\"III\",\"name\":\"Verse 2\",\"bar\":18},{\"index\":\"IV\",\"name\":\"Interlude\",\"bar\":26},{\"index\":\"V\",\"name\":\"Verse 3\",\"bar\":34},{\"index\":\"VI\",\"name\":\"Chorus\",\"bar\":42},{\"index\":\"VII\",\"name\":\"Break\",\"bar\":50},{\"index\":\"VIII\",\"name\":\"Verse 4\",\"bar\":57},{\"index\":\"IX\",\"name\":\"Chorus\",\"bar\":65},{\"index\":\"X\",\"name\":\"Outro\",\"bar\":73}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| N.C. | x9\"},{\"section\":\"Verse 1\",\"chords\":\"| Cm | Cm | Ab | Cm | Cm | Ab | Ab | Ab |\"},{\"section\":\"Verse 2\",\"chords\":\"| Cm | Cm | Bb | Ab | Cm | Ab | Ab | Cm |\"},{\"section\":\"Interlude\",\"chords\":\"| Cm | Cm | Cm | Bb | Bb | Bb | Bb | Ab |\"},{\"section\":\"Verse 3\",\"chords\":\"| Cm | Cm | Ab | Cm | Cm | Ab | Ab | Ab |\"},{\"section\":\"Chorus\",\"chords\":\"| Cm | Cm | Bb | Cm | Cm | Ab | Ab | Cm |\"},{\"section\":\"Break\",\"chords\":\"| N.C. | x7\"},{\"section\":\"Verse 4\",\"chords\":\"| Cm | Cm | Ab | Bb | Cm | Cm | Bb | Cm |\"},{\"section\":\"Chorus\",\"chords\":\"| Cm | Cm | Bb | Ab | Cm | Cm | Ab | Cm |\"},{\"section\":\"Outro\",\"chords\":\"| N.C. | x3\"}],\"chart\":\"# Roll Called Up Yonder\\n97 bpm · C minor · 4/4\\n\\nStructure: Intro – Verse 1 – Verse 2 – Interlude – Verse 3 – Chorus – Break – Verse 4 – Chorus – Outro\\n\\n## I. Intro (bar 1)\\n| N.C. | x9\\n\\n## II. Verse 1 (bar 10)\\n| Cm | Cm | Ab | Cm | Cm | Ab | Ab | Ab |\\n\\n## III. Verse 2 (bar 18)\\n| Cm | Cm | Bb | Ab | Cm | Ab | Ab | Cm |\\n\\n## IV. Interlude (bar 26)\\n| Cm | Cm | Cm | Bb | Bb | Bb | Bb | Ab |\\n\\n## V. Verse 3 (bar 34)\\n| Cm | Cm | Ab | Cm | Cm | Ab | Ab | Ab |\\n\\n## VI. Chorus (bar 42)\\n| Cm | Cm | Bb | Cm | Cm | Ab | Ab | Cm |\\n\\n## VII. Break (bar 50)\\n| N.C. | x7\\n\\n## VIII. Verse 4 (bar 57)\\n| Cm | Cm | Ab | Bb | Cm | Cm | Bb | Cm |\\n\\n## IX. Chorus (bar 65)\\n| Cm | Cm | Bb | Ab | Cm | Cm | Ab | Cm |\\n\\n## X. Outro (bar 73)\\n| N.C. | x3\",\"notes\":\"Transcription is extremely sparse (mostly short Eb/C/Db fragments, likely a quiet vocal/solo line), so chords are inferred as a plausible Cm–Ab–Bb progression; Db-heavy bars (12, 20, 44, 67) could be Db or Bb7 instead of Ab/Bb, and the silent stretches may be very quiet playing rather than true rests.\"}",
+			"roots": {
+				"right": 13,
+				"bearing": 75
+			},
+			"quals": {
+				"right": 22,
+				"bearing": 75
+			},
+			"grading": "cyclic mod 16",
+			"truthBarCount": 16,
+			"class": "confidently-wrong"
+		},
+		"three-oclock-waltz": {
+			"arm": 1,
+			"declared": {
+				"bpm": 142,
+				"meter": "3/4",
+				"key": "A minor"
+			},
+			"placed": {
+				"n": 149,
+				"anchor": 1.497239436619715,
+				"cls": 0,
+				"gridBpm": 140.92894005557798,
+				"gridOffPct": 0.007542675664943788
+			},
+			"noteCount": 199,
+			"draftBars": 148,
+			"barCountChanged": true,
+			"unknownShare": 0.16216216216216217,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 22
+				},
+				{
+					"name": "Bridge",
+					"bar": 42
+				},
+				{
+					"name": "Verse 2",
+					"bar": 71
+				},
+				{
+					"name": "Chorus",
+					"bar": 104
+				},
+				{
+					"name": "Outro",
+					"bar": 131
+				}
+			],
+			"rawDraft": "{\"chords\":\"N.C. % % % % % % % % % % % % % % % A % % % % % Dm % % % Am % % % Dm % % % E % % % Am % % % A % E % % A % E % % % % % A % % % % E % B % C#m % F#m % B % B7 Am % % % Dm % % % Am % % % Dm % % % Am % % % Dm % % % Am % % % E % % % A7 D % % % G % % % % % A7 % % % D % % A7 D % % % % E % % % N.C. % % % % % % % Ab5 % % % % % % % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":23},{\"index\":\"III\",\"name\":\"Bridge\",\"bar\":43},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":72},{\"index\":\"V\",\"name\":\"Chorus\",\"bar\":105},{\"index\":\"VI\",\"name\":\"Outro\",\"bar\":132}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| N.C. x16 | A x6 |\"},{\"section\":\"Verse 1\",\"chords\":\"| Dm x4 | Am x4 | Dm x4 | E x4 | Am x4 |\"},{\"section\":\"Bridge\",\"chords\":\"| A x2 | E x3 | A x2 | E x6 | A x5 | E x2 | B x2 | C#m x2 | F#m x2 | B x2 | B7 |\"},{\"section\":\"Verse 2\",\"chords\":\"| Am x4 | Dm x4 | x3 | Am x4 | E x4 | A7 |\"},{\"section\":\"Chorus\",\"chords\":\"| D x4 | G x6 | A7 x4 | D x3 | A7 | D x5 | E x4 |\"},{\"section\":\"Outro\",\"chords\":\"| N.C. x8 | Ab5 x9 |\"}],\"chart\":\"# three oclock waltz\\n142 bpm · 3/4 · A minor\\n\\nStructure: Intro – Verse 1 – Bridge – Verse 2 – Chorus – Outro\\n\\n## I. Intro (bar 1)\\n| N.C. x16 | A x6 |\\n\\n## II. Verse 1 (bar 23)\\n| Dm x4 | Am x4 | Dm x4 | E x4 | Am x4 |\\n\\n## III. Bridge (bar 43)\\n| A x2 | E x3 | A x2 | E x6 | A x5 | E x2 |\\n| B x2 | C#m x2 | F#m x2 | B x2 | B7 |\\n\\n## IV. Verse 2 (bar 72)\\n| Am x4 | Dm x4 | x3 |\\n| Am x4 | E x4 | A7 |\\n\\n## V. Chorus (bar 105)\\n| D x4 | G x6 | A7 x4 | D x3 | A7 | D x5 | E x4 |\\n\\n## VI. Outro (bar 132)\\n| N.C. x8 | Ab5 x9 | (low Ab/Eb pedal to end)\\n\",\"notes\":\"Transcription is almost entirely sparse single melody notes with long silences, so harmony is inferred from melodic outlines and the matcher; the Bridge's modulation to E/B and the low Ab5 pedal in the Outro are the only confident anchors, everything else should be checked against the recording.\"}",
+			"roots": {
+				"right": 7,
+				"bearing": 118
+			},
+			"quals": {
+				"right": 40,
+				"bearing": 118
+			},
+			"grading": "index min(n,118)",
+			"truthBarCount": 118,
+			"class": "confidently-wrong"
+		},
+		"st-louis-blues-key": {
+			"arm": 2,
+			"declared": {
+				"bpm": 67,
+				"meter": "4/4",
+				"key": "D"
+			},
+			"placed": {
+				"n": 49,
+				"anchor": -0.15077611940300306,
+				"cls": 0,
+				"gridBpm": 62.163666728521335,
+				"gridOffPct": 0.07218407867878604
+			},
+			"noteCount": 629,
+			"draftBars": 48,
+			"barCountChanged": true,
+			"unknownShare": 0,
+			"draftSections": [
+				{
+					"name": "Verse 1 (12-bar blues)",
+					"bar": 0
+				},
+				{
+					"name": "Verse 2 (12-bar blues)",
+					"bar": 12
+				},
+				{
+					"name": "Bridge (minor habanera)",
+					"bar": 24
+				},
+				{
+					"name": "Outro (blues)",
+					"bar": 40
+				}
+			],
+			"rawDraft": "{\"chords\":\"D7 G7 D7 % G7 % D7 % A7 G7 D7 A7 D7 G7 D7 % G7 % D7 % A7 G7 D7 A7 Dm % A7 % Dm % A7 % Dm % A7 % Dm % A7 % D7 G7 D7 % G7 % D7 %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1 (12-bar blues)\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2 (12-bar blues)\",\"bar\":13},{\"index\":\"III\",\"name\":\"Bridge (minor habanera)\",\"bar\":25},{\"index\":\"IV\",\"name\":\"Outro (blues)\",\"bar\":41}],\"progressions\":[{\"section\":\"Verse 1 (12-bar blues)\",\"chords\":\"| D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 | A7 | G7 | D7 | A7 |\"},{\"section\":\"Verse 2 (12-bar blues)\",\"chords\":\"| D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 | A7 | G7 | D7 | A7 |\"},{\"section\":\"Bridge (minor habanera)\",\"chords\":\"| Dm | Dm | A7 | A7 | x4\"},{\"section\":\"Outro (blues)\",\"chords\":\"| D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 |\"}],\"chart\":\"# St. Louis Blues\\n67 bpm · Key of D · 4/4\\n\\n**Structure:** Verse 1 – Verse 2 – Bridge (minor) – Outro\\n\\n## I. Verse 1 (12-bar blues) — bar 1\\n| D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 | A7 | G7 | D7 | A7 |\\n\\n## II. Verse 2 (12-bar blues) — bar 13\\n| D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 | A7 | G7 | D7 | A7 |\\n\\n## III. Bridge (minor habanera) — bar 25\\n| Dm | Dm | A7 | A7 | x4\\n\\n## IV. Outro (blues) — bar 41\\n| D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 |\\n(ride out on D7)\",\"notes\":\"The transcription reads consistently about a semitone sharp (Eb/F/Bb/Ab clusters) and is dominated by melody notes, so chords are inferred from the standard St. Louis Blues form in D rather than from clear bass evidence; the minor-section boundaries (bars 25–40) and quick-change in bar 2 are uncertain.\"}",
+			"roots": {
+				"right": 19,
+				"bearing": 49
+			},
+			"quals": {
+				"right": 24,
+				"bearing": 49
+			},
+			"slash": {
+				"right": 0,
+				"bearing": 0
+			},
+			"barCountOff": 4,
+			"sections": {
+				"right": 4,
+				"bearing": 5
+			},
+			"barOneErr": 0.8077761194030031,
+			"truthBarCount": 53,
+			"class": "confidently-wrong"
+		},
+		"roll-called-up-yonder-key": {
+			"arm": 2,
+			"declared": {
+				"bpm": 97,
+				"meter": "4/4",
+				"key": "Ab"
+			},
+			"placed": {
+				"n": 76,
+				"anchor": 0.3300000000000001,
+				"cls": 0,
+				"gridBpm": 96.03960396039574,
+				"gridOffPct": 0.009900990099013013
+			},
+			"noteCount": 144,
+			"draftBars": 75,
+			"barCountChanged": true,
+			"unknownShare": 0.36,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse 1",
+					"bar": 9
+				},
+				{
+					"name": "Interlude",
+					"bar": 25
+				},
+				{
+					"name": "Verse 2",
+					"bar": 33
+				},
+				{
+					"name": "Interlude",
+					"bar": 49
+				},
+				{
+					"name": "Verse 3",
+					"bar": 56
+				},
+				{
+					"name": "Outro",
+					"bar": 72
+				}
+			],
+			"rawDraft": "{\"chords\":\"N.C. % % % % % % % % Ab % Db Ab Eb7 % Ab % Ab % Db Ab Eb7 % Ab % N.C. % % % % % % % Ab % Db Ab Eb7 % Ab % Ab % Db Ab Eb7 % Ab % N.C. % % % % % % Ab % Db Ab Eb7 % Ab % Ab % Db Ab Eb7 % Ab % N.C. % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":10},{\"index\":\"III\",\"name\":\"Interlude\",\"bar\":26},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":34},{\"index\":\"V\",\"name\":\"Interlude\",\"bar\":50},{\"index\":\"VI\",\"name\":\"Verse 3\",\"bar\":57},{\"index\":\"VII\",\"name\":\"Outro\",\"bar\":73}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| N.C. | x9\"},{\"section\":\"Verse 1\",\"chords\":\"| Ab | Ab | Db | Ab | Eb7 | Eb7 | Ab | Ab | x2\"},{\"section\":\"Interlude\",\"chords\":\"| N.C. | x8\"},{\"section\":\"Verse 2\",\"chords\":\"| Ab | Ab | Db | Ab | Eb7 | Eb7 | Ab | Ab | x2\"},{\"section\":\"Interlude\",\"chords\":\"| N.C. | x7\"},{\"section\":\"Verse 3\",\"chords\":\"| Ab | Ab | Db | Ab | Eb7 | Eb7 | Ab | Ab | x2\"},{\"section\":\"Outro\",\"chords\":\"| N.C. | x3\"}],\"chart\":\"# Roll Called Up Yonder\\n97 bpm · Ab major · 4/4\\n\\n**Structure:** Intro – Verse 1 – Interlude – Verse 2 – Interlude – Verse 3 – Outro\\n\\n## I. Intro (bar 1)\\n| N.C. | x9\\n\\n## II. Verse 1 (bar 10)\\n| Ab | Ab | Db | Ab | Eb7 | Eb7 | Ab | Ab | x2\\n\\n## III. Interlude (bar 26)\\n| N.C. | x8\\n\\n## IV. Verse 2 (bar 34)\\n| Ab | Ab | Db | Ab | Eb7 | Eb7 | Ab | Ab | x2\\n\\n## V. Interlude (bar 50)\\n| N.C. | x7\\n\\n## VI. Verse 3 (bar 57)\\n| Ab | Ab | Db | Ab | Eb7 | Eb7 | Ab | Ab | x2\\n\\n## VII. Outro (bar 73)\\n| N.C. | x3\",\"notes\":\"Transcription is extremely sparse (mostly short, quiet Eb/C/Db fragments), so the I–IV–V7 hymn progression in Ab is inferred from the tune and the key; bar-level placement of Db and Eb7 is approximate and the 'N.C.' stretches may be quiet playing the transcriber missed.\"}",
+			"roots": {
+				"right": 23,
+				"bearing": 75
+			},
+			"quals": {
+				"right": 30,
+				"bearing": 75
+			},
+			"grading": "cyclic mod 16",
+			"truthBarCount": 16,
+			"class": "confidently-wrong"
+		},
+		"three-oclock-waltz-key": {
+			"arm": 2,
+			"declared": {
+				"bpm": 142,
+				"meter": "3/4",
+				"key": "C"
+			},
+			"placed": {
+				"n": 149,
+				"anchor": 1.497239436619715,
+				"cls": 0,
+				"gridBpm": 140.92894005557798,
+				"gridOffPct": 0.007542675664943788
+			},
+			"noteCount": 199,
+			"draftBars": 148,
+			"barCountChanged": true,
+			"unknownShare": 0.20270270270270271,
+			"draftSections": [
+				{
+					"name": "Intro",
+					"bar": 0
+				},
+				{
+					"name": "Verse",
+					"bar": 22
+				},
+				{
+					"name": "Chorus",
+					"bar": 38
+				},
+				{
+					"name": "Verse",
+					"bar": 71
+				},
+				{
+					"name": "Bridge",
+					"bar": 103
+				},
+				{
+					"name": "Break",
+					"bar": 131
+				},
+				{
+					"name": "Outro",
+					"bar": 139
+				}
+			],
+			"rawDraft": "{\"chords\":\"N.C. % % % % % % % % % % % % % % % % % % % % % Dm % % % % % % % % % G % % % % % E % % % A % E % % % A E % % % % % A % % % % % % C#m % % % F#m % % % % F % % % % % % % C % % % % % % Dm % % % % % % % % % % % % % % % % G % % % % % % % A7 % % % % % % D % % % % % % % % Em % % % N.C. % % % % % % % Ab5 % % % % % % % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse\",\"bar\":23},{\"index\":\"III\",\"name\":\"Chorus\",\"bar\":39},{\"index\":\"IV\",\"name\":\"Verse\",\"bar\":72},{\"index\":\"V\",\"name\":\"Bridge\",\"bar\":104},{\"index\":\"VI\",\"name\":\"Break\",\"bar\":132},{\"index\":\"VII\",\"name\":\"Outro\",\"bar\":140}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| N.C. | x22\"},{\"section\":\"Verse\",\"chords\":\"| Dm | x10 | G | x6\"},{\"section\":\"Chorus\",\"chords\":\"| E | x4 | A | x2 | E | x4 | A | E | x6 | A | x7 | C#m | x4 | F#m | x5\"},{\"section\":\"Verse\",\"chords\":\"| F | x8 | C | x7 | Dm | x17\"},{\"section\":\"Bridge\",\"chords\":\"| G | x8 | A7 | x7 | D | x9 | Em | x4\"},{\"section\":\"Break\",\"chords\":\"| N.C. | x8\"},{\"section\":\"Outro\",\"chords\":\"| Ab5 | x9\"}],\"chart\":\"# three oclock waltz\\n142 bpm · 3/4 · key C\\n\\n**Structure:** Intro – Verse – Chorus – Verse – Bridge – Break – Outro\\n\\n## I. Intro (bar 1)\\n| N.C. | x22 (sparse, free)\\n\\n## II. Verse (bar 23)\\n| Dm | x10 | G | x6\\n\\n## III. Chorus (bar 39)\\n| E | x4 | A | x2 | E | x4 | A | E | x6 | A | x7 | C#m | x4 | F#m | x5\\n\\n## IV. Verse (bar 72)\\n| F | x8 | C | x7 | Dm | x17\\n\\n## V. Bridge (bar 104)\\n| G | x8 | A7 | x7 | D | x9 | Em | x4\\n\\n## VI. Break (bar 132)\\n| N.C. | x8\\n\\n## VII. Outro (bar 140)\\n| Ab5 | x9 (low Ab/Eb pedal to end)\",\"notes\":\"Transcription is extremely sparse and weak throughout; only the low Ab/Eb pedal in the outro is reliable, so all other chords and section boundaries are tentative inferences from a few single melody notes.\"}",
+			"roots": {
+				"right": 9,
+				"bearing": 118
+			},
+			"quals": {
+				"right": 39,
+				"bearing": 118
+			},
+			"grading": "index min(n,118)",
+			"truthBarCount": 118,
+			"class": "confidently-wrong"
+		}
+	},
+	"gates": {
+		"g1": false,
+		"g2": false,
+		"classes": [
+			"confidently-wrong",
+			"confidently-wrong",
+			"confidently-wrong",
+			"confidently-wrong",
+			"confidently-wrong"
+		],
+		"rootsPct": [
+			0.6578947368421053,
+			0.061224489795918366,
+			0.5309734513274337,
+			0.17333333333333334,
+			0.059322033898305086
+		]
+	},
+	"tokensIn": 51682,
+	"tokensOut": 20312,
+	"spend": 0.408044
+}
