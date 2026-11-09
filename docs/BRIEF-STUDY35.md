@@ -141,3 +141,20 @@ cost per draft declared (the tool's cost per visitor).
 - The confidence threshold 0.84 and the hold values 4 % and 3
   notes/bar were READ OFF 34b's fifteen recordings; this study is
   their first out-of-sample test, which is the point.
+
+## Defect and correction (2026-11-09, same day, before any publication)
+
+The first grading pass compared the draft's SOUNDING roots against the
+chart's SHAPE roots without applying the calibrated transposition —
+sequenceScore has no transposition parameter, and no earlier corpus
+had a nonzero accepted value to expose that (Study 34's tier-3 slots
+were transpose 0 or interval-invariant). The tell was mechanical:
+every slot classed confidently-wrong was exactly a nonzero-transpose
+slot (+5/+7/+2/+5) while its transposition-free quality score sat near
+perfect. Per the hard rules the run stopped there: the grader gained
+sequenceScoreTransposed with unit tests (published pitch classes
+shifted +transpose mod 12; transpose 0 reproduces sequenceScore), the
+runner was corrected, and the nine persisted drafts were regraded at
+$0 by scripts/regrade-study35.ts — the model was never re-queried and
+no threshold moved. Both gradings are preserved in
+results/study35.json (rootsBefore under each slot's regrade key).

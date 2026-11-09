@@ -16,6 +16,7 @@ import {
 	sectionScore,
 	sequenceScore,
 	sequenceScoreIntervals,
+	sequenceScoreTransposed,
 	slashScore,
 } from "../src/study34/grade34.js";
 import { harteToSymbol, parseJaah } from "../src/study34/jaah.js";
@@ -151,6 +152,18 @@ describe("the three graders", () => {
 		const families = sequenceScore(draft, published, familyOf);
 		// published families: min maj maj maj min maj; draft: min maj maj min dom->... LCS over collapsed family runs
 		expect(families.bearing).toBe(4); // min maj min maj after collapsing
+	});
+	test("sequenceScoreTransposed shifts the published roots by the calibrated capo", () => {
+		// chart written in C shapes, capo 5: sounds in F
+		const published = ["C", "Am", "G", "F"];
+		const soundingDraft = ["F", "Dm", "C", "Bb"];
+		expect(sequenceScoreTransposed(soundingDraft, published, 5)).toEqual({ right: 4, bearing: 4 });
+		// unshifted comparison only matches the accidental overlap subsequence (F after C etc.)
+		expect(sequenceScore(soundingDraft, published, rootOf).right).toBeLessThan(4);
+		// transpose 0 equals plain sequenceScore
+		expect(sequenceScoreTransposed(soundingDraft, published, 0)).toEqual(sequenceScore(soundingDraft, published, rootOf));
+		// a downward-written transposition wraps mod 12
+		expect(sequenceScoreTransposed(["Bb"], ["C"], -2)).toEqual({ right: 1, bearing: 1 });
 	});
 	test("sequenceScoreIntervals is blind to transposition", () => {
 		const published = ["F", "Em", "G", "Am"];

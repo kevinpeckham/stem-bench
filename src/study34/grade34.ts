@@ -128,6 +128,39 @@ export function sequenceScore(
 }
 
 /**
+ * Root-sequence LCS with the calibrated transposition applied to the
+ * published side: a chart written in capo shapes sounds `transpose`
+ * semitones above its written roots, so each published pitch class is
+ * shifted by +transpose before comparison with the draft's sounding
+ * roots. With transpose 0 this is sequenceScore over rootOf exactly.
+ * Added for Study 35 after the 2026-11-09 grading defect (the first
+ * corpus with nonzero accepted transpositions): the original runner
+ * compared sounding roots against unshifted shape roots.
+ */
+export function sequenceScoreTransposed(draftChords: string[], published: string[], transpose: number): FamilyScore {
+	const shifted = (symbol: string): string | null => {
+		const p = parseChord(symbol);
+		return p.ok && p.pc !== null ? String((p.pc + transpose + 120) % 12) : null;
+	};
+	const collapse = (list: string[], project: (symbol: string) => string | null): string[] => {
+		const out: string[] = [];
+		for (const raw of list) {
+			const p = project(raw);
+			if (p === null) continue;
+			if (out[out.length - 1] !== p) out.push(p);
+		}
+		return out;
+	};
+	const a = collapse(draftChords, rootOf);
+	const b = collapse(published, shifted);
+	const dp: number[][] = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+	for (let i = 1; i <= a.length; i++)
+		for (let j = 1; j <= b.length; j++)
+			dp[i]![j] = a[i - 1] === b[j - 1] ? dp[i - 1]![j - 1]! + 1 : Math.max(dp[i - 1]![j]!, dp[i]![j - 1]!);
+	return { right: dp[a.length]![b.length]!, bearing: b.length };
+}
+
+/**
  * Transposition-invariant variant for a slot whose absolute key failed
  * the calibration gate (jw-same-boat): the collapsed root sequences are
  * reduced to successive pitch-class intervals before the LCS, which no

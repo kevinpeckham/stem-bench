@@ -25,7 +25,15 @@ import { chartlessGrid } from "../src/study28/grid.js";
 import { mod, w1TimeZero, w4Harmonic, w7Section, weightedVote } from "../src/study31/witnesses.js";
 import { applyRatioRule } from "../src/study32/corpus32.js";
 import { peakNorm } from "../src/study33/stereo.js";
-import { familyOf, pairBarsByTime, qualityScore, rootOf, sequenceScore, sequenceScoreIntervals } from "../src/study34/grade34.js";
+import {
+	familyOf,
+	pairBarsByTime,
+	qualityScore,
+	rootOf,
+	sequenceScore,
+	sequenceScoreIntervals,
+	sequenceScoreTransposed,
+} from "../src/study34/grade34.js";
 import { analyse as analyse9, extractFeatures as extract9 } from "../src/study9/analysis.js";
 import { asBuffer } from "../src/study9/instruments.js";
 
@@ -254,7 +262,9 @@ for (const slot of SLOTS) {
 		expanded.length > 0 ? expanded.filter((c) => c === "?" || c === "N.C." || c === "").length / expanded.length : null;
 	const invariant = truth.transposition.value === null;
 	const published = Object.values(truth.sections).flat();
-	const roots = invariant ? sequenceScoreIntervals(expanded, published) : sequenceScore(expanded, published, rootOf);
+	const roots = invariant
+		? sequenceScoreIntervals(expanded, published)
+		: sequenceScoreTransposed(expanded, published, truth.transposition.value ?? 0);
 	const quals = sequenceScore(expanded, published, familyOf);
 	const rootPct = roots.bearing > 0 ? roots.right / roots.bearing : null;
 	const qualPct = quals.bearing > 0 ? quals.right / quals.bearing : null;
