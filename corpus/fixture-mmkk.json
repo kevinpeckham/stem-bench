@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"fetched": "2026-10-29",
-	"sources": 7,
+	"sources": 8,
 	"songs": [
 		{
 			"slug": "eat-all-the-clocks",
@@ -74,7 +74,7 @@
 					"start": 140
 				}
 			],
-			"chart": "key: Emin・4/4 ・ 120 bpm\n\n**Structure**\nPart 1・Part 2・Verse・Chorus・Bridge・Verse・Chorus x2・Outro\n\n**I - Part 1**\n\\| Em Am | x14\n\n**II  - Part 2**\nD5 | A7 | Em7 | Em7 | C | D | A | A\n\n**III - Verse**\nE5(7) | Am7 G5(7) | x3\n\n**IV - Chorus**\nD5 | A7 | E5(7) | E5(7) | x3\n\n**V - Bridge**\nE5(7) | E5(7) | A5(7) | A5(7) |  E5(7) | E5(7) | A5(7) |  A5(7) | -- | -- | A5(7) riff x2\n\n**VI - Out**\nEm\n",
+			"chart": null,
 			"stems": [
 				{
 					"name": "Bass Synth",
@@ -161,6 +161,143 @@
 			"mix": null
 		},
 		{
+			"slug": "interbellum",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/interbellum",
+			"title": "Interbellum",
+			"declared": {
+				"key": [
+					{
+						"start": 0,
+						"value": "C"
+					}
+				],
+				"meter": [
+					{
+						"start": 0,
+						"value": "4/4"
+					}
+				],
+				"tempo": [
+					{
+						"start": 0,
+						"value": 115
+					}
+				]
+			},
+			"sections": [
+				{
+					"index": "I",
+					"name": "Verse",
+					"start": 0
+				},
+				{
+					"index": "II",
+					"name": "Chorus",
+					"start": 18.7826
+				},
+				{
+					"index": "I",
+					"name": "Verse",
+					"start": 35.4783
+				},
+				{
+					"index": "II",
+					"name": "Chorus",
+					"start": 56.3478
+				},
+				{
+					"index": "II",
+					"name": "Chorus",
+					"start": 73.0435
+				},
+				{
+					"index": "III",
+					"name": "Bridge",
+					"start": 89.7391
+				},
+				{
+					"index": "IV",
+					"name": "Interlude",
+					"start": 106.4348
+				},
+				{
+					"index": "V",
+					"name": "DAOM",
+					"start": 110.6087
+				},
+				{
+					"index": "VI",
+					"name": "Outro",
+					"start": 128.3478
+				}
+			],
+			"chart": null,
+			"stems": [
+				{
+					"name": "Bass Guitar",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/kkVg_ru0tTAV2G9PidXr3.wav",
+					"sha256": "8c8df9d7c477e9a634d11c038df6af4e2070d2b1f1bc7ce765d80e5e3079c071",
+					"bytes": 38590876,
+					"seconds": 133.8,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Bass Synth",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/LezspkOq0vl9AsfnJgAHV.wav",
+					"sha256": "25dfd9ece8d7bac2a09d8b256bcec51a89caa95a94d0bc5319511778c2cb73e6",
+					"bytes": 37409656,
+					"seconds": 129.7,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Ambient",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/_qTbxq431tWBl1ishHCiq.wav",
+					"sha256": "ced08fef1dd4a56acccb06b9747148b13c7ad895f6d8f30a130ecaa3c21c0147",
+					"bytes": 38787748,
+					"seconds": 134.5,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Keys",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/eMXaGDI53PQGTZtwaUEim.wav",
+					"sha256": "8e9d3201c51e3e3a9b9bd80c994445d7cd002618e240e3854daf6d2a26d7300b",
+					"bytes": 38787748,
+					"seconds": 134.5,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Vocals",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/18ukxaAVahDc_JuzIqsJl.wav",
+					"sha256": "8502801b4d135368dec38aeb1d3c85281b8803a047977ac1e98fd6f05226cf95",
+					"bytes": 38197132,
+					"seconds": 132.4,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "Drums",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/l0dSdU220Bzq8r87EcrNc.wav",
+					"sha256": "8d8d29795a6d802aae22040a4b1fa5b81de1a9da2e9704336ea7952144debf53",
+					"bytes": 38984614,
+					"seconds": 135.2,
+					"declaredSampleRate": null
+				},
+				{
+					"name": "interbellum",
+					"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/demos/Vw3QO1a1w9qEuCxekdLAz.mp3",
+					"sha256": "de926dabb6eb6189208897339cb3e5775ba6bb2a9e82b0e7326c4aa4c362bc91",
+					"bytes": 653995,
+					"seconds": 81.7,
+					"declaredSampleRate": null
+				}
+			],
+			"mix": {
+				"url": "https://1k3otzjcamptyygd.public.blob.vercel-storage.com/accounts/R7q44bgkS7krZBX6dVoic/songs/EU8sxNFCcGsC5B1mp__jd/mix-30e56f887eb63d29-mu5woz7p.mp3",
+				"sha256": "2aae4aba64b8ab8c7ddbdf57941fb53559149590342857569492efda14902c45",
+				"bytes": 3245843,
+				"seconds": 135.2
+			}
+		},
+		{
 			"slug": "letter-lands",
 			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/letter-lands",
 			"title": "Letter Lands",
@@ -236,7 +373,7 @@
 					"start": 123.6364
 				}
 			],
-			"chart": "key: F#maj・4/4・bpm 132\n\n**Structure**\nIntro・Verse・Chorus・Verse・Chorus・Bridge・Verse・Chorus・Verse・Outro\n\n**I - Intro**\n\\| F♯(5)(7) Esus4 | x4\n\n**II - Verse**\n\\| F♯(5)(7) Esus4 | x8\n\n**III - Chorus**\n\\|  B5(7) x2  |  F#(5) x2  |  C#(5)(7)   |  E5(7)  |  F#(5)(7) Esus4  x2\n\n**IV - Bridge**\nD5(7)  |  D5(7)  |  E5(7)  | E5(7)  | F#(5)(7)  | F#(5)(7)  | C#(7)  |  C#(7)\n\n**V - Outro**\n\\| B5(7) Asus4 | x4\n\\| F♯(5)(7) Esus4 | x4\n",
+			"chart": null,
 			"stems": [
 				{
 					"name": "Bass Synth",
@@ -430,7 +567,7 @@
 				},
 				{
 					"index": "II",
-					"name": "Verse I",
+					"name": "Verse",
 					"start": 33.1034
 				},
 				{
@@ -440,7 +577,7 @@
 				},
 				{
 					"index": "II",
-					"name": "Verse I",
+					"name": "Verse",
 					"start": 79.4483
 				},
 				{
@@ -455,12 +592,12 @@
 				},
 				{
 					"index": "V",
-					"name": "Verse II",
+					"name": "Verse (Triads)",
 					"start": 139.0345
 				},
 				{
 					"index": "II",
-					"name": "Verse I",
+					"name": "Verse",
 					"start": 172.1379
 				},
 				{
@@ -474,7 +611,7 @@
 					"start": 218.4828
 				}
 			],
-			"chart": "Key: D · 145 bpm\n\n**Structure**\nIntro・VI・Chorus・VI・Chorus・Bridge ・VII ・VI・Interlude・Outro\n\n**Intro I**\nD(7)sus4・D(7)Sus4・C5・G5(7)・D(7)sus4 x 8\n\n**Verse II (7ths)**\nD5 x2・A5 x2・G5(7) x2・D5 x2・A5・B5(7)・G5(7) x4・D5 x2・A5・G5(7)・D5 x2\n\n**Chorus III**\nG5(7) x2・D5 x2・C5・G5(7)・D(7)sus4 x2\n\n**Bridge IV**\nBm7 x2 Em7 x2 G7 x2 A7sus4 x2\n\n**Verse V (Triads)**\nD x2・A x2・G x2・D・A・Bm・G x4・D x2・A・Gm・D x2\n\n**Interlude VI**\nD(7)Sus4\n\n**Outro VII**\nD5 x20\n",
+			"chart": null,
 			"stems": [
 				{
 					"name": "Ambient Layers",

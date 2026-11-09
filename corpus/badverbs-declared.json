@@ -7,7 +7,7 @@
 			"slug": "eat-all-the-clocks",
 			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/eat-all-the-clocks",
 			"chart": "corpus/badverbs-charts/eat-all-the-clocks.chart.md",
-			"chartChars": 420,
+			"chartChars": 342,
 			"defaults": {
 				"tempo": 120,
 				"meter": "4/4",
@@ -65,10 +65,59 @@
 			"sections": null
 		},
 		{
+			"slug": "interbellum",
+			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/interbellum",
+			"chart": "corpus/badverbs-charts/interbellum.chart.md",
+			"chartChars": 387,
+			"defaults": {
+				"tempo": 115,
+				"meter": "4/4",
+				"key": "C"
+			},
+			"sections": [
+				{
+					"name": "Verse",
+					"start": 0
+				},
+				{
+					"name": "Chorus",
+					"start": 18.7826
+				},
+				{
+					"name": "Verse",
+					"start": 35.4783
+				},
+				{
+					"name": "Chorus",
+					"start": 56.3478
+				},
+				{
+					"name": "Chorus",
+					"start": 73.0435
+				},
+				{
+					"name": "Bridge",
+					"start": 89.7391
+				},
+				{
+					"name": "Interlude",
+					"start": 106.4348
+				},
+				{
+					"name": "DAOM",
+					"start": 110.6087
+				},
+				{
+					"name": "Outro",
+					"start": 128.3478
+				}
+			]
+		},
+		{
 			"slug": "letter-lands",
 			"page": "https://www.stemshovel.com/mmkk/projects/badverbs/letter-lands",
 			"chart": "corpus/badverbs-charts/letter-lands.chart.md",
-			"chartChars": 334,
+			"chartChars": 350,
 			"defaults": {
 				"tempo": 132,
 				"meter": "4/4",
