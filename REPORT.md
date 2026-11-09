@@ -3227,3 +3227,99 @@ One correction carried in the registration: the Study 34 report's
 committed self-similarity instrument (verse lag at three multiples
 agreeing within 0.2 percent) puts it at 97.1 bpm. Study 34's 0/16
 roots and its class are unaffected.
+
+## Study 35 (2026-11-09): modern material mostly lands, compound meter is a units bug, and the confidence refusal inverts
+
+Registration docs/BRIEF-STUDY35.md at 4f8f831, corpus frozen at
+69ea88c before it: ten modern CC BY 4.0 recordings (Josh Woodward,
+artist-published tempo/key/meter and chord charts as tier-3 sequence
+truth), declared mode with the app's three holds and its 0.84 tempo
+confidence refusal registered in advance. Nine paid drafts plus two
+exploratory arm D drafts, $1.000 of the $3.00 fence ($0.091 per
+draft). jw-let-it-in reused its Study 34 record (identical inputs,
+disclosed in the registration).
+
+**Gates: S35-G1 FAIL, S35-G2 FAIL (5/10 good), S35-G3 PASS, S35-G4
+reported and damning.** But the texture is nothing like 34/34b.
+
+**The comb holds modern material.** Every 4/4 grid lands 0.0 to 1.4
+percent off declared, Basic Pitch feeds 11 to 50 notes per bar
+(acoustic-era slots starved at 1.3 to 2.2), and unknownShare is 0.000
+to 0.006 everywhere. Five slots grade good — afterglow 15/15 roots,
+cherubs 28/28, goodbye-to-spring 43/43 at a declared 240 bpm,
+california-lullabye 49/53, swansong 28/30 — and three more sit at 83
+to 86 percent (let-it-in 18/21, same-boat 15/18, im-letting-go
+28/33), just under the registered 90 percent bar. The product's
+declared mode, on the material it will actually meet, drafts usable
+charts most of the time. That sentence has never been writable in
+this program before.
+
+**Both compound-meter slots land confidently wrong AND saved — a
+units bug, not a music bug.** gravity (6/8, page says 48 bpm) and
+my-favorite-regret (6/8, 65 bpm) grade 16/26 and 26/42 roots while
+their transposition-free quality scores sit at 12/12 and 13/17. The
+cause is mechanical: the artist states compound tempo in dotted
+quarters, and the product's declared path reads the typed tempo as
+beats of the bar per minute (measures.ts: "6/8 at 120 = 120 eighth
+notes a minute"), so the declared bar comes out exactly three times
+too long (7.5 s against a true 2.5 s). The drift hold is blind by
+construction — it compares the landed grid to the same misread
+value, and lands 0.0 to 1.4 percent "right". This is the same
+disease the app fixed on the chart-aligned path the same day
+(1e120b2e, barmark PlayedBar.tempo), now measured on the chartless
+declared path. S35-G1 and S35-G2 fail on these two slots alone.
+
+**The 0.84 confidence refusal inverts out of sample.** On this
+corpus the automatic detector's tempo is wrong on 8 of 10 (the
+registered threshold came from acoustic-era recordings; modern full
+mixes defeat it differently). The refusal fires on 8 of 10 —
+including BOTH right detections (let-it-in 0.809, afterglow 0.797)
+— and the only two detections it passes are wrong
+(california-lullabye 88.0 bpm at 0.845, cherubs 82.5 at 0.860). The
+registered prediction ("fires on every wrong detection and on at
+most two right ones") is falsified in the worst direction: out of
+sample the threshold keeps only mistakes. Tempo confidence as
+currently computed does not transfer across eras and should not ship
+as a refusal signal.
+
+**The two 34b holds survive their first out-of-sample test only
+half-vindicated.** As predicted they fire on nothing modern (G3
+passes trivially, no good draft held), but they also catch neither
+compound-meter failure — drift cannot see a units error and 33 to 50
+notes per bar sails past the floor. Necessary, not sufficient,
+again: the missing hold is a beat-unit adapter on declared input
+(convert compound-meter tempo the way musicians state it), which is
+an app fix, not a threshold.
+
+**Arm D (exploratory, no gate): the tempo-following grid recovers
+livery-stable-blues.** librosa's DP tracker seeded at the declared
+tempo tracks 510 beats into 128 bars against 125 truth bars, and the
+draft grades 112/125 roots (89.6 percent) with 99/113 qualities —
+against 17 to 31 percent for every fixed-comb attempt in 34/34b on
+this unevenly cut 78. Per the registered reading, a tempo-following
+grid earns a design in @barmark/listen. st-louis-blues stays floored
+(54 bars against 53 truth, 3/53 roots at the detected B-flat key)
+— its bars land, so the limit there is transcription and key, as
+34b's G3 already showed (declared key moves it 3 to 19, still
+drowned).
+
+**Pickup census (observational, registered as unmet):** no recording
+in the corpus puts first sound after voted bar one, so the half-bar
+bound fired nowhere and its catch rate stays unmeasured; three
+recordings place voted bar one 2.5 to 3.5 beats before first sound.
+
+**Defect and correction, same day, before publication:** the first
+grading pass compared sounding roots to chart-shape roots without
+applying the calibrated transposition — no earlier corpus had a
+nonzero accepted value to expose it. Every misgraded slot was
+exactly a nonzero-transpose slot with near-perfect quality scores.
+The grader gained sequenceScoreTransposed with unit tests, the nine
+persisted drafts were regraded at zero spend (the model was never
+re-queried, no threshold moved), and both gradings sit in
+results/study35.json. Classes moved on three slots:
+california-lullabye 23/53 to 49/53 (good), im-letting-go 16/33 to
+28/33 (saved below threshold), my-favorite-regret 21/42 to 26/42
+(class unchanged); gravity 13/26 to 16/26 (unchanged). The
+interval-invariant and transpose-0 slots reproduced exactly.
+
+Spend: $1.000 (248,127 in, 33,575 out), 11 paid drafts.
