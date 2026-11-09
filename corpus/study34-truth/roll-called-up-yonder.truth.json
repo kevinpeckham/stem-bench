@@ -1,0 +1,84 @@
+{
+	"tier": 2,
+	"source": "Cyber Hymnal setting of When the Roll Is Called Up Yonder (James M. Black, 1893, public domain), MIDI and matching engraved PDF via hymnary.org (CYBER/7381), fetched 2026-11-09",
+	"midi": {
+		"file": "corpus/study34-midi/roll-called-up-yonder.mid",
+		"sha256": "b364c9f576080f77de60a46e44a9a20f8dffb9c1884cd8c155ea2f280ff17c6d"
+	},
+	"extraction": "scripts/truth-study34-midi.ts (parseMidi + midiBarChords, half-bar granularity)",
+	"key": "Ab major",
+	"metre": "4/4",
+	"grading": "index-aligned per bar (Study 33 precedent); no time checks (docs/VALIDATION-STUDY34-INSTRUMENTS.md)",
+	"sections": [
+		{
+			"name": "Verse",
+			"bar": 0
+		},
+		{
+			"name": "Refrain",
+			"bar": 8
+		}
+	],
+	"sectionsBasis": "the engraved score's Refrain mark at bar 8",
+	"bars": [
+		[
+			"Ab",
+			"Abmaj7"
+		],
+		[
+			"C#6",
+			"Ab"
+		],
+		[
+			"Ab",
+			"Cm7"
+		],
+		[
+			"Eb",
+			"Abmaj7"
+		],
+		[
+			"Ab",
+			"Abmaj7"
+		],
+		[
+			"C#6",
+			"Ab"
+		],
+		[
+			"Ab",
+			"Eb7"
+		],
+		[
+			"Ab",
+			"C#maj7"
+		],
+		[
+			"Ab"
+		],
+		[
+			"Ab"
+		],
+		[
+			"Eb7"
+		],
+		[
+			"Eb7",
+			"Eb6"
+		],
+		[
+			"Ab"
+		],
+		[
+			"C#",
+			"C#6"
+		],
+		[
+			"Ab",
+			"Eb7"
+		],
+		[
+			"Ab"
+		]
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/letitin (Tablature & Chords, piano), fetched 2026-11-09",
+	"license": "CC BY 4.0 (joshwoodward.com); audio via archive.org JoshWoodward-Ashes",
+	"declared": { "key": "D minor", "bpm": 121, "length": "4:02" },
+	"transposition": { "value": 0, "basis": "declared key D minor matches the chart's Dm tonic; gated global calibration cross-check at truth build" },
+	"sections": {
+		"Verse": ["Dm", "Dm7sus2", "D6", "Dm", "Dm7sus2", "D6", "Dm", "C6", "G/B", "Bbmaj7", "Am", "A"],
+		"Chorus": ["F", "Fmaj7", "Dm", "A/C#", "Gm6", "Gm", "A", "A7", "Dm", "A"],
+		"Solo": ["A", "A7", "F#7", "Bm", "Bm7", "E7sus2/G#", "A", "A7", "D", "A#", "C", "Dm", "A"]
+	},
+	"note": "Sequence truth only: the artist publishes the ordered progressions per section without bar durations, so grading is LCS over roots and quality families of the draft's collapsed sequence (docs/VALIDATION-STUDY34-INSTRUMENTS.md, Tier 3). Dm7sus2 and E7sus2/G# are the artist's spellings, kept verbatim."
+}

@@ -1,0 +1,13 @@
+{
+	"tier": 3,
+	"source": "Artist's own chart: https://www.joshwoodward.com/song/sameboat (Tablature & Chords), fetched 2026-11-09",
+	"license": "CC BY 4.0 (joshwoodward.com); audio via archive.org JoshWoodward-TheShadeFromOurTrees",
+	"declared": { "key": "F# major", "bpm": 93, "meter": "4/4", "tuning": "Capo 8 or something" },
+	"transposition": { "value": null, "basis": "the chart is written in capo shapes (F, Em, G...) while the declared key is F# major; the shift is resolved at truth build by the gated global calibration, and the slot is flagged for Kevin's spot-check if the gate refuses" },
+	"sections": {
+		"Verse": ["F", "Em", "F", "Em", "G"],
+		"Chorus": ["F", "G", "Am", "D/F#", "F", "G"],
+		"Solo": ["F", "C", "G", "Am", "F", "Am", "F", "G"]
+	},
+	"note": "Sequence truth only (Tier 3, docs/VALIDATION-STUDY34-INSTRUMENTS.md). Roots are graded relative to the resolved transposition; quality families are transposition-free."
+}

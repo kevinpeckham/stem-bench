@@ -8,6 +8,8 @@ import { describe, expect, test } from "bun:test";
 import { alignBeats } from "../src/study34/align.js";
 import { bassPc, qualityFamily, qualityScore, sectionScore, slashScore } from "../src/study34/grade34.js";
 import { harteToSymbol, parseJaah } from "../src/study34/jaah.js";
+import { parseMidi } from "../src/study34/midi.js";
+import { labelBar, midiBarChords } from "../src/study34/midichords.js";
 import {
 	alignRigid,
 	alignSequenceToTime,
@@ -117,6 +119,44 @@ describe("the three graders", () => {
 	});
 	test("sectionScore matches within one bar", () => {
 		expect(sectionScore([0, 8, 16], [0, 9, 20])).toEqual({ right: 2, bearing: 3 });
+	});
+});
+
+describe("midi truth extraction", () => {
+	// hand-built SMF: 4/4, two bars at 96 tpb — bar 1 C major (C4 E4 G4), bar 2 G7 (G3 B3 D4 F4)
+	const makeMidi = (): Uint8Array => {
+		const bytes: number[] = [];
+		const push = (...b: number[]) => bytes.push(...b);
+		push(0x4d, 0x54, 0x68, 0x64, 0, 0, 0, 6, 0, 1, 0, 1, 0, 96);
+		const track: number[] = [];
+		const ev = (delta: number, ...rest: number[]) => {
+			// vlq for deltas < 128 only
+			track.push(delta, ...rest);
+		};
+		ev(0, 0xff, 0x58, 4, 4, 2, 24, 8); // 4/4
+		for (const p of [60, 64, 67]) ev(0, 0x90, p, 80);
+		track.push(0x83, 0x00, 0x80, 60, 0); // delta 384 = one bar
+		for (const p of [64, 67]) ev(0, 0x80, p, 0);
+		for (const p of [55, 59, 62, 65]) ev(0, 0x90, p, 80);
+		track.push(0x83, 0x00, 0x80, 55, 0);
+		for (const p of [59, 62, 65]) ev(0, 0x80, p, 0);
+		ev(0, 0xff, 0x2f, 0);
+		push(0x4d, 0x54, 0x72, 0x6b, 0, 0, (track.length >> 8) & 0xff, track.length & 0xff, ...track);
+		return new Uint8Array(bytes);
+	};
+	test("parseMidi + midiBarChords labels the two bars", () => {
+		const score = parseMidi(makeMidi());
+		expect(score.ticksPerBeat).toBe(96);
+		expect(score.timeSigs[0]).toEqual({ tick: 0, num: 4, den: 4 });
+		expect(score.notes.length).toBe(7);
+		const { bars, num } = midiBarChords(score);
+		expect(num).toBe(4);
+		expect(bars.map((b) => b.chords)).toEqual([["C"], ["G7"]]);
+	});
+	test("labelBar prefers the covering template and uses the bass tiebreak", () => {
+		const mass = new Float32Array(12);
+		for (const pc of [9, 0, 4]) mass[pc] = 1; // A C E
+		expect(labelBar(mass, 9)).toBe("Am");
 	});
 });
 
