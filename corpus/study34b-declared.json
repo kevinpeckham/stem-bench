@@ -1,0 +1,40 @@
+{
+	"roll-called-up-yonder": {
+		"beatsPerCycle": 64,
+		"multiples": [
+			{
+				"lagSec": 39.566802721088436,
+				"r": 0.851111929961377,
+				"mean": 0.8222446686579787
+			},
+			{
+				"lagSec": 79.04072562358277,
+				"r": 0.8587369881016573,
+				"mean": 0.8246292033426627
+			},
+			{
+				"lagSec": 118.79328798185941,
+				"r": 0.9107679662127779,
+				"mean": 0.8432124560173057
+			}
+		],
+		"versePeriodSec": 39.561642731166536,
+		"bpm": 97.06371462110344,
+		"declared": 97,
+		"spanSec": 188.1,
+		"cycles": 4.754605395893114
+	},
+	"three-oclock-waltz": {
+		"beatsPerLag": 192,
+		"strainLag": {
+			"lagSec": 81.36272108843538,
+			"r": 0.8566187562320389,
+			"mean": 0.8264172238847156
+		},
+		"bpm": 141.58818493150685,
+		"declared": 142,
+		"spanSec": 189.67,
+		"barsAtBpm": 149.19461686643834,
+		"formIdentity": "118 published bars + one repeated 31-bar strain = 149"
+	}
+}
