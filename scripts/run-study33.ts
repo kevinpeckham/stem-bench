@@ -94,21 +94,27 @@ interface ChartSong {
 	meter: string;
 	sections: { bars: string[][] }[];
 }
-const SONGS: { chart: ChartSong; truth: number; key: string; refPct: number }[] = [
-	{
-		chart: (mmkkCharts.songs as ChartSong[]).find((s) => s.slug === "letter-lands")!,
-		truth: -0.121,
-		key: "F#",
-		refPct: 72 / 76,
-	},
-];
-if (MATRIX)
-	SONGS.push({
-		chart: (charts20b.songs as ChartSong[]).find((s) => s.slug === "peaceful-dreams")!,
-		truth: -0.119,
-		key: "D",
-		refPct: 151 / 153,
-	});
+// The registered matrix scope is peaceful-dreams ALONE (docs/BRIEF-STUDY33.md,
+// fence $0.6); as first committed, --matrix also re-ran the pilot song, which
+// would have re-spent its five drafts outside the fence. Corrected before the
+// matrix run; the pilot's results are untouched.
+const SONGS: { chart: ChartSong; truth: number; key: string; refPct: number }[] = MATRIX
+	? [
+			{
+				chart: (charts20b.songs as ChartSong[]).find((s) => s.slug === "peaceful-dreams")!,
+				truth: -0.119,
+				key: "D",
+				refPct: 151 / 153,
+			},
+		]
+	: [
+			{
+				chart: (mmkkCharts.songs as ChartSong[]).find((s) => s.slug === "letter-lands")!,
+				truth: -0.121,
+				key: "F#",
+				refPct: 72 / 76,
+			},
+		];
 
 const apiKey = process.env.AI_GATEWAY_API_KEY ?? readEnvLocal();
 if (!apiKey) throw new Error("AI_GATEWAY_API_KEY is not configured");
