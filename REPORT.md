@@ -3158,3 +3158,72 @@ Secondary observations, registered graders, no re-thresholding:
   recoverable from this run (raw drafts were not persisted; the
   runner now persists rawDraft, barCountChanged and unknownShare for
   every future run).
+
+## Study 34b (2026-11-09): declared priors do not make the chartless draft safe
+
+Registered b8c1bf3 (docs/BRIEF-STUDY34B.md, adopting the app's
+bench-brief-study34b-declared-priors whole with the Tier 2 form
+reconciliation), Parts A and C e58f9f0, Part B a394aa2. 1,465 scored
+cells, $0.408 of the $2.00 fence ($0.051 a draft, 51,682 in / 20,312
+out). **S34b-G1 FAIL (all five confidently wrong with tempo and meter
+declared). S34b-G2 FAIL (0 of 5 at 80 percent roots).** Study 34 said
+the detector breaks first on this material; 34b says fixing it is not
+enough — the pipeline fails twice.
+
+**Two failure modes, cleanly separated by the declared grids.** The
+drifting 78s fail at the comb: st-louis's grid settled 7.2 percent off
+the declared 67 (49 bars against truth 53) and livery's 8.9 percent
+off 164 (115 against 125) — a single fixed period cannot hold an
+unevenly cut side, exactly the case the app's brief anticipated. The
+other three landed their declared grids to the bar: dippermouth 114 of
+114 at 0.8 percent off, the hymn 76 (the committed form expectation
+exactly) at 1.0 percent, the waltz 149 (the published 118 plus the
+repeated strain, exactly) at 0.8 percent — and the drafts were still
+confidently wrong, because the transcription is starved: 2.2, 1.9 and
+1.3 notes per bar against 10 or more on every modern recording the
+program has drafted. Dippermouth with a perfect grid reached 66
+percent roots (up from 46); the hymn 17 to 31 percent; the waltz 6 to
+8 percent. The front end has almost nothing to read on acoustic-era
+audio, and the draft fills the silence confidently: dippermouth's
+unknown share was 0.000, the worst slots peaked at 0.36 — none would
+trip the app's 0.5 hold, and draftBars = gridN − 1 on all eight (the
+chords-channel artifact again), so the bar-count hold is blind too.
+
+**S34b-G3, the price of the key:** declaring the truth key moved
+st-louis 3→19 roots and the hymn 13→23 with qualities 22→30; the waltz
+7→9. Real help, nowhere near safety.
+
+**Part A: the detector half-knew.** On the v0.200 port's full
+Detection over fifteen recordings, tempo confidence separates at ~0.84
+with 2 errors of 12 — every detection above the line was right, every
+wrong one below it, and both errors are right detections flagged (the
+safe direction for a refuse-or-ask mode). Registered exploratory: six
+recordings sit within 10 percent of the line. The ladder rungs carry
+the truth for only 3 of 7 wrong tempos (dippermouth and livery at x2,
+peaceful at x1.5); the hymn, the waltz and the 4:3 song are on no
+rung, so re-rung picking cannot rescue them. Key confidence does NOT
+separate — the waltz detected A minor at confidence 1.000, a maximally
+confident wrong key. Meter confidence separates nothing. Port caveat
+disclosed: v0.200 lacks the x3 rung the shipped 11c patch added, which
+would carry mop-heart's truth.
+
+**Part C: the half-bar pickup bound fires zero false positives.** No
+corpus recording puts sound before the placed downbeat, and livery's
+real 3.3-beat late entrance (the barnyard intro) sits outside the
+bound — the sorting the app hoped for. PICKUP_MAX_BAR_FRACTION 0.5
+stands unopposed by this corpus, which carries no true pickups.
+
+**Exploratory, for the next registration, in hypothesis words only:**
+the two failure modes are both visible before the model runs — grid
+tempo off the declared by more than 4 percent catches the comb
+failures, and a notes-per-bar floor (the three starved slots sit at or
+under 2.2; every good draft at 10+) catches the transcription
+failures. Together they would have flagged all five wrong charts and
+none of the good ones on the recordings measured so far. A threshold
+read off this corpus is a hypothesis for the next one.
+
+One correction carried in the registration: the Study 34 report's
+"~105" for the hymn's true tempo was an unlabeled estimate; the
+committed self-similarity instrument (verse lag at three multiples
+agreeing within 0.2 percent) puts it at 97.1 bpm. Study 34's 0/16
+roots and its class are unaffected.
