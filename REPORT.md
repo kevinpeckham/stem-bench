@@ -3102,3 +3102,59 @@ against the registered $0.6. The estimate assumed stems-sum-sized
 prompts; arms B and C carry nearly twice the notes (5,393 and 4,942),
 and peaceful's bar lines grew the drafts to ≈38k tokens in each. Found
 after the run completed; published as spent. Study 33 total ≈ $0.98.
+
+## Study 34 (2026-11-09): the chartless draft outside MMKK
+
+Registered 328f66b (docs/BRIEF-STUDY34.md), run same day, results
+ba88e9c. Twelve rights-clear recordings through the Study 33 shared
+pipeline on the mono downmix, graded against tiered truth
+(docs/VALIDATION-STUDY34-INSTRUMENTS.md). 802 scored cells, $0.708 of
+the $5.00 fence (131,699 in / 29,627 out). **S34-G1 FAIL. S34-G2 FAIL
+(0 of 8 good).** The app's public signed-out upload tool does not ship
+on this evidence.
+
+Classes over the eight accuracy-graded slots: five confidently wrong
+(dippermouth 46% roots, st-louis 8%, livery 64%, the hymn 0%, the
+waltz 8% — every one with the bar count off by 22 to 57), one refusal
+(interbellum, the clean DAW export with page declarations; the draft
+returned no parseable answer, and the raw text was not persisted this
+run), and the two Josh Woodward songs saved just below threshold
+(sequence roots 86% and 89%, qualities 80% and 100%).
+
+**Where it breaks: the declared-input stage, not the drafter.** Every
+confidently-wrong slot got its tempo, meter or key prior wrong from
+production `analyse()` before the grid ran: the hymn quartet read as
+78.6 bpm C minor (truth ~105, Ab major), the 3/4 waltz as 77.9 bpm
+4/4, dippermouth's grid landed at exactly half tempo (57 bars against
+114), st-louis at the wrong tempo level entirely (6/75 roots after
+midpoint pairing). On the two modern full-band recordings the priors
+were right (121.0 bpm against the artist's declared 121) or absorbable
+(123 against 93, a 4:3 confusion that sequence grading does not see),
+and the drafts were nearly good. The control reproduced its ceiling
+(eat 67/68 roots), so the harness is sound.
+
+Secondary observations, registered graders, no re-thresholding:
+- Section sensing survives grid failure: livery's draft placed 11 of
+  11 section boundaries while its harmony timeline was wrong;
+  dippermouth 5/6. Structure and harmony fail independently.
+- The control's quality families scored 40/68 against near-perfect
+  roots: eat's band chart is written in power chords, which the
+  registered mapping classes as "other" while drafts write plain
+  triads. Notation scope, not detection error; it lands on the
+  excluded control only.
+- The jig medley was declared 4/4 by the production meter detector
+  (it cannot say 6/8), as the brief predicted.
+- The class-only key checks behaved per their gates: sp-today's Eb
+  matched at margin 0.010 (below gate, inconclusive); kitten's
+  single-chord calibration is too weak an instrument and is reported
+  as such.
+- The app's requested bar-count column shows draftBars = gridN - 1
+  uniformly across all eleven parsed drafts — a chords-channel
+  artifact, not a differential signal. The draft step did NOT change
+  bar counts differentially: the bar-count catastrophes happened at
+  the grid stage, which the app's changed-bar-count hold compares
+  AFTER, so that hold alone would not have caught these five wrong
+  charts. Whether the unknown-share hold would catch them is not
+  recoverable from this run (raw drafts were not persisted; the
+  runner now persists rawDraft, barCountChanged and unknownShare for
+  every future run).
