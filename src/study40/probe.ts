@@ -145,8 +145,10 @@ export function probe(f: Features): TempoProbe | null {
 		lag1,
 		ac0,
 		ac1,
-		lean0: meterLean(x, f.fps, (60 * f.fps) / p.lag),
-		lean1: meterLean(x, f.fps, (60 * f.fps) / lag1),
+		// detectMeter reads the RAW onset envelope (not the detrended one the tempo stage uses) at the
+		// ROUNDED bpm (one decimal), so the lean is taken exactly there, as in analyse200
+		lean0: meterLean(f.onset, f.fps, Math.round(((60 * f.fps) / p.lag) * 10) / 10),
+		lean1: meterLean(f.onset, f.fps, Math.round(((60 * f.fps) / lag1) * 10) / 10),
 	};
 }
 

@@ -3550,3 +3550,11 @@ reason `content-filter`, so the gateway's filter stops the chart draft
 on three particular excerpts; labelled "refused" as registered.
 Predictions: A1, A3, A4, B1, B2, B4 right; A2, B3, C3 half right; C1,
 C2, C4 wrong (C4 reversed).
+
+## Study 40 (2026-11-10): the detector's 6/8 call has no bar value to protect, and the ×2 rule is net negative
+
+**Question.** The app asked (stem-shovel docs/bench-brief-study37-meter-witness-2026-11-10.md) which second witness before the detector's 6/8 call keeps the true calls and drops the false, whether the sub-beat test is a threshold away, and at what ×2-rung strength the automatic grid should take the finer bar. $0: one feature extraction per song, sweeps as arithmetic, probe pinned to the port on 261 of 261 songs. Registered 8ba7ec3 (docs/BRIEF-STUDY40.md).
+
+**Result.** No witness separates true from false 6/8: the duple-bar witness drops the 21 true calls to 4 while 10 false remain (r 1.00), and the sub-beat grid's best cell keeps 13 true against 45 false. But the 6/8 call carries no bar value: its bar is strict on 2 of the 21 true songs, so removing it (witness at r 1.00, or never emitting 6/8) raises production's strict bar from 95 to 112 to 114, folded 176 to 200, meter right 180 to 214 to 217, with zero to two songs made wrong. The ×2 finer-bar rule is net negative at every strength (at s 1.00: 2 fixed, 17 broken) and no bpm cap rescues it: the fixable songs' detected tempos overlap the strict-right songs' (70 to 149 against 80 to 170).
+
+**Predictions.** P2 and P3 right; P1, P4 wrong; P5 wrong by two points. S40-D1: no cell meets its floor, so the recommendation is Study 38's (a tracker's bar as read), plus the out-of-floor observation that the detector should stop naming 6/8 from the subdivision read while it remains in the scan offer. Instrument correction disclosed: two feature extractions failed the A0 pin (meter lean read on the wrong envelope at the unrounded tempo) and were discarded; the sweeps are from the pinned extraction.
