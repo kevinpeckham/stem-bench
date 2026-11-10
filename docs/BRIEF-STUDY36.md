@@ -128,3 +128,72 @@ downloads on his site, which would be the clean path; (b) Kevin fetches
 the pages and audio from his own machine; (c) an explicit permission
 for the scripted fetch. Part B registers separately once the corpus
 exists.
+
+## Results (2026-11-10, results/study36.json; raw beats in results/study36-trackers.json)
+
+Ten Woodward songs (strict / folded / meter, of 10): production 3 / 7 /
+8; beatthis-final0 6 / 9 / 8; beatthis-small0 7 / 8 / 8;
+beatthis-final0-dbn 6 / 9 / 8; madmom-34 7 / 10 / 8; madmom-346 7 / 10
+/ 9; librosa (tempo only) 4 / 10. Acoustic-era six (strict): production
+0, final0 4, small0 3, dbn 4, madmom-34 3, madmom-346 1. Meter right on
+all 23: production 16, final0 19, small0 17, dbn 20, madmom-34 19,
+madmom-346 17.
+
+Per song, the ten (S strict, f = fold ratio, X unfolded):
+production: let-it-in S, same-boat X, gravity S, my-favorite-regret X,
+california f2, swansong f2, afterglow S, cherubs f2, goodbye f2,
+im-letting-go X. final0: S S f0.5 X S S S S f2 f0.5. small0: S S S X S S
+S S X f0.5. madmom-34: S S S f1.5 S S S S f2 f0.5.
+
+Predictions: P1 FAIL (final0 strict 6 not 7, folded 9 not 10, compound
+0 of 2). P2 PASS (small0 within one of final0 on all three counts). P3
+PASS (madmom-34 strict 7 vs 6). P4 FAIL as a conjunction: every neural
+tracker beats production on acoustic strict (0 vs 1 to 4) and the hymn
+fails for all and Beat This names the waltz's 3 (madmom does not, it has
+no 3 at that tempo and reads 4 at 78), but downbeat F on dippermouth is
+0.00 for all three Beat This variants (half-bar phase: downbeats land on
+beat 3 of every JAAH bar, 1.8 beats early with a 35 ms spread) against
+madmom-34's 0.66; livery F is 0.83 to 0.96 for all. St-louis bar count:
+dbn 53/53, madmom-34 52, final0 57, small0 80 (it halved the bar), 346
+35. P5 PASS: goodbye-to-spring (declared 240) read at 120 by final0,
+dbn and madmom-34; small0 instead read a 3-beat bar of 1.27 s there,
+the one clean failure on a straight 4/4 song in the set.
+
+S36-D1: madmom-34 and madmom-346 qualify (strict 7, folded 10, meter 8
+and 9); no Beat This variant does (final0 folded 9, small0 folded 8).
+The Study 38 re-draft therefore uses madmom's bar, with Beat This as the
+browser candidate to be re-tested after the census.
+
+What the acoustic-era set says: on the three 78s every neural tracker
+finds the bar period production cannot (livery 1.46 s vs production
+2.71; dippermouth 1.28 vs 2.56; st-louis 3.53 to 3.58 vs 6.12) and
+madmom-34 places the downbeat within 70 ms on 66 to 96 % of bars; the
+bar counts 114/114, 52/53, 126/125 are the Study 34 arm D result
+(tempo-following recovers the uneven 78) without the declared tempo.
+The hymn remains unsolved by everything: 2.30 (Beat This), 3.01
+(madmom), 3.33 (production) against 2.47 declared.
+
+6/8: production's automatic mode gets gravity's bar exactly (145.9
+eighth-bpm, subdivision 3, 6/8, bar 2.466 vs 2.5); the Study 35 failure
+on that song was the declared-tempo units bug alone. On
+my-favorite-regret production reads 3/4 at 136.8 (bar 1.385, no fold).
+Beat This reads both 6/8 songs as three-beat bars: gravity as 3 eighths
+(half the bar, fold 0.5), my-favorite-regret as three beats of 0.467 s,
+i.e. two beats per dotted quarter grouped in threes (bar 1.40, no
+fold). It has no compound class and this is how its absence shows.
+madmom-346 names a 6 on gravity (strict) and on my-favorite-regret at
+the 3/2 fold, but pays for the extra class elsewhere (dippermouth and
+st-louis read as 6-beat bars, waltz as 6).
+
+Downbeat F disclosure: on eat-all-the-clocks all five trackers place
+every downbeat 85 ms after the registered grid (spread 10 to 20 ms),
+which is the registered bar-one offset (-0.085 s) itself; the 70 ms
+window makes that F = 0.00 for all of them while production (anchored by
+the same onset grid that produced the truth) scores 0.99. The number is
+reported as registered. Whether the Badverbs click grid or the audible
+attacks are 85 ms apart on that mix is a question for the fixture, not
+for this study, and it affects every tracker equally.
+
+Runtime per song on this VM: final0 27 to 47 s, small0 5 to 44 s
+(the small model is not reliably faster on CPU because the mel front
+end dominates), madmom RNN 32 to 40 s, librosa 1 s.

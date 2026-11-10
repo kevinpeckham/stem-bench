@@ -1,0 +1,3475 @@
+{
+	"results": {
+		"eat-all-the-clocks": {
+			"production": {
+				"bpm": 120,
+				"barSec": 1.9999999999999996,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 2.220446049250313e-16,
+				"meterRight": true,
+				"downbeatF": 0.9929078014184397,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 54
+			},
+			"beatthis-small0": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 10.8
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24.6
+			},
+			"madmom-34": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24.6
+			},
+			"madmom-346": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 26.3
+			},
+			"librosa": {
+				"bpm": 117.46280344557809,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.021143304620182546,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 12.8
+			}
+		},
+		"interbellum": {
+			"production": {
+				"bpm": 115,
+				"barSec": 2.086956521739134,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 1.0416668416723951e-8,
+				"meterRight": true,
+				"downbeatF": 0.9921259842519685,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 115.38461538461627,
+				"barSec": 2.0799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00333332295138955,
+				"meterRight": true,
+				"downbeatF": 0.7808219178082191,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 21.8
+			},
+			"beatthis-small0": {
+				"bpm": 115.38461538461549,
+				"barSec": 2.08,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.003333322951388662,
+				"meterRight": true,
+				"downbeatF": 0.7910447761194029,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 12.7
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 115.38461538461549,
+				"barSec": 2.0800000000000036,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0033333229513869966,
+				"meterRight": true,
+				"downbeatF": 0.8527131782945736,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 18.3
+			},
+			"madmom-34": {
+				"bpm": 115.38461538461539,
+				"barSec": 2.089999999999998,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.001458343765190273,
+				"meterRight": true,
+				"downbeatF": 0.7874015748031497,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 22.7
+			},
+			"madmom-346": {
+				"bpm": 115.38461538461539,
+				"barSec": 2.089999999999998,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.001458343765190273,
+				"meterRight": true,
+				"downbeatF": 0.7874015748031497,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24.4
+			},
+			"librosa": {
+				"bpm": 117.43981209630061,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.021215757359135834,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.3
+			}
+		},
+		"letter-lands": {
+			"production": {
+				"bpm": 132,
+				"barSec": 1.818181818181819,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 1.0000000605359105e-8,
+				"meterRight": true,
+				"downbeatF": 0.9934640522875817,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 130.43478260869742,
+				"barSec": 1.8200000000000003,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.001000010010000274,
+				"meterRight": true,
+				"downbeatF": 0.9664429530201343,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 26.6
+			},
+			"beatthis-small0": {
+				"bpm": 130.4347826086954,
+				"barSec": 1.8200000000000003,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.001000010010000274,
+				"meterRight": true,
+				"downbeatF": 0.9733333333333333,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 26.9
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 130.43478260869742,
+				"barSec": 1.8200000000000003,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.001000010010000274,
+				"meterRight": true,
+				"downbeatF": 0.9251700680272108,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 31.1
+			},
+			"madmom-34": {
+				"bpm": 133.3333333333325,
+				"barSec": 1.8199999999999963,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0010000100099980536,
+				"meterRight": true,
+				"downbeatF": 1,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 23.5
+			},
+			"madmom-346": {
+				"bpm": 133.3333333333325,
+				"barSec": 1.8199999999999963,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0010000100099980536,
+				"meterRight": true,
+				"downbeatF": 1,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 25.5
+			},
+			"librosa": {
+				"bpm": 129.19896640826937,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.02121995145250477,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.5
+			}
+		},
+		"mop-heart": {
+			"production": {
+				"bpm": 74.7,
+				"barSec": 5.089156626506048,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 3,
+				"barErrPct": 1.1110576386475208,
+				"meterRight": false,
+				"downbeatF": 0.08588957055214723,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 230.76923076922623,
+				"barSec": 1.0799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.10399996814222257,
+				"meterRight": false,
+				"downbeatF": 0.6218487394957982,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 35.2
+			},
+			"beatthis-small0": {
+				"bpm": 230.76923076922623,
+				"barSec": 1.0600000000000023,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.1205925613247707,
+				"meterRight": false,
+				"downbeatF": 0.6153846153846153,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 16.8
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 111.11111111111128,
+				"barSec": 1.6000000000000014,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0.004444409046911457,
+				"meterRight": true,
+				"downbeatF": 0.6698113207547169,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 8.5
+			},
+			"madmom-34": {
+				"bpm": 111.11111111111275,
+				"barSec": 1.6099999999999994,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0.0017778133965440368,
+				"meterRight": true,
+				"downbeatF": 0.6698113207547169,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 17.3
+			},
+			"madmom-346": {
+				"bpm": 111.11111111111275,
+				"barSec": 1.6099999999999994,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0.0017778133965440368,
+				"meterRight": true,
+				"downbeatF": 0.6698113207547169,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 18.8
+			},
+			"librosa": {
+				"bpm": 112.3385133870072,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.0030224409554213683,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.2
+			}
+		},
+		"peaceful-dreams": {
+			"production": {
+				"bpm": 96.7,
+				"barSec": 3.931334022750789,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 2,
+				"barErrPct": 0.18759049593588828,
+				"meterRight": false,
+				"downbeatF": 0.0730593607305936,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 142.85714285713743,
+				"barSec": 1.660000000000018,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.002916675024316362,
+				"meterRight": true,
+				"downbeatF": 0.830188679245283,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 32.2
+			},
+			"beatthis-small0": {
+				"bpm": 142.85714285714712,
+				"barSec": 1.6599999999999966,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0029166750243034834,
+				"meterRight": true,
+				"downbeatF": 0.9768976897689768,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 23.3
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 142.85714285713743,
+				"barSec": 1.660000000000025,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.002916675024320581,
+				"meterRight": true,
+				"downbeatF": 0.803030303030303,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 44.2
+			},
+			"madmom-34": {
+				"bpm": 146.34146341463284,
+				"barSec": 1.6500000000000057,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0031249916927048593,
+				"meterRight": true,
+				"downbeatF": 0.9967637540453074,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 34.9
+			},
+			"madmom-346": {
+				"bpm": 146.34146341463284,
+				"barSec": 1.6500000000000057,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0031249916927048593,
+				"meterRight": true,
+				"downbeatF": 0.9967637540453074,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 38.7
+			},
+			"librosa": {
+				"bpm": 143.5750179468762,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.009827462435336609,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.6
+			}
+		},
+		"dippermouth-blues": {
+			"production": {
+				"bpm": 91.1,
+				"barSec": 2.5596487376509267,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0.010802002762820173,
+				"meterRight": true,
+				"downbeatF": 0.03529411764705882,
+				"barCountEst": 56,
+				"barCountErr": -58
+			},
+			"beatthis-final0": {
+				"bpm": 187.49999999999983,
+				"barSec": 1.2800000000000011,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.010666254444271828,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": 114,
+				"barCountErr": 0,
+				"seconds": 37.9
+			},
+			"beatthis-small0": {
+				"bpm": 187.49999999999983,
+				"barSec": 1.2800000000000011,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.010666254444271828,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": 115,
+				"barCountErr": 1,
+				"seconds": 23.4
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 187.49999999999983,
+				"barSec": 1.2800000000000011,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.010666254444271828,
+				"meterRight": true,
+				"downbeatF": 0,
+				"barCountEst": 114,
+				"barCountErr": 0,
+				"seconds": 47.9
+			},
+			"madmom-34": {
+				"bpm": 187.49999999999568,
+				"barSec": 1.289999999999992,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.002937084557124714,
+				"meterRight": true,
+				"downbeatF": 0.6607929515418502,
+				"barCountEst": 114,
+				"barCountErr": 0,
+				"seconds": 25.8
+			},
+			"madmom-346": {
+				"bpm": 187.49999999999568,
+				"barSec": 1.9299999999999997,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.0055134745195034585,
+				"meterRight": false,
+				"downbeatF": 0.2857142857142857,
+				"barCountEst": 76,
+				"barCountErr": -38,
+				"seconds": 27.8
+			},
+			"librosa": {
+				"bpm": 184.55859735466063,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00507494687514487,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.3
+			}
+		},
+		"st-louis-blues": {
+			"production": {
+				"bpm": 64.5,
+				"barSec": 6.118325581395324,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.13868505092828687,
+				"meterRight": false,
+				"downbeatF": 0.02380952380952381,
+				"barCountEst": 30,
+				"barCountErr": -23
+			},
+			"beatthis-final0": {
+				"bpm": 68.18181818181743,
+				"barSec": 3.530000000000001,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.014544540911755388,
+				"meterRight": true,
+				"downbeatF": 0.49090909090909085,
+				"barCountEst": 57,
+				"barCountErr": 4,
+				"seconds": 44
+			},
+			"beatthis-small0": {
+				"bpm": 68.18181818181633,
+				"barSec": 1.88,
+				"beatsPerBar": 2,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.04966360514781831,
+				"meterRight": false,
+				"downbeatF": 0.3909774436090225,
+				"barCountEst": 80,
+				"barCountErr": 27,
+				"seconds": 43.5
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 68.18181818181743,
+				"barSec": 3.5799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0005862482901096699,
+				"meterRight": true,
+				"downbeatF": 0.4716981132075472,
+				"barCountEst": 53,
+				"barCountErr": 0,
+				"seconds": 59
+			},
+			"madmom-34": {
+				"bpm": 67.41573033707861,
+				"barSec": 3.5600000000000023,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0061695653387671134,
+				"meterRight": true,
+				"downbeatF": 0.6857142857142857,
+				"barCountEst": 52,
+				"barCountErr": -1,
+				"seconds": 32.7
+			},
+			"madmom-346": {
+				"bpm": 67.41573033707861,
+				"barSec": 5.319999999999993,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.009891776704541444,
+				"meterRight": false,
+				"downbeatF": 0.20454545454545453,
+				"barCountEst": 35,
+				"barCountErr": -18,
+				"seconds": 35.5
+			},
+			"librosa": {
+				"bpm": 67.99637352674603,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.014871246667851112,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.4
+			}
+		},
+		"livery-stable-blues": {
+			"production": {
+				"bpm": 83.2,
+				"barSec": 2.711538461538461,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 2,
+				"barErrPct": 0.07468657468657502,
+				"meterRight": true,
+				"downbeatF": 0.062176165803108814,
+				"barCountEst": 68,
+				"barCountErr": -57
+			},
+			"beatthis-final0": {
+				"bpm": 166.66666666666035,
+				"barSec": 1.460000000000008,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0035490035489981198,
+				"meterRight": true,
+				"downbeatF": 0.8616600790513834,
+				"barCountEst": 128,
+				"barCountErr": 3,
+				"seconds": 47.7
+			},
+			"beatthis-small0": {
+				"bpm": 166.66666666666694,
+				"barSec": 1.460000000000008,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0035490035489981198,
+				"meterRight": true,
+				"downbeatF": 0.8333333333333333,
+				"barCountEst": 127,
+				"barCountErr": 2,
+				"seconds": 25.9
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 166.66666666666035,
+				"barSec": 1.460000000000008,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0035490035489981198,
+				"meterRight": true,
+				"downbeatF": 0.8492063492063492,
+				"barCountEst": 126,
+				"barCountErr": 1,
+				"seconds": 10.5
+			},
+			"madmom-34": {
+				"bpm": 162.16216216216327,
+				"barSec": 1.4699999999999989,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.003276003276002415,
+				"meterRight": true,
+				"downbeatF": 0.9641434262948207,
+				"barCountEst": 126,
+				"barCountErr": 1,
+				"seconds": 28.8
+			},
+			"madmom-346": {
+				"bpm": 162.16216216216327,
+				"barSec": 1.4699999999999989,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.003276003276002415,
+				"meterRight": true,
+				"downbeatF": 0.9641434262948207,
+				"barCountEst": 126,
+				"barCountErr": 1,
+				"seconds": 31.4
+			},
+			"librosa": {
+				"bpm": 161.50740242261213,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.013996322206275225,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.3
+			}
+		},
+		"roll-called-up-yonder": {
+			"production": {
+				"bpm": 78.6,
+				"barSec": 3.3343511450381524,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.10065915630587507,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 103.44827586206927,
+				"barSec": 2.3000000000000114,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1,
+				"barErrPct": 0.06946635918598065,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 32.8
+			},
+			"beatthis-small0": {
+				"bpm": 100.00000000000095,
+				"barSec": 2.319999999999993,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1,
+				"barErrPct": 0.061374762309344466,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 36.4
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 103.44827586206674,
+				"barSec": 2.3399999999999963,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1,
+				"barErrPct": 0.05328316543269951,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 52.9
+			},
+			"madmom-34": {
+				"bpm": 80,
+				"barSec": 3.009999999999991,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.1881431133767606,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 42.3
+			},
+			"madmom-346": {
+				"bpm": 77.92207792207688,
+				"barSec": 4.640000000000001,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 2,
+				"barErrPct": 0.06137476230934158,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 44.7
+			},
+			"librosa": {
+				"bpm": 103.35917312661486,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0644611032607092,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.5
+			}
+		},
+		"three-oclock-waltz": {
+			"production": {
+				"bpm": 77.9,
+				"barSec": 3.0642362002567483,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 3,
+				"barErrPct": 0.19649774484561877,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 142.85714285714226,
+				"barSec": 1.2800000000000011,
+				"beatsPerBar": 3,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0069225928256773095,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 38
+			},
+			"beatthis-small0": {
+				"bpm": 142.85714285714226,
+				"barSec": 1.2600000000000051,
+				"beatsPerBar": 3,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.008810572687220741,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 40.5
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 142.85714285714226,
+				"barSec": 1.2800000000000011,
+				"beatsPerBar": 3,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0069225928256773095,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 46.9
+			},
+			"madmom-34": {
+				"bpm": 77.92207792207688,
+				"barSec": 3.0800000000000125,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 3,
+				"barErrPct": 0.19236417033773534,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 32.9
+			},
+			"madmom-346": {
+				"bpm": 77.92207792207688,
+				"barSec": 4.630000000000003,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 3,
+				"barErrPct": 0.21407593874554287,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 35.8
+			},
+			"librosa": {
+				"bpm": 78.29831658619328,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.10590842635866227,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.3
+			}
+		},
+		"kitten-on-the-keys": {
+			"production": {
+				"bpm": 83.4,
+				"barSec": 4.358848920863316,
+				"beatsPerBar": 6,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 230.7692307692136,
+				"barSec": 1.0400000000000063,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 19.5
+			},
+			"beatthis-small0": {
+				"bpm": 187.49999999998735,
+				"barSec": 1.039999999999992,
+				"beatsPerBar": 3,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 30.9
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 111.11111111111275,
+				"barSec": 2.1400000000000006,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 37
+			},
+			"madmom-34": {
+				"bpm": 111.11111111111275,
+				"barSec": 2.1400000000000006,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 36.4
+			},
+			"madmom-346": {
+				"bpm": 111.11111111111275,
+				"barSec": 3.230000000000004,
+				"beatsPerBar": 6,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 39.3
+			},
+			"librosa": {
+				"bpm": 112.3385133870072,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.5
+			}
+		},
+		"sp-today-live": {
+			"production": {
+				"bpm": 88.3,
+				"barSec": 2.7125707814269546,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 88.2352941176471,
+				"barSec": 2.70000000000001,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 39.2
+			},
+			"beatthis-small0": {
+				"bpm": 88.2352941176471,
+				"barSec": 2.6599999999999966,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 22.3
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 88.2352941176471,
+				"barSec": 2.719999999999999,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 34.7
+			},
+			"madmom-34": {
+				"bpm": 88.23529411764618,
+				"barSec": 2.729999999999997,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 37.8
+			},
+			"madmom-346": {
+				"bpm": 88.23529411764618,
+				"barSec": 2.729999999999997,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 41.4
+			},
+			"librosa": {
+				"bpm": 89.10008910008898,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.7
+			}
+		},
+		"irish-jigs-medley": {
+			"production": {
+				"bpm": 135,
+				"barSec": 2.656533333333326,
+				"beatsPerBar": 6,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 127.65957446808541,
+				"barSec": 1.7800000000000011,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 31.3
+			},
+			"beatthis-small0": {
+				"bpm": 136.36363636363265,
+				"barSec": 1.740000000000009,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24.3
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 130.43478260869693,
+				"barSec": 1.8000000000000114,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 26.9
+			},
+			"madmom-34": {
+				"bpm": 98.36065573770271,
+				"barSec": 2.3900000000000006,
+				"beatsPerBar": 4,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24.8
+			},
+			"madmom-346": {
+				"bpm": 96.77419354838639,
+				"barSec": 3.6100000000000136,
+				"beatsPerBar": 6,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 27
+			},
+			"librosa": {
+				"bpm": 135.99274705349205,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": null,
+				"barFolded": null,
+				"barFoldRatio": null,
+				"barErrPct": null,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.5
+			}
+		},
+		"jw-let-it-in": {
+			"production": {
+				"bpm": 121,
+				"barSec": 1.9834710743801622,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 1.2916668068463366e-8,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 120,
+				"barSec": 1.980000000000004,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0017500128940602933,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 23.2
+			},
+			"beatthis-small0": {
+				"bpm": 120,
+				"barSec": 1.980000000000004,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0017500128940602933,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 11.8
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 120,
+				"barSec": 1.980000000000004,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0017500128940602933,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 33.6
+			},
+			"madmom-34": {
+				"bpm": 120,
+				"barSec": 1.980000000000004,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0017500128940602933,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 30.3
+			},
+			"madmom-346": {
+				"bpm": 120,
+				"barSec": 1.980000000000004,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0017500128940602933,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 33.1
+			},
+			"librosa": {
+				"bpm": 123.05168170631295,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.016956047159611076,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.4
+			}
+		},
+		"jw-same-boat": {
+			"production": {
+				"bpm": 123.1,
+				"barSec": 2.008513403736792,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.6666666666666666,
+				"barErrPct": 0.16744839841028436,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 93.74999999999991,
+				"barSec": 2.5799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00025001499625054713,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 28.1
+			},
+			"beatthis-small0": {
+				"bpm": 93.74999999999991,
+				"barSec": 2.5799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00025001499625054713,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 7.7
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 93.74999999999991,
+				"barSec": 2.579999999999999,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00025001499625021406,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 17.7
+			},
+			"madmom-34": {
+				"bpm": 92.30769230769351,
+				"barSec": 2.5799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00025001499625054713,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 28.5
+			},
+			"madmom-346": {
+				"bpm": 92.30769230769351,
+				"barSec": 2.5799999999999983,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00025001499625054713,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 30.4
+			},
+			"librosa": {
+				"bpm": 92.29349330872046,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00759684614279077,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.4
+			}
+		},
+		"jw-gravity": {
+			"production": {
+				"bpm": 145.9,
+				"barSec": 2.4659629883481746,
+				"beatsPerBar": 6,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.013614804660730173,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 142.85714285714712,
+				"barSec": 1.240000000000009,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.00799999999999268,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 19.6
+			},
+			"beatthis-small0": {
+				"bpm": 142.85714285714712,
+				"barSec": 2.4200000000000017,
+				"beatsPerBar": 6,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.03199999999999936,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 11.2
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 142.85714285714712,
+				"barSec": 1.2399999999999949,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.008000000000004115,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 14.8
+			},
+			"madmom-34": {
+				"bpm": 73.17073170731578,
+				"barSec": 2.469999999999999,
+				"beatsPerBar": 3,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.012000000000000455,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 28
+			},
+			"madmom-346": {
+				"bpm": 146.34146341463537,
+				"barSec": 2.469999999999999,
+				"beatsPerBar": 6,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.012000000000000455,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 30.3
+			},
+			"librosa": {
+				"bpm": 143.5750179468762,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 3,
+				"barErrPct": 0.0029512642578042314,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.4
+			}
+		},
+		"jw-my-favorite-regret": {
+			"production": {
+				"bpm": 136.8,
+				"barSec": 1.3847368421052542,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.6666666666666666,
+				"barErrPct": 0.12509871233798697,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 130.4347826086954,
+				"barSec": 1.3999999999999986,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.6666666666666666,
+				"barErrPct": 0.13750002843749964,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 10.1
+			},
+			"beatthis-small0": {
+				"bpm": 130.43478260869338,
+				"barSec": 1.3800000000000026,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.6666666666666666,
+				"barErrPct": 0.12125002803125295,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 12.6
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 130.43478260869338,
+				"barSec": 1.3800000000000026,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 0.6666666666666666,
+				"barErrPct": 0.12125002803125295,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 15.8
+			},
+			"madmom-34": {
+				"bpm": 65.2173913043477,
+				"barSec": 2.769999999999982,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.0002778027847163411,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 34.4
+			},
+			"madmom-346": {
+				"bpm": 130.43478260869338,
+				"barSec": 2.769999999999996,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.00027780278472144815,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 37.7
+			},
+			"librosa": {
+				"bpm": 129.19896640826937,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0.006161796859466384,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.5
+			}
+		},
+		"jw-california-lullabye": {
+			"production": {
+				"bpm": 88,
+				"barSec": 2.7272727272727217,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 2.6666668095920443e-8,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 176.47058823529235,
+				"barSec": 1.3599999999999994,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0026666932622220196,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 16.3
+			},
+			"beatthis-small0": {
+				"bpm": 176.47058823529235,
+				"barSec": 1.3599999999999994,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0026666932622220196,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 5
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 176.47058823529235,
+				"barSec": 1.3600000000000083,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0026666932622154693,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 12.8
+			},
+			"madmom-34": {
+				"bpm": 176.47058823529235,
+				"barSec": 1.3600000000000136,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0026666932622115835,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 33.6
+			},
+			"madmom-346": {
+				"bpm": 176.47058823529235,
+				"barSec": 1.3600000000000136,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0026666932622115835,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 36.4
+			},
+			"librosa": {
+				"bpm": 89.10008910008898,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.01250101250101121,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.7
+			}
+		},
+		"jw-swansong": {
+			"production": {
+				"bpm": 85,
+				"barSec": 2.823529411764701,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 4.166665013016768e-9,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 166.6666666666735,
+				"barSec": 1.4199999999999875,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.005833337524296711,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 21.8
+			},
+			"beatthis-small0": {
+				"bpm": 166.66666666666694,
+				"barSec": 1.4199999999999982,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.005833337524304261,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 20.8
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 166.6666666666735,
+				"barSec": 1.4199999999999875,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.005833337524296711,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 25.3
+			},
+			"madmom-34": {
+				"bpm": 171.42857142857073,
+				"barSec": 1.4099999999999966,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0012499958385440157,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 34.2
+			},
+			"madmom-346": {
+				"bpm": 171.42857142857073,
+				"barSec": 1.4099999999999966,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0012499958385440157,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 37.1
+			},
+			"librosa": {
+				"bpm": 86.13264427217695,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.01332522673149339,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.6
+			}
+		},
+		"jw-afterglow": {
+			"production": {
+				"bpm": 99,
+				"barSec": 2.424242424242424,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.010101013400673486,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 99.99999999999976,
+				"barSec": 2.4200000000000017,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.011833336627221525,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 16.2
+			},
+			"beatthis-small0": {
+				"bpm": 100.00000000000095,
+				"barSec": 2.4199999999999946,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.011833336627224411,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 7.5
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 99.99999999999976,
+				"barSec": 2.4200000000000017,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.011833336627221525,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 9.4
+			},
+			"madmom-34": {
+				"bpm": 98.3606557377073,
+				"barSec": 2.4200000000000017,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.011833336627221525,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 31.7
+			},
+			"madmom-346": {
+				"bpm": 98.3606557377073,
+				"barSec": 2.4200000000000017,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.011833336627221525,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 34.5
+			},
+			"librosa": {
+				"bpm": 99.38711280437246,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.014154212289514856,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.4
+			}
+		},
+		"jw-cherubs": {
+			"production": {
+				"bpm": 82.5,
+				"barSec": 2.909090909090916,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 3.124999670145456e-8,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 166.66666666666694,
+				"barSec": 1.46,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0037499686328135162,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 26.8
+			},
+			"beatthis-small0": {
+				"bpm": 166.66666666666694,
+				"barSec": 1.4599999999999937,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0037499686328090753,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 4.6
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 166.66666666666694,
+				"barSec": 1.46,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0037499686328135162,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 28.2
+			},
+			"madmom-34": {
+				"bpm": 166.66666666666035,
+				"barSec": 1.4599999999999866,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0037499686328041903,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 31.6
+			},
+			"madmom-346": {
+				"bpm": 166.66666666666035,
+				"barSec": 1.4599999999999866,
+				"beatsPerBar": 4,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.0037499686328041903,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 35
+			},
+			"librosa": {
+				"bpm": 83.35648791330686,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.01038167167644688,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.6
+			}
+		},
+		"jw-goodbye-to-spring": {
+			"production": {
+				"bpm": 120,
+				"barSec": 1.9999999999999996,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 2.220446049250313e-16,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 125.00000000000267,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 30
+			},
+			"beatthis-small0": {
+				"bpm": 125.00000000000267,
+				"barSec": 1.269999999999996,
+				"beatsPerBar": 3,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.15333333333333599,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 17
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24
+			},
+			"madmom-34": {
+				"bpm": 120,
+				"barSec": 2,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 2,
+				"barErrPct": 0,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 32
+			},
+			"madmom-346": {
+				"bpm": 120,
+				"barSec": 3,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 3,
+				"barErrPct": 0,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 34.5
+			},
+			"librosa": {
+				"bpm": 117.46280344557809,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.021143304620182546,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.4
+			}
+		},
+		"jw-im-letting-go": {
+			"production": {
+				"bpm": 99.4,
+				"barSec": 3.957102615694179,
+				"beatsPerBar": 6,
+				"barStrict": false,
+				"barFolded": false,
+				"barFoldRatio": 1.5,
+				"barErrPct": 0.1646116602739205,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null
+			},
+			"beatthis-final0": {
+				"bpm": 149.99999999999787,
+				"barSec": 1.580000000000009,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.0006666783411168886,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 9.8
+			},
+			"beatthis-small0": {
+				"bpm": 150.00000000000054,
+				"barSec": 1.580000000000009,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.0006666783411168886,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 2.1
+			},
+			"beatthis-final0-dbn": {
+				"bpm": 149.99999999999787,
+				"barSec": 1.5900000000000034,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.007000011748335755,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 9
+			},
+			"madmom-34": {
+				"bpm": 150.00000000000054,
+				"barSec": 1.5899999999999999,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.007000011748333312,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 24.2
+			},
+			"madmom-346": {
+				"bpm": 150.00000000000054,
+				"barSec": 1.5899999999999999,
+				"beatsPerBar": 4,
+				"barStrict": false,
+				"barFolded": true,
+				"barFoldRatio": 0.5,
+				"barErrPct": 0.007000011748333312,
+				"meterRight": true,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 26.2
+			},
+			"librosa": {
+				"bpm": 75.99746675110792,
+				"barSec": null,
+				"beatsPerBar": null,
+				"barStrict": true,
+				"barFolded": true,
+				"barFoldRatio": 1,
+				"barErrPct": 0.00003333222226420407,
+				"meterRight": false,
+				"downbeatF": null,
+				"barCountEst": null,
+				"barCountErr": null,
+				"seconds": 0.3
+			}
+		}
+	},
+	"productionDetections": {
+		"eat-all-the-clocks": {
+			"tempo": {
+				"bpm": 120,
+				"confidence": 0.8632994434067698,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60,
+						"strength": 1.32
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80,
+						"strength": 0.51
+					},
+					{
+						"factor": 2,
+						"bpm": 240,
+						"strength": 0.45
+					},
+					{
+						"factor": 1.5,
+						"bpm": 180,
+						"strength": 0.1
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.037528718779197695
+			},
+			"key": {
+				"value": "A minor",
+				"confidence": 0.19444126263890116
+			},
+			"placed": {
+				"period": 1.9999999999999996,
+				"n": 70,
+				"anchor": -0.05999999999999983,
+				"spanFirst": 0,
+				"spanLast": 140.12
+			}
+		},
+		"interbellum": {
+			"tempo": {
+				"bpm": 115,
+				"confidence": 0.8755016499926902,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 57.5,
+						"strength": 1.08
+					},
+					{
+						"factor": 2,
+						"bpm": 230,
+						"strength": 0.9
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 76.7,
+						"strength": 0.88
+					},
+					{
+						"factor": 1.5,
+						"bpm": 172.5,
+						"strength": 0.04
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.009969335177896367
+			},
+			"key": {
+				"value": "C major",
+				"confidence": 0.860598445758288
+			},
+			"placed": {
+				"period": 2.086956521739134,
+				"n": 63,
+				"anchor": -0.061739130434783185,
+				"spanFirst": 0,
+				"spanLast": 132.83
+			}
+		},
+		"letter-lands": {
+			"tempo": {
+				"bpm": 132,
+				"confidence": 0.8599336112718992,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 66,
+						"strength": 1.26
+					},
+					{
+						"factor": 1.5,
+						"bpm": 198,
+						"strength": 0.16
+					},
+					{
+						"factor": 2,
+						"bpm": 264,
+						"strength": 0.13
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 88,
+						"strength": 0.13
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.05382757998310239
+			},
+			"key": {
+				"value": "F♯ major",
+				"confidence": 0.19879235816791008
+			},
+			"placed": {
+				"period": 1.818181818181819,
+				"n": 76,
+				"anchor": -0.06818181818181768,
+				"spanFirst": 0.01,
+				"spanLast": 137.87
+			}
+		},
+		"mop-heart": {
+			"tempo": {
+				"bpm": 74.7,
+				"confidence": 0.8293502814197256,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 37.4,
+						"strength": 1.01
+					},
+					{
+						"factor": 1.5,
+						"bpm": 112.1,
+						"strength": 0.81
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 49.8,
+						"strength": 0.22
+					},
+					{
+						"factor": 2,
+						"bpm": 149.4,
+						"strength": 0.21
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.029402229745713604
+			},
+			"key": {
+				"value": "A minor",
+				"confidence": 0.33912911659592604
+			},
+			"placed": {
+				"period": 5.089156626506048,
+				"n": 22,
+				"anchor": -3.0091566265060483,
+				"spanFirst": 0,
+				"spanLast": 112.53
+			}
+		},
+		"peaceful-dreams": {
+			"tempo": {
+				"bpm": 96.7,
+				"confidence": 0.8231174729707457,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 1.5,
+						"bpm": 145.1,
+						"strength": 0.96
+					},
+					{
+						"factor": 0.5,
+						"bpm": 48.4,
+						"strength": 0.86
+					},
+					{
+						"factor": 2,
+						"bpm": 193.4,
+						"strength": 0.17
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 64.5,
+						"strength": 0.17
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.05363824254283718
+			},
+			"key": {
+				"value": "D major",
+				"confidence": 0.9181448330894084
+			},
+			"placed": {
+				"period": 3.931334022750789,
+				"n": 65,
+				"anchor": 0.13999999999999999,
+				"spanFirst": 0,
+				"spanLast": 254.32
+			}
+		},
+		"dippermouth-blues": {
+			"tempo": {
+				"bpm": 91.1,
+				"confidence": 0.7582741491440824,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 2,
+						"bpm": 182.2,
+						"strength": 1.08
+					},
+					{
+						"factor": 0.5,
+						"bpm": 45.6,
+						"strength": 1.04
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 60.7,
+						"strength": 0.92
+					},
+					{
+						"factor": 1.5,
+						"bpm": 136.6,
+						"strength": 0.31
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.0009874208606510137
+			},
+			"key": {
+				"value": "C major",
+				"confidence": 0.30604661340153116
+			},
+			"placed": {
+				"period": 2.5596487376509267,
+				"n": 57,
+				"anchor": -1.549648737650926,
+				"spanFirst": 0.55,
+				"spanLast": 147.34
+			}
+		},
+		"st-louis-blues": {
+			"tempo": {
+				"bpm": 64.5,
+				"confidence": 0.47623603321127145,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 32.3,
+						"strength": 0.94
+					},
+					{
+						"factor": 1.5,
+						"bpm": 96.8,
+						"strength": 0.94
+					},
+					{
+						"factor": 2,
+						"bpm": 129,
+						"strength": 0.72
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 43,
+						"strength": 0.72
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.0037993696621405936
+			},
+			"key": {
+				"value": "B♭ major",
+				"confidence": 0.04940556450892819
+			},
+			"placed": {
+				"period": 6.118325581395324,
+				"n": 31,
+				"anchor": 0.10139534883716328,
+				"spanFirst": 0.63,
+				"spanLast": 187.85
+			}
+		},
+		"livery-stable-blues": {
+			"tempo": {
+				"bpm": 83.2,
+				"confidence": 0.5449282272676121,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 41.6,
+						"strength": 0.97
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 55.5,
+						"strength": 0.9
+					},
+					{
+						"factor": 2,
+						"bpm": 166.4,
+						"strength": 0.89
+					},
+					{
+						"factor": 1.5,
+						"bpm": 124.8,
+						"strength": 0.55
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.0006540399504402965
+			},
+			"key": {
+				"value": "E♭ major",
+				"confidence": 0.6971957067698793
+			},
+			"placed": {
+				"period": 2.711538461538461,
+				"n": 68,
+				"anchor": -0.08788461538461467,
+				"spanFirst": 0.08,
+				"spanLast": 185.99
+			}
+		},
+		"roll-called-up-yonder": {
+			"tempo": {
+				"bpm": 78.6,
+				"confidence": 0.5555737114989947,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 39.3,
+						"strength": 0.79
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 52.4,
+						"strength": 0.4
+					},
+					{
+						"factor": 2,
+						"bpm": 157.2,
+						"strength": 0.35
+					},
+					{
+						"factor": 1.5,
+						"bpm": 117.9,
+						"strength": 0.35
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.008463546411290098
+			},
+			"key": {
+				"value": "C minor",
+				"confidence": 0.1598653431477357
+			},
+			"placed": {
+				"period": 3.3343511450381524,
+				"n": 56,
+				"anchor": 0.1964122137404627,
+				"spanFirst": 0.91,
+				"spanLast": 189.01
+			}
+		},
+		"three-oclock-waltz": {
+			"tempo": {
+				"bpm": 77.9,
+				"confidence": 0.5255343112275772,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 39,
+						"strength": 0.85
+					},
+					{
+						"factor": 1.5,
+						"bpm": 116.9,
+						"strength": 0.41
+					},
+					{
+						"factor": 2,
+						"bpm": 155.8,
+						"strength": 0.38
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 51.9,
+						"strength": 0.37
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.004357441077008489
+			},
+			"key": {
+				"value": "A minor",
+				"confidence": 1
+			},
+			"placed": {
+				"period": 3.0642362002567483,
+				"n": 62,
+				"anchor": 1.0000000000000007,
+				"spanFirst": 1.55,
+				"spanLast": 191.22
+			}
+		},
+		"kitten-on-the-keys": {
+			"tempo": {
+				"bpm": 83.4,
+				"confidence": 0.6664861819403157,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 41.7,
+						"strength": 1.5
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 55.6,
+						"strength": 1.5
+					},
+					{
+						"factor": 1.5,
+						"bpm": 125.1,
+						"strength": 0.84
+					},
+					{
+						"factor": 2,
+						"bpm": 166.8,
+						"strength": 0.76
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.016941932584102534
+			},
+			"key": {
+				"value": "C major",
+				"confidence": 0.4322374851561359
+			},
+			"placed": {
+				"period": 4.358848920863316,
+				"n": 50,
+				"anchor": 1.0500000000000007,
+				"spanFirst": 1.48,
+				"spanLast": 220.73000000000002
+			}
+		},
+		"sp-today-live": {
+			"tempo": {
+				"bpm": 88.3,
+				"confidence": 0.7437115341858039,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 44.2,
+						"strength": 0.96
+					},
+					{
+						"factor": 2,
+						"bpm": 176.6,
+						"strength": 0.88
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 58.9,
+						"strength": 0.74
+					},
+					{
+						"factor": 1.5,
+						"bpm": 132.5,
+						"strength": 0.28
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.0014177085485882568
+			},
+			"key": {
+				"value": "E♭ major",
+				"confidence": 0.8986632182009129
+			},
+			"placed": {
+				"period": 2.7125707814269546,
+				"n": 83,
+				"anchor": -0.5844280860702149,
+				"spanFirst": 0.2,
+				"spanLast": 227.64000000000001
+			}
+		},
+		"irish-jigs-medley": {
+			"tempo": {
+				"bpm": 135,
+				"confidence": 0.579313833589367,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 67.5,
+						"strength": 0.94
+					},
+					{
+						"factor": 1.5,
+						"bpm": 202.5,
+						"strength": 0.82
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 90,
+						"strength": 0.53
+					},
+					{
+						"factor": 2,
+						"bpm": 270,
+						"strength": 0.48
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.0030576651286813184
+			},
+			"key": {
+				"value": "E minor",
+				"confidence": 0.040445495527079434
+			},
+			"placed": {
+				"period": 2.656533333333326,
+				"n": 64,
+				"anchor": 2.439999999999992,
+				"spanFirst": 2.5,
+				"spanLast": 173.44
+			}
+		},
+		"jw-let-it-in": {
+			"tempo": {
+				"bpm": 121,
+				"confidence": 0.8088059999888352,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60.5,
+						"strength": 1.17
+					},
+					{
+						"factor": 1.5,
+						"bpm": 181.5,
+						"strength": 0.4
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80.7,
+						"strength": 0.16
+					},
+					{
+						"factor": 2,
+						"bpm": 242,
+						"strength": 0.14
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.037636839605193824
+			},
+			"key": {
+				"value": "D minor",
+				"confidence": 0.04314103790173718
+			},
+			"placed": {
+				"period": 1.9834710743801622,
+				"n": 121,
+				"anchor": 0.19413223140495983,
+				"spanFirst": 0.27,
+				"spanLast": 239.88
+			}
+		},
+		"jw-same-boat": {
+			"tempo": {
+				"bpm": 123.1,
+				"confidence": 0.5683774318278934,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 1.5,
+						"bpm": 184.6,
+						"strength": 1.26
+					},
+					{
+						"factor": 0.5,
+						"bpm": 61.6,
+						"strength": 1.11
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 82.1,
+						"strength": 0.87
+					},
+					{
+						"factor": 2,
+						"bpm": 246.2,
+						"strength": 0.83
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.017145094965235818
+			},
+			"key": {
+				"value": "B♭ minor",
+				"confidence": 0
+			},
+			"placed": {
+				"period": 2.008513403736792,
+				"n": 98,
+				"anchor": 0.6500000000000004,
+				"spanFirst": 1.36,
+				"spanLast": 196.86
+			}
+		},
+		"jw-gravity": {
+			"tempo": {
+				"bpm": 145.9,
+				"confidence": 0.6496876969589438,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 73,
+						"strength": 1.09
+					},
+					{
+						"factor": 2,
+						"bpm": 291.8,
+						"strength": 0.47
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 97.3,
+						"strength": 0.38
+					},
+					{
+						"factor": 1.5,
+						"bpm": 218.9,
+						"strength": 0.37
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.08494452580582619
+			},
+			"key": {
+				"value": "F major",
+				"confidence": 1
+			},
+			"placed": {
+				"period": 2.4659629883481746,
+				"n": 91,
+				"anchor": 0.18701850582591373,
+				"spanFirst": 0.3,
+				"spanLast": 226.51
+			}
+		},
+		"jw-my-favorite-regret": {
+			"tempo": {
+				"bpm": 136.8,
+				"confidence": 0.5853563714947883,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 68.4,
+						"strength": 1.19
+					},
+					{
+						"factor": 2,
+						"bpm": 273.6,
+						"strength": 0.75
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 91.2,
+						"strength": 0.71
+					},
+					{
+						"factor": 1.5,
+						"bpm": 205.2,
+						"strength": 0.57
+					}
+				]
+			},
+			"meter": {
+				"value": "3/4",
+				"confidence": 0.055441852441132575
+			},
+			"key": {
+				"value": "D major",
+				"confidence": 1
+			},
+			"placed": {
+				"period": 1.3847368421052542,
+				"n": 190,
+				"anchor": -1.2347368421052543,
+				"spanFirst": 0.02,
+				"spanLast": 263.78000000000003
+			}
+		},
+		"jw-california-lullabye": {
+			"tempo": {
+				"bpm": 88,
+				"confidence": 0.8446726708193014,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 44,
+						"strength": 0.93
+					},
+					{
+						"factor": 2,
+						"bpm": 176,
+						"strength": 0.63
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 58.7,
+						"strength": 0.62
+					},
+					{
+						"factor": 1.5,
+						"bpm": 132,
+						"strength": 0.13
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.0051561372545157885
+			},
+			"key": {
+				"value": "A major",
+				"confidence": 1
+			},
+			"placed": {
+				"period": 2.7272727272727217,
+				"n": 90,
+				"anchor": 1.6381818181818146,
+				"spanFirst": 1.54,
+				"spanLast": 247.91
+			}
+		},
+		"jw-swansong": {
+			"tempo": {
+				"bpm": 85,
+				"confidence": 0.7902944610849745,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 42.5,
+						"strength": 0.92
+					},
+					{
+						"factor": 2,
+						"bpm": 170,
+						"strength": 0.61
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 56.7,
+						"strength": 0.55
+					},
+					{
+						"factor": 1.5,
+						"bpm": 127.5,
+						"strength": 0.21
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.010512981529690046
+			},
+			"key": {
+				"value": "A♭ major",
+				"confidence": 0.41027892384252773
+			},
+			"placed": {
+				"period": 2.823529411764701,
+				"n": 89,
+				"anchor": -0.09352941176471541,
+				"spanFirst": 1.16,
+				"spanLast": 252.13
+			}
+		},
+		"jw-afterglow": {
+			"tempo": {
+				"bpm": 99,
+				"confidence": 0.7965389161789053,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 49.5,
+						"strength": 0.91
+					},
+					{
+						"factor": 2,
+						"bpm": 198,
+						"strength": 0.39
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 66,
+						"strength": 0.34
+					},
+					{
+						"factor": 1.5,
+						"bpm": 148.5,
+						"strength": 0.23
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.012528970861287715
+			},
+			"key": {
+				"value": "A major",
+				"confidence": 0.48402865392832206
+			},
+			"placed": {
+				"period": 2.424242424242424,
+				"n": 85,
+				"anchor": -0.3942424242424232,
+				"spanFirst": 0.28,
+				"spanLast": 205.91
+			}
+		},
+		"jw-cherubs": {
+			"tempo": {
+				"bpm": 82.5,
+				"confidence": 0.8601347113859668,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 41.3,
+						"strength": 0.96
+					},
+					{
+						"factor": 2,
+						"bpm": 165,
+						"strength": 0.43
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 55,
+						"strength": 0.41
+					},
+					{
+						"factor": 1.5,
+						"bpm": 123.8,
+						"strength": 0.1
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.012879245578715556
+			},
+			"key": {
+				"value": "D major",
+				"confidence": 0.6079338605022042
+			},
+			"placed": {
+				"period": 2.909090909090916,
+				"n": 86,
+				"anchor": -0.0672727272727287,
+				"spanFirst": 0.86,
+				"spanLast": 250.38
+			}
+		},
+		"jw-goodbye-to-spring": {
+			"tempo": {
+				"bpm": 120,
+				"confidence": 0.8028069042837619,
+				"subdivision": 2,
+				"alternates": [
+					{
+						"factor": 0.5,
+						"bpm": 60,
+						"strength": 1.09
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 80,
+						"strength": 0.65
+					},
+					{
+						"factor": 2,
+						"bpm": 240,
+						"strength": 0.64
+					},
+					{
+						"factor": 1.5,
+						"bpm": 180,
+						"strength": 0.23
+					}
+				]
+			},
+			"meter": {
+				"value": "4/4",
+				"confidence": 0.010337846629559392
+			},
+			"key": {
+				"value": "B♭ major",
+				"confidence": 0.6621401807521567
+			},
+			"placed": {
+				"period": 1.9999999999999996,
+				"n": 112,
+				"anchor": -0.8099999999999987,
+				"spanFirst": 0,
+				"spanLast": 223.68
+			}
+		},
+		"jw-im-letting-go": {
+			"tempo": {
+				"bpm": 99.4,
+				"confidence": 0.5796639428594533,
+				"subdivision": 3,
+				"alternates": [
+					{
+						"factor": 1.5,
+						"bpm": 149.1,
+						"strength": 0.81
+					},
+					{
+						"factor": 0.5,
+						"bpm": 49.7,
+						"strength": 0.79
+					},
+					{
+						"factor": 0.6666666666666666,
+						"bpm": 66.3,
+						"strength": 0.5
+					},
+					{
+						"factor": 2,
+						"bpm": 198.8,
+						"strength": 0.38
+					}
+				]
+			},
+			"meter": {
+				"value": "6/8",
+				"confidence": 0.030764606413661154
+			},
+			"key": {
+				"value": "A minor",
+				"confidence": 0
+			},
+			"placed": {
+				"period": 3.957102615694179,
+				"n": 48,
+				"anchor": -0.1980684104627941,
+				"spanFirst": 0.12,
+				"spanLast": 186.52
+			}
+		}
+	},
+	"summary": {
+		"production": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 3,
+				"barFolded": 7,
+				"meterRight": 8
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 6,
+				"barFolded": 10,
+				"meterRight": 13
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 0,
+				"barFolded": 1,
+				"meterRight": 3,
+				"downbeatF": {
+					"dippermouth-blues": 0.03529411764705882,
+					"st-louis-blues": 0.02380952380952381,
+					"livery-stable-blues": 0.062176165803108814
+				}
+			},
+			"meterAll": 16
+		},
+		"beatthis-final0": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 6,
+				"barFolded": 9,
+				"meterRight": 8
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 10,
+				"barFolded": 13,
+				"meterRight": 13
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 4,
+				"barFolded": 4,
+				"meterRight": 6,
+				"downbeatF": {
+					"dippermouth-blues": 0,
+					"st-louis-blues": 0.49090909090909085,
+					"livery-stable-blues": 0.8616600790513834
+				}
+			},
+			"meterAll": 19
+		},
+		"beatthis-small0": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 7,
+				"barFolded": 8,
+				"meterRight": 8
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 11,
+				"barFolded": 12,
+				"meterRight": 13
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 3,
+				"barFolded": 3,
+				"meterRight": 4,
+				"downbeatF": {
+					"dippermouth-blues": 0,
+					"st-louis-blues": 0.3909774436090225,
+					"livery-stable-blues": 0.8333333333333333
+				}
+			},
+			"meterAll": 17
+		},
+		"beatthis-final0-dbn": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 6,
+				"barFolded": 9,
+				"meterRight": 8
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 10,
+				"barFolded": 14,
+				"meterRight": 14
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 4,
+				"barFolded": 4,
+				"meterRight": 6,
+				"downbeatF": {
+					"dippermouth-blues": 0,
+					"st-louis-blues": 0.4716981132075472,
+					"livery-stable-blues": 0.8492063492063492
+				}
+			},
+			"meterAll": 20
+		},
+		"madmom-34": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 7,
+				"barFolded": 10,
+				"meterRight": 8
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 11,
+				"barFolded": 15,
+				"meterRight": 14
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 3,
+				"barFolded": 3,
+				"meterRight": 5,
+				"downbeatF": {
+					"dippermouth-blues": 0.6607929515418502,
+					"st-louis-blues": 0.6857142857142857,
+					"livery-stable-blues": 0.9641434262948207
+				}
+			},
+			"meterAll": 19
+		},
+		"madmom-346": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 7,
+				"barFolded": 10,
+				"meterRight": 9
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 11,
+				"barFolded": 15,
+				"meterRight": 16
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 1,
+				"barFolded": 3,
+				"meterRight": 1,
+				"downbeatF": {
+					"dippermouth-blues": 0.2857142857142857,
+					"st-louis-blues": 0.20454545454545453,
+					"livery-stable-blues": 0.9641434262948207
+				}
+			},
+			"meterAll": 17
+		},
+		"librosa": {
+			"modernJw": {
+				"n": 10,
+				"barStrict": 4,
+				"barFolded": 10,
+				"meterRight": 0
+			},
+			"modernAll": {
+				"n": 15,
+				"barStrict": 8,
+				"barFolded": 15,
+				"meterRight": 0
+			},
+			"acoustic": {
+				"n": 6,
+				"barStrict": 3,
+				"barFolded": 3,
+				"meterRight": 0,
+				"downbeatF": {}
+			},
+			"meterAll": 0
+		}
+	}
+}
