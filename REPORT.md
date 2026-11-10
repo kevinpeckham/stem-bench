@@ -3468,3 +3468,43 @@ common direction) and compound meter, which no system here reads
 reliably. Studies 37 and 38 follow the proposal: a harmonic-rhythm
 period witness and the collapse-safe policy on the folded remainder,
 then the automatic re-draft on a tracker's bar.
+
+## Study 37 (2026-11-10): the harmonic-rhythm witness does not ship, and the half bar costs the chart nothing
+
+**Question.** Can chord-change times pick the right bar among the
+tracker's metrical-octave candidates (part C, $0, 261 songs × 4 base
+systems), and does drafting at the grid a tracker actually hands over
+(half the declared bar in 4/4; the adapter's true bar in 6/8) cost chart
+quality (part D, five drafts, $0.452 of a $0.60 fence)? Registered
+3dc106b (docs/BRIEF-STUDY37.md).
+
+**Part C: no.** On Beat This final0's 223 songs in 4/4 the witness fixes
+1 of 34 folded readings and breaks 30 of 165 strict ones (74 → 61
+percent strict); madmom 4 fixed, 33 broken; production 13 fixed, 16
+broken. It abstains on two thirds of songs and, when it acts, votes for
+the half bar: ChordMini emits 60 to 124 changes per song, mostly
+inside-the-bar flicker, so a stability term punishes every longer bar.
+Removing sub-beat segments (exploratory) leaves it net negative. The
+one win is compound meter on madmom and production, where the 2/3 ratio
+moves six 6/8 songs each from a double bar to the declared bar and
+breaks none. Predictions C1 to C4, C6 and C7 wrong; C5 right. A first
+pass of the runner measured the bar from the mean beat interval, failed
+to reproduce Study 36b, and is preserved and disclosed
+(results/study37c-defective-run1.json); the corrected median run is the
+result.
+
+**Part D: the half bar is free, and the 6/8 fix pays.** let-it-in,
+same-boat and im-letting-go drafted at twice the declared bpm grade
+20/21, 16/18 and 33/33 roots against 18/21, 15/18 and 28/33 at the
+declared bar; two cross into the good class. gravity and
+my-favorite-regret at the adapter's true 6/8 bar move from 16/26 and
+26/42 (confidently-wrong in Study 35) to 23/26 and 40/42, one good.
+Merged bar counts (98, 56, 51) fall under the declared-grid drafts (120,
+74, 58) because merging also collapses genuine repeats. Predictions D2,
+D3, D4 right; D1 wrong under its words (two drafts improved past the
+two-root band and changed class upward).
+
+**Decision.** Study 38 drafts on the tracker's bar as read, shorter bar
+preferred when two candidates fold, no harmonic-rhythm correction, the
+6/8 adapter fix in. Compound-meter detection itself (which songs ARE
+6/8) remains the open problem for every system.

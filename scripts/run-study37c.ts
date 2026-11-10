@@ -8,7 +8,7 @@
  * the declared bar (strict within 4 %, folded). Writes results/study37c.json.
  */
 import { readFileSync, writeFileSync } from "node:fs";
-import { foldCompare, summarizeTracker } from "../src/study36/metrical.js";
+import { foldCompare, median, summarizeTracker } from "../src/study36/metrical.js";
 import { changeBeats, harmonicPeriod, type Segment, type WitnessResult } from "../src/study37/harmonic.js";
 
 const root = new URL("../", import.meta.url).pathname;
@@ -84,7 +84,9 @@ for (const [slug, e] of Object.entries(manifest.entries)) {
 			baseK = s.beatsPerBar;
 			beats = t.beats;
 		}
-		const beatSec = beats.length > 1 ? (beats[beats.length - 1]! - beats[0]!) / (beats.length - 1) : 0;
+		// beat period as Study 36 reads it: the MEDIAN inter-beat interval (the first run used the
+		// mean, which tracker gaps bias; that run is disclosed in the brief and discarded)
+		const beatSec = beats.length > 1 ? median(beats.slice(1).map((b, i) => b - beats[i]!)) : 0;
 		if (beatSec <= 0) continue;
 		const changes = changeBeats(segs, beats);
 		const w: WitnessResult = harmonicPeriod(changes, baseK, MIN_CHANGES, MIN_MARGIN);
@@ -115,6 +117,22 @@ for (const [slug, e] of Object.entries(manifest.entries)) {
 	n++;
 }
 console.log(`${n} songs with chords`);
+// reproduction check against Study 36b: the base bars must grade exactly as results/study36b.json graded them
+{
+	const g36 = (JSON.parse(readFileSync(`${root}results/study36b.json`, "utf8")) as { graded: Record<string, Record<string, { strict: boolean }>> }).graded;
+	let agree = 0;
+	let total = 0;
+	for (const [slug, cells] of Object.entries(out)) {
+		for (const sys of SYSTEMS) {
+			const c = cells[sys];
+			const ref = g36[`${slug}|regular`]?.[sys];
+			if (!c || !ref) continue;
+			total++;
+			if (c.baseStrict === ref.strict) agree++;
+		}
+	}
+	console.log(`reproduction of Study 36b base grades: ${agree}/${total} cells agree`);
+}
 
 // tallies
 const classes: Record<string, (e: Entry) => boolean> = {

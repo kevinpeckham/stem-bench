@@ -1,0 +1,34 @@
+{
+	"beatthis-final0 minSegment 1 beat": {
+		"n": 223,
+		"baseStrict": 165,
+		"strict": 144,
+		"fixed": 2,
+		"broke": 23,
+		"abstained": 147
+	},
+	"madmom-34 minSegment 1 beat": {
+		"n": 223,
+		"baseStrict": 164,
+		"strict": 138,
+		"fixed": 2,
+		"broke": 28,
+		"abstained": 117
+	},
+	"beatthis-final0 minSegment 2 beat": {
+		"n": 223,
+		"baseStrict": 165,
+		"strict": 156,
+		"fixed": 3,
+		"broke": 12,
+		"abstained": 138
+	},
+	"madmom-34 minSegment 2 beat": {
+		"n": 223,
+		"baseStrict": 164,
+		"strict": 152,
+		"fixed": 2,
+		"broke": 14,
+		"abstained": 111
+	}
+}
