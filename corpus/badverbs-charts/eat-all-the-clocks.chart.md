@@ -3,16 +3,14 @@
 key: Em, time: 4/4, tempo:120
 
 ## Part 1
-| Em Am | % | % | % | x3 
-| Em Am | % |
+|: Em Am :| x14 
 
 ## Part 2
 | D5 | A7 | Em7 | % |
 | C | D | A | A |
 
 ## Verse
-| E5(7) | Am7 Am7 Am7  G5(7) | E5(7) | Am7 Am7 Am7  G5(7) |
-| E5(7) | Am7 Am7 Am7  G5(7) |
+|: E5(7) | Am7 Am7 Am7  G5(7) :| x3
 
 ## Chorus 
 | D5 | A7 | E5(7) | E5(7) | x2
