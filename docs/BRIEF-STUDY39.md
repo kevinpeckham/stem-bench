@@ -82,3 +82,69 @@ on the best available bar lines, disclosed as sub-threshold.
 - Downbeat F at 70 ms on rubato material penalises both tracker and
   annotator jitter; the 150 ms window is reported beside it and enters
   no prediction.
+
+## Results (2026-11-10, registration ca362ee; $0, 51 recordings × 8 systems)
+
+Group medians; "chartable" = recall at 70 ms ≥ 0.8 with the bar at fold
+1 or 1/2 of the annotated bar.
+
+### Winterreise, 48 performances (SC06 and HU33)
+
+| system | F@70 | P@70 | R@70 | F@150 | strict bar | folded (half, double) | chartable |
+|---|---|---|---|---|---|---|---|
+| Beat This final0, peak-picking | 0.656 | 0.546 | 0.862 | 0.671 | 6 | 19 (14, 2) | 11 |
+| Beat This small0, peak-picking | 0.604 | 0.482 | 0.748 | 0.631 | 7 | 23 (20, 2) | 8 |
+| Beat This final0 + DBN | 0.546 | 0.615 | 0.544 | 0.601 | 24 | 36 (5, 7) | 10 |
+| madmom 3/4, λ 100 (Study 36/38) | 0.386 | 0.425 | 0.365 | 0.390 | 16 | 28 (4, 10) | 7 |
+| madmom 3/4, λ 30 | 0.458 | 0.487 | 0.448 | 0.463 | 16 | 29 (4, 12) | 7 |
+| madmom 3/4, λ 10 | 0.504 | 0.556 | 0.443 | 0.534 | 17 | 28 (4, 12) | 5 |
+| madmom 3/4, λ 3 | 0.465 | 0.506 | 0.430 | 0.510 | 17 | 26 (4, 10) | 3 |
+| madmom 3/4/6, λ 100 | 0.278 | 0.377 | 0.227 | 0.287 | 7 | 26 (0, 9) | 4 |
+
+Per edition (SC06 / HU33) recall at 70 ms: final0 0.871 / 0.838;
+small0 0.867 / 0.708; final0 + DBN 0.648 / 0.543; madmom λ 100
+0.366 / 0.365; λ 30 0.488 / 0.416; λ 10 0.549 / 0.386; λ 3
+0.565 / 0.405; 3/4/6 0.248 / 0.213.
+
+### JAAH 78s, 3 recordings (steady drift)
+
+F@70: madmom λ 100 0.686 (F@150 0.974, strict 3 of 3); Beat This
+final0 0.491 (F@150 0.745); final0 + DBN 0.472; λ 10 0.472; small0
+0.391; λ 30 0.388; λ 3 0.294; 3/4/6 0.284.
+
+### Reading
+
+Two different failures. Beat This with peak-picking FOLLOWS the free
+tempo (recall 0.86 for the big model at 70 ms, the annotator's own
+jitter included) but places too many downbeats: precision 0.55, and on
+14 of 48 performances its median bar is half the annotated one. Every
+DBN, Beat This's own included, does the opposite: it holds a bar
+length (24 of 48 strict for Beat This + DBN) and loses the beats under
+the rubato (recall 0.54, madmom 0.37 to 0.45). Loosening madmom's
+tempo-transition penalty from λ 100 to 10 buys 0.08 of recall, half the
+predicted 0.15, and costs it chartable performances (7 → 5): the DBN's
+trouble on lieder is not the transition cost alone. On the steadily
+drifting 78s the ordering reverses, madmom λ 100 is best by a wide
+margin at 150 ms (0.97), as predicted.
+
+The 1933 edition decides more than predicted: the small Beat This
+model loses 0.16 of recall from SC06 to HU33, the DBN variants 0.10 to
+0.16, while the big peak-picking model (0.03) and madmom at λ 100
+(0.00) are indifferent to it.
+
+No system is chartable on 75 % of the 48 (best 11, 23 %). S39-D1 holds:
+no free-tempo tracker is adopted. The best available bar lines for the
+draft-format study are Beat This final0's, read at the half-bar fold
+where it sits (Study 37 Part D showed half-bar drafts grade no worse);
+the format question (two chords per bar, Study 38 arm C's 1.5 changes
+a bar) is the next study on this material, disclosed as running on
+sub-threshold bars.
+
+### Predictions
+
+P1 right (final0 recall 0.862 ≥ 0.75). P2 wrong (λ 10 raised recall
+0.365 → 0.443, +0.08, not ≥ 0.15). P3 right (DBN 0.546 < 0.656). P4
+right (madmom λ 100 best F on JAAH, 0.686). P5 wrong (four of eight
+systems differ by more than 0.10 between the editions; the two systems
+whose numbers were public when P5 was written are the two that do
+not).
