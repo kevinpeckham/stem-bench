@@ -3391,3 +3391,80 @@ timing is a Study 38 matter.
 261-song Josh Woodward catalog against the artist's declared tempo and
 meter, with 244 paired instrumental mixes to ask whether the voice is
 what trips the trackers.
+
+## Study 36b (2026-11-10): the catalog census, 261 songs against the artist's own numbers
+
+**Question.** With the artist's declared tempo and meter on 261 modern
+recordings (Josh Woodward, CC BY 4.0; the Epic Bundle Kevin purchased
+plus the song pages he authorized the bench to fetch), how often does
+the bar come out right automatically, by meter and feel, and is the
+voice what trips the trackers? Zero model spend; registered in
+docs/BRIEF-STUDY36B.md before any catalog run, corpus frozen one commit
+earlier.
+
+**Catalog.** 223 songs in 4/4 (177 straight, 46 swing), 37 in 6/8, one
+in 3/4; declared tempos 40 to 280, median 105; 244 songs paired with an
+instrumental mix. The bar is four quarters in 4/4 and two dotted
+quarters in 6/8 at the declared tempo.
+
+**Result** (bar period strict within 4 percent / folded at a metrical
+ratio / meter class right, regular mixes): production 36 / 67 / 69
+percent; Beat This final 70 / 90 / 85; Beat This small 69 / 90 / 87;
+madmom 66 / 89 / 85. On 4/4 straight songs the trackers reach 73 to 76
+strict and 91 to 93 folded against production's 38 and 64; madmom
+names the 4/4 class on 100 percent of them. On 6/8 nobody is good:
+strict 8 to 35 percent, and madmom (bars of 3 or 4 only) never
+satisfies the compound class. The instrumental mixes change little:
+Beat This fixes 10 of its 74 failures and breaks 11 of its 170 passes;
+production's outcome moves on 14 percent of songs. The voice is not
+the problem.
+
+**Predictions.** Mostly wrong in the details, right in the shape. The
+trackers landed four points under the registered 80 percent strict on
+4/4 straight (76, Wilson interval 70 to 81) and two under the 95
+percent folded line; swing cost them nothing (76 versus 76); the small
+checkpoint beat the large one on swing meter by eight points. Neither
+decision rule fired: no tracker reaches 80 / 95, and the instrumental
+fix rate of 14 percent sends source separation back down the list.
+
+**Production's largest error class is its own 6/8 call.** It names 6/8
+on 63 of 223 4/4 songs, 56 of them straight, every one through
+`subdivision` reading 3, and 59 of the 63 bars come out unfolded. That
+is the Study 11b/11c peaceful-dreams confound at catalog scale: the
+sub-beat test fires on straight running eighths and the ladder then
+builds a bar nothing in the song has. When production does name 6/8
+on a 6/8 song (21 of 37) the bar is strict on 2. Its tempo confidence
+does not separate right from wrong on 261 songs (medians 0.762 against
+0.685; at 0.84, 12 right and 11 wrong pass), so Study 35's "do not
+ship the refusal" stands at scale.
+
+**The fold direction is a convention, and it is collapse-safe.** Of
+Beat This's 39 folded-but-not-strict 4/4 readings, 28 are a bar HALF
+the declared length (median declared tempo 72) and 8 a bar twice it
+(median declared 212). The trackers live in the 80 to 160 lane; the
+artist's slow and fast declarations are session choices. A grid at
+half the declared bar is a finer grid, which the chart can merge
+without losing a chord; the coarser direction is the rarer one. Tier
+D's policy (prefer the shorter bar, merge identical neighbours) covers
+28 of 39.
+
+**Ten songs disagree with their page by every tracker at once**, with
+the three trackers agreeing with each other within 4 percent
+(AThousandSkinsPart2 page 75 trackers 106; ShowMe 123 vs 132;
+RollAwaytheStone 95 vs 89; TheBestSong 120 vs 130; Flypaper 124 vs
+164; and five 6/8 songs). Listed, not re-graded.
+
+**Labelling disclosure.** Q6 was written in tempo terms ("the 1/2 fold
+(120)" for a 240 song) while the grader's fold ratio is on the bar,
+where that reading is 2; the prediction is scored under its own words
+and the brief says so.
+
+**What changes.** The production detector's automatic bar is right on
+about a third of modern songs and its 6/8 call is wrong more often
+than right; an off-the-shelf tracker is right on about three quarters,
+folded on nine in ten, with the voice irrelevant. The remaining
+quarter splits into the octave convention (collapse-safe in the
+common direction) and compound meter, which no system here reads
+reliably. Studies 37 and 38 follow the proposal: a harmonic-rhythm
+period witness and the collapse-safe policy on the folded remainder,
+then the automatic re-draft on a tracker's bar.

@@ -107,3 +107,86 @@ direction (half / double) is tabulated against declared tempo.
 - Covers and parodies (12 files) have no original-song page and are
   excluded; "Preludes" has no tempo.
 - Compute only; no fence needed.
+
+## Results (2026-11-10, results/study36b.json; raw in results/study36b-trackers.json)
+
+The run took five hours, not fourteen (Beat This final0 median 13 s per
+recording, small0 8 s, madmom 27 s; the Study 36 figures were measured
+while the Study 36 grading and three decodes shared the CPU).
+
+Regular mixes, bar strict / folded / meter right (n):
+
+| system | all (261) | 4/4 straight (177) | 4/4 swing (46) | 6/8 (37) |
+|---|---|---|---|---|
+| production | 36 / 67 / 69 | 38 / 64 / 68 | 54 / 85 / 83 | 8 / 62 / 57 |
+| beatthis-final0 | 70 / 90 / 85 | 76 / 93 / 92 | 76 / 96 / 85 | 32 / 68 / 57 |
+| beatthis-small0 | 69 / 90 / 87 | 75 / 92 / 91 | 76 / 96 / 93 | 35 / 70 / 59 |
+| madmom-34 | 66 / 89 / 85 | 73 / 91 / 100 | 76 / 96 / 96 | 16 / 68 / 0 |
+
+Instrumental mixes (244): production 42 / 74 / 72; final0 69 / 91 / 88;
+small0 69 / 89 / 84. The one 3/4 song: every tracker names 3, none has
+the bar strict (all read it at a fold), production reads 4/4.
+
+Predictions. Q1 production: 4/4 straight strict 38 % (≤ 45 predicted,
+right), folded 64 % (≥ 75 predicted, WRONG); names 6/8 on 21 of 37 6/8
+songs = 57 % (≤ 30 predicted, WRONG, in the detector's favour); names
+6/8 FALSELY on 63 of 223 4/4 songs = 28 % (≤ 5 predicted, WRONG by a
+wide margin: 56 of the 63 are straight songs where `subdivision` reads
+3 and the resulting bar is unfolded, the Study 11b/11c confound at
+catalog scale); names 3/4 falsely on 1 of 223 (≥ 5 % predicted, WRONG).
+Q2 final0 4/4 straight: strict 76 % (≥ 80 predicted, WRONG by 4),
+folded 93 % (≥ 95, WRONG by 2), meter 92 % (≥ 85, right); swing is NOT
+10 points below straight (76 vs 76, WRONG); 6/8 meter 57 % (≥ 50,
+right), strict 32 % (≥ 40, WRONG). Q3 small0 within 5 points of final0
+on every n ≥ 40 rate: WRONG by one cell, 4/4 swing meter 93 vs 85 (the
+small model is better there). Q4 madmom within 8 points on 4/4 strict
+(74 vs 76) and worse on 6/8 meter (0 vs 57): RIGHT. Q5 paired arm:
+instrumental fixes 10 of final0's 74 regular failures = 14 % (≤ 25
+predicted, right) and breaks 11 of 170 passes = 6.5 % (≤ 5 predicted,
+WRONG by 1.5); production's outcome changes on 35 of 244 = 14 % (≤ 15,
+right). The voice is not the problem; S36b-D2 does not fire. Q6 fold
+direction: RIGHT under the prediction's own words (half-tempo readings,
+bar fold 2, median declared 212; double-tempo readings, bar fold 0.5,
+median declared 72), with a labelling disclosure: the brief wrote
+"1/2 fold" meaning half TEMPO while the grader's fold ratio is on the
+BAR, where the same reading is ratio 2. Q7: final0 4/4 strict 170/223 =
+76.2 %, Wilson 95 % 70.2 to 81.3, half-width 5.6 (≤ 7, right).
+
+Decision rules. S36b-D1 (4/4 strict ≥ 80 % and folded ≥ 95 %) is met by
+no tracker; the nearest is final0 at 76 / 94. S36b-D2 does not fire
+(fix rate 14 %).
+
+Anatomy worth keeping.
+- Of final0's 4/4 readings that fold but are not strict (39), 28 are at
+  bar fold 0.5 (the tracker's bar is half the declared bar, a finer
+  grid, the collapse-safe direction of Tier D) and 8 at fold 2 (a
+  coarser grid, where merging would be needed). The 0.5 cases sit at a
+  median declared tempo of 72; the 2 cases at 212. Trackers live in
+  the 80 to 160 lane and the declared tempo is a session convention
+  outside it.
+- 6/8 is the unsolved class for everyone. final0 reads 6/8 songs as
+  6 beats per bar on 18, 3 on 12, 4 on 3, 2 on 3; strict on 12 of 37,
+  at the 3/2 fold on 8 (a 4/4 bar laid over a 6/8 song), unfolded on
+  12. madmom with bars of [3, 4] reads 6/8 as 3 on 25 and 4 on 12 and
+  never satisfies the class. Production names 6/8 on 21 of 37 but has
+  the bar strict on only 2 of those 21.
+- Production's false 6/8 on 4/4 is the catalog's largest single error
+  class: 63 songs, 56 of them straight, every one with `subdivision`
+  3, 59 with an unfolded bar. On instrumentals it is 42 of 208, so the
+  voice contributes but is not the cause.
+- Production's tempo confidence does not separate right from wrong
+  at catalog scale: strict-right median 0.762 (n = 95), not-strict
+  median 0.685 (n = 166); at the Study 34b line of 0.84, 12 of 95
+  right and 11 of 166 wrong pass. Study 35's "do not ship the
+  refusal" stands on 261 songs.
+- Ten songs are unfolded against the page by all three trackers while
+  the three agree with each other within 4 %: AThousandSkinsPart2 (page
+  75, trackers 106), ShowMe (123 vs 132), RollAwaytheStone (95 vs 89),
+  TheBestSong (120 vs 130), Flypaper (124 swing vs 164), and six 6/8
+  songs (MotionlessLand, SpaceCamp, FollowtheRoad, TheRivalWithin,
+  DontCloseYourEyes) where the trackers' bar is 1.26 to 2.24 s against
+  the page's dotted-quarter convention. These are listed, not
+  re-graded; some may be page errors, some tempo changes, some the
+  trackers agreeing on a wrong reading.
+- The 12 Study 35/34 songs inside this corpus: nothing here was tuned
+  to them and they move no rate.
