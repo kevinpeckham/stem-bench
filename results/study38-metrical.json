@@ -1,0 +1,1914 @@
+{
+	"summary": {
+		"B|madmom-34": {
+			"n": 36,
+			"strict": 22,
+			"folded": 36,
+			"half": 12,
+			"double": 0,
+			"downbeatFMedian": 0.694,
+			"downbeatFAtLeast06": 27,
+			"barCountWithin10pct": 22
+		},
+		"B|beatthis-final0": {
+			"n": 36,
+			"strict": 31,
+			"folded": 35,
+			"half": 4,
+			"double": 0,
+			"downbeatFMedian": 0.97,
+			"downbeatFAtLeast06": 35,
+			"barCountWithin10pct": 29
+		},
+		"C|madmom-34": {
+			"n": 24,
+			"strict": 8,
+			"folded": 13,
+			"half": 2,
+			"double": 4,
+			"downbeatFMedian": 0.386,
+			"downbeatFAtLeast06": 8,
+			"barCountWithin10pct": 12
+		},
+		"C|beatthis-final0": {
+			"n": 24,
+			"strict": 3,
+			"folded": 10,
+			"half": 5,
+			"double": 0,
+			"downbeatFMedian": 0.683,
+			"downbeatFAtLeast06": 17,
+			"barCountWithin10pct": 1
+		},
+		"C-metrical|madmom-34": {
+			"n": 24,
+			"strict": 8,
+			"folded": 15,
+			"half": 2,
+			"double": 6,
+			"downbeatFMedian": 0.381,
+			"downbeatFAtLeast06": 5,
+			"barCountWithin10pct": 11
+		},
+		"C-metrical|beatthis-final0": {
+			"n": 24,
+			"strict": 3,
+			"folded": 9,
+			"half": 9,
+			"double": 2,
+			"downbeatFMedian": 0.605,
+			"downbeatFAtLeast06": 12,
+			"barCountWithin10pct": 2
+		}
+	},
+	"cells": {
+		"gs-00_SS1-100-C#_comp": {
+			"madmom-34": {
+				"truthBar": 2.4,
+				"barSec": 2.4000000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0,
+				"barCountRatio": 0.917
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4,
+				"barSec": 2.4000000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-00_SS1-68-E_comp": {
+			"madmom-34": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 3.54,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.87,
+				"barCountRatio": 0.917
+			},
+			"beatthis-final0": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 2.6999999999999997,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.643,
+				"barCountRatio": 1.167
+			}
+		},
+		"gs-00_SS2-107-Ab_comp": {
+			"madmom-34": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.968,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-00_SS2-88-F_comp": {
+			"madmom-34": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.7300000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.759999999999998,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.875,
+				"barCountRatio": 1
+			}
+		},
+		"gs-00_SS3-84-Bb_comp": {
+			"madmom-34": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.8550000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.903,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.860000000000001,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-00_SS3-98-C_comp": {
+			"madmom-34": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.440000000000005,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.938,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.4399999999999995,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.909,
+				"barCountRatio": 1
+			}
+		},
+		"gs-01_SS1-100-C#_comp": {
+			"madmom-34": {
+				"truthBar": 2.4,
+				"barSec": 2.3999999999999995,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.96,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4,
+				"barSec": 2.3999999999999995,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.96,
+				"barCountRatio": 1
+			}
+		},
+		"gs-01_SS1-68-E_comp": {
+			"madmom-34": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 3.4700000000000024,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.615,
+				"barCountRatio": 1.083
+			},
+			"beatthis-final0": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.7800000000000002,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.733,
+				"barCountRatio": 1.333
+			}
+		},
+		"gs-01_SS2-107-Ab_comp": {
+			"madmom-34": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 1.120000000000001,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0,
+				"barCountRatio": 1.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-01_SS2-88-F_comp": {
+			"madmom-34": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 1.3600000000000012,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0,
+				"barCountRatio": 1.875
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.700000000000003,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.941,
+				"barCountRatio": 1.125
+			}
+		},
+		"gs-01_SS3-84-Bb_comp": {
+			"madmom-34": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 1.9400000000000048,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.722,
+				"barCountRatio": 1.188
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.8599999999999994,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1.063
+			}
+		},
+		"gs-01_SS3-98-C_comp": {
+			"madmom-34": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.46,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.4400000000000013,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-02_SS1-100-C#_comp": {
+			"madmom-34": {
+				"truthBar": 2.4,
+				"barSec": 2.3900000000000006,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4,
+				"barSec": 2.399999999999999,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.96,
+				"barCountRatio": 1
+			}
+		},
+		"gs-02_SS1-68-E_comp": {
+			"madmom-34": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 3.5500000000000043,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.667,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 3.4400000000000013,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.571,
+				"barCountRatio": 1.25
+			}
+		},
+		"gs-02_SS2-107-Ab_comp": {
+			"madmom-34": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-02_SS2-88-F_comp": {
+			"madmom-34": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 1.8300000000000018,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.263,
+				"barCountRatio": 1.313
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.719999999999999,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-02_SS3-84-Bb_comp": {
+			"madmom-34": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.849999999999998,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.8599999999999994,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-02_SS3-98-C_comp": {
+			"madmom-34": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.4549999999999996,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.968,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.4400000000000013,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-03_SS1-100-C#_comp": {
+			"madmom-34": {
+				"truthBar": 2.4,
+				"barSec": 2.3900000000000006,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.957,
+				"barCountRatio": 0.917
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4,
+				"barSec": 2.4000000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-03_SS1-68-E_comp": {
+			"madmom-34": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.7599999999999998,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.667,
+				"barCountRatio": 1.917
+			},
+			"beatthis-final0": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.769999999999997,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.686,
+				"barCountRatio": 1.833
+			}
+		},
+		"gs-03_SS2-107-Ab_comp": {
+			"madmom-34": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 1.120000000000001,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.638,
+				"barCountRatio": 1.875
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-03_SS2-88-F_comp": {
+			"madmom-34": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.7350000000000003,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.903,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.7399999999999984,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-03_SS3-84-Bb_comp": {
+			"madmom-34": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 1.4299999999999997,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.667,
+				"barCountRatio": 1.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.8499999999999996,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-03_SS3-98-C_comp": {
+			"madmom-34": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 1.2300000000000004,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.638,
+				"barCountRatio": 1.875
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.459999999999999,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-04_SS1-100-C#_comp": {
+			"madmom-34": {
+				"truthBar": 2.4,
+				"barSec": 1.1999999999999997,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.629,
+				"barCountRatio": 1.833
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4,
+				"barSec": 2.4000000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-04_SS1-68-E_comp": {
+			"madmom-34": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.7599999999999998,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0,
+				"barCountRatio": 1.833
+			},
+			"beatthis-final0": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.7800000000000002,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.727,
+				"barCountRatio": 1.75
+			}
+		},
+		"gs-04_SS2-107-Ab_comp": {
+			"madmom-34": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.2300000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.938,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-04_SS2-88-F_comp": {
+			"madmom-34": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 1.3699999999999974,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.596,
+				"barCountRatio": 1.875
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.7300000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-04_SS3-84-Bb_comp": {
+			"madmom-34": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 1.4299999999999997,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.367,
+				"barCountRatio": 1.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.8500000000000023,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-04_SS3-98-C_comp": {
+			"madmom-34": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.450000000000003,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.4499999999999993,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-05_SS1-100-C#_comp": {
+			"madmom-34": {
+				"truthBar": 2.4,
+				"barSec": 2.3950000000000005,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.957,
+				"barCountRatio": 0.917
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4,
+				"barSec": 2.4,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.96,
+				"barCountRatio": 1
+			}
+		},
+		"gs-05_SS1-68-E_comp": {
+			"madmom-34": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.75,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.667,
+				"barCountRatio": 1.917
+			},
+			"beatthis-final0": {
+				"truthBar": 3.5294117647058822,
+				"barSec": 1.740000000000002,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.632,
+				"barCountRatio": 2
+			}
+		},
+		"gs-05_SS2-107-Ab_comp": {
+			"madmom-34": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.245000000000001,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.968,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2429906542056073,
+				"barSec": 2.24,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-05_SS2-88-F_comp": {
+			"madmom-34": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 1.3599999999999994,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.638,
+				"barCountRatio": 1.875
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7272727272727266,
+				"barSec": 2.7200000000000006,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 1,
+				"barCountRatio": 1
+			}
+		},
+		"gs-05_SS3-84-Bb_comp": {
+			"madmom-34": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.85,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8571428571428577,
+				"barSec": 2.8500000000000014,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.97,
+				"barCountRatio": 1
+			}
+		},
+		"gs-05_SS3-98-C_comp": {
+			"madmom-34": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.455000000000001,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.968,
+				"barCountRatio": 0.938
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4489795918367347,
+				"barSec": 2.4400000000000013,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.941,
+				"barCountRatio": 1.063
+			}
+		},
+		"swd-d911-01-sc06": {
+			"madmom-34": {
+				"truthBar": 2.335147391999982,
+				"barSec": 2.3300000000000125,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.924,
+				"barCountRatio": 0.993
+			},
+			"beatthis-final0": {
+				"truthBar": 2.335147391999982,
+				"barSec": 2.259999999999991,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.871,
+				"barCountRatio": 1.196
+			}
+		},
+		"swd-d911-02-sc06": {
+			"madmom-34": {
+				"truthBar": 1.6923242634999998,
+				"barSec": 3.3500000000000085,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.395,
+				"barCountRatio": 0.528
+			},
+			"beatthis-final0": {
+				"truthBar": 1.6923242634999998,
+				"barSec": 1.4800000000000004,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.545,
+				"barCountRatio": 1.283
+			}
+		},
+		"swd-d911-03-sc06": {
+			"madmom-34": {
+				"truthBar": 2.452154195000003,
+				"barSec": 2.454999999999994,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.893,
+				"barCountRatio": 0.965
+			},
+			"beatthis-final0": {
+				"truthBar": 2.452154195000003,
+				"barSec": 1.8000000000000114,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.738,
+				"barCountRatio": 1.474
+			}
+		},
+		"swd-d911-04-sc06": {
+			"madmom-34": {
+				"truthBar": 1.3990022670000002,
+				"barSec": 2.9000000000000057,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.36,
+				"barCountRatio": 0.464
+			},
+			"beatthis-final0": {
+				"truthBar": 1.3990022670000002,
+				"barSec": 1.3800000000000026,
+				"beatsPerBar": 2,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.696,
+				"barCountRatio": 0.882
+			}
+		},
+		"swd-d911-05-sc06": {
+			"madmom-34": {
+				"truthBar": 3.3466099774999947,
+				"barSec": 3.200000000000001,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.323,
+				"barCountRatio": 1.012
+			},
+			"beatthis-final0": {
+				"truthBar": 3.3466099774999947,
+				"barSec": 2.4600000000000044,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.67,
+				"barCountRatio": 1.337
+			}
+		},
+		"swd-d911-06-sc06": {
+			"madmom-34": {
+				"truthBar": 3.9654081634999976,
+				"barSec": 3.7299999999999898,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.352,
+				"barCountRatio": 1.049
+			},
+			"beatthis-final0": {
+				"truthBar": 3.9654081634999976,
+				"barSec": 2.919999999999999,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.703,
+				"barCountRatio": 1.377
+			}
+		},
+		"swd-d911-07-sc06": {
+			"madmom-34": {
+				"truthBar": 2.5563832199999967,
+				"barSec": 2.5650000000000004,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.892,
+				"barCountRatio": 0.973
+			},
+			"beatthis-final0": {
+				"truthBar": 2.5563832199999967,
+				"barSec": 2.2399999999999807,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.864,
+				"barCountRatio": 1.253
+			}
+		},
+		"swd-d911-08-sc06": {
+			"madmom-34": {
+				"truthBar": 1.4755102039999999,
+				"barSec": 1.9150000000000005,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1.5,
+				"downbeatF": 0.256,
+				"barCountRatio": 0.786
+			},
+			"beatthis-final0": {
+				"truthBar": 1.4755102039999999,
+				"barSec": 1.1999999999999957,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.524,
+				"barCountRatio": 1.343
+			}
+		},
+		"swd-d911-09-sc06": {
+			"madmom-34": {
+				"truthBar": 3.223469387999998,
+				"barSec": 3.54999999999999,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.333,
+				"barCountRatio": 0.909
+			},
+			"beatthis-final0": {
+				"truthBar": 3.223469387999998,
+				"barSec": 2.339999999999989,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.704,
+				"barCountRatio": 1.455
+			}
+		},
+		"swd-d911-10-sc06": {
+			"madmom-34": {
+				"truthBar": 2.4613605440000015,
+				"barSec": 2.4599999999999937,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.957,
+				"barCountRatio": 1.029
+			},
+			"beatthis-final0": {
+				"truthBar": 2.4613605440000015,
+				"barSec": 1.8799999999999955,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.764,
+				"barCountRatio": 1.426
+			}
+		},
+		"swd-d911-11-sc06": {
+			"madmom-34": {
+				"truthBar": 2.1665079370000058,
+				"barSec": 3.650000000000002,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1.5,
+				"downbeatF": 0.477,
+				"barCountRatio": 0.722
+			},
+			"beatthis-final0": {
+				"truthBar": 2.1665079370000058,
+				"barSec": 1.3299999999999983,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.55,
+				"barCountRatio": 1.544
+			}
+		},
+		"swd-d911-12-sc06": {
+			"madmom-34": {
+				"truthBar": 2.8439229025,
+				"barSec": 2.8200000000000074,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.485,
+				"barCountRatio": 1.02
+			},
+			"beatthis-final0": {
+				"truthBar": 2.8439229025,
+				"barSec": 1.3800000000000239,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.647,
+				"barCountRatio": 1.837
+			}
+		},
+		"swd-d911-13-sc06": {
+			"madmom-34": {
+				"truthBar": 1.203276643999999,
+				"barSec": 2.469999999999999,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.634,
+				"barCountRatio": 0.495
+			},
+			"beatthis-final0": {
+				"truthBar": 1.203276643999999,
+				"barSec": 1.8399999999999892,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 1.5,
+				"downbeatF": 0.767,
+				"barCountRatio": 0.674
+			}
+		},
+		"swd-d911-14-sc06": {
+			"madmom-34": {
+				"truthBar": 3.333741497000002,
+				"barSec": 3.7300000000000013,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.376,
+				"barCountRatio": 0.848
+			},
+			"beatthis-final0": {
+				"truthBar": 3.333741497000002,
+				"barSec": 2.670000000000009,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.59,
+				"barCountRatio": 1.283
+			}
+		},
+		"swd-d911-15-sc06": {
+			"madmom-34": {
+				"truthBar": 2.5538322000000004,
+				"barSec": 2.684999999999995,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.265,
+				"barCountRatio": 0.886
+			},
+			"beatthis-final0": {
+				"truthBar": 2.5538322000000004,
+				"barSec": 1.5100000000000016,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.617,
+				"barCountRatio": 1.432
+			}
+		},
+		"swd-d911-16-sc06": {
+			"madmom-34": {
+				"truthBar": 1.9126417230000001,
+				"barSec": 2.4750000000000014,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1.5,
+				"downbeatF": 0.133,
+				"barCountRatio": 0.837
+			},
+			"beatthis-final0": {
+				"truthBar": 1.9126417230000001,
+				"barSec": 1.0600000000000023,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.34,
+				"barCountRatio": 1.878
+			}
+		},
+		"swd-d911-17-sc06": {
+			"madmom-34": {
+				"truthBar": 3.832743764,
+				"barSec": 3.8200000000000003,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.848,
+				"barCountRatio": 0.98
+			},
+			"beatthis-final0": {
+				"truthBar": 3.832743764,
+				"barSec": 1.9000000000000057,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.657,
+				"barCountRatio": 1.74
+			}
+		},
+		"swd-d911-18-sc06": {
+			"madmom-34": {
+				"truthBar": 2.227210884,
+				"barSec": 2.245,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0,
+				"barCountRatio": 0.95
+			},
+			"beatthis-final0": {
+				"truthBar": 2.227210884,
+				"barSec": 1.1199999999999974,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.655,
+				"barCountRatio": 1.9
+			}
+		},
+		"swd-d911-19-sc06": {
+			"madmom-34": {
+				"truthBar": 1.6209523804999968,
+				"barSec": 2.1799999999999997,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1.5,
+				"downbeatF": 0,
+				"barCountRatio": 0.711
+			},
+			"beatthis-final0": {
+				"truthBar": 1.6209523804999968,
+				"barSec": 0.8200000000000003,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.723,
+				"barCountRatio": 1.644
+			}
+		},
+		"swd-d911-20-sc06": {
+			"madmom-34": {
+				"truthBar": 2.616984127000009,
+				"barSec": 2.6149999999999953,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.952,
+				"barCountRatio": 0.976
+			},
+			"beatthis-final0": {
+				"truthBar": 2.616984127000009,
+				"barSec": 2.460000000000008,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.802,
+				"barCountRatio": 1.259
+			}
+		},
+		"swd-d911-21-sc06": {
+			"madmom-34": {
+				"truthBar": 7.549863946000002,
+				"barSec": 3.719999999999999,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.526,
+				"barCountRatio": 1.969
+			},
+			"beatthis-final0": {
+				"truthBar": 7.549863946000002,
+				"barSec": 2.5799999999999983,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.3333333333333333,
+				"downbeatF": 0.492,
+				"barCountRatio": 2.938
+			}
+		},
+		"swd-d911-22-sc06": {
+			"madmom-34": {
+				"truthBar": 1.0917006809999994,
+				"barSec": 2.200000000000003,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.639,
+				"barCountRatio": 0.492
+			},
+			"beatthis-final0": {
+				"truthBar": 1.0917006809999994,
+				"barSec": 1.0899999999999999,
+				"beatsPerBar": 2,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.891,
+				"barCountRatio": 0.969
+			}
+		},
+		"swd-d911-23-sc06": {
+			"madmom-34": {
+				"truthBar": 5.363809524000004,
+				"barSec": 2.8100000000000023,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.083,
+				"barCountRatio": 1.824
+			},
+			"beatthis-final0": {
+				"truthBar": 5.363809524000004,
+				"barSec": 1.8299999999999912,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.3333333333333333,
+				"downbeatF": 0.382,
+				"barCountRatio": 2.853
+			}
+		},
+		"swd-d911-24-sc06": {
+			"madmom-34": {
+				"truthBar": 3.3186621310000035,
+				"barSec": 3.019999999999996,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.359,
+				"barCountRatio": 1.065
+			},
+			"beatthis-final0": {
+				"truthBar": 3.3186621310000035,
+				"barSec": 2.1000000000000014,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.761,
+				"barCountRatio": 1.5
+			}
+		},
+		"swd-d911-01-hu33": {
+			"madmom-34": {
+				"truthBar": 2.1446712010000226,
+				"barSec": 4.084999999999999,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 2,
+				"downbeatF": 0.596,
+				"barCountRatio": 0.63
+			},
+			"beatthis-final0": {
+				"truthBar": 2.1446712010000226,
+				"barSec": 2.0799999999999983,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.857,
+				"barCountRatio": 1.181
+			}
+		},
+		"swd-d911-02-hu33": {
+			"madmom-34": {
+				"truthBar": 1.7343310659999993,
+				"barSec": 3.629999999999999,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 2,
+				"downbeatF": 0.329,
+				"barCountRatio": 0.491
+			},
+			"beatthis-final0": {
+				"truthBar": 1.7343310659999993,
+				"barSec": 1.21,
+				"beatsPerBar": 1,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.617,
+				"barCountRatio": 1.264
+			}
+		},
+		"swd-d911-03-hu33": {
+			"madmom-34": {
+				"truthBar": 2.5491836735000035,
+				"barSec": 2.5299999999999994,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.637,
+				"barCountRatio": 0.982
+			},
+			"beatthis-final0": {
+				"truthBar": 2.5491836735000035,
+				"barSec": 1.5699999999999932,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.75,
+				"barCountRatio": 1.526
+			}
+		},
+		"swd-d911-04-hu33": {
+			"madmom-34": {
+				"truthBar": 1.5471201809999968,
+				"barSec": 3.1000000000000014,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.545,
+				"barCountRatio": 0.5
+			},
+			"beatthis-final0": {
+				"truthBar": 1.5471201809999968,
+				"barSec": 1.540000000000001,
+				"beatsPerBar": 2,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.873,
+				"barCountRatio": 1
+			}
+		},
+		"swd-d911-05-hu33": {
+			"madmom-34": {
+				"truthBar": 3.3256575959999974,
+				"barSec": 3.5749999999999886,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.418,
+				"barCountRatio": 0.904
+			},
+			"beatthis-final0": {
+				"truthBar": 3.3256575959999974,
+				"barSec": 1.259999999999998,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.3333333333333333,
+				"downbeatF": 0.539,
+				"barCountRatio": 2.217
+			}
+		},
+		"swd-d911-06-hu33": {
+			"madmom-34": {
+				"truthBar": 4.315827664500006,
+				"barSec": 3.759999999999998,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.346,
+				"barCountRatio": 1.082
+			},
+			"beatthis-final0": {
+				"truthBar": 4.315827664500006,
+				"barSec": 1.8799999999999955,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.513,
+				"barCountRatio": 2.066
+			}
+		},
+		"swd-d911-07-hu33": {
+			"madmom-34": {
+				"truthBar": 2.3813718825,
+				"barSec": 2.490000000000002,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.615,
+				"barCountRatio": 0.907
+			},
+			"beatthis-final0": {
+				"truthBar": 2.3813718825,
+				"barSec": 1.3399999999999892,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.785,
+				"barCountRatio": 1.413
+			}
+		},
+		"swd-d911-08-hu33": {
+			"madmom-34": {
+				"truthBar": 1.5415873019999964,
+				"barSec": 3.8999999999999915,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 3,
+				"downbeatF": 0.2,
+				"barCountRatio": 0.429
+			},
+			"beatthis-final0": {
+				"truthBar": 1.5415873019999964,
+				"barSec": 0.9400000000000119,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.364,
+				"barCountRatio": 1.514
+			}
+		},
+		"swd-d911-09-hu33": {
+			"madmom-34": {
+				"truthBar": 2.9285487529999976,
+				"barSec": 2.969999999999999,
+				"beatsPerBar": 3,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.161,
+				"barCountRatio": 0.977
+			},
+			"beatthis-final0": {
+				"truthBar": 2.9285487529999976,
+				"barSec": 2.020000000000003,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.636,
+				"barCountRatio": 1.432
+			}
+		},
+		"swd-d911-10-hu33": {
+			"madmom-34": {
+				"truthBar": 2.7930839000000134,
+				"barSec": 2.744999999999999,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.311,
+				"barCountRatio": 0.985
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7930839000000134,
+				"barSec": 1.4799999999999969,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.544,
+				"barCountRatio": 1.647
+			}
+		},
+		"swd-d911-11-hu33": {
+			"madmom-34": {
+				"truthBar": 2.38129251700002,
+				"barSec": 3.615000000000002,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 1.5,
+				"downbeatF": 0.189,
+				"barCountRatio": 0.767
+			},
+			"beatthis-final0": {
+				"truthBar": 2.38129251700002,
+				"barSec": 1.2000000000000028,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.593,
+				"barCountRatio": 1.733
+			}
+		},
+		"swd-d911-12-hu33": {
+			"madmom-34": {
+				"truthBar": 3.001179138499996,
+				"barSec": 3.039999999999999,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.495,
+				"barCountRatio": 0.98
+			},
+			"beatthis-final0": {
+				"truthBar": 3.001179138499996,
+				"barSec": 2.210000000000001,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.6666666666666666,
+				"downbeatF": 0.763,
+				"barCountRatio": 1.408
+			}
+		},
+		"swd-d911-13-hu33": {
+			"madmom-34": {
+				"truthBar": 1.0778344669999989,
+				"barSec": 2.1499999999999986,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.648,
+				"barCountRatio": 0.495
+			},
+			"beatthis-final0": {
+				"truthBar": 1.0778344669999989,
+				"barSec": 2.0999999999999996,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.75,
+				"barCountRatio": 0.6
+			}
+		},
+		"swd-d911-14-hu33": {
+			"madmom-34": {
+				"truthBar": 3.8163265310000014,
+				"barSec": 3.8499999999999943,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.356,
+				"barCountRatio": 0.957
+			},
+			"beatthis-final0": {
+				"truthBar": 3.8163265310000014,
+				"barSec": 1.7800000000000011,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.479,
+				"barCountRatio": 2.087
+			}
+		},
+		"swd-d911-15-hu33": {
+			"madmom-34": {
+				"truthBar": 2.6230612250000007,
+				"barSec": 2.5600000000000023,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.227,
+				"barCountRatio": 1
+			},
+			"beatthis-final0": {
+				"truthBar": 2.6230612250000007,
+				"barSec": 1.3399999999999999,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.492,
+				"barCountRatio": 1.682
+			}
+		},
+		"swd-d911-16-hu33": {
+			"madmom-34": {
+				"truthBar": 2.2275396825,
+				"barSec": 3.3550000000000004,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 1.5,
+				"downbeatF": 0.14,
+				"barCountRatio": 0.755
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2275396825,
+				"barSec": 0.7400000000000002,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.3333333333333333,
+				"downbeatF": 0.428,
+				"barCountRatio": 2.816
+			}
+		},
+		"swd-d911-17-hu33": {
+			"madmom-34": {
+				"truthBar": 3.722380952000009,
+				"barSec": 3.1999999999999886,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.407,
+				"barCountRatio": 1.16
+			},
+			"beatthis-final0": {
+				"truthBar": 3.722380952000009,
+				"barSec": 1.7100000000000009,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.541,
+				"barCountRatio": 2.18
+			}
+		},
+		"swd-d911-18-hu33": {
+			"madmom-34": {
+				"truthBar": 2.2041043090000016,
+				"barSec": 2.5100000000000016,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.176,
+				"barCountRatio": 0.7
+			},
+			"beatthis-final0": {
+				"truthBar": 2.2041043090000016,
+				"barSec": 1.1199999999999974,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.581,
+				"barCountRatio": 2.1
+			}
+		},
+		"swd-d911-19-hu33": {
+			"madmom-34": {
+				"truthBar": 1.4745578230000014,
+				"barSec": 2.9450000000000003,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.455,
+				"barCountRatio": 0.467
+			},
+			"beatthis-final0": {
+				"truthBar": 1.4745578230000014,
+				"barSec": 1.4099999999999966,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.804,
+				"barCountRatio": 1.267
+			}
+		},
+		"swd-d911-20-hu33": {
+			"madmom-34": {
+				"truthBar": 2.7343424039999995,
+				"barSec": 2.7299999999999898,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.886,
+				"barCountRatio": 0.965
+			},
+			"beatthis-final0": {
+				"truthBar": 2.7343424039999995,
+				"barSec": 2.6999999999999886,
+				"beatsPerBar": 4,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.862,
+				"barCountRatio": 1.047
+			}
+		},
+		"swd-d911-21-hu33": {
+			"madmom-34": {
+				"truthBar": 7.038390022999977,
+				"barSec": 3.490000000000002,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 0.5,
+				"downbeatF": 0.33,
+				"barCountRatio": 1.844
+			},
+			"beatthis-final0": {
+				"truthBar": 7.038390022999977,
+				"barSec": 3.049999999999997,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.496,
+				"barCountRatio": 2.531
+			}
+		},
+		"swd-d911-22-hu33": {
+			"madmom-34": {
+				"truthBar": 1.1404648525000045,
+				"barSec": 2.279999999999994,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": true,
+				"ratio": 2,
+				"downbeatF": 0.495,
+				"barCountRatio": 0.492
+			},
+			"beatthis-final0": {
+				"truthBar": 1.1404648525000045,
+				"barSec": 2.1400000000000006,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 2,
+				"downbeatF": 0.673,
+				"barCountRatio": 0.6
+			}
+		},
+		"swd-d911-23-hu33": {
+			"madmom-34": {
+				"truthBar": 5.734421768999994,
+				"barSec": 3.0749999999999993,
+				"beatsPerBar": 4,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.5,
+				"downbeatF": 0.176,
+				"barCountRatio": 1.676
+			},
+			"beatthis-final0": {
+				"truthBar": 5.734421768999994,
+				"barSec": 2.039999999999992,
+				"beatsPerBar": 2,
+				"strict": false,
+				"folded": false,
+				"ratio": 0.3333333333333333,
+				"downbeatF": 0.379,
+				"barCountRatio": 2.882
+			}
+		},
+		"swd-d911-24-hu33": {
+			"madmom-34": {
+				"truthBar": 2.9820408160000227,
+				"barSec": 2.8800000000000026,
+				"beatsPerBar": 3,
+				"strict": true,
+				"folded": true,
+				"ratio": 1,
+				"downbeatF": 0.704,
+				"barCountRatio": 1.016
+			},
+			"beatthis-final0": {
+				"truthBar": 2.9820408160000227,
+				"barSec": 2.549999999999999,
+				"beatsPerBar": 3,
+				"strict": false,
+				"folded": false,
+				"ratio": 1,
+				"downbeatF": 0.849,
+				"barCountRatio": 1.242
+			}
+		}
+	}
+}
