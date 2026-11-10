@@ -3323,3 +3323,71 @@ california-lullabye 23/53 to 49/53 (good), im-letting-go 16/33 to
 interval-invariant and transpose-0 slots reproduced exactly.
 
 Spend: $1.000 (248,127 in, 33,575 out), 11 paid drafts.
+
+## Study 36 (2026-11-10): the field's beat trackers find the bar production cannot, and madmom earns the automatic re-draft
+
+**Question.** Does an off-the-shelf joint beat/downbeat tracker deliver
+the bar (period, grouping, downbeat phase) on the material the program
+has already graded, and does the small browser-deployable Beat This!
+checkpoint keep the gain? Zero model spend; every system is local
+inference. Registered in docs/BRIEF-STUDY36.md before any run.
+
+**Corpus.** The Study 34 and 35 union, 23 recordings with bar-level
+truth: five click-exact Badverbs mixes, three JAAH jazz 78s, the hymn
+and the waltz, ten Josh Woodward songs (declared tempo and meter; a 6/8
+bar is two dotted quarters), three meter-only slots.
+
+**Systems.** production (the v0.200 detector port plus the shipped grid
+placement, automatic mode as the product runs it); Beat This! final0 and
+small0 with minimal peak-picking, and final0 with the madmom DBN
+postprocessor; madmom RNN+DBN with bars of [3, 4] and, exploratory,
+[3, 4, 6]; librosa's unseeded tracker as the classical tempo baseline.
+
+**Result on the ten Woodward songs** (bar strict within 4 percent /
+folded at some metrical ratio / meter class right): production 3 / 7 /
+8; Beat This final0 6 / 9 / 8; small0 7 / 8 / 8; madmom-34 7 / 10 / 8;
+madmom-346 7 / 10 / 9. Decision rule S36-D1 (strict 7, folded 10, meter
+8) is met by madmom and by no Beat This variant, so the Study 38
+automatic-mode re-draft runs on madmom's bar. Predictions: P1 (Beat
+This strict 7, folded 10, one compound song right) FAIL on all three
+clauses; P2 (small within one of final) PASS; P3 (madmom within one of
+Beat This on strict) PASS; P5 (goodbye-to-spring, declared 240, read at
+120) PASS for final0, dbn and madmom. P4 FAIL as a conjunction: every
+neural tracker beats production on acoustic-era bar period (0 of 6
+against 1 to 4), the hymn defeats everything, Beat This names the
+waltz's 3 where madmom reads 4 at half tempo, but Beat This places
+every downbeat on beat 3 of dippermouth's bars (downbeat F 0.00 against
+madmom's 0.66), and small0 halves st-louis's bar (80 bars against 53).
+
+**The 78s.** Livery stable blues: every neural tracker reads the 1.46 s
+bar production reads as 2.71, and madmom places the downbeat within 70
+ms on 96 percent of bars with 126 bars against 125 truth. Dippermouth
+114/114 bars (madmom, final0). St-louis 52/53 (madmom), 53/53 (final0
+with DBN). This is Study 34's arm D result (a tempo-following grid
+recovers the uneven 78) with no declared tempo supplied.
+
+**6/8.** Production's automatic mode gets gravity exactly (eighth-note
+pulse 145.9, subdivision 3, bar 2.466 against 2.5); the Study 35
+failure there was the declared-tempo units bug alone, and the fix stays
+on the app's input adapter. Beat This has no compound class and reads
+both 6/8 songs as three-beat bars (gravity as 3 eighths, half the bar;
+my-favorite-regret as three beats of two per dotted quarter, no fold).
+madmom with a 6 class names both but pays elsewhere (dippermouth and
+st-louis become 6-beat bars).
+
+**Disclosure.** On eat-all-the-clocks all five trackers sit 85 ms after
+the registered grid, uniformly, which is the registered bar-one offset
+itself; the 70 ms window turns that into F = 0.00 for every tracker
+while production scores 0.99 from the same onset grid that made the
+truth. Reported as registered; it is a fixture question and it treats
+every tracker alike.
+
+**Runtime.** 27 to 47 s per song for Beat This final0 on 16 CPU
+threads, 32 to 40 s for madmom's RNN; the small checkpoint is not
+reliably faster on CPU because the mel front end dominates. Browser
+timing is a Study 38 matter.
+
+**Next.** Study 36b (registered, running): the same systems over the
+261-song Josh Woodward catalog against the artist's declared tempo and
+meter, with 244 paired instrumental mixes to ask whether the voice is
+what trips the trackers.
