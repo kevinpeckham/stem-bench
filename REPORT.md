@@ -3508,3 +3508,45 @@ two-root band and changed class upward).
 preferred when two candidates fold, no harmonic-rhythm correction, the
 6/8 adapter fix in. Compound-meter detection itself (which songs ARE
 6/8) remains the open problem for every system.
+
+## Study 38 (2026-11-10): the fully automatic chart equals the typed one on modern songs, is three points off a perfect grid on acoustic guitar, and fails on free tempo
+
+**Question.** With nothing typed (madmom's downbeats as bar lines, its
+median beat as tempo, its beats per bar as meter, the detector's key),
+how good is the chart on modern songs, on solo acoustic guitar, and on
+free-tempo voice and piano? Registered 62c3d63
+(docs/BRIEF-STUDY38.md); 106 drafts, $3.84 of an $8 fence, plus 168
+metrical cells at $0.
+
+**Modern (ten Josh Woodward songs, artist-chart truth).** Ten of ten
+within two roots of the declared-grid draft or above; eight good; none
+confidently-wrong. gravity 24/26 and my-favorite-regret 40/42 with no
+meter typed (Study 35: 16/26 and 26/42 at the typed 6/8 tempo).
+S38-D1 fires: automatic mode is the tracker's bar as read, shorter bar
+preferred, no tempo-confidence refusal.
+
+**Acoustic guitar (36 GuitarSet singer-songwriter excerpts, lead-sheet
+truth).** Annotated bars: mean roots 99 %, 28 good. madmom's bars:
+96 %, 24 good, 3 confidently-wrong (one dense sheet); paired cost 2.9
+points. Qualities 86 to 89 % on both grids (sevenths the sheet does
+not name). Without drums Beat This's bar beats madmom's (strict 86 vs
+61 %, downbeat F 0.97 vs 0.69). S38-D2 fires: the chord reader is the
+next target on acoustic material.
+
+**Free tempo (24 Winterreise songs, SC06; HU33 trackers only).** All
+24 drafts confidently-wrong: roots median 41 % against the chord
+sequence, 67 % against the per-bar truth. The music changes chord 1.5
+times per bar (a one-chord bar is bounded near 50 %) and madmom's DBN
+does not follow rubato (downbeat F 0.39; Beat This 0.68, reversed from
+the registered expectation, same on the 1933 recording). S38-D3: Study
+39 is a tracker comparison on free-tempo material with Beat This's
+downbeats as the lead, plus a two-chords-per-bar draft format.
+
+**Disclosures.** SC06 audio is CC BY-NC-ND 3.0 (read after download;
+measurement only, never redistributed; the public-domain HU33 added to
+the metrical arm). Five of 72 guitar answers came back empty or cut
+off; on an unregistered retry three were empty again with finish
+reason `content-filter`, so the gateway's filter stops the chart draft
+on three particular excerpts; labelled "refused" as registered.
+Predictions: A1, A3, A4, B1, B2, B4 right; A2, B3, C3 half right; C1,
+C2, C4 wrong (C4 reversed).

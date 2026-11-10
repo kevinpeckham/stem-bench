@@ -46,7 +46,10 @@ const USD_OUT = 15;
 const FENCE = 8.0;
 const MIN_NOTES_PER_BAR = 3;
 const OUT = `${root}results/study38.json`;
-const ONLY = process.argv[2]; // optional arm filter: A, B, C
+const ONLY = process.argv[2] === "--retry-empty" ? undefined : process.argv[2]; // optional arm filter: A, B, C
+// --retry-empty: EXPLORATORY, unregistered: re-draft the slots whose first answer came back empty or cut off
+// (recorded as "refused"), storing the second answer under "<key>|retry"; the registered result is untouched.
+const RETRY = process.argv.includes("--retry-empty");
 
 interface Entry {
 	arm: "A" | "B" | "C";
@@ -133,7 +136,11 @@ const armOrder = (j: Job) => (j.e.arm === "A" ? 0 : j.e.arm === "B" ? (j.grid ==
 jobs.sort((a, b) => armOrder(a) - armOrder(b));
 
 for (const job of jobs) {
-	if (results[job.key]) continue;
+	const first = results[job.key] as { class?: string } | undefined;
+	if (RETRY) {
+		if (!first || first.class !== "refused" || results[`${job.key}|retry`]) continue;
+		job.key = `${job.key}|retry`;
+	} else if (first) continue;
 	if (spent() > FENCE) {
 		console.log(`FENCE: $${spent().toFixed(3)} > $${FENCE.toFixed(2)}: stopping before ${job.key} per registration`);
 		break;
@@ -200,6 +207,7 @@ for (const job of jobs) {
 		parsed = null;
 	}
 	const common = {
+		finishReason: result.finishReason,
 		arm: e.arm,
 		grid: job.grid,
 		typed: { bpm: Math.round(bpm), meter, key, beatsPerBar },
