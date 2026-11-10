@@ -1,0 +1,4404 @@
+{
+ "purchased": "2026-11-10, Josh Woodward Epic Bundle (Regular MP3, Instrumental MP3, Alternate MP3 zips); sha256 of the zips in corpus-study36/bundles.sha256 (not committed) and below",
+ "zips": {
+  "jw-alternate-mp3.zip": "b48400a3db6e1aaf30c16db3bf7f81213c71c49ceaddde8b2a4cc79cbbc570e4",
+  "jw-instrumental-mp3.zip": "1c39acb3b5d6f0765279e03048526386a59fffff86fab3b2caa71aac74d6ce0d",
+  "jw-regular-mp3.zip": "ca1db49432f1b15d91b24b9057b0950ecdfdbae164415a460d62735239160d0a"
+ },
+ "license": "CC BY 4.0 (artist's FAQ); attribution: Music by Josh Woodward, https://www.joshwoodward.com/",
+ "songs": 262,
+ "regularWithDeclaredTempoAndMeter": 261,
+ "pairedWithInstrumental": 244,
+ "unmatched": {
+  "regular": [
+   "BigMountainFudgeCake-NewSex.mp3",
+   "JoshWoodward-DoRight.mp3",
+   "JoshWoodward-GangnamStyle.mp3",
+   "JoshWoodward-Gigolo.mp3",
+   "JoshWoodward-MotorcycleMurderPsycho.mp3",
+   "JoshWoodward-PleaseThePig.mp3",
+   "JoshWoodward-SexyNationArmy.mp3",
+   "JoshWoodward-SunnySideOfTheStreet-15-BabaGanoush.mp3",
+   "JoshWoodward-TorontoStar.mp3",
+   "JoshWoodward-XO.mp3",
+   "WoshJoodward-DangerBus.mp3",
+   "WoshJoodward-GumpWorsleyIsDead.mp3"
+  ],
+  "instrumental": [
+   "JoshWoodward-DoRight-NoVox.mp3",
+   "JoshWoodward-GangnamStyle-NoVox.mp3",
+   "JoshWoodward-RejectBin-NoVox-06-Gigolo.mp3",
+   "JoshWoodward-RejectBin-NoVox-15-Words-4.mp3",
+   "JoshWoodward-SSotS-NoVox-15-BabaGanoush.mp3",
+   "JoshWoodward-SexyNationArmy-NoVox.mp3",
+   "JoshWoodward-XO-NoVox.mp3"
+  ]
+ },
+ "alternateBundleFiles": 229,
+ "entries": {
+  "1000Words": {
+   "page": "https://www.joshwoodward.com/song/1000Words",
+   "bpm": 94.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-1000Words.mp3",
+    "sha256": "c5b760b0674dc02ced45ef1f5c24eb1d92b3703c578397aa7fd051943fa226d9",
+    "seconds": 193.2
+   }
+  },
+  "33": {
+   "page": "https://www.joshwoodward.com/song/33",
+   "bpm": 161.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-33.mp3",
+    "sha256": "bd4f981aa9502511d5be3f6b0364415d16d194d37d4549d6ade387e79c8e2623",
+    "seconds": 170.49
+   },
+   "instrumental": {
+    "file": "JoshWoodward-33-NoVox.mp3",
+    "sha256": "3ea9d24fe1e3fb1bad48541da3a958cea79b1aa4eec7a539792de44ccf75a1dd",
+    "seconds": 170.49
+   }
+  },
+  "AThousandYears": {
+   "page": "https://www.joshwoodward.com/song/AThousandYears",
+   "bpm": 94.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-AThousandYears.mp3",
+    "sha256": "9ee7c318b53451371f0fbafc948c0c17f2e60116035d086b2f1c39bc17bcbc43",
+    "seconds": 210.97
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AThousandYears-NoVox.mp3",
+    "sha256": "d28766b8d1825fc1f971bff87f2e06f39e81fcb81e27c255076e9fb8a93e5dac",
+    "seconds": 210.97
+   }
+  },
+  "AcrossTheDustyPlains": {
+   "page": "https://www.joshwoodward.com/song/AcrossTheDustyPlains",
+   "bpm": 98.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-AcrossTheDustyPlains.mp3",
+    "sha256": "d538c4dcae630085ed71f5c2859769866a1e4b47cf2985887ae484af86d54cd4",
+    "seconds": 241.27
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-07-AcrossTheDustyPlains.mp3",
+    "sha256": "0cf482f6a7ef9342b06825c612aa911328dbb22ced1382d3232b5e4e4d02ee16",
+    "seconds": 241.27
+   }
+  },
+  "AlmostNoRegrets": {
+   "page": "https://www.joshwoodward.com/song/AlmostNoRegrets",
+   "bpm": 71.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-AlmostNoRegrets.mp3",
+    "sha256": "a83d516615b0d417345fc0f5c9c545679f75989e3722c4ad09f3d2a4c19efa3f",
+    "seconds": 265.35
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AlmostNoRegrets-NoVox.mp3",
+    "sha256": "5dbf13e77c4ea38467de0f1f0fc760d63c45c62232c67d1ddebd840d757b7ab7",
+    "seconds": 265.35
+   }
+  },
+  "AmaranthineYouFly": {
+   "page": "https://www.joshwoodward.com/song/AmaranthineYouFly",
+   "bpm": 66.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-AmaranthineYouFly.mp3",
+    "sha256": "225102780943e8451b27ac79209f754c45a4fa62422370c8ac6cfa9bcecc338f",
+    "seconds": 268.29
+   },
+   "instrumental": {
+    "file": "JoshWoodward-PerAspera-NoVox-06-AmaranthineYouFly.mp3",
+    "sha256": "05b74c9da6cdd75f7be9baef53a0b366403e592f58f74fd959cc6bfb3dbd5182",
+    "seconds": 268.29
+   }
+  },
+  "AnotherDrunkenVerse": {
+   "page": "https://www.joshwoodward.com/song/AnotherDrunkenVerse",
+   "bpm": 85.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-AnotherDrunkenVerse.mp3",
+    "sha256": "855f137e444e3c22279d5573d246a6b1f26803e94c1032cf835191c331e792ac",
+    "seconds": 241.02
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AnotherDrunkenVerse-NoVox.mp3",
+    "sha256": "5a29cdf0d5d6ef4240419a51b92a4f302c3068cdf56e7c5f88c664d678f892b3",
+    "seconds": 241.02
+   }
+  },
+  "AsIAm": {
+   "page": "https://www.joshwoodward.com/song/AsIAm",
+   "bpm": 130.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-AsIAm.mp3",
+    "sha256": "cba812ca7a909b308d6314bbb08617e57a2035e6ffc61ca3009b00e514925bd0",
+    "seconds": 222.67
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AsIAm-NoVox.mp3",
+    "sha256": "628926bc2c1f3c689503d658a4573e739ad58f409462ba4fc11abebda2d8acf1",
+    "seconds": 222.67
+   }
+  },
+  "LetItIn": {
+   "page": "https://www.joshwoodward.com/song/LetItIn",
+   "bpm": 121.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Minor",
+   "regular": {
+    "file": "JoshWoodward-Ashes-01-LetItIn.mp3",
+    "sha256": "85339314070b75716494a6fd83de68ae23f09cacf7cf5c18dfadbe5461f33912",
+    "seconds": 241.64
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-01-LetItIn.mp3",
+    "sha256": "669a5f113e68a00858e0bb86907f02a66359431af2ac8fea1cf920b772b8baa5",
+    "seconds": 241.64
+   }
+  },
+  "Cherubs": {
+   "page": "https://www.joshwoodward.com/song/Cherubs",
+   "bpm": 165.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-02-Cherubs.mp3",
+    "sha256": "2730b3402bbe14a6707fd6b144416af2cbde324557ada3eec5b35eb96ee87971",
+    "seconds": 256.36
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-02-Cherubs.mp3",
+    "sha256": "d7e2af13e9c8602dc2afd383177088ca9fa2033e89ca6675160232259858d24f",
+    "seconds": 256.36
+   }
+  },
+  "InfiniteHorizon": {
+   "page": "https://www.joshwoodward.com/song/InfiniteHorizon",
+   "bpm": 78.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-03-InfiniteHorizon.mp3",
+    "sha256": "818d4335844f8f12eaba0e7c98f314e1352a5ca00edd2393d759eafda838013a",
+    "seconds": 163.8
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-03-InfiniteHorizon.mp3",
+    "sha256": "e4e4b874fb840e45e325e83e835aa2ea37366348a61823f1e2834a4a7158063d",
+    "seconds": 163.8
+   }
+  },
+  "AThousandSkinsPart2": {
+   "page": "https://www.joshwoodward.com/song/AThousandSkinsPart2",
+   "bpm": 75.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-04-AThousandSkinsPt2.mp3",
+    "sha256": "4d4b2a62e9f978d8cd15e628f90a9679940ccbb9c51b90d7f0848119dab3ee41",
+    "seconds": 201.84
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-04-AThousandSkinsPt2.mp3",
+    "sha256": "a73b85aee1cd13d7715349c3ccc4d64d7f2e6740e2f8d1511e11d76092639592",
+    "seconds": 201.84
+   }
+  },
+  "TheHandymansLament": {
+   "page": "https://www.joshwoodward.com/song/TheHandymansLament",
+   "bpm": 92.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-05-TheHandymansLament.mp3",
+    "sha256": "b1acca47c373d0e70e2ee40816458338b534b2ad9dc3edd61c91458dae94b71b",
+    "seconds": 230.79
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-05-TheHandymansLament.mp3",
+    "sha256": "8a4f0b56892259c4a9454d25cb7b217b027ba76be6258f7769e8f362aba4de72",
+    "seconds": 230.79
+   }
+  },
+  "Anchor": {
+   "page": "https://www.joshwoodward.com/song/Anchor",
+   "bpm": 81.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-Ashes-06-Anchor.mp3",
+    "sha256": "8b1aa081501dab290fb2c0b3581f27e8f8e5d6351d4e37f38aaf3c4b4655fad6",
+    "seconds": 206.02
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-06-Anchor.mp3",
+    "sha256": "e7ae4f8b20022b0b5623791df2eb1ba7b6d19568dbfcbc7283dd9d1c939ec77f",
+    "seconds": 206.02
+   }
+  },
+  "AlreadyThere": {
+   "page": "https://www.joshwoodward.com/song/AlreadyThere",
+   "bpm": 132.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-07-AlreadyThere.mp3",
+    "sha256": "a0d4d4dfd9247db0323831862bb80fcc9353370d85fb5c3893eb28b46ee9941c",
+    "seconds": 221.15
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-07-AlreadyThere.mp3",
+    "sha256": "4fcbd180d55a2290f51a7d90040eb678e979adae43554ee40ec65e2f56e8cd6c",
+    "seconds": 221.15
+   }
+  },
+  "TogetherOnOurOwn": {
+   "page": "https://www.joshwoodward.com/song/TogetherOnOurOwn",
+   "bpm": 84.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-08-TogetherOnOurOwn.mp3",
+    "sha256": "d2c2714c13a770b96b4eb21733dab1ac587d31d863aa5ea22e142fcd9148bc73",
+    "seconds": 296.92
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-08-TogetherOnOurOwn.mp3",
+    "sha256": "c41a99c257dfc3a07f4f9126d402b17276efd92ac995d725eba2273bf6232200",
+    "seconds": 296.92
+   }
+  },
+  "Pompeii": {
+   "page": "https://www.joshwoodward.com/song/Pompeii",
+   "bpm": 79.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Minor",
+   "regular": {
+    "file": "JoshWoodward-Ashes-09-Pompeii.mp3",
+    "sha256": "f7509736d183f4fd232d1c2dc29f68e4c50a126ce8238a1bd641d6edb4483a43",
+    "seconds": 216.26
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-09-Pompeii.mp3",
+    "sha256": "e51ed9c83eb9e7b1543ef9cbd9cb84dec4b09132cab2ee05e11376a7aaaa15c1",
+    "seconds": 216.26
+   }
+  },
+  "SwimminginTurpentine": {
+   "page": "https://www.joshwoodward.com/song/SwimminginTurpentine",
+   "bpm": 160.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-Ashes-10-SwimmingInTurpentine.mp3",
+    "sha256": "96401fbc74e00dd2af0272abd41cb44646b3a3b03cd99d92dcce4d3df9a408b3",
+    "seconds": 202.11
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-10-SwimmingInTurpentine.mp3",
+    "sha256": "2c980ab8e2975467719f6dcd897386678817a5fea0a8776e63ca15272e341290",
+    "seconds": 202.11
+   }
+  },
+  "AThousandSkinsPart1": {
+   "page": "https://www.joshwoodward.com/song/AThousandSkinsPart1",
+   "bpm": 75.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-11-AThousandSkinsPt1.mp3",
+    "sha256": "07e7bd0b84ca063f346be2d292e759461f63de863807d4d9b765ea063b8e6d0e",
+    "seconds": 386.77
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-11-AThousandSkinsPt1.mp3",
+    "sha256": "ae73005e2764b74cae9b357f72a9042a4f1fedfbf3abfce4e51a982edc83092e",
+    "seconds": 386.77
+   }
+  },
+  "MotionlessLand": {
+   "page": "https://www.joshwoodward.com/song/MotionlessLand",
+   "bpm": 56.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-Ashes-12-MotionlessLand.mp3",
+    "sha256": "afaef24b041810a91abda54c1b657f0b020ba6a3040d42e48bfc39a645cdae3f",
+    "seconds": 211.03
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ashes-NoVox-12-MotionlessLand.mp3",
+    "sha256": "74268ab96ae0721b6bb3184255af0647aa1d7316ff8306edb58730f37fbc125a",
+    "seconds": 211.03
+   }
+  },
+  "Release": {
+   "page": "https://www.joshwoodward.com/song/Release",
+   "bpm": 155.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-01-Release.mp3",
+    "sha256": "c1a7df6f01004740191d25396b6d0841b17b5e0a19fb4f78ed03032a6a3ad3c8",
+    "seconds": 230.53
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-01-Release-NoVox.mp3",
+    "sha256": "258110d2d0bcd7d51d7c31b76da98b62ca2babf2ca10ca458faca49881301c26",
+    "seconds": 230.53
+   }
+  },
+  "Knock": {
+   "page": "https://www.joshwoodward.com/song/Knock",
+   "bpm": 119.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-02-Knock.mp3",
+    "sha256": "147be648c5c9166e6529477e214568daa167421504680f92055ffa53a5772fd3",
+    "seconds": 173.88
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-02-Knock-NoVox.mp3",
+    "sha256": "5838b8a53b4108d16fed6040f8c310c46bf8cb04f5cc677d16583240c816394a",
+    "seconds": 173.88
+   }
+  },
+  "AftertheFlames": {
+   "page": "https://www.joshwoodward.com/song/AftertheFlames",
+   "bpm": 159.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-03-AfterTheFlames.mp3",
+    "sha256": "b8b854c54feb5bd172262c34a7f9d31a94323264bf95e05d161bc8da3b199049",
+    "seconds": 193.67
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-03-AfterTheFlames-NoVox.mp3",
+    "sha256": "ae90a2886d61c080140a2fdaf605a0455ef8270deff54c6b88050fb3f18bb5d0",
+    "seconds": 193.67
+   }
+  },
+  "MyFavoriteRegret": {
+   "page": "https://www.joshwoodward.com/song/MyFavoriteRegret",
+   "bpm": 65.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-04-MyFavoriteRegret.mp3",
+    "sha256": "56455c8cc3b472ee95f3a4c7d38ac5e32d4b531ea0e9615711acc6803d6dc75c",
+    "seconds": 267.2
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-04-MyFavoriteRegret-NoVox.mp3",
+    "sha256": "11a8079d099700e35df53c07e22ddb7c79aaf16c6b34f28f476c5c4f73827baf",
+    "seconds": 267.2
+   }
+  },
+  "Perfect": {
+   "page": "https://www.joshwoodward.com/song/Perfect",
+   "bpm": 188.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-05-Perfect.mp3",
+    "sha256": "c89b4c5ab1ef480d55243e61893902ac2598122311981ae29ce02a499e14e5ca",
+    "seconds": 171.29
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-05-Perfect-NoVox.mp3",
+    "sha256": "a2e5a6f195dcb0a47af4085fbefbdad4b34fdc07f7baef452ea145a37a91062d",
+    "seconds": 171.29
+   }
+  },
+  "TheNest": {
+   "page": "https://www.joshwoodward.com/song/TheNest",
+   "bpm": 100.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-06-TheNest.mp3",
+    "sha256": "554209b5c0f5c57dc43a0fb5baab79acd0b1039083a62a5d41c2ce6ca8793f46",
+    "seconds": 201.74
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-06-TheNest-NoVox.mp3",
+    "sha256": "953c89299d669eb987b8cc6a72654838b7d12cc48a7a1083bcb692bb587b18b9",
+    "seconds": 201.74
+   }
+  },
+  "WordsFallApart": {
+   "page": "https://www.joshwoodward.com/song/WordsFallApart",
+   "bpm": 42.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "D Minor",
+   "regular": {
+    "file": "JoshWoodward-AttS-07-WordsFallApart.mp3",
+    "sha256": "e746f0a976fd309eddb9eaeac25ac7ef12989d92c225ca53270fc172453412a9",
+    "seconds": 112.15
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-07-WordsFallApart-NoVox.mp3",
+    "sha256": "387c6856d72c74166608e66adfbb8e9f8a7debcec09dd41fc9eb0aaeeaca3cc3",
+    "seconds": 112.15
+   }
+  },
+  "WithaWhimper": {
+   "page": "https://www.joshwoodward.com/song/WithaWhimper",
+   "bpm": 90.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-08-WithAWhimper.mp3",
+    "sha256": "fb92b042905ab7072f91f9949c842dc3577bdd815b712b543325c901876e94b2",
+    "seconds": 255.44
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-08-WithAWhimper-NoVox.mp3",
+    "sha256": "bb403ac8b0d0c5d2ff93161403a3aaa2289e73992f56d8c3d98b432ab5b6e283",
+    "seconds": 255.44
+   }
+  },
+  "Bloom": {
+   "page": "https://www.joshwoodward.com/song/Bloom",
+   "bpm": 72.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-09-Bloom.mp3",
+    "sha256": "58fa5472de802fe66b4d966777f3a3643ccdef99cafc15d39bd38bfbf6014745",
+    "seconds": 205.77
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-09-Bloom-NoVox.mp3",
+    "sha256": "0e895bf1c34a2178793d22203c161159d2aa2f21109c3f6bda71a5418a9f7fff",
+    "seconds": 205.77
+   }
+  },
+  "TooManyValleys": {
+   "page": "https://www.joshwoodward.com/song/TooManyValleys",
+   "bpm": 88.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-10-TooManyValleys.mp3",
+    "sha256": "8b13c258c824ace52e9a91e44bc81e4a2527ba905924f8feb107f3ec20accf49",
+    "seconds": 190.76
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-10-TooManyValleys-NoVox.mp3",
+    "sha256": "7f7c579f7fc9de971cfcd445cd4b356beeb116ef2f9220c4e97f3fe7cf6f89e1",
+    "seconds": 190.76
+   }
+  },
+  "Aimless": {
+   "page": "https://www.joshwoodward.com/song/Aimless",
+   "bpm": 104.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-11-Aimless.mp3",
+    "sha256": "305a70ba2c68b56651c38eeb564085963f4cac613c1b365295f82e3a6c658927",
+    "seconds": 176.39
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-11-Aimless-NoVox.mp3",
+    "sha256": "e3b6ff5273285ac1a46bb51ad5ab473b2e43af313a38c3e83c9cda1f29d9b652",
+    "seconds": 176.39
+   }
+  },
+  "Princess": {
+   "page": "https://www.joshwoodward.com/song/Princess",
+   "bpm": 73.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-12-Princess.mp3",
+    "sha256": "194d0655b978cdc30e2ff11ff604239ca35e359a1c9b46342a73c47ee5b5cbe4",
+    "seconds": 194.82
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-12-Princess-NoVox.mp3",
+    "sha256": "7ef4a9892a1abcff26e9385cd2f6d402a81ef4588769ef084624052e7888744f",
+    "seconds": 194.82
+   }
+  },
+  "Orbit": {
+   "page": "https://www.joshwoodward.com/song/Orbit",
+   "bpm": 94.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-13-Orbit.mp3",
+    "sha256": "5b960085f02c3e5dd92fb09556972fb6b50a02482235ad9d3386415124b405f6",
+    "seconds": 152.08
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-13-Orbit-NoVox.mp3",
+    "sha256": "bc87552bf412d720c26b66e8cb31c5a9a1646cb54e1bb5d2088d6eb726f1943b",
+    "seconds": 152.08
+   }
+  },
+  "ShowMe": {
+   "page": "https://www.joshwoodward.com/song/ShowMe",
+   "bpm": 123.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-AttS-14-ShowMe.mp3",
+    "sha256": "c27cdde27ff5fa303822a661751c3e9c068c8f9e7e31791b2913336eed0cef8a",
+    "seconds": 186.36
+   },
+   "instrumental": {
+    "file": "JoshWoodward-AttS-14-ShowMe-NoVox.mp3",
+    "sha256": "0c5f425641d09c8563e3e20360b732bf9d56e86ab1f875abc931f2e1baac6e07",
+    "seconds": 186.36
+   }
+  },
+  "Autumn": {
+   "page": "https://www.joshwoodward.com/song/Autumn",
+   "bpm": 73.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-Autumn.mp3",
+    "sha256": "0053dc994e3e51e44c023fe97daafddd1a8e1bdbd88882f897948097b4dd02fb",
+    "seconds": 207.11
+   }
+  },
+  "BetterDays": {
+   "page": "https://www.joshwoodward.com/song/BetterDays",
+   "bpm": 120.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-BetterDays.mp3",
+    "sha256": "6368c1c0f225685ace2ae90c905553e9d06e170fdab26c91a48482abff4a8422",
+    "seconds": 212.49
+   },
+   "instrumental": {
+    "file": "JoshWoodward-BetterDays-NoVox.mp3",
+    "sha256": "532ee0c79c4bf93c7d4a0a74c65e0c143643e5c055162c62960c9a340cc6ec54",
+    "seconds": 212.49
+   }
+  },
+  "BeyondtheSky": {
+   "page": "https://www.joshwoodward.com/song/BeyondtheSky",
+   "bpm": 82.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-BeyondTheSky.mp3",
+    "sha256": "13ccb72c485732ba6f84023182a2ca9d3d977964e178cb2a346815e14f25206b",
+    "seconds": 232.5
+   },
+   "instrumental": {
+    "file": "JoshWoodward-BeyondTheSky-NoVox.mp3",
+    "sha256": "329792278941631f012b8c0423fb59de58edefd85bf91ff2e50dd9fa1fccdb5e",
+    "seconds": 232.5
+   }
+  },
+  "BlowingGoingGone": {
+   "page": "https://www.joshwoodward.com/song/BlowingGoingGone",
+   "bpm": 130.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-BlowingGoingGone.mp3",
+    "sha256": "b735ca16545609fb26c0f9b8798d523c303211c71b38f2661121a72ad0f58d33",
+    "seconds": 300.36
+   },
+   "instrumental": {
+    "file": "JoshWoodward-BlowingGoingGone-NoVox.mp3",
+    "sha256": "3cdd9f8e82bf42b7d5ece14520a2bb957a859a89d7d704a109e5b4b193eea22c",
+    "seconds": 300.36
+   }
+  },
+  "BobSellsChevrolets": {
+   "page": "https://www.joshwoodward.com/song/BobSellsChevrolets",
+   "bpm": 70.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-BobSellsChevrolets.mp3",
+    "sha256": "0f2864ccf96e4f936925bbee93914b17e167eaff95019354444aa991016ce240",
+    "seconds": 170.07
+   },
+   "instrumental": {
+    "file": "JoshWoodward-BobSellsChevrolets-NoVox.mp3",
+    "sha256": "c5fc3d222eea78abe3fbd530ff5e1c7480d4bee72aca23a7920c8b40babf049a",
+    "seconds": 170.07
+   }
+  },
+  "BombsAway": {
+   "page": "https://www.joshwoodward.com/song/BombsAway",
+   "bpm": 280.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-BombsAway.mp3",
+    "sha256": "e21fa910bb4520481a953f333d279452b90265e3ca6b6350a748859b04518c24",
+    "seconds": 144.21
+   },
+   "instrumental": {
+    "file": "JoshWoodward-BombsAway-NoVox.mp3",
+    "sha256": "3c978ff5195ad6cf0d8b295a7ff49cde2ae88b4aff4bf82798fc47e070f61473",
+    "seconds": 144.21
+   }
+  },
+  "Swansong": {
+   "page": "https://www.joshwoodward.com/song/Swansong",
+   "bpm": 170.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-01-Swansong.mp3",
+    "sha256": "321174573eea651b267fe217a9b56501ee7a335c3de6ced8cf89b4c7811fb811",
+    "seconds": 261.51
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-01-Swansong.mp3",
+    "sha256": "d46db3fb26817e2ca9dcb8a080a6c77c6221733616cf6094772071a6fc7ebd46",
+    "seconds": 261.51
+   }
+  },
+  "2020": {
+   "page": "https://www.joshwoodward.com/song/2020",
+   "bpm": 80.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-02-2020.mp3",
+    "sha256": "4336a2199c9f06322e6c885b7042d2286456bb07d95049a87bacbd6679ccd863",
+    "seconds": 213.65
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-02-2020.mp3",
+    "sha256": "749501c74a0ff48599a88d6524182b7a79f0eeb8bc5c45cecbb31a5900a96e0e",
+    "seconds": 213.65
+   }
+  },
+  "BorderBlaster": {
+   "page": "https://www.joshwoodward.com/song/BorderBlaster",
+   "bpm": 49.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-03-BorderBlaster.mp3",
+    "sha256": "2dfa4ef14ace13e7490b276de4bd37f7eb3b157db2985a21b7f45532137d3c33",
+    "seconds": 279.86
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-03-BorderBlaster.mp3",
+    "sha256": "b047f5566cc52f22a59c250bb3c8db9320c0525885f1f99c7bfda0457478907f",
+    "seconds": 279.86
+   }
+  },
+  "PrivateHurricane": {
+   "page": "https://www.joshwoodward.com/song/PrivateHurricane",
+   "bpm": 72.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Minor",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-04-PrivateHurricane.mp3",
+    "sha256": "3842f24bb37d7dae666ce141139a291f7a72648f5571f6e77f29cea35382c223",
+    "seconds": 285.57
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-04-PrivateHurricane.mp3",
+    "sha256": "7885237b586a94d65cef4a21c0abde169fabcaafd69767545addd1c42ce59f4d",
+    "seconds": 285.57
+   }
+  },
+  "UndertheStairs": {
+   "page": "https://www.joshwoodward.com/song/UndertheStairs",
+   "bpm": 126.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-05-UnderTheStairs.mp3",
+    "sha256": "afb467c3696d88898d4851f6692d721d80437679099458cb0c079d55a3e35f6d",
+    "seconds": 212.83
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-05-UnderTheStairs.mp3",
+    "sha256": "7f8b2fdc6487cbe49e72d26e6ac10af1de4324c74045524a43a72e1b0ba9bafe",
+    "seconds": 212.83
+   }
+  },
+  "StarsCollide": {
+   "page": "https://www.joshwoodward.com/song/StarsCollide",
+   "bpm": 115.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-06-StarsCollide.mp3",
+    "sha256": "ce4f8550643b6686835d7acfbd5ff3c84e77b95f82fc432e2509c8ff82eb2428",
+    "seconds": 288.52
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-06-StarsCollide.mp3",
+    "sha256": "8ead5383e0b6d8800fc3aa631afd1083156d971c97d718c1d45d64c9dbe04896",
+    "seconds": 288.52
+   }
+  },
+  "GreySnow": {
+   "page": "https://www.joshwoodward.com/song/GreySnow",
+   "bpm": 52.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-07-GreySnow.mp3",
+    "sha256": "1c3e874f50b63cc4327f8bf69bfbcf1075023b02279b91fd6c2451631bbd9977",
+    "seconds": 302.77
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-07-GreySnow.mp3",
+    "sha256": "a3e01e497cb5fbedb51a3d2f50ee9945f4d37c9888a1f65f26b0f9346e4cea06",
+    "seconds": 302.77
+   }
+  },
+  "Overthrown": {
+   "page": "https://www.joshwoodward.com/song/Overthrown",
+   "bpm": 163.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-08-Overthrown.mp3",
+    "sha256": "45c7bc8a50982ec0d15967f6402c40d36412138699474cbad53a954c5c01bba7",
+    "seconds": 275.74
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-08-Overthrown.mp3",
+    "sha256": "fb2c69a1bf7ae8da92917c95e6a0c18bcd9761b1ea4432726603ee85dd19c96c",
+    "seconds": 274.74
+   }
+  },
+  "OnceTomorrow": {
+   "page": "https://www.joshwoodward.com/song/OnceTomorrow",
+   "bpm": 133.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-09-OnceTomorrow.mp3",
+    "sha256": "04d25fe9328ea17a47ed6640ee99fa4eb3bf835204507302ade45853949f677a",
+    "seconds": 249.12
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-09-OnceTomorrow.mp3",
+    "sha256": "c6306321e5ca88e69fe484a35dc59af410492ec3db25f83bc9be922daf0c3a9e",
+    "seconds": 249.12
+   }
+  },
+  "TheVoices": {
+   "page": "https://www.joshwoodward.com/song/TheVoices",
+   "bpm": 139.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Minor",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-10-TheVoices.mp3",
+    "sha256": "a56d46b096be658e893a59566cd8503f5fad79d1e66f2becb4a50d728c2c1cbe",
+    "seconds": 200.72
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-10-TheVoices.mp3",
+    "sha256": "3a93c05d1b2b0d635f0d0f7a57c6b6996dcdacff380b362d9ef30c65ac221ac3",
+    "seconds": 200.72
+   }
+  },
+  "ImNotDreaming": {
+   "page": "https://www.joshwoodward.com/song/ImNotDreaming",
+   "bpm": 48.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-Breadcrumbs-11-ImNotDreaming.mp3",
+    "sha256": "877b7c1b728c454a0f905baa11fb720b042ef9c90d95691e41bbfba44e3036c4",
+    "seconds": 291.89
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Breadcrumbs-NoVox-11-ImNotDreaming.mp3",
+    "sha256": "344f0687ba87256c16a2c9d6de5cf82e11cc8035f673a0840b3acabb568675c1",
+    "seconds": 291.89
+   }
+  },
+  "BuilttoLast": {
+   "page": "https://www.joshwoodward.com/song/BuilttoLast",
+   "bpm": 148.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-BuiltToLast.mp3",
+    "sha256": "3b4e63307714ba8090a1cc48935b312cf8ec2cee6f362a17b0b1b35f83f5eef3",
+    "seconds": 215.19
+   },
+   "instrumental": {
+    "file": "JoshWoodward-BuiltToLast-NoVox.mp3",
+    "sha256": "28071dc8fef10e4430164207359d818e44f42e445932bded4b90ba25b775e8ba",
+    "seconds": 215.19
+   }
+  },
+  "Bully": {
+   "page": "https://www.joshwoodward.com/song/Bully",
+   "bpm": 151.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-Bully.mp3",
+    "sha256": "7e43bf6ae2d91d14dafee5f3553220facb895c8569422c102a21523085347c04",
+    "seconds": 244.66
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Bully-NoVox.mp3",
+    "sha256": "efd9ad92da216bd7b8182ed0498ca73769bcd7f8ee1dad9b9e38609cb30295bd",
+    "seconds": 244.66
+   }
+  },
+  "CallMeByMyNumber": {
+   "page": "https://www.joshwoodward.com/song/CallMeByMyNumber",
+   "bpm": 180.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-CallMeByMyNumber.mp3",
+    "sha256": "a1d78b324198d570344fef9d239d092ab8a7c4d867df75c934231d43a374b602",
+    "seconds": 138.04
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CallMeByMyNumber-NoVox.mp3",
+    "sha256": "f38024965040049db4bb36841869512b3b620bc40dc7ef83190cfcf2aa481ce5",
+    "seconds": 138.04
+   }
+  },
+  "CircleK": {
+   "page": "https://www.joshwoodward.com/song/CircleK",
+   "bpm": 109.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-CircleK.mp3",
+    "sha256": "543d269d36a8edadafb584e25cbf13d50ecd03bdfe2824f16797c36803e42850",
+    "seconds": 242.3
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CircleK-NoVox.mp3",
+    "sha256": "d5105619fd9016775102831b1f208131094e33e268295acadf867434998f902f",
+    "seconds": 242.3
+   }
+  },
+  "Circles": {
+   "page": "https://www.joshwoodward.com/song/Circles",
+   "bpm": 93.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Minor",
+   "regular": {
+    "file": "JoshWoodward-Circles.mp3",
+    "sha256": "5f2a693dbd333ea14329c2c999e5416e79d9c721222b0f28a3f70a586a503940",
+    "seconds": 202.21
+   },
+   "instrumental": {
+    "file": "JoshWoodward-33-NoVox-02-Circles.mp3",
+    "sha256": "18bfc793161ade4c5e2fe164de5ecfe7e0072b2666daa69c7fc015fb00e6f815",
+    "seconds": 202.21
+   }
+  },
+  "CoinOp": {
+   "page": "https://www.joshwoodward.com/song/CoinOp",
+   "bpm": 123.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-CoinOp.mp3",
+    "sha256": "3fb67b821865ff6cae9cfd2b9496e09c4e7bd18033196a425d3b14082131fcb7",
+    "seconds": 23.41
+   }
+  },
+  "CosmicBandits": {
+   "page": "https://www.joshwoodward.com/song/CosmicBandits",
+   "bpm": 150.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-CosmicBandits.mp3",
+    "sha256": "7938056e5ef2eb73e80b846a279ff5e0a243ae4c1a3e69d48ec0e9b6ca72bd99",
+    "seconds": 187.08
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CosmicBandits-NoVox.mp3",
+    "sha256": "c857e92955ac933ba131f6c947c2e2c5fa4e3fe5e0f621832c2ec02865f3d7bc",
+    "seconds": 187.08
+   }
+  },
+  "FighttheSea": {
+   "page": "https://www.joshwoodward.com/song/FighttheSea",
+   "bpm": 100.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Minor",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-01-FightTheSea.mp3",
+    "sha256": "3f1f06476642e0e24797b08888a2399b98da5e2a6b78dc825b3551a4f7173831",
+    "seconds": 276.94
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-01-FightTheSea.mp3",
+    "sha256": "40fdb30c837c0078cafe6edf75ae9633fcc0def6ab4c583d43d5cec158a9e83b",
+    "seconds": 276.94
+   }
+  },
+  "Cherry": {
+   "page": "https://www.joshwoodward.com/song/Cherry",
+   "bpm": 90.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-02-Cherry.mp3",
+    "sha256": "ab407c1bef944d23a135fb8794b75be64b5bcff46b11c81356333f842520dfcc",
+    "seconds": 251.12
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-02-Cherry.mp3",
+    "sha256": "f07199a049ca225cea4d54ff3798c23429043f521fff488b22a8dfbf7d37cc81",
+    "seconds": 251.12
+   }
+  },
+  "CantTakeOurLoveAway": {
+   "page": "https://www.joshwoodward.com/song/CantTakeOurLoveAway",
+   "bpm": 93.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-03-CantTakeOurLoveAway.mp3",
+    "sha256": "21f9cf7b14e0b3cdda3cf18252764f8da333d55db5f311b69a2f7246b334c22d",
+    "seconds": 225.49
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-03-CantTakeOurLoveAway.mp3",
+    "sha256": "445b5ccb799591b1ebe72a183f2b3564e005c309cef93237d66d7195b20ae434",
+    "seconds": 225.49
+   }
+  },
+  "BigDiscoBall": {
+   "page": "https://www.joshwoodward.com/song/BigDiscoBall",
+   "bpm": 62.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-04-BigDiscoBall.mp3",
+    "sha256": "530e978ee91b453f489d407db5a1747e74c284f837e8db05adf96aee1b9e0609",
+    "seconds": 235.98
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-04-BigDiscoBall.mp3",
+    "sha256": "36a123530050c9d921ab24b92e43f45dedf8fde221c9891a6697256d66b2ac5f",
+    "seconds": 235.98
+   }
+  },
+  "ThePawnbrokersStepdaughter": {
+   "page": "https://www.joshwoodward.com/song/ThePawnbrokersStepdaughter",
+   "bpm": 93.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Minor",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-05-ThePawnbrokersStepdaughter.mp3",
+    "sha256": "c817d306a5fdb94ac78501067b948b410145ec94c44d3a41f812c1f3f56675af",
+    "seconds": 246.18
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-05-ThePawnbrokersStepdaughter.mp3",
+    "sha256": "82174f8a41eedcb5794026603f8007fd01d02117d33d35dc8da7926502b967da",
+    "seconds": 246.18
+   }
+  },
+  "TheSpiritWorld": {
+   "page": "https://www.joshwoodward.com/song/TheSpiritWorld",
+   "bpm": 63.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-06-TheSpiritWorld.mp3",
+    "sha256": "c151e5a9ed4cd5cacf89a49f15d4087ef68c6d2c142da16fb2a1825b4bb11f47",
+    "seconds": 229.38
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-06-TheSpiritWorld.mp3",
+    "sha256": "c77ef16dcd6be0cdcdf0869b449c33a231a36acca7a8c2989274a6b881bac469",
+    "seconds": 239.84
+   }
+  },
+  "ShowerScene": {
+   "page": "https://www.joshwoodward.com/song/ShowerScene",
+   "bpm": 87.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-07-ShowerScene.mp3",
+    "sha256": "44a674f288411ba858f32240962d108a2e865a1cdefcdbb1585ba35943f1d420",
+    "seconds": 130.65
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-07-ShowerScene.mp3",
+    "sha256": "6765b746ef956cbe03c5a95645a47c0d62d49f5e03277f0c21445c571f19ef16",
+    "seconds": 130.65
+   }
+  },
+  "SwimmingtoCambodia": {
+   "page": "https://www.joshwoodward.com/song/SwimmingtoCambodia",
+   "bpm": 90.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Minor",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-08-SwimmingToCambodia.mp3",
+    "sha256": "4777d4658cd0a255ed38afdc6245ca7ab97ca51063144b3391160d43b2d54787",
+    "seconds": 219.59
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-08-SwimmingToCambodia.mp3",
+    "sha256": "323200bdef769bfb7c0c04048c5922cddb2a822fc56d3a6cb7fc6ff9077b9746",
+    "seconds": 219.59
+   }
+  },
+  "TwelveMonkeys": {
+   "page": "https://www.joshwoodward.com/song/TwelveMonkeys",
+   "bpm": 84.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Minor",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-09-TwelveMonkeys.mp3",
+    "sha256": "dcc2aecfdcfc22f2a64958a3329007b7c858ef56ca8b324684362b51070464e3",
+    "seconds": 193.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-09-TwelveMonkeys.mp3",
+    "sha256": "7863e9cae21ab36453c94252ffb8369a56ad34651b7f1c157d5501ac0449cc19",
+    "seconds": 193.48
+   }
+  },
+  "HeyRuth": {
+   "page": "https://www.joshwoodward.com/song/HeyRuth",
+   "bpm": 136.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-10-HeyRuth.mp3",
+    "sha256": "704f387a9771e4267b03a0162143ed04faf7d9af5f42e74c59ebb5f8e69224af",
+    "seconds": 200.37
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-10-HeyRuth.mp3",
+    "sha256": "10213e4575eae4cbb109fb6893305455dc41b9d01340aa396aaa6331e8fa5a2c",
+    "seconds": 200.37
+   }
+  },
+  "ThanksForComing": {
+   "page": "https://www.joshwoodward.com/song/ThanksForComing",
+   "bpm": 60.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-11-ThanksForComing.mp3",
+    "sha256": "6aa9e54a340eb47d5627d884adc168c4fc29c5b84540c8ab53cd2f49ae2bda5f",
+    "seconds": 229.16
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-11-ThanksForComing.mp3",
+    "sha256": "f151eff9d8eb9bdf694dd584303c82f0d05348dee522ac7e0d8fc4ef4e56bf07",
+    "seconds": 229.16
+   }
+  },
+  "Sundown": {
+   "page": "https://www.joshwoodward.com/song/Sundown",
+   "bpm": 132.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-12-Sundown.mp3",
+    "sha256": "79a5087aff223c58b7fc94c6ea0fee40b7f3e31a5c230fa57027cc79baa07c67",
+    "seconds": 255.5
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-12-Sundown.mp3",
+    "sha256": "7c93d6f0e315272b0c0514983a5ca1b2aae24d1ff10cd55538231f92fa33d722",
+    "seconds": 255.5
+   }
+  },
+  "Frannie": {
+   "page": "https://www.joshwoodward.com/song/Frannie",
+   "bpm": 89.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-13-Frannie.mp3",
+    "sha256": "67ed5454cd30a2a061d6fd408aefae515b99c3919315ff6810b8fb8ff94d07c5",
+    "seconds": 182.14
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CS-NoVox-13-Frannie.mp3",
+    "sha256": "a76fa81acf7bb89be94f6ce72ce57f98bf72a27da106e259359b74aed2702d8a",
+    "seconds": 182.14
+   }
+  },
+  "WaitingTakesTime": {
+   "page": "https://www.joshwoodward.com/song/WaitingTakesTime",
+   "bpm": 175.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-CrawfordStreet-14-WaitingTakesTime.mp3",
+    "sha256": "af6120e16f430e7737a2a362a5423f81bd82be3306734c133db3eb54abb163e3",
+    "seconds": 184.74
+   },
+   "instrumental": {
+    "file": "JoshWoodward-CrawfordStreet-NoVox-14-WaitingTakesTime.mp3",
+    "sha256": "42a30766f410ec492e4acf187bfb7af54dba1d035bcf95b0c522e6fbb19fe553",
+    "seconds": 184.77
+   }
+  },
+  "IWanttoDestroySomethingBeautiful": {
+   "page": "https://www.joshwoodward.com/song/IWanttoDestroySomethingBeautiful",
+   "bpm": 72.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-DW-01-IWantToDestroySomethingBeautiful.mp3",
+    "sha256": "a2bffbc21aef694c795831e9935ceb61de0b83815f6372507cc81f8eddc6049d",
+    "seconds": 228.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-01-IWantToDestroySomethingBeautiful.mp3",
+    "sha256": "8822e29d925053773331ce5e1634fbeb0fb1c3d1919ba2bd115ae516dbf0ada9",
+    "seconds": 228.48
+   }
+  },
+  "Stickybee": {
+   "page": "https://www.joshwoodward.com/song/Stickybee",
+   "bpm": 176.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-DW-02-Stickybee.mp3",
+    "sha256": "804b2fb4a2e760db49dae873b313803bccf3d8aabac25d85f8aab5830d2c21a1",
+    "seconds": 198.97
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-02-Stickybee.mp3",
+    "sha256": "6c682f19f9a196003a71cd4a69f83079803408cfe34b7a27ae702f5c3e0f1323",
+    "seconds": 198.97
+   }
+  },
+  "Insomnia": {
+   "page": "https://www.joshwoodward.com/song/Insomnia",
+   "bpm": 57.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "C Minor",
+   "regular": {
+    "file": "JoshWoodward-DW-03-Insomnia.mp3",
+    "sha256": "11cbd872dee3f282bac0f948b8df420f303d789f6dd4e3bb2ab36205853072f8",
+    "seconds": 210.04
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-03-Insomnia.mp3",
+    "sha256": "1e88624ba7dba3099f4cc41a5f63e23827884a85b240b61dc8cc25bd4c2f6a6f",
+    "seconds": 210.04
+   }
+  },
+  "Gravity": {
+   "page": "https://www.joshwoodward.com/song/Gravity",
+   "bpm": 48.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-DW-04-Gravity.mp3",
+    "sha256": "bcdb896a018033fe63931f114c1eccc703c6d34694b9480735f2cabf2ec940e9",
+    "seconds": 235.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-04-Gravity.mp3",
+    "sha256": "58b6d5e3174501da1e3734b60d8d66fb088f81dfba06cb20be77b111fcdd18b3",
+    "seconds": 235.48
+   }
+  },
+  "TheVagabond": {
+   "page": "https://www.joshwoodward.com/song/TheVagabond",
+   "bpm": 128.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-DW-05-TheVagabond.mp3",
+    "sha256": "8f0c2cd3f2e26e478af5cc296b318018b7f0b20eb2a9f24ba9a49d89a9110026",
+    "seconds": 267.36
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-05-TheVagabond.mp3",
+    "sha256": "183a72d9cb1101c80ae7413f4ed31c201f2124e63ca3aca5924a5a98700c6cf8",
+    "seconds": 267.36
+   }
+  },
+  "ButItDid": {
+   "page": "https://www.joshwoodward.com/song/ButItDid",
+   "bpm": 108.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-DW-06-ButItDid.mp3",
+    "sha256": "e22170a80f5745b39b2d9bf5feaa74647fdaffe482aa80bf8a308853c359901f",
+    "seconds": 211.92
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-06-ButItDid.mp3",
+    "sha256": "6b9c98dbea155b692963e7bc4b38d86411de51e426126518af266db9f4882b6c",
+    "seconds": 211.92
+   }
+  },
+  "TheRavenandtheSwan": {
+   "page": "https://www.joshwoodward.com/song/TheRavenandtheSwan",
+   "bpm": 136.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-DW-07-TheRavenAndTheSwan.mp3",
+    "sha256": "f7f547ef3f3383df59ec2e1fe8c95830ab7b44662fcc2647cf5fd8a283e2932a",
+    "seconds": 233.33
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-07-TheRavenAndTheSwan.mp3",
+    "sha256": "da5dcf6d7ccee88c62de17ffe1fb20a49018e2010f3325e3a2227c30cfb00451",
+    "seconds": 233.33
+   }
+  },
+  "CienVolando": {
+   "page": "https://www.joshwoodward.com/song/CienVolando",
+   "bpm": 68.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-DW-08-CienVolando.mp3",
+    "sha256": "7b6c90b9358945fc3bdfbe505d8e2afe68e66fd10c5fa65426ce3ee8211826d7",
+    "seconds": 186.13
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-08-CienVolando.mp3",
+    "sha256": "0c21622eb3cf9b96576cd1a3fd99aadbd3539c4a9e16e3d994151ad98886954f",
+    "seconds": 186.13
+   }
+  },
+  "Omaha": {
+   "page": "https://www.joshwoodward.com/song/Omaha",
+   "bpm": 140.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-DW-09-Omaha.mp3",
+    "sha256": "1ad64f943e0f13056052f2cbce5603bdac40b39ce4d017df462d3fc10146314d",
+    "seconds": 183.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-09-Omaha.mp3",
+    "sha256": "7b8c159f1393079f2f68aa89f47a441fec1500c0d022e3acd79f94011134afd2",
+    "seconds": 183.48
+   }
+  },
+  "Methylchloroisothiazolinone": {
+   "page": "https://www.joshwoodward.com/song/Methylchloroisothiazolinone",
+   "bpm": 135.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-DW-10-Methylchloroisothiazolinone.mp3",
+    "sha256": "6bc99f2e441da301cb2780d81f493f52c2a6dde51fb1f24039b5bdd5810104c3",
+    "seconds": 239.91
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-10-Methylchloroisothiazolinone.mp3",
+    "sha256": "463e89baf249d360503418e4d847b04dd672d8400b20c20f1dea16bcae0dd0e3",
+    "seconds": 239.91
+   }
+  },
+  "GallowsHill": {
+   "page": "https://www.joshwoodward.com/song/GallowsHill",
+   "bpm": 175.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Minor",
+   "regular": {
+    "file": "JoshWoodward-DW-11-GallowsHill.mp3",
+    "sha256": "d4f27e4d92344afafe43c7286396012784d201712a11c19485d4263dff6f068b",
+    "seconds": 252.0
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-11-GallowsHill.mp3",
+    "sha256": "1b0a2658fe64452c18ff7c231f4016bfe3a1420b46d4dd84b65d55793ac68ee9",
+    "seconds": 252.0
+   }
+  },
+  "Nincompoop": {
+   "page": "https://www.joshwoodward.com/song/Nincompoop",
+   "bpm": 222.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C# Minor",
+   "regular": {
+    "file": "JoshWoodward-DW-12-Nincompoop.mp3",
+    "sha256": "92bd8fa856d277c61c068855f8cb4155a42222fc545d3b64fb40576fd6d65650",
+    "seconds": 112.49
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DW-NoVox-12-Nincompoop.mp3",
+    "sha256": "479daa565860d203c1beb6f8639b608e9e928ce7f761c8d70f5986d82f8230c3",
+    "seconds": 112.49
+   }
+  },
+  "DarkRoads": {
+   "page": "https://www.joshwoodward.com/song/DarkRoads",
+   "bpm": 49.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Minor",
+   "regular": {
+    "file": "JoshWoodward-DarkRoads.mp3",
+    "sha256": "c1edfe8558504afe0dffd643eff2a72453aa175c22c6a97a6ba58fe4b1c86620",
+    "seconds": 246.57
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DarkRoads-NoVox.mp3",
+    "sha256": "3bbaa384682f5a66a7c6aec872be8692d2f9de5bf353ffe6bb6edb86336eabad",
+    "seconds": 246.57
+   }
+  },
+  "DeadCode": {
+   "page": "https://www.joshwoodward.com/song/DeadCode",
+   "bpm": 270.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-DeadCode.mp3",
+    "sha256": "4b94e4d51f37c4a6ee150fc3d8db60f5d195e79faf22da253646a096e9c8506c",
+    "seconds": 122.88
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DeadCode-NoVox.mp3",
+    "sha256": "e377d510676f665e2e1893dd1beed2e9b1c4a5d111aefaf5d5d59a534f4776f7",
+    "seconds": 122.88
+   }
+  },
+  "DearRebecca": {
+   "page": "https://www.joshwoodward.com/song/DearRebecca",
+   "bpm": 138.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-DearRebecca.mp3",
+    "sha256": "8de57249321debe94cfdb9b87b9d007816eda9ca1a1e75ff23c6113e0ed93812",
+    "seconds": 195.42
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DearRebecca-NoVox.mp3",
+    "sha256": "55c4e243b74752a5d347af38c07f6201fe95798f9d55b4e7a68f72ff84e2e412",
+    "seconds": 195.42
+   }
+  },
+  "DoNotGoGentle": {
+   "page": "https://www.joshwoodward.com/song/DoNotGoGentle",
+   "bpm": 87.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-DoNotGoGentle.mp3",
+    "sha256": "79ab2fc032c886c590fe11224160a273fcdf4ea203961319374b6b05e0f0a1b6",
+    "seconds": 307.7
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DoNotGoGentle-NoVox.mp3",
+    "sha256": "e5a122fc8369e8cb899ff11fc9e13e3c026f44da8c726b717ba1b4648dcd924d",
+    "seconds": 306.37
+   }
+  },
+  "ElectricSunrise": {
+   "page": "https://www.joshwoodward.com/song/ElectricSunrise",
+   "bpm": 105.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-ElectricSunrise.mp3",
+    "sha256": "66193b6ae938adec8b056dda23922edc2c215240dd42b2f03d6eb901947e6353",
+    "seconds": 136.57
+   }
+  },
+  "EveryLightontheMoonIstheMoonlight": {
+   "page": "https://www.joshwoodward.com/song/EveryLightontheMoonIstheMoonlight",
+   "bpm": 138.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Minor",
+   "regular": {
+    "file": "JoshWoodward-EveryLightOnTheMoonIsTheMoonlight.mp3",
+    "sha256": "20e1aa06e7da32fa371571f1437940c5c6fd0094612865bc043cfd3b306819aa",
+    "seconds": 171.74
+   }
+  },
+  "EverythingisBorrowed": {
+   "page": "https://www.joshwoodward.com/song/EverythingisBorrowed",
+   "bpm": 119.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-EverythingIsBorrowed.mp3",
+    "sha256": "c35bc17720a092d1a88985f3ff8e81d11d88cd968b56b030867a03d1b411f543",
+    "seconds": 238.3
+   },
+   "instrumental": {
+    "file": "JoshWoodward-EverythingIsBorrowed-NoVox.mp3",
+    "sha256": "e12436b0ff24d2ee40073216da48e6a71eae86d300f38e1c98cb13ab5e3f4320",
+    "seconds": 238.3
+   }
+  },
+  "Fallow": {
+   "page": "https://www.joshwoodward.com/song/Fallow",
+   "bpm": 148.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-Fallow.mp3",
+    "sha256": "b833a6993354453e788c0824adeefe2016d3a02925d24ee10ba1cc44447c2af5",
+    "seconds": 262.15
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Fallow-NoVox.mp3",
+    "sha256": "e6e9def7fccf7cf17a94072bd4bfa7270b2d138122bb46fc3fa43eb325a61b15",
+    "seconds": 262.15
+   }
+  },
+  "FearisFree": {
+   "page": "https://www.joshwoodward.com/song/FearisFree",
+   "bpm": 119.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Minor",
+   "regular": {
+    "file": "JoshWoodward-FearIsFree.mp3",
+    "sha256": "610687ada0abefd0d06c057a5c8837987c1320a69354659004df430f1ff1c947",
+    "seconds": 216.59
+   }
+  },
+  "FiveMinutes": {
+   "page": "https://www.joshwoodward.com/song/FiveMinutes",
+   "bpm": 181.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-FiveMinutes.mp3",
+    "sha256": "74bdcda363f0d20ce98538764c0996f2f7310bd3a613ad9d8e4e8c3cda6fafba",
+    "seconds": 185.99
+   },
+   "instrumental": {
+    "file": "JoshWoodward-FiveMinutes-NoVox.mp3",
+    "sha256": "2e43798b08a7ab77d3b2b4acdb9d8147f695f92321684016b66f1f1a210e686b",
+    "seconds": 185.99
+   }
+  },
+  "FlickeringFlame": {
+   "page": "https://www.joshwoodward.com/song/FlickeringFlame",
+   "bpm": 67.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-FlickeringFlame.mp3",
+    "sha256": "d85eea56b50bacec4e441561b333652ded5fc578f5e928be5069556def8106e5",
+    "seconds": 316.06
+   },
+   "instrumental": {
+    "file": "JoshWoodward-FlickeringFlame-NoVox.mp3",
+    "sha256": "2f7e4514ea6bf95bd9af407e862ba98995f16688a64d7b345c10f599c83fed65",
+    "seconds": 316.06
+   }
+  },
+  "Flotsam": {
+   "page": "https://www.joshwoodward.com/song/Flotsam",
+   "bpm": 66.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-Flotsam.mp3",
+    "sha256": "1feaf8bf3c21a8037f51e5252be884a7f03c8e4e8d5c1e3ed3fa742236e7fff3",
+    "seconds": 182.77
+   },
+   "instrumental": {
+    "file": "JoshWoodward-33-NoVox-10-Flotsam.mp3",
+    "sha256": "3c0c44c7f5bb96b28028859b05f587615519578ac8d2d9d3581848b4358bf3d9",
+    "seconds": 182.77
+   }
+  },
+  "FrozenGround": {
+   "page": "https://www.joshwoodward.com/song/FrozenGround",
+   "bpm": 40.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-FrozenGround.mp3",
+    "sha256": "3f5c8e0c0f129cb66b968457b4d4b59becee4f8942a0d9d179c003a5e0590178",
+    "seconds": 110.43
+   }
+  },
+  "HalfLife": {
+   "page": "https://www.joshwoodward.com/song/HalfLife",
+   "bpm": 62.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Minor",
+   "regular": {
+    "file": "JoshWoodward-HalfLife.mp3",
+    "sha256": "2fdb890eb125c0b20821ecd561877201fe37394c2326f72e65273e4a041eb7c5",
+    "seconds": 267.41
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HalfLife-NoVox.mp3",
+    "sha256": "c4f8b0428d1687b83f28c3b8f35cc39e7d9fd1d0fa886abce1f7cc6327fffa3c",
+    "seconds": 267.41
+   }
+  },
+  "HereLies": {
+   "page": "https://www.joshwoodward.com/song/HereLies",
+   "bpm": 67.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-HereLies.mp3",
+    "sha256": "7f77ecd15993505f2814fbbd41d50aae8967ea223e80e9299103295b7b470865",
+    "seconds": 215.76
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereLies-NoVox.mp3",
+    "sha256": "d29f283084589bb6902a9e37ba15e04239f522293dfae063bcb5c99eede7344b",
+    "seconds": 215.76
+   }
+  },
+  "Incoherent": {
+   "page": "https://www.joshwoodward.com/song/Incoherent",
+   "bpm": 120.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-01-Incoherent.mp3",
+    "sha256": "91f696151aa2051ca714183d48a34e7fe3583522447f34d004e69406d0175f21",
+    "seconds": 276.61
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-01-Incoherent.mp3",
+    "sha256": "cfc627d83ac0dc8a34ee7377a5f6616686821f1b50a229d2ced99a761d3ed0ba",
+    "seconds": 274.62
+   }
+  },
+  "MonaLisa": {
+   "page": "https://www.joshwoodward.com/song/MonaLisa",
+   "bpm": 128.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-02-MonaLisa.mp3",
+    "sha256": "08e8246b85f0876fb96b4b3f7ed9f0caa4b422974806ac2a7fbe9b55d033aa71",
+    "seconds": 243.12
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-02-MonaLisa.mp3",
+    "sha256": "f215283e77426058409c07c01098ead9c6786efcf0b798c8bd7e6c64b713ab67",
+    "seconds": 241.12
+   }
+  },
+  "Dust": {
+   "page": "https://www.joshwoodward.com/song/Dust",
+   "bpm": 57.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "C Minor",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-03-Dust.mp3",
+    "sha256": "f94c428dae1b127ee47d702b39f3effcfdf0c00755aa21ac258048ece7ce03ec",
+    "seconds": 286.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-03-Dust.mp3",
+    "sha256": "f0c46e96d8cc21193f62b96b1ad482223a48879322bdd4ff4045daffd2ff5a86",
+    "seconds": 284.49
+   }
+  },
+  "Troublemaker": {
+   "page": "https://www.joshwoodward.com/song/Troublemaker",
+   "bpm": 126.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Minor",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-04-Troublemaker.mp3",
+    "sha256": "b9f9072b79f5030d12d91a71ccd165e55fbb8f7bd3c4248957de69c39239a420",
+    "seconds": 239.13
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-04-Troublemaker.mp3",
+    "sha256": "59f239436d32b74de925f936ace69c40b5f6c1c1a5942535140548445f37f070",
+    "seconds": 237.14
+   }
+  },
+  "HouseInMyHead": {
+   "page": "https://www.joshwoodward.com/song/HouseInMyHead",
+   "bpm": 85.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-05-HouseInMyHead.mp3",
+    "sha256": "e3e7087d30c5cbeb5b2031b0ffd23350a86734fcd8d23b2b49e10bce0ebc9910",
+    "seconds": 225.01
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-05-HouseInMyHead.mp3",
+    "sha256": "e47cd1f57530177e31303a08f6b2ddcbad0aa07388cb771a55c1b4286801cf80",
+    "seconds": 223.02
+   }
+  },
+  "LearnToFly": {
+   "page": "https://www.joshwoodward.com/song/LearnToFly",
+   "bpm": 179.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-06-LearnToFly.mp3",
+    "sha256": "d247ecfdfa56d953e7aef351dc8a47ad015110b09522e2e49c378f3e5db968d6",
+    "seconds": 206.49
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-06-LearnToFly.mp3",
+    "sha256": "090c48c43751a05af41fac5619b546708112475ab39932f62d3a11e65efc13bc",
+    "seconds": 204.49
+   }
+  },
+  "NothingInTheDark": {
+   "page": "https://www.joshwoodward.com/song/NothingInTheDark",
+   "bpm": 183.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Minor",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-07-NothingInTheDark.mp3",
+    "sha256": "a0e698c85d986b93c05a2b3821293cba7e84a6c0e062dc9908fd7f4ac61224ca",
+    "seconds": 284.75
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-07-NothingInTheDark.mp3",
+    "sha256": "5c8110a3c870d4d83956604c1772fd9d29b29aee772b772b2a639a3945f10316",
+    "seconds": 282.75
+   }
+  },
+  "SoftOrangeGlow": {
+   "page": "https://www.joshwoodward.com/song/SoftOrangeGlow",
+   "bpm": 95.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-08-SoftOrangeGlow.mp3",
+    "sha256": "1178ae0c54ff6db68db13d0ab3f33a2cac74982c6aceb5902e5bc5f0b9bc0eb6",
+    "seconds": 196.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-08-SoftOrangeGlow.mp3",
+    "sha256": "f1b1f36f4e253328c25ae98f38a3843db91b7cab501480208588b70748aa422a",
+    "seconds": 194.49
+   }
+  },
+  "MorningAfter": {
+   "page": "https://www.joshwoodward.com/song/MorningAfter",
+   "bpm": 62.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-09-MorningAfter.mp3",
+    "sha256": "4d26deeafef23a3c52aa7877b70f618d269506e3c0ab588f5ad8e251aa454764",
+    "seconds": 189.12
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-09-MorningAfter.mp3",
+    "sha256": "f02a1b5c40d4ccd8a3997cb68c64d5c2b3e4a43cd964fdfc265833037351be3f",
+    "seconds": 187.13
+   }
+  },
+  "HomeImprovement": {
+   "page": "https://www.joshwoodward.com/song/HomeImprovement",
+   "bpm": 162.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-10-HomeImprovement.mp3",
+    "sha256": "1223aa4ac1e15cbd161b892ac15187d0021a01060f39778737572502adce6201",
+    "seconds": 244.2
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-10-HomeImprovement.mp3",
+    "sha256": "4ee05aa352b0b02ca9b5cc413b7e8dbc0e07cfab07abb447628f5d3bdfb3eeb0",
+    "seconds": 242.21
+   }
+  },
+  "MidnightSun": {
+   "page": "https://www.joshwoodward.com/song/MidnightSun",
+   "bpm": 115.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-11-MidnightSun.mp3",
+    "sha256": "1e025bec93d2ea8d1ff03ace8d64478bdc63c958e803b1794cd09a631f19c4f9",
+    "seconds": 214.05
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-11-MidnightSun.mp3",
+    "sha256": "95e14f25e646699dace6df29582028f834a8481eaec338424a44709165d221c2",
+    "seconds": 212.06
+   }
+  },
+  "WakeUp": {
+   "page": "https://www.joshwoodward.com/song/WakeUp",
+   "bpm": 69.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-12-WakeUp.mp3",
+    "sha256": "3be35eb1c8b1e68970caa96e65ecee89e204c7a14f8ad9ba55c134c9f58c5961",
+    "seconds": 229.07
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-12-WakeUp.mp3",
+    "sha256": "7f29f1a551ddb4607fe1b56c3ac85694764d5b273370e3a5b7c209d8438d9a1b",
+    "seconds": 209.07
+   }
+  },
+  "SleepyThought": {
+   "page": "https://www.joshwoodward.com/song/SleepyThought",
+   "bpm": 63.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-HereTodayRemixed-13-SleepyThought.mp3",
+    "sha256": "a5c77492815b78f703b4b07e10607d652423201eeaba52658de9f94e6a76e0ba",
+    "seconds": 268.41
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HereTodayNoVox-13-SleepyThought.mp3",
+    "sha256": "716708e664ba1ed7951274ef380a4f322e87bbc76108aa1b1e866986ac41faf8",
+    "seconds": 268.43
+   }
+  },
+  "Hey": {
+   "page": "https://www.joshwoodward.com/song/Hey",
+   "bpm": 97.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-Hey.mp3",
+    "sha256": "bcdc24f0164049c679ffbb3a8b0b25bcf75ec1366ee91934be472db1693743f0",
+    "seconds": 208.88
+   }
+  },
+  "HoneyedTongue": {
+   "page": "https://www.joshwoodward.com/song/HoneyedTongue",
+   "bpm": 90.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "A# Minor",
+   "regular": {
+    "file": "JoshWoodward-HoneyedTongue.mp3",
+    "sha256": "1953bcdecb30742e35e1cd42e40f2693bb426e11ba4736bb6539dc50526d2c54",
+    "seconds": 158.46
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HoneyedTongue-NoVox.mp3",
+    "sha256": "bce9fa2fa286e78e587929c55af1a2c6b7c6ca27457a975e22cde5d58817d224",
+    "seconds": 158.02
+   }
+  },
+  "HowToSucceedInSymphony": {
+   "page": "https://www.joshwoodward.com/song/HowToSucceedInSymphony",
+   "bpm": 212.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Minor",
+   "regular": {
+    "file": "JoshWoodward-HowToSucceedInSymphony.mp3",
+    "sha256": "7b1edd1c07be8eea7ab5f4fda5b0271afe0ad38bfc8dd7af70e33753b5073b6c",
+    "seconds": 176.49
+   }
+  },
+  "IAmYourClothes": {
+   "page": "https://www.joshwoodward.com/song/IAmYourClothes",
+   "bpm": 83.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-IAmYourClothes.mp3",
+    "sha256": "18b5c99e02f621aadc96a7d4fd825f605f485b8c41c05576c358ab3e676e0468",
+    "seconds": 225.24
+   },
+   "instrumental": {
+    "file": "JoshWoodward-IAmYourClothes-NoVox.mp3",
+    "sha256": "a12bbb33b5ee482193d3e6005a58be94ced22cd24c0218263714f5e01dbc6c43",
+    "seconds": 225.24
+   }
+  },
+  "IJustWantedtoDance": {
+   "page": "https://www.joshwoodward.com/song/IJustWantedtoDance",
+   "bpm": 72.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-IJustWantedToDance.mp3",
+    "sha256": "500140f5775651e92f0ae2354369e6c504fb3b1bf5e4cc3a1a9af3191ecb5d05",
+    "seconds": 140.03
+   },
+   "instrumental": {
+    "file": "JoshWoodward-IJustWantedToDance-NoVox.mp3",
+    "sha256": "8170f513a219c215c56fbb47d18b09e5bc2c364e83eecb821d20eb05f307e6b4",
+    "seconds": 140.03
+   }
+  },
+  "IOU": {
+   "page": "https://www.joshwoodward.com/song/IOU",
+   "bpm": 86.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-IOU.mp3",
+    "sha256": "5f6f27f295b6a241915d8e1fcf0847165b97ff5db66a571ae9b5e79beb5355f8",
+    "seconds": 246.69
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-13-IOU.mp3",
+    "sha256": "174722737abe4c92bb3dd99e3a2467996963019a896aca6d86ea885a410e6a45",
+    "seconds": 246.91
+   }
+  },
+  "KeepInTouch": {
+   "page": "https://www.joshwoodward.com/song/KeepInTouch",
+   "bpm": 98.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-KeepInTouch.mp3",
+    "sha256": "b53939edb67bbeb079cf2e29d4597b87f266de56fd2a52755fe733b72daa8104",
+    "seconds": 274.83
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-02-KeepInTouch.mp3",
+    "sha256": "316ee23689af0083842bf66fb15adcd68cdcbf752d9e22891ecc82a5cc146c57",
+    "seconds": 274.84
+   }
+  },
+  "KickOffYourShoes": {
+   "page": "https://www.joshwoodward.com/song/KickOffYourShoes",
+   "bpm": 61.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "A# Minor",
+   "regular": {
+    "file": "JoshWoodward-KickOffYourShoes.mp3",
+    "sha256": "8ddc2e3d785fa7989ab3662af39795a929ddc3a49f28c5a40754964635adf277",
+    "seconds": 277.02
+   }
+  },
+  "LetsPretend": {
+   "page": "https://www.joshwoodward.com/song/LetsPretend",
+   "bpm": 149.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-LetsPretend.mp3",
+    "sha256": "c82b2c75f03f0af5e9c752e5febb0ebc74e5a27d071f409d5beaee8c948b9965",
+    "seconds": 188.7
+   },
+   "instrumental": {
+    "file": "JoshWoodward-LetsPretend-NoVox.mp3",
+    "sha256": "3ddedf3af2a23ff58590b57d64290019bdac209d14fc41fe3f9e005ef40bc5ea",
+    "seconds": 188.7
+   }
+  },
+  "LetsSlashGrandmasTires": {
+   "page": "https://www.joshwoodward.com/song/LetsSlashGrandmasTires",
+   "bpm": 190.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-LetsSlashGrandmasTires.mp3",
+    "sha256": "fda3d45dfb0350128757ad3216a8fdd4f8b0d44c235fb05a2287b9e7c2ebd822",
+    "seconds": 143.13
+   },
+   "instrumental": {
+    "file": "JoshWoodward-LetsSlashGrandmasTires-NoVox.mp3",
+    "sha256": "31dbd0e30b89958f49e48d968da667a10dd3a7556b0ab5fd449c9cf9607e123c",
+    "seconds": 143.13
+   }
+  },
+  "LittleMissLovelyEyes": {
+   "page": "https://www.joshwoodward.com/song/LittleMissLovelyEyes",
+   "bpm": 134.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-LittleMissLovelyEyes.mp3",
+    "sha256": "0d9f56c2321ea244656df4e4b92f335deb58da0c2d96d88dad91d7f9d9b06edd",
+    "seconds": 236.87
+   },
+   "instrumental": {
+    "file": "JoshWoodward-LittleMissLovelyEyes-NoVox.mp3",
+    "sha256": "e853cb1f1ceeadf89fb3441495fbc97afb4a5040cf124dd6aaba1cf2b26c33f2",
+    "seconds": 236.87
+   }
+  },
+  "MichiganBlues": {
+   "page": "https://www.joshwoodward.com/song/MichiganBlues",
+   "bpm": 120.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-MichiganBlues.mp3",
+    "sha256": "28d7abaf0e0190d0ec9fdb650e44e5d12cb0facdeb816308e54865b25aff88e2",
+    "seconds": 235.37
+   },
+   "instrumental": {
+    "file": "JoshWoodward-MichiganBlues-NoVox.mp3",
+    "sha256": "b249264e10b2f331fca8982b149295da4bda38161e4e86992842c749a952f924",
+    "seconds": 235.37
+   }
+  },
+  "MyChristmasList": {
+   "page": "https://www.joshwoodward.com/song/MyChristmasList",
+   "bpm": 80.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-MyChristmasList.mp3",
+    "sha256": "f8036346346c0fd15d8454048257aba954a6cfcfd0d80e7e2439f8685c915267",
+    "seconds": 161.32
+   },
+   "instrumental": {
+    "file": "JoshWoodward-MyChristmasList-NoVox.mp3",
+    "sha256": "ffdfb2dbba34061d0923585118bbbfb77f9e9b53c8eaf6b11704925e188cae36",
+    "seconds": 161.32
+   }
+  },
+  "DarienGap": {
+   "page": "https://www.joshwoodward.com/song/DarienGap",
+   "bpm": 169.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-01-DarienGap.mp3",
+    "sha256": "bfdca6f60dfe5cd83b4f2b388934cefda6c55a8c46dcb1e6eea953a6a969c30a",
+    "seconds": 246.3
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-01-DarienGap.mp3",
+    "sha256": "d8619cd3576069883e1dcef76277f96707bfbce558a8cd4c1883201b2540c76b",
+    "seconds": 246.3
+   }
+  },
+  "Effortless": {
+   "page": "https://www.joshwoodward.com/song/Effortless",
+   "bpm": 120.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-02-Effortless.mp3",
+    "sha256": "6ce68bc270349f1d2aa4ab197a24437ac209d74ec91249bbfbd5cfb58ae599f8",
+    "seconds": 229.34
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-02-Effortless.mp3",
+    "sha256": "9cd332d7c75ea502db5d0cf81839c63938282e2586211ced3b4321c83d203485",
+    "seconds": 229.34
+   }
+  },
+  "SheDreamsinBlue": {
+   "page": "https://www.joshwoodward.com/song/SheDreamsinBlue",
+   "bpm": 91.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Minor",
+   "regular": {
+    "file": "JoshWoodward-NQC-03-SheDreamsInBlue.mp3",
+    "sha256": "3ebf0cd7a1b51bc6d3a766621d0c14fcca288e312914dfd84e9f6f40c7f9bad9",
+    "seconds": 317.29
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-03-SheDreamsInBlue.mp3",
+    "sha256": "192453932f2567a94d69d1690274a15fad5032d3fc6f17f5b0b0ed464a4a8ab1",
+    "seconds": 317.29
+   }
+  },
+  "Untitled": {
+   "page": "https://www.joshwoodward.com/song/Untitled",
+   "bpm": 178.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-04-Untitled.mp3",
+    "sha256": "220411b653fdc4f7d52e1a23af27a08d9015031f51dd971a4945355a275fff67",
+    "seconds": 207.51
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-04-Untitled.mp3",
+    "sha256": "a7512b113d734be34aadf78a636735508cd4a3a4aacdde2fb18f032f200a2914",
+    "seconds": 207.51
+   }
+  },
+  "SymmetryandthePocketofAngels": {
+   "page": "https://www.joshwoodward.com/song/SymmetryandthePocketofAngels",
+   "bpm": 55.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-05-SymmetryAndThePocketOfAngels.mp3",
+    "sha256": "5a9cb4d97f37ce27f3a0774f926df202650c98fa9159d95c6cbadf0dc4c4ff5c",
+    "seconds": 247.6
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-05-SymmetryAndThePocketOfAngels.mp3",
+    "sha256": "44317357d1c6768a34f931e4aa7184b021b985546cea790a66a7f1db2cebef45",
+    "seconds": 247.6
+   }
+  },
+  "Inertia": {
+   "page": "https://www.joshwoodward.com/song/Inertia",
+   "bpm": 89.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-06-Inertia.mp3",
+    "sha256": "b52bde0038c48cafcd729aa5244a01e0f9d33d3cec82fa7abb17faa186f0efca",
+    "seconds": 177.26
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-06-Inertia.mp3",
+    "sha256": "3141663c3d473be3497cec413c7cd5ee65470c6da28289d8da4692dbcbc57c70",
+    "seconds": 177.26
+   }
+  },
+  "DizzySpells": {
+   "page": "https://www.joshwoodward.com/song/DizzySpells",
+   "bpm": 86.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-07-DizzySpells.mp3",
+    "sha256": "2eb1e1f5163e4cedf82b9b5fd5ea111f6a68012315f44aab1bb828620eb6ad00",
+    "seconds": 237.89
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-07-DizzySpells.mp3",
+    "sha256": "e1944787fdd15bfae3af3086a4f1236bba675d6bdd519c36dbd8ac0cbab1f087",
+    "seconds": 237.89
+   }
+  },
+  "HonchoGrahamFromBirmingham": {
+   "page": "https://www.joshwoodward.com/song/HonchoGrahamFromBirmingham",
+   "bpm": 174.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-08-HonchoGrahamFromBirmingham.mp3",
+    "sha256": "2a433d809f381159c4f5bcdd89f349543a1f7eb37b2fe71912e3d14f75490dbc",
+    "seconds": 268.5
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-08-HonchoGrahamFromBirmingham.mp3",
+    "sha256": "26486e1fc6b1dbe116f6d912ef5d5185212d065a4cfa925641be5afaf75f55ce",
+    "seconds": 268.5
+   }
+  },
+  "LetMeTalkCarol": {
+   "page": "https://www.joshwoodward.com/song/LetMeTalkCarol",
+   "bpm": 223.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-09-LetMeTalkCarol.mp3",
+    "sha256": "71c260241173d486633bf8a99cff576dfdad4e7a8b7cf2cf8451ba90c708488f",
+    "seconds": 183.11
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-09-LetMeTalkCarol.mp3",
+    "sha256": "1425429d0d64326aab99c6b2c4fc32ff0f10dc963ec94ef6c9ff025fd0225029",
+    "seconds": 199.07
+   }
+  },
+  "JosieHastheUpperHand": {
+   "page": "https://www.joshwoodward.com/song/JosieHastheUpperHand",
+   "bpm": 132.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-10-JosieHasTheUpperHand.mp3",
+    "sha256": "d166eff6e7e05c85ba11604bfccb39b03a7d8db2217aed664581b83d1f66234e",
+    "seconds": 168.19
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-10-JosieHasTheUpperHand.mp3",
+    "sha256": "fb29d9d9b39f0ed9a48612938ced4b1231b61652152d0d89335ca1d90743e183",
+    "seconds": 168.19
+   }
+  },
+  "RiverWentDry": {
+   "page": "https://www.joshwoodward.com/song/RiverWentDry",
+   "bpm": 76.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-NQC-11-RiverWentDry.mp3",
+    "sha256": "4d304c14ecf98d7b7cebe12f16814a2c7b30a797fea7aa7d413a084d0ce0238e",
+    "seconds": 350.43
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NQC-NoVox-11-RiverWentDry.mp3",
+    "sha256": "e90ccdd65792c41914847a42c93c7172369f0f41fd76dc7b1069910d58064025",
+    "seconds": 350.43
+   }
+  },
+  "Nanobots": {
+   "page": "https://www.joshwoodward.com/song/Nanobots",
+   "bpm": 160.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-Nanobots.mp3",
+    "sha256": "852d2acbe7f0bfacff205488157ce9f6090e917b0c1190b7eb027bb9f79a7f7b",
+    "seconds": 184.15
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Nanobots-NoVox.mp3",
+    "sha256": "9c80bd72fece175e6d27b03950ab1b1773f537aaca84f2384738c03ce1fe15fe",
+    "seconds": 184.15
+   }
+  },
+  "NewAgain": {
+   "page": "https://www.joshwoodward.com/song/NewAgain",
+   "bpm": 108.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-NewAgain.mp3",
+    "sha256": "ce53687dfef3d439f2707fb149f0e07608211e157f9f331949811efded93d992",
+    "seconds": 191.61
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NewAgain-NoVox.mp3",
+    "sha256": "ca4c2ea6368cfd118eb1e5e6eacc816e5e1b6129a8ef684c396599d996341b23",
+    "seconds": 191.61
+   }
+  },
+  "NiceWhiteLiberals": {
+   "page": "https://www.joshwoodward.com/song/NiceWhiteLiberals",
+   "bpm": 142.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-NiceWhiteLiberals.mp3",
+    "sha256": "883de7f7d03c03dc274a01b08490dcaf8059831f12419032d6810ae8576e235d",
+    "seconds": 192.45
+   },
+   "instrumental": {
+    "file": "JoshWoodward-NiceWhiteLiberals-NoVox.mp3",
+    "sha256": "6be4bcad4ef19454f9b9ade5fc2fe263e7e26379854b8423d31ca49772073d9d",
+    "seconds": 192.45
+   }
+  },
+  "OdetoFebruary": {
+   "page": "https://www.joshwoodward.com/song/OdetoFebruary",
+   "bpm": 100.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-OdeToFebruary.mp3",
+    "sha256": "8b8f1b9cfce464974c11c48be206448f0ec2d86b696ae93e9e736b798ee1e101",
+    "seconds": 185.1
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OdeToFebruary-NoVox.mp3",
+    "sha256": "135229a47eac7f070486c0bd3a733e9644d01b93a7c2aa32f17194c0e5c3fee5",
+    "seconds": 185.1
+   }
+  },
+  "OldManBlanchard": {
+   "page": "https://www.joshwoodward.com/song/OldManBlanchard",
+   "bpm": 82.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-OldManBlanchard.mp3",
+    "sha256": "5044b346047ee281e65595e34c7af0ee3d9cd5c5367e53690d84adc820e8eb81",
+    "seconds": 213.68
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OldManBlanchard-NoVox.mp3",
+    "sha256": "1a8169edc859d9f47815a64515cdc5f825aa0c1ffa0e0ef6de3e1a3a7bd18f12",
+    "seconds": 213.68
+   }
+  },
+  "OnlyWhispering": {
+   "page": "https://www.joshwoodward.com/song/OnlyWhispering",
+   "bpm": 126.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-01-OnlyWhispering.mp3",
+    "sha256": "356b9d22b585abc7b17e72d2fea53beb3dc7f16db5dd78c99cb622b8e6af56e4",
+    "seconds": 227.35
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-01-OnlyWhispering.mp3",
+    "sha256": "2d6031490ea559fe67df3488892d119f235bc19b2bda3abc9a0e8399026546a9",
+    "seconds": 227.35
+   }
+  },
+  "AdventuresoftheDeafDreamer": {
+   "page": "https://www.joshwoodward.com/song/AdventuresoftheDeafDreamer",
+   "bpm": 100.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-02-AdventuresOfTheDeafDreamer.mp3",
+    "sha256": "9cb7fa9ac46541ddbf1d90468dad1b318b429f7275c0416f75919b18cd3dcb3b",
+    "seconds": 238.51
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-02-AdventuresOfTheDeafDreamer.mp3",
+    "sha256": "593c6194d0653cfa7a34416c6297ac43e99fe409b7f33507ed3e2bf1774a1557",
+    "seconds": 238.51
+   }
+  },
+  "IllBeRightBehindYouJosephine": {
+   "page": "https://www.joshwoodward.com/song/IllBeRightBehindYouJosephine",
+   "bpm": 84.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-03-IllBeRightBehindYouJosephine.mp3",
+    "sha256": "3351acfec0d1eca8725c40830badfd95ed83987cb7e7d6f2c656907df122e562",
+    "seconds": 257.66
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-03-IllBeRightBehindYouJosephine.mp3",
+    "sha256": "c260236bdd1c305c3d861e714ad85195d69a24985a945289857d70bb26b9b35d",
+    "seconds": 257.66
+   }
+  },
+  "PostcardFromHell": {
+   "page": "https://www.joshwoodward.com/song/PostcardFromHell",
+   "bpm": 60.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-04-PostcardFromHell.mp3",
+    "sha256": "b81cf1c06b7c5274901d6f17431b7da4cdafb54a7e1292479d6b3f2ea196899a",
+    "seconds": 251.25
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-04-PostcardFromHell.mp3",
+    "sha256": "92cafb6f319e980d9f44317f56d5232181c9b494d891e90e1f65a5d25a2244d9",
+    "seconds": 251.25
+   }
+  },
+  "ToLoseTheWar": {
+   "page": "https://www.joshwoodward.com/song/ToLoseTheWar",
+   "bpm": 130.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-05-ToLoseTheWar.mp3",
+    "sha256": "36243cffa8b744b16be99b9c529b388aec4257cdc8c0b7ab88eff4e39894ecc2",
+    "seconds": 211.69
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-05-ToLoseTheWar.mp3",
+    "sha256": "71fdc370d9c6ba33d7f0e7bfb11f7f0be9eccb13ea681ac4c2a44f70caa3baea",
+    "seconds": 211.69
+   }
+  },
+  "SugaronMyTongue": {
+   "page": "https://www.joshwoodward.com/song/SugaronMyTongue",
+   "bpm": 100.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Minor",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-06-SugarOnMyTongue.mp3",
+    "sha256": "90df215bdfb8941d0f18ae93ae8ae89b7916a1014d63651175dba4ff46e0de6d",
+    "seconds": 229.79
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-06-SugarOnMyTongue.mp3",
+    "sha256": "329d62d5cd951a005580b9306f483889e201aceb933bc9b5f1a7e8a04b2441be",
+    "seconds": 229.79
+   }
+  },
+  "CardinalBrigade": {
+   "page": "https://www.joshwoodward.com/song/CardinalBrigade",
+   "bpm": 80.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-07-CardinalBrigade.mp3",
+    "sha256": "94914fd51b0a7ec264d50727528d5a03f6423b1a891569106cfc56efe76c7368",
+    "seconds": 251.29
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-07-CardinalBrigade.mp3",
+    "sha256": "9fa7faf93a41945e9bec35f7b0a36488d1a2d99e9312a86bcbf359b862a2b34b",
+    "seconds": 251.29
+   }
+  },
+  "EastSideBar": {
+   "page": "https://www.joshwoodward.com/song/EastSideBar",
+   "bpm": 191.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-08-EastSideBar.mp3",
+    "sha256": "12a7e202be1ce8d7462a62383c14a28661367cb7bee96c864529bf6293e79db3",
+    "seconds": 195.7
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-08-EastSideBar.mp3",
+    "sha256": "9d683db26134ddb9b6689fc099abc4a3708d3cd1ead4136ccf5d138086560d8c",
+    "seconds": 195.7
+   }
+  },
+  "FoolsGold": {
+   "page": "https://www.joshwoodward.com/song/FoolsGold",
+   "bpm": 86.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-09-FoolsGold.mp3",
+    "sha256": "e8d5e98a794d3c59ab5980249147a6cf91aa6c310c978034c58ce00acb8392df",
+    "seconds": 217.65
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-09-FoolsGold.mp3",
+    "sha256": "f4d5e135ab7beefe3db0504d58c629d636c55a9d8c53cc206a1c2dd35da111c3",
+    "seconds": 217.65
+   }
+  },
+  "FitForaKing": {
+   "page": "https://www.joshwoodward.com/song/FitForaKing",
+   "bpm": 60.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-10-FitForAKing.mp3",
+    "sha256": "db54158602268de7877cad563d681a5c8e2ccb486c91e2898bb5f5f3bca5f5f6",
+    "seconds": 225.57
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-10-FitForAKing.mp3",
+    "sha256": "486d509f1f0581a9e0a58e61c4faf8ded626a706c417b4738697bc742d79f68f",
+    "seconds": 225.57
+   }
+  },
+  "GoodbyeToSpring": {
+   "page": "https://www.joshwoodward.com/song/GoodbyeToSpring",
+   "bpm": 240.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-11-GoodbyeToSpring.mp3",
+    "sha256": "ddf28a5286473f1761ce4f50e6ffe79e9c45b3bfc7fe94764d221a35263edc9c",
+    "seconds": 246.32
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-11-GoodbyeToSpring.mp3",
+    "sha256": "f5f1f86d4e0c138874c467eb4328269462fb7cc1cc041b9d0fdfc67b7f3da30c",
+    "seconds": 246.32
+   }
+  },
+  "OfDarkRoomsandCrookedCandles": {
+   "page": "https://www.joshwoodward.com/song/OfDarkRoomsandCrookedCandles",
+   "bpm": 85.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-OnlyWhispering-12-OfDarkRoomsAndCrookedCandles.mp3",
+    "sha256": "2c2310a3cf4500dc7f590d40df4e446e4f21cc26cab56db80cebb3a26e94792a",
+    "seconds": 84.64
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OW-NoVox-12-OfDarkRoomsAndCrookedCandles.mp3",
+    "sha256": "5580faf69683b0e94e013132a2af8a953e5302d5d6fda5477708ebaba5823d65",
+    "seconds": 84.64
+   }
+  },
+  "Parasite": {
+   "page": "https://www.joshwoodward.com/song/Parasite",
+   "bpm": 86.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-Parasite.mp3",
+    "sha256": "a63baf7d20c10aa6b6c45c3aeaf895e34a279700b0ba3edc05ed4ed05ea0dcd7",
+    "seconds": 151.87
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Parasite-NoVox.mp3",
+    "sha256": "c3d82f1601b8ab10e6a19bb572792bd129e617cbb08cde3c3378afe199b9cbbf",
+    "seconds": 151.87
+   }
+  },
+  "PerfectRecipe": {
+   "page": "https://www.joshwoodward.com/song/PerfectRecipe",
+   "bpm": 124.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-PerfectRecipe.mp3",
+    "sha256": "1f1a22e3d70886816101acd5788d3297bd48e15d56d49e27ab17405f55bd225f",
+    "seconds": 216.86
+   },
+   "instrumental": {
+    "file": "JoshWoodward-PerfectRecipe-NoVox.mp3",
+    "sha256": "78c7b5d0b9cfa9cb6ae3ed9b447a7463e57805bd5fcc89f8d8e5c7c61d5da016",
+    "seconds": 216.86
+   }
+  },
+  "Preludes": {
+   "page": "https://www.joshwoodward.com/song/Preludes",
+   "bpm": null,
+   "meter": null,
+   "feel": null,
+   "key": null,
+   "regular": {
+    "file": "JoshWoodward-Preludes.mp3",
+    "sha256": "375d1b88adf93dd11b7b20223479b4f233086075bed1fded30486b2c98d18342",
+    "seconds": 1294.4
+   }
+  },
+  "Rebound": {
+   "page": "https://www.joshwoodward.com/song/Rebound",
+   "bpm": 128.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-Rebound.mp3",
+    "sha256": "a77809b535b15579abdfd68673dc38478ce9d00df32b82421239068a59cfcc11",
+    "seconds": 174.04
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Rebound-NoVox.mp3",
+    "sha256": "534cf78747cf8c3528e450a8de9b0b51db77c27b5f67cdd147e847ef5c818944",
+    "seconds": 174.04
+   }
+  },
+  "SpaceCamp": {
+   "page": "https://www.joshwoodward.com/song/SpaceCamp",
+   "bpm": 107.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "B Minor",
+   "regular": {
+    "file": "JoshWoodward-RejectBin-23-SpaceCamp.mp3",
+    "sha256": "23a27d8e52a1454da04ead185c9dc133abf9b0792c8c1b9c3d3c6df790592b62",
+    "seconds": 312.59
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-23-SpaceCamp.mp3",
+    "sha256": "bc8301a331493fd4f0d7f494e4b7d67b0da4e1ef7ecd1820674dc3b7836cf928",
+    "seconds": 312.59
+   }
+  },
+  "Disappear": {
+   "page": "https://www.joshwoodward.com/song/Disappear",
+   "bpm": 87.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Minor",
+   "regular": {
+    "file": "JoshWoodward-RejectBin-30-Disappear.mp3",
+    "sha256": "177db4ea5a802a541d2717d974234f689b90ff872f32831ceac938329c8bb76e",
+    "seconds": 250.32
+   },
+   "instrumental": {
+    "file": "JoshWoodward-PerAspera-NoVox-01-Disappear.mp3",
+    "sha256": "1c15f3592db6e2bd982203185d78553197e59d445580cf0c0d2b4d2cc1ea7c62",
+    "seconds": 250.32
+   }
+  },
+  "RollAwaytheStone": {
+   "page": "https://www.joshwoodward.com/song/RollAwaytheStone",
+   "bpm": 95.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-RollAwayTheStone.mp3",
+    "sha256": "f2fdf7dede11d3bea3f223d3c7c06c9b450639ca6e8a2f64590ec446dfe3903c",
+    "seconds": 243.72
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RollAwayTheStone-NoVox.mp3",
+    "sha256": "6d0914621bb6e21d9a45dbedc8546bf16ae5a1e10a4e01c570a7201a0ad5fb60",
+    "seconds": 243.72
+   }
+  },
+  "Saboteurs": {
+   "page": "https://www.joshwoodward.com/song/Saboteurs",
+   "bpm": 81.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-Saboteurs.mp3",
+    "sha256": "a424437644cd989a362627e499c8b945b86dc1eb3ffe5158e9a1807c5708eba0",
+    "seconds": 261.14
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Saboteurs-NoVox.mp3",
+    "sha256": "780b4eeac52a9f0932b8e6d6f62c37f1e3f3ab0ac6e845242aeb5d86050f68f6",
+    "seconds": 261.14
+   }
+  },
+  "SameBoat": {
+   "page": "https://www.joshwoodward.com/song/SameBoat",
+   "bpm": 93.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-SameBoat.mp3",
+    "sha256": "e4fc3aac0536820d670cfeda3e81f0fda2f4b2837e2c9549cc285d30b16afa7f",
+    "seconds": 202.51
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SameBoat-NoVox.mp3",
+    "sha256": "cb6dd4db574b4d0658bbd8634479ddace046d6876242a816739f94f03acb5e8d",
+    "seconds": 202.51
+   }
+  },
+  "SeedsoftheEarth": {
+   "page": "https://www.joshwoodward.com/song/SeedsoftheEarth",
+   "bpm": 75.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-SeedsOfTheEarth.mp3",
+    "sha256": "2c5cc1e42e6cb1bef49100b43162f0aa52646b873d6d7b83583696782432def6",
+    "seconds": 208.4
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SeedsOfTheEarth-NoVox.mp3",
+    "sha256": "407b4879d6aa66a676cca5788cb2ea7b348e3044fc282efe418723b2818e760a",
+    "seconds": 208.4
+   }
+  },
+  "Shade": {
+   "page": "https://www.joshwoodward.com/song/Shade",
+   "bpm": 129.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-Shade.mp3",
+    "sha256": "65c0d99eccbcbf3c2ff2e949ee50d46a6872908266da44a3e9c78c33423bb4bf",
+    "seconds": 227.44
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Shade-NoVox.mp3",
+    "sha256": "b8e729adf4e05a013cc0270dc9a2bc4313734175ff6697eb0ec3861f30dc3bfa",
+    "seconds": 227.44
+   }
+  },
+  "SheRemained": {
+   "page": "https://www.joshwoodward.com/song/SheRemained",
+   "bpm": 107.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-SheRemained.mp3",
+    "sha256": "91adc637e10d11dc6e4fc17b3f2156b3b105ac25d8bd7a3202a0a6704120f227",
+    "seconds": 131.9
+   }
+  },
+  "SkylineoftheSea": {
+   "page": "https://www.joshwoodward.com/song/SkylineoftheSea",
+   "bpm": 73.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Minor",
+   "regular": {
+    "file": "JoshWoodward-SkylineOfTheSea.mp3",
+    "sha256": "1a10d1b1f666872ac529daea287fd306c243e718ed108b5441ead6902ca8412f",
+    "seconds": 255.98
+   }
+  },
+  "SkynyrdsNumber4874": {
+   "page": "https://www.joshwoodward.com/song/SkynyrdsNumber4874",
+   "bpm": 107.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-SkynyrdsNumber.mp3",
+    "sha256": "31bd6d240d86811726ef43530db55b04b7e2b261fa2bc8393e218502fb4ada62",
+    "seconds": 207.86
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SkynyrdsNumber-NoVox.mp3",
+    "sha256": "33b83c3a091e1cbeb8484e6922d91b53939e4a559b1a695d6fa6cd035a7064a5",
+    "seconds": 207.86
+   }
+  },
+  "SleepWellMyDear": {
+   "page": "https://www.joshwoodward.com/song/SleepWellMyDear",
+   "bpm": 121.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-SleepWellMyDear.mp3",
+    "sha256": "f40369fe80c96b536fe7e2e7dc8ca10a79819121cdc40787d54b836fd6a46c1e",
+    "seconds": 148.59
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SleepWellMyDear-NoVox.mp3",
+    "sha256": "43d74494d75cb7fa787af47bb78c8b763eca19c1318a7e7225d071393b7a386e",
+    "seconds": 148.59
+   }
+  },
+  "SoulGroove": {
+   "page": "https://www.joshwoodward.com/song/SoulGroove",
+   "bpm": 90.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-SoulGroove.mp3",
+    "sha256": "9cc0a56fd3edd7286641da19888d45410a33e7dcfbe07ef274f8f616987a30b2",
+    "seconds": 172.64
+   }
+  },
+  "SunflowerBoy": {
+   "page": "https://www.joshwoodward.com/song/SunflowerBoy",
+   "bpm": 144.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-SunflowerBoy.mp3",
+    "sha256": "5384296175f8469932899c3eacdff36344bc89875aef50b70dcfd35e594359e0",
+    "seconds": 178.89
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SunflowerBoy-NoVox.mp3",
+    "sha256": "223bae66066a5b1919ca4d805c3c503f76d94eacbf4c7fc16bfad32c85090a60",
+    "seconds": 178.89
+   }
+  },
+  "TalkAboutYourFeelings": {
+   "page": "https://www.joshwoodward.com/song/TalkAboutYourFeelings",
+   "bpm": 134.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-01-TalkAboutYourFeelings.mp3",
+    "sha256": "f7fc0722fee5f5d4679d5fbd8a4b724f8d0c8af1bd60f8af6b2083004f9281fe",
+    "seconds": 163.88
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-01-TalkAboutYourFeelings.mp3",
+    "sha256": "055490ddc8366ed95d80472de85a74825c5855f6d6a956af14dfb478fdb9cdd3",
+    "seconds": 163.88
+   }
+  },
+  "BonjourMonAmie": {
+   "page": "https://www.joshwoodward.com/song/BonjourMonAmie",
+   "bpm": 93.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-02-BonjourMonAmie.mp3",
+    "sha256": "2e78fbc11c3a135f121ae575bd3787da80a66b667e5a34470cacc92ef43eab2c",
+    "seconds": 129.8
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-02-BonjourMonAmie.mp3",
+    "sha256": "3a16e73d867dd803ed23bb7c668ca57954617abc53284841b75201b4ce093f23",
+    "seconds": 129.8
+   }
+  },
+  "Chainsaw": {
+   "page": "https://www.joshwoodward.com/song/Chainsaw",
+   "bpm": 85.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-03-Chainsaw.mp3",
+    "sha256": "7a5d0e8a38dc4cc34470f1d2a8b82d0edbf4424c1caf6393edd6fb61f43a5c9c",
+    "seconds": 218.4
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-03-Chainsaw.mp3",
+    "sha256": "6126354420b784e45c4c773313bebf4b28e3d95cffdf5d2275cdf61b0a4276ff",
+    "seconds": 218.4
+   }
+  },
+  "IHateYou": {
+   "page": "https://www.joshwoodward.com/song/IHateYou",
+   "bpm": 156.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-04-IHateYou.mp3",
+    "sha256": "de6f6bf4487f5473e463a5bd37c0669a3746befcf930b793f48167b7572c19d5",
+    "seconds": 147.97
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-04-IHateYou.mp3",
+    "sha256": "b5473ff7e4af8b992e51227170fb6ec00933aaa4da04d55d72f9cda1058161b6",
+    "seconds": 147.97
+   }
+  },
+  "ShesOnMyMind": {
+   "page": "https://www.joshwoodward.com/song/ShesOnMyMind",
+   "bpm": 122.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Minor",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-05-ShesOnMyMind.mp3",
+    "sha256": "782e61d69a70a89efb6ef89b8148a3921a0c15397d8666beb1e253e943fc2d74",
+    "seconds": 221.69
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-05-ShesOnMyMind.mp3",
+    "sha256": "f072195a92ec5cea86a6e1dcefc905a123ef326141c386e90456155d88b0d596",
+    "seconds": 221.69
+   }
+  },
+  "Snooter": {
+   "page": "https://www.joshwoodward.com/song/Snooter",
+   "bpm": 129.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-06-Snooter.mp3",
+    "sha256": "e82aaf9ed8d950f6cd68135e38e842d96a52e902eed585f9c7ba45da68c5a8e1",
+    "seconds": 176.88
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-06-Snooter.mp3",
+    "sha256": "a2eb31ac94ae1e9471d243bd6625bbdc670a58c041a0c236d4b6c61cc628e56a",
+    "seconds": 178.38
+   }
+  },
+  "BrownBoxes": {
+   "page": "https://www.joshwoodward.com/song/BrownBoxes",
+   "bpm": 103.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-07-BrownBoxes.mp3",
+    "sha256": "7d604c134f9893918cc942fe58e1e542b8b625130fae9767024cf427d1adb18b",
+    "seconds": 177.0
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-07-BrownBoxes.mp3",
+    "sha256": "ef066d4759ca27ed5940811009d06315967c2445b96757e6a377d4a8bee3eb8c",
+    "seconds": 177.0
+   }
+  },
+  "UpKilkenny": {
+   "page": "https://www.joshwoodward.com/song/UpKilkenny",
+   "bpm": 149.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-08-UpKilkenny.mp3",
+    "sha256": "830d7888882c7e425665ac0f8f7e8136323cf4fc1952d3ac80c26dea6ed18f74",
+    "seconds": 172.59
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-08-UpKilkenny.mp3",
+    "sha256": "f5bdb8dc1258ba51966c9e9ba9290aebf32332ff478beee4f5925250d3e56319",
+    "seconds": 172.59
+   }
+  },
+  "Coffee": {
+   "page": "https://www.joshwoodward.com/song/Coffee",
+   "bpm": 193.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-09-Coffee.mp3",
+    "sha256": "e0ece785d62530fb0f6f83544bcc1b0fbf7d9795eb1134dac5ebb594b613b729",
+    "seconds": 174.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-09-Coffee.mp3",
+    "sha256": "29d8e7b58da95de16dfffd23177021adf6979e2aec35409fa3157f44dd62afeb",
+    "seconds": 174.48
+   }
+  },
+  "FastFoodFantasy": {
+   "page": "https://www.joshwoodward.com/song/FastFoodFantasy",
+   "bpm": 160.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Minor",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-10-FastFoodFantasy.mp3",
+    "sha256": "fbe1992df61fda9699c7ada760cbe6596fb507248f1b803047aa497514db9a10",
+    "seconds": 223.13
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-10-FastFoodFantasy.mp3",
+    "sha256": "e8809d3ad6cdf04a684991bd153edf03a855014b8d010d65aefb3a5aa4787b2c",
+    "seconds": 223.13
+   }
+  },
+  "AreYouHavingFun": {
+   "page": "https://www.joshwoodward.com/song/AreYouHavingFun",
+   "bpm": 180.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-11-AreYouHavingFun.mp3",
+    "sha256": "b4098b6a8d977b3eafd7692dacb124c8388cd437bcd14e94dc3be18d9d5a5712",
+    "seconds": 163.05
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-11-AreYouHavingFun.mp3",
+    "sha256": "7e26a3294b3c53b8dc45dd96b0a834dc9451789baeeabb26d5bb22ed0e6ef632",
+    "seconds": 163.05
+   }
+  },
+  "ASong": {
+   "page": "https://www.joshwoodward.com/song/ASong",
+   "bpm": 65.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-12-ASong.mp3",
+    "sha256": "e42599643a3a87c70db70273f1cb5bad38349707cc265499c8aba5c3d4709260",
+    "seconds": 187.7
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-12-ASong.mp3",
+    "sha256": "c052df35f2158ca5fc743ed6f82937879b8c6c8d489a7f400af9082f9eb721c8",
+    "seconds": 187.7
+   }
+  },
+  "CheapskateRomantic": {
+   "page": "https://www.joshwoodward.com/song/CheapskateRomantic",
+   "bpm": 122.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-13-CheapskateRomantic.mp3",
+    "sha256": "85b0ed7e6e4290064cc1af305c3ea0d9b36dce77d926baf60414097871c44315",
+    "seconds": 195.5
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-13-CheapskateRomantic.mp3",
+    "sha256": "8bafd9d8a0f3a7df0cb7c56082d2dbce8d5ab2b838dc6f44f981fb387975ab66",
+    "seconds": 192.99
+   }
+  },
+  "VioletWantsItHerWay": {
+   "page": "https://www.joshwoodward.com/song/VioletWantsItHerWay",
+   "bpm": 198.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-SunnySideOfTheStreet-14-VioletWantsItHerWay.mp3",
+    "sha256": "e4ca254ce8e13cca85d2e2793955e4abe1cd6264da54b4dba8e7b712ab87fc3a",
+    "seconds": 178.75
+   },
+   "instrumental": {
+    "file": "JoshWoodward-SSotS-NoVox-14-VioletWantsItHerWay.mp3",
+    "sha256": "799cc3735a22fdde6f10e3bec3a291bccbdc1823771f77982dda8a27d9e211fc",
+    "seconds": 174.96
+   }
+  },
+  "Synthia": {
+   "page": "https://www.joshwoodward.com/song/Synthia",
+   "bpm": 120.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-Synthia.mp3",
+    "sha256": "0b6804590c80c400d32a70d3eb9039fc7778d61ce415d29079f6cd1bedb482fc",
+    "seconds": 175.71
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Synthia-NoVox.mp3",
+    "sha256": "67b10f254973ebc9cf3eb8b5eead002e2d461be1b3abd547761b96421f926bac",
+    "seconds": 175.71
+   }
+  },
+  "Texas": {
+   "page": "https://www.joshwoodward.com/song/Texas",
+   "bpm": 43.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-Texas.mp3",
+    "sha256": "92ad61bce044150152b728df829566aa763f24fb7dbe7f84f30c174d85b86497",
+    "seconds": 260.07
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-05-Texas.mp3",
+    "sha256": "3fba01feb6ccea50b7df45824aa80510258eb2cc74c653586b3ad019dd2491aa",
+    "seconds": 260.08
+   }
+  },
+  "CaliforniaLullabye": {
+   "page": "https://www.joshwoodward.com/song/CaliforniaLullabye",
+   "bpm": 176.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-01-CaliforniaLullabye.mp3",
+    "sha256": "bd1c40a0f766c087753ad048e76246d6365b353f083ed58b17958c507578db3f",
+    "seconds": 253.78
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-01-CaliforniaLullabye.mp3",
+    "sha256": "ade893f456fc12ae61613e5e020ad25c3c0eaee983e64066c792b7fc8f78635d",
+    "seconds": 253.78
+   }
+  },
+  "ShotDown": {
+   "page": "https://www.joshwoodward.com/song/ShotDown",
+   "bpm": 80.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-02-ShotDown.mp3",
+    "sha256": "0fe91488411993f509fc492af41232a3ba5ef94932fec5233a3ac8fd9b8ceabe",
+    "seconds": 254.67
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-02-ShotDown.mp3",
+    "sha256": "5a3f802d958f10f4970c08350bc14d07f63fe8771690aea9fe075cff3fb26fcc",
+    "seconds": 254.67
+   }
+  },
+  "FadedWar": {
+   "page": "https://www.joshwoodward.com/song/FadedWar",
+   "bpm": 99.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-03-FadedWar.mp3",
+    "sha256": "711424e971c24bc313550ad943cdae6eca590af51b2e3df8a0d9a6780ea097fa",
+    "seconds": 213.94
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-03-FadedWar.mp3",
+    "sha256": "aa42f04e647db66be5528bd40f8932b15aefbb946de04e34ef00dc65d8c35c01",
+    "seconds": 213.94
+   }
+  },
+  "SheLostHerWings": {
+   "page": "https://www.joshwoodward.com/song/SheLostHerWings",
+   "bpm": 101.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-04-SheLostHerWings.mp3",
+    "sha256": "fcfd1a7eaa3dd2a03194ae2e1b691583321bcf81b3f7ccc8706c22243dea94fb",
+    "seconds": 318.9
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-04-SheLostHerWings.mp3",
+    "sha256": "8574073d172480ca01107fafa3c64bf70d8a9ef37debe4da0512a4738df166fb",
+    "seconds": 318.9
+   }
+  },
+  "Evolution": {
+   "page": "https://www.joshwoodward.com/song/Evolution",
+   "bpm": 126.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-05-Evolution.mp3",
+    "sha256": "115aac0bdc21e5a4e96b7e5c57500bf05ad399bef99936a42b160ae12483e393",
+    "seconds": 237.3
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-05-Evolution.mp3",
+    "sha256": "fb6065089058406d0a7c2e89485abf7d6d6aedfd5ec6f4b8a1ed8c5d5e9ad12d",
+    "seconds": 237.3
+   }
+  },
+  "MemoryReplaced": {
+   "page": "https://www.joshwoodward.com/song/MemoryReplaced",
+   "bpm": 89.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-06-MemoryReplaced.mp3",
+    "sha256": "90289ab4937cfb91d92bd18153ea6820936deeaf29e8fe3355e126a831d09acb",
+    "seconds": 260.13
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-06-MemoryReplaced.mp3",
+    "sha256": "7b8893a4a5f0318546f223ee44beb7f76bd711288c1c8f856f14e05095578b8f",
+    "seconds": 260.13
+   }
+  },
+  "TickTock": {
+   "page": "https://www.joshwoodward.com/song/TickTock",
+   "bpm": 109.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-07-TickTock.mp3",
+    "sha256": "22b949e8ab088c95fec9dac1241cbfcbf62d3a7961fe9ec0f8921c3fd9fe53ed",
+    "seconds": 189.68
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-07-TickTock.mp3",
+    "sha256": "9393aa864146e0cd15669d8b78dc99f0534b95b7bf92e8a8c9f066e9cee4cfba",
+    "seconds": 189.68
+   }
+  },
+  "BagsofWater": {
+   "page": "https://www.joshwoodward.com/song/BagsofWater",
+   "bpm": 126.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-08-BagsOfWater.mp3",
+    "sha256": "95eaf80efbd0d5c8e1d841342a78dabb55c4cbf5410baf4d5b06162927905d78",
+    "seconds": 210.0
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-08-BagsOfWater.mp3",
+    "sha256": "1b0ede15f82e8c2e160234a689cedfe8395e7e35be8457b258f6cae4cd9cdeb4",
+    "seconds": 210.0
+   }
+  },
+  "TheLastSliceofPecanPie": {
+   "page": "https://www.joshwoodward.com/song/TheLastSliceofPecanPie",
+   "bpm": 52.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-09-TheLastSliceOfPecanPie.mp3",
+    "sha256": "8163c4a546dcac952c1399b5d62ea656934ebaf53cafa2cf3f3ec9863979bad7",
+    "seconds": 107.68
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-09-TheLastSliceOfPecanPie.mp3",
+    "sha256": "b962fa8787fcd6909384157054f2f4bf2ebf2840b912ccebb04d315e90a2f19d",
+    "seconds": 107.68
+   }
+  },
+  "FollowtheRoad": {
+   "page": "https://www.joshwoodward.com/song/FollowtheRoad",
+   "bpm": 56.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-10-FollowTheRoad.mp3",
+    "sha256": "898d7ee5d5789f72b15f05b425905389181b92f804c626967d37d84e4a97079b",
+    "seconds": 297.43
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-10-FollowTheRoad.mp3",
+    "sha256": "5d0f8eff3d5b622ded7cb54e82a6b7a37bb3435335e4576286e0ef4e11e99381",
+    "seconds": 297.43
+   }
+  },
+  "AirplaneMode": {
+   "page": "https://www.joshwoodward.com/song/AirplaneMode",
+   "bpm": 179.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-11-AirplaneMode.mp3",
+    "sha256": "d61b7093cc1015202556f9855ddedc54d2bdb578442ce770b4ad26441024a9a0",
+    "seconds": 216.84
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-11-AirplaneMode.mp3",
+    "sha256": "e9d3b1ddc4889108fba5aab2f190d751a3e713f404868de9b8a0a93115d857cf",
+    "seconds": 216.84
+   }
+  },
+  "Branches": {
+   "page": "https://www.joshwoodward.com/song/Branches",
+   "bpm": 85.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-12-Branches.mp3",
+    "sha256": "0b308ac78e6e42292462199d8abe3e393df382432017d668ab6efeeb1b522728",
+    "seconds": 297.69
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-12-Branches.mp3",
+    "sha256": "91146b32ad494054e3cda791e23696e7d3cf6713d15e2922116f140e581522c1",
+    "seconds": 297.69
+   }
+  },
+  "TheDreamers": {
+   "page": "https://www.joshwoodward.com/song/TheDreamers",
+   "bpm": 129.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-TheBeautifulMachine-13-TheDreamers.mp3",
+    "sha256": "49872211f01946ba0dba8d2c250cc9ce32edfe34c32995b815a0e5d9e83e5698",
+    "seconds": 219.09
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBeautifulMachine-NoVox-13-TheDreamers.mp3",
+    "sha256": "dc3c7951367fceb22253f6b203c222b3e759654fd9efc3bda9d3b8f63a083002",
+    "seconds": 219.09
+   }
+  },
+  "TheBestSong": {
+   "page": "https://www.joshwoodward.com/song/TheBestSong",
+   "bpm": 120.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-TheBestSong.mp3",
+    "sha256": "64690def4a711b0e036c480b8a822d801c6ecc9c7e65407c5c4d28e1dd7863dc",
+    "seconds": 192.06
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBestSong-NoVox.mp3",
+    "sha256": "1379c99c3dd5be343132fd83ded9473caac5635161390d7b97e179bee42ece0a",
+    "seconds": 192.06
+   }
+  },
+  "TheBox": {
+   "page": "https://www.joshwoodward.com/song/TheBox",
+   "bpm": 73.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-TheBox.mp3",
+    "sha256": "b67f0efcafa9c9c010bf4d8245b0eefdd6faf3d49c7e0cf9d40b9e84b8f7e9ec",
+    "seconds": 292.01
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBox-NoVox.mp3",
+    "sha256": "8a1a0a572d53546cef588c59a2c50bb2413b2cb99c26c81fb09c26ac4f9fc85f",
+    "seconds": 292.01
+   }
+  },
+  "TheGrandFinale": {
+   "page": "https://www.joshwoodward.com/song/TheGrandFinale",
+   "bpm": 120.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Minor",
+   "regular": {
+    "file": "JoshWoodward-TheGrandFinale.mp3",
+    "sha256": "c194b6c005163212167af69c7a86a39c1f5c4cff8c67e391f03a1cf73a52db2d",
+    "seconds": 197.5
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheGrandFinale-NoVox.mp3",
+    "sha256": "fd8dece1023c34a1a1b78e4fbae0db8b1d36dbf1c3f8f7a091de986f264ef9c9",
+    "seconds": 197.5
+   }
+  },
+  "TheKey": {
+   "page": "https://www.joshwoodward.com/song/TheKey",
+   "bpm": 107.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-TheKey.mp3",
+    "sha256": "d6a8683da099e187af7ab48e6ae1eabecc7b4765eed78c6a549807bd51733312",
+    "seconds": 217.74
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheKey-NoVox.mp3",
+    "sha256": "b6cddc51bc2805f2cb6bca632eb9f5e8fdf0590cf72f715703ed19c015116593",
+    "seconds": 217.74
+   }
+  },
+  "TheLongFade": {
+   "page": "https://www.joshwoodward.com/song/TheLongFade",
+   "bpm": 49.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheLongFade.mp3",
+    "sha256": "0308bed815533302595663c380fa0935a1da8960c85a7c5c5192da89ef93a954",
+    "seconds": 290.39
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheLongFade-NoVox.mp3",
+    "sha256": "00595b2175128cefa3dfbea6fdf7e4c08fbbea38b6e075e90f0017ec1fe97588",
+    "seconds": 290.39
+   }
+  },
+  "TheLongestDream": {
+   "page": "https://www.joshwoodward.com/song/TheLongestDream",
+   "bpm": 103.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-TheLongestDream.mp3",
+    "sha256": "f1092f886025b322bd474cfefebfba5277324ef86027dbda93649728810755f4",
+    "seconds": 255.65
+   }
+  },
+  "TheMagicalMenagerieofSouls": {
+   "page": "https://www.joshwoodward.com/song/TheMagicalMenagerieofSouls",
+   "bpm": 109.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-TheMagicalMenagerieOfSouls.mp3",
+    "sha256": "64d82f64d409ab51984600e143baf289eeca79cf20dc9758b97df99304b7912e",
+    "seconds": 181.39
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheMagicalMenagerieOfSouls-NoVox.mp3",
+    "sha256": "cdd4c1e3835e3c13ecd4d13dae89e9e184e7edf9c2dbbda4b4b30264d39a43b5",
+    "seconds": 181.39
+   }
+  },
+  "TheMaze": {
+   "page": "https://www.joshwoodward.com/song/TheMaze",
+   "bpm": 50.0,
+   "meter": "3/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-TheMaze.mp3",
+    "sha256": "a3fccd41927e1d05bf4db9a439d0bf9d96d8b3ed1efd35a3faed0cbc96f24800",
+    "seconds": 167.36
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheMaze-NoVox.mp3",
+    "sha256": "43650bf75f3a1c9ecbdc39ce76a775e71f485283031f2bc6fb3032ecf5f09920",
+    "seconds": 167.36
+   }
+  },
+  "TheMerrier": {
+   "page": "https://www.joshwoodward.com/song/TheMerrier",
+   "bpm": 121.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-TheMerrier.mp3",
+    "sha256": "4d3f918b0986f5a75afa713d5ffc94746ee93515016f1111ab0dd605926ce040",
+    "seconds": 160.72
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheMerrier-NoVox.mp3",
+    "sha256": "816db2424dd29697adc1ca614a3f623130664c2dc5b4d2b8bf02e66f783fb9c3",
+    "seconds": 160.72
+   }
+  },
+  "TheRivalWithin": {
+   "page": "https://www.joshwoodward.com/song/TheRivalWithin",
+   "bpm": 72.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-TheRivalWithin.mp3",
+    "sha256": "84869eee86727848b2ae72f08e82b1e71aeb46001f5616637c92669c5ced64a3",
+    "seconds": 297.5
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheRivalWithin-NoVox.mp3",
+    "sha256": "e29a02763166924615c2321cad9f54fdc0b4b63aca32372dd7a0e05458d0baa6",
+    "seconds": 297.5
+   }
+  },
+  "HeritagePlace": {
+   "page": "https://www.joshwoodward.com/song/HeritagePlace",
+   "bpm": 138.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-101-HeritagePlace.mp3",
+    "sha256": "3dea47db2a232688251e28bdbae6a89ae25ed844b7c6ec2d544281d55405289f",
+    "seconds": 241.57
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HeritagePlace-NoVox.mp3",
+    "sha256": "e1b32849c57cc8ceb8d00cdea7507bbf862a997dcb1c191b9fb71a8fd647a23a",
+    "seconds": 239.58
+   }
+  },
+  "Go": {
+   "page": "https://www.joshwoodward.com/song/Go",
+   "bpm": 112.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-102-Go.mp3",
+    "sha256": "77aa25eb0064b2f5efe5b8b95ea360183eb202959e1c4de7176a1a116738acf2",
+    "seconds": 226.45
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Go-NoVox.mp3",
+    "sha256": "0aa6bac16de081492896755c53b071826001eadbc7c2bff64e9a7439b802e7cf",
+    "seconds": 224.46
+   }
+  },
+  "Saturday": {
+   "page": "https://www.joshwoodward.com/song/Saturday",
+   "bpm": 97.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-103-Saturday.mp3",
+    "sha256": "6443fbf09694f75c7badeea2b0f7945f7a1c0ecdfd7c094a9c20d02ee36e43a6",
+    "seconds": 269.52
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Saturday-NoVox.mp3",
+    "sha256": "80561910674850bac0278fd3690fa9191a2e1383bee1c4ba170d7719ecd6e75b",
+    "seconds": 267.52
+   }
+  },
+  "TheParade": {
+   "page": "https://www.joshwoodward.com/song/TheParade",
+   "bpm": 109.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-104-TheParade.mp3",
+    "sha256": "58a63d5f44c3c7da75793132088dffb49a5aff6a91c05e2d5f26447031025316",
+    "seconds": 267.67
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheParade-NoVox.mp3",
+    "sha256": "90b8ec0045b4e222a85815358925823f08d86092be44883ca252c33990ada980",
+    "seconds": 265.67
+   }
+  },
+  "RevolutionNow": {
+   "page": "https://www.joshwoodward.com/song/RevolutionNow",
+   "bpm": 130.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "B Minor",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-105-RevolutionNow.mp3",
+    "sha256": "39f8f87c1d55e173aac9bd41416b4f9b5c9339d7e0b7c417cfdecfbeb82d0ab2",
+    "seconds": 233.72
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RevolutionNow-NoVox.mp3",
+    "sha256": "3635462e0bebf900d882b44240b8eed6d637c57e271e27a623fb0b6b9a421832",
+    "seconds": 231.73
+   }
+  },
+  "Flypaper": {
+   "page": "https://www.joshwoodward.com/song/Flypaper",
+   "bpm": 124.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-106-Flypaper.mp3",
+    "sha256": "5f2e13d17de5496c98308ebfb022f417c97f112c3f50850fbf7c1403b8d8690f",
+    "seconds": 163.13
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheSimpleLifePart-06-Flypaper.mp3",
+    "sha256": "125ffff15220aba669891409b13ffd9b850744199adb861cfb46ffb10928edc6",
+    "seconds": 161.14
+   }
+  },
+  "ImLettingGo": {
+   "page": "https://www.joshwoodward.com/song/ImLettingGo",
+   "bpm": 76.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-107-ImLettingGo.mp3",
+    "sha256": "381a29c8865daa541c70adb984faae6f206e261c65d3b5d469281a703f6400ca",
+    "seconds": 192.17
+   },
+   "instrumental": {
+    "file": "JoshWoodward-ImLettingGo-NoVox.mp3",
+    "sha256": "8ceb8375c438bbda1ec4cfa7b30ab1faf003d070924985de0c8e089322db752d",
+    "seconds": 190.18
+   }
+  },
+  "MorningBlue": {
+   "page": "https://www.joshwoodward.com/song/MorningBlue",
+   "bpm": 132.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-108-MorningBlue.mp3",
+    "sha256": "ffb5b7aa2c4e841833c9fb389422812ae2856f48536ef877ffd63418f6078ae3",
+    "seconds": 246.87
+   },
+   "instrumental": {
+    "file": "JoshWoodward-MorningBlue-NoVox.mp3",
+    "sha256": "dde83102783ec097431a7282ff79e4c24ef0dbb9c28080e47ff563a1df28a071",
+    "seconds": 244.87
+   }
+  },
+  "TheBottom": {
+   "page": "https://www.joshwoodward.com/song/TheBottom",
+   "bpm": 150.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-109-TheBottom.mp3",
+    "sha256": "49429ac133c00d72134ab85c2f01aa040a83405e68f1245160679bc11bb94e91",
+    "seconds": 156.97
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheBottom-NoVox.mp3",
+    "sha256": "dfbf65dfb45fc395f851c2f109758ec85f18467720f240ad35e4d60312296fa2",
+    "seconds": 154.98
+   }
+  },
+  "RogueNation": {
+   "page": "https://www.joshwoodward.com/song/RogueNation",
+   "bpm": 90.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-110-RogueNation.mp3",
+    "sha256": "f294493f06aa499201a82ce7b929b26a053317d640bdfd1b7b3847c2f531d9b0",
+    "seconds": 284.44
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RogueNation-NoVox.mp3",
+    "sha256": "e06d96c98c3c69d76b51ec871088e822169b577d8c1b68a4a457a06903e48eda",
+    "seconds": 282.44
+   }
+  },
+  "HistoryRepeats": {
+   "page": "https://www.joshwoodward.com/song/HistoryRepeats",
+   "bpm": 40.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-111-HistoryRepeats.mp3",
+    "sha256": "d58e6220f6d132c12f0490176b1ab502fff8786a3a738975d26e0d619f1ea69e",
+    "seconds": 179.04
+   },
+   "instrumental": {
+    "file": "JoshWoodward-HistoryRepeats-NoVox.mp3",
+    "sha256": "5992f076dc62fc5d2ad4c1b2e566234f88a6445134708d278ff4cd39aafd58ed",
+    "seconds": 177.05
+   }
+  },
+  "Ships": {
+   "page": "https://www.joshwoodward.com/song/Ships",
+   "bpm": 111.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "B Minor",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-201-Ships.mp3",
+    "sha256": "e2eccb212465a3208f8a11d58362d2b40b3f45bfdc130bb88c791adaad093e7c",
+    "seconds": 122.12
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Ships-NoVox.mp3",
+    "sha256": "065e47495a9f074b95aed942d6e9c1e622ae2c450303959117f0e72306c1830e",
+    "seconds": 120.12
+   }
+  },
+  "FlutterByButterfly": {
+   "page": "https://www.joshwoodward.com/song/FlutterByButterfly",
+   "bpm": 139.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-202-FlutterByButterfly.mp3",
+    "sha256": "e4e4049534558f5f844dc97c0037faf65f159b68566a47dabfa6b7d69b03e7d9",
+    "seconds": 158.04
+   },
+   "instrumental": {
+    "file": "JoshWoodward-FlutterByButterfly-NoVox.mp3",
+    "sha256": "932661abcb3b04f602f5c96ac1fcaf9cb8de2e4c0a689217676a45a253aaa98d",
+    "seconds": 156.04
+   }
+  },
+  "OnBrevity": {
+   "page": "https://www.joshwoodward.com/song/OnBrevity",
+   "bpm": 154.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-203-OnBrevity.mp3",
+    "sha256": "1041d923f9f56718fbcf470278119c4765da9d72cb4b755d0937b2c44a007aa9",
+    "seconds": 190.04
+   },
+   "instrumental": {
+    "file": "JoshWoodward-OnBrevity-NoVox.mp3",
+    "sha256": "04625a57fcba39cc4a02bdf6a19b8ae712bcc8bcde98b4365f1206084365587b",
+    "seconds": 188.05
+   }
+  },
+  "DontCloseYourEyes": {
+   "page": "https://www.joshwoodward.com/song/DontCloseYourEyes",
+   "bpm": 50.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-204-DontCloseYourEyes.mp3",
+    "sha256": "8fe193f00eaf73cb235946f80db7c2ddf97ab4a3899d69abc55a9b5090b62ad1",
+    "seconds": 214.17
+   },
+   "instrumental": {
+    "file": "JoshWoodward-DontCloseYourEyes-NoVox.mp3",
+    "sha256": "ad6ba687b987c5d6dfba5743cee012f1e598e04bcb0bf5bc440d278e18cfbfb4",
+    "seconds": 212.18
+   }
+  },
+  "MeandBillyBarnum": {
+   "page": "https://www.joshwoodward.com/song/MeandBillyBarnum",
+   "bpm": 228.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Minor",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-205-MeAndBillyBarnum.mp3",
+    "sha256": "7940875f623721c1cac8bec1b21c7458b44bd4397b7dee60774d6b6078462039",
+    "seconds": 210.79
+   },
+   "instrumental": {
+    "file": "JoshWoodward-MeAndBillyBarnum-NoVox.mp3",
+    "sha256": "b93c6071a224557af2969a5b6324c5beb60af2a63446e79fda2a9248dfb4854b",
+    "seconds": 208.8
+   }
+  },
+  "ShadowsintheMoonlight": {
+   "page": "https://www.joshwoodward.com/song/ShadowsintheMoonlight",
+   "bpm": 84.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-206-ShadowsInTheMoonlight.mp3",
+    "sha256": "b64d9af1779135b723627b2b2c495ef7bbceb0f7c8bed91a36e12fbbc283048d",
+    "seconds": 265.71
+   },
+   "instrumental": {
+    "file": "JoshWoodward-ShadowsInTheMoonlight-NoVox.mp3",
+    "sha256": "9fa22aa44816d8b02c77820b01e0ccd63bc06b778bf6f6824aa8f6770cbe363c",
+    "seconds": 263.71
+   }
+  },
+  "GoodtoGo": {
+   "page": "https://www.joshwoodward.com/song/GoodtoGo",
+   "bpm": 94.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-207-GoodToGo.mp3",
+    "sha256": "ac6786fd6683c46501ea5b805b2b6c6c2549d89cb58b842f668b5e0c5c637bbb",
+    "seconds": 189.44
+   },
+   "instrumental": {
+    "file": "JoshWoodward-GoodToGo-NoVox.mp3",
+    "sha256": "56f41266aa01b45e75e8e0cb91dd5b11dd7a284afe9b1dbf936b2074ff47fe87",
+    "seconds": 187.45
+   }
+  },
+  "Memorized": {
+   "page": "https://www.joshwoodward.com/song/Memorized",
+   "bpm": 116.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-208-Memorized.mp3",
+    "sha256": "c875ae064a5766b4b64d5d533723612f5313bb027f4fabd52a81a7e1164caaf4",
+    "seconds": 265.88
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Memorized-NoVox.mp3",
+    "sha256": "19ba92a4c60e9275f108a56a040b6bf6cd58669f6a6543f401d7b7d1018ce92a",
+    "seconds": 263.89
+   }
+  },
+  "TheMission": {
+   "page": "https://www.joshwoodward.com/song/TheMission",
+   "bpm": 173.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F Minor",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-209-TheMission.mp3",
+    "sha256": "3e592dbc9b189a3aa17b8e1b4c262c5aa806f1f44e82b78cbf89d77b0ee62406",
+    "seconds": 229.09
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheMission-NoVox.mp3",
+    "sha256": "035db4aa6f6f87d49ff40e2a6f0ca32ce6a06a9818f2df6bb58d4cad19ec5ecc",
+    "seconds": 227.1
+   }
+  },
+  "IWannaKnow": {
+   "page": "https://www.joshwoodward.com/song/IWannaKnow",
+   "bpm": 87.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-210-IWannaKnow.mp3",
+    "sha256": "5985c88cac880646c799479392820400675f77e3f426505bc516489a8658e849",
+    "seconds": 158.03
+   },
+   "instrumental": {
+    "file": "JoshWoodward-IWannaKnow-NoVox.mp3",
+    "sha256": "b96b23ae1a0af145367d67aa6feb5c1da5e24445519a7b3f200e98c3c0fc15c9",
+    "seconds": 156.04
+   }
+  },
+  "Afterglow": {
+   "page": "https://www.joshwoodward.com/song/Afterglow",
+   "bpm": 98.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-TheSimpleLife-211-Afterglow.mp3",
+    "sha256": "381c321b886003d068a8abbb1fa0eecbc47e4f0cff55f766cb6430e24a055ab0",
+    "seconds": 207.79
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Afterglow-NoVox.mp3",
+    "sha256": "393c5d6331d85c7f67f5009ac3d28cad4c33b9bf5e279b51b748b54da7786e3a",
+    "seconds": 207.79
+   }
+  },
+  "TheTownCharterofCantonOhio": {
+   "page": "https://www.joshwoodward.com/song/TheTownCharterofCantonOhio",
+   "bpm": 109.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Minor",
+   "regular": {
+    "file": "JoshWoodward-TheTownCharterOfCantonOhio.mp3",
+    "sha256": "9e3f2329c7e310f7c7c38e2d20b99546660bb078dd50e36bc09c2d91a0f951b2",
+    "seconds": 176.65
+   }
+  },
+  "IWillNotLetYouLetMeDown": {
+   "page": "https://www.joshwoodward.com/song/IWillNotLetYouLetMeDown",
+   "bpm": 182.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-01-IWillNotLetYouLetMeDown.mp3",
+    "sha256": "2d6a53b5a63de9f46512966828d90c3f67d1fab6775f4755c3e79c6b7bb8c098",
+    "seconds": 181.89
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-01-IWillNotLetYouLetMeDown.mp3",
+    "sha256": "63d1b3f2c7d3b6104f297070cd1040c1321209732c950adda583bba9b22b0b9c",
+    "seconds": 181.89
+   }
+  },
+  "ThisIsEverything": {
+   "page": "https://www.joshwoodward.com/song/ThisIsEverything",
+   "bpm": 80.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-02-ThisIsEverything.mp3",
+    "sha256": "cc89cc4b92d8eb4509952fd9adf85060f09d1993726d0cc02850dca8134a8ff7",
+    "seconds": 206.72
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-02-ThisIsEverything.mp3",
+    "sha256": "23f851bba18ba8babe8bcc5ea7a1ba5b3d8be35ad833b79c6781e73ba0f1db05",
+    "seconds": 206.72
+   }
+  },
+  "HollowGrove": {
+   "page": "https://www.joshwoodward.com/song/HollowGrove",
+   "bpm": 74.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-TheWake-03-HollowGrove.mp3",
+    "sha256": "c78e95f94581a7a9e927f8d8ebc8a2d94bdeca1271e22d7cddfc3c09f021bd85",
+    "seconds": 234.96
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-03-HollowGrove.mp3",
+    "sha256": "b156e759e1a1eb4ef62aeed257da7d6f42ad832a72538795eee200c0efa8dc19",
+    "seconds": 234.96
+   }
+  },
+  "CrazyGlue": {
+   "page": "https://www.joshwoodward.com/song/CrazyGlue",
+   "bpm": 134.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-04-CrazyGlue.mp3",
+    "sha256": "1c86333f05cbe488160cf6cf73231be3aa805b627e064e11cb9b7213165deafb",
+    "seconds": 164.48
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-04-CrazyGlue.mp3",
+    "sha256": "5d0a8f78ff77d90e39343b7c62652b819bead09c976619729ffb43beff158b85",
+    "seconds": 164.48
+   }
+  },
+  "Lafayette": {
+   "page": "https://www.joshwoodward.com/song/Lafayette",
+   "bpm": 51.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G Mixed",
+   "regular": {
+    "file": "JoshWoodward-TheWake-05-Lafayette.mp3",
+    "sha256": "64fd68722dd76ac9d503b7b94a78c4620f7738bd227e6a1f9f8864a9a841968c",
+    "seconds": 303.82
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-05-Lafayette.mp3",
+    "sha256": "d62e2deee725a81c8fe40e932d11873e6d92433b3ebd7223b2888476b131b15c",
+    "seconds": 303.82
+   }
+  },
+  "OhMallory": {
+   "page": "https://www.joshwoodward.com/song/OhMallory",
+   "bpm": 76.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "G Minor",
+   "regular": {
+    "file": "JoshWoodward-TheWake-06-OhMallory.mp3",
+    "sha256": "4cd47b7a4350a73b616148061ce00e906be1afb09f3fc6a340fd54bf1f5ec452",
+    "seconds": 196.14
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-06-OhMallory.mp3",
+    "sha256": "2c94ba6ace0f55e9f7cdfc8ccbde26c7824085ed4961c74d399e12e1b6756ac2",
+    "seconds": 196.14
+   }
+  },
+  "InvisibleLight": {
+   "page": "https://www.joshwoodward.com/song/InvisibleLight",
+   "bpm": 162.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-07-InvisibleLight.mp3",
+    "sha256": "5690b9b5c307e8f3e89ec0a760a69a8eb5ac3b1d9f012204cad1f8e7fbf3dada",
+    "seconds": 250.9
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-07-InvisibleLight.mp3",
+    "sha256": "6912267aa46d9dd14a3163411bc77f452b1d934ec978d41392d6d1970a5a09b7",
+    "seconds": 250.9
+   }
+  },
+  "WaterintheCreek": {
+   "page": "https://www.joshwoodward.com/song/WaterintheCreek",
+   "bpm": 108.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-08-WaterInTheCreek.mp3",
+    "sha256": "dbdde4900d58af4005a120c9b93cf4619eb6bd5c340121cc3fc8ef436b94a57a",
+    "seconds": 183.9
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-08-WaterInTheCreek.mp3",
+    "sha256": "8a8416c7e57eb8117cb06df6d64fb93af9d834eb01f75b8305ccdc9599a0bc3a",
+    "seconds": 183.9
+   }
+  },
+  "LittleTomcat": {
+   "page": "https://www.joshwoodward.com/song/LittleTomcat",
+   "bpm": 94.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-09-LittleTomcat.mp3",
+    "sha256": "471ed76edde879032273ba91353fdfc71da6ad80fb676c9eaa7658c7df5a1c55",
+    "seconds": 197.63
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-09-LittleTomcat.mp3",
+    "sha256": "e31e707592023355e6e2fb79dd01a7c9b528969c6ff5ea96a3118fffa27dfda1",
+    "seconds": 197.63
+   }
+  },
+  "GoldenSunrise": {
+   "page": "https://www.joshwoodward.com/song/GoldenSunrise",
+   "bpm": 170.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-10-GoldenSunrise.mp3",
+    "sha256": "1aaca9c6d909ed4e63ea26847647ad91f9c83f314874d2b3f428944013cf543b",
+    "seconds": 251.69
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-10-GoldenSunrise.mp3",
+    "sha256": "3a947b226fca082deac428bb700871946333293f7f88d2497282c45c881d01c7",
+    "seconds": 251.69
+   }
+  },
+  "TheGloaming": {
+   "page": "https://www.joshwoodward.com/song/TheGloaming",
+   "bpm": 47.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-11-TheGloaming.mp3",
+    "sha256": "768a15394459d8962bad10542aaad6dcb773409e38775657988bb33f7dc80323",
+    "seconds": 183.93
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-11-TheGloaming.mp3",
+    "sha256": "ad982ac04522f65965e061b771ae8e4e2d54a62b971197910c29d8922acb5fd6",
+    "seconds": 187.57
+   }
+  },
+  "Gemini": {
+   "page": "https://www.joshwoodward.com/song/Gemini",
+   "bpm": 60.0,
+   "meter": "6/8",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-12-Gemini.mp3",
+    "sha256": "7bd707dbba83651657b908682eb6ae20cc3c0b53a09cbcaac790f5f2a87b1b75",
+    "seconds": 251.49
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-12-Gemini.mp3",
+    "sha256": "166780da3981840b0c17c73424cd683090b8a8b06c92f5162c3b30ec42b0f662",
+    "seconds": 251.49
+   }
+  },
+  "Epilogue": {
+   "page": "https://www.joshwoodward.com/song/Epilogue",
+   "bpm": 93.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Major",
+   "regular": {
+    "file": "JoshWoodward-TheWake-13-Epilogue.mp3",
+    "sha256": "abe1b4f9aa10060452262197ae7d1e9247bff5e22cc3972d00c995a0425e676e",
+    "seconds": 209.63
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWake-NoVox-13-Epilogue.mp3",
+    "sha256": "b21661ed6e0b992e766e31530d84f92519441f60823a12aa8f4d6b018506c662",
+    "seconds": 209.63
+   }
+  },
+  "TheWorstPart": {
+   "page": "https://www.joshwoodward.com/song/TheWorstPart",
+   "bpm": 115.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-TheWorstPart.mp3",
+    "sha256": "023699823d425aba505e5cc943b830fdd94d99656aa9e43f027878ab546d4ecb",
+    "seconds": 168.12
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TheWorstPart-NoVox.mp3",
+    "sha256": "bb8dbcaf56695d493ee793575377f22b6f3f984a593070ce65ef11752156595f",
+    "seconds": 168.12
+   }
+  },
+  "Thread": {
+   "page": "https://www.joshwoodward.com/song/Thread",
+   "bpm": 65.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-Thread.mp3",
+    "sha256": "c53d4ec9934d4d629016b4c56979f7cbd384121b906ea0f0382aa5bb70702cca",
+    "seconds": 119.66
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Thread-NoVox.mp3",
+    "sha256": "694962647a4c7ff50ea323b1258ee74d9639f05826a308d0f5ddf828145bb3e7",
+    "seconds": 119.66
+   }
+  },
+  "TickledPink": {
+   "page": "https://www.joshwoodward.com/song/TickledPink",
+   "bpm": 140.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-TickledPink.mp3",
+    "sha256": "85bb872946517ee37f8158db89676e9243ea8e41efa5a1a31ff4f2d201dc55e2",
+    "seconds": 152.69
+   }
+  },
+  "TimeforthePast": {
+   "page": "https://www.joshwoodward.com/song/TimeforthePast",
+   "bpm": 125.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "G# Major",
+   "regular": {
+    "file": "JoshWoodward-TimeForThePast.mp3",
+    "sha256": "fd37f3379100a79d29202e964399d9216e5be96be7cc2899dd02407a07438ab7",
+    "seconds": 211.45
+   },
+   "instrumental": {
+    "file": "JoshWoodward-TimeForThePast-NoVox.mp3",
+    "sha256": "2e32c8e8c2d0d18873cc69ab3627550d40e86ef1c3923d2ce552fe817f54e42d",
+    "seconds": 211.45
+   }
+  },
+  "Truly": {
+   "page": "https://www.joshwoodward.com/song/Truly",
+   "bpm": 128.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "D# Minor",
+   "regular": {
+    "file": "JoshWoodward-Truly.mp3",
+    "sha256": "b47f03a0a7619cdcdfdba8f893bec2649b7ccf9a86f976f13b5dd1c97e48bb51",
+    "seconds": 159.61
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Truly-NoVox.mp3",
+    "sha256": "aab97d193eeaf735f3c255cc651e5f7fdb2d94238ab6e4a95a0ad3c25a3936b8",
+    "seconds": 159.61
+   }
+  },
+  "Twinklebell": {
+   "page": "https://www.joshwoodward.com/song/Twinklebell",
+   "bpm": 132.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "D# Major",
+   "regular": {
+    "file": "JoshWoodward-Twinklebell.mp3",
+    "sha256": "299465256a38a3934e6f9867c357e69c6d04057b7a212ad376a65dbdc930844e",
+    "seconds": 60.03
+   }
+  },
+  "UpcomingDowntime": {
+   "page": "https://www.joshwoodward.com/song/UpcomingDowntime",
+   "bpm": 125.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-UpcomingDowntime.mp3",
+    "sha256": "47d2ec8a8b12acfb261b93ceeef22622167f1e371bbf1d126ceb3596720de4d1",
+    "seconds": 269.63
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-03-UpcomingDowntime.mp3",
+    "sha256": "22dfe188a39e3b7baa8b7ae012f81640c048014bb7ba63d60d1a51e0d6f84565",
+    "seconds": 269.64
+   }
+  },
+  "VanishingNote": {
+   "page": "https://www.joshwoodward.com/song/VanishingNote",
+   "bpm": 98.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C Major",
+   "regular": {
+    "file": "JoshWoodward-VanishingNote.mp3",
+    "sha256": "ecef1cf8cf5dc4741d1409a682f831a49c96c139e15e89f0be5f1500ff021f4a",
+    "seconds": 294.74
+   },
+   "instrumental": {
+    "file": "JoshWoodward-VanishingNote-NoVox.mp3",
+    "sha256": "cb80fc0d4c2b51b5bbeba4021944083055151109c281296ba3bcdf493375073c",
+    "seconds": 294.74
+   }
+  },
+  "VeganZombies": {
+   "page": "https://www.joshwoodward.com/song/VeganZombies",
+   "bpm": 105.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "E Major",
+   "regular": {
+    "file": "JoshWoodward-VeganZombies.mp3",
+    "sha256": "b25676aece8febfe79db56658b16857bef075b88013a39ebcec11a8fad01203b",
+    "seconds": 171.44
+   },
+   "instrumental": {
+    "file": "JoshWoodward-VeganZombies-NoVox.mp3",
+    "sha256": "c3b28ae8b484d1e5eeb5d2fccf8cb615cea3605a5acaea9fc49f47b86f9512e7",
+    "seconds": 171.44
+   }
+  },
+  "Wade": {
+   "page": "https://www.joshwoodward.com/song/Wade",
+   "bpm": 78.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-Wade.mp3",
+    "sha256": "929dbaa76abe68e7f3a6bca340249290387cec3ba709e717fc081f03399d4f4f",
+    "seconds": 185.46
+   },
+   "instrumental": {
+    "file": "JoshWoodward-Wade-NoVox.mp3",
+    "sha256": "96280ec4c512671e02d917b3cd3070f4c898ef7b852244f959a6c1fb5ad72cca",
+    "seconds": 185.46
+   }
+  },
+  "WillowWillow": {
+   "page": "https://www.joshwoodward.com/song/WillowWillow",
+   "bpm": 80.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-WillowWillow.mp3",
+    "sha256": "7f3324f7ecfa1856a782380a2da3cebd50ef58bcd4c6f29550aa70518157dadf",
+    "seconds": 183.97
+   },
+   "instrumental": {
+    "file": "JoshWoodward-WillowWillow-NoVox.mp3",
+    "sha256": "6650a7ff074530154c41f5204119eae97fee2043ccde26a73a9d9f4f8a147e51",
+    "seconds": 183.97
+   }
+  },
+  "WithNoGoodbye": {
+   "page": "https://www.joshwoodward.com/song/WithNoGoodbye",
+   "bpm": 159.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A# Major",
+   "regular": {
+    "file": "JoshWoodward-WithNoGoodbye.mp3",
+    "sha256": "66897a48b78bb9d8ad5784bc07c97c98ffbfafe09418026415fe6badf153d631",
+    "seconds": 210.77
+   },
+   "instrumental": {
+    "file": "JoshWoodward-WithNoGoodbye-NoVox.mp3",
+    "sha256": "8355c27ff75aca3cc7f0126fb354b501c19d67a21e9cb82b14152d3abb8b5e1c",
+    "seconds": 210.77
+   }
+  },
+  "WordsWeWillRemember": {
+   "page": "https://www.joshwoodward.com/song/WordsWeWillRemember",
+   "bpm": 144.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "C# Major",
+   "regular": {
+    "file": "JoshWoodward-WordsWeWillRemember.mp3",
+    "sha256": "34b7479074f9887afe3f319904357fac6553a508014814f163dcd6827a680c47",
+    "seconds": 237.22
+   },
+   "instrumental": {
+    "file": "JoshWoodward-WordsWeWillRemember-NoVox.mp3",
+    "sha256": "bbcde875d5a1e589740ebfe7894ad918976c499ad4f51bb7b7cb07aeb68a595d",
+    "seconds": 237.22
+   }
+  },
+  "WouldYouFeedMyRoses": {
+   "page": "https://www.joshwoodward.com/song/WouldYouFeedMyRoses",
+   "bpm": 64.0,
+   "meter": "6/8",
+   "feel": "Swing",
+   "key": "G Major",
+   "regular": {
+    "file": "JoshWoodward-WouldYouFeedMyRoses.mp3",
+    "sha256": "54284fb91fc6a64d652b8c8baeff49c0e85ddd57f11d2fa746f096e91501d195",
+    "seconds": 180.57
+   },
+   "instrumental": {
+    "file": "JoshWoodward-WouldYouFeedMyRoses-NoVox.mp3",
+    "sha256": "8a7e3b60114b96d3fe597f621581fe9c2e79f46787e7948d117612add0e4f419",
+    "seconds": 180.57
+   }
+  },
+  "WrongSideoftheRevolution": {
+   "page": "https://www.joshwoodward.com/song/WrongSideoftheRevolution",
+   "bpm": 105.0,
+   "meter": "4/4",
+   "feel": "Swing",
+   "key": "E Minor",
+   "regular": {
+    "file": "JoshWoodward-WrongSideOfTheRevolution.mp3",
+    "sha256": "5167c7abd6ea5ff0fc8d8cc2310af2251f25dc99ae3ec3b402e295e849a82806",
+    "seconds": 229.02
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-01-WrongSideOfTheRevolution.mp3",
+    "sha256": "89e1b8743ce98316ef18f69cb0997be7b72ebe1ca0dcc5a8441eed587a3a38ef",
+    "seconds": 229.04
+   }
+  },
+  "ZerotoPhantom": {
+   "page": "https://www.joshwoodward.com/song/ZerotoPhantom",
+   "bpm": 122.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "A Minor",
+   "regular": {
+    "file": "JoshWoodward-ZeroToPhantom.mp3",
+    "sha256": "2f701426d3fbcc4efa2f920ba6d33dbbc796c3e6510e2faeeb49e37545cce999",
+    "seconds": 242.45
+   },
+   "instrumental": {
+    "file": "JoshWoodward-RejectBin-NoVox-10-ZeroToPhantom.mp3",
+    "sha256": "e5100e4d3bb4e5d92c767ea6fcbfc4e8bc7d6e949df50f73401ae0c63468b390",
+    "seconds": 242.47
+   }
+  },
+  "0x0000007b": {
+   "page": "https://www.joshwoodward.com/song/0x0000007b",
+   "bpm": 128.0,
+   "meter": "4/4",
+   "feel": "Straight",
+   "key": "F# Major",
+   "regular": {
+    "file": "JoshWoodward-xb.mp3",
+    "sha256": "8c842cd5fa804f48628d573301b3a91d1a567478323973fc790e23f5d84359dc",
+    "seconds": 182.88
+   },
+   "instrumental": {
+    "file": "JoshWoodward-xb-NoVox.mp3",
+    "sha256": "b6de2ed1bfb2378b412883e74c29dc1dca00341de00310b052e3d6f678006cae",
+    "seconds": 182.88
+   }
+  }
+ }
+}
