@@ -326,3 +326,24 @@ chart's bar count, not its chords: on gravity it removes 24 bar lines
 and the chord sequence does not move. That settles the chord side of
 S44-D1: joining is free where it fires, and the bench's recommendation
 to keep it stands on the bar count alone.
+
+### The port comparison, completed (2026-11-11; $0; scripts/port-study44.py)
+
+The app delivered its stored beats and downbeats for the five recordings
+(stem-shovel docs/bench-reply-beats-2026-11-11.json, copied to
+corpus/study44-app-beats.json). Against the package's readings of the
+same mixes on the bench (Study 36, small0), at 70 ms:
+
+| song | beats app / package | beat F | downbeats app / package | downbeat F | largest offset |
+|---|---|---|---|---|---|
+| eat all the clocks | 284 / 284 | 1.000 | 80 / 80 | 1.000 | 0.000 s |
+| peaceful dreams | 579 / 579 | 1.000 | 149 / 149 | 1.000 | 0.000 s |
+| letter lands | 272 / 272 | 1.000 | 73 / 73 | 1.000 | 0.000 s |
+| interbellum | 255 / 255 | 1.000 | 70 / 70 | 1.000 | 0.000 s |
+| mop heart | 382 / 382 | 1.000 | 106 / 106 | 1.000 | 0.000 s |
+
+Every beat and every downbeat the app's port stores is the package's, to
+the frame, on all five recordings: 1,772 beats and 478 downbeats with no
+offset. The app's port (its own decode, its TypeScript front end, the
+Study 42 export in a child process) is the measured system of Studies 36
+to 45 on real audio, not only on the synthetic fixture.

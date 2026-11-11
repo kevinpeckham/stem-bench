@@ -1,0 +1,97 @@
+{
+	"peaceful-dreams": {
+		"beats": {
+			"app": 579,
+			"package": 579,
+			"matched": 579,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"downbeats": {
+			"app": 149,
+			"package": 149,
+			"matched": 149,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"durationApp": 256.7040362811791
+	},
+	"mop-heart": {
+		"beats": {
+			"app": 382,
+			"package": 382,
+			"matched": 382,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"downbeats": {
+			"app": 106,
+			"package": 106,
+			"matched": 106,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"durationApp": 114.02666666666667
+	},
+	"eat-all-the-clocks": {
+		"beats": {
+			"app": 284,
+			"package": 284,
+			"matched": 284,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"downbeats": {
+			"app": 80,
+			"package": 80,
+			"matched": 80,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"durationApp": 147.47736961451247
+	},
+	"letter-lands": {
+		"beats": {
+			"app": 272,
+			"package": 272,
+			"matched": 272,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"downbeats": {
+			"app": 73,
+			"package": 73,
+			"matched": 73,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"durationApp": 141.33333333333334
+	},
+	"interbellum": {
+		"beats": {
+			"app": 255,
+			"package": 255,
+			"matched": 255,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"downbeats": {
+			"app": 70,
+			"package": 70,
+			"matched": 70,
+			"f70": 1.0,
+			"maxOffsetSec": 0.0,
+			"medianOffsetSec": 0.0
+		},
+		"durationApp": 135.18934240362813
+	}
+}
