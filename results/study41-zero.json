@@ -1,0 +1,1050 @@
+{
+	"holds": {
+		"primary": {
+			"rows": [
+				{
+					"key": "jw-let-it-in|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0017499999999944782,
+					"driftHold": false,
+					"notesPerBar": 20.423728813559322,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-same-boat|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0002500000000006386,
+					"driftHold": false,
+					"notesPerBar": 18.506666666666668,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-gravity|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.012000000000000455,
+					"driftHold": false,
+					"notesPerBar": 17.197802197802197,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-my-favorite-regret|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5004166666666567,
+					"driftHold": true,
+					"notesPerBar": 16.556701030927837,
+					"thinHold": false,
+					"fold": 1.5
+				},
+				{
+					"key": "jw-california-lullabye|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.002666666666656603,
+					"driftHold": false,
+					"notesPerBar": 14.763005780346822,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-swansong|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0012500000000025269,
+					"driftHold": false,
+					"notesPerBar": 18.125714285714285,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-afterglow|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.011833333333332696,
+					"driftHold": false,
+					"notesPerBar": 29.697674418604652,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-cherubs|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.003749999999995701,
+					"driftHold": false,
+					"notesPerBar": 16.16774193548387,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "jw-goodbye-to-spring|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 1,
+					"driftHold": true,
+					"notesPerBar": 22.116071428571427,
+					"thinHold": false,
+					"fold": 2
+				},
+				{
+					"key": "jw-im-letting-go|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.49649999999999894,
+					"driftHold": true,
+					"notesPerBar": 15.735042735042734,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-00_SS1-100-C#_comp|madmom-34",
+					"class": "refused",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 24.083333333333332,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS1-68-E_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0001666666666666483,
+					"driftHold": false,
+					"notesPerBar": 28.727272727272727,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS2-107-Ab_comp|madmom-34",
+					"class": "confidently-wrong",
+					"bad": true,
+					"detected": true,
+					"drift": 0.0013333333333339636,
+					"driftHold": false,
+					"notesPerBar": 21.933333333333334,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS2-88-F_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0008333333333330195,
+					"driftHold": false,
+					"notesPerBar": 19.6875,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS3-84-Bb_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0024999999999995026,
+					"driftHold": false,
+					"notesPerBar": 16.6,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS3-98-C_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0036666666666654857,
+					"driftHold": false,
+					"notesPerBar": 25.25,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS1-100-C#_comp|madmom-34",
+					"class": "refused",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 26.916666666666668,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS1-68-E_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.01683333333333259,
+					"driftHold": false,
+					"notesPerBar": 30.384615384615383,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS2-107-Ab_comp|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5006666666666661,
+					"driftHold": true,
+					"notesPerBar": 5.09375,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-01_SS2-88-F_comp|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5013333333333332,
+					"driftHold": true,
+					"notesPerBar": 11.625,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-01_SS3-84-Bb_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.3227499999999992,
+					"driftHold": true,
+					"notesPerBar": 24.75,
+					"thinHold": false,
+					"fold": 0.6666666666666666
+				},
+				{
+					"key": "gs-01_SS3-98-C_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.002458333333333229,
+					"driftHold": false,
+					"notesPerBar": 48,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS1-100-C#_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.00416666666666643,
+					"driftHold": false,
+					"notesPerBar": 35.666666666666664,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS1-68-E_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0012499999999994182,
+					"driftHold": false,
+					"notesPerBar": 26.5,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS2-107-Ab_comp|madmom-34",
+					"class": "confidently-wrong",
+					"bad": true,
+					"detected": true,
+					"drift": 0.0013333333333331865,
+					"driftHold": false,
+					"notesPerBar": 14.9375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS2-88-F_comp|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.3289999999999996,
+					"driftHold": true,
+					"notesPerBar": 11.136363636363637,
+					"thinHold": false,
+					"fold": 0.6666666666666666
+				},
+				{
+					"key": "gs-02_SS3-84-Bb_comp|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0029166666666670116,
+					"driftHold": false,
+					"notesPerBar": 19.4375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS3-98-C_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0004166666666662877,
+					"driftHold": false,
+					"notesPerBar": 24.533333333333335,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS1-100-C#_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.00416666666666643,
+					"driftHold": false,
+					"notesPerBar": 35.90909090909091,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS1-68-E_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5013333333333334,
+					"driftHold": true,
+					"notesPerBar": 14.5,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-03_SS2-107-Ab_comp|madmom-34",
+					"class": "confidently-wrong",
+					"bad": true,
+					"detected": true,
+					"drift": 0.5006666666666661,
+					"driftHold": true,
+					"notesPerBar": 11.387096774193548,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-03_SS2-88-F_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.001000000000000334,
+					"driftHold": false,
+					"notesPerBar": 28.2,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS3-84-Bb_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5012499999999998,
+					"driftHold": true,
+					"notesPerBar": 9.71875,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-03_SS3-98-C_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.4977499999999998,
+					"driftHold": true,
+					"notesPerBar": 14.064516129032258,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-04_SS1-100-C#_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5000000000000001,
+					"driftHold": true,
+					"notesPerBar": 12.173913043478262,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-04_SS1-68-E_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5013333333333336,
+					"driftHold": true,
+					"notesPerBar": 24.833333333333332,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-04_SS2-107-Ab_comp|madmom-34",
+					"class": "refused",
+					"bad": false,
+					"detected": true,
+					"drift": 0.005791666666666417,
+					"driftHold": false,
+					"notesPerBar": 23.4,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS2-88-F_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.4976666666666676,
+					"driftHold": true,
+					"notesPerBar": 15.580645161290322,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-04_SS3-84-Bb_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.49950000000000017,
+					"driftHold": true,
+					"notesPerBar": 18.5625,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-04_SS3-98-C_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0004166666666671759,
+					"driftHold": false,
+					"notesPerBar": 20.6875,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS1-100-C#_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 27.818181818181817,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS1-68-E_comp|madmom-34",
+					"class": "refused",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5027500000000003,
+					"driftHold": true,
+					"notesPerBar": 13.041666666666666,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-05_SS2-107-Ab_comp|madmom-34",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0031250000000000444,
+					"driftHold": false,
+					"notesPerBar": 20.6,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS2-88-F_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.5013333333333335,
+					"driftHold": true,
+					"notesPerBar": 16.903225806451612,
+					"thinHold": false,
+					"fold": 0.5
+				},
+				{
+					"key": "gs-05_SS3-84-Bb_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.0024999999999999467,
+					"driftHold": false,
+					"notesPerBar": 22.25,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS3-98-C_comp|madmom-34",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0.000416666666667842,
+					"driftHold": false,
+					"notesPerBar": 27.466666666666665,
+					"thinHold": false,
+					"fold": 1
+				}
+			],
+			"summary": {
+				"detectedGrid": {
+					"held": 46,
+					"bad": 3,
+					"goodHeld": 32
+				},
+				"drift": {
+					"held": 17,
+					"bad": 1,
+					"goodHeld": 12
+				},
+				"thin": {
+					"held": 0,
+					"bad": 0,
+					"goodHeld": 0
+				}
+			}
+		},
+		"secondary": {
+			"rows": [
+				{
+					"key": "gs-00_SS1-100-C#_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 24.083333333333332,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS1-68-E_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 26.333333333333332,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS2-107-Ab_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 20.5625,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS2-88-F_comp|annotated",
+					"class": "refused",
+					"bad": false,
+					"detected": true,
+					"drift": 1.1102230246251565e-16,
+					"driftHold": false,
+					"notesPerBar": 19.6875,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS3-84-Bb_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 15.5625,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-00_SS3-98-C_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 25.25,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS1-100-C#_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 26.916666666666668,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS1-68-E_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 32.916666666666664,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS2-107-Ab_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 10.1875,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS2-88-F_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 1.1102230246251565e-16,
+					"driftHold": false,
+					"notesPerBar": 23.25,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS3-84-Bb_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 30.9375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-01_SS3-98-C_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 48,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS1-100-C#_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 35.666666666666664,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS1-68-E_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 26.5,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS2-107-Ab_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 14.9375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS2-88-F_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 1.1102230246251565e-16,
+					"driftHold": false,
+					"notesPerBar": 15.3125,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS3-84-Bb_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 19.4375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-02_SS3-98-C_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 23,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS1-100-C#_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 32.916666666666664,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS1-68-E_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 29,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS2-107-Ab_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 22.0625,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS2-88-F_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 1.1102230246251565e-16,
+					"driftHold": false,
+					"notesPerBar": 26.4375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS3-84-Bb_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 19.4375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-03_SS3-98-C_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 27.25,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS1-100-C#_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 23.333333333333332,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS1-68-E_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 49.666666666666664,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS2-107-Ab_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 21.9375,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS2-88-F_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 1.1102230246251565e-16,
+					"driftHold": false,
+					"notesPerBar": 30.1875,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS3-84-Bb_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 37.125,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-04_SS3-98-C_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 20.6875,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS1-100-C#_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 25.5,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS1-68-E_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 26.083333333333332,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS2-107-Ab_comp|annotated",
+					"class": "saved-below-threshold",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 19.3125,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS2-88-F_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 1.1102230246251565e-16,
+					"driftHold": false,
+					"notesPerBar": 32.75,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS3-84-Bb_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 2.220446049250313e-16,
+					"driftHold": false,
+					"notesPerBar": 22.25,
+					"thinHold": false,
+					"fold": 1
+				},
+				{
+					"key": "gs-05_SS3-98-C_comp|annotated",
+					"class": "good",
+					"bad": false,
+					"detected": true,
+					"drift": 0,
+					"driftHold": false,
+					"notesPerBar": 25.75,
+					"thinHold": false,
+					"fold": 1
+				}
+			],
+			"summary": {
+				"detectedGrid": {
+					"held": 36,
+					"bad": 0,
+					"goodHeld": 28
+				},
+				"drift": {
+					"held": 0,
+					"bad": 0,
+					"goodHeld": 0
+				},
+				"thin": {
+					"held": 0,
+					"bad": 0,
+					"goodHeld": 0
+				}
+			}
+		}
+	},
+	"onnxAgreement": {
+		"jw-let-it-in": {
+			"downbeatF70": 0.7804878048780488,
+			"beatF70": 0.8783783783783783,
+			"onnxBars": 123,
+			"torchBars": 123,
+			"onnxBarSec": 1.9800000000000004,
+			"torchBarSec": 1.980000000000004,
+			"onnxSeconds": 8.7,
+			"torchSeconds": 11.8
+		},
+		"jw-same-boat": {
+			"downbeatF70": 0.5921787709497206,
+			"beatF70": 0.8007246376811594,
+			"onnxBars": 94,
+			"torchBars": 85,
+			"onnxBarSec": 1.3199999999999932,
+			"torchBarSec": 2.5799999999999983,
+			"onnxSeconds": 7.7,
+			"torchSeconds": 7.7
+		},
+		"jw-gravity": {
+			"downbeatF70": 0.6635944700460831,
+			"beatF70": 0.8091106290672451,
+			"onnxBars": 99,
+			"torchBars": 118,
+			"onnxBarSec": 1.8099999999999952,
+			"torchBarSec": 2.4200000000000017,
+			"onnxSeconds": 9.2,
+			"torchSeconds": 11.2
+		},
+		"jw-my-favorite-regret": {
+			"downbeatF70": 0.7499999999999999,
+			"beatF70": 0.811623246492986,
+			"onnxBars": 158,
+			"torchBars": 178,
+			"onnxBarSec": 1.3999999999999915,
+			"torchBarSec": 1.3800000000000026,
+			"onnxSeconds": 14.8,
+			"torchSeconds": 12.6
+		},
+		"jw-california-lullabye": {
+			"downbeatF70": 0.5072463768115941,
+			"beatF70": 0.6993402450518379,
+			"onnxBars": 104,
+			"torchBars": 172,
+			"onnxBarSec": 1.3799999999999955,
+			"torchBarSec": 1.3599999999999994,
+			"onnxSeconds": 8.6,
+			"torchSeconds": 5
+		},
+		"jw-swansong": {
+			"downbeatF70": 0.6264150943396226,
+			"beatF70": 0.8281938325991189,
+			"onnxBars": 109,
+			"torchBars": 156,
+			"onnxBarSec": 1.420000000000016,
+			"torchBarSec": 1.4199999999999982,
+			"onnxSeconds": 11.7,
+			"torchSeconds": 20.8
+		},
+		"jw-afterglow": {
+			"downbeatF70": 0.7486631016042781,
+			"beatF70": 0.8121546961325967,
+			"onnxBars": 87,
+			"torchBars": 100,
+			"onnxBarSec": 2.419999999999991,
+			"torchBarSec": 2.4199999999999946,
+			"onnxSeconds": 11.8,
+			"torchSeconds": 7.5
+		},
+		"jw-cherubs": {
+			"downbeatF70": 0.5546875,
+			"beatF70": 0.8118811881188119,
+			"onnxBars": 87,
+			"torchBars": 169,
+			"onnxBarSec": 2.3999999999999977,
+			"torchBarSec": 1.4599999999999937,
+			"onnxSeconds": 7.8,
+			"torchSeconds": 4.6
+		},
+		"jw-goodbye-to-spring": {
+			"downbeatF70": 0.6786786786786787,
+			"beatF70": 0.8142493638676845,
+			"onnxBars": 174,
+			"torchBars": 159,
+			"onnxBarSec": 1,
+			"torchBarSec": 1.269999999999996,
+			"onnxSeconds": 7.5,
+			"torchSeconds": 17
+		},
+		"jw-im-letting-go": {
+			"downbeatF70": 0.5968586387434555,
+			"beatF70": 0.7639484978540771,
+			"onnxBars": 72,
+			"torchBars": 119,
+			"onnxBarSec": 1.6000000000000085,
+			"torchBarSec": 1.580000000000009,
+			"onnxSeconds": 5.9,
+			"torchSeconds": 2.1
+		}
+	}
+}

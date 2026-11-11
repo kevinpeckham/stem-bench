@@ -1,0 +1,27 @@
+jw-cherubs
+  beat     onnx250 vs torch250:  r 1.000 maxabs 0.00 peaks 456 vs 456
+  beat     onnx1500 vs torch1500: r 0.177 maxabs 17.99 peaks 583 vs 655
+  beat     torch250 vs torch1500: r 0.832 maxabs 16.58 peaks 456 vs 655
+  beat     onnx250 vs torch1500:  r 0.832 maxabs 16.58 peaks 456 vs 655
+  downbeat onnx250 vs torch250:  r 1.000 maxabs 0.00 peaks 87 vs 87
+  downbeat onnx1500 vs torch1500: r 0.148 maxabs 19.12 peaks 159 vs 169
+  downbeat torch250 vs torch1500: r 0.744 maxabs 17.78 peaks 87 vs 169
+  downbeat onnx250 vs torch1500:  r 0.744 maxabs 17.78 peaks 87 vs 169
+jw-let-it-in
+  beat     onnx250 vs torch250:  r 1.000 maxabs 0.00 peaks 404 vs 404
+  beat     onnx1500 vs torch1500: r 0.137 maxabs 17.71 peaks 831 vs 484
+  beat     torch250 vs torch1500: r 0.787 maxabs 16.24 peaks 404 vs 484
+  beat     onnx250 vs torch1500:  r 0.787 maxabs 16.24 peaks 404 vs 484
+  downbeat onnx250 vs torch250:  r 1.000 maxabs 0.00 peaks 123 vs 123
+  downbeat onnx1500 vs torch1500: r 0.200 maxabs 19.48 peaks 99 vs 124
+  downbeat torch250 vs torch1500: r 0.678 maxabs 13.08 peaks 123 vs 124
+  downbeat onnx250 vs torch1500:  r 0.678 maxabs 13.08 peaks 123 vs 124
+jw-california-lullabye
+  beat     onnx250 vs torch250:  r 1.000 maxabs 0.00 peaks 384 vs 384
+  beat     onnx1500 vs torch1500: r 0.233 maxabs 18.87 peaks 829 vs 677
+  beat     torch250 vs torch1500: r 0.821 maxabs 16.18 peaks 384 vs 677
+  beat     onnx250 vs torch1500:  r 0.821 maxabs 16.18 peaks 384 vs 677
+  downbeat onnx250 vs torch250:  r 1.000 maxabs 0.00 peaks 106 vs 106
+  downbeat onnx1500 vs torch1500: r 0.284 maxabs 16.94 peaks 146 vs 177
+  downbeat torch250 vs torch1500: r 0.800 maxabs 14.70 peaks 106 vs 177
+  downbeat onnx250 vs torch1500:  r 0.800 maxabs 14.70 peaks 106 vs 177
