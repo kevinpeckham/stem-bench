@@ -310,3 +310,19 @@ Fence $0.80, hard stop (Kevin approved "about $0.60"; the fence leaves
 room for gravity's long prompt). Prediction P6: joining changes the
 class of no draft and the root count of at most one; the measure is
 whether the chart's bar count moves, not its chords.
+
+### Arm A2 results (2026-11-11; $0.35 of the $0.80 fence, 4 drafts)
+
+| song | as read (Study 41) | joined grid |
+|---|---|---|
+| same-boat | 16/18, q 11/11, saved (85 bars) | 16/18, q 11/11, saved (80 bars) |
+| goodbye-to-spring | 43/43, q 22/23, good (159 bars) | 43/43, q 22/23, good (154 bars) |
+| im-letting-go | 33/33, q 15/15, good (119 bars) | 33/33, q 15/15, good (115 bars) |
+| gravity | 24/26, q 12/12, good (118 bars) | 24/26, q 12/12, good (94 bars) |
+
+Joining changed neither the root count nor the class on any of the four;
+the quality counts are identical too. P6 right. Rule 1 is about the
+chart's bar count, not its chords: on gravity it removes 24 bar lines
+and the chord sequence does not move. That settles the chord side of
+S44-D1: joining is free where it fires, and the bench's recommendation
+to keep it stands on the bar count alone.
