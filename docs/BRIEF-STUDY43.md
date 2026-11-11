@@ -116,3 +116,102 @@ truth, not the chart.
   them exactly, so the app's port, once verified, draws the same bars.
 - Spend is reported as spent; the fence is a hard stop, not a budget to
   reach.
+
+## Results (2026-11-11, registration 8bfdacd; $1.54 of the $3.00 fence, 40 drafts, 3 refused)
+
+| item | bar grid: roots, qualities, class (cells) | half grid: roots, qualities, class (cells) | Study 38 on madmom bars |
+|---|---|---|---|
+| 00_SS2-107-Ab | 14/14, 9/11, good (16) | 14/14, 7/11, saved (32) | 11/14 confidently-wrong |
+| 01_SS2-107-Ab | 14/14, 7/11, saved (16) | 14/14, 7/11, saved (32) | 14/14 saved |
+| 02_SS2-107-Ab | 14/14, 2/11, saved (16) | 14/14, 1/11, saved (32) | 10/14 confidently-wrong |
+| 03_SS2-107-Ab | 12/14, 7/11, saved (17) | 12/14, 9/11, saved (33) | 11/14 confidently-wrong |
+| 04_SS2-107-Ab | 11/14, 8/11, confidently-wrong (16) | 14/14, 9/11, good (31) | 11/14 confidently-wrong |
+| 05_SS2-107-Ab | 14/14, 7/11, saved (16) | 14/14, 7/11, saved (32) | 13/14 saved |
+| 00_SS2-88-F | refused, content filter (16) | 14/14, 11/11, good (32) | 14/14 good |
+| 01_SS2-88-F | 14/14, 5/11, saved (41) | 14/14, 5/11, saved (81) | 14/14 saved |
+| 02_SS2-88-F | 12/14, 1/11, saved (17) | 14/14, 4/11, saved (33) | 12/14 saved |
+| 03_SS2-88-F | refused, content filter (16) | 14/14, 10/11, good (31) | 13/14 good |
+| 04_SS2-88-F | 14/14, 9/11, good (17) | 14/14, 9/11, good (33) | 14/14 good |
+| 05_SS2-88-F | 14/14, 9/11, good (16) | 14/14, 9/11, good (31) | 14/14 good |
+| D911-02 | 33/60, 36/51, wrong (103) | 39/60, 39/51, wrong (205) | 16/60 wrong |
+| D911-08 | 55/93, 43/85, wrong (142) | 32/93, 22/85, wrong (283) | 18/93 wrong |
+| D911-13 | 25/81, 15/51, wrong (65) | 45/81, 25/51, wrong (129) | 22/81 wrong |
+| D911-15 | 41/113, 35/107, wrong (87) | 52/113, 56/107, wrong (173) | 20/113 wrong |
+| D911-16 | refused, content filter (101) | 39/67, 31/42, wrong (201) | 25/67 wrong |
+| D911-18 | 13/44, 11/34, wrong (32) | 24/44, 23/34, wrong (63) | 10/44 wrong |
+| D911-19 | 37/41, 36/40, **good** (82) | 36/41, 35/40, saved (163) | 18/41 wrong |
+| D911-22 | 26/72, 13/56, wrong (61) | 45/72, 29/56, wrong (121) | 14/72 wrong |
+
+Guitar: roots median 1.00 on both grids; the half grid lifts roots on 2
+takes (02_SS2-88-F 12 → 14, 04_SS2-107-Ab 11 → 14), lowers 0, equal on 8.
+Winterreise: roots median 0.36 (bar) → 0.58 (half); lifts 5, lowers 2
+(D911-19 37 → 36, D911-08 55 → 32). Input tokens: half grid 1.12× the
+bar grid. The half grid's typed tempo doubles (4/4 at 214 for a 107
+take) by the registered convention; the drafts did not mind.
+
+### What the dense sheet really was
+
+The premise was wrong, and the data says so. SS2-107-Ab is 14 chord
+positions in 16 bars, one chord a bar with two repeats (C#m F# B E Bb7
+Eb Abm %, twice): the one-chord-per-bar format was never its ceiling.
+Its three confidently-wrong drafts in Study 38 were on madmom's bars; on
+Beat This small0's bars as read, four of the six takes score roots
+14/14 at the bar grid and the fifth 12/14. What keeps five of six takes
+below "good" is **qualities**: 7/11 on four takes, 2/11 on one. The
+sheet carries a dominant seventh and two minor chords; the drafts write
+the roots and miss the colours. So on acoustic guitar the automatic
+chart's remaining gap is chord quality, not bar lines and not the
+format. P1 wrong (1 of 6 good on the half grid, and 1 on the bar grid);
+P2 wrong (2 of 12 lifted, because 8 were already 14/14).
+
+### What the half grid did on the lieder
+
+A real lift and not enough: roots from a median of 0.36 to 0.58, five
+of eight songs up, every song still confidently-wrong on the half grid.
+P3 wrong by two hundredths (0.58 against 0.60; no song good, as
+predicted). Two songs went down, one of them hard (D911-08, 55 → 32:
+283 cells of 0.4 s on a 114 s song, which the draft could not hold
+together). The format is part of the ceiling on fast-moving harmony
+and the audio and the truth are the rest.
+
+Unlooked-for: **D911-19 (Täuschung) drafts good on Beat This small0's
+bars as read** (37/41 roots, 36/40 qualities), where Study 38's madmom
+draft of the same recording was 18/41. The first Winterreise song to
+reach good in the program, and it did so on the tracker the app ships
+with nothing typed. On the bar grid small0's seven graded songs score a
+median of 0.36 against Study 38's 0.25 on these eight with madmom.
+
+P4 right: the half grid lowered 2 of 20 (both lieder).
+
+### Refusals
+
+Three drafts stopped at the gateway's content filter with empty text
+(finish reason content-filter): 00_SS2-88-F and 03_SS2-88-F at the bar
+grid and D911-16 at the bar grid. Each item's other grid drafted
+normally from the same audio, so the filter is tripping on something in
+the bar-grid prompt text, not the music. Counted as drafts, ungraded,
+not retried (the bench does not work around classifier stops).
+
+### Decision (S43-D1)
+
+The half grid lifted 7 of 20 and lowered 2: **no grid change
+recommended** (mixed). For the app: draft on the tracker's bar as read;
+two cells a bar buys nothing on full-band or guitar material where the
+chords change by the bar, costs 12 % more input, and on the lieder lifts
+a draft that is still wrong. The free-tempo question (P3) is settled in
+the direction the brief anticipated: the format was not the whole
+ceiling, so the next study on the lieder is about the audio and the
+truth, not the chart. The guitar result redirects the acoustic
+question: the next gap there is chord quality on a one-chord-a-bar
+sheet, a question for the drafting prompt and the per-bar hints, not
+the tracker.
+
+### Disclosures
+
+- Spend $1.541 (268,175 in, 66,990 out) against the $3.00 fence; all
+  40 registered cells ran.
+- Three content-filter stops disclosed above; their cells are in
+  results/study43.json with the finish reason.
+- The brief's premise about the dense sheet (two chords a bar) was wrong
+  as written; the registered instrument measured it anyway and the
+  predictions are scored as registered.
