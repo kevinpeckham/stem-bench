@@ -180,3 +180,19 @@ the next two gaps, and the second is the larger.
 - The paired guitar comparison has ten pairs, not twelve, because two
   production drafts were refused in Study 43; the two unpaired takes are
   reported, not scored in P2 or P3.
+
+
+### Correction (2026-11-11, same day, in place)
+
+The Arm 0 text above and the decision paragraph say the ChordMini hint
+"has no half-diminished" in its vocabulary. That is wrong, and the bench
+checked it after the write-up: ChordMini's 170-label vocabulary includes
+hdim7 for every root, and the bench's mapping (scripts/study10/
+chordmini-vocab.json) writes it as "dim", which Study 34's grader puts in
+the same family as m7b5. The hint was wrong on the half-diminished bars
+because the model did not hear them as half-diminished (it voted E or C#
+on the A#:hdim7 bar), not because it could not say so. The attribution
+numbers stand; the cause named for them changes from vocabulary to the
+model's accuracy on that quality, which Study 46 measures across the
+whole of GuitarSet. The same sentence has been corrected in REPORT.md,
+on the dashboard and in the note to the app.
