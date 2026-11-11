@@ -88,3 +88,79 @@ says whether the hint's root deserves the trust Study 1 gave it.
 - The 36 SS comp excerpts are in both this corpus and Studies 38, 43
   and 45; the study is over the hint, not the drafts, and reuses no
   draft.
+
+## Results (2026-11-11, registration 3bcaa68; $0; 360 excerpts, 5,280 scored bars, 23 minutes)
+
+### The hint against the lead sheet
+
+| excerpts | bars | root right | family right | both right | empty hint (N.C.) |
+|---|---|---|---|---|---|
+| all 360 | 5,280 | 44.3 % | 44.0 % | 36.2 % | 32.2 % |
+| comp, 180 | 2,640 | 77.5 % | 66.9 % | 64.6 % | 8.2 % |
+| solo, 180 | 2,640 | 11.1 % | 21.1 % | 7.8 % | 56.2 % |
+| comp, Rock + Singer-Songwriter | 1,056 | 95.1 % | 83.1 % | 82.4 % | |
+| comp, Jazz + Bossa Nova + Funk | 1,584 | 65.8 % | 56.1 % | 52.7 % | |
+| comp Rock / SS / BN / Jazz / Funk, root | 528 each | 96.2 / 93.9 / 78.8 / 61.0 / 57.8 % | | | |
+
+Against the performed chords instead of the sheet: all 46.3 % family
+(+2.3), comp 71.7 % (+4.8), solo 20.8 % (−0.3).
+
+### By the sheet's quality family
+
+| family | bars (all) | family right, all | bars (comp) | root right, comp | family right, comp | what the hint said instead (comp) |
+|---|---|---|---|---|---|---|
+| maj | 3,360 | 51.9 % | 1,680 | 81.3 % | 76.8 % | none 135, dom 124, min 123 |
+| min | 1,200 | 38.5 % | 600 | 76.3 % | 62.8 % | maj 159, none 48 |
+| dom | 480 | 23.8 % | 240 | 73.8 % | 40.8 % | maj 83, min 36, none 22 |
+| dim | 240 | 1.7 % | 120 | 38.3 % | 1.7 % | min 54, maj 31, dom 21 |
+
+On the Rock and Singer-Songwriter comp excerpts the hint has the root of
+a dominant bar 93.8 % of the time and the family 43.8 %, and the root of
+a diminished bar 47.9 % with the family never (0 of 48; it hears a minor
+or a major). On Jazz, Bossa Nova and Funk comping, roots fall to the
+sixties and every family falls with them.
+
+### Predictions
+
+- P1 (comp roots ≥ 85 %): **wrong**, 77.5 %. Rock and Singer-Songwriter
+  comping clear it (96 %, 94 %); Bossa Nova (79 %), Jazz (61 %) and Funk
+  (58 %) do not. Study 1's trust in the hint's root was earned on a
+  rock-shaped corpus and holds there.
+- P2 (family ≥ 70 % overall): **wrong**, 44.0 %; the solos (21 %) sink
+  it, and comping alone is 66.9 %.
+- P3 (dim family < 25 %): right, 1.7 %. ChordMini can name a diminished
+  chord and in 240 bars did so four times.
+- P4 (dom family < 60 %): right, 23.8 % (40.8 % on comping).
+- P5 (solo roots ≥ 10 points under comp): right, by 66 points. On a
+  single line the hint is mostly absent: 56 % of solo bars vote N.C.
+- P6 (performed truth ≥ 3 points above the sheet): **wrong** over all
+  (+2.3), right on comping alone (+4.8). The players' departures from the
+  sheet are a small part of the disagreement.
+
+### Decision (S46-D1)
+
+By the registered rule (every family with 50 or more bars, over all
+excerpts): **min, dom and dim are under 50 %**, so the bench recommends
+the app treat the hint's quality as advisory for those families. The
+rule was registered over all excerpts; the labelled comp-only view, which
+is the shape of the app's inputs (a mix or a strummed demo, not a single
+line), puts min at 62.8 % and keeps dom (40.8 %) and dim (1.7 %) under
+the line. The bench's reading, labelled: the hint's root is worth the
+trust it gets on strummed material (95 % on rock-shaped comping, 66 % on
+jazz-shaped), its major and minor are usable, and its sevenths and
+diminished qualities are not; the prompt should say so, and the exact
+sentence is a later study's. On a single melodic line the hint is
+absent more often than present and the model should not be asked to
+follow it.
+
+### Disclosures
+
+- $0; no gateway call. 23 minutes, not the hour estimated.
+- The by-family table on comp excerpts alone and the Rock + SS / Jazz +
+  BN + Funk split are post-hoc cuts of the registered score, labelled as
+  such; the registered rule is scored over all excerpts as written.
+- Hints cached in results/study46-hints.json (per excerpt, per bar); a
+  rerun reproduces the tables without ChordMini.
+- The solo excerpts are a single line over the same progressions and were
+  included to measure the hint's floor; they are not what the app
+  receives, and no recommendation rests on them.
