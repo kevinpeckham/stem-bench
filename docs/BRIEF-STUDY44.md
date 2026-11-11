@@ -297,3 +297,16 @@ level; the beat-level F-measure needs the app's beats in seconds.
   on them.
 - Study 43's bar-grid grades were read mid-run (ten graded, two refused
   at the time); its own results section is the record of them.
+
+## Arm A2, registered 2026-11-11 after Kevin's approval ("yes to both")
+
+scripts/run-study44-a2.ts: Study 43's pipeline (Study 41's from the bar
+lines on) with the grid `joined` = the app's joinHalfBars over small0's
+downbeats at the modal count, for the four Woodward songs where joining
+changes four or more bars (same-boat 85 → 80, goodbye-to-spring 159 →
+154, im-letting-go 119 → 115, gravity 118 → 94). Compared with Study
+41's small0 drafts on the same bars as read (results/study41.json).
+Fence $0.80, hard stop (Kevin approved "about $0.60"; the fence leaves
+room for gravity's long prompt). Prediction P6: joining changes the
+class of no draft and the root count of at most one; the measure is
+whether the chart's bar count moves, not its chords.
