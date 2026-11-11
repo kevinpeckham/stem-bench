@@ -1,0 +1,323 @@
+{
+	"checkpoint": "small0",
+	"exports": {
+		"static1500": {
+			"dynamic": false,
+			"dynamo_error": "ConversionError: Failed to decompose the FX graph for ONNX compatibility. \u001b[96mThis is step 2/3\u001b[0m of exporting the model to ONNX. Next steps:\n- Create an issue in the PyTorch GitHub repository against the \u001b[96m*torch.export*\u001b[0m component and attach the full error stack as well as reproduction scripts.\n- Create an",
+			"exporter": "torch.onnx TorchScript",
+			"bytes": 9932033,
+			"sha256": "d57ae630f0daa290f558d076d963d2216b4c447d72695e691a79e3c792447124",
+			"torch": "2.15.0+cpu"
+		},
+		"dynamic": {
+			"dynamic": true,
+			"exporter": "torch.onnx dynamo",
+			"bytes": 10478769,
+			"sha256": "8c009d908992c6552e5d739deb941524ba78f35c47f0f59bcf2fede51ea23782",
+			"torch": "2.15.0+cpu"
+		}
+	},
+	"logits": {
+		"jw-let-it-in": {
+			"static1500@1500": {
+				"beat": {
+					"maxAbs": 0.00003647804260253906,
+					"pearson": 0.9999999999996392
+				},
+				"downbeat": {
+					"maxAbs": 0.000034332275390625,
+					"pearson": 0.9999999999995338
+				}
+			},
+			"dynamic@1500": {
+				"beat": {
+					"maxAbs": 0.000041961669921875,
+					"pearson": 0.9999999999995869
+				},
+				"downbeat": {
+					"maxAbs": 0.00002956390380859375,
+					"pearson": 0.9999999999995117
+				}
+			},
+			"dynamic@750": {
+				"beat": {
+					"maxAbs": 0.0000171661376953125,
+					"pearson": 0.9999999999997157
+				},
+				"downbeat": {
+					"maxAbs": 0.000013828277587890625,
+					"pearson": 0.9999999999997232
+				}
+			},
+			"dynamic@3000": {
+				"beat": {
+					"maxAbs": 0.0000457763671875,
+					"pearson": 0.9999999999996456
+				},
+				"downbeat": {
+					"maxAbs": 0.0000324249267578125,
+					"pearson": 0.9999999999994934
+				}
+			}
+		},
+		"jw-same-boat": {
+			"static1500@1500": {
+				"beat": {
+					"maxAbs": 0.000031948089599609375,
+					"pearson": 0.9999999999996984
+				},
+				"downbeat": {
+					"maxAbs": 0.000027179718017578125,
+					"pearson": 0.9999999999993189
+				}
+			},
+			"dynamic@1500": {
+				"beat": {
+					"maxAbs": 0.00004220008850097656,
+					"pearson": 0.9999999999996421
+				},
+				"downbeat": {
+					"maxAbs": 0.000030279159545898438,
+					"pearson": 0.9999999999992476
+				}
+			},
+			"dynamic@750": {
+				"beat": {
+					"maxAbs": 0.00002956390380859375,
+					"pearson": 0.9999999999996151
+				},
+				"downbeat": {
+					"maxAbs": 0.00002193450927734375,
+					"pearson": 0.9999999999993551
+				}
+			},
+			"dynamic@3000": {
+				"beat": {
+					"maxAbs": 0.00006914138793945312,
+					"pearson": 0.9999999999993465
+				},
+				"downbeat": {
+					"maxAbs": 0.0000438690185546875,
+					"pearson": 0.9999999999991764
+				}
+			}
+		},
+		"jw-gravity": {
+			"static1500@1500": {
+				"beat": {
+					"maxAbs": 0.000026702880859375,
+					"pearson": 0.9999999999997143
+				},
+				"downbeat": {
+					"maxAbs": 0.000022411346435546875,
+					"pearson": 0.9999999999993914
+				}
+			},
+			"dynamic@1500": {
+				"beat": {
+					"maxAbs": 0.000027179718017578125,
+					"pearson": 0.9999999999997293
+				},
+				"downbeat": {
+					"maxAbs": 0.000026226043701171875,
+					"pearson": 0.9999999999994036
+				}
+			},
+			"dynamic@750": {
+				"beat": {
+					"maxAbs": 0.000014543533325195312,
+					"pearson": 0.9999999999995568
+				},
+				"downbeat": {
+					"maxAbs": 0.000011920928955078125,
+					"pearson": 0.9999999999994139
+				}
+			},
+			"dynamic@3000": {
+				"beat": {
+					"maxAbs": 0.00004184246063232422,
+					"pearson": 0.9999999999997172
+				},
+				"downbeat": {
+					"maxAbs": 0.00004291534423828125,
+					"pearson": 0.9999999999996421
+				}
+			}
+		}
+	},
+	"inference": {
+		"jw-let-it-in": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				484,
+				484
+			],
+			"downbeats": [
+				123,
+				123
+			],
+			"onnxSeconds": 4.8,
+			"audioSeconds": 241.6
+		},
+		"jw-same-boat": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				301,
+				301
+			],
+			"downbeats": [
+				85,
+				85
+			],
+			"onnxSeconds": 2.8,
+			"audioSeconds": 202.5
+		},
+		"jw-gravity": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				520,
+				520
+			],
+			"downbeats": [
+				118,
+				118
+			],
+			"onnxSeconds": 3.3,
+			"audioSeconds": 235.5
+		},
+		"jw-my-favorite-regret": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				539,
+				539
+			],
+			"downbeats": [
+				178,
+				178
+			],
+			"onnxSeconds": 3.8,
+			"audioSeconds": 267.2
+		},
+		"jw-california-lullabye": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				677,
+				677
+			],
+			"downbeats": [
+				172,
+				172
+			],
+			"onnxSeconds": 3.5,
+			"audioSeconds": 253.8
+		},
+		"jw-swansong": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				627,
+				627
+			],
+			"downbeats": [
+				156,
+				156
+			],
+			"onnxSeconds": 3.5,
+			"audioSeconds": 261.5
+		},
+		"jw-afterglow": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				398,
+				398
+			],
+			"downbeats": [
+				100,
+				100
+			],
+			"onnxSeconds": 2.8,
+			"audioSeconds": 207.8
+		},
+		"jw-cherubs": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				655,
+				655
+			],
+			"downbeats": [
+				169,
+				169
+			],
+			"onnxSeconds": 4.6,
+			"audioSeconds": 256.4
+		},
+		"jw-goodbye-to-spring": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				590,
+				590
+			],
+			"downbeats": [
+				159,
+				159
+			],
+			"onnxSeconds": 5.5,
+			"audioSeconds": 246.3
+		},
+		"jw-im-letting-go": {
+			"beatF70": 1,
+			"downbeatF70": 1,
+			"beats": [
+				431,
+				431
+			],
+			"downbeats": [
+				119,
+				119
+			],
+			"onnxSeconds": 3.8,
+			"audioSeconds": 192.2
+		}
+	},
+	"timing": {
+		"torchDefaultThreads": {
+			"threads": 16,
+			"secondsPerChunk": 0.56072998046875
+		},
+		"torch1Thread": {
+			"threads": 1,
+			"secondsPerChunk": 1.6397709369659423
+		},
+		"ortDefaultThreads": {
+			"secondsPerChunk": 0.853348684310913
+		},
+		"ort1Thread": {
+			"threads": 1,
+			"secondsPerChunk": 1.3128106594085693
+		},
+		"ort4Threads": {
+			"threads": 4,
+			"secondsPerChunk": 0.5356343746185303
+		},
+		"wasm1Thread": {
+			"threads": 1,
+			"loadSeconds": 0.765190566,
+			"secondsPerChunk": 4.462761849,
+			"runtime": "onnxruntime-web 1.31.1 wasm, node v22.23.1"
+		},
+		"wasm4Threads": {
+			"threads": 4,
+			"loadSeconds": 0.5568410000000004,
+			"secondsPerChunk": 4.860983703333334,
+			"runtime": "onnxruntime-web 1.31.1 wasm, node v22.23.1"
+		}
+	}
+}
