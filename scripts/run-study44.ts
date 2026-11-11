@@ -17,7 +17,7 @@ const RATE = 22050;
 // --- corpora -------------------------------------------------------------
 interface Item {
 	slug: string;
-	set: "woodward" | "mmkk" | "guitar" | "waltz" | "census";
+	set: "woodward" | "mmkk" | "other36" | "guitar" | "waltz" | "census";
 	declared: { bpm: number; meter: string } | null;
 	seconds: number;
 	readings: Record<string, Reading>;
@@ -27,6 +27,8 @@ interface Item {
 	census: Record<string, { strict: boolean; folded: boolean; meterRight: boolean }> | null;
 }
 const items: Item[] = [];
+/** The app's five dev recordings (its brief); the rest of the Study 36 corpus (JAAH 1920s sides, two meter-only slots, the jigs) is reported beside them as "other36", not registered for any ask. */
+const MMKK = new Set(["eat-all-the-clocks", "peaceful-dreams", "letter-lands", "interbellum", "mop-heart"]);
 
 const t36 = read<Tracks>("results/study36-trackers.json");
 const corpus36 = read<{ rows: { slug: string; raw: string; bpm: number | null; meter: string | null }[] }>("corpus/study36-corpus.json").rows;
@@ -42,7 +44,7 @@ const withDuration = (t: { beats: number[]; downbeats: number[] }, seconds: numb
 for (const row of corpus36) {
 	if (!t36[row.slug]?.["beatthis-small0"]) continue;
 	const seconds = statSync(`${root}${row.raw}`).size / 4 / RATE;
-	const set = row.slug.startsWith("jw-") ? "woodward" : row.slug === "three-oclock-waltz" ? "waltz" : "mmkk";
+	const set = row.slug.startsWith("jw-") ? "woodward" : row.slug === "three-oclock-waltz" ? "waltz" : MMKK.has(row.slug) ? "mmkk" : "other36";
 	const readings: Record<string, Reading> = {};
 	for (const sys of ["beatthis-small0", "beatthis-final0", "beatthis-final0-dbn", "madmom-34"]) if (t36[row.slug]![sys]) readings[sys] = withDuration(t36[row.slug]![sys]!, seconds);
 	const g41 = s41[`${row.slug}|beatthis-small0`];
@@ -138,7 +140,7 @@ const r2 = (x: number | null | undefined) => (x === null || x === undefined ? nu
 // --- Ask A: joining ------------------------------------------------------------
 console.log("== Ask A: Rule 1, adjacent half bars joined (small0)");
 const askA: Record<string, unknown> = {};
-for (const set of ["woodward", "mmkk", "guitar", "waltz", "census"] as const) {
+for (const set of ["woodward", "mmkk", "guitar", "waltz", "other36", "census"] as const) {
 	const cs = small0.filter((c) => c.set === set);
 	const withJoins = cs.filter((c) => c.profile.joins > 0);
 	const toward = cs.filter((c) => c.errAsRead !== null && c.errJoined! < c.errAsRead - 1e-9).length;
