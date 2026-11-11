@@ -164,7 +164,8 @@ corrects the printout.
 The bench's labelled judgment, beside the rule: the evidence favours the
 clause. It lifted qualities on six takes and lowered one, turned the
 only confidently-wrong draft on the shipped tracker's bars into a good
-one, named the half-diminished where production never did, and cost the
+one, named the half-diminished in seven drafts where production named it in
+three, and cost the
 ten modern songs nothing in class. What it did not fix is the
 power-chord fallback on thin takes and the hint model's missing
 half-diminished, which Arm 0 put at 25 of 40 lost positions; those are
