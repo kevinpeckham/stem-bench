@@ -316,9 +316,12 @@ Peaceful Dreams 18 of 109 fail on missing notes alone; on Letter Lands
 **No.** No pipeline clears 70 % of bars entirely right with at most 10 %
 wrong on every song; none clears it on any song but Letter Lands, which
 clears the first bar and not the second (18 % wrong). The failure, in
-order: **extra onsets** (Basic Pitch re-triggering within a sustained or
-decaying note, and ghost notes: a fifth to a half again as many onsets
-as the part has), **missed onsets** (one in six to one in four on the
+order: **extra onsets** (a fifth to a half again as many onsets as the
+part has; *corrected 2026-11-12 after Study 49: this sentence first
+called them "Basic Pitch re-triggering within a sustained or decaying
+note, and ghost notes" without having classed them. Classed, re-triggers
+are 30 % of the extras, onsets with nothing sounding 23 %, bars on the
+wrong subdivision 18 %, tails 13 %*), **missed onsets** (one in six to one in four on the
 busier songs), the **grid** on a song whose meter changes (Downline's
 23 bars read on the other subdivision), and the **octave** last, which
 the bass constraint and the lowest-note rule already reduce to a few per

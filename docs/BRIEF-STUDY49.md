@@ -196,3 +196,178 @@ percentile.
 - **The stems are clean.** As Study 48: a sampled bass rendering the
   MIDI, no fret noise or slides.
 - Deterministic; a rerun reproduces every number.
+
+## Results (2026-11-12, registration 772a253; $0; six songs, 598 bars, 32 configurations, 16 filter settings)
+
+The preflight passed: the truth, the app configuration's notes, the bass
+constraint's port and the bar grades all reproduce Study 48 exactly.
+
+### Part A: what the extra and missed onsets are (the app's configuration)
+
+Extra onsets, 582 over six songs:
+
+| song | extras | re-trigger | silence | grid | tail | one slot off | over another note |
+|---|---|---|---|---|---|---|---|
+| Peaceful Dreams | 79 | 20 | **24** | 15 | 13 | 5 | 2 |
+| Interbellum | 72 | 10 | **28** | 7 | 11 | 10 | 6 |
+| Letter Lands | 53 | 9 | **18** | 8 | 13 | 1 | 4 |
+| Eat All the Clocks | 77 | **51** | 9 | 5 | 5 | 5 | 2 |
+| Downline | 207 | 47 | 46 | **60** | 30 | 11 | 13 |
+| Mop Heart | 94 | **37** | 8 | 12 | 1 | 27 | 9 |
+| all | 582 | 174 (30 %) | 133 (23 %) | 107 (18 %) | 73 (13 %) | 59 (10 %) | 36 (6 %) |
+
+Missed onsets, 332:
+
+| song | misses | grid | no note of its class | one slot off | absorbed | late | other |
+|---|---|---|---|---|---|---|---|
+| Peaceful Dreams | 69 | 11 | 33 | 5 | 15 | 3 | 2 |
+| Interbellum | 78 | 3 | 17 | 10 | 33 | 2 | 13 |
+| Letter Lands | 14 | 8 | 4 | 1 | 1 | 0 | 0 |
+| Eat All the Clocks | 28 | 4 | 12 | 5 | 2 | 5 | 0 |
+| Downline | 99 | 47 | 32 | 11 | 2 | 5 | 2 |
+| Mop Heart | 44 | 11 | 1 | 27 | 5 | 0 | 0 |
+| all | 332 | 84 (25 %) | 99 (30 %) | 59 (18 %) | 58 (17 %) | 15 (5 %) | 17 (5 %) |
+
+("No note of its class" is `otherPitch` plus `nothing`: 71 and 28.)
+
+Which truth notes are missed: the short and the legato. Notes under
+130 ms are missed 57 % of the time against 11 % for longer notes on
+Peaceful Dreams (51 such notes), 48 % against 6 % on Interbellum (128),
+68 % against 25 % on Downline (22). A note whose predecessor runs into
+it is missed 38 % against 5 % on Peaceful Dreams, 52 % against 5 % on
+Interbellum, 31 % against 7 % on Downline. Repetition and velocity do
+not separate missed from found consistently.
+
+### Part C: Basic Pitch's knobs
+
+Main effect on bars entirely right, in points (alternative minus the
+app's value, the other four knobs held):
+
+| knob | Peaceful Dreams | Interbellum | Letter Lands | Eat All the Clocks | Downline | Mop Heart |
+|---|---|---|---|---|---|---|
+| onset threshold 0.35 | −27.2 | −15.4 | −44.5 | −27.5 | −13.9 | −23.8 |
+| frame threshold 0.2 | −2.9 | −2.2 | −8.1 | −1.1 | −2.3 | −7.5 |
+| minimum note 6 frames | −4.9 | −7.2 | −21.7 | −1.4 | −4.6 | −7.8 |
+| inferred onsets off | +0.1 | +0.9 | +1.8 | +1.4 | +1.4 | +0.5 |
+| melodia pass off | +3.7 | +5.8 | +6.6 | +4.9 | +14.4 | +2.2 |
+
+The shorter minimum note and the lower frame threshold find a few more
+of the part's notes (the shorter minimum, 0.3 to 6.6 points more of the
+truth onsets) and add more extras than they find notes on every song
+(13 to 24 points); the lower onset threshold adds 34 to 70 points of
+extras. Bars right fall on every song under each. The two passes that add notes without a detected
+onset are the ones worth turning off.
+
+**Selected:** the app's thresholds with inferred onsets and the melodia
+pass both off (`o50-f30-n11-i0-m0`).
+
+| song | bars right, the app's setting | selected | gain | wrong, selected |
+|---|---|---|---|---|
+| Peaceful Dreams | 34 % | 35 % | +0.9 | 44 % |
+| Interbellum | 26 % | 32 % | +5.8 | 51 % |
+| Letter Lands | 71 % | 76 % | +5.9 | 16 % |
+| Eat All the Clocks | 35 % | 42 % | +7.0 | 37 % |
+| Downline | 29 % | 46 % | +16.7 | 32 % |
+| Mop Heart | 39 % | 40 % | +1.1 | 47 % |
+| mean | 39.0 % | 45.2 % | +6.2 | 37.9 % |
+
+Held out: the same configuration is selected without each of five songs
+and gains on each; without Mop Heart the selection is the frame-0.2
+variant, which loses 5.3 points on Mop Heart. Positive on five of six.
+
+### Part B: the two filters
+
+On the app's notes (mean bars right 39.0 % unfiltered):
+
+- **Merge, under a sixteenth:** nothing. With a minimum note of 130 ms
+  no two notes of one pitch are that close; the window was vacuous by
+  construction, which the registration should have seen.
+- **Merge, a sixteenth:** Eat All the Clocks 35 % → 45 %, Letter Lands
+  71 % → 59 % with 3.7 % of its notes swallowed. Mean 38.5 %.
+- **Merge, an eighth:** mean 21.0 %; it swallows 13 % to 25 % of the
+  part's notes on four songs.
+- **Floor:** Downline 29 % → 44 % at 0.6 of the median; elsewhere within
+  three points either way, at a cost of 1 % to 7 % of the part's notes
+  at 0.6 and up to 18 % at 0.8. Best floor alone, mean +3.5 points.
+
+No setting but "no filter" loses at most 3 % of truth onsets on every
+song, so the selection within the bound is no filter, on the app's notes
+and on the selected configuration's. The combined pipeline is therefore
+the selected configuration alone.
+
+### Post-hoc, labelled (scripts/attribute-study49.ts)
+
+Under the selected configuration the extras fall from 582 to 436:
+re-triggers 174 → 107, silence 133 → 100, grid 107 → 70 (fewer bars
+tip onto the other subdivision), tails 73 → 65; the misses do not move
+(332 → 326). Bars entirely right, pooled: 219 → 265 of 598. Of the 333
+bars still not right, 86 fail on extras alone, 56 on misses alone, 13
+on pitch alone, 26 on the grid, 152 on more than one.
+
+### Predictions
+
+- P1 (re-triggers the largest class of extras on five of six): **wrong.**
+  Largest on two (Eat All the Clocks, Mop Heart); onsets with nothing
+  sounding are the largest on three and the grid on Downline.
+- P2a (absorbed the largest class of misses on four of six): **wrong.**
+  On one (Interbellum). P2b (notes under 130 ms missed at twice the
+  rate): right, on all three songs that have ten.
+- P3a (a shorter minimum note helps bars on four of six): **wrong, on
+  none.** It finds the short notes and buries them in extras. P3b
+  (inferred onsets off helps on four of six): right, on six, by 0.1 to
+  1.8 points.
+- P4 (the selected configuration gains 10 points): **wrong**, 6.2.
+- P5 (a filter gains 5 points, and the floor does not): **wrong** on
+  both halves. No filter survives the loss bound; the floor alone gains
+  3.5 on the mean, nearly all of it Downline.
+- P6 (the combined pipeline reaches 50 % on four of six): **wrong**, on
+  one. It does not clear Study 48's bar, as predicted.
+
+Two of eight held.
+
+### Decisions
+
+- **S49-D1: no setting recommended.** The selected configuration gains
+  6.2 points against the 10 registered; no song loses and the held-out
+  gain is positive on five of six. Reported for what it is: turning the
+  melodia pass off helps on all six songs (2 to 14 points) and inferred
+  onsets off on all six (under 2 points), neither loses a song, and
+  every loosened threshold hurts every song. The app's chord thresholds
+  are right for bass.
+- **S49-D2: no filter recommended.** Each rule that helps one song
+  swallows another's real notes.
+- **S49-D3: the line is not shown.** 35 %, 32 %, 76 %, 42 %, 46 %, 40 %
+  of bars right; Study 48's bar is cleared on no song, and the plan's
+  50 % mark on one of four 4/4 songs.
+
+### What the study changes
+
+**The analyst's sentence was wrong.** Study 48's write-up and the reply
+to the app said the extras were "mostly re-triggers inside a sustained
+or decaying note, and ghost notes" and offered a merge rule and a
+loudness floor as the next lever. Classed, re-triggers are 30 % of the
+extras and the largest class on two songs of six; with tails, 43 %. The
+merge and the floor were tested and neither survives. The sentence is
+corrected on every surface that carries it.
+
+**What is left is not a threshold.** The misses are a quarter grid, and
+otherwise short and legato notes that Basic Pitch either does not
+transcribe or joins to their neighbour; loosening it to find them costs
+more bars than it wins. A fifth of the extras, and the largest class of
+misses, are bars the tracker's grid puts on the other subdivision. The
+plan's next two items stand, with the grid moved up on this evidence:
+the line's own grid (docs/PLAN-bass-line.md item 3) and trust per bar
+(item 4).
+
+### Disclosures
+
+- $0; one registration; the scored pass ran once.
+- The smallest merge window could not act (above).
+- "Silence" is a mechanical class: a transcribed onset where the MIDI
+  has no note sounding and none of its pitch class ended within a beat.
+  Whether those are the sampled bass's release, or sound in the stem the
+  MIDI does not hold, was not tested.
+- The post-hoc attribution was run after the scored pass and is not
+  part of any prediction or decision.
+- 32 configurations chosen among on six songs; the held-out result is
+  reported and does not change the decision.

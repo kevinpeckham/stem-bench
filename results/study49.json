@@ -1,0 +1,5577 @@
+{
+	"registered": "docs/BRIEF-STUDY49.md",
+	"spend": 0,
+	"bounds": {
+		"lossBound": 0.03,
+		"d1": {
+			"gain": 0.1,
+			"worst": -0.02,
+			"heldOut": 5
+		},
+		"d2": {
+			"gain": 0.05,
+			"worst": -0.02
+		},
+		"helps": {
+			"right": 0.7,
+			"wrong": 0.1
+		}
+	},
+	"partA": {
+		"peaceful-dreams": {
+			"extras": {
+				"retrigger": 20,
+				"overOther": 2,
+				"tail": 13,
+				"silence": 24,
+				"shifted": 5,
+				"grid": 15
+			},
+			"misses": {
+				"absorbed": 15,
+				"late": 3,
+				"otherPitch": 24,
+				"nothing": 9,
+				"other": 2,
+				"shifted": 5,
+				"grid": 11
+			},
+			"features": {
+				"short": {
+					"with": 43,
+					"withMissed": 19,
+					"without": 361,
+					"withoutMissed": 50
+				},
+				"under130ms": {
+					"with": 51,
+					"withMissed": 29,
+					"without": 353,
+					"withoutMissed": 40
+				},
+				"repeated": {
+					"with": 237,
+					"withMissed": 32,
+					"without": 167,
+					"withoutMissed": 37
+				},
+				"legato": {
+					"with": 151,
+					"withMissed": 57,
+					"without": 253,
+					"withoutMissed": 12
+				},
+				"quiet": {
+					"with": 187,
+					"withMissed": 26,
+					"without": 217,
+					"withoutMissed": 43
+				}
+			}
+		},
+		"interbellum": {
+			"extras": {
+				"retrigger": 10,
+				"overOther": 6,
+				"tail": 11,
+				"silence": 28,
+				"shifted": 10,
+				"grid": 7
+			},
+			"misses": {
+				"absorbed": 33,
+				"late": 2,
+				"otherPitch": 13,
+				"nothing": 4,
+				"other": 13,
+				"shifted": 10,
+				"grid": 3
+			},
+			"features": {
+				"short": {
+					"with": 137,
+					"withMissed": 62,
+					"without": 254,
+					"withoutMissed": 16
+				},
+				"under130ms": {
+					"with": 128,
+					"withMissed": 61,
+					"without": 263,
+					"withoutMissed": 17
+				},
+				"repeated": {
+					"with": 216,
+					"withMissed": 51,
+					"without": 175,
+					"withoutMissed": 27
+				},
+				"legato": {
+					"with": 126,
+					"withMissed": 65,
+					"without": 265,
+					"withoutMissed": 13
+				},
+				"quiet": {
+					"with": 189,
+					"withMissed": 47,
+					"without": 202,
+					"withoutMissed": 31
+				}
+			}
+		},
+		"letter-lands": {
+			"extras": {
+				"retrigger": 9,
+				"overOther": 4,
+				"tail": 13,
+				"silence": 18,
+				"shifted": 1,
+				"grid": 8
+			},
+			"misses": {
+				"absorbed": 1,
+				"late": 0,
+				"otherPitch": 1,
+				"nothing": 3,
+				"other": 0,
+				"shifted": 1,
+				"grid": 8
+			},
+			"features": {
+				"short": {
+					"with": 7,
+					"withMissed": 1,
+					"without": 262,
+					"withoutMissed": 13
+				},
+				"under130ms": {
+					"with": 2,
+					"withMissed": 1,
+					"without": 267,
+					"withoutMissed": 13
+				},
+				"repeated": {
+					"with": 125,
+					"withMissed": 10,
+					"without": 144,
+					"withoutMissed": 4
+				},
+				"legato": {
+					"with": 112,
+					"withMissed": 8,
+					"without": 157,
+					"withoutMissed": 6
+				},
+				"quiet": {
+					"with": 95,
+					"withMissed": 2,
+					"without": 174,
+					"withoutMissed": 12
+				}
+			}
+		},
+		"eat-all-the-clocks": {
+			"extras": {
+				"retrigger": 51,
+				"overOther": 2,
+				"tail": 5,
+				"silence": 9,
+				"shifted": 5,
+				"grid": 5
+			},
+			"misses": {
+				"absorbed": 2,
+				"late": 5,
+				"otherPitch": 9,
+				"nothing": 3,
+				"other": 0,
+				"shifted": 5,
+				"grid": 4
+			},
+			"features": {
+				"short": {
+					"with": 3,
+					"withMissed": 3,
+					"without": 247,
+					"withoutMissed": 25
+				},
+				"under130ms": {
+					"with": 4,
+					"withMissed": 4,
+					"without": 246,
+					"withoutMissed": 24
+				},
+				"repeated": {
+					"with": 148,
+					"withMissed": 10,
+					"without": 102,
+					"withoutMissed": 18
+				},
+				"legato": {
+					"with": 166,
+					"withMissed": 21,
+					"without": 84,
+					"withoutMissed": 7
+				},
+				"quiet": {
+					"with": 10,
+					"withMissed": 9,
+					"without": 240,
+					"withoutMissed": 19
+				}
+			}
+		},
+		"downline": {
+			"extras": {
+				"retrigger": 47,
+				"overOther": 13,
+				"tail": 30,
+				"silence": 46,
+				"shifted": 11,
+				"grid": 60
+			},
+			"misses": {
+				"absorbed": 2,
+				"late": 5,
+				"otherPitch": 23,
+				"nothing": 9,
+				"other": 2,
+				"shifted": 11,
+				"grid": 47
+			},
+			"features": {
+				"short": {
+					"with": 19,
+					"withMissed": 11,
+					"without": 339,
+					"withoutMissed": 88
+				},
+				"under130ms": {
+					"with": 22,
+					"withMissed": 15,
+					"without": 336,
+					"withoutMissed": 84
+				},
+				"repeated": {
+					"with": 131,
+					"withMissed": 21,
+					"without": 227,
+					"withoutMissed": 78
+				},
+				"legato": {
+					"with": 304,
+					"withMissed": 95,
+					"without": 54,
+					"withoutMissed": 4
+				},
+				"quiet": {
+					"with": 169,
+					"withMissed": 56,
+					"without": 189,
+					"withoutMissed": 43
+				}
+			}
+		},
+		"mop-heart": {
+			"extras": {
+				"retrigger": 37,
+				"overOther": 9,
+				"tail": 1,
+				"silence": 8,
+				"shifted": 27,
+				"grid": 12
+			},
+			"misses": {
+				"absorbed": 5,
+				"late": 0,
+				"otherPitch": 1,
+				"nothing": 0,
+				"other": 0,
+				"shifted": 27,
+				"grid": 11
+			},
+			"features": {
+				"short": {
+					"with": 0,
+					"withMissed": 0,
+					"without": 333,
+					"withoutMissed": 44
+				},
+				"under130ms": {
+					"with": 2,
+					"withMissed": 2,
+					"without": 331,
+					"withoutMissed": 42
+				},
+				"repeated": {
+					"with": 39,
+					"withMissed": 7,
+					"without": 294,
+					"withoutMissed": 37
+				},
+				"legato": {
+					"with": 324,
+					"withMissed": 40,
+					"without": 9,
+					"withoutMissed": 4
+				},
+				"quiet": {
+					"with": 4,
+					"withMissed": 3,
+					"without": 329,
+					"withoutMissed": 41
+				}
+			}
+		}
+	},
+	"partC": {
+		"configs": {
+			"o50-f30-n11-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 37,
+					"oneError": 24,
+					"wrong": 48,
+					"truthOnsets": 404,
+					"found": 335,
+					"pitchRight": 301,
+					"missing": 69,
+					"extra": 79,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 18,
+					"oneError": 14,
+					"wrong": 37,
+					"truthOnsets": 391,
+					"found": 313,
+					"pitchRight": 307,
+					"missing": 78,
+					"extra": 72,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 48,
+					"oneError": 8,
+					"wrong": 12,
+					"truthOnsets": 269,
+					"found": 255,
+					"pitchRight": 252,
+					"missing": 14,
+					"extra": 53,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 25,
+					"oneError": 14,
+					"wrong": 32,
+					"truthOnsets": 250,
+					"found": 222,
+					"pitchRight": 202,
+					"missing": 28,
+					"extra": 77,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 54,
+					"oneError": 48,
+					"wrong": 84,
+					"truthOnsets": 358,
+					"found": 259,
+					"pitchRight": 250,
+					"missing": 99,
+					"extra": 207,
+					"gridDiffers": 23
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 37,
+					"oneError": 10,
+					"wrong": 48,
+					"truthOnsets": 333,
+					"found": 289,
+					"pitchRight": 266,
+					"missing": 44,
+					"extra": 94,
+					"gridDiffers": 5
+				}
+			},
+			"o50-f30-n11-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 38,
+					"oneError": 23,
+					"wrong": 48,
+					"truthOnsets": 404,
+					"found": 333,
+					"pitchRight": 299,
+					"missing": 71,
+					"extra": 73,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 20,
+					"oneError": 14,
+					"wrong": 35,
+					"truthOnsets": 391,
+					"found": 307,
+					"pitchRight": 301,
+					"missing": 84,
+					"extra": 64,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 50,
+					"oneError": 7,
+					"wrong": 11,
+					"truthOnsets": 269,
+					"found": 255,
+					"pitchRight": 250,
+					"missing": 14,
+					"extra": 49,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 28,
+					"oneError": 17,
+					"wrong": 26,
+					"truthOnsets": 250,
+					"found": 222,
+					"pitchRight": 202,
+					"missing": 28,
+					"extra": 49,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 81,
+					"oneError": 44,
+					"wrong": 61,
+					"truthOnsets": 358,
+					"found": 272,
+					"pitchRight": 262,
+					"missing": 86,
+					"extra": 132,
+					"gridDiffers": 15
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 37,
+					"oneError": 13,
+					"wrong": 45,
+					"truthOnsets": 333,
+					"found": 289,
+					"pitchRight": 266,
+					"missing": 44,
+					"extra": 84,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f30-n11-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 37,
+					"oneError": 24,
+					"wrong": 48,
+					"truthOnsets": 404,
+					"found": 335,
+					"pitchRight": 301,
+					"missing": 69,
+					"extra": 79,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 18,
+					"oneError": 14,
+					"wrong": 37,
+					"truthOnsets": 391,
+					"found": 313,
+					"pitchRight": 307,
+					"missing": 78,
+					"extra": 72,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 49,
+					"oneError": 7,
+					"wrong": 12,
+					"truthOnsets": 269,
+					"found": 255,
+					"pitchRight": 252,
+					"missing": 14,
+					"extra": 52,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 26,
+					"oneError": 13,
+					"wrong": 32,
+					"truthOnsets": 250,
+					"found": 222,
+					"pitchRight": 202,
+					"missing": 28,
+					"extra": 76,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 57,
+					"oneError": 47,
+					"wrong": 82,
+					"truthOnsets": 358,
+					"found": 260,
+					"pitchRight": 253,
+					"missing": 98,
+					"extra": 199,
+					"gridDiffers": 22
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 38,
+					"oneError": 9,
+					"wrong": 48,
+					"truthOnsets": 333,
+					"found": 289,
+					"pitchRight": 266,
+					"missing": 44,
+					"extra": 93,
+					"gridDiffers": 5
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 38,
+					"oneError": 23,
+					"wrong": 48,
+					"truthOnsets": 404,
+					"found": 333,
+					"pitchRight": 299,
+					"missing": 71,
+					"extra": 73,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 22,
+					"oneError": 12,
+					"wrong": 35,
+					"truthOnsets": 391,
+					"found": 307,
+					"pitchRight": 301,
+					"missing": 84,
+					"extra": 62,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 52,
+					"oneError": 5,
+					"wrong": 11,
+					"truthOnsets": 269,
+					"found": 255,
+					"pitchRight": 250,
+					"missing": 14,
+					"extra": 47,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 30,
+					"oneError": 15,
+					"wrong": 26,
+					"truthOnsets": 250,
+					"found": 222,
+					"pitchRight": 202,
+					"missing": 28,
+					"extra": 47,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 85,
+					"oneError": 41,
+					"wrong": 60,
+					"truthOnsets": 358,
+					"found": 273,
+					"pitchRight": 265,
+					"missing": 85,
+					"extra": 124,
+					"gridDiffers": 14
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 38,
+					"oneError": 12,
+					"wrong": 45,
+					"truthOnsets": 333,
+					"found": 289,
+					"pitchRight": 266,
+					"missing": 44,
+					"extra": 83,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f30-n6-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 28,
+					"oneError": 30,
+					"wrong": 51,
+					"truthOnsets": 404,
+					"found": 346,
+					"pitchRight": 304,
+					"missing": 58,
+					"extra": 100,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 14,
+					"oneError": 13,
+					"wrong": 42,
+					"truthOnsets": 391,
+					"found": 325,
+					"pitchRight": 314,
+					"missing": 66,
+					"extra": 101,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 27,
+					"oneError": 26,
+					"wrong": 15,
+					"truthOnsets": 269,
+					"found": 260,
+					"pitchRight": 258,
+					"missing": 9,
+					"extra": 79,
+					"gridDiffers": 1
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 25,
+					"oneError": 16,
+					"wrong": 30,
+					"truthOnsets": 250,
+					"found": 233,
+					"pitchRight": 212,
+					"missing": 17,
+					"extra": 86,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 39,
+					"oneError": 53,
+					"wrong": 94,
+					"truthOnsets": 358,
+					"found": 266,
+					"pitchRight": 251,
+					"missing": 92,
+					"extra": 258,
+					"gridDiffers": 27
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 27,
+					"oneError": 15,
+					"wrong": 53,
+					"truthOnsets": 333,
+					"found": 285,
+					"pitchRight": 263,
+					"missing": 48,
+					"extra": 126,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f30-n6-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 32,
+					"oneError": 28,
+					"wrong": 49,
+					"truthOnsets": 404,
+					"found": 342,
+					"pitchRight": 301,
+					"missing": 62,
+					"extra": 90,
+					"gridDiffers": 4
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 14,
+					"oneError": 18,
+					"wrong": 37,
+					"truthOnsets": 391,
+					"found": 320,
+					"pitchRight": 310,
+					"missing": 71,
+					"extra": 90,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 28,
+					"oneError": 28,
+					"wrong": 12,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 254,
+					"missing": 13,
+					"extra": 76,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 28,
+					"oneError": 18,
+					"wrong": 25,
+					"truthOnsets": 250,
+					"found": 234,
+					"pitchRight": 213,
+					"missing": 16,
+					"extra": 53,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 78,
+					"oneError": 41,
+					"wrong": 67,
+					"truthOnsets": 358,
+					"found": 279,
+					"pitchRight": 263,
+					"missing": 79,
+					"extra": 149,
+					"gridDiffers": 16
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 30,
+					"oneError": 15,
+					"wrong": 50,
+					"truthOnsets": 333,
+					"found": 288,
+					"pitchRight": 266,
+					"missing": 45,
+					"extra": 108,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f30-n6-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 28,
+					"oneError": 30,
+					"wrong": 51,
+					"truthOnsets": 404,
+					"found": 346,
+					"pitchRight": 304,
+					"missing": 58,
+					"extra": 98,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 14,
+					"oneError": 13,
+					"wrong": 42,
+					"truthOnsets": 391,
+					"found": 325,
+					"pitchRight": 314,
+					"missing": 66,
+					"extra": 101,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 28,
+					"oneError": 25,
+					"wrong": 15,
+					"truthOnsets": 269,
+					"found": 260,
+					"pitchRight": 258,
+					"missing": 9,
+					"extra": 78,
+					"gridDiffers": 1
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 26,
+					"oneError": 15,
+					"wrong": 30,
+					"truthOnsets": 250,
+					"found": 233,
+					"pitchRight": 212,
+					"missing": 17,
+					"extra": 85,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 41,
+					"oneError": 51,
+					"wrong": 94,
+					"truthOnsets": 358,
+					"found": 263,
+					"pitchRight": 249,
+					"missing": 95,
+					"extra": 253,
+					"gridDiffers": 28
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 28,
+					"oneError": 14,
+					"wrong": 53,
+					"truthOnsets": 333,
+					"found": 285,
+					"pitchRight": 263,
+					"missing": 48,
+					"extra": 125,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f30-n6-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 32,
+					"oneError": 28,
+					"wrong": 49,
+					"truthOnsets": 404,
+					"found": 342,
+					"pitchRight": 301,
+					"missing": 62,
+					"extra": 88,
+					"gridDiffers": 4
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 15,
+					"oneError": 18,
+					"wrong": 36,
+					"truthOnsets": 391,
+					"found": 320,
+					"pitchRight": 310,
+					"missing": 71,
+					"extra": 88,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 30,
+					"oneError": 26,
+					"wrong": 12,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 254,
+					"missing": 13,
+					"extra": 74,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 30,
+					"oneError": 16,
+					"wrong": 25,
+					"truthOnsets": 250,
+					"found": 234,
+					"pitchRight": 213,
+					"missing": 16,
+					"extra": 51,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 81,
+					"oneError": 40,
+					"wrong": 65,
+					"truthOnsets": 358,
+					"found": 278,
+					"pitchRight": 263,
+					"missing": 80,
+					"extra": 142,
+					"gridDiffers": 16
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 31,
+					"oneError": 14,
+					"wrong": 50,
+					"truthOnsets": 333,
+					"found": 288,
+					"pitchRight": 266,
+					"missing": 45,
+					"extra": 107,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f20-n11-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 29,
+					"oneError": 22,
+					"wrong": 58,
+					"truthOnsets": 404,
+					"found": 348,
+					"pitchRight": 299,
+					"missing": 56,
+					"extra": 122,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 17,
+					"oneError": 10,
+					"wrong": 42,
+					"truthOnsets": 391,
+					"found": 331,
+					"pitchRight": 310,
+					"missing": 60,
+					"extra": 93,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 42,
+					"oneError": 8,
+					"wrong": 18,
+					"truthOnsets": 269,
+					"found": 251,
+					"pitchRight": 248,
+					"missing": 18,
+					"extra": 80,
+					"gridDiffers": 3
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 25,
+					"oneError": 18,
+					"wrong": 28,
+					"truthOnsets": 250,
+					"found": 234,
+					"pitchRight": 211,
+					"missing": 16,
+					"extra": 62,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 53,
+					"oneError": 54,
+					"wrong": 79,
+					"truthOnsets": 358,
+					"found": 273,
+					"pitchRight": 258,
+					"missing": 85,
+					"extra": 195,
+					"gridDiffers": 20
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 29,
+					"oneError": 16,
+					"wrong": 50,
+					"truthOnsets": 333,
+					"found": 290,
+					"pitchRight": 258,
+					"missing": 43,
+					"extra": 109,
+					"gridDiffers": 7
+				}
+			},
+			"o50-f20-n11-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 36,
+					"oneError": 24,
+					"wrong": 49,
+					"truthOnsets": 404,
+					"found": 346,
+					"pitchRight": 297,
+					"missing": 58,
+					"extra": 83,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 22,
+					"oneError": 10,
+					"wrong": 37,
+					"truthOnsets": 391,
+					"found": 325,
+					"pitchRight": 309,
+					"missing": 66,
+					"extra": 68,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 50,
+					"oneError": 7,
+					"wrong": 11,
+					"truthOnsets": 269,
+					"found": 255,
+					"pitchRight": 251,
+					"missing": 14,
+					"extra": 52,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 29,
+					"oneError": 15,
+					"wrong": 27,
+					"truthOnsets": 250,
+					"found": 233,
+					"pitchRight": 204,
+					"missing": 17,
+					"extra": 52,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 80,
+					"oneError": 42,
+					"wrong": 64,
+					"truthOnsets": 358,
+					"found": 273,
+					"pitchRight": 259,
+					"missing": 85,
+					"extra": 143,
+					"gridDiffers": 17
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 31,
+					"oneError": 16,
+					"wrong": 48,
+					"truthOnsets": 333,
+					"found": 289,
+					"pitchRight": 259,
+					"missing": 44,
+					"extra": 92,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f20-n11-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 29,
+					"oneError": 22,
+					"wrong": 58,
+					"truthOnsets": 404,
+					"found": 348,
+					"pitchRight": 299,
+					"missing": 56,
+					"extra": 120,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 17,
+					"oneError": 10,
+					"wrong": 42,
+					"truthOnsets": 391,
+					"found": 331,
+					"pitchRight": 310,
+					"missing": 60,
+					"extra": 93,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 43,
+					"oneError": 7,
+					"wrong": 18,
+					"truthOnsets": 269,
+					"found": 251,
+					"pitchRight": 248,
+					"missing": 18,
+					"extra": 79,
+					"gridDiffers": 3
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 26,
+					"oneError": 17,
+					"wrong": 28,
+					"truthOnsets": 250,
+					"found": 234,
+					"pitchRight": 211,
+					"missing": 16,
+					"extra": 61,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 55,
+					"oneError": 53,
+					"wrong": 78,
+					"truthOnsets": 358,
+					"found": 272,
+					"pitchRight": 259,
+					"missing": 86,
+					"extra": 190,
+					"gridDiffers": 20
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 30,
+					"oneError": 15,
+					"wrong": 50,
+					"truthOnsets": 333,
+					"found": 290,
+					"pitchRight": 258,
+					"missing": 43,
+					"extra": 108,
+					"gridDiffers": 7
+				}
+			},
+			"o50-f20-n11-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 36,
+					"oneError": 24,
+					"wrong": 49,
+					"truthOnsets": 404,
+					"found": 346,
+					"pitchRight": 297,
+					"missing": 58,
+					"extra": 81,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 23,
+					"oneError": 10,
+					"wrong": 36,
+					"truthOnsets": 391,
+					"found": 325,
+					"pitchRight": 309,
+					"missing": 66,
+					"extra": 66,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 52,
+					"oneError": 5,
+					"wrong": 11,
+					"truthOnsets": 269,
+					"found": 255,
+					"pitchRight": 251,
+					"missing": 14,
+					"extra": 50,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 31,
+					"oneError": 13,
+					"wrong": 27,
+					"truthOnsets": 250,
+					"found": 233,
+					"pitchRight": 204,
+					"missing": 17,
+					"extra": 50,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 84,
+					"oneError": 39,
+					"wrong": 63,
+					"truthOnsets": 358,
+					"found": 274,
+					"pitchRight": 262,
+					"missing": 84,
+					"extra": 135,
+					"gridDiffers": 16
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 32,
+					"oneError": 15,
+					"wrong": 48,
+					"truthOnsets": 333,
+					"found": 289,
+					"pitchRight": 259,
+					"missing": 44,
+					"extra": 91,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f20-n6-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 12,
+					"oneError": 32,
+					"wrong": 65,
+					"truthOnsets": 404,
+					"found": 352,
+					"pitchRight": 303,
+					"missing": 52,
+					"extra": 194,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 6,
+					"oneError": 11,
+					"wrong": 52,
+					"truthOnsets": 391,
+					"found": 344,
+					"pitchRight": 303,
+					"missing": 47,
+					"extra": 142,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 11,
+					"oneError": 27,
+					"wrong": 30,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 253,
+					"missing": 13,
+					"extra": 128,
+					"gridDiffers": 3
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 21,
+					"oneError": 19,
+					"wrong": 31,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 220,
+					"missing": 7,
+					"extra": 81,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 39,
+					"oneError": 55,
+					"wrong": 92,
+					"truthOnsets": 358,
+					"found": 282,
+					"pitchRight": 259,
+					"missing": 76,
+					"extra": 245,
+					"gridDiffers": 23
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 7,
+					"oneError": 11,
+					"wrong": 77,
+					"truthOnsets": 333,
+					"found": 280,
+					"pitchRight": 238,
+					"missing": 53,
+					"extra": 246,
+					"gridDiffers": 10
+				}
+			},
+			"o50-f20-n6-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 32,
+					"oneError": 27,
+					"wrong": 50,
+					"truthOnsets": 404,
+					"found": 351,
+					"pitchRight": 300,
+					"missing": 53,
+					"extra": 100,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 15,
+					"oneError": 15,
+					"wrong": 39,
+					"truthOnsets": 391,
+					"found": 336,
+					"pitchRight": 310,
+					"missing": 55,
+					"extra": 93,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 27,
+					"oneError": 28,
+					"wrong": 13,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 253,
+					"missing": 12,
+					"extra": 79,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 28,
+					"oneError": 18,
+					"wrong": 25,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 213,
+					"missing": 7,
+					"extra": 57,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 76,
+					"oneError": 42,
+					"wrong": 68,
+					"truthOnsets": 358,
+					"found": 287,
+					"pitchRight": 265,
+					"missing": 71,
+					"extra": 154,
+					"gridDiffers": 16
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 19,
+					"oneError": 20,
+					"wrong": 56,
+					"truthOnsets": 333,
+					"found": 284,
+					"pitchRight": 247,
+					"missing": 49,
+					"extra": 123,
+					"gridDiffers": 6
+				}
+			},
+			"o50-f20-n6-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 12,
+					"oneError": 32,
+					"wrong": 65,
+					"truthOnsets": 404,
+					"found": 352,
+					"pitchRight": 303,
+					"missing": 52,
+					"extra": 192,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 6,
+					"oneError": 11,
+					"wrong": 52,
+					"truthOnsets": 391,
+					"found": 344,
+					"pitchRight": 303,
+					"missing": 47,
+					"extra": 142,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 12,
+					"oneError": 26,
+					"wrong": 30,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 253,
+					"missing": 13,
+					"extra": 127,
+					"gridDiffers": 3
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 22,
+					"oneError": 18,
+					"wrong": 31,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 220,
+					"missing": 7,
+					"extra": 80,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 41,
+					"oneError": 55,
+					"wrong": 90,
+					"truthOnsets": 358,
+					"found": 282,
+					"pitchRight": 260,
+					"missing": 76,
+					"extra": 240,
+					"gridDiffers": 23
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 8,
+					"oneError": 10,
+					"wrong": 77,
+					"truthOnsets": 333,
+					"found": 280,
+					"pitchRight": 238,
+					"missing": 53,
+					"extra": 245,
+					"gridDiffers": 10
+				}
+			},
+			"o50-f20-n6-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 32,
+					"oneError": 27,
+					"wrong": 50,
+					"truthOnsets": 404,
+					"found": 351,
+					"pitchRight": 300,
+					"missing": 53,
+					"extra": 98,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 16,
+					"oneError": 15,
+					"wrong": 38,
+					"truthOnsets": 391,
+					"found": 336,
+					"pitchRight": 310,
+					"missing": 55,
+					"extra": 91,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 29,
+					"oneError": 26,
+					"wrong": 13,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 253,
+					"missing": 12,
+					"extra": 77,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 30,
+					"oneError": 16,
+					"wrong": 25,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 213,
+					"missing": 7,
+					"extra": 55,
+					"gridDiffers": 0
+				},
+				"downline": {
+					"bars": 186,
+					"right": 79,
+					"oneError": 42,
+					"wrong": 65,
+					"truthOnsets": 358,
+					"found": 288,
+					"pitchRight": 267,
+					"missing": 70,
+					"extra": 145,
+					"gridDiffers": 15
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 20,
+					"oneError": 19,
+					"wrong": 56,
+					"truthOnsets": 333,
+					"found": 284,
+					"pitchRight": 247,
+					"missing": 49,
+					"extra": 122,
+					"gridDiffers": 6
+				}
+			},
+			"o35-f30-n11-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 1,
+					"oneError": 9,
+					"wrong": 99,
+					"truthOnsets": 404,
+					"found": 349,
+					"pitchRight": 301,
+					"missing": 55,
+					"extra": 290,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 6,
+					"oneError": 6,
+					"wrong": 57,
+					"truthOnsets": 391,
+					"found": 317,
+					"pitchRight": 299,
+					"missing": 74,
+					"extra": 167,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 12,
+					"oneError": 12,
+					"wrong": 44,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 239,
+					"missing": 13,
+					"extra": 147,
+					"gridDiffers": 0
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 7,
+					"oneError": 6,
+					"wrong": 58,
+					"truthOnsets": 250,
+					"found": 211,
+					"pitchRight": 174,
+					"missing": 39,
+					"extra": 216,
+					"gridDiffers": 3
+				},
+				"downline": {
+					"bars": 186,
+					"right": 36,
+					"oneError": 32,
+					"wrong": 118,
+					"truthOnsets": 358,
+					"found": 263,
+					"pitchRight": 237,
+					"missing": 95,
+					"extra": 313,
+					"gridDiffers": 27
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 8,
+					"oneError": 9,
+					"wrong": 78,
+					"truthOnsets": 333,
+					"found": 241,
+					"pitchRight": 192,
+					"missing": 92,
+					"extra": 245,
+					"gridDiffers": 11
+				}
+			},
+			"o35-f30-n11-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 1,
+					"oneError": 9,
+					"wrong": 99,
+					"truthOnsets": 404,
+					"found": 348,
+					"pitchRight": 300,
+					"missing": 56,
+					"extra": 284,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 8,
+					"oneError": 8,
+					"wrong": 53,
+					"truthOnsets": 391,
+					"found": 312,
+					"pitchRight": 294,
+					"missing": 79,
+					"extra": 161,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 12,
+					"oneError": 13,
+					"wrong": 43,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 238,
+					"missing": 13,
+					"extra": 144,
+					"gridDiffers": 0
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 8,
+					"oneError": 7,
+					"wrong": 56,
+					"truthOnsets": 250,
+					"found": 211,
+					"pitchRight": 173,
+					"missing": 39,
+					"extra": 198,
+					"gridDiffers": 3
+				},
+				"downline": {
+					"bars": 186,
+					"right": 51,
+					"oneError": 34,
+					"wrong": 101,
+					"truthOnsets": 358,
+					"found": 269,
+					"pitchRight": 242,
+					"missing": 89,
+					"extra": 249,
+					"gridDiffers": 22
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 8,
+					"oneError": 9,
+					"wrong": 78,
+					"truthOnsets": 333,
+					"found": 234,
+					"pitchRight": 183,
+					"missing": 99,
+					"extra": 224,
+					"gridDiffers": 13
+				}
+			},
+			"o35-f30-n11-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 2,
+					"oneError": 8,
+					"wrong": 99,
+					"truthOnsets": 404,
+					"found": 349,
+					"pitchRight": 301,
+					"missing": 55,
+					"extra": 289,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 6,
+					"oneError": 6,
+					"wrong": 57,
+					"truthOnsets": 391,
+					"found": 317,
+					"pitchRight": 299,
+					"missing": 74,
+					"extra": 167,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 13,
+					"oneError": 11,
+					"wrong": 44,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 239,
+					"missing": 13,
+					"extra": 146,
+					"gridDiffers": 0
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 7,
+					"oneError": 7,
+					"wrong": 57,
+					"truthOnsets": 250,
+					"found": 211,
+					"pitchRight": 174,
+					"missing": 39,
+					"extra": 215,
+					"gridDiffers": 3
+				},
+				"downline": {
+					"bars": 186,
+					"right": 39,
+					"oneError": 32,
+					"wrong": 115,
+					"truthOnsets": 358,
+					"found": 264,
+					"pitchRight": 240,
+					"missing": 94,
+					"extra": 302,
+					"gridDiffers": 26
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 8,
+					"oneError": 10,
+					"wrong": 77,
+					"truthOnsets": 333,
+					"found": 241,
+					"pitchRight": 192,
+					"missing": 92,
+					"extra": 244,
+					"gridDiffers": 10
+				}
+			},
+			"o35-f30-n11-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 2,
+					"oneError": 8,
+					"wrong": 99,
+					"truthOnsets": 404,
+					"found": 348,
+					"pitchRight": 300,
+					"missing": 56,
+					"extra": 283,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 10,
+					"oneError": 6,
+					"wrong": 53,
+					"truthOnsets": 391,
+					"found": 312,
+					"pitchRight": 294,
+					"missing": 79,
+					"extra": 159,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 13,
+					"oneError": 13,
+					"wrong": 42,
+					"truthOnsets": 269,
+					"found": 256,
+					"pitchRight": 238,
+					"missing": 13,
+					"extra": 142,
+					"gridDiffers": 0
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 9,
+					"oneError": 7,
+					"wrong": 55,
+					"truthOnsets": 250,
+					"found": 211,
+					"pitchRight": 173,
+					"missing": 39,
+					"extra": 196,
+					"gridDiffers": 3
+				},
+				"downline": {
+					"bars": 186,
+					"right": 55,
+					"oneError": 33,
+					"wrong": 98,
+					"truthOnsets": 358,
+					"found": 270,
+					"pitchRight": 245,
+					"missing": 88,
+					"extra": 238,
+					"gridDiffers": 21
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 8,
+					"oneError": 10,
+					"wrong": 77,
+					"truthOnsets": 333,
+					"found": 234,
+					"pitchRight": 183,
+					"missing": 99,
+					"extra": 223,
+					"gridDiffers": 12
+				}
+			},
+			"o35-f30-n6-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 6,
+					"wrong": 103,
+					"truthOnsets": 404,
+					"found": 362,
+					"pitchRight": 306,
+					"missing": 42,
+					"extra": 376,
+					"gridDiffers": 4
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 4,
+					"oneError": 5,
+					"wrong": 60,
+					"truthOnsets": 391,
+					"found": 362,
+					"pitchRight": 337,
+					"missing": 29,
+					"extra": 248,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 4,
+					"oneError": 9,
+					"wrong": 55,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 239,
+					"missing": 12,
+					"extra": 224,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 7,
+					"oneError": 2,
+					"wrong": 62,
+					"truthOnsets": 250,
+					"found": 235,
+					"pitchRight": 213,
+					"missing": 15,
+					"extra": 268,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 27,
+					"oneError": 35,
+					"wrong": 124,
+					"truthOnsets": 358,
+					"found": 278,
+					"pitchRight": 250,
+					"missing": 80,
+					"extra": 384,
+					"gridDiffers": 28
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 5,
+					"oneError": 5,
+					"wrong": 85,
+					"truthOnsets": 333,
+					"found": 271,
+					"pitchRight": 221,
+					"missing": 62,
+					"extra": 317,
+					"gridDiffers": 12
+				}
+			},
+			"o35-f30-n6-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 5,
+					"wrong": 104,
+					"truthOnsets": 404,
+					"found": 362,
+					"pitchRight": 304,
+					"missing": 42,
+					"extra": 367,
+					"gridDiffers": 4
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 5,
+					"oneError": 8,
+					"wrong": 56,
+					"truthOnsets": 391,
+					"found": 362,
+					"pitchRight": 337,
+					"missing": 29,
+					"extra": 241,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 4,
+					"oneError": 9,
+					"wrong": 55,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 238,
+					"missing": 12,
+					"extra": 220,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 8,
+					"oneError": 2,
+					"wrong": 61,
+					"truthOnsets": 250,
+					"found": 235,
+					"pitchRight": 213,
+					"missing": 15,
+					"extra": 247,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 48,
+					"oneError": 29,
+					"wrong": 109,
+					"truthOnsets": 358,
+					"found": 284,
+					"pitchRight": 255,
+					"missing": 74,
+					"extra": 291,
+					"gridDiffers": 22
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 5,
+					"oneError": 5,
+					"wrong": 85,
+					"truthOnsets": 333,
+					"found": 271,
+					"pitchRight": 221,
+					"missing": 62,
+					"extra": 308,
+					"gridDiffers": 12
+				}
+			},
+			"o35-f30-n6-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 7,
+					"wrong": 102,
+					"truthOnsets": 404,
+					"found": 362,
+					"pitchRight": 306,
+					"missing": 42,
+					"extra": 373,
+					"gridDiffers": 4
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 4,
+					"oneError": 5,
+					"wrong": 60,
+					"truthOnsets": 391,
+					"found": 362,
+					"pitchRight": 337,
+					"missing": 29,
+					"extra": 248,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 5,
+					"oneError": 8,
+					"wrong": 55,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 239,
+					"missing": 12,
+					"extra": 223,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 7,
+					"oneError": 3,
+					"wrong": 61,
+					"truthOnsets": 250,
+					"found": 235,
+					"pitchRight": 213,
+					"missing": 15,
+					"extra": 266,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 29,
+					"oneError": 34,
+					"wrong": 123,
+					"truthOnsets": 358,
+					"found": 276,
+					"pitchRight": 249,
+					"missing": 82,
+					"extra": 377,
+					"gridDiffers": 29
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 5,
+					"oneError": 6,
+					"wrong": 84,
+					"truthOnsets": 333,
+					"found": 271,
+					"pitchRight": 221,
+					"missing": 62,
+					"extra": 316,
+					"gridDiffers": 11
+				}
+			},
+			"o35-f30-n6-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 6,
+					"wrong": 103,
+					"truthOnsets": 404,
+					"found": 362,
+					"pitchRight": 304,
+					"missing": 42,
+					"extra": 364,
+					"gridDiffers": 4
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 6,
+					"oneError": 8,
+					"wrong": 55,
+					"truthOnsets": 391,
+					"found": 362,
+					"pitchRight": 337,
+					"missing": 29,
+					"extra": 239,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 5,
+					"oneError": 9,
+					"wrong": 54,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 238,
+					"missing": 12,
+					"extra": 218,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 9,
+					"oneError": 2,
+					"wrong": 60,
+					"truthOnsets": 250,
+					"found": 235,
+					"pitchRight": 213,
+					"missing": 15,
+					"extra": 245,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 50,
+					"oneError": 29,
+					"wrong": 107,
+					"truthOnsets": 358,
+					"found": 282,
+					"pitchRight": 254,
+					"missing": 76,
+					"extra": 284,
+					"gridDiffers": 23
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 5,
+					"oneError": 6,
+					"wrong": 84,
+					"truthOnsets": 333,
+					"found": 271,
+					"pitchRight": 221,
+					"missing": 62,
+					"extra": 307,
+					"gridDiffers": 11
+				}
+			},
+			"o35-f20-n11-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 2,
+					"oneError": 1,
+					"wrong": 106,
+					"truthOnsets": 404,
+					"found": 367,
+					"pitchRight": 295,
+					"missing": 37,
+					"extra": 340,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 4,
+					"oneError": 4,
+					"wrong": 61,
+					"truthOnsets": 391,
+					"found": 350,
+					"pitchRight": 284,
+					"missing": 41,
+					"extra": 211,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 2,
+					"oneError": 12,
+					"wrong": 54,
+					"truthOnsets": 269,
+					"found": 261,
+					"pitchRight": 216,
+					"missing": 8,
+					"extra": 179,
+					"gridDiffers": 1
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 7,
+					"oneError": 7,
+					"wrong": 57,
+					"truthOnsets": 250,
+					"found": 220,
+					"pitchRight": 165,
+					"missing": 30,
+					"extra": 222,
+					"gridDiffers": 5
+				},
+				"downline": {
+					"bars": 186,
+					"right": 26,
+					"oneError": 45,
+					"wrong": 115,
+					"truthOnsets": 358,
+					"found": 279,
+					"pitchRight": 242,
+					"missing": 79,
+					"extra": 317,
+					"gridDiffers": 19
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 4,
+					"oneError": 6,
+					"wrong": 85,
+					"truthOnsets": 333,
+					"found": 268,
+					"pitchRight": 172,
+					"missing": 65,
+					"extra": 252,
+					"gridDiffers": 10
+				}
+			},
+			"o35-f20-n11-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 2,
+					"oneError": 2,
+					"wrong": 105,
+					"truthOnsets": 404,
+					"found": 366,
+					"pitchRight": 293,
+					"missing": 38,
+					"extra": 321,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 8,
+					"oneError": 5,
+					"wrong": 56,
+					"truthOnsets": 391,
+					"found": 350,
+					"pitchRight": 287,
+					"missing": 41,
+					"extra": 189,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 6,
+					"oneError": 11,
+					"wrong": 51,
+					"truthOnsets": 269,
+					"found": 261,
+					"pitchRight": 215,
+					"missing": 8,
+					"extra": 152,
+					"gridDiffers": 1
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 8,
+					"oneError": 8,
+					"wrong": 55,
+					"truthOnsets": 250,
+					"found": 224,
+					"pitchRight": 168,
+					"missing": 26,
+					"extra": 208,
+					"gridDiffers": 4
+				},
+				"downline": {
+					"bars": 186,
+					"right": 49,
+					"oneError": 33,
+					"wrong": 104,
+					"truthOnsets": 358,
+					"found": 280,
+					"pitchRight": 241,
+					"missing": 78,
+					"extra": 264,
+					"gridDiffers": 18
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 4,
+					"oneError": 7,
+					"wrong": 84,
+					"truthOnsets": 333,
+					"found": 269,
+					"pitchRight": 173,
+					"missing": 64,
+					"extra": 232,
+					"gridDiffers": 9
+				}
+			},
+			"o35-f20-n11-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 2,
+					"oneError": 1,
+					"wrong": 106,
+					"truthOnsets": 404,
+					"found": 367,
+					"pitchRight": 295,
+					"missing": 37,
+					"extra": 336,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 4,
+					"oneError": 4,
+					"wrong": 61,
+					"truthOnsets": 391,
+					"found": 350,
+					"pitchRight": 284,
+					"missing": 41,
+					"extra": 211,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 3,
+					"oneError": 11,
+					"wrong": 54,
+					"truthOnsets": 269,
+					"found": 261,
+					"pitchRight": 216,
+					"missing": 8,
+					"extra": 178,
+					"gridDiffers": 1
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 7,
+					"oneError": 8,
+					"wrong": 56,
+					"truthOnsets": 250,
+					"found": 220,
+					"pitchRight": 165,
+					"missing": 30,
+					"extra": 221,
+					"gridDiffers": 5
+				},
+				"downline": {
+					"bars": 186,
+					"right": 28,
+					"oneError": 46,
+					"wrong": 112,
+					"truthOnsets": 358,
+					"found": 274,
+					"pitchRight": 239,
+					"missing": 84,
+					"extra": 312,
+					"gridDiffers": 20
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 4,
+					"oneError": 7,
+					"wrong": 84,
+					"truthOnsets": 333,
+					"found": 268,
+					"pitchRight": 172,
+					"missing": 65,
+					"extra": 251,
+					"gridDiffers": 9
+				}
+			},
+			"o35-f20-n11-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 2,
+					"oneError": 2,
+					"wrong": 105,
+					"truthOnsets": 404,
+					"found": 366,
+					"pitchRight": 293,
+					"missing": 38,
+					"extra": 317,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 9,
+					"oneError": 5,
+					"wrong": 55,
+					"truthOnsets": 391,
+					"found": 350,
+					"pitchRight": 287,
+					"missing": 41,
+					"extra": 187,
+					"gridDiffers": 1
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 7,
+					"oneError": 11,
+					"wrong": 50,
+					"truthOnsets": 269,
+					"found": 261,
+					"pitchRight": 215,
+					"missing": 8,
+					"extra": 150,
+					"gridDiffers": 1
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 9,
+					"oneError": 8,
+					"wrong": 54,
+					"truthOnsets": 250,
+					"found": 224,
+					"pitchRight": 168,
+					"missing": 26,
+					"extra": 206,
+					"gridDiffers": 4
+				},
+				"downline": {
+					"bars": 186,
+					"right": 52,
+					"oneError": 33,
+					"wrong": 101,
+					"truthOnsets": 358,
+					"found": 277,
+					"pitchRight": 240,
+					"missing": 81,
+					"extra": 256,
+					"gridDiffers": 18
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 4,
+					"oneError": 8,
+					"wrong": 83,
+					"truthOnsets": 333,
+					"found": 269,
+					"pitchRight": 173,
+					"missing": 64,
+					"extra": 231,
+					"gridDiffers": 8
+				}
+			},
+			"o35-f20-n6-i1-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 0,
+					"wrong": 109,
+					"truthOnsets": 404,
+					"found": 374,
+					"pitchRight": 303,
+					"missing": 30,
+					"extra": 441,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 1,
+					"oneError": 6,
+					"wrong": 62,
+					"truthOnsets": 391,
+					"found": 374,
+					"pitchRight": 321,
+					"missing": 17,
+					"extra": 296,
+					"gridDiffers": 3
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 0,
+					"oneError": 5,
+					"wrong": 63,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 219,
+					"missing": 12,
+					"extra": 258,
+					"gridDiffers": 3
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 4,
+					"oneError": 4,
+					"wrong": 63,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 209,
+					"missing": 7,
+					"extra": 295,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 18,
+					"oneError": 37,
+					"wrong": 131,
+					"truthOnsets": 358,
+					"found": 288,
+					"pitchRight": 233,
+					"missing": 70,
+					"extra": 394,
+					"gridDiffers": 25
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 3,
+					"oneError": 2,
+					"wrong": 90,
+					"truthOnsets": 333,
+					"found": 282,
+					"pitchRight": 175,
+					"missing": 51,
+					"extra": 389,
+					"gridDiffers": 11
+				}
+			},
+			"o35-f20-n6-i1-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 2,
+					"wrong": 107,
+					"truthOnsets": 404,
+					"found": 373,
+					"pitchRight": 302,
+					"missing": 31,
+					"extra": 395,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 5,
+					"oneError": 7,
+					"wrong": 57,
+					"truthOnsets": 391,
+					"found": 374,
+					"pitchRight": 329,
+					"missing": 17,
+					"extra": 264,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 3,
+					"oneError": 6,
+					"wrong": 59,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 219,
+					"missing": 12,
+					"extra": 231,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 8,
+					"oneError": 2,
+					"wrong": 61,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 208,
+					"missing": 7,
+					"extra": 272,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 40,
+					"oneError": 34,
+					"wrong": 112,
+					"truthOnsets": 358,
+					"found": 294,
+					"pitchRight": 239,
+					"missing": 64,
+					"extra": 313,
+					"gridDiffers": 22
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 3,
+					"oneError": 4,
+					"wrong": 88,
+					"truthOnsets": 333,
+					"found": 274,
+					"pitchRight": 170,
+					"missing": 59,
+					"extra": 348,
+					"gridDiffers": 13
+				}
+			},
+			"o35-f20-n6-i0-m1": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 0,
+					"wrong": 109,
+					"truthOnsets": 404,
+					"found": 374,
+					"pitchRight": 303,
+					"missing": 30,
+					"extra": 437,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 1,
+					"oneError": 6,
+					"wrong": 62,
+					"truthOnsets": 391,
+					"found": 374,
+					"pitchRight": 321,
+					"missing": 17,
+					"extra": 296,
+					"gridDiffers": 3
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 1,
+					"oneError": 4,
+					"wrong": 63,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 219,
+					"missing": 12,
+					"extra": 257,
+					"gridDiffers": 3
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 4,
+					"oneError": 5,
+					"wrong": 62,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 209,
+					"missing": 7,
+					"extra": 294,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 20,
+					"oneError": 37,
+					"wrong": 129,
+					"truthOnsets": 358,
+					"found": 288,
+					"pitchRight": 234,
+					"missing": 70,
+					"extra": 386,
+					"gridDiffers": 25
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 3,
+					"oneError": 3,
+					"wrong": 89,
+					"truthOnsets": 333,
+					"found": 282,
+					"pitchRight": 175,
+					"missing": 51,
+					"extra": 388,
+					"gridDiffers": 10
+				}
+			},
+			"o35-f20-n6-i0-m0": {
+				"peaceful-dreams": {
+					"bars": 109,
+					"right": 0,
+					"oneError": 2,
+					"wrong": 107,
+					"truthOnsets": 404,
+					"found": 373,
+					"pitchRight": 302,
+					"missing": 31,
+					"extra": 391,
+					"gridDiffers": 3
+				},
+				"interbellum": {
+					"bars": 69,
+					"right": 6,
+					"oneError": 7,
+					"wrong": 56,
+					"truthOnsets": 391,
+					"found": 374,
+					"pitchRight": 329,
+					"missing": 17,
+					"extra": 262,
+					"gridDiffers": 2
+				},
+				"letter-lands": {
+					"bars": 68,
+					"right": 4,
+					"oneError": 6,
+					"wrong": 58,
+					"truthOnsets": 269,
+					"found": 257,
+					"pitchRight": 219,
+					"missing": 12,
+					"extra": 229,
+					"gridDiffers": 2
+				},
+				"eat-all-the-clocks": {
+					"bars": 71,
+					"right": 9,
+					"oneError": 2,
+					"wrong": 60,
+					"truthOnsets": 250,
+					"found": 243,
+					"pitchRight": 208,
+					"missing": 7,
+					"extra": 270,
+					"gridDiffers": 1
+				},
+				"downline": {
+					"bars": 186,
+					"right": 42,
+					"oneError": 35,
+					"wrong": 109,
+					"truthOnsets": 358,
+					"found": 294,
+					"pitchRight": 240,
+					"missing": 64,
+					"extra": 305,
+					"gridDiffers": 22
+				},
+				"mop-heart": {
+					"bars": 95,
+					"right": 3,
+					"oneError": 5,
+					"wrong": 87,
+					"truthOnsets": 333,
+					"found": 274,
+					"pitchRight": 170,
+					"missing": 59,
+					"extra": 347,
+					"gridDiffers": 12
+				}
+			}
+		},
+		"effects": {
+			"onset 0.35": {
+				"peaceful-dreams": {
+					"right": -0.2717889908256881,
+					"found": 0.045792079207920805,
+					"extra": 0.6086014851485149
+				},
+				"interbellum": {
+					"right": -0.15398550724637677,
+					"found": 0.06393861892583119,
+					"extra": 0.33695652173913043
+				},
+				"letter-lands": {
+					"right": -0.4448529411764706,
+					"found": 0.007899628252788105,
+					"extra": 0.445631970260223
+				},
+				"eat-all-the-clocks": {
+					"right": -0.2746478873239437,
+					"found": -0.020999999999999998,
+					"extra": 0.7042499999999998
+				},
+				"downline": {
+					"right": -0.13877688172043012,
+					"found": 0.013791899441340783,
+					"extra": 0.3620810055865922
+				},
+				"mop-heart": {
+					"right": -0.23815789473684212,
+					"found": -0.06906906906906905,
+					"extra": 0.5003753753753755
+				}
+			},
+			"frame 0.2": {
+				"peaceful-dreams": {
+					"right": -0.028669724770642203,
+					"found": 0.03094059405940594,
+					"extra": 0.10241336633663367
+				},
+				"interbellum": {
+					"right": -0.021739130434782608,
+					"found": 0.05306905370843989,
+					"extra": 0.06777493606138109
+				},
+				"letter-lands": {
+					"right": -0.08088235294117646,
+					"found": 0.0013940520446096658,
+					"extra": 0.07760223048327139
+				},
+				"eat-all-the-clocks": {
+					"right": -0.01056338028169014,
+					"found": 0.04,
+					"extra": 0.027749999999999997
+				},
+				"downline": {
+					"right": -0.023185483870967742,
+					"found": 0.029504189944134084,
+					"extra": 0.01606145251396648
+				},
+				"mop-heart": {
+					"right": -0.075,
+					"found": 0.025525525525525526,
+					"extra": 0.10698198198198197
+				}
+			},
+			"minLen 6": {
+				"peaceful-dreams": {
+					"right": -0.04931192660550458,
+					"found": 0.021658415841584164,
+					"extra": 0.14449257425742576
+				},
+				"interbellum": {
+					"right": -0.07246376811594203,
+					"found": 0.06138107416879794,
+					"extra": 0.14386189258312018
+				},
+				"letter-lands": {
+					"right": -0.21691176470588233,
+					"found": 0.0032527881040892207,
+					"extra": 0.2039962825278811
+				},
+				"eat-all-the-clocks": {
+					"right": -0.014084507042253523,
+					"found": 0.06599999999999999,
+					"extra": 0.13724999999999998
+				},
+				"downline": {
+					"right": -0.04603494623655913,
+					"found": 0.030900837988826816,
+					"extra": 0.1298882681564246
+				},
+				"mop-heart": {
+					"right": -0.07763157894736845,
+					"found": 0.02477477477477477,
+					"extra": 0.23761261261261263
+				}
+			},
+			"infer off": {
+				"peaceful-dreams": {
+					"right": 0.0011467889908256881,
+					"found": 0,
+					"extra": -0.005569306930693069
+				},
+				"interbellum": {
+					"right": 0.009057971014492752,
+					"found": 0,
+					"extra": -0.0025575447570332483
+				},
+				"letter-lands": {
+					"right": 0.01838235294117645,
+					"found": 0,
+					"extra": -0.00557620817843866
+				},
+				"eat-all-the-clocks": {
+					"right": 0.014084507042253523,
+					"found": 0,
+					"extra": -0.006250000000000002
+				},
+				"downline": {
+					"right": 0.01444892473118279,
+					"found": -0.0019203910614525137,
+					"extra": -0.020949720670391057
+				},
+				"mop-heart": {
+					"right": 0.005263157894736843,
+					"found": 0,
+					"extra": -0.003003003003003004
+				}
+			},
+			"melodia off": {
+				"peaceful-dreams": {
+					"right": 0.03669724770642202,
+					"found": -0.0037128712871287136,
+					"extra": -0.07085396039603963
+				},
+				"interbellum": {
+					"right": 0.057971014492753624,
+					"found": -0.00959079283887468,
+					"extra": -0.053708439897698204
+				},
+				"letter-lands": {
+					"right": 0.0661764705882353,
+					"found": 0.00046468401486988845,
+					"extra": -0.0692379182156134
+				},
+				"eat-all-the-clocks": {
+					"right": 0.049295774647887314,
+					"found": 0.002,
+					"extra": -0.08725000000000002
+				},
+				"downline": {
+					"right": 0.14415322580645157,
+					"found": 0.018680167597765366,
+					"extra": -0.21787709497206703
+				},
+				"mop-heart": {
+					"right": 0.022368421052631583,
+					"found": -0.003003003003003003,
+					"extra": -0.09722222222222221
+				}
+			}
+		},
+		"selected": "o50-f30-n11-i0-m0",
+		"gain": {
+			"peaceful-dreams": 0.009174311926605505,
+			"interbellum": 0.0579710144927536,
+			"letter-lands": 0.05882352941176461,
+			"eat-all-the-clocks": 0.07042253521126762,
+			"downline": 0.16666666666666663,
+			"mop-heart": 0.010526315789473717
+		},
+		"heldOut": [
+			{
+				"slug": "peaceful-dreams",
+				"pick": "o50-f30-n11-i0-m0",
+				"gain": 0.009174311926605505
+			},
+			{
+				"slug": "interbellum",
+				"pick": "o50-f30-n11-i0-m0",
+				"gain": 0.0579710144927536
+			},
+			{
+				"slug": "letter-lands",
+				"pick": "o50-f30-n11-i0-m0",
+				"gain": 0.05882352941176461
+			},
+			{
+				"slug": "eat-all-the-clocks",
+				"pick": "o50-f30-n11-i0-m0",
+				"gain": 0.07042253521126762
+			},
+			{
+				"slug": "downline",
+				"pick": "o50-f30-n11-i0-m0",
+				"gain": 0.16666666666666663
+			},
+			{
+				"slug": "mop-heart",
+				"pick": "o50-f20-n11-i0-m0",
+				"gain": -0.05263157894736842
+			}
+		]
+	},
+	"partB": {
+		"app": {
+			"settings": {
+				"woff-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 24,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"found": 335,
+						"pitchRight": 301,
+						"missing": 69,
+						"extra": 79,
+						"gridDiffers": 3,
+						"lost": 0
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 14,
+						"wrong": 37,
+						"truthOnsets": 391,
+						"found": 313,
+						"pitchRight": 307,
+						"missing": 78,
+						"extra": 72,
+						"gridDiffers": 2,
+						"lost": 0
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 255,
+						"pitchRight": 252,
+						"missing": 14,
+						"extra": 53,
+						"gridDiffers": 2,
+						"lost": 0
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 25,
+						"oneError": 14,
+						"wrong": 32,
+						"truthOnsets": 250,
+						"found": 222,
+						"pitchRight": 202,
+						"missing": 28,
+						"extra": 77,
+						"gridDiffers": 1,
+						"lost": 0
+					},
+					"downline": {
+						"bars": 186,
+						"right": 54,
+						"oneError": 48,
+						"wrong": 84,
+						"truthOnsets": 358,
+						"found": 259,
+						"pitchRight": 250,
+						"missing": 99,
+						"extra": 207,
+						"gridDiffers": 23,
+						"lost": 0
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 10,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"found": 289,
+						"pitchRight": 266,
+						"missing": 44,
+						"extra": 94,
+						"gridDiffers": 5,
+						"lost": 0
+					}
+				},
+				"woff-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 22,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 314,
+						"pitchRight": 296,
+						"missing": 90,
+						"extra": 69,
+						"gridDiffers": 4,
+						"lost": 0.05693069306930693
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 12,
+						"wrong": 39,
+						"truthOnsets": 391,
+						"found": 303,
+						"pitchRight": 299,
+						"missing": 88,
+						"extra": 67,
+						"gridDiffers": 2,
+						"lost": 0.02557544757033248
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 50,
+						"oneError": 7,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 252,
+						"pitchRight": 251,
+						"missing": 17,
+						"extra": 49,
+						"gridDiffers": 2,
+						"lost": 0.011152416356877323
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 27,
+						"oneError": 13,
+						"wrong": 31,
+						"truthOnsets": 250,
+						"found": 204,
+						"pitchRight": 196,
+						"missing": 46,
+						"extra": 72,
+						"gridDiffers": 3,
+						"lost": 0.072
+					},
+					"downline": {
+						"bars": 186,
+						"right": 82,
+						"oneError": 43,
+						"wrong": 61,
+						"truthOnsets": 358,
+						"found": 267,
+						"pitchRight": 264,
+						"missing": 91,
+						"extra": 130,
+						"gridDiffers": 13,
+						"lost": 0.0223463687150838
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 9,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"found": 276,
+						"pitchRight": 261,
+						"missing": 57,
+						"extra": 95,
+						"gridDiffers": 8,
+						"lost": 0.03903903903903904
+					}
+				},
+				"woff-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 21,
+						"wrong": 52,
+						"truthOnsets": 404,
+						"found": 300,
+						"pitchRight": 293,
+						"missing": 104,
+						"extra": 64,
+						"gridDiffers": 4,
+						"lost": 0.09158415841584158
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 11,
+						"oneError": 17,
+						"wrong": 41,
+						"truthOnsets": 391,
+						"found": 281,
+						"pitchRight": 280,
+						"missing": 110,
+						"extra": 63,
+						"gridDiffers": 2,
+						"lost": 0.08184143222506395
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 53,
+						"oneError": 4,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 248,
+						"pitchRight": 248,
+						"missing": 21,
+						"extra": 44,
+						"gridDiffers": 2,
+						"lost": 0.026022304832713755
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 27,
+						"oneError": 15,
+						"wrong": 29,
+						"truthOnsets": 250,
+						"found": 199,
+						"pitchRight": 197,
+						"missing": 51,
+						"extra": 57,
+						"gridDiffers": 2,
+						"lost": 0.108
+					},
+					"downline": {
+						"bars": 186,
+						"right": 80,
+						"oneError": 44,
+						"wrong": 62,
+						"truthOnsets": 358,
+						"found": 259,
+						"pitchRight": 257,
+						"missing": 99,
+						"extra": 121,
+						"gridDiffers": 13,
+						"lost": 0.0446927374301676
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 40,
+						"oneError": 10,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 266,
+						"pitchRight": 261,
+						"missing": 67,
+						"extra": 84,
+						"gridDiffers": 8,
+						"lost": 0.06906906906906907
+					}
+				},
+				"woff-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 34,
+						"oneError": 21,
+						"wrong": 54,
+						"truthOnsets": 404,
+						"found": 283,
+						"pitchRight": 282,
+						"missing": 121,
+						"extra": 56,
+						"gridDiffers": 2,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 10,
+						"oneError": 8,
+						"wrong": 51,
+						"truthOnsets": 391,
+						"found": 262,
+						"pitchRight": 261,
+						"missing": 129,
+						"extra": 56,
+						"gridDiffers": 2,
+						"lost": 0.13043478260869565
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 241,
+						"pitchRight": 241,
+						"missing": 28,
+						"extra": 38,
+						"gridDiffers": 2,
+						"lost": 0.05204460966542751
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 26,
+						"oneError": 12,
+						"wrong": 33,
+						"truthOnsets": 250,
+						"found": 180,
+						"pitchRight": 179,
+						"missing": 70,
+						"extra": 54,
+						"gridDiffers": 3,
+						"lost": 0.184
+					},
+					"downline": {
+						"bars": 186,
+						"right": 74,
+						"oneError": 50,
+						"wrong": 62,
+						"truthOnsets": 358,
+						"found": 248,
+						"pitchRight": 247,
+						"missing": 110,
+						"extra": 110,
+						"gridDiffers": 12,
+						"lost": 0.08379888268156424
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 44,
+						"oneError": 6,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 250,
+						"pitchRight": 250,
+						"missing": 83,
+						"extra": 79,
+						"gridDiffers": 10,
+						"lost": 0.11711711711711711
+					}
+				},
+				"w0.1875-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 24,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"found": 335,
+						"pitchRight": 301,
+						"missing": 69,
+						"extra": 78,
+						"gridDiffers": 3,
+						"lost": 0
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 14,
+						"wrong": 37,
+						"truthOnsets": 391,
+						"found": 313,
+						"pitchRight": 307,
+						"missing": 78,
+						"extra": 72,
+						"gridDiffers": 2,
+						"lost": 0
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 254,
+						"pitchRight": 251,
+						"missing": 15,
+						"extra": 53,
+						"gridDiffers": 2,
+						"lost": 0.0037174721189591076
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 25,
+						"oneError": 14,
+						"wrong": 32,
+						"truthOnsets": 250,
+						"found": 222,
+						"pitchRight": 202,
+						"missing": 28,
+						"extra": 77,
+						"gridDiffers": 1,
+						"lost": 0
+					},
+					"downline": {
+						"bars": 186,
+						"right": 54,
+						"oneError": 48,
+						"wrong": 84,
+						"truthOnsets": 358,
+						"found": 259,
+						"pitchRight": 250,
+						"missing": 99,
+						"extra": 207,
+						"gridDiffers": 23,
+						"lost": 0
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 10,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"found": 289,
+						"pitchRight": 266,
+						"missing": 44,
+						"extra": 94,
+						"gridDiffers": 5,
+						"lost": 0
+					}
+				},
+				"w0.1875-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 22,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 314,
+						"pitchRight": 296,
+						"missing": 90,
+						"extra": 69,
+						"gridDiffers": 4,
+						"lost": 0.05693069306930693
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 12,
+						"wrong": 39,
+						"truthOnsets": 391,
+						"found": 303,
+						"pitchRight": 299,
+						"missing": 88,
+						"extra": 67,
+						"gridDiffers": 2,
+						"lost": 0.02557544757033248
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 50,
+						"oneError": 6,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 251,
+						"pitchRight": 250,
+						"missing": 18,
+						"extra": 49,
+						"gridDiffers": 2,
+						"lost": 0.01486988847583643
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 27,
+						"oneError": 13,
+						"wrong": 31,
+						"truthOnsets": 250,
+						"found": 204,
+						"pitchRight": 196,
+						"missing": 46,
+						"extra": 72,
+						"gridDiffers": 3,
+						"lost": 0.072
+					},
+					"downline": {
+						"bars": 186,
+						"right": 82,
+						"oneError": 43,
+						"wrong": 61,
+						"truthOnsets": 358,
+						"found": 267,
+						"pitchRight": 264,
+						"missing": 91,
+						"extra": 130,
+						"gridDiffers": 13,
+						"lost": 0.0223463687150838
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 9,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"found": 276,
+						"pitchRight": 261,
+						"missing": 57,
+						"extra": 95,
+						"gridDiffers": 8,
+						"lost": 0.03903903903903904
+					}
+				},
+				"w0.1875-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 21,
+						"wrong": 52,
+						"truthOnsets": 404,
+						"found": 300,
+						"pitchRight": 293,
+						"missing": 104,
+						"extra": 64,
+						"gridDiffers": 4,
+						"lost": 0.09158415841584158
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 11,
+						"oneError": 17,
+						"wrong": 41,
+						"truthOnsets": 391,
+						"found": 281,
+						"pitchRight": 280,
+						"missing": 110,
+						"extra": 63,
+						"gridDiffers": 2,
+						"lost": 0.08184143222506395
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 53,
+						"oneError": 3,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 247,
+						"pitchRight": 247,
+						"missing": 22,
+						"extra": 44,
+						"gridDiffers": 2,
+						"lost": 0.02973977695167286
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 27,
+						"oneError": 15,
+						"wrong": 29,
+						"truthOnsets": 250,
+						"found": 199,
+						"pitchRight": 197,
+						"missing": 51,
+						"extra": 57,
+						"gridDiffers": 2,
+						"lost": 0.108
+					},
+					"downline": {
+						"bars": 186,
+						"right": 80,
+						"oneError": 44,
+						"wrong": 62,
+						"truthOnsets": 358,
+						"found": 259,
+						"pitchRight": 257,
+						"missing": 99,
+						"extra": 121,
+						"gridDiffers": 13,
+						"lost": 0.0446927374301676
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 40,
+						"oneError": 10,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 266,
+						"pitchRight": 261,
+						"missing": 67,
+						"extra": 84,
+						"gridDiffers": 8,
+						"lost": 0.06906906906906907
+					}
+				},
+				"w0.1875-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 34,
+						"oneError": 21,
+						"wrong": 54,
+						"truthOnsets": 404,
+						"found": 283,
+						"pitchRight": 282,
+						"missing": 121,
+						"extra": 56,
+						"gridDiffers": 2,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 10,
+						"oneError": 8,
+						"wrong": 51,
+						"truthOnsets": 391,
+						"found": 262,
+						"pitchRight": 261,
+						"missing": 129,
+						"extra": 56,
+						"gridDiffers": 2,
+						"lost": 0.13043478260869565
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 241,
+						"pitchRight": 241,
+						"missing": 28,
+						"extra": 38,
+						"gridDiffers": 2,
+						"lost": 0.05204460966542751
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 26,
+						"oneError": 12,
+						"wrong": 33,
+						"truthOnsets": 250,
+						"found": 180,
+						"pitchRight": 179,
+						"missing": 70,
+						"extra": 54,
+						"gridDiffers": 3,
+						"lost": 0.184
+					},
+					"downline": {
+						"bars": 186,
+						"right": 74,
+						"oneError": 50,
+						"wrong": 62,
+						"truthOnsets": 358,
+						"found": 248,
+						"pitchRight": 247,
+						"missing": 110,
+						"extra": 110,
+						"gridDiffers": 12,
+						"lost": 0.08379888268156424
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 44,
+						"oneError": 6,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 250,
+						"pitchRight": 250,
+						"missing": 83,
+						"extra": 79,
+						"gridDiffers": 10,
+						"lost": 0.11711711711711711
+					}
+				},
+				"w0.375-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 23,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"found": 334,
+						"pitchRight": 301,
+						"missing": 70,
+						"extra": 75,
+						"gridDiffers": 3,
+						"lost": 0.0024752475247524753
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 17,
+						"oneError": 15,
+						"wrong": 37,
+						"truthOnsets": 391,
+						"found": 307,
+						"pitchRight": 299,
+						"missing": 84,
+						"extra": 67,
+						"gridDiffers": 2,
+						"lost": 0.015345268542199489
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 40,
+						"oneError": 16,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 245,
+						"pitchRight": 242,
+						"missing": 24,
+						"extra": 52,
+						"gridDiffers": 2,
+						"lost": 0.03717472118959108
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 32,
+						"oneError": 12,
+						"wrong": 27,
+						"truthOnsets": 250,
+						"found": 221,
+						"pitchRight": 201,
+						"missing": 29,
+						"extra": 58,
+						"gridDiffers": 1,
+						"lost": 0.004
+					},
+					"downline": {
+						"bars": 186,
+						"right": 53,
+						"oneError": 50,
+						"wrong": 83,
+						"truthOnsets": 358,
+						"found": 258,
+						"pitchRight": 249,
+						"missing": 100,
+						"extra": 204,
+						"gridDiffers": 23,
+						"lost": 0.002793296089385475
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 10,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"found": 289,
+						"pitchRight": 266,
+						"missing": 44,
+						"extra": 94,
+						"gridDiffers": 5,
+						"lost": 0
+					}
+				},
+				"w0.375-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 21,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 314,
+						"pitchRight": 296,
+						"missing": 90,
+						"extra": 68,
+						"gridDiffers": 4,
+						"lost": 0.05693069306930693
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 17,
+						"oneError": 14,
+						"wrong": 38,
+						"truthOnsets": 391,
+						"found": 298,
+						"pitchRight": 294,
+						"missing": 93,
+						"extra": 62,
+						"gridDiffers": 2,
+						"lost": 0.03836317135549872
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 42,
+						"oneError": 14,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 243,
+						"pitchRight": 242,
+						"missing": 26,
+						"extra": 48,
+						"gridDiffers": 2,
+						"lost": 0.04460966542750929
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 35,
+						"oneError": 10,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"found": 204,
+						"pitchRight": 196,
+						"missing": 46,
+						"extra": 52,
+						"gridDiffers": 3,
+						"lost": 0.072
+					},
+					"downline": {
+						"bars": 186,
+						"right": 81,
+						"oneError": 45,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"found": 266,
+						"pitchRight": 263,
+						"missing": 92,
+						"extra": 127,
+						"gridDiffers": 13,
+						"lost": 0.025139664804469275
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 9,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"found": 276,
+						"pitchRight": 261,
+						"missing": 57,
+						"extra": 95,
+						"gridDiffers": 8,
+						"lost": 0.03903903903903904
+					}
+				},
+				"w0.375-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 22,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 300,
+						"pitchRight": 293,
+						"missing": 104,
+						"extra": 63,
+						"gridDiffers": 4,
+						"lost": 0.09158415841584158
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 11,
+						"oneError": 17,
+						"wrong": 41,
+						"truthOnsets": 391,
+						"found": 277,
+						"pitchRight": 276,
+						"missing": 114,
+						"extra": 59,
+						"gridDiffers": 2,
+						"lost": 0.09207161125319693
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 242,
+						"pitchRight": 242,
+						"missing": 27,
+						"extra": 43,
+						"gridDiffers": 2,
+						"lost": 0.048327137546468404
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 36,
+						"oneError": 11,
+						"wrong": 24,
+						"truthOnsets": 250,
+						"found": 199,
+						"pitchRight": 197,
+						"missing": 51,
+						"extra": 37,
+						"gridDiffers": 2,
+						"lost": 0.108
+					},
+					"downline": {
+						"bars": 186,
+						"right": 79,
+						"oneError": 47,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"found": 258,
+						"pitchRight": 256,
+						"missing": 100,
+						"extra": 118,
+						"gridDiffers": 13,
+						"lost": 0.04748603351955307
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 40,
+						"oneError": 10,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 266,
+						"pitchRight": 261,
+						"missing": 67,
+						"extra": 84,
+						"gridDiffers": 8,
+						"lost": 0.06906906906906907
+					}
+				},
+				"w0.375-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 34,
+						"oneError": 22,
+						"wrong": 53,
+						"truthOnsets": 404,
+						"found": 283,
+						"pitchRight": 282,
+						"missing": 121,
+						"extra": 55,
+						"gridDiffers": 2,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 10,
+						"oneError": 8,
+						"wrong": 51,
+						"truthOnsets": 391,
+						"found": 258,
+						"pitchRight": 257,
+						"missing": 133,
+						"extra": 52,
+						"gridDiffers": 2,
+						"lost": 0.14066496163682865
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 47,
+						"oneError": 10,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 236,
+						"pitchRight": 236,
+						"missing": 33,
+						"extra": 37,
+						"gridDiffers": 2,
+						"lost": 0.07063197026022305
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 34,
+						"oneError": 9,
+						"wrong": 28,
+						"truthOnsets": 250,
+						"found": 180,
+						"pitchRight": 179,
+						"missing": 70,
+						"extra": 36,
+						"gridDiffers": 3,
+						"lost": 0.184
+					},
+					"downline": {
+						"bars": 186,
+						"right": 74,
+						"oneError": 50,
+						"wrong": 62,
+						"truthOnsets": 358,
+						"found": 247,
+						"pitchRight": 246,
+						"missing": 111,
+						"extra": 107,
+						"gridDiffers": 12,
+						"lost": 0.08659217877094973
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 44,
+						"oneError": 6,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 250,
+						"pitchRight": 250,
+						"missing": 83,
+						"extra": 79,
+						"gridDiffers": 10,
+						"lost": 0.11711711711711711
+					}
+				},
+				"w0.75-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 29,
+						"oneError": 25,
+						"wrong": 55,
+						"truthOnsets": 404,
+						"found": 309,
+						"pitchRight": 272,
+						"missing": 95,
+						"extra": 69,
+						"gridDiffers": 3,
+						"lost": 0.06435643564356436
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 4,
+						"oneError": 10,
+						"wrong": 55,
+						"truthOnsets": 391,
+						"found": 235,
+						"pitchRight": 217,
+						"missing": 156,
+						"extra": 55,
+						"gridDiffers": 3,
+						"lost": 0.19948849104859334
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 5,
+						"oneError": 42,
+						"wrong": 21,
+						"truthOnsets": 269,
+						"found": 188,
+						"pitchRight": 182,
+						"missing": 81,
+						"extra": 48,
+						"gridDiffers": 5,
+						"lost": 0.24907063197026022
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 15,
+						"oneError": 14,
+						"wrong": 42,
+						"truthOnsets": 250,
+						"found": 188,
+						"pitchRight": 164,
+						"missing": 62,
+						"extra": 61,
+						"gridDiffers": 1,
+						"lost": 0.136
+					},
+					"downline": {
+						"bars": 186,
+						"right": 49,
+						"oneError": 43,
+						"wrong": 94,
+						"truthOnsets": 358,
+						"found": 211,
+						"pitchRight": 203,
+						"missing": 147,
+						"extra": 173,
+						"gridDiffers": 23,
+						"lost": 0.1340782122905028
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 11,
+						"wrong": 47,
+						"truthOnsets": 333,
+						"found": 283,
+						"pitchRight": 261,
+						"missing": 50,
+						"extra": 86,
+						"gridDiffers": 5,
+						"lost": 0.021021021021021023
+					}
+				},
+				"w0.75-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 24,
+						"wrong": 55,
+						"truthOnsets": 404,
+						"found": 292,
+						"pitchRight": 274,
+						"missing": 112,
+						"extra": 63,
+						"gridDiffers": 4,
+						"lost": 0.11138613861386139
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 4,
+						"oneError": 10,
+						"wrong": 55,
+						"truthOnsets": 391,
+						"found": 220,
+						"pitchRight": 216,
+						"missing": 171,
+						"extra": 50,
+						"gridDiffers": 3,
+						"lost": 0.23785166240409208
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 5,
+						"oneError": 43,
+						"wrong": 20,
+						"truthOnsets": 269,
+						"found": 182,
+						"pitchRight": 181,
+						"missing": 87,
+						"extra": 45,
+						"gridDiffers": 6,
+						"lost": 0.27137546468401486
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 16,
+						"oneError": 17,
+						"wrong": 38,
+						"truthOnsets": 250,
+						"found": 172,
+						"pitchRight": 163,
+						"missing": 78,
+						"extra": 54,
+						"gridDiffers": 3,
+						"lost": 0.2
+					},
+					"downline": {
+						"bars": 186,
+						"right": 75,
+						"oneError": 39,
+						"wrong": 72,
+						"truthOnsets": 358,
+						"found": 220,
+						"pitchRight": 217,
+						"missing": 138,
+						"extra": 97,
+						"gridDiffers": 12,
+						"lost": 0.1452513966480447
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 11,
+						"wrong": 46,
+						"truthOnsets": 333,
+						"found": 270,
+						"pitchRight": 257,
+						"missing": 63,
+						"extra": 87,
+						"gridDiffers": 8,
+						"lost": 0.06006006006006006
+					}
+				},
+				"w0.75-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 25,
+						"wrong": 54,
+						"truthOnsets": 404,
+						"found": 284,
+						"pitchRight": 277,
+						"missing": 120,
+						"extra": 55,
+						"gridDiffers": 3,
+						"lost": 0.13613861386138615
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 5,
+						"oneError": 8,
+						"wrong": 56,
+						"truthOnsets": 391,
+						"found": 211,
+						"pitchRight": 210,
+						"missing": 180,
+						"extra": 44,
+						"gridDiffers": 2,
+						"lost": 0.2608695652173913
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 5,
+						"oneError": 49,
+						"wrong": 14,
+						"truthOnsets": 269,
+						"found": 190,
+						"pitchRight": 190,
+						"missing": 79,
+						"extra": 31,
+						"gridDiffers": 3,
+						"lost": 0.241635687732342
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 19,
+						"oneError": 16,
+						"wrong": 36,
+						"truthOnsets": 250,
+						"found": 168,
+						"pitchRight": 166,
+						"missing": 82,
+						"extra": 39,
+						"gridDiffers": 2,
+						"lost": 0.232
+					},
+					"downline": {
+						"bars": 186,
+						"right": 72,
+						"oneError": 41,
+						"wrong": 73,
+						"truthOnsets": 358,
+						"found": 212,
+						"pitchRight": 210,
+						"missing": 146,
+						"extra": 90,
+						"gridDiffers": 12,
+						"lost": 0.16759776536312848
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 41,
+						"oneError": 10,
+						"wrong": 44,
+						"truthOnsets": 333,
+						"found": 262,
+						"pitchRight": 257,
+						"missing": 71,
+						"extra": 77,
+						"gridDiffers": 8,
+						"lost": 0.08408408408408409
+					}
+				},
+				"w0.75-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 24,
+						"wrong": 55,
+						"truthOnsets": 404,
+						"found": 274,
+						"pitchRight": 272,
+						"missing": 130,
+						"extra": 46,
+						"gridDiffers": 1,
+						"lost": 0.1608910891089109
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 5,
+						"oneError": 7,
+						"wrong": 57,
+						"truthOnsets": 391,
+						"found": 206,
+						"pitchRight": 205,
+						"missing": 185,
+						"extra": 41,
+						"gridDiffers": 2,
+						"lost": 0.27365728900255754
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 6,
+						"oneError": 49,
+						"wrong": 13,
+						"truthOnsets": 269,
+						"found": 188,
+						"pitchRight": 188,
+						"missing": 81,
+						"extra": 25,
+						"gridDiffers": 3,
+						"lost": 0.24907063197026022
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 19,
+						"oneError": 14,
+						"wrong": 38,
+						"truthOnsets": 250,
+						"found": 150,
+						"pitchRight": 149,
+						"missing": 100,
+						"extra": 42,
+						"gridDiffers": 5,
+						"lost": 0.304
+					},
+					"downline": {
+						"bars": 186,
+						"right": 70,
+						"oneError": 41,
+						"wrong": 75,
+						"truthOnsets": 358,
+						"found": 202,
+						"pitchRight": 201,
+						"missing": 156,
+						"extra": 81,
+						"gridDiffers": 11,
+						"lost": 0.20391061452513967
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 45,
+						"oneError": 6,
+						"wrong": 44,
+						"truthOnsets": 333,
+						"found": 247,
+						"pitchRight": 247,
+						"missing": 86,
+						"extra": 74,
+						"gridDiffers": 10,
+						"lost": 0.12912912912912913
+					}
+				}
+			},
+			"selected": "woff-foff",
+			"gain": {
+				"peaceful-dreams": 0,
+				"interbellum": 0,
+				"letter-lands": 0,
+				"eat-all-the-clocks": 0,
+				"downline": 0,
+				"mop-heart": 0
+			},
+			"heldOut": [
+				{
+					"slug": "peaceful-dreams",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "interbellum",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "letter-lands",
+					"pick": "w0.375-foff",
+					"gain": -0.11764705882352944,
+					"lost": 0.03717472118959108
+				},
+				{
+					"slug": "eat-all-the-clocks",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "downline",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "mop-heart",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				}
+			]
+		},
+		"selected": {
+			"settings": {
+				"woff-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 23,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"found": 333,
+						"pitchRight": 299,
+						"missing": 71,
+						"extra": 73,
+						"gridDiffers": 3,
+						"lost": 0
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"found": 307,
+						"pitchRight": 301,
+						"missing": 84,
+						"extra": 62,
+						"gridDiffers": 1,
+						"lost": 0
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 255,
+						"pitchRight": 250,
+						"missing": 14,
+						"extra": 47,
+						"gridDiffers": 2,
+						"lost": 0
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 15,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"found": 222,
+						"pitchRight": 202,
+						"missing": 28,
+						"extra": 47,
+						"gridDiffers": 0,
+						"lost": 0
+					},
+					"downline": {
+						"bars": 186,
+						"right": 85,
+						"oneError": 41,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"found": 273,
+						"pitchRight": 265,
+						"missing": 85,
+						"extra": 124,
+						"gridDiffers": 14,
+						"lost": 0
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 12,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 289,
+						"pitchRight": 266,
+						"missing": 44,
+						"extra": 83,
+						"gridDiffers": 6,
+						"lost": 0
+					}
+				},
+				"woff-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 22,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 312,
+						"pitchRight": 294,
+						"missing": 92,
+						"extra": 65,
+						"gridDiffers": 4,
+						"lost": 0.05693069306930693
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 23,
+						"oneError": 10,
+						"wrong": 36,
+						"truthOnsets": 391,
+						"found": 299,
+						"pitchRight": 295,
+						"missing": 92,
+						"extra": 57,
+						"gridDiffers": 1,
+						"lost": 0.020460358056265986
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 252,
+						"pitchRight": 250,
+						"missing": 17,
+						"extra": 47,
+						"gridDiffers": 2,
+						"lost": 0.011152416356877323
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 14,
+						"wrong": 27,
+						"truthOnsets": 250,
+						"found": 204,
+						"pitchRight": 196,
+						"missing": 46,
+						"extra": 51,
+						"gridDiffers": 2,
+						"lost": 0.072
+					},
+					"downline": {
+						"bars": 186,
+						"right": 82,
+						"oneError": 45,
+						"wrong": 59,
+						"truthOnsets": 358,
+						"found": 265,
+						"pitchRight": 262,
+						"missing": 93,
+						"extra": 119,
+						"gridDiffers": 13,
+						"lost": 0.025139664804469275
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 39,
+						"oneError": 11,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 276,
+						"pitchRight": 261,
+						"missing": 57,
+						"extra": 84,
+						"gridDiffers": 8,
+						"lost": 0.03903903903903904
+					}
+				},
+				"woff-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 21,
+						"wrong": 52,
+						"truthOnsets": 404,
+						"found": 299,
+						"pitchRight": 293,
+						"missing": 105,
+						"extra": 63,
+						"gridDiffers": 4,
+						"lost": 0.0891089108910891
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 16,
+						"oneError": 14,
+						"wrong": 39,
+						"truthOnsets": 391,
+						"found": 277,
+						"pitchRight": 276,
+						"missing": 114,
+						"extra": 55,
+						"gridDiffers": 1,
+						"lost": 0.07672634271099744
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 55,
+						"oneError": 2,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 248,
+						"pitchRight": 248,
+						"missing": 21,
+						"extra": 42,
+						"gridDiffers": 2,
+						"lost": 0.026022304832713755
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 29,
+						"oneError": 13,
+						"wrong": 29,
+						"truthOnsets": 250,
+						"found": 194,
+						"pitchRight": 192,
+						"missing": 56,
+						"extra": 48,
+						"gridDiffers": 3,
+						"lost": 0.112
+					},
+					"downline": {
+						"bars": 186,
+						"right": 80,
+						"oneError": 46,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"found": 256,
+						"pitchRight": 256,
+						"missing": 102,
+						"extra": 115,
+						"gridDiffers": 13,
+						"lost": 0.05027932960893855
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 41,
+						"oneError": 11,
+						"wrong": 43,
+						"truthOnsets": 333,
+						"found": 264,
+						"pitchRight": 261,
+						"missing": 69,
+						"extra": 78,
+						"gridDiffers": 8,
+						"lost": 0.07507507507507508
+					}
+				},
+				"woff-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 34,
+						"oneError": 21,
+						"wrong": 54,
+						"truthOnsets": 404,
+						"found": 281,
+						"pitchRight": 280,
+						"missing": 123,
+						"extra": 55,
+						"gridDiffers": 2,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 15,
+						"oneError": 6,
+						"wrong": 48,
+						"truthOnsets": 391,
+						"found": 259,
+						"pitchRight": 258,
+						"missing": 132,
+						"extra": 48,
+						"gridDiffers": 1,
+						"lost": 0.12276214833759591
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 53,
+						"oneError": 4,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 241,
+						"pitchRight": 241,
+						"missing": 28,
+						"extra": 37,
+						"gridDiffers": 2,
+						"lost": 0.05204460966542751
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 27,
+						"oneError": 11,
+						"wrong": 33,
+						"truthOnsets": 250,
+						"found": 174,
+						"pitchRight": 173,
+						"missing": 76,
+						"extra": 49,
+						"gridDiffers": 3,
+						"lost": 0.192
+					},
+					"downline": {
+						"bars": 186,
+						"right": 72,
+						"oneError": 58,
+						"wrong": 56,
+						"truthOnsets": 358,
+						"found": 240,
+						"pitchRight": 240,
+						"missing": 118,
+						"extra": 104,
+						"gridDiffers": 13,
+						"lost": 0.10335195530726257
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 44,
+						"oneError": 6,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 250,
+						"pitchRight": 250,
+						"missing": 83,
+						"extra": 77,
+						"gridDiffers": 10,
+						"lost": 0.11711711711711711
+					}
+				},
+				"w0.1875-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 23,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"found": 333,
+						"pitchRight": 299,
+						"missing": 71,
+						"extra": 72,
+						"gridDiffers": 3,
+						"lost": 0
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"found": 307,
+						"pitchRight": 301,
+						"missing": 84,
+						"extra": 62,
+						"gridDiffers": 1,
+						"lost": 0
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 4,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 254,
+						"pitchRight": 249,
+						"missing": 15,
+						"extra": 47,
+						"gridDiffers": 2,
+						"lost": 0.0037174721189591076
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 15,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"found": 222,
+						"pitchRight": 202,
+						"missing": 28,
+						"extra": 47,
+						"gridDiffers": 0,
+						"lost": 0
+					},
+					"downline": {
+						"bars": 186,
+						"right": 85,
+						"oneError": 41,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"found": 273,
+						"pitchRight": 265,
+						"missing": 85,
+						"extra": 124,
+						"gridDiffers": 14,
+						"lost": 0
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 12,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 289,
+						"pitchRight": 266,
+						"missing": 44,
+						"extra": 83,
+						"gridDiffers": 6,
+						"lost": 0
+					}
+				},
+				"w0.1875-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 22,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 312,
+						"pitchRight": 294,
+						"missing": 92,
+						"extra": 65,
+						"gridDiffers": 4,
+						"lost": 0.05693069306930693
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 23,
+						"oneError": 10,
+						"wrong": 36,
+						"truthOnsets": 391,
+						"found": 299,
+						"pitchRight": 295,
+						"missing": 92,
+						"extra": 57,
+						"gridDiffers": 1,
+						"lost": 0.020460358056265986
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 4,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 251,
+						"pitchRight": 249,
+						"missing": 18,
+						"extra": 47,
+						"gridDiffers": 2,
+						"lost": 0.01486988847583643
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 14,
+						"wrong": 27,
+						"truthOnsets": 250,
+						"found": 204,
+						"pitchRight": 196,
+						"missing": 46,
+						"extra": 51,
+						"gridDiffers": 2,
+						"lost": 0.072
+					},
+					"downline": {
+						"bars": 186,
+						"right": 82,
+						"oneError": 45,
+						"wrong": 59,
+						"truthOnsets": 358,
+						"found": 265,
+						"pitchRight": 262,
+						"missing": 93,
+						"extra": 119,
+						"gridDiffers": 13,
+						"lost": 0.025139664804469275
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 39,
+						"oneError": 11,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 276,
+						"pitchRight": 261,
+						"missing": 57,
+						"extra": 84,
+						"gridDiffers": 8,
+						"lost": 0.03903903903903904
+					}
+				},
+				"w0.1875-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 21,
+						"wrong": 52,
+						"truthOnsets": 404,
+						"found": 299,
+						"pitchRight": 293,
+						"missing": 105,
+						"extra": 63,
+						"gridDiffers": 4,
+						"lost": 0.0891089108910891
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 16,
+						"oneError": 14,
+						"wrong": 39,
+						"truthOnsets": 391,
+						"found": 277,
+						"pitchRight": 276,
+						"missing": 114,
+						"extra": 55,
+						"gridDiffers": 1,
+						"lost": 0.07672634271099744
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 55,
+						"oneError": 1,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 247,
+						"pitchRight": 247,
+						"missing": 22,
+						"extra": 42,
+						"gridDiffers": 2,
+						"lost": 0.02973977695167286
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 29,
+						"oneError": 13,
+						"wrong": 29,
+						"truthOnsets": 250,
+						"found": 194,
+						"pitchRight": 192,
+						"missing": 56,
+						"extra": 48,
+						"gridDiffers": 3,
+						"lost": 0.112
+					},
+					"downline": {
+						"bars": 186,
+						"right": 80,
+						"oneError": 46,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"found": 256,
+						"pitchRight": 256,
+						"missing": 102,
+						"extra": 115,
+						"gridDiffers": 13,
+						"lost": 0.05027932960893855
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 41,
+						"oneError": 11,
+						"wrong": 43,
+						"truthOnsets": 333,
+						"found": 264,
+						"pitchRight": 261,
+						"missing": 69,
+						"extra": 78,
+						"gridDiffers": 8,
+						"lost": 0.07507507507507508
+					}
+				},
+				"w0.1875-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 34,
+						"oneError": 21,
+						"wrong": 54,
+						"truthOnsets": 404,
+						"found": 281,
+						"pitchRight": 280,
+						"missing": 123,
+						"extra": 55,
+						"gridDiffers": 2,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 15,
+						"oneError": 6,
+						"wrong": 48,
+						"truthOnsets": 391,
+						"found": 259,
+						"pitchRight": 258,
+						"missing": 132,
+						"extra": 48,
+						"gridDiffers": 1,
+						"lost": 0.12276214833759591
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 53,
+						"oneError": 4,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 241,
+						"pitchRight": 241,
+						"missing": 28,
+						"extra": 37,
+						"gridDiffers": 2,
+						"lost": 0.05204460966542751
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 27,
+						"oneError": 11,
+						"wrong": 33,
+						"truthOnsets": 250,
+						"found": 174,
+						"pitchRight": 173,
+						"missing": 76,
+						"extra": 49,
+						"gridDiffers": 3,
+						"lost": 0.192
+					},
+					"downline": {
+						"bars": 186,
+						"right": 72,
+						"oneError": 58,
+						"wrong": 56,
+						"truthOnsets": 358,
+						"found": 240,
+						"pitchRight": 240,
+						"missing": 118,
+						"extra": 104,
+						"gridDiffers": 13,
+						"lost": 0.10335195530726257
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 44,
+						"oneError": 6,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 250,
+						"pitchRight": 250,
+						"missing": 83,
+						"extra": 77,
+						"gridDiffers": 10,
+						"lost": 0.11711711711711711
+					}
+				},
+				"w0.375-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 39,
+						"oneError": 22,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"found": 332,
+						"pitchRight": 299,
+						"missing": 72,
+						"extra": 69,
+						"gridDiffers": 3,
+						"lost": 0.0024752475247524753
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 21,
+						"oneError": 14,
+						"wrong": 34,
+						"truthOnsets": 391,
+						"found": 301,
+						"pitchRight": 294,
+						"missing": 90,
+						"extra": 58,
+						"gridDiffers": 1,
+						"lost": 0.015345268542199489
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 44,
+						"oneError": 12,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 246,
+						"pitchRight": 241,
+						"missing": 23,
+						"extra": 46,
+						"gridDiffers": 2,
+						"lost": 0.03345724907063197
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 39,
+						"oneError": 9,
+						"wrong": 23,
+						"truthOnsets": 250,
+						"found": 221,
+						"pitchRight": 201,
+						"missing": 29,
+						"extra": 28,
+						"gridDiffers": 0,
+						"lost": 0.004
+					},
+					"downline": {
+						"bars": 186,
+						"right": 84,
+						"oneError": 45,
+						"wrong": 57,
+						"truthOnsets": 358,
+						"found": 272,
+						"pitchRight": 264,
+						"missing": 86,
+						"extra": 121,
+						"gridDiffers": 14,
+						"lost": 0.002793296089385475
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 12,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 289,
+						"pitchRight": 266,
+						"missing": 44,
+						"extra": 83,
+						"gridDiffers": 6,
+						"lost": 0
+					}
+				},
+				"w0.375-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 21,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 312,
+						"pitchRight": 294,
+						"missing": 92,
+						"extra": 64,
+						"gridDiffers": 4,
+						"lost": 0.05693069306930693
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"found": 294,
+						"pitchRight": 290,
+						"missing": 97,
+						"extra": 53,
+						"gridDiffers": 1,
+						"lost": 0.03324808184143223
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 44,
+						"oneError": 12,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 243,
+						"pitchRight": 241,
+						"missing": 26,
+						"extra": 46,
+						"gridDiffers": 2,
+						"lost": 0.04460966542750929
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 39,
+						"oneError": 8,
+						"wrong": 24,
+						"truthOnsets": 250,
+						"found": 204,
+						"pitchRight": 196,
+						"missing": 46,
+						"extra": 32,
+						"gridDiffers": 2,
+						"lost": 0.072
+					},
+					"downline": {
+						"bars": 186,
+						"right": 81,
+						"oneError": 49,
+						"wrong": 56,
+						"truthOnsets": 358,
+						"found": 264,
+						"pitchRight": 261,
+						"missing": 94,
+						"extra": 116,
+						"gridDiffers": 13,
+						"lost": 0.027932960893854747
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 39,
+						"oneError": 11,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 276,
+						"pitchRight": 261,
+						"missing": 57,
+						"extra": 84,
+						"gridDiffers": 8,
+						"lost": 0.03903903903903904
+					}
+				},
+				"w0.375-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 36,
+						"oneError": 22,
+						"wrong": 51,
+						"truthOnsets": 404,
+						"found": 299,
+						"pitchRight": 293,
+						"missing": 105,
+						"extra": 62,
+						"gridDiffers": 4,
+						"lost": 0.0891089108910891
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 16,
+						"oneError": 14,
+						"wrong": 39,
+						"truthOnsets": 391,
+						"found": 273,
+						"pitchRight": 272,
+						"missing": 118,
+						"extra": 52,
+						"gridDiffers": 1,
+						"lost": 0.08695652173913043
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 50,
+						"oneError": 6,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"found": 242,
+						"pitchRight": 242,
+						"missing": 27,
+						"extra": 41,
+						"gridDiffers": 2,
+						"lost": 0.048327137546468404
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 38,
+						"oneError": 8,
+						"wrong": 25,
+						"truthOnsets": 250,
+						"found": 195,
+						"pitchRight": 193,
+						"missing": 55,
+						"extra": 28,
+						"gridDiffers": 2,
+						"lost": 0.108
+					},
+					"downline": {
+						"bars": 186,
+						"right": 79,
+						"oneError": 49,
+						"wrong": 58,
+						"truthOnsets": 358,
+						"found": 255,
+						"pitchRight": 255,
+						"missing": 103,
+						"extra": 112,
+						"gridDiffers": 13,
+						"lost": 0.05307262569832402
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 41,
+						"oneError": 11,
+						"wrong": 43,
+						"truthOnsets": 333,
+						"found": 264,
+						"pitchRight": 261,
+						"missing": 69,
+						"extra": 78,
+						"gridDiffers": 8,
+						"lost": 0.07507507507507508
+					}
+				},
+				"w0.375-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 34,
+						"oneError": 22,
+						"wrong": 53,
+						"truthOnsets": 404,
+						"found": 281,
+						"pitchRight": 280,
+						"missing": 123,
+						"extra": 54,
+						"gridDiffers": 2,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 15,
+						"oneError": 6,
+						"wrong": 48,
+						"truthOnsets": 391,
+						"found": 255,
+						"pitchRight": 254,
+						"missing": 136,
+						"extra": 45,
+						"gridDiffers": 1,
+						"lost": 0.1329923273657289
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 9,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"found": 236,
+						"pitchRight": 236,
+						"missing": 33,
+						"extra": 36,
+						"gridDiffers": 2,
+						"lost": 0.07063197026022305
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 35,
+						"oneError": 5,
+						"wrong": 31,
+						"truthOnsets": 250,
+						"found": 174,
+						"pitchRight": 173,
+						"missing": 76,
+						"extra": 32,
+						"gridDiffers": 3,
+						"lost": 0.192
+					},
+					"downline": {
+						"bars": 186,
+						"right": 73,
+						"oneError": 56,
+						"wrong": 57,
+						"truthOnsets": 358,
+						"found": 239,
+						"pitchRight": 239,
+						"missing": 119,
+						"extra": 101,
+						"gridDiffers": 13,
+						"lost": 0.10614525139664804
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 44,
+						"oneError": 6,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"found": 250,
+						"pitchRight": 250,
+						"missing": 83,
+						"extra": 77,
+						"gridDiffers": 10,
+						"lost": 0.11711711711711711
+					}
+				},
+				"w0.75-foff": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 24,
+						"wrong": 55,
+						"truthOnsets": 404,
+						"found": 311,
+						"pitchRight": 272,
+						"missing": 93,
+						"extra": 60,
+						"gridDiffers": 2,
+						"lost": 0.06188118811881188
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 9,
+						"oneError": 9,
+						"wrong": 51,
+						"truthOnsets": 391,
+						"found": 229,
+						"pitchRight": 214,
+						"missing": 162,
+						"extra": 46,
+						"gridDiffers": 2,
+						"lost": 0.19948849104859334
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 7,
+						"oneError": 41,
+						"wrong": 20,
+						"truthOnsets": 269,
+						"found": 189,
+						"pitchRight": 181,
+						"missing": 80,
+						"extra": 42,
+						"gridDiffers": 5,
+						"lost": 0.24535315985130113
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 20,
+						"oneError": 15,
+						"wrong": 36,
+						"truthOnsets": 250,
+						"found": 188,
+						"pitchRight": 164,
+						"missing": 62,
+						"extra": 30,
+						"gridDiffers": 0,
+						"lost": 0.136
+					},
+					"downline": {
+						"bars": 186,
+						"right": 77,
+						"oneError": 38,
+						"wrong": 71,
+						"truthOnsets": 358,
+						"found": 228,
+						"pitchRight": 219,
+						"missing": 130,
+						"extra": 91,
+						"gridDiffers": 12,
+						"lost": 0.1340782122905028
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 39,
+						"oneError": 12,
+						"wrong": 44,
+						"truthOnsets": 333,
+						"found": 283,
+						"pitchRight": 261,
+						"missing": 50,
+						"extra": 76,
+						"gridDiffers": 6,
+						"lost": 0.021021021021021023
+					}
+				},
+				"w0.75-f0.6": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 24,
+						"wrong": 55,
+						"truthOnsets": 404,
+						"found": 294,
+						"pitchRight": 275,
+						"missing": 110,
+						"extra": 56,
+						"gridDiffers": 3,
+						"lost": 0.10891089108910891
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 10,
+						"oneError": 7,
+						"wrong": 52,
+						"truthOnsets": 391,
+						"found": 217,
+						"pitchRight": 213,
+						"missing": 174,
+						"extra": 41,
+						"gridDiffers": 2,
+						"lost": 0.23017902813299232
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 7,
+						"oneError": 41,
+						"wrong": 20,
+						"truthOnsets": 269,
+						"found": 182,
+						"pitchRight": 180,
+						"missing": 87,
+						"extra": 43,
+						"gridDiffers": 6,
+						"lost": 0.27137546468401486
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 20,
+						"oneError": 15,
+						"wrong": 36,
+						"truthOnsets": 250,
+						"found": 172,
+						"pitchRight": 163,
+						"missing": 78,
+						"extra": 33,
+						"gridDiffers": 2,
+						"lost": 0.2
+					},
+					"downline": {
+						"bars": 186,
+						"right": 74,
+						"oneError": 42,
+						"wrong": 70,
+						"truthOnsets": 358,
+						"found": 218,
+						"pitchRight": 215,
+						"missing": 140,
+						"extra": 89,
+						"gridDiffers": 12,
+						"lost": 0.15921787709497207
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 40,
+						"oneError": 12,
+						"wrong": 43,
+						"truthOnsets": 333,
+						"found": 270,
+						"pitchRight": 257,
+						"missing": 63,
+						"extra": 77,
+						"gridDiffers": 8,
+						"lost": 0.06006006006006006
+					}
+				},
+				"w0.75-f0.7": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 25,
+						"wrong": 54,
+						"truthOnsets": 404,
+						"found": 283,
+						"pitchRight": 276,
+						"missing": 121,
+						"extra": 54,
+						"gridDiffers": 3,
+						"lost": 0.13366336633663367
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 10,
+						"oneError": 6,
+						"wrong": 53,
+						"truthOnsets": 391,
+						"found": 208,
+						"pitchRight": 207,
+						"missing": 183,
+						"extra": 37,
+						"gridDiffers": 1,
+						"lost": 0.2531969309462916
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 7,
+						"oneError": 47,
+						"wrong": 14,
+						"truthOnsets": 269,
+						"found": 190,
+						"pitchRight": 190,
+						"missing": 79,
+						"extra": 29,
+						"gridDiffers": 3,
+						"lost": 0.241635687732342
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 21,
+						"oneError": 13,
+						"wrong": 37,
+						"truthOnsets": 250,
+						"found": 164,
+						"pitchRight": 162,
+						"missing": 86,
+						"extra": 29,
+						"gridDiffers": 2,
+						"lost": 0.232
+					},
+					"downline": {
+						"bars": 186,
+						"right": 72,
+						"oneError": 43,
+						"wrong": 71,
+						"truthOnsets": 358,
+						"found": 209,
+						"pitchRight": 209,
+						"missing": 149,
+						"extra": 85,
+						"gridDiffers": 12,
+						"lost": 0.18435754189944134
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 42,
+						"oneError": 11,
+						"wrong": 42,
+						"truthOnsets": 333,
+						"found": 260,
+						"pitchRight": 257,
+						"missing": 73,
+						"extra": 72,
+						"gridDiffers": 8,
+						"lost": 0.09009009009009009
+					}
+				},
+				"w0.75-f0.8": {
+					"peaceful-dreams": {
+						"bars": 109,
+						"right": 30,
+						"oneError": 24,
+						"wrong": 55,
+						"truthOnsets": 404,
+						"found": 273,
+						"pitchRight": 271,
+						"missing": 131,
+						"extra": 45,
+						"gridDiffers": 1,
+						"lost": 0.15841584158415842
+					},
+					"interbellum": {
+						"bars": 69,
+						"right": 10,
+						"oneError": 5,
+						"wrong": 54,
+						"truthOnsets": 391,
+						"found": 203,
+						"pitchRight": 202,
+						"missing": 188,
+						"extra": 34,
+						"gridDiffers": 1,
+						"lost": 0.2659846547314578
+					},
+					"letter-lands": {
+						"bars": 68,
+						"right": 7,
+						"oneError": 48,
+						"wrong": 13,
+						"truthOnsets": 269,
+						"found": 188,
+						"pitchRight": 188,
+						"missing": 81,
+						"extra": 24,
+						"gridDiffers": 3,
+						"lost": 0.24907063197026022
+					},
+					"eat-all-the-clocks": {
+						"bars": 71,
+						"right": 20,
+						"oneError": 10,
+						"wrong": 41,
+						"truthOnsets": 250,
+						"found": 144,
+						"pitchRight": 143,
+						"missing": 106,
+						"extra": 37,
+						"gridDiffers": 5,
+						"lost": 0.312
+					},
+					"downline": {
+						"bars": 186,
+						"right": 68,
+						"oneError": 47,
+						"wrong": 71,
+						"truthOnsets": 358,
+						"found": 198,
+						"pitchRight": 198,
+						"missing": 160,
+						"extra": 74,
+						"gridDiffers": 11,
+						"lost": 0.22346368715083798
+					},
+					"mop-heart": {
+						"bars": 95,
+						"right": 45,
+						"oneError": 6,
+						"wrong": 44,
+						"truthOnsets": 333,
+						"found": 247,
+						"pitchRight": 247,
+						"missing": 86,
+						"extra": 73,
+						"gridDiffers": 10,
+						"lost": 0.12912912912912913
+					}
+				}
+			},
+			"selected": "woff-foff",
+			"gain": {
+				"peaceful-dreams": 0,
+				"interbellum": 0,
+				"letter-lands": 0,
+				"eat-all-the-clocks": 0,
+				"downline": 0,
+				"mop-heart": 0
+			},
+			"heldOut": [
+				{
+					"slug": "peaceful-dreams",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "interbellum",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "letter-lands",
+					"pick": "w0.375-foff",
+					"gain": -0.11764705882352933,
+					"lost": 0.03345724907063197
+				},
+				{
+					"slug": "eat-all-the-clocks",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "downline",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				},
+				{
+					"slug": "mop-heart",
+					"pick": "woff-foff",
+					"gain": 0,
+					"lost": 0
+				}
+			]
+		}
+	},
+	"decisions": {
+		"d1": null,
+		"d2": null,
+		"combined": {
+			"config": "o50-f30-n11-i0-m0",
+			"filter": "woff-foff",
+			"clearsStudy48": false,
+			"fiftyOnFourFour": false
+		}
+	}
+}

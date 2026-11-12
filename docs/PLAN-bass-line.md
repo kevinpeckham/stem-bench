@@ -40,6 +40,18 @@ run still applies, and the Study 48 corpus and tools are the base.
   the octave (a few per cent after the lowest-note rule). pYIN fixes
   the octave and loses notes; below Basic Pitch on four of six songs.
 
+## Status (updated 2026-11-12 after Study 49)
+
+Items 1 and 2 are done as Study 49 (docs/BRIEF-STUDY49.md): no filter
+and no Basic Pitch setting is recommended. The extras are not mostly
+re-triggers (30 %; nothing sounding 23 %, wrong subdivision 18 %); the
+merge and the floor each help one song and cost another; every loosened
+threshold hurts every song; the melodia pass and inferred onsets off
+gain 6.2 points on the mean (39.0 % to 45.2 % bars right), under the
+registered 10. **Next: item 3 (the line's own grid), moved up because
+the grid is the largest class of missed onsets, then item 4 (trust per
+bar).** Base pipeline for both: `o50-f30-n11-i0-m0` beside the app's.
+
 ## The studies, in order
 
 ### 1. Merge re-triggers and floor the ghosts (first)
