@@ -97,14 +97,22 @@ export interface BarLine {
 }
 
 /** The bar's notes on its grid: the mode chosen from the onsets, then each onset and its end quantized. */
+/** An onset this close before a bar line (half of the first beat's smallest slot) belongs to that bar's first slot. */
+export function earlyWindow(bar: Bar): number {
+	const first = bar.beats[0]!;
+	return (first.end - first.start) / DIV.straight / 2;
+}
+
 export function quantizeBar(notes: Note[], bar: Bar, mode?: Mode): BarLine {
-	const inBar = notes.filter((n) => n.start >= bar.start - 1e-6 && n.start < bar.end - 1e-6);
-	const m = mode ?? chooseMode(inBar.map((n) => n.start), bar);
+	// a note played just ahead of the downbeat is this bar's (re-registered 2026-11-12: the first grader lost it to neither bar)
+	const early = earlyWindow(bar);
+	const inBar = notes.filter((n) => n.start >= bar.start - early && n.start < bar.end - 1e-6);
+	const m = mode ?? chooseMode(inBar.map((n) => Math.max(n.start, bar.start)), bar);
 	const onsets = new Map<number, Note>();
 	const ends = new Map<number, number>();
 	const total = bar.beats.length * DIV[m];
 	for (const n of inBar.sort((a, b) => a.start - b.start)) {
-		const s = slotOf(n.start, bar, m);
+		const s = n.start < bar.start ? { slot: 0, time: bar.start, residual: bar.start - n.start } : slotOf(n.start, bar, m);
 		if (!s) continue;
 		const prev = onsets.get(s.slot);
 		if (prev && prev.pitch <= n.pitch) continue;

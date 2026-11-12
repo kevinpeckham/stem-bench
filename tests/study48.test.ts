@@ -25,6 +25,16 @@ describe("Study 48 grid", () => {
 		expect(chooseMode([10, 10.125, 10.25, 10.375], bar)).toBe("straight");
 		expect(chooseMode([10.17], bar)).toBe("straight");
 	});
+	it("gives an onset just ahead of the downbeat to that bar's first slot, and to neither bar's last", () => {
+		const early = [{ start: 11.99, end: 12.4, pitch: 40 }];
+		const next = quantizeBar(early, bars[1]!);
+		expect([...next.onsets.keys()]).toEqual([0]);
+		expect(quantizeBar(early, bar).onsets.size).toBe(0);
+		// but one a whole sixteenth early is the previous bar's last slot
+		const late = [{ start: 11.875, end: 12.1, pitch: 40 }];
+		expect([...quantizeBar(late, bar, "straight").onsets.keys()]).toEqual([15]);
+		expect(quantizeBar(late, bars[1]!).onsets.size).toBe(0);
+	});
 	it("drops notes shorter than 40 % of a sixteenth", () => {
 		const kept = meantNotes(
 			[

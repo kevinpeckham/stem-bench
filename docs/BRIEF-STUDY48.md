@@ -212,3 +212,34 @@ grade was run). Also seen: mir_eval needs strictly positive note
 durations, so zero-length MIDI notes (note-on and note-off on one tick,
 an export artefact) are dropped from the truth and counted
 (`truthDroppedZeroLength`); Peaceful Dreams loses 22 of 429 this way.
+
+## Second correction and re-registration (2026-11-12, after the first bar grades, before the write-up)
+
+The first bar grades (results of scripts/run-study48.ts at the previous
+registration, not kept) and their post-hoc attribution showed Letter
+Lands' transcriptions missing the downbeat note of bar after bar while
+Basic Pitch had plainly found it: the bass plays its downbeat 10 ms
+early, the transcribed onset falls just before the tracker's bar line,
+and the grader's slot rule returned "belongs to the next bar" for the
+previous bar and then never gave it to the next. The truth's onset,
+20 ms after the bar line, kept its note, so each such bar scored a
+missing note against the transcription. A grader defect: fixed in
+src/study48/bassLine.ts (an onset within half a sixteenth before a bar
+line is that bar's first slot; a test pins it), re-registered by this
+commit, and every bar grade rerun. Pipelines, note-level scores, the
+grid, the thresholds and the decision rule are unchanged.
+
+**Numbers seen in the defective bar grades**, all six songs: bars
+entirely right 7 % to 34 %, wrong 26 % to 77 %, notes on the right slot
+60 % to 86 %; S48-D1 would have been "no" for every pipeline; P5 would
+have failed and P6 held. The attribution put missing onsets at 14 % to
+40 % of truth onsets and extra onsets at 19 % to 81 %, octave errors at
+0 % to 9 % after the slot rule keeps the lower of two onsets in a slot.
+The corrected grader can only move "missing" down. P5 and P6 and the
+decision are now informed by this; the write-up says so.
+
+Also seen and disclosed: the tracker's bars as stored are not all four
+beats (two-beat bars on 8 to 29 bars per song, Mop Heart and Downline
+mostly three); the study grades on the bars as stored, as registered,
+and the app's half-bar joining would make the bars larger and the bar
+grade harder, never easier.
