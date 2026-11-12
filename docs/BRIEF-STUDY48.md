@@ -175,3 +175,40 @@ is given beside the rule, not in place of it.
   bench has no truth for the beats of these two songs.
 - Kevin's stems are the MIDI rendered by Logic's Session Player (Peaceful
   Dreams by its track names; Interbellum unknown), not a miked bass.
+
+## Correction and re-registration (2026-11-12, after the first note-level pass, before any bar grade)
+
+The first run of scripts/study48-notes.py (the Asks A and B scores, all
+six songs) showed a defect in the truth, not in the transcribers: every
+pipeline read the audio one octave **below** the MIDI, and pYIN, which
+tracks the fundamental, did so on 1,604 of its 1,605 pitch-class matches
+across the six songs (Peaceful Dreams 309 of 310, Interbellum 313 of 313,
+Letter Lands 191 of 191, Eat All the Clocks 207 of 207, Downline 281 of
+281, Mop Heart 303 of 303), with the truth's register table showing no
+note at all in E1 to A1 and most notes at C3 and above, where no bass
+part lives. The MIDI is at **written** pitch: bass is notated an octave
+above where it sounds (barmark grammar 4.1 says the same of its octave
+numbers), and Logic's bass instruments sound the written note an octave
+down. The rule "a defective fixture means stop, fix, disclose,
+re-register, re-run" applies: the truth is now the MIDI transposed down
+twelve semitones, in scripts/study48-notes.py, and this commit is the
+re-registration. Nothing else changes: pipelines, tolerances, grid rules,
+grading, predictions and the decision rule stand as written.
+
+**Numbers seen in the defective pass**, so the reader can weigh the
+predictions: against the written-pitch truth, Basic Pitch's octave-exact
+F was 0.22 to 0.48 by song, its pitch-class F 0.61 to 0.82, and its
+octave errors were almost all "down" (which, with the truth an octave
+high, means Basic Pitch wrote the sounding pitch on those notes and the
+written pitch on the rest); the constrained pipeline's pitch-class F was
+0.72 to 0.88 and pYIN's 0.59 to 0.87. P1 says the octave errors are
+mostly upward; the corrected truth turns the defective pass's "down"
+into "up", so P1 is now informed by what was seen and the write-up says
+so. P2 (the lowest register fails most) has no information from the pass
+because the register table was empty where it matters. P3 and P4 compare
+octave-exact F between pipelines, which the pass showed only against the
+wrong octave; they stand as registered. P5 and P6 are untouched (no bar
+grade was run). Also seen: mir_eval needs strictly positive note
+durations, so zero-length MIDI notes (note-on and note-off on one tick,
+an export artefact) are dropped from the truth and counted
+(`truthDroppedZeroLength`); Peaceful Dreams loses 22 of 429 this way.

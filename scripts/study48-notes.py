@@ -78,7 +78,13 @@ def pyin_notes(raw: Path) -> list:
     return notes
 
 
+def positive(notes: list) -> list:
+    """mir_eval needs strictly positive durations: a zero-length MIDI note (note-on and note-off on one tick) is dropped, and counted by the caller."""
+    return [n for n in notes if n["end"] - n["start"] > 1e-4 and n["start"] >= 0]
+
+
 def to_mir(notes: list, fold: bool):
+    notes = positive(notes)
     iv = np.array([[n["start"], n["end"]] for n in notes]) if notes else np.zeros((0, 2))
     p = np.array([n["pitch"] for n in notes], dtype=float)
     if fold:
@@ -87,6 +93,9 @@ def to_mir(notes: list, fold: bool):
 
 
 def score(truth: list, est: list) -> dict:
+    dropped = len(truth) - len(positive(truth))
+    truth = positive(truth)
+    est = positive(est)
     ri, rp = to_mir(truth, False)
     ei, ep = to_mir(est, False)
     p, r, f, _ = mir_eval.transcription.precision_recall_f1_overlap(ri, rp, ei, ep, onset_tolerance=0.05, pitch_tolerance=50.0, offset_ratio=None)
@@ -110,6 +119,7 @@ def score(truth: list, est: list) -> dict:
     matched = len(matches)
     return {
         "truthNotes": len(truth),
+        "truthDroppedZeroLength": dropped,
         "estNotes": len(est),
         "exact": {"precision": round(p, 4), "recall": round(r, 4), "f": round(f, 4)},
         "pitchClass": {"precision": round(pf, 4), "recall": round(rf, 4), "f": round(ff, 4)},
@@ -128,7 +138,8 @@ for slug in slugs:
     stem_to_mix = e["appStemOffset"]["offsetSec"]
     midi_to_mix = e["midiToMixSec"]
     mid = json.loads((d / "midi-notes.json").read_text())["notes"]
-    truth = [{"start": n["start"] + midi_to_mix, "end": n["end"] + midi_to_mix, "pitch": n["pitch"]} for n in mid]
+    # the MIDI is at written pitch; a bass sounds an octave lower (barmark grammar 4.1), so the truth is the MIDI down twelve (re-registered 2026-11-12, docs/BRIEF-STUDY48.md "Correction")
+    truth = [{"start": n["start"] + midi_to_mix, "end": n["end"] + midi_to_mix, "pitch": n["pitch"] - 12} for n in mid]
     (d / "truth-mix.json").write_text(json.dumps(truth))
     bp = bp_notes(d)
     pipes = {"bp": bp, "bp-bass": bass_constrain(bp)}
