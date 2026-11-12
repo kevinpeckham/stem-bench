@@ -167,8 +167,8 @@ The tracker's beats are where the composer's are; it drops 6 % to 16 %
 of them on five songs; its bar lines are the composer's on the three
 steady 4/4 songs and not on the 5/4 and 3/4 songs. **And the triplet
 bars are not the tracker's doing.** On the composer's own grid the
-per-bar rule still writes 13 of Downline's bars in triplets, where the
-part has none: the registration's "seen" paragraph called those bars an
+per-bar rule still writes 13 of Downline's bars in triplets, where one
+of the part's 401 notes sits nearer a triplet than a sixteenth: the registration's "seen" paragraph called those bars an
 artifact, and they are, of the per-bar rule. At 180 bpm the second
 sixteenth of a beat and the second triplet are 28 ms apart, inside a
 player's timing; the mechanism was not measured further.
@@ -188,9 +188,10 @@ player's timing; the mechanism was not measured further.
 (Bars entirely right, then the slot-level F.)
 
 - **The per-song rule** removes every bar on different subdivisions (26
-  on the tracker's grid, 28 on the composer's, to none) and raises the
-  slot F on five songs, by 0.05 on Downline; it leaves one song's F
-  where it was and lowers none. Bars right does not move: those bars
+  on the tracker's grid, 28 on the composer's, to none). On the
+  tracker's grid it raises the slot F on five songs, by 0.05 on
+  Downline, and leaves one where it was; on the composer's it raises
+  three and leaves three; it lowers none. Bars right does not move: those bars
   were wrong for other reasons as well. Wrong bars fall on Downline
   (32 % to 29 %).
 - **The composer's grid** changes the slot F by 0.01 or less on every
@@ -224,10 +225,11 @@ Three of six held.
   right had to rise on five songs; it rose on one). Reported for what
   it is: choosing once for the song never lowered bars right, removed
   every bar on different subdivisions, and raised the slot F on five
-  songs; the truth is in sixteenths on all six songs and both
+  songs on the tracker's grid; the truth is in sixteenths on all six songs and both
   transcriptions chose sixteenths on every song and grid. The per-bar
-  rule writes triplets the part does not have, on the composer's own
-  grid, in 19 of 597 bars.
+  rule writes 19 of the truth's 597 bars in triplets on the composer's
+  own grid, where about 10 of the part's 2,181 notes sit nearer a
+  triplet than a sixteenth.
 - **S50-D2: no, the grid is not the bottleneck.** A perfect grid leaves
   the line where the transcriber put it: mean bars right −0.5 points,
   slot F within 0.01 on every song.
