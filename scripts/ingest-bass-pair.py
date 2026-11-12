@@ -147,7 +147,7 @@ def match(mid, bps, starts, lag, seconds, lo=0.0, hi=None):
     return {"inSpan": n_in, "onsetMatched": hit, "exact": exact, "octaveOff": octave, "classRight": cls, "medianOnsetErr": round(float(np.median(errs)), 4) if errs else None}
 
 
-def app_bass_stem(slug: str) -> Path | None:
+def app_bass_stem(slug: str, corpus: str) -> Path | None:
     """The app's own bass stem for the song (corpus/fixture-mmkk.json names; corpus-mmkk/<slug>/<id>.wav), if held."""
     fx = json.loads((ROOT / "corpus" / "fixture-mmkk.json").read_text())
     for song in fx["songs"]:
@@ -157,7 +157,7 @@ def app_bass_stem(slug: str) -> Path | None:
             name = (st.get("name") or "").lower()
             if "bass" in name and "synth" not in name:
                 ident = (st.get("id") or st.get("stemId") or st.get("url") or "").rsplit("/", 1)[-1]
-                for cand in (ROOT / "corpus-mmkk" / slug).glob(f"{Path(ident).stem}*.{RATE}.f32le.raw"):
+                for cand in (ROOT / corpus / slug).glob(f"{Path(ident).stem}*.{RATE}.f32le.raw"):
                     return cand
     return None
 
@@ -193,8 +193,10 @@ def main() -> None:
     ap.add_argument("wav")
     ap.add_argument("mid")
     ap.add_argument("--label", default="Bass")
+    ap.add_argument("--corpus", default="corpus-mmkk", help="the gitignored corpus folder for the band (corpus-mmkk, corpus-ghostghost, ...)")
+    ap.add_argument("--band", default="MMKK")
     args = ap.parse_args()
-    d = ROOT / "corpus-mmkk" / args.slug / "bass-truth"
+    d = ROOT / args.corpus / args.slug / "bass-truth"
     d.mkdir(parents=True, exist_ok=True)
     wav, mid = d / f"{args.slug}-bass.wav", d / f"{args.slug}-bass.mid"
     fetch(args.wav, wav)
@@ -248,11 +250,12 @@ def main() -> None:
         beats = -lag * bpm0 / 60
         bars = beats / beats_per_bar
         offset_bars = {"beats": round(beats, 3), "bars": round(bars, 3), "integral": abs(bars - round(bars)) < 0.02}
-    app = app_bass_stem(args.slug)
+    app = app_bass_stem(args.slug, args.corpus)
     app_off = stem_offset(raw, app) if app else None
     # MIDI time -> the app's mix time (the app's stems start with its mix): + mixOffsetSec
     mix_off = round(app_off["offsetSec"] + lag, 3) if app_off else None
     entry = {
+        "band": args.band,
         "label": args.label,
         "appStem": str(app.relative_to(ROOT)) if app else None,
         "appStemOffset": app_off,

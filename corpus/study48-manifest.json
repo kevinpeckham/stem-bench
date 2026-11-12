@@ -402,6 +402,223 @@
 				2.01,
 				8.01
 			]
+		},
+		"downline": {
+			"band": "Ghost Ghost",
+			"label": "Bass",
+			"appStem": null,
+			"appStemOffset": null,
+			"midiToMixSec": null,
+			"wav": "corpus-ghostghost/downline/bass-truth/downline-bass.wav",
+			"wavSha256": "4abd03bdd8a46c9591f461b71b82132a7bd67debb9eac2f5c4c25415dd38cc73",
+			"raw": "corpus-ghostghost/downline/bass-truth/downline-bass.22050.f32le.raw",
+			"seconds": 206.667,
+			"midi": "corpus-ghostghost/downline/bass-truth/downline-bass.mid",
+			"midiSha256": "8969b684742c26b8129743caed69e0d629b511ab198d8636000c46066a0e70fc",
+			"midiTracks": 1,
+			"trackNames": [
+				"Verse"
+			],
+			"tempos": [
+				{
+					"sec": 0.0,
+					"bpm": 180.0
+				}
+			],
+			"sigs": [
+				{
+					"sec": 0.0,
+					"sig": "5/4"
+				},
+				{
+					"sec": 33.3333,
+					"sig": "3/4"
+				},
+				{
+					"sec": 49.3333,
+					"sig": "5/4"
+				},
+				{
+					"sec": 75.9999,
+					"sig": "3/4"
+				},
+				{
+					"sec": 91.9999,
+					"sig": "5/4"
+				},
+				{
+					"sec": 158.6665,
+					"sig": "3/4"
+				}
+			],
+			"midiNotes": 401,
+			"midiPitchRange": [
+				43,
+				64
+			],
+			"midiSpan": [
+				0.0069,
+				206.6637
+			],
+			"basicPitchNotes": 636,
+			"offsetSec": -0.01,
+			"offsetBars": {
+				"beats": -0.03,
+				"bars": -0.006,
+				"integral": true
+			},
+			"alignment": {
+				"inSpan": 401,
+				"onsetMatched": 348,
+				"exact": 96,
+				"octaveOff": 245,
+				"classRight": 341,
+				"medianOnsetErr": 0.0086
+			},
+			"windows": [
+				{
+					"from": 0.0,
+					"notes": 66,
+					"lag": 0.01,
+					"classRight": 49
+				},
+				{
+					"from": 30.0,
+					"notes": 51,
+					"lag": 0.01,
+					"classRight": 42
+				},
+				{
+					"from": 60.0,
+					"notes": 37,
+					"lag": 0.03,
+					"classRight": 33
+				},
+				{
+					"from": 90.0,
+					"notes": 112,
+					"lag": 0.01,
+					"classRight": 107
+				},
+				{
+					"from": 120.0,
+					"notes": 71,
+					"lag": 0.01,
+					"classRight": 66
+				},
+				{
+					"from": 150.0,
+					"notes": 28,
+					"lag": 0.01,
+					"classRight": 25
+				},
+				{
+					"from": 180.0,
+					"notes": 36,
+					"lag": 0.02,
+					"classRight": 23
+				}
+			],
+			"driftSec": 0.02,
+			"coarsePeaks": [
+				0.01,
+				3.34,
+				5.01,
+				-1.66,
+				-3.33
+			]
+		},
+		"mop-heart": {
+			"band": "MMKK",
+			"label": "Bass",
+			"appStem": "corpus-mmkk/mop-heart/zfs0omUaZflHDBf6OaS8N-v1.wav.22050.f32le.raw",
+			"appStemOffset": {
+				"offsetSec": 3.203,
+				"overlapSec": 102.9,
+				"envelopeCorrelation": 0.961,
+				"appStemSeconds": 114.01
+			},
+			"midiToMixSec": 2.153,
+			"wav": "corpus-mmkk/mop-heart/bass-truth/mop-heart-bass.wav",
+			"wavSha256": "d3298ed85b02d6a41bc09fc7f4cc2716199036ac2b8596c4519355695843d523",
+			"raw": "corpus-mmkk/mop-heart/bass-truth/mop-heart-bass.22050.f32le.raw",
+			"seconds": 102.857,
+			"midi": "corpus-mmkk/mop-heart/bass-truth/mop-heart-bass.mid",
+			"midiSha256": "07a38e583c31a04a0893c3cf23f978616248c67c966f3da9a1529396c50f7a64",
+			"midiTracks": 1,
+			"trackNames": [
+				"Bass Player - Retro Rock"
+			],
+			"tempos": [
+				{
+					"sec": 0.0,
+					"bpm": 224.0
+				}
+			],
+			"sigs": [
+				{
+					"sec": 0.0,
+					"sig": "3/4"
+				}
+			],
+			"midiNotes": 336,
+			"midiPitchRange": [
+				42,
+				64
+			],
+			"midiSpan": [
+				1.0937,
+				103.9285
+			],
+			"basicPitchNotes": 460,
+			"offsetSec": 1.05,
+			"offsetBars": {
+				"beats": 3.92,
+				"bars": 1.307,
+				"integral": false
+			},
+			"alignment": {
+				"inSpan": 336,
+				"onsetMatched": 329,
+				"exact": 58,
+				"octaveOff": 269,
+				"classRight": 327,
+				"medianOnsetErr": 0.0161
+			},
+			"windows": [
+				{
+					"from": 0.0,
+					"notes": 86,
+					"lag": -1.06,
+					"classRight": 80
+				},
+				{
+					"from": 30.0,
+					"notes": 100,
+					"lag": -1.05,
+					"classRight": 99
+				},
+				{
+					"from": 60.0,
+					"notes": 106,
+					"lag": -1.06,
+					"classRight": 104
+				},
+				{
+					"from": 90.0,
+					"notes": 44,
+					"lag": -1.05,
+					"classRight": 43
+				}
+			],
+			"driftSec": 0.01,
+			"coarsePeaks": [
+				-1.06,
+				-1.86,
+				-0.25,
+				-2.66,
+				0.55
+			]
 		}
 	}
 }

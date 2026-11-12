@@ -29,6 +29,27 @@ in so far (2026-11-12):
 | Peaceful Dreams | 185.4 s, 48 kHz | 429 notes, 9 region tracks, 145 bpm 4/4 | the mix starts one bar into the session; Kevin's stem export starts at bar 14 (verified by onset and pitch-class match: 349 of 357 matched notes agree, no drift) |
 | Interbellum | 133.1 s | 456 notes, 11 region tracks, 115 bpm 4/4 | the mix starts one bar into the session; the stem is the app's own (30 ms apart; 323 of 324 matched notes agree) |
 
+| Letter Lands | 130.5 s | 305 notes, one merged track, 132 bpm 4/4 | MIDI and stem start together; the stem begins four bars into the app's mix (278 of 304 matched, 277 agree) |
+| Eat All the Clocks | 132.0 s | 254 notes, one track, 120 bpm 4/4 | start together; four bars into the mix (232 of 254 matched, 231 agree) |
+| Mop Heart | 102.9 s | 336 notes, one track, 224 bpm 3/4 | the stem starts 1.05 s (four beats) into the MIDI; the mix starts eight beats before MIDI time zero (329 of 336 matched, 327 agree) |
+| Downline (Ghost Ghost, Kevin's other band) | 206.7 s | 401 notes, one track, 180 bpm, meter alternating 5/4 and 3/4 six times | start together (348 of 401 matched, 341 agree); **no app mix or beats held**, see the amendment below |
+
+**Amendment before the run (2026-11-12, after the five intakes above).**
+Downline is not in the app, so it has no stored beats. For a song without
+an app grid the study uses the bench's own Beat This small0 reading of the
+band's mix (the same model and decode as the app's port, equal to the
+frame on five songs in Study 44), with the app's grid rules (Study 44's
+port: modal beats per bar, half-bar joining, steady share), once Kevin
+supplies the mix; the stem is placed on it by the same envelope
+cross-correlation. Until the mix arrives Downline is taken in and scored
+at the note level (Asks A and B, which need no grid) and left out of the
+bar grades and of S48-D1's "every song", which the write-up says. Its
+changing meter is a known hard case for a 4/4-leaning tracker, and a bar
+the tracker reads wrongly moves the truth and the transcription together,
+so it shows in the rhythm share, not in the bar grade. Mop Heart's 224
+bpm 3/4 is the song Study 44 found the tracker's steady check fails on;
+its app grid is used as stored.
+
 More pairs join as Kevin's exports succeed (two failed on 2026-11-12:
 14-byte files; the cause and the export recipe are in
 docs/bass-truth-intake.md); each goes through the same intake, and the study's
