@@ -147,6 +147,46 @@ def match(mid, bps, starts, lag, seconds, lo=0.0, hi=None):
     return {"inSpan": n_in, "onsetMatched": hit, "exact": exact, "octaveOff": octave, "classRight": cls, "medianOnsetErr": round(float(np.median(errs)), 4) if errs else None}
 
 
+def app_bass_stem(slug: str) -> Path | None:
+    """The app's own bass stem for the song (corpus/fixture-mmkk.json names; corpus-mmkk/<slug>/<id>.wav), if held."""
+    fx = json.loads((ROOT / "corpus" / "fixture-mmkk.json").read_text())
+    for song in fx["songs"]:
+        if song.get("slug") != slug:
+            continue
+        for st in song.get("stems", []):
+            name = (st.get("name") or "").lower()
+            if "bass" in name and "synth" not in name:
+                ident = (st.get("id") or st.get("stemId") or st.get("url") or "").rsplit("/", 1)[-1]
+                for cand in (ROOT / "corpus-mmkk" / slug).glob(f"{Path(ident).stem}*.{RATE}.f32le.raw"):
+                    return cand
+    return None
+
+
+def envelope(raw: Path, hop: int = 220) -> np.ndarray:
+    x = np.fromfile(raw, dtype=np.float32)
+    n = len(x) // hop
+    e = np.sqrt((x[: n * hop].reshape(n, hop) ** 2).mean(1))
+    e = np.log1p(1000 * e)
+    return e - e.mean()
+
+
+def stem_offset(kevin_raw: Path, app_raw: Path) -> dict:
+    """app-stem time = Kevin-stem time + offset, by full cross-correlation of log RMS envelopes (10 ms hops)."""
+    ek, ea = envelope(kevin_raw), envelope(app_raw)
+    n = len(ek) + len(ea)
+    c = np.fft.irfft(np.fft.rfft(ea, n) * np.conj(np.fft.rfft(ek, n)), n)
+    i = int(np.argmax(c))
+    lag = i if i < n // 2 else i - n
+    hop_s = 220 / RATE
+    if lag >= 0:
+        ov = min(len(ek), len(ea) - lag)
+        r = float(np.corrcoef(ek[:ov], ea[lag : lag + ov])[0, 1])
+    else:
+        ov = min(len(ea), len(ek) + lag)
+        r = float(np.corrcoef(ek[-lag : -lag + ov], ea[:ov])[0, 1])
+    return {"offsetSec": round(lag * hop_s, 3), "overlapSec": round(ov * hop_s, 1), "envelopeCorrelation": round(r, 3), "appStemSeconds": round(len(ea) * hop_s, 2)}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
@@ -208,8 +248,15 @@ def main() -> None:
         beats = -lag * bpm0 / 60
         bars = beats / beats_per_bar
         offset_bars = {"beats": round(beats, 3), "bars": round(bars, 3), "integral": abs(bars - round(bars)) < 0.02}
+    app = app_bass_stem(args.slug)
+    app_off = stem_offset(raw, app) if app else None
+    # MIDI time -> the app's mix time (the app's stems start with its mix): + mixOffsetSec
+    mix_off = round(app_off["offsetSec"] + lag, 3) if app_off else None
     entry = {
         "label": args.label,
+        "appStem": str(app.relative_to(ROOT)) if app else None,
+        "appStemOffset": app_off,
+        "midiToMixSec": mix_off,
         "wav": str(wav.relative_to(ROOT)),
         "wavSha256": sha256(wav),
         "raw": str(raw.relative_to(ROOT)),
@@ -238,6 +285,10 @@ def main() -> None:
     print(f"{args.slug}: stem {seconds:.1f} s; MIDI {len(notes)} notes in {m['tracks']} tracks, tempo {m['tempos']}, {m['sigs']}")
     print(f"  stem starts at MIDI time {-lag:.3f} s{ob}; onsets matched {r['onsetMatched']}/{r['inSpan']} within 60 ms, pitch class right {r['classRight']}, exact {r['exact']}, octave off {r['octaveOff']}")
     print(f"  per-window lag deviation at most {drift} s over {len(windows)} windows; other coarse candidates {peaks[1:]}")
+    if app_off:
+        print(f"  the app's bass stem starts {-app_off['offsetSec']:+.3f} s from this stem (envelope correlation {app_off['envelopeCorrelation']} over {app_off['overlapSec']} s); MIDI time + {mix_off} s = the app's mix time")
+    else:
+        print("  no app bass stem held for this song; MIDI cannot be placed on the app's beats", file=sys.stderr)
     if drift is not None and drift > 0.05:
         print("  WARNING: the offset moves between windows; check the tempo map", file=sys.stderr)
 

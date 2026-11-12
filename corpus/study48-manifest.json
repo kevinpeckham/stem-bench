@@ -3,6 +3,14 @@
 	"entries": {
 		"peaceful-dreams": {
 			"label": "Bass Guitar",
+			"appStem": "corpus-mmkk/peaceful-dreams/z7Y6ucBnUuB3aumS0MGnC.wav.22050.f32le.raw",
+			"appStemOffset": {
+				"offsetSec": 19.865,
+				"overlapSec": 185.4,
+				"envelopeCorrelation": 0.969,
+				"appStemSeconds": 206.17
+			},
+			"midiToMixSec": -1.655,
 			"wav": "corpus-mmkk/peaceful-dreams/bass-truth/peaceful-dreams-bass.wav",
 			"wavSha256": "4761804477061f4dc39dcedf73486251c228f27bb81a7d29ebb5ffa6cda88330",
 			"raw": "corpus-mmkk/peaceful-dreams/bass-truth/peaceful-dreams-bass.22050.f32le.raw",
@@ -105,6 +113,14 @@
 		},
 		"interbellum": {
 			"label": "Bass Guitar",
+			"appStem": "corpus-mmkk/interbellum/kkVg_ru0tTAV2G9PidXr3.wav.22050.f32le.raw",
+			"appStemOffset": {
+				"offsetSec": -0.03,
+				"overlapSec": 133.1,
+				"envelopeCorrelation": 0.978,
+				"appStemSeconds": 133.81
+			},
+			"midiToMixSec": -2.1,
 			"wav": "corpus-mmkk/interbellum/bass-truth/interbellum-bass.wav",
 			"wavSha256": "58ad60ab0bf9fa903afa7130cc92feaf9f38b69db2b103f1e35e9a51e8508222",
 			"raw": "corpus-mmkk/interbellum/bass-truth/interbellum-bass.22050.f32le.raw",
