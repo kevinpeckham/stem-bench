@@ -1,0 +1,1382 @@
+{
+	"model": "anthropic/claude-fable-5-1",
+	"fence": 1.5,
+	"results": {
+		"gs-00_SS2-107-Ab_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 10,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 4927,
+				"out": 1030
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "A♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 107.14285714285705,
+				"bars": 17,
+				"barSecMedian": 2.249999999999999
+			},
+			"cellsPerBar": 1,
+			"declared": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "Ab",
+				"style": "SS2",
+				"player": "00"
+			},
+			"bars": 16,
+			"barSecMedian": 2.249999999999999,
+			"noteCount": 329,
+			"notesPerBar": 20.5625,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 10,
+				"bearing": 11
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"C#m/Ab F#7 B E Bbm7b5 Eb7 Abm % C#m/Ab F# B E Bbm7b5 Eb7 Abm %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| C#m/Ab | F#7 | B | E | Bbm7b5 | Eb7 | Abm | % |\"},{\"section\":\"Verse 2\",\"chords\":\"| C#m/Ab | F# | B | E | Bbm7b5 | Eb7 | Abm | % |\"}],\"chart\":\"# acoustic guitar excerpt\\n*107 bpm · A♭ minor · 4/4*\\n\\n**Structure:** Verse 1 (8) – Verse 2 (8)\\n\\n## I. Verse 1 (bar 1)\\n| C#m/Ab | F#7 | B | E | Bbm7b5 | Eb7 | Abm | % |\\n\\n## II. Verse 2 (bar 9)\\n| C#m/Ab | F# | B | E | Bbm7b5 | Eb7 | Abm | % |\\n\\n*Descending-cycle progression in A♭ minor (iv – VII7 – III – VI – iiø7 – V7 – i), played twice.*\",\"notes\":\"Bar 1/9 is C#m over an A♭ bass pedal (iv in second inversion); the F# chord in bar 10 lacks the E heard in bar 2, so it is charted as a plain triad there, and the ii chord (Bbm7b5) is inferred from Bb bass with Ab–C#–E above.\"}"
+		},
+		"gs-01_SS2-107-Ab_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 7,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 2631,
+				"out": 1389
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "A♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 107.1428571428571,
+				"bars": 17,
+				"barSecMedian": 2.240000000000001
+			},
+			"cellsPerBar": 1,
+			"declared": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "Ab",
+				"style": "SS2",
+				"player": "01"
+			},
+			"bars": 16,
+			"barSecMedian": 2.240000000000001,
+			"noteCount": 163,
+			"notesPerBar": 10.1875,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 16,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 7,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"C#m F# B E Bb7 Eb Abm7 Abm C#m F#5 B5 E Bb7 Eb Abm7 Ab5\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| C#m | F# | B | E | Bb7 | Eb | Abm7 | Abm |\"},{\"section\":\"Verse 2\",\"chords\":\"| C#m | F#5 | B5 | E | Bb7 | Eb | Abm7 | Ab5 |\"}],\"chart\":\"# acoustic guitar excerpt\\n107 bpm · A♭ minor · 4/4\\n\\n**Structure:** Verse 1 – Verse 2 (two passes of the same 8-bar progression)\\n\\n## I. Verse 1 (bars 1–8)\\n| C#m | F# | B | E | Bb7 | Eb | Abm7 | Abm |\\n\\n## II. Verse 2 (bars 9–16)\\n| C#m | F#5 | B5 | E | Bb7 | Eb | Abm7 | Ab5 |\\n\\n*Ends on a bare A♭ in bar 16.*\",\"notes\":\"Bars 4 and 12 contain a weak G natural suggesting Em rather than E; bars 13–14 are thin (only D, then Bb/G) and are assumed to repeat the Bb7–Eb turnaround from bars 5–6.\"}"
+		},
+		"gs-02_SS2-107-Ab_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 3,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 4013,
+				"out": 1801
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "A♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 107.14285714285714,
+				"bars": 17,
+				"barSecMedian": 2.24
+			},
+			"cellsPerBar": 1,
+			"declared": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "Ab",
+				"style": "SS2",
+				"player": "02"
+			},
+			"bars": 16,
+			"barSecMedian": 2.24,
+			"noteCount": 239,
+			"notesPerBar": 14.9375,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 15,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 3,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"C# F#5 B5 E5 Bbm Eb5 Abm Abm7 C#5 F#5 B E Bb5 Eb5 Ab5 %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| C# | F#5 | B5 | E5 | Bbm | Eb5 | Abm | Abm7 |\"},{\"section\":\"Verse 2\",\"chords\":\"| C#5 | F#5 | B | E | Bb5 | Eb5 | Ab5 | Ab5 |\"}],\"chart\":\"# acoustic guitar excerpt\\n107 bpm · A♭ minor · 4/4\\n\\n**Structure:** Verse 1 (8) – Verse 2 (8)\\n\\n## I. Verse 1 (bar 1)\\n| C# | F#5 | B5 | E5 | Bbm | Eb5 | Abm | Abm7 |\\n\\n## II. Verse 2 (bar 9)\\n| C#5 | F#5 | B | E | Bb5 | Eb5 | Ab5 | Ab5 |\\n\\nDescending-fourths cycle (IV–bVII–bIII–bVI–ii–v–i) played twice; mostly open fifths, thirds appear only on C# (bar 1), Bbm (bar 5), Abm/Abm7 (bars 7–8), B and E (bars 11–12).\",\"notes\":\"Many bars are bare root-and-fifth voicings so 5 chords could equally be played as full triads (F#, B, E, Eb, Ab major/minor per key); bar 9 adds a 2nd (Eb) over C# and bar 16 adds Bb over Ab, both marked as plain 5 chords.\"}"
+		},
+		"gs-03_SS2-107-Ab_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 12,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 8,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 5104,
+				"out": 523
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "A♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 107.14285714285714,
+				"bars": 17,
+				"barSecMedian": 2.240000000000001
+			},
+			"cellsPerBar": 1.06,
+			"declared": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "Ab",
+				"style": "SS2",
+				"player": "03"
+			},
+			"bars": 17,
+			"barSecMedian": 2.24,
+			"noteCount": 353,
+			"notesPerBar": 20.764705882352942,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 17,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 12,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 8,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"C#m F#7 B E C#m Eb7 Abm % C#m F# B E C#m Eb7 Abm % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse\",\"bar\":9},{\"index\":\"III\",\"name\":\"Outro\",\"bar\":17}],\"progressions\":[{\"section\":\"Verse\",\"chords\":\"| C#m | F#7 | B | E | C#m | Eb7 | Abm | Abm |\"},{\"section\":\"Verse\",\"chords\":\"| C#m | F# | B | E | C#m | Eb7 | Abm | Abm |\"},{\"section\":\"Outro\",\"chords\":\"| Abm |\"}],\"chart\":\"# acoustic guitar excerpt\\n107 bpm · A♭ minor · 4/4\\n\\nStructure: Verse – Verse – Outro\\n\\n## I. Verse (bar 1)\\n| C#m | F#7 | B | E | C#m | Eb7 | Abm | Abm |\\n\\n## II. Verse (bar 9)\\n| C#m | F# | B | E | C#m | Eb7 | Abm | Abm |\\n\\n## III. Outro (bar 17)\\n| Abm |  (single strum, let ring)\",\"notes\":\"Bar 2 shows E3 (the seventh) so it is F#7 while bar 10 has only the triad; bars 6 and 14 both contain C# (b7) so Eb7; bar 1 has stray G/Ab passing tones ignored; bar 17 is a short final strum rather than a full bar.\"}"
+		},
+		"gs-04_SS2-107-Ab_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 10,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 5044,
+				"out": 1592
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "A♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 107.14285714285714,
+				"bars": 16,
+				"barSecMedian": 2.24
+			},
+			"cellsPerBar": 1.07,
+			"declared": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "Ab",
+				"style": "SS2",
+				"player": "04"
+			},
+			"bars": 16,
+			"barSecMedian": 2.24,
+			"noteCount": 351,
+			"notesPerBar": 21.9375,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 10,
+				"bearing": 11
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"C#m7 F#7 Bmaj7 E Bbm7b5 Eb7 Abm % C#m7 F#7 Bmaj7 E Bbm7b5 Eb Abm %\",\"sections\":[{\"index\":\"I\",\"name\":\"A\",\"bar\":1},{\"index\":\"II\",\"name\":\"A'\",\"bar\":9}],\"progressions\":[{\"section\":\"A\",\"chords\":\"| C#m7 | F#7 | Bmaj7 | E | Bbm7b5 | Eb7 | Abm | % |\"},{\"section\":\"A'\",\"chords\":\"| C#m7 | F#7 | Bmaj7 | E | Bbm7b5 | Eb | Abm | % |\"}],\"chart\":\"# Acoustic guitar excerpt\\n\\n107 bpm · A♭ minor · 4/4\\n\\n**Structure:** A – A' (two 8-bar passes of the same cycle-of-fifths progression)\\n\\n## I. A (bars 1–8)\\n\\n| C#m7 | F#7 | Bmaj7 | E | Bbm7b5 | Eb7 | Abm | % |\\n\\n## II. A' (bars 9–16)\\n\\n| C#m7 | F#7 | Bmaj7 | E | Bbm7b5 | Eb | Abm | % |\\n\",\"notes\":\"Bar 1 is labelled E by the reader but the bass and voicing (C#–E–B) match bar 9, so it is charted as C#m7; bars 5 and 13 are the ii half-diminished (C#m over a Bb bass), and bar 14 shows no Db so it is a plain Eb rather than Eb7.\"}"
+		},
+		"gs-05_SS2-107-Ab_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 7,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 4817,
+				"out": 1652
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "A♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 107.14285714285714,
+				"bars": 17,
+				"barSecMedian": 2.240000000000001
+			},
+			"cellsPerBar": 1,
+			"declared": {
+				"bpm": 107,
+				"meter": "4/4",
+				"key": "Ab",
+				"style": "SS2",
+				"player": "05"
+			},
+			"bars": 16,
+			"barSecMedian": 2.240000000000001,
+			"noteCount": 309,
+			"notesPerBar": 19.3125,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 15,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 7,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"C#m/Ab F# B/F# E/B Bbm7b5 Eb Abm Ab C#m/Ab F# B/F# E/B Bbm7b5 Eb Abm %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| C#m/Ab | F# | B/F# | E/B | Bbm7b5 | Eb | Abm | Ab |\"},{\"section\":\"Verse 2\",\"chords\":\"| C#m/Ab | F# | B/F# | E/B | Bbm7b5 | Eb | Abm | % |\"}],\"chart\":\"# acoustic guitar excerpt\\n107 bpm · A♭ minor · 4/4\\n\\nStructure: Verse 1 – Verse 2 (same 8-bar cycle twice)\\n\\n## I. Verse 1 (bars 1–8)\\n| C#m/Ab | F# | B/F# | E/B | Bbm7b5 | Eb | Abm | Ab |\\n\\n## II. Verse 2 (bars 9–16)\\n| C#m/Ab | F# | B/F# | E/B | Bbm7b5 | Eb | Abm | % |\\n\\n(iv – VII – III – VI – iiø7 – V – i: a descending-fifths cycle in A♭ minor; bar 8 sounds a major third (Picardy A♭) before the cycle restarts.)\",\"notes\":\"Bar 8 shows a C natural (A♭ major) where bars 15–16 show C♭ (A♭m); the major in bar 8 may be a transcription artefact, and the sharp/flat spellings follow the matcher (C#m/F#/B/E) rather than strict A♭-minor spelling.\"}"
+		},
+		"gs-00_SS2-88-F_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 11,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 4719,
+				"out": 1220
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 88.2352941176471,
+				"bars": 17,
+				"barSecMedian": 2.7200000000000006
+			},
+			"cellsPerBar": 1,
+			"declared": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F",
+				"style": "SS2",
+				"player": "00"
+			},
+			"bars": 16,
+			"barSecMedian": 2.7200000000000006,
+			"noteCount": 315,
+			"notesPerBar": 19.6875,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 11,
+				"bearing": 11
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bbm Eb7 Ab Db Gm7b5 C7 Fm % Bbm Eb7 Ab Db Gm7b5 C7 Fm %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse\",\"chords\":\"| Bbm | Eb7 | Ab | Db | Gm7b5 | C7 | Fm | % |\"},{\"section\":\"Verse\",\"chords\":\"| Bbm | Eb7 | Ab | Db | Gm7b5 | C7 | Fm | % |\"}],\"chart\":\"# acoustic guitar excerpt\\n88 bpm · F minor · 4/4\\n\\n**Structure:** Verse (I) – Verse (II)\\n\\n## I. Verse (bars 1–8)\\n| Bbm | Eb7 | Ab | Db | Gm7b5 | C7 | Fm | % |\\n\\n## II. Verse (bars 9–16)\\n| Bbm | Eb7 | Ab | Db | Gm7b5 | C7 | Fm | % |\\n\\n*(Full circle-of-fifths descent in F minor: iv – VII7 – III – VI – iiø7 – V7 – i, played twice.)*\",\"notes\":\"Bar 5/13 bass G with F-Bb-Db above reads as Gm7b5 rather than Bbm; Db spelled per the F-minor key (matcher said C#); bar 16 kept as Fm since a faint Ab sounds, though it could be a bare F5.\"}"
+		},
+		"gs-01_SS2-88-F_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 5,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 5893,
+				"out": 1517
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 132,
+				"meter": "4/4",
+				"key": "C minor",
+				"beatsPerBar": 2
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 130.43478260869742,
+				"bars": 41,
+				"barSecMedian": 0.9100000000000001
+			},
+			"cellsPerBar": 1.02,
+			"declared": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F",
+				"style": "SS2",
+				"player": "01"
+			},
+			"bars": 41,
+			"barSecMedian": 0.9000000000000021,
+			"noteCount": 372,
+			"notesPerBar": 9.073170731707316,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 41,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 5,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bbm % Eb5 % % Ab Db5 % Gm % C5 % Fm % % % Bbm % Eb Ab % % % % Db5 % G5 % % C5 % Fm % % % % % % % % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":17},{\"index\":\"III\",\"name\":\"Outro\",\"bar\":32}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| Bbm | Bbm | Eb5 | Eb5 | Eb5 | Ab | Db5 | Db5 | Gm | Gm | C5 | C5 | Fm | Fm | Fm | Fm |\"},{\"section\":\"Verse 2\",\"chords\":\"| Bbm | Bbm | Eb | Ab | Ab | Ab | Ab | Ab | Db5 | Db5 | G5 | G5 | G5 | C5 | C5 |\"},{\"section\":\"Outro\",\"chords\":\"| Fm | x10\"}],\"chart\":\"# acoustic guitar excerpt\\n132 bpm · C minor · 4/4\\n\\nStructure: Verse 1 – Verse 2 – Outro (Fm vamp)\\n\\n## I. Verse 1 (bar 1)\\n| Bbm | Bbm | Eb5 | Eb5 | Eb5 | Ab | Db5 | Db5 | Gm | Gm | C5 | C5 | Fm | Fm | Fm | Fm |\\n\\n## II. Verse 2 (bar 17)\\n| Bbm | Bbm | Eb | Ab | Ab | Ab | Ab | Ab | Db5 | Db5 | G5 | G5 | G5 | C5 | C5 |\\n\\n## III. Outro (bar 32)\\n| Fm | x10\\n\\n(Descending-fifths cycle: Bbm – Eb – Ab – Db – Gm – C – Fm. Verse 2 stretches the Ab and G bars.)\",\"notes\":\"Eb, Db, C and G chords are played as bare fifths (no third heard) so they are charted as 5 chords; bars 27 and 32 are near-silent in the transcription and are treated as continuations (G5, Fm), and the Verse 2 bar lengths are irregular so the pass may be rubato.\"}"
+		},
+		"gs-02_SS2-88-F_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 12,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 3,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 3985,
+				"out": 558
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 89,
+				"meter": "4/4",
+				"key": "C minor",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 88.2352941176471,
+				"bars": 17,
+				"barSecMedian": 2.7100000000000013
+			},
+			"cellsPerBar": 1.06,
+			"declared": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F",
+				"style": "SS2",
+				"player": "02"
+			},
+			"bars": 17,
+			"barSecMedian": 2.7,
+			"noteCount": 245,
+			"notesPerBar": 14.411764705882353,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 17,
+			"mergedBars": 15,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 12,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 3,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bb5 Eb Ab5 Db Bb5 C5 F5 % Bb5 Eb Ab5 Db Bb5 C5 F5 Fm %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9},{\"index\":\"III\",\"name\":\"Outro\",\"bar\":17}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| Bb5 | Eb | Ab5 | Db | Bb5 | C5 | F5 | F5 |\"},{\"section\":\"Verse 2\",\"chords\":\"| Bb5 | Eb | Ab5 | Db | Bb5 | C5 | F5 | Fm |\"},{\"section\":\"Outro\",\"chords\":\"| Fm |\"}],\"chart\":\"# acoustic guitar excerpt\\n89 bpm · C minor · 4/4\\n\\nStructure: Verse 1 – Verse 2 – Outro\\n\\n## I. Verse 1 (bars 1–8)\\n| Bb5 | Eb | Ab5 | Db | Bb5 | C5 | F5 | F5 |\\n\\n## II. Verse 2 (bars 9–16)\\n| Bb5 | Eb | Ab5 | Db | Bb5 | C5 | F5 | Fm |\\n\\n## III. Outro (bar 17)\\n| Fm |\\n(final Fm chord rings out)\",\"notes\":\"Most bars are root-and-fifth voicings so written as power chords; Eb and Db show the major third, bar 16 adds Ab making Fm, and bars 7/15 could be read as Fm given the key.\"}"
+		},
+		"gs-03_SS2-88-F_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 9,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 6097,
+				"out": 1616
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "B♭ major",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 88.2352941176471,
+				"bars": 16,
+				"barSecMedian": 2.7200000000000006
+			},
+			"cellsPerBar": 1.07,
+			"declared": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F",
+				"style": "SS2",
+				"player": "03"
+			},
+			"bars": 16,
+			"barSecMedian": 2.7200000000000006,
+			"noteCount": 423,
+			"notesPerBar": 26.4375,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 9,
+				"bearing": 11
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bbm Eb7/Bb Ab Db Gm7b5 C Fm % Bbm Eb7 Ab Db Gm7b5 C Fm %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| Bbm | Eb7/Bb | Ab | Db | Gm7b5 | C | Fm | Fm |\"},{\"section\":\"Verse 2\",\"chords\":\"| Bbm | Eb7 | Ab | Db | Gm7b5 | C | Fm | Fm |\"}],\"chart\":\"# Acoustic guitar excerpt\\n88 bpm · 4/4 · B♭ minor (written key B♭ major, but the notes sit in B♭ minor)\\n\\n**Structure:** Verse 1 (8) – Verse 2 (8)\\n\\n## I. Verse 1 (bars 1–8)\\n| Bbm | Eb7/Bb | Ab | Db | Gm7b5 | C | Fm | Fm |\\n\\n## II. Verse 2 (bars 9–16)\\n| Bbm | Eb7 | Ab | Db | Gm7b5 | C | Fm | Fm |\\n\\nSame 8-bar cycle both times; bar 2 keeps the B♭ in the bass under the E♭7, bar 10 moves to E♭ in the bass. Ends on Fm (V of B♭ minor).\",\"notes\":\"Bars 5 and 13 (G, Bb, Db, F with a C in the bass) are read as Gm7b5 leading to C; the Eb chords carry a Db and a G natural, hence Eb7 rather than plain Eb, and the piece is really in B♭ minor despite the stated key.\"}"
+		},
+		"gs-04_SS2-88-F_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 10,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 6715,
+				"out": 677
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "B♭ major",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 88.2352941176471,
+				"bars": 17,
+				"barSecMedian": 2.7299999999999995
+			},
+			"cellsPerBar": 1.06,
+			"declared": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F",
+				"style": "SS2",
+				"player": "04"
+			},
+			"bars": 17,
+			"barSecMedian": 2.719999999999999,
+			"noteCount": 483,
+			"notesPerBar": 28.41176470588235,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 17,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 10,
+				"bearing": 11
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bbm Eb Abmaj7 Dbmaj7 Gm7b5 C7 Fm % Bbm Eb7 Abmaj7 Dbmaj7 Gm7b5 C7 Fm % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse 1\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 2\",\"bar\":9},{\"index\":\"III\",\"name\":\"Ending\",\"bar\":17}],\"progressions\":[{\"section\":\"Verse 1\",\"chords\":\"| Bbm | Eb | Abmaj7 | Dbmaj7 | Gm7b5 | C7 | Fm | Fm |\"},{\"section\":\"Verse 2\",\"chords\":\"| Bbm | Eb7 | Abmaj7 | Dbmaj7 | Gm7b5 | C7 | Fm | Fm |\"},{\"section\":\"Ending\",\"chords\":\"| Fm |\"}],\"chart\":\"# acoustic guitar excerpt\\n88 bpm · 4/4 · F minor (relative of B♭ major; written key B♭)\\n\\n**Structure:** Verse 1 – Verse 2 – Ending\\n\\n## I. Verse 1 (bars 1–8)\\n| Bbm | Eb | Abmaj7 | Dbmaj7 | Gm7b5 | C7 | Fm | Fm |\\n\\n## II. Verse 2 (bars 9–16)\\n| Bbm | Eb7 | Abmaj7 | Dbmaj7 | Gm7b5 | C7 | Fm | Fm |\\n\\n## III. Ending (bar 17)\\n| Fm | — hold, let ring\\n\",\"notes\":\"The piece is really in F minor (a circle-of-fifths descent Bbm–Eb–Ab–Db–Gm7b5–C7–Fm); bar 5/13 Gm7 is read as Gm7b5 since Db (not D) sounds, and bar 2 vs 10 differ only by a faint Db suggesting Eb7.\"}"
+		},
+		"gs-05_SS2-88-F_comp|advisory": {
+			"atBars": {
+				"published": 14,
+				"roots": {
+					"right": 14,
+					"bearing": 14
+				},
+				"quals": {
+					"right": 9,
+					"bearing": 11
+				}
+			},
+			"finishReason": "stop",
+			"tokens": {
+				"in": 7386,
+				"out": 515
+			},
+			"arm": "B",
+			"grid": "bar",
+			"typed": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "A♭ major",
+				"beatsPerBar": 4
+			},
+			"group": "guitar",
+			"tracker": {
+				"bpm": 88.2352941176471,
+				"bars": 16,
+				"barSecMedian": 2.7200000000000024
+			},
+			"cellsPerBar": 1.07,
+			"declared": {
+				"bpm": 88,
+				"meter": "4/4",
+				"key": "F",
+				"style": "SS2",
+				"player": "05"
+			},
+			"bars": 16,
+			"barSecMedian": 2.7200000000000015,
+			"noteCount": 524,
+			"notesPerBar": 32.75,
+			"thinNotes": false,
+			"publishedLength": 14,
+			"baseline": null,
+			"draftBars": 16,
+			"mergedBars": 14,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 14,
+				"bearing": 14
+			},
+			"quals": {
+				"right": 9,
+				"bearing": 11
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bbm Eb Ab Db Gm7b5 C7 Fm % Bbm Eb Ab Db Gm7b5 C7 Fm %\",\"sections\":[{\"index\":\"I\",\"name\":\"Verse\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse\",\"bar\":9}],\"progressions\":[{\"section\":\"Verse\",\"chords\":\"| Bbm | Eb | Ab | Db | Gm7b5 | C7 | Fm | Fm | x2\"}],\"chart\":\"# acoustic guitar excerpt\\n88 bpm · A♭ major · 4/4\\n\\nStructure: Verse (I) → Verse (II) — the same 8-bar cycle played twice.\\n\\n## I. Verse (bars 1–8)\\n| Bbm | Eb | Ab | Db | Gm7b5 | C7 | Fm | Fm |\\n\\n## II. Verse (bars 9–16)\\n| Bbm | Eb | Ab | Db | Gm7b5 | C7 | Fm | Fm |\\n\\n(ii–V–I–IV–viiø–V7/vi–vi in A♭; bars 5/13 are G–Bb–Db–F = Gm7b5 leading into C7 → Fm.)\",\"notes\":\"Bars 5 and 13 are read as Gm7b5 (G, Bb, Db, F all sound) rather than the matcher's Gm7/Bbm7; bar 8 has a brief A natural, likely a passing tone or transcription noise, so Fm is kept.\"}"
+		},
+		"jw-im-letting-go|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 22414,
+				"out": 3849
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 152,
+				"meter": "4/4",
+				"key": "A minor",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 150.00000000000054,
+				"bars": 119,
+				"barSecMedian": 1.580000000000009
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "A Minor",
+				"bpm": 76,
+				"meter": "4/4",
+				"feel": "Straight"
+			},
+			"bars": 119,
+			"barSecMedian": 1.5800000000000125,
+			"noteCount": 1841,
+			"notesPerBar": 15.470588235294118,
+			"thinNotes": false,
+			"publishedLength": 35,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 28,
+					"bearing": 33
+				},
+				"quals": {
+					"right": 15,
+					"bearing": 15
+				},
+				"draftBars": 58,
+				"class": "saved-below-threshold"
+			},
+			"draftBars": 119,
+			"mergedBars": 63,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 33,
+				"bearing": 33
+			},
+			"quals": {
+				"right": 15,
+				"bearing": 15
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Fmaj7 % F Am % Fmaj7 % F % Fmaj7 F Am7 G Fmaj7 % % Am % F % % % Am G F % % Am % G F % % % C % % % % % Am % Em % G % C % Am % Em % G % Fmaj7 % % % Am % Fmaj7 F % Fmaj7 F Am % Fmaj7 F Fmaj7 F Am G Fmaj7 % F % Am % F % % % C G % % C % Am % Em % G % C % Am % Em % G % F % C G F % C G F % C G F % % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":14},{\"index\":\"III\",\"name\":\"Pre-Chorus 1\",\"bar\":25},{\"index\":\"IV\",\"name\":\"Chorus 1\",\"bar\":35},{\"index\":\"V\",\"name\":\"Interlude\",\"bar\":55},{\"index\":\"VI\",\"name\":\"Verse 2\",\"bar\":66},{\"index\":\"VII\",\"name\":\"Pre-Chorus 2\",\"bar\":74},{\"index\":\"VIII\",\"name\":\"Chorus 2\",\"bar\":84},{\"index\":\"IX\",\"name\":\"Outro\",\"bar\":104}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| Fmaj7 | Fmaj7 | F | Am | Am | Fmaj7 | Fmaj7 | F | F | Fmaj7 | F | Am7 | G |\"},{\"section\":\"Verse 1\",\"chords\":\"| Fmaj7 | Fmaj7 | Fmaj7 | Am | Am | F | F | F | F | Am | G |\"},{\"section\":\"Pre-Chorus 1\",\"chords\":\"| F | F | F | Am | Am | G | F | F | F | F |\"},{\"section\":\"Chorus 1\",\"chords\":\"| C | C | C | C | C | C | Am | Am | Em | Em | G | G | C | C | Am | Am | Em | Em | G | G |\"},{\"section\":\"Interlude\",\"chords\":\"| Fmaj7 x4 | Am | Am | Fmaj7 | F | F | Fmaj7 | F |\"},{\"section\":\"Verse 2\",\"chords\":\"| Am | Am | Fmaj7 | F | Fmaj7 | F | Am | G |\"},{\"section\":\"Pre-Chorus 2\",\"chords\":\"| Fmaj7 | Fmaj7 | F | F | Am | Am | F | F | F | F |\"},{\"section\":\"Chorus 2\",\"chords\":\"| C | G | G | G | C | C | Am | Am | Em | Em | G | G | C | C | Am | Am | Em | Em | G | G |\"},{\"section\":\"Outro\",\"chords\":\"| F | F | C | G | x3 then | F | F | F | F |\"}],\"chart\":\"# im letting go\\n152 bpm · A minor · 4/4\\n\\n**Structure:** Intro – Verse 1 – Pre-Chorus 1 – Chorus 1 – Interlude – Verse 2 – Pre-Chorus 2 – Chorus 2 – Outro\\n\\n## I. Intro (bar 1)\\n| Fmaj7 | Fmaj7 | F | Am | Am | Fmaj7 | Fmaj7 | F | F | Fmaj7 | F | Am7 | G |\\n\\n## II. Verse 1 (bar 14)\\n| Fmaj7 | Fmaj7 | Fmaj7 | Am | Am | F | F | F | F | Am | G |\\n\\n## III. Pre-Chorus 1 (bar 25)\\n| F | F | F | Am | Am | G | F | F | F | F |\\n\\n## IV. Chorus 1 (bar 35)\\n| C | C | C | C | C | C | Am | Am | Em | Em | G | G |\\n| C | C | Am | Am | Em | Em | G | G |\\n\\n## V. Interlude (bar 55)\\n| Fmaj7 | Fmaj7 | Fmaj7 | Fmaj7 | Am | Am | Fmaj7 | F | F | Fmaj7 | F |\\n\\n## VI. Verse 2 (bar 66)\\n| Am | Am | Fmaj7 | F | Fmaj7 | F | Am | G |\\n\\n## VII. Pre-Chorus 2 (bar 74)\\n| Fmaj7 | Fmaj7 | F | F | Am | Am | F | F | F | F |\\n\\n## VIII. Chorus 2 (bar 84)\\n| C | G | G | G | C | C | Am | Am | Em | Em | G | G |\\n| C | C | Am | Am | Em | Em | G | G |\\n\\n## IX. Outro (bar 104)\\n| F | F | C | G | x3\\n| F | F | F | F | (hold F to end)\\n\",\"notes\":\"F vs Fmaj7 alternates with whether the E sounds (likely melody/top voice), so the band may treat all F bars as one chord; bar lengths in the odd-length Intro/Verse/Interlude are uncertain, as is the lone C at bar 84 before the G bars.\"}"
+		},
+		"jw-same-boat|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 18491,
+				"out": 3915
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 93,
+				"meter": "4/4",
+				"key": "B♭ minor",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 93.74999999999991,
+				"bars": 85,
+				"barSecMedian": 2.5799999999999983
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "F# major",
+				"bpm": 93,
+				"meter": "4/4",
+				"tuning": "Capo 8 or something"
+			},
+			"bars": 85,
+			"barSecMedian": 2.5799999999999983,
+			"noteCount": 1388,
+			"notesPerBar": 16.32941176470588,
+			"thinNotes": false,
+			"publishedLength": 19,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 15,
+					"bearing": 18
+				},
+				"quals": {
+					"right": 11,
+					"bearing": 11
+				},
+				"draftBars": 74,
+				"class": "saved-below-threshold"
+			},
+			"draftBars": 85,
+			"mergedBars": 56,
+			"unknownShare": 0,
+			"sequenceInvariant": true,
+			"roots": {
+				"right": 15,
+				"bearing": 18
+			},
+			"quals": {
+				"right": 11,
+				"bearing": 11
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bmaj7 % Bbm % % Bmaj7 % % Bbm % % F#maj7 % F# % % % F#maj7 Bbm % Abm7 F# Bbm C# Bmaj7 F# Bbm Ebm Abm7 C# F# % Bmaj7 % Bbm % B % Bbm C# Bmaj7 C# F#maj7 Ebm Abm7 C# F# % Bmaj7 % F# % C# % Ebm Ebm7 Bmaj7 % Ebm % Bmaj7 % C# % F# % Bbm % Bmaj7 % Bbm C# Bmaj7 C# Bbm Ebm Abm7 C# Bbm Ebm Abm7 % C# % F#\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":13},{\"index\":\"III\",\"name\":\"Chorus 1\",\"bar\":25},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":33},{\"index\":\"V\",\"name\":\"Chorus 2\",\"bar\":49},{\"index\":\"VI\",\"name\":\"Bridge\",\"bar\":65},{\"index\":\"VII\",\"name\":\"Final Chorus\",\"bar\":73},{\"index\":\"VIII\",\"name\":\"Outro\",\"bar\":81}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| Bmaj7 | Bmaj7 | Bbm | Bbm | Bbm | Bmaj7 | Bmaj7 | Bmaj7 | Bbm | Bbm | Bbm | F#maj7 |\"},{\"section\":\"Verse 1\",\"chords\":\"| F#maj7 | F# | F# | F# | F# | F#maj7 | Bbm | Bbm | Abm7 | F# | Bbm | C# |\"},{\"section\":\"Chorus 1\",\"chords\":\"| Bmaj7 | F# | Bbm | Ebm | Abm7 | C# | F# | F# |\"},{\"section\":\"Verse 2\",\"chords\":\"| Bmaj7 | Bmaj7 | Bbm | Bbm | B | B | Bbm | C# | Bmaj7 | C# | F#maj7 | Ebm | Abm7 | C# | F# | F# |\"},{\"section\":\"Chorus 2\",\"chords\":\"| Bmaj7 | Bmaj7 | F# | F# | C# | C# | Ebm | Ebm7 | Bmaj7 | Bmaj7 | Ebm | Ebm | Bmaj7 | Bmaj7 | C# | C# |\"},{\"section\":\"Bridge\",\"chords\":\"| F# | F# | Bbm | Bbm | Bmaj7 | Bmaj7 | Bbm | C# |\"},{\"section\":\"Final Chorus\",\"chords\":\"| Bmaj7 | C# | Bbm | Ebm | Abm7 | C# | Bbm | Ebm |\"},{\"section\":\"Outro\",\"chords\":\"| Abm7 | Abm7 | C# | C# | F# (hold) |\"}],\"chart\":\"# same boat\\n93 bpm · B♭ minor · 4/4\\n\\n**Structure:** Intro – Verse 1 – Chorus 1 – Verse 2 – Chorus 2 – Bridge – Final Chorus – Outro\\n\\n## I. Intro (bar 1)\\n| Bmaj7 | Bmaj7 | Bbm | Bbm | Bbm | Bmaj7 | Bmaj7 | Bmaj7 | Bbm | Bbm | Bbm | F#maj7 |\\n\\n## II. Verse 1 (bar 13)\\n| F#maj7 | F# | F# | F# | F# | F#maj7 | Bbm | Bbm | Abm7 | F# | Bbm | C# |\\n\\n## III. Chorus 1 (bar 25)\\n| Bmaj7 | F# | Bbm | Ebm | Abm7 | C# | F# | F# |\\n\\n## IV. Verse 2 (bar 33)\\n| Bmaj7 | Bmaj7 | Bbm | Bbm | B | B | Bbm | C# |\\n| Bmaj7 | C# | F#maj7 | Ebm | Abm7 | C# | F# | F# |\\n\\n## V. Chorus 2 (bar 49)\\n| Bmaj7 | Bmaj7 | F# | F# | C# | C# | Ebm | Ebm7 |\\n| Bmaj7 | Bmaj7 | Ebm | Ebm | Bmaj7 | Bmaj7 | C# | C# |\\n\\n## VI. Bridge (bar 65)\\n| F# | F# | Bbm | Bbm | Bmaj7 | Bmaj7 | Bbm | C# |\\n\\n## VII. Final Chorus (bar 73)\\n| Bmaj7 | C# | Bbm | Ebm | Abm7 | C# | Bbm | Ebm |\\n\\n## VIII. Outro (bar 81)\\n| Abm7 | Abm7 | C# | C# | F# (hold) |\",\"notes\":\"The B chords sound as B–C#–F#–A# (maj7/sus2 colour, no D#) so Bmaj7 vs Bsus2 is a judgement call; bars 12, 18 and 43 contain only Bbm tones over an implied F# root, so F#maj7 could equally be read as Bbm; section boundaries are inferred from bass entries, not confirmed by the band.\"}"
+		},
+		"jw-afterglow|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 28150,
+				"out": 2563
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 99,
+				"meter": "4/4",
+				"key": "A major",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 100.00000000000095,
+				"bars": 100,
+				"barSecMedian": 2.4199999999999946
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "A Major",
+				"bpm": 98,
+				"meter": "4/4",
+				"feel": "Straight"
+			},
+			"bars": 100,
+			"barSecMedian": 2.4199999999999946,
+			"noteCount": 2554,
+			"notesPerBar": 25.54,
+			"thinNotes": false,
+			"publishedLength": 16,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 15,
+					"bearing": 15
+				},
+				"quals": {
+					"right": 5,
+					"bearing": 5
+				},
+				"draftBars": 84,
+				"class": "good"
+			},
+			"draftBars": 100,
+			"mergedBars": 48,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 15,
+				"bearing": 15
+			},
+			"quals": {
+				"right": 5,
+				"bearing": 5
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"A % % % % E F A E E7 A % % E F A E E7 Bm % D % A % % % % E F A E E7 A % % E F A E E7 Bm7 % D % A % D % A % D % A % Bm % D % A % % % % E F A E % Bm % D % % A % % % Bm % % % D % % % Bm % % % D % % % A % % % % % %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":9},{\"index\":\"III\",\"name\":\"Pre-Chorus\",\"bar\":19},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":23},{\"index\":\"V\",\"name\":\"Pre-Chorus\",\"bar\":41},{\"index\":\"VI\",\"name\":\"Chorus\",\"bar\":45},{\"index\":\"VII\",\"name\":\"Interlude\",\"bar\":59},{\"index\":\"VIII\",\"name\":\"Bridge\",\"bar\":69},{\"index\":\"IX\",\"name\":\"Outro\",\"bar\":78}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| A | A | A | A | A | E | F | A |\"},{\"section\":\"Verse 1\",\"chords\":\"| E | E7 | A | A | A | E | F | A | E | E7 |\"},{\"section\":\"Pre-Chorus\",\"chords\":\"| Bm | Bm | D | D |\"},{\"section\":\"Verse 2\",\"chords\":\"| A | A | A | A | A | E | F | A | E | E7 | A | A | A | E | F | A | E | E7 |\"},{\"section\":\"Pre-Chorus\",\"chords\":\"| Bm7 | Bm7 | D | D |\"},{\"section\":\"Chorus\",\"chords\":\"| A | A | D | D | x2 then | A | A | Bm | Bm | D | D |\"},{\"section\":\"Interlude\",\"chords\":\"| A | A | A | A | A | E | F | A | E | E |\"},{\"section\":\"Bridge\",\"chords\":\"| Bm | Bm | D | D | D | A | A | A | A |\"},{\"section\":\"Outro\",\"chords\":\"| Bm | Bm | Bm | Bm | D | D | D | D | x2 then | A | x7\"}],\"chart\":\"# afterglow\\n99 bpm · A major · 4/4\\n\\n**Structure:** Intro – Verse 1 – Pre-Chorus – Verse 2 – Pre-Chorus – Chorus – Interlude – Bridge – Outro\\n\\n## I. Intro (bar 1)\\n| A | A | A | A | A | E | F | A |\\n\\n## II. Verse 1 (bar 9)\\n| E | E7 | A | A | A | E | F | A | E | E7 |\\n\\n## III. Pre-Chorus (bar 19)\\n| Bm | Bm | D | D |\\n\\n## IV. Verse 2 (bar 23)\\n| A | A | A | A | A | E | F | A | E | E7 |\\n| A | A | A | E | F | A | E | E7 |\\n\\n## V. Pre-Chorus (bar 41)\\n| Bm7 | Bm7 | D | D |\\n\\n## VI. Chorus (bar 45)\\n| A | A | D | D | x2\\n| A | A | Bm | Bm | D | D |\\n\\n## VII. Interlude (bar 59)\\n| A | A | A | A | A | E | F | A | E | E |\\n\\n## VIII. Bridge (bar 69)\\n| Bm | Bm | D | D | D | A | A | A | A |\\n\\n## IX. Outro (bar 78)\\n| Bm | Bm | Bm | Bm | D | D | D | D | x2\\n| A | x7 (ring out)\\n\",\"notes\":\"The F chord (bVI borrowed from A minor) is clearly heard before each return to A; Bm bars sometimes carry a faint A (Bm7) and section boundaries after bar 45 are inferred from the chord rhythm, not vocals.\"}"
+		},
+		"jw-gravity|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 20064,
+				"out": 3403
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 149,
+				"meter": "4/4",
+				"key": "F major",
+				"beatsPerBar": 6
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 142.85714285714712,
+				"bars": 118,
+				"barSecMedian": 2.4200000000000017
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "F Major",
+				"bpm": 48,
+				"meter": "6/8",
+				"feel": "Swing"
+			},
+			"bars": 118,
+			"barSecMedian": 2.4299999999999997,
+			"noteCount": 1565,
+			"notesPerBar": 13.26271186440678,
+			"thinNotes": false,
+			"publishedLength": 26,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 16,
+					"bearing": 26
+				},
+				"quals": {
+					"right": 12,
+					"bearing": 12
+				},
+				"draftBars": 30,
+				"class": "confidently-wrong"
+			},
+			"draftBars": 118,
+			"mergedBars": 66,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 24,
+				"bearing": 26
+			},
+			"quals": {
+				"right": 12,
+				"bearing": 12
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Fmaj7 % Bbmaj7 % % Fmaj7 % % Gm7 % F % Dm % C % % Bb % F Dm Am Bb % C/E F Bb % C/E F Bb % % % F % Dm % C % Bb % F Dm Am Bb % % C/E F Bb % C/E F Bb % C/E F Bb % F % % Am % % Bb % % C % F % Am % Dm F Bb % % F % Dm % C % Bb % F % % Dm % % % C % % Bb % % F Dm Am Bb % % C/E F Bb F Bb % C/E F Bb F Bb\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":11},{\"index\":\"III\",\"name\":\"Chorus 1\",\"bar\":25},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":35},{\"index\":\"V\",\"name\":\"Chorus 2\",\"bar\":49},{\"index\":\"VI\",\"name\":\"Solo\",\"bar\":61},{\"index\":\"VII\",\"name\":\"Verse 3\",\"bar\":81},{\"index\":\"VIII\",\"name\":\"Verse 4\",\"bar\":102},{\"index\":\"IX\",\"name\":\"Outro\",\"bar\":108}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| Fmaj7 | % | Bbmaj7 | % | % | Fmaj7 | % | % | Gm7 | % |\"},{\"section\":\"Verse 1\",\"chords\":\"| F | % | Dm | % | C | % | % | Bb | % | F | Dm | Am | Bb | % |\"},{\"section\":\"Chorus 1\",\"chords\":\"| C/E | F | Bb | % | C/E | F | Bb | % | % | % |\"},{\"section\":\"Verse 2\",\"chords\":\"| F | % | Dm | % | C | % | Bb | % | F | Dm | Am | Bb | % | % |\"},{\"section\":\"Chorus 2\",\"chords\":\"| C/E | F | Bb | % | x3\"},{\"section\":\"Solo\",\"chords\":\"| F | % | % | Am | % | % | Bb | % | % | C | % | F | % | Am | % | Dm | F | Bb | % | % |\"},{\"section\":\"Verse 3\",\"chords\":\"| F | % | Dm | % | C | % | Bb | % | F | % | % | Dm | % | % | % | C | % | % | Bb | % | % |\"},{\"section\":\"Verse 4\",\"chords\":\"| F | Dm | Am | Bb | % | % |\"},{\"section\":\"Outro\",\"chords\":\"| C/E | F | Bb | F | Bb | % | C/E | F | Bb | F | Bb |\"}],\"chart\":\"# gravity\\n149 bpm · F major · 4/4\\n\\nStructure: Intro – Verse 1 – Chorus 1 – Verse 2 – Chorus 2 – Solo – Verse 3 – Verse 4 – Outro\\n\\n## I. Intro (bar 1)\\n| Fmaj7 | % | Bbmaj7 | % | % | Fmaj7 | % | % | Gm7 | % |\\n\\n## II. Verse 1 (bar 11)\\n| F | % | Dm | % | C | % | % | Bb | % | F | Dm | Am | Bb | % |\\n\\n## III. Chorus 1 (bar 25)\\n| C/E | F | Bb | % | C/E | F | Bb | % | % | % |\\n\\n## IV. Verse 2 (bar 35)\\n| F | % | Dm | % | C | % | Bb | % | F | Dm | Am | Bb | % | % |\\n\\n## V. Chorus 2 (bar 49)\\n| C/E | F | Bb | % | x3\\n\\n## VI. Solo (bar 61)\\n| F | % | % | Am | % | % | Bb | % | % | C | % | F | % | Am | % | Dm | F | Bb | % | % |\\n\\n## VII. Verse 3 (bar 81)\\n| F | % | Dm | % | C | % | Bb | % | F | % | % | Dm | % | % | % | C | % | % | Bb | % | % |\\n\\n## VIII. Verse 4 (bar 102)\\n| F | Dm | Am | Bb | % | % |\\n\\n## IX. Outro (bar 108)\\n| C/E | F | Bb | F | Bb | % | C/E | F | Bb | F | Bb |\\n(ring out on Bb)\",\"notes\":\"The 'Em' bars (49, 53, 57, 108, 114) are read as C/E (E bass under C/F upper notes); the C bars in the verses carry a sus4 colour (D/F over C) that could be charted as Csus4, and bar lengths in Verse 3 and the Solo are uneven so the phrase boundaries there are approximate.\"}"
+		},
+		"jw-let-it-in|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 27101,
+				"out": 3677
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 121,
+				"meter": "4/4",
+				"key": "D minor",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 120,
+				"bars": 123,
+				"barSecMedian": 1.980000000000004
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "D minor",
+				"bpm": 121,
+				"length": "4:02"
+			},
+			"bars": 123,
+			"barSecMedian": 1.980000000000004,
+			"noteCount": 2410,
+			"notesPerBar": 19.59349593495935,
+			"thinNotes": false,
+			"publishedLength": 35,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 18,
+					"bearing": 21
+				},
+				"quals": {
+					"right": 20,
+					"bearing": 25
+				},
+				"draftBars": null,
+				"class": "saved-below-threshold"
+			},
+			"draftBars": 123,
+			"mergedBars": 84,
+			"unknownShare": 0.008130081300813009,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 18,
+				"bearing": 21
+			},
+			"quals": {
+				"right": 22,
+				"bearing": 25
+			},
+			"class": "saved-below-threshold",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Dm % % % % Gm A % Dm G/D Dm G/D Dm Gm Am A F % Dm A7 Gm % A % F % Dm A7 Gm % A % Dm % % A Dm G/D Dm G/D Dm Gm Am A Dm G/D Dm G7 Dm Gm Am A F % Dm A7 Gm % A % F % Dm A7 Gm % A % Dm % % A7 F#7 % Bm/F# D Ab7 % A7 D % Bb % C % Dm % % A Dm % % % % Gm A % Dm G/D Dm G/D Dm Gm Am A N.C. F % Dm A7 Gm % A % F % Dm A7 Gm % A % Dm\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":9},{\"index\":\"III\",\"name\":\"Chorus\",\"bar\":17},{\"index\":\"IV\",\"name\":\"Tag\",\"bar\":33},{\"index\":\"V\",\"name\":\"Verse 2\",\"bar\":37},{\"index\":\"VI\",\"name\":\"Chorus\",\"bar\":53},{\"index\":\"VII\",\"name\":\"Tag\",\"bar\":69},{\"index\":\"VIII\",\"name\":\"Bridge\",\"bar\":73},{\"index\":\"IX\",\"name\":\"Tag\",\"bar\":86},{\"index\":\"X\",\"name\":\"Interlude\",\"bar\":90},{\"index\":\"XI\",\"name\":\"Verse 3\",\"bar\":98},{\"index\":\"XII\",\"name\":\"Break\",\"bar\":105},{\"index\":\"XIII\",\"name\":\"Chorus\",\"bar\":107},{\"index\":\"XIV\",\"name\":\"Outro\",\"bar\":123}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| Dm | Dm | Dm | Dm | Dm | Gm | A | A |\"},{\"section\":\"Verse 1\",\"chords\":\"| Dm | G/D | Dm | G/D | Dm | Gm | Am | A |\"},{\"section\":\"Chorus\",\"chords\":\"| F | F | Dm | A7 | Gm | Gm | A | A | x2\"},{\"section\":\"Tag\",\"chords\":\"| Dm | Dm | Dm | A |\"},{\"section\":\"Verse 2\",\"chords\":\"| Dm | G/D | Dm | G/D | Dm | Gm | Am | A | x2 (G7 in bar 4 of 2nd pass)\"},{\"section\":\"Bridge\",\"chords\":\"| F#7 | F#7 | Bm/F# | D | Ab7 | Ab7 | A7 | D | D | Bb | Bb | C | C |\"},{\"section\":\"Interlude\",\"chords\":\"| Dm | Dm | Dm | Dm | Dm | Gm | A | A |\"},{\"section\":\"Verse 3\",\"chords\":\"| Dm | G/D | Dm | G/D | Dm | Gm | Am |\"},{\"section\":\"Break\",\"chords\":\"| A | N.C. |\"},{\"section\":\"Outro\",\"chords\":\"| Dm |\"}],\"chart\":\"# let it in\\n121 bpm · D minor · 4/4\\n\\n**Structure:** Intro – Verse 1 – Chorus – Tag – Verse 2 (x2) – Chorus – Tag – Bridge – Tag – Interlude – Verse 3 – Break – Chorus – Outro\\n\\n## I. Intro (bar 1)\\n| Dm | Dm | Dm | Dm | Dm | Gm | A | A |\\n\\n## II. Verse 1 (bar 9)\\n| Dm | G/D | Dm | G/D | Dm | Gm | Am | A |\\n\\n## III. Chorus (bar 17)\\n| F | F | Dm | A7 | Gm | Gm | A | A | x2\\n\\n## IV. Tag (bar 33)\\n| Dm | Dm | Dm | A |\\n\\n## V. Verse 2 (bar 37)\\n| Dm | G/D | Dm | G/D | Dm | Gm | Am | A | x2 (2nd pass: G7 in bar 4)\\n\\n## VI. Chorus (bar 53)\\n| F | F | Dm | A7 | Gm | Gm | A | A | x2\\n\\n## VII. Tag (bar 69)\\n| Dm | Dm | Dm | A7 |\\n\\n## VIII. Bridge (bar 73)\\n| F#7 | F#7 | Bm/F# | D | Ab7 | Ab7 | A7 | D | D | Bb | Bb | C | C |\\n\\n## IX. Tag (bar 86)\\n| Dm | Dm | Dm | A |\\n\\n## X. Interlude (bar 90)\\n| Dm | Dm | Dm | Dm | Dm | Gm | A | A |\\n\\n## XI. Verse 3 (bar 98)\\n| Dm | G/D | Dm | G/D | Dm | Gm | Am |\\n\\n## XII. Break (bar 105)\\n| A | N.C. |\\n\\n## XIII. Chorus (bar 107)\\n| F | F | Dm | A7 | Gm | Gm | A | A | x2\\n\\n## XIV. Outro (bar 123)\\n| Dm |\",\"notes\":\"The riff bars (6, 14, 42, 50, 95, 103) mix Bb and B natural over G and F — charted as Gm but could be G/G7; the bridge (73–85) modulates with sparse, odd notes so F#7/Ab7 spellings are tentative.\"}"
+		},
+		"jw-goodbye-to-spring|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 29200,
+				"out": 4193
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 142,
+				"meter": "3/4",
+				"key": "B♭ major",
+				"beatsPerBar": 3
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 125.00000000000267,
+				"bars": 159,
+				"barSecMedian": 1.269999999999996
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "A# Major",
+				"bpm": 240,
+				"meter": "4/4",
+				"feel": "Straight"
+			},
+			"bars": 159,
+			"barSecMedian": 1.4799999999999898,
+			"noteCount": 2477,
+			"notesPerBar": 15.578616352201259,
+			"thinNotes": false,
+			"publishedLength": 45,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 43,
+					"bearing": 43
+				},
+				"quals": {
+					"right": 22,
+					"bearing": 23
+				},
+				"draftBars": 222,
+				"class": "good"
+			},
+			"draftBars": 159,
+			"mergedBars": 61,
+			"unknownShare": 0.006289308176100629,
+			"sequenceInvariant": true,
+			"roots": {
+				"right": 43,
+				"bearing": 43
+			},
+			"quals": {
+				"right": 22,
+				"bearing": 23
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"Bb % % Gm % % Ebmaj7 % F % Bb % % % F F7 Gm Eb Bb % Eb % F F7 Bb % % % Gm % Eb % F % Bb % % % F F7 Gm Eb Bb % Eb % F7 % Bb % % % Gm % % % Eb % % % F % % Bb % % % Gm % % % Eb % % % F % Ab % D5 % % % Gm % % % D % % % Eb % % % Bb % % % % % F7 % % Gm Eb Bb % Gm % Eb % F % Bb % Gm % Eb % F F7 Bb % Gm % % % Eb % % % % % F % % % % N.C. Bb % % % % Gm % % % % Eb % % % F % % % Bb\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":11},{\"index\":\"III\",\"name\":\"Verse 2\",\"bar\":25},{\"index\":\"IV\",\"name\":\"Verse 3\",\"bar\":35},{\"index\":\"V\",\"name\":\"Chorus 1\",\"bar\":49},{\"index\":\"VI\",\"name\":\"Chorus 2\",\"bar\":64},{\"index\":\"VII\",\"name\":\"Bridge\",\"bar\":78},{\"index\":\"VIII\",\"name\":\"Verse 4\",\"bar\":96},{\"index\":\"IX\",\"name\":\"Chorus 3\",\"bar\":115},{\"index\":\"X\",\"name\":\"Outro\",\"bar\":140}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| Bb | Bb | Bb | Gm | Gm | Gm | Ebmaj7 | Ebmaj7 | F | F |\"},{\"section\":\"Verse 1\",\"chords\":\"| Bb | Bb | Bb | Bb | F | F7 | Gm | Eb | Bb | Bb | Eb | Eb | F | F7 |\"},{\"section\":\"Verse 2\",\"chords\":\"| Bb | Bb | Bb | Bb | Gm | Gm | Eb | Eb | F | F |\"},{\"section\":\"Verse 3\",\"chords\":\"| Bb | Bb | Bb | Bb | F | F7 | Gm | Eb | Bb | Bb | Eb | Eb | F7 | F7 |\"},{\"section\":\"Chorus 1\",\"chords\":\"| Bb x4 | Gm x4 | Eb x4 | F x3 |\"},{\"section\":\"Chorus 2\",\"chords\":\"| Bb x4 | Gm x4 | Eb x4 | F x2 |\"},{\"section\":\"Bridge\",\"chords\":\"| Ab | Ab | D5 x4 | Gm x4 | D x4 | Eb x4 |\"},{\"section\":\"Verse 4\",\"chords\":\"| Bb x6 | F7 x3 | Gm | Eb | Bb | Bb | Gm | Gm | Eb | Eb | F | F |\"},{\"section\":\"Chorus 3\",\"chords\":\"| Bb | Bb | Gm | Gm | Eb | Eb | F | F7 | Bb | Bb | Gm x4 | Eb x6 | F x5 |\"},{\"section\":\"Outro\",\"chords\":\"| N.C. | Bb x5 | Gm x5 | Eb x4 | F x4 | Bb |\"}],\"chart\":\"# goodbye to spring\\n142 bpm · B♭ major · 3/4\\n\\n**Structure:** Intro – Verse 1 – Verse 2 – Verse 3 – Chorus 1 – Chorus 2 – Bridge – Verse 4 – Chorus 3 – Outro\\n\\n## I. Intro (bar 1)\\n| Bb | Bb | Bb | Gm | Gm | Gm | Ebmaj7 | Ebmaj7 | F | F |\\n\\n## II. Verse 1 (bar 11)\\n| Bb | Bb | Bb | Bb | F | F7 | Gm | Eb |\\n| Bb | Bb | Eb | Eb | F | F7 |\\n\\n## III. Verse 2 (bar 25)\\n| Bb | Bb | Bb | Bb | Gm | Gm | Eb | Eb | F | F |\\n\\n## IV. Verse 3 (bar 35)\\n| Bb | Bb | Bb | Bb | F | F7 | Gm | Eb |\\n| Bb | Bb | Eb | Eb | F7 | F7 |\\n\\n## V. Chorus 1 (bar 49)\\n| Bb x4 | Gm x4 | Eb x4 | F x3 |\\n\\n## VI. Chorus 2 (bar 64)\\n| Bb x4 | Gm x4 | Eb x4 | F x2 |\\n\\n## VII. Bridge (bar 78)\\n| Ab | Ab | D5 x4 | Gm x4 | D x4 | Eb x4 |\\n\\n## VIII. Verse 4 (bar 96)\\n| Bb x6 | F7 x3 | Gm | Eb | Bb | Bb |\\n| Gm | Gm | Eb | Eb | F | F |\\n\\n## IX. Chorus 3 (bar 115)\\n| Bb | Bb | Gm | Gm | Eb | Eb | F | F7 | Bb | Bb |\\n| Gm x4 | Eb x6 | F x5 |\\n\\n## X. Outro (bar 140)\\n| N.C. | Bb x5 | Gm x5 | Eb x4 | F x4 | Bb (hold) |\",\"notes\":\"Bridge bars 80–83 have a D bass with no clear third (Bb sounds above it), so written D5; bars 88–91 clearly D major with F#; section boundaries are judged from the Bb–Gm–Eb–F cycle lengths and may shift by a bar or two.\"}"
+		},
+		"jw-california-lullabye|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 28494,
+				"out": 3883
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 176,
+				"meter": "4/4",
+				"key": "A major",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 176.47058823529235,
+				"bars": 172,
+				"barSecMedian": 1.3599999999999994
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "A Major",
+				"bpm": 176,
+				"meter": "4/4",
+				"feel": "Straight"
+			},
+			"bars": 172,
+			"barSecMedian": 1.3599999999999994,
+			"noteCount": 2554,
+			"notesPerBar": 14.848837209302326,
+			"thinNotes": false,
+			"publishedLength": 56,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 49,
+					"bearing": 53
+				},
+				"quals": {
+					"right": 33,
+					"bearing": 35
+				},
+				"draftBars": 180,
+				"class": "good"
+			},
+			"draftBars": 172,
+			"mergedBars": 54,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 50,
+				"bearing": 53
+			},
+			"quals": {
+				"right": 30,
+				"bearing": 35
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"D % % % A % % % F#m % % % D % % % A % % % % % % % F#m % % % D % % % E % % % D % % % A % % % Bm % E % F#m % % % A % % % F#m % % % D % % % A % % % % % % % F#m7 % % % D % % % E % % % D % % % A % % % Bm % E % F#m % % % Bm % Dm % A % % % D % C#/F % F#m % % % D % C#/F % F#m % G % B5 % C#5 % D % E A D % % % A % % % Bm % E % F#m % % % D % % % A % F#m % Bm % Dm % A % % % Bm7 % % % % E A %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":17},{\"index\":\"III\",\"name\":\"Chorus 1\",\"bar\":37},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":53},{\"index\":\"V\",\"name\":\"Verse 3\",\"bar\":65},{\"index\":\"VI\",\"name\":\"Chorus 2\",\"bar\":85},{\"index\":\"VII\",\"name\":\"Bridge\",\"bar\":105},{\"index\":\"VIII\",\"name\":\"Chorus 3\",\"bar\":133},{\"index\":\"IX\",\"name\":\"Outro\",\"bar\":161}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| D | D | D | D | A | A | A | A | F#m | F#m | F#m | F#m | D | D | D | D |\"},{\"section\":\"Verse 1\",\"chords\":\"| A | A | A | A | x2 then | F#m | F#m | F#m | F#m | D | D | D | D | E | E | E | E |\"},{\"section\":\"Chorus 1\",\"chords\":\"| D | D | D | D | A | A | A | A | Bm | Bm | E | E | F#m | F#m | F#m | F#m |\"},{\"section\":\"Verse 2\",\"chords\":\"| A | A | A | A | F#m | F#m | F#m | F#m | D | D | D | D |\"},{\"section\":\"Verse 3\",\"chords\":\"| A | A | A | A | x2 then | F#m7 | F#m7 | F#m7 | F#m7 | D | D | D | D | E | E | E | E |\"},{\"section\":\"Chorus 2\",\"chords\":\"| D | D | D | D | A | A | A | A | Bm | Bm | E | E | F#m | F#m | F#m | F#m | Bm | Bm | Dm | Dm |\"},{\"section\":\"Bridge\",\"chords\":\"| A | A | A | A | D | D | C#/F | C#/F | F#m | F#m | F#m | F#m | D | D | C#/F | C#/F | F#m | F#m | G | G | B5 | B5 | C#5 | C#5 | D | D | E | A |\"},{\"section\":\"Chorus 3\",\"chords\":\"| D | D | D | D | A | A | A | A | Bm | Bm | E | E | F#m | F#m | F#m | F#m | D | D | D | D | A | A | F#m | F#m | Bm | Bm | Dm | Dm |\"},{\"section\":\"Outro\",\"chords\":\"| A | A | A | A | Bm7 | Bm7 | Bm7 | Bm7 | Bm7 | E | A | A (hold) |\"}],\"chart\":\"# california lullabye\\n176 bpm · A major · 4/4\\n\\n**Structure:** Intro – Verse 1 – Chorus 1 – Verse 2 – Verse 3 – Chorus 2 – Bridge – Chorus 3 – Outro\\n\\n## I. Intro (bar 1)\\n| D | D | D | D | A | A | A | A | F#m | F#m | F#m | F#m | D | D | D | D |\\n\\n## II. Verse 1 (bar 17)\\n| A | A | A | A | x2\\n| F#m | F#m | F#m | F#m | D | D | D | D | E | E | E | E |\\n\\n## III. Chorus 1 (bar 37)\\n| D | D | D | D | A | A | A | A | Bm | Bm | E | E | F#m | F#m | F#m | F#m |\\n\\n## IV. Verse 2 (bar 53)\\n| A | A | A | A | F#m | F#m | F#m | F#m | D | D | D | D |\\n\\n## V. Verse 3 (bar 65)\\n| A | A | A | A | x2\\n| F#m7 | F#m7 | F#m7 | F#m7 | D | D | D | D | E | E | E | E |\\n\\n## VI. Chorus 2 (bar 85)\\n| D | D | D | D | A | A | A | A | Bm | Bm | E | E | F#m | F#m | F#m | F#m |\\n| Bm | Bm | Dm | Dm |\\n\\n## VII. Bridge (bar 105)\\n| A | A | A | A | D | D | C#/F | C#/F | F#m | F#m | F#m | F#m |\\n| D | D | C#/F | C#/F | F#m | F#m | G | G |\\n| B5 | B5 | C#5 | C#5 | D | D | E | A |  (breakdown, single-note walk-up)\\n\\n## VIII. Chorus 3 (bar 133)\\n| D | D | D | D | A | A | A | A | Bm | Bm | E | E | F#m | F#m | F#m | F#m |\\n| D | D | D | D | A | A | F#m | F#m | Bm | Bm | Dm | Dm |\\n\\n## IX. Outro (bar 161)\\n| A | A | A | A | Bm7 | Bm7 | Bm7 | Bm7 | Bm7 | E | A | A (hold) |\",\"notes\":\"Bars 125–128 are bass-only (B then C#) so written as power chords; the C#/F (C#/E#) bars and the Dm borrowed-iv bars are heard clearly but could be simplified to C# and Dm in the chart.\"}"
+		},
+		"jw-cherubs|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 29237,
+				"out": 4028
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 164,
+				"meter": "4/4",
+				"key": "D major",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 166.66666666666694,
+				"bars": 169,
+				"barSecMedian": 1.4599999999999937
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "D Major",
+				"bpm": 165,
+				"meter": "4/4",
+				"feel": "Straight"
+			},
+			"bars": 169,
+			"barSecMedian": 1.4599999999999937,
+			"noteCount": 2506,
+			"notesPerBar": 14.828402366863905,
+			"thinNotes": false,
+			"publishedLength": 29,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 28,
+					"bearing": 28
+				},
+				"quals": {
+					"right": 17,
+					"bearing": 17
+				},
+				"draftBars": 170,
+				"class": "good"
+			},
+			"draftBars": 169,
+			"mergedBars": 57,
+			"unknownShare": 0,
+			"sequenceInvariant": true,
+			"roots": {
+				"right": 28,
+				"bearing": 28
+			},
+			"quals": {
+				"right": 17,
+				"bearing": 17
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"D5 % % % % % % % % % % D % % D5 D % % % G % % % Bm % A % G % % % D % % % G % % % Bm7 % A % G % % % D % % % G % % % Bm % G % D % % % % % % % G % % % Bm % A % G % % % D % % % G % % % Bm % A % G % % % D % % % G % % % Bm % G % D % Em % Bm % Em % Bm A Em % Bm % A % G % % % Bm % % % G % % % Bm % A % Gmaj7 % % % Bm % % G % % % % Bm % A % G % % % Bm7 % A Gmaj7 % % Bm7 A Gmaj7 %\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":16},{\"index\":\"III\",\"name\":\"Verse 2\",\"bar\":32},{\"index\":\"IV\",\"name\":\"Chorus 1\",\"bar\":48},{\"index\":\"V\",\"name\":\"Verse 3\",\"bar\":64},{\"index\":\"VI\",\"name\":\"Verse 4\",\"bar\":80},{\"index\":\"VII\",\"name\":\"Chorus 2\",\"bar\":96},{\"index\":\"VIII\",\"name\":\"Bridge\",\"bar\":112},{\"index\":\"IX\",\"name\":\"Interlude\",\"bar\":124},{\"index\":\"X\",\"name\":\"Final Chorus\",\"bar\":140},{\"index\":\"XI\",\"name\":\"Outro\",\"bar\":160}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| D5 | D5 | D5 | D5 | x2 then | D5 | D5 | D5 | D | D | D | D5 |\"},{\"section\":\"Verse 1\",\"chords\":\"| D | D | D | D | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\"},{\"section\":\"Verse 2\",\"chords\":\"| D | D | D | D | G | G | G | G | Bm7 | Bm7 | A | A | G | G | G | G |\"},{\"section\":\"Chorus 1\",\"chords\":\"| D | D | D | D | G | G | G | G | Bm | Bm | G | G | D | D | D | D |\"},{\"section\":\"Verse 3\",\"chords\":\"| D | D | D | D | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\"},{\"section\":\"Verse 4\",\"chords\":\"| D | D | D | D | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\"},{\"section\":\"Chorus 2\",\"chords\":\"| D | D | D | D | G | G | G | G | Bm | Bm | G | G | D | D | Em | Em |\"},{\"section\":\"Bridge\",\"chords\":\"| Bm | Bm | Em | Em | Bm | A | Em | Em | Bm | Bm | A | A |\"},{\"section\":\"Interlude\",\"chords\":\"| G | G | G | G | Bm | Bm | Bm | Bm | G | G | G | G | Bm | Bm | A | A |\"},{\"section\":\"Final Chorus\",\"chords\":\"| Gmaj7 | Gmaj7 | Gmaj7 | Gmaj7 | Bm | Bm | Bm | G | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\"},{\"section\":\"Outro\",\"chords\":\"| Bm7 | Bm7 | A | Gmaj7 | Gmaj7 | Gmaj7 | Bm7 | A | Gmaj7 | Gmaj7 (hold) |\"}],\"chart\":\"# cherubs\\n164 bpm · D major · 4/4\\n\\n**Structure:** Intro – Verse 1 – Verse 2 – Chorus 1 – Verse 3 – Verse 4 – Chorus 2 – Bridge – Interlude – Final Chorus – Outro\\n\\n## I. Intro (bar 1, 15 bars)\\n| D5 | D5 | D5 | D5 | x2\\n| D5 | D5 | D5 | D | D | D | D5 |\\n(bass/low D–A drone, third enters bars 12–14)\\n\\n## II. Verse 1 (bar 16)\\n| D | D | D | D | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\\n\\n## III. Verse 2 (bar 32)\\n| D | D | D | D | G | G | G | G | Bm7 | Bm7 | A | A | G | G | G | G |\\n\\n## IV. Chorus 1 (bar 48)\\n| D | D | D | D | G | G | G | G | Bm | Bm | G | G | D | D | D | D |\\n\\n## V. Verse 3 (bar 64)\\n| D | D | D | D | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\\n\\n## VI. Verse 4 (bar 80)\\n| D | D | D | D | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\\n\\n## VII. Chorus 2 (bar 96)\\n| D | D | D | D | G | G | G | G | Bm | Bm | G | G | D | D | Em | Em |\\n\\n## VIII. Bridge (bar 112)\\n| Bm | Bm | Em | Em | Bm | A | Em | Em | Bm | Bm | A | A |\\n\\n## IX. Interlude (bar 124)\\n| G | G | G | G | Bm | Bm | Bm | Bm | G | G | G | G | Bm | Bm | A | A |\\n\\n## X. Final Chorus (bar 140)\\n| Gmaj7 | Gmaj7 | Gmaj7 | Gmaj7 | Bm | Bm | Bm | G | G | G | G | G | Bm | Bm | A | A | G | G | G | G |\\n\\n## XI. Outro (bar 160)\\n| Bm7 | Bm7 | A | Gmaj7 | Gmaj7 | Gmaj7 | Bm7 | A | Gmaj7 | Gmaj7 (hold, ring out) |\",\"notes\":\"Section boundaries in the second half (Bridge/Interlude/Final Chorus) are inferred from chord changes only; the G chords often carry a melodic F#/C# so G vs Gmaj7 is a judgment call, and Bm vs Bm7 depends on a weak A in the upper voices.\"}"
+		},
+		"jw-swansong|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 38634,
+				"out": 6087
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 169,
+				"meter": "4/4",
+				"key": "A♭ major",
+				"beatsPerBar": 4
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 166.66666666666694,
+				"bars": 156,
+				"barSecMedian": 1.4199999999999982
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "G# Major",
+				"bpm": 170,
+				"meter": "4/4",
+				"feel": "Straight"
+			},
+			"bars": 156,
+			"barSecMedian": 1.42,
+			"noteCount": 3172,
+			"notesPerBar": 20.333333333333332,
+			"thinNotes": false,
+			"publishedLength": 32,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 28,
+					"bearing": 30
+				},
+				"quals": {
+					"right": 19,
+					"bearing": 19
+				},
+				"draftBars": 177,
+				"class": "good"
+			},
+			"draftBars": 156,
+			"mergedBars": 77,
+			"unknownShare": 0.00641025641025641,
+			"sequenceInvariant": true,
+			"roots": {
+				"right": 29,
+				"bearing": 30
+			},
+			"quals": {
+				"right": 19,
+				"bearing": 19
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"N.C. Db % Eb % Ab % % % % % % % Eb/G % Ab % Eb % Eb7 % Fm % Db % Ab % % Eb Bbm % Db % Ab % Bbm % Db Eb Fm % Db % Ab % Eb/G Eb Fm7 Fm Dbmaj7 % Eb % Eb7 % Ab % % % % % Eb % Ab % % % Eb % Eb7 % Fm % Db % Ab % % % Bbm % Dbmaj7 Db Ab % Bbm % Db Eb Fm % Db % Ab % % % Fm % Db % Eb % Eb7 % Fm % C/E % Eb % Bbm % Fm % C/E Bbm7 Db Fm7 Db Ab Eb/G Fm % Db Eb Eb7 Fm % % Db % Ab % % Eb/G Fm % Db % Eb % % % Ab % % % Bbm % Dbmaj7 % % % % Db\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":6},{\"index\":\"III\",\"name\":\"Pre-Chorus 1\",\"bar\":22},{\"index\":\"IV\",\"name\":\"Chorus 1\",\"bar\":30},{\"index\":\"V\",\"name\":\"Interlude 1\",\"bar\":40},{\"index\":\"VI\",\"name\":\"Verse 2\",\"bar\":56},{\"index\":\"VII\",\"name\":\"Pre-Chorus 2\",\"bar\":72},{\"index\":\"VIII\",\"name\":\"Chorus 2\",\"bar\":80},{\"index\":\"IX\",\"name\":\"Interlude 2\",\"bar\":90},{\"index\":\"X\",\"name\":\"Bridge\",\"bar\":106},{\"index\":\"XI\",\"name\":\"Solo\",\"bar\":121},{\"index\":\"XII\",\"name\":\"Outro\",\"bar\":149}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| N.C. | Db | Db | Eb | Eb |\"},{\"section\":\"Verse 1\",\"chords\":\"| Ab x8 | Eb/G x2 | Ab x2 | Eb x2 | Eb7 x2 |\"},{\"section\":\"Pre-Chorus 1\",\"chords\":\"| Fm | Fm | Db | Db | Ab | Ab | Ab | Eb |\"},{\"section\":\"Chorus 1\",\"chords\":\"| Bbm | Bbm | Db | Db | Ab | Ab | Bbm | Bbm | Db | Eb |\"},{\"section\":\"Interlude 1\",\"chords\":\"| Fm | Fm | Db | Db | Ab | Ab | Eb/G | Eb | Fm7 | Fm | Dbmaj7 | Dbmaj7 | Eb | Eb | Eb7 | Eb7 |\"},{\"section\":\"Verse 2\",\"chords\":\"| Ab x6 | Eb x2 | Ab x4 | Eb x2 | Eb7 x2 |\"},{\"section\":\"Pre-Chorus 2\",\"chords\":\"| Fm | Fm | Db | Db | Ab x4 |\"},{\"section\":\"Chorus 2\",\"chords\":\"| Bbm | Bbm | Dbmaj7 | Db | Ab | Ab | Bbm | Bbm | Db | Eb |\"},{\"section\":\"Interlude 2\",\"chords\":\"| Fm | Fm | Db | Db | Ab x4 | Fm | Fm | Db | Db | Eb | Eb | Eb7 | Eb7 |\"},{\"section\":\"Bridge\",\"chords\":\"| Fm | Fm | C/E | C/E | Eb | Eb | Bbm | Bbm | Fm | Fm | C/E | Bbm7 | Db | Fm7 | Db |\"},{\"section\":\"Solo\",\"chords\":\"| Ab | Eb/G | Fm | Fm | Db | Eb | Eb7 | Fm x3 | Db | Db | Ab x3 | Eb/G | Fm | Fm | Db | Db | Eb x4 | Ab x4 |\"},{\"section\":\"Outro\",\"chords\":\"| Bbm | Bbm | Dbmaj7 x5 | Db (hold) |\"}],\"chart\":\"# swansong\\n169 bpm · A♭ major · 4/4\\n\\n**Structure:** Intro – Verse 1 – Pre-Chorus – Chorus – Interlude – Verse 2 – Pre-Chorus – Chorus – Interlude – Bridge – Solo – Outro\\n\\n## I. Intro (bar 1)\\n| N.C. | Db | Db | Eb | Eb |\\n\\n## II. Verse 1 (bar 6)\\n| Ab x8 | Eb/G x2 | Ab x2 | Eb x2 | Eb7 x2 |\\n\\n## III. Pre-Chorus 1 (bar 22)\\n| Fm | Fm | Db | Db | Ab | Ab | Ab | Eb |\\n\\n## IV. Chorus 1 (bar 30)\\n| Bbm | Bbm | Db | Db | Ab | Ab | Bbm | Bbm | Db | Eb |\\n\\n## V. Interlude 1 (bar 40)\\n| Fm | Fm | Db | Db | Ab | Ab | Eb/G | Eb |\\n| Fm7 | Fm | Dbmaj7 | Dbmaj7 | Eb | Eb | Eb7 | Eb7 |\\n\\n## VI. Verse 2 (bar 56)\\n| Ab x6 | Eb x2 | Ab x4 | Eb x2 | Eb7 x2 |\\n\\n## VII. Pre-Chorus 2 (bar 72)\\n| Fm | Fm | Db | Db | Ab x4 |\\n\\n## VIII. Chorus 2 (bar 80)\\n| Bbm | Bbm | Dbmaj7 | Db | Ab | Ab | Bbm | Bbm | Db | Eb |\\n\\n## IX. Interlude 2 (bar 90)\\n| Fm | Fm | Db | Db | Ab x4 |\\n| Fm | Fm | Db | Db | Eb | Eb | Eb7 | Eb7 |\\n\\n## X. Bridge (bar 106)\\n| Fm | Fm | C/E | C/E | Eb | Eb | Bbm | Bbm |\\n| Fm | Fm | C/E | Bbm7 | Db | Fm7 | Db |\\n\\n## XI. Solo (bar 121)\\n| Ab | Eb/G | Fm | Fm | Db | Eb | Eb7 | Fm x3 | Db | Db |\\n| Ab x3 | Eb/G | Fm | Fm | Db | Db | Eb x4 | Ab x4 |\\n\\n## XII. Outro (bar 149)\\n| Bbm | Bbm | Dbmaj7 x5 | Db (hold to end) |\",\"notes\":\"The E-bass bars (108-109, 116) read as C/E (V of vi) but could be Caug; the Eb vs Eb7 and Fm vs Fm7 splits rest on weak sevenths, and the Solo/Outro boundaries are inferred from the chord cycle rather than marked sections.\"}"
+		},
+		"jw-my-favorite-regret|advisory": {
+			"atBars": null,
+			"finishReason": "stop",
+			"tokens": {
+				"in": 20977,
+				"out": 4376
+			},
+			"arm": "A",
+			"grid": "bar",
+			"typed": {
+				"bpm": 130,
+				"meter": "3/4",
+				"key": "D major",
+				"beatsPerBar": 3
+			},
+			"group": "woodward",
+			"tracker": {
+				"bpm": 130.43478260869338,
+				"bars": 178,
+				"barSecMedian": 1.3800000000000026
+			},
+			"cellsPerBar": 1.01,
+			"declared": {
+				"key": "D Major",
+				"bpm": 65,
+				"meter": "6/8",
+				"feel": "Straight"
+			},
+			"bars": 178,
+			"barSecMedian": 1.3800000000000026,
+			"noteCount": 1606,
+			"notesPerBar": 9.02247191011236,
+			"thinNotes": false,
+			"publishedLength": 46,
+			"baseline": {
+				"study": "35",
+				"roots": {
+					"right": 26,
+					"bearing": 42
+				},
+				"quals": {
+					"right": 13,
+					"bearing": 17
+				},
+				"draftBars": 47,
+				"class": "confidently-wrong"
+			},
+			"draftBars": 178,
+			"mergedBars": 78,
+			"unknownShare": 0,
+			"sequenceInvariant": false,
+			"roots": {
+				"right": 42,
+				"bearing": 42
+			},
+			"quals": {
+				"right": 17,
+				"bearing": 17
+			},
+			"class": "good",
+			"verdict": "saved",
+			"rawDraft": "{\"chords\":\"D G/D D % % G/D D % Bm A D G % % A/C# D % % % % % % % % % % % % % % % % % % F#m7 D Dsus4 % D % % % % % Bm G % D % % A % D % % % D/F# G D % A % D D/F# % G % % Bm % % % % % % Em7 A D % % % % % % Bm7 G D A % G % D % % % % Bm7 G D A % D % % D/F# G % % % D % A7 D D/F# G % % Bm % % % % % % Em A D % % % C#m7 % F#7 % Bm % D % Em A D/F# Bm Em % A % % D % % % % Bm7 G D A G D % % % % Bm % % G % D % A % Bm % G % % A D\",\"sections\":[{\"index\":\"I\",\"name\":\"Intro\",\"bar\":1},{\"index\":\"II\",\"name\":\"Verse 1\",\"bar\":16},{\"index\":\"III\",\"name\":\"Chorus 1\",\"bar\":45},{\"index\":\"IV\",\"name\":\"Verse 2\",\"bar\":66},{\"index\":\"V\",\"name\":\"Chorus 2\",\"bar\":85},{\"index\":\"VI\",\"name\":\"Interlude\",\"bar\":105},{\"index\":\"VII\",\"name\":\"Verse 3\",\"bar\":118},{\"index\":\"VIII\",\"name\":\"Bridge\",\"bar\":131},{\"index\":\"IX\",\"name\":\"Chorus 3\",\"bar\":148},{\"index\":\"X\",\"name\":\"Outro\",\"bar\":163}],\"progressions\":[{\"section\":\"Intro\",\"chords\":\"| D | G/D | D | D | D | G/D | D | D | Bm | A | D | G | G | G | A/C# |\"},{\"section\":\"Verse 1\",\"chords\":\"| D x19 | F#m7 | D | Dsus4 | Dsus4 | D x6 |\"},{\"section\":\"Chorus 1\",\"chords\":\"| Bm | G | G | D | D | D | A | A | D | D | D | D | D/F# | G | D | D | A | A | D | D/F# | D/F# |\"},{\"section\":\"Verse 2\",\"chords\":\"| G | G | G | Bm x7 | Em7 | A | D x7 |\"},{\"section\":\"Chorus 2\",\"chords\":\"| Bm7 | G | D | A | A | G | G | D x5 | Bm7 | G | D | A | A | D | D | D |\"},{\"section\":\"Interlude\",\"chords\":\"| D/F# | G | G | G | G | D | D | A7 | D | D/F# | G | G | G |\"},{\"section\":\"Verse 3\",\"chords\":\"| Bm x7 | Em | A | D | D | D | D |\"},{\"section\":\"Bridge\",\"chords\":\"| C#m7 | C#m7 | F#7 | F#7 | Bm | Bm | D | D | Em | A | D/F# | Bm | Em | Em | A | A | A |\"},{\"section\":\"Chorus 3\",\"chords\":\"| D x5 | Bm7 | G | D | A | G | D | D | D | D | D |\"},{\"section\":\"Outro\",\"chords\":\"| Bm | Bm | Bm | G | G | D | D | A | A | Bm | Bm | G | G | G | A | D (hold) |\"}],\"chart\":\"# my favorite regret\\n130 bpm · D major · 3/4\\n\\n**Structure:** Intro – Verse 1 – Chorus 1 – Verse 2 – Chorus 2 – Interlude – Verse 3 – Bridge – Chorus 3 – Outro\\n\\n## I. Intro (bar 1)\\n| D | G/D | D | D | D | G/D | D | D | Bm | A | D | G | G | G | A/C# |\\n\\n## II. Verse 1 (bar 16)\\n| D x19 | F#m7 | D | Dsus4 | Dsus4 | D x6 |\\n\\n## III. Chorus 1 (bar 45)\\n| Bm | G | G | D | D | D | A | A | D | D | D | D | D/F# | G | D | D | A | A | D | D/F# | D/F# |\\n\\n## IV. Verse 2 (bar 66)\\n| G | G | G | Bm x7 | Em7 | A | D x7 |\\n\\n## V. Chorus 2 (bar 85)\\n| Bm7 | G | D | A | A | G | G | D x5 | Bm7 | G | D | A | A | D | D | D |\\n\\n## VI. Interlude (bar 105)\\n| D/F# | G | G | G | G | D | D | A7 | D | D/F# | G | G | G |\\n\\n## VII. Verse 3 (bar 118)\\n| Bm x7 | Em | A | D | D | D | D |\\n\\n## VIII. Bridge (bar 131)\\n| C#m7 | C#m7 | F#7 | F#7 | Bm | Bm | D | D | Em | A | D/F# | Bm | Em | Em | A | A | A |\\n\\n## IX. Chorus 3 (bar 148)\\n| D x5 | Bm7 | G | D | A | G | D | D | D | D | D |\\n\\n## X. Outro (bar 163)\\n| Bm | Bm | Bm | G | G | D | D | A | A | Bm | Bm | G | G | G | A | D (hold) |\",\"notes\":\"Section boundaries are inferred from the chord patterns (recurring Bm–G–D–A taken as the chorus); the long D stretch in Verse 1 is sparse, so the F#m7/Dsus4 bars there and the A7 in bar 112 are low-confidence.\"}"
+		}
+	},
+	"tokensIn": 324093,
+	"tokensOut": 54064,
+	"spend": 1.459146
+}
