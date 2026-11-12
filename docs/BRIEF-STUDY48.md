@@ -30,7 +30,8 @@ in so far (2026-11-12):
 | Interbellum | 133.1 s | 456 notes, 11 region tracks, 115 bpm 4/4 | the mix starts one bar into the session; the stem is the app's own (30 ms apart; 323 of 324 matched notes agree) |
 
 More pairs join as Kevin's exports succeed (two failed on 2026-11-12:
-14-byte files); each goes through the same intake, and the study's
+14-byte files; the cause and the export recipe are in
+docs/bass-truth-intake.md); each goes through the same intake, and the study's
 tables grow by rows, not by rules. Audio and MIDI are gitignored; the
 manifest holds digests, offsets and counts.
 
