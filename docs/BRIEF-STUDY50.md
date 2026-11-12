@@ -142,3 +142,121 @@ entire.
   beats are already in the right place, so there is nothing for it to
   refine; the tracker's faults are dropped beats and bar lines.
 - Deterministic; a rerun reproduces every number.
+
+## Results (2026-11-12, registration 6911bcc; $0; six songs, 72 cells)
+
+The preflight passed: the tracker's grid under the per-bar rule gives
+back Study 49's bars for both note lists on every song.
+
+### A. The tracker's grid on the composer's (no transcription)
+
+| song | tracker beats on a composer's beat | composer's beats the tracker has none for | tracker bar lines on a composer's | truth triplet bars under the per-bar rule, on the composer's grid |
+|---|---|---|---|---|
+| Peaceful Dreams | 100 % of 579 | 6 % of 616 | 99 % of 149 | 0 |
+| Interbellum | 84 % of 255 | 16 % of 256 | 76 % of 70 | 1 |
+| Letter Lands | 100 % of 264 | 9 % of 289 | 100 % of 69 | 2 |
+| Eat All the Clocks | 100 % of 268 | 0 % of 268 | 92 % of 73 | 1 |
+| Downline | 100 % of 563 | 11 % of 631 | 48 % of 189 | 13 |
+| Mop Heart | 100 % of 374 | 9 % of 413 | 18 % of 103 | 2 |
+
+(The committed code counts over a slightly wider span than the check
+run before registration, so Peaceful Dreams' bar lines read 99 % here
+against the 100 % quoted above.)
+
+The tracker's beats are where the composer's are; it drops 6 % to 16 %
+of them on five songs; its bar lines are the composer's on the three
+steady 4/4 songs and not on the 5/4 and 3/4 songs. **And the triplet
+bars are not the tracker's doing.** On the composer's own grid the
+per-bar rule still writes 13 of Downline's bars in triplets, where the
+part has none: the registration's "seen" paragraph called those bars an
+artifact, and they are, of the per-bar rule. At 180 bpm the second
+sixteenth of a beat and the second triplet are 28 ms apart, inside a
+player's timing; the mechanism was not measured further.
+
+### B and C. The line on each grid (the selected notes)
+
+| song | tracker, per bar (Study 49) | tracker, per song | composer, per song | wrong, composer |
+|---|---|---|---|---|
+| Peaceful Dreams | 35 % · F 0.738 | 35 % · 0.753 | 35 % of 112 · 0.758 | 41 % |
+| Interbellum | 32 % · 0.792 | 32 % · 0.800 | 25 % of 63 · 0.797 | 59 % |
+| Letter Lands | 76 % · 0.876 | 76 % · 0.897 | 78 % of 72 · 0.903 | 13 % |
+| Eat All the Clocks | 42 % · 0.778 | 42 % · 0.778 | 42 % of 66 · 0.768 | 41 % |
+| Downline | 46 % · 0.702 | 46 % · 0.749 | 40 % of 156 · 0.745 | 37 % |
+| Mop Heart | 40 % · 0.755 | 40 % · 0.766 | 48 % of 128 · 0.770 | 41 % |
+| mean bars right | 45.2 % | 45.3 % | 44.7 % | |
+
+(Bars entirely right, then the slot-level F.)
+
+- **The per-song rule** removes every bar on different subdivisions (26
+  on the tracker's grid, 28 on the composer's, to none) and raises the
+  slot F on five songs, by 0.05 on Downline; it leaves one song's F
+  where it was and lowers none. Bars right does not move: those bars
+  were wrong for other reasons as well. Wrong bars fall on Downline
+  (32 % to 29 %).
+- **The composer's grid** changes the slot F by 0.01 or less on every
+  song. Bars right moves with how the grid cuts bars, not with accuracy:
+  down on Interbellum and Downline, where the tracker's extra bar lines
+  make shorter bars that are easier to get wholly right, up on Mop
+  Heart, where the composer's 3/4 bars are shorter than the tracker's.
+- **Splitting the tracker's double beats** changes nothing on four songs
+  and costs a point on Downline and Mop Heart.
+- The app's notes tell the same story at 39.0 %, 39.1 % and 38.4 %.
+
+### Predictions
+
+- P1 (the per-song rule chooses sixteenths everywhere): right.
+- P2 (it raises bars right on five of six on the tracker's grid):
+  **wrong**; on one, by half a point.
+- P3 (the composer's grid gains 5 to 10 points of mean bars right):
+  **wrong**; it loses half a point.
+- P4 (the largest gain is Mop Heart's or Downline's): right, Mop
+  Heart's, +7.7; Downline's is the second largest loss.
+- P5 (splitting double beats moves the mean under 2 points): right,
+  −0.4.
+- P6 (50 % of bars right on four of six songs on the composer's grid):
+  **wrong**, on one.
+
+Three of six held.
+
+### Decisions
+
+- **S50-D1: keep the per-bar rule, by the registered condition** (bars
+  right had to rise on five songs; it rose on one). Reported for what
+  it is: choosing once for the song never lowered bars right, removed
+  every bar on different subdivisions, and raised the slot F on five
+  songs; the truth is in sixteenths on all six songs and both
+  transcriptions chose sixteenths on every song and grid. The per-bar
+  rule writes triplets the part does not have, on the composer's own
+  grid, in 19 of 597 bars.
+- **S50-D2: no, the grid is not the bottleneck.** A perfect grid leaves
+  the line where the transcriber put it: mean bars right −0.5 points,
+  slot F within 0.01 on every song.
+- **S50-D3:** Study 48's bar is cleared on no song on the composer's
+  grid. Letter Lands is nearest, 78 % right and 13 % wrong.
+
+### What the study changes
+
+The bench's two earlier attributions to the tracker are now measured
+and were wrong in substance, not only in wording: neither the
+subdivision disagreements nor the line's failure come from the
+tracker's grid. The tracker's real faults on these songs, dropped beats
+and wrong bar lines in 5/4 and 3/4, matter to a chart a player reads
+(a 5/4 song written in bars of one to six beats is not usable) and do
+not matter to whether the notes are right.
+
+After three studies the transcriber is what is left: Basic Pitch's
+settings (Study 49), filters on its notes (Study 49) and the grid under
+them (this study) each leave the line at about three notes in four
+right and under half the bars. The plan's remaining items are the two
+that do not try to fix Basic Pitch's notes: trusting only some bars
+(item 4) and another transcriber (item 5).
+
+### Disclosures
+
+- $0; one registration; the scored pass ran once.
+- The composer's grid rests on MIDI time zero being bar 1 (above). A
+  wrong bar phase on Mop Heart or Downline would move their bars right
+  and not their slot F, which is the measure S50-D2's conclusion leans
+  on in the text; the registered D2 condition is on bars right and
+  fails either way.
+- No triplet part in the corpus (above).

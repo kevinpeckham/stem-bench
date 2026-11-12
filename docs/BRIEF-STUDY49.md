@@ -361,7 +361,10 @@ first said "bars the tracker's grid puts on the other subdivision" and
 called the grid the largest class of misses. The tracker's part in it
 was not measured, and the largest class is notes with no transcribed
 note of their pitch class, 30 %.* The
-plan's next two items stand, with the grid next:
+plan's next two items stand, with the grid next (*added 2026-11-12:
+Study 50 then measured it. Choosing the subdivision once per song
+removes every such bar and bars right does not move; the composer's own
+grid changes nothing. The grid is not where the line is lost*):
 the line's own grid (docs/PLAN-bass-line.md item 3) and trust per bar
 (item 4).
 

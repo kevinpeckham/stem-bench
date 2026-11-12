@@ -55,6 +55,22 @@ against triplets, the grader's per-bar choice from each line's onsets);
 item 3 must first measure whether that is the tracker's beats or the
 per-bar choice itself, which no study has done. Base pipeline for both: `o50-f30-n11-i0-m0` beside the app's.
 
+**Updated again 2026-11-12 after Study 50** (docs/BRIEF-STUDY50.md),
+which was item 3 reshaped: the same notes on the composer's own grid
+(from the MIDI's tempo and signature map) score the same, slot F within
+0.01 on every song. The grid is not the bottleneck; the tracker's beats
+are in the right place, it drops 6 % to 16 % of them and gets 5/4 and
+3/4 bar lines wrong, which matters to a readable chart and not to note
+accuracy. A per-song subdivision choice removes all the false triplet
+bars (a rule artifact, not the tracker's) without moving bars right.
+Items 1 to 3 are done and none moves the line: the transcriber is what
+is left. **Next: item 4 (trust per bar), then item 5 (another
+transcriber).** Item 4's features can no longer include "onsets merged
+or dropped by the Study 1 rules", since no such rule survived; use what
+the app has without truth (Basic Pitch amplitudes, onset counts against
+beats, the notes the bass constraint and the melodia pass removed,
+agreement between the app's and the selected configuration).
+
 ## The studies, in order
 
 ### 1. Merge re-triggers and floor the ghosts (first)
