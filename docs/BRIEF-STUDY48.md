@@ -364,12 +364,15 @@ tracker" answer is not available from pYIN as run; CREPE was not tried.
   included; the app's half-bar joining would make the bars larger and
   the bar grade stricter, so "no" survives it. Downline's grid is the
   bench's Beat This reading of the band's mix, not the app's.
-- The tempo line on each written chart is the median tracker beat, which
-  on Letter Lands and Peaceful Dreams is the half-note of the song's
-  tempo (the tracker reads them at 65 and 71 bpm where Kevin wrote 132
-  and 145); the bar grade is unaffected because truth and transcription
-  share the grid, and the written `Bs` lines are correct against the
-  tracker's bar, not the composer's.
+- The tempo line on each written chart is the median tracker beat (130
+  and 143 bpm on Letter Lands and Peaceful Dreams, where Kevin wrote 132
+  and 145). *Corrected 2026-11-12: this bullet first said the tracker
+  reads those two songs at 65 and 71 bpm, the half-note. That was read
+  off the first three beats of each; the tracker holds the half-note for
+  stretches only (33 and 37 double-length beats, mostly the intros) and
+  the written charts say 130 and 143.* The bar grade is unaffected
+  because truth and transcription share the grid, and the written `Bs`
+  lines are correct against the tracker's bar, not the composer's.
 - The note-level scores drop zero-length MIDI notes (22 on Peaceful
   Dreams, 0 to 4 elsewhere) and ignore offsets.
 - Draft-to-draft variance does not apply; the pipelines are

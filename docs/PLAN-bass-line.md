@@ -94,7 +94,8 @@ Studies 1 and 2 can share one registration and one afternoon.
 
 Downline loses 23 bars to truth and transcription choosing different
 subdivisions (cause not yet measured),
-and the tracker reads Letter Lands and Peaceful Dreams at half tempo.
+and the tracker holds the half-note for stretches of Letter Lands and
+Peaceful Dreams (corrected 2026-11-12: not the whole songs).
 Test a grid refined from the bass stem's own onsets, snapped to the
 tracker's downbeats (the tracker gives the bar lines, the stem the
 beat), against the shared grid, on bars right and notes on the right
