@@ -1,0 +1,197 @@
+{
+	"note": "Study 48 bass truth: Kevin's MIDI per bass stem, offsets found by scripts/ingest-bass-pair.py; audio and MIDI gitignored",
+	"entries": {
+		"peaceful-dreams": {
+			"label": "Bass Guitar",
+			"wav": "corpus-mmkk/peaceful-dreams/bass-truth/peaceful-dreams-bass.wav",
+			"wavSha256": "4761804477061f4dc39dcedf73486251c228f27bb81a7d29ebb5ffa6cda88330",
+			"raw": "corpus-mmkk/peaceful-dreams/bass-truth/peaceful-dreams-bass.22050.f32le.raw",
+			"seconds": 185.36,
+			"midi": "corpus-mmkk/peaceful-dreams/bass-truth/peaceful-dreams-bass.mid",
+			"midiSha256": "1580b90375fbe45079d6aac2f63efe12e6bcc4dcbb10ef81d200acb9e39c7377",
+			"midiTracks": 9,
+			"trackNames": [
+				"Bass",
+				"Bass Player - Pop Songwriter"
+			],
+			"tempos": [
+				{
+					"sec": 0.0,
+					"bpm": 145.0
+				}
+			],
+			"sigs": [
+				{
+					"sec": 0.0,
+					"sig": "4/4"
+				}
+			],
+			"midiNotes": 429,
+			"midiPitchRange": [
+				36,
+				64
+			],
+			"midiSpan": [
+				21.7241,
+				206.6948
+			],
+			"basicPitchNotes": 694,
+			"offsetSec": 21.52,
+			"offsetBars": {
+				"beats": 52.007,
+				"bars": 13.002,
+				"integral": true
+			},
+			"alignment": {
+				"inSpan": 429,
+				"onsetMatched": 357,
+				"exact": 190,
+				"octaveOff": 159,
+				"classRight": 349,
+				"medianOnsetErr": 0.0058
+			},
+			"windows": [
+				{
+					"from": 0.0,
+					"notes": 68,
+					"lag": -21.52,
+					"classRight": 50
+				},
+				{
+					"from": 30.0,
+					"notes": 68,
+					"lag": -21.51,
+					"classRight": 60
+				},
+				{
+					"from": 60.0,
+					"notes": 75,
+					"lag": -21.52,
+					"classRight": 46
+				},
+				{
+					"from": 90.0,
+					"notes": 78,
+					"lag": -21.53,
+					"classRight": 67
+				},
+				{
+					"from": 120.0,
+					"notes": 67,
+					"lag": -21.52,
+					"classRight": 61
+				},
+				{
+					"from": 150.0,
+					"notes": 63,
+					"lag": -21.52,
+					"classRight": 60
+				},
+				{
+					"from": 180.0,
+					"notes": 10,
+					"lag": -21.51,
+					"classRight": 7
+				}
+			],
+			"driftSec": 0.01,
+			"coarsePeaks": [
+				-21.51,
+				-28.13,
+				-18.2,
+				-24.82,
+				-14.89
+			]
+		},
+		"interbellum": {
+			"label": "Bass Guitar",
+			"wav": "corpus-mmkk/interbellum/bass-truth/interbellum-bass.wav",
+			"wavSha256": "58ad60ab0bf9fa903afa7130cc92feaf9f38b69db2b103f1e35e9a51e8508222",
+			"raw": "corpus-mmkk/interbellum/bass-truth/interbellum-bass.22050.f32le.raw",
+			"seconds": 133.113,
+			"midi": "corpus-mmkk/interbellum/bass-truth/interbellum-bass.mid",
+			"midiSha256": "b58ac0c45c9b714fccb7c4728e0a45a9ded14863418e31003c33f69cb8cb820f",
+			"midiTracks": 11,
+			"trackNames": [
+				"Intro",
+				"Verse"
+			],
+			"tempos": [
+				{
+					"sec": 0.0,
+					"bpm": 115.0
+				}
+			],
+			"sigs": [
+				{
+					"sec": 0.0,
+					"sig": "4/4"
+				}
+			],
+			"midiNotes": 456,
+			"midiPitchRange": [
+				43,
+				69
+			],
+			"midiSpan": [
+				2.087,
+				135.1739
+			],
+			"basicPitchNotes": 533,
+			"offsetSec": 2.07,
+			"offsetBars": {
+				"beats": 3.967,
+				"bars": 0.992,
+				"integral": true
+			},
+			"alignment": {
+				"inSpan": 456,
+				"onsetMatched": 324,
+				"exact": 67,
+				"octaveOff": 256,
+				"classRight": 323,
+				"medianOnsetErr": 0.0069
+			},
+			"windows": [
+				{
+					"from": 0.0,
+					"notes": 116,
+					"lag": -2.07,
+					"classRight": 78
+				},
+				{
+					"from": 30.0,
+					"notes": 98,
+					"lag": -2.07,
+					"classRight": 80
+				},
+				{
+					"from": 60.0,
+					"notes": 144,
+					"lag": -2.06,
+					"classRight": 87
+				},
+				{
+					"from": 90.0,
+					"notes": 71,
+					"lag": -2.06,
+					"classRight": 59
+				},
+				{
+					"from": 120.0,
+					"notes": 27,
+					"lag": -2.07,
+					"classRight": 20
+				}
+			],
+			"driftSec": 0.01,
+			"coarsePeaks": [
+				-2.06,
+				-6.24,
+				2.11,
+				-3.11,
+				0.02
+			]
+		}
+	}
+}
