@@ -289,7 +289,12 @@ Basic Pitch): of the truth onsets, matched 70 % to 94 %, an octave off 1 %
 to 8 %, another pitch 0 % to 2 %, missing 5 % to 26 %; extra onsets, with
 no truth note in their slot, number 19 % to 58 % of the truth's. By bar:
 on Downline 62 of 186 bars fail on extras alone and 23 on the grid
-(the tracker reads a 5/4 or 3/4 bar on the other subdivision); on
+(the truth's onsets and the transcription's chose different
+subdivisions for the bar, sixteenths against triplets; *corrected
+2026-11-12: this first read "the tracker reads a 5/4 or 3/4 bar on the
+other subdivision". The subdivision is chosen per bar by the grader
+from each line's own onsets, and whether the tracker's beats cause the
+disagreement was not measured*); on
 Peaceful Dreams 18 of 109 fail on missing notes alone; on Letter Lands
 13 of the 20 failing bars are extras alone.
 
@@ -322,8 +327,10 @@ called them "Basic Pitch re-triggering within a sustained or decaying
 note, and ghost notes" without having classed them. Classed, re-triggers
 are 30 % of the extras, onsets with nothing sounding 23 %, bars on the
 wrong subdivision 18 %, tails 13 %*), **missed onsets** (one in six to one in four on the
-busier songs), the **grid** on a song whose meter changes (Downline's
-23 bars read on the other subdivision), and the **octave** last, which
+busier songs), the **grid** (on Downline, 23 bars where the truth and the
+transcription chose different subdivisions; *corrected 2026-11-12: first
+attributed to the song's changing meter and the tracker, which was not
+measured*), and the **octave** last, which
 the bass constraint and the lowest-note rule already reduce to a few per
 cent. Rhythm quantization itself is not where it is lost: on the steady
 songs 84 % to 95 % of the notes land on the right slot.

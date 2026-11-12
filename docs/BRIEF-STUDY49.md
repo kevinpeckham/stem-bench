@@ -353,9 +353,15 @@ corrected on every surface that carries it.
 **What is left is not a threshold.** The misses are a quarter grid, and
 otherwise short and legato notes that Basic Pitch either does not
 transcribe or joins to their neighbour; loosening it to find them costs
-more bars than it wins. A fifth of the extras, and the largest class of
-misses, are bars the tracker's grid puts on the other subdivision. The
-plan's next two items stand, with the grid moved up on this evidence:
+more bars than it wins. A fifth of the extras, and a quarter of the misses, are in bars where
+the truth's onsets and the transcription's chose different subdivisions
+(sixteenths against triplets, chosen per bar by the grader from each
+line's own onsets). *Corrected 2026-11-12, the day of writing: this
+first said "bars the tracker's grid puts on the other subdivision" and
+called the grid the largest class of misses. The tracker's part in it
+was not measured, and the largest class is notes with no transcribed
+note of their pitch class, 30 %.* The
+plan's next two items stand, with the grid next:
 the line's own grid (docs/PLAN-bass-line.md item 3) and trust per bar
 (item 4).
 

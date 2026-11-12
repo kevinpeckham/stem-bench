@@ -48,9 +48,12 @@ re-triggers (30 %; nothing sounding 23 %, wrong subdivision 18 %); the
 merge and the floor each help one song and cost another; every loosened
 threshold hurts every song; the melodia pass and inferred onsets off
 gain 6.2 points on the mean (39.0 % to 45.2 % bars right), under the
-registered 10. **Next: item 3 (the line's own grid), moved up because
-the grid is the largest class of missed onsets, then item 4 (trust per
-bar).** Base pipeline for both: `o50-f30-n11-i0-m0` beside the app's.
+registered 10. **Next: item 3 (the grid), then item 4 (trust per
+bar).** A quarter of the misses and a fifth of the extras are in bars
+where truth and transcription chose different subdivisions (sixteenths
+against triplets, the grader's per-bar choice from each line's onsets);
+item 3 must first measure whether that is the tracker's beats or the
+per-bar choice itself, which no study has done. Base pipeline for both: `o50-f30-n11-i0-m0` beside the app's.
 
 ## The studies, in order
 
@@ -89,7 +92,8 @@ Studies 1 and 2 can share one registration and one afternoon.
 
 ### 3. The line's own grid
 
-Downline loses 23 bars to the tracker's bars on the wrong subdivision,
+Downline loses 23 bars to truth and transcription choosing different
+subdivisions (cause not yet measured),
 and the tracker reads Letter Lands and Peaceful Dreams at half tempo.
 Test a grid refined from the bass stem's own onsets, snapped to the
 tracker's downbeats (the tracker gives the bar lines, the stem the
