@@ -82,6 +82,19 @@ with the bench's crude note-cutting is expected to fail as pYIN did
 (the failure is note segmentation, not pitch); a note-level monophonic
 transcriber is the candidate.
 
+**Item 5 is waiting on Kevin (2026-11-12).** Candidates found, none
+installed: `hf-midi-transcription` (xavriley; a note-level CRNN with a
+bass model, MIT, about 95 MB of weights from Hugging Face, needs its own
+venv) is the first to try, as the line and as Study 51's second reader;
+MuScriptor (Kyutai and Mirelo, July 2026; multi-instrument, weights
+CC BY-NC 4.0, so the app could not ship it commercially) is a second,
+if Kevin wants a non-commercial model measured at all; `crepe-notes`
+needs TensorFlow and madmom's non-commercial models. Installing outside
+code was declined by the session's permission check, so nothing was
+installed or run. Design when unblocked: the new reader's notes on the
+same stems, graded by Study 48's bar grade and Study 50's slot F on the
+tracker's grid, then Study 51's agreement rule with Basic Pitch.
+
 ## The studies, in order
 
 ### 1. Merge re-triggers and floor the ghosts (first)
