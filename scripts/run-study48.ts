@@ -15,7 +15,11 @@ const PIPELINES = ["bp", "bp-bass", "pyin"] as const;
 /** The registered bar for a written line to help more than it misleads. */
 const HELPS = { right: 0.7, wrong: 0.1 };
 const manifest = JSON.parse(readFileSync(`${root}corpus/study48-manifest.json`, "utf8")) as { entries: Record<string, { raw: string; label: string; midiToMixSec: number | null }> };
-const appBeats = JSON.parse(readFileSync(`${root}corpus/study44-app-beats.json`, "utf8")) as Record<string, { beats: number[]; downbeats: number[]; duration: number }>;
+/** The app's stored beats per song; a song the app does not hold takes the bench's Beat This small0 reading of the band's mix (the brief's amendment). */
+const appBeats = {
+	...(JSON.parse(readFileSync(`${root}corpus/study44-app-beats.json`, "utf8")) as Record<string, { beats: number[]; downbeats: number[]; duration: number }>),
+	...(existsSync(`${root}corpus/study48-extra-beats.json`) ? (JSON.parse(readFileSync(`${root}corpus/study48-extra-beats.json`, "utf8")) as Record<string, { beats: number[]; downbeats: number[]; duration: number }>) : {}),
+};
 const notesScores = existsSync(`${root}results/study48-notes.json`) ? (JSON.parse(readFileSync(`${root}results/study48-notes.json`, "utf8")) as { songs: Record<string, Record<string, { exact: { f: number }; octave: { rate: number | null; up: number; down: number }; byRegister: Record<string, { matchedClass: number; octaveWrong: number }> }>> }) : null;
 const linesDir = `${root}results/study48-lines`;
 mkdirSync(linesDir, { recursive: true });

@@ -407,8 +407,13 @@
 			"band": "Ghost Ghost",
 			"label": "Bass",
 			"appStem": null,
-			"appStemOffset": null,
-			"midiToMixSec": null,
+			"appStemOffset": {
+				"offsetSec": 1.686,
+				"overlapSec": 207.0,
+				"envelopeCorrelation": 0.492,
+				"method": "bass stem against the mix low-passed at 250 Hz (the full mix agrees at the same lag, correlation 0.393); 1.686 s is one 5/4 bar at 180 bpm"
+			},
+			"midiToMixSec": 1.696,
 			"wav": "corpus-ghostghost/downline/bass-truth/downline-bass.wav",
 			"wavSha256": "4abd03bdd8a46c9591f461b71b82132a7bd67debb9eac2f5c4c25415dd38cc73",
 			"raw": "corpus-ghostghost/downline/bass-truth/downline-bass.22050.f32le.raw",
@@ -526,7 +531,9 @@
 				5.01,
 				-1.66,
 				-3.33
-			]
+			],
+			"mix": "corpus-ghostghost/downline/mix.mp3",
+			"mixSource": "the band's full mix (Downline 2026-11-11 KP 2.mp3), not an app render; beats by the bench's Beat This small0 (corpus/study48-extra-beats.json)"
 		},
 		"mop-heart": {
 			"band": "MMKK",
