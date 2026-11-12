@@ -105,3 +105,84 @@ Kevin's call and the app's, not something this study measures.
   agreement.
 - Six songs by one writer. Deterministic; a rerun reproduces every
   number.
+
+## Results (2026-11-12, registration 95b4089; $0; six songs, 545 bars with notes)
+
+The preflight passed. Pooled over the six songs:
+
+| rule | bars shown | shown bars right | one error | wrong | the part written right |
+|---|---|---|---|---|---|
+| every bar | 545 of 545 | 41 % | 19 % | 41 % | 79 % |
+| `configs` | 430 (79 %) | 43 % | 18 % | 39 % | 69 % |
+| `loosened` | 355 (65 %) | 48 % | 21 % | 31 % | 48 % |
+| `pyin` | 140 (26 %) | 64 % | 16 % | 20 % | 17 % |
+| `all` | 90 (17 %) | 64 % | 16 % | 20 % | 11 % |
+
+(Every bar is 41 % here against Study 49's 45 % because the 53 bars the
+line leaves empty, 44 of them rightly, are counted apart.)
+
+By song, agreement with pYIN:
+
+| song | shown | right | wrong | every bar: right · wrong |
+|---|---|---|---|---|
+| Peaceful Dreams | 33 of 109 (30 %) | 76 % | 3 % | 35 % · 44 % |
+| Interbellum | 13 of 64 (20 %) | 46 % | 54 % | 27 % · 55 % |
+| Letter Lands | 8 of 61 (13 %) | 100 % | 0 % | 74 % · 18 % |
+| Eat All the Clocks | 1 of 61 (2 %) | 100 % | 0 % | 36 % · 39 % |
+| Downline | 72 of 160 (45 %) | 56 % | 22 % | 41 % · 37 % |
+| Mop Heart | 13 of 90 (14 %) | 69 % | 31 % | 38 % · 50 % |
+
+Stability under loosened thresholds shows more and filters less: 39 %
+to 83 % of bars, 44 % to 74 % of them right, 10 % to 43 % wrong.
+Agreement with the app's own configuration filters almost nothing.
+`all` is `pyin` with fewer bars and no better.
+
+### Predictions
+
+- P1 (`loosened`, `pyin` and `all` each beat every bar on every song):
+  right.
+- P2 (`all` at least 70 % right on five of six songs): **wrong**, on
+  four; Interbellum 43 % and Downline 50 %.
+- P3 (`all` shows under a quarter on at least three songs): right, on
+  five.
+- P4 (pooled, `pyin` right more often than `loosened`): right, 64 %
+  against 48 %.
+- P5 (no rule meets the bar on every song): right.
+
+Four of five held.
+
+### Decision (S51-D1)
+
+**No rule is recommended.** None shows bars that are 70 % right and at
+most 10 % wrong while showing a quarter of them, on every song; each of
+`loosened`, `pyin` and `all` does it on one song. The best signal is
+agreement with a second transcriber: it lifts the shown bars from 41 %
+right to 64 % and halves the wrong ones, and on Peaceful Dreams it
+would do (30 % of bars shown, 76 % right, 3 % wrong). It fails two
+ways elsewhere. It shows too little: 2 % to 20 % of the bars on four
+songs, 17 % of the part's notes overall, because pYIN's own line is
+right in so few bars. And agreement is not correctness where both
+readings fail alike: on Interbellum the 13 agreed bars are wrong more
+often than right.
+
+Agreement between Basic Pitch configurations is weak evidence, as
+expected of readings that share one model output: the bars that survive
+loosening are right 48 % of the time.
+
+### What the study changes
+
+Trust by agreement works in direction and not in amount. It is bounded
+by the second reader: a bar can be confirmed only if something else
+gets it right too, and nothing the bench has reads these bass lines
+well enough to confirm more than a quarter of them. That points the
+last item of the plan, another transcriber, at a different job than
+replacing Basic Pitch: a second reader good enough to agree with.
+
+### Disclosures
+
+- $0; one registration; the scored pass ran once.
+- The quarter-of-bars floor is the bench's, and decides nothing here:
+  no rule meets the two accuracy conditions on every song at any
+  coverage.
+- Rests are counted apart; with them, `pyin`'s trusted bars are 175, of
+  which 122 are right.

@@ -71,6 +71,17 @@ the app has without truth (Basic Pitch amplitudes, onset counts against
 beats, the notes the bass constraint and the melodia pass removed,
 agreement between the app's and the selected configuration).
 
+**Updated 2026-11-12 after Study 51** (docs/BRIEF-STUDY51.md), item 4:
+no trust rule is recommended. Agreement with pYIN lifts shown bars from
+41 % right to 64 % but shows 26 % of bars (17 % of the part's notes) and
+meets the bar on one song; agreement between Basic Pitch configurations
+barely filters (48 % right). Trust by agreement is bounded by the second
+reader. **Item 5 is what is left, and its job has changed: a second
+reader good enough to agree with, or a better first one.** Plain CREPE
+with the bench's crude note-cutting is expected to fail as pYIN did
+(the failure is note segmentation, not pitch); a note-level monophonic
+transcriber is the candidate.
+
 ## The studies, in order
 
 ### 1. Merge re-triggers and floor the ghosts (first)

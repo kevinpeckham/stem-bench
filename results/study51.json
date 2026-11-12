@@ -1,0 +1,418 @@
+{
+	"registered": "docs/BRIEF-STUDY51.md",
+	"spend": 0,
+	"readings": {
+		"shown": "o50-f30-n11-i0-m0",
+		"app": "o50-f30-n11-i1-m1",
+		"frame": "o50-f20-n11-i0-m0",
+		"short": "o50-f30-n6-i0-m0",
+		"pyin": "Study 48's pYIN notes"
+	},
+	"bar": {
+		"right": 0.7,
+		"wrong": 0.1,
+		"coverage": 0.25
+	},
+	"songs": {
+		"peaceful-dreams": {
+			"everyBar": {
+				"bars": 109,
+				"shown": 109,
+				"right": 38,
+				"oneError": 23,
+				"wrong": 48,
+				"rests": 0,
+				"restsRight": 0,
+				"truthOnsets": 404,
+				"notesShownRight": 299
+			},
+			"configs": {
+				"bars": 109,
+				"shown": 101,
+				"right": 37,
+				"oneError": 23,
+				"wrong": 41,
+				"rests": 0,
+				"restsRight": 0,
+				"truthOnsets": 404,
+				"notesShownRight": 292
+			},
+			"loosened": {
+				"bars": 109,
+				"shown": 72,
+				"right": 32,
+				"oneError": 17,
+				"wrong": 23,
+				"rests": 0,
+				"restsRight": 0,
+				"truthOnsets": 404,
+				"notesShownRight": 206
+			},
+			"pyin": {
+				"bars": 109,
+				"shown": 33,
+				"right": 25,
+				"oneError": 7,
+				"wrong": 1,
+				"rests": 0,
+				"restsRight": 0,
+				"truthOnsets": 404,
+				"notesShownRight": 108
+			},
+			"all": {
+				"bars": 109,
+				"shown": 28,
+				"right": 21,
+				"oneError": 6,
+				"wrong": 1,
+				"rests": 0,
+				"restsRight": 0,
+				"truthOnsets": 404,
+				"notesShownRight": 91
+			}
+		},
+		"interbellum": {
+			"everyBar": {
+				"bars": 64,
+				"shown": 64,
+				"right": 17,
+				"oneError": 12,
+				"wrong": 35,
+				"rests": 5,
+				"restsRight": 5,
+				"truthOnsets": 391,
+				"notesShownRight": 301
+			},
+			"configs": {
+				"bars": 64,
+				"shown": 54,
+				"right": 16,
+				"oneError": 10,
+				"wrong": 28,
+				"rests": 1,
+				"restsRight": 1,
+				"truthOnsets": 391,
+				"notesShownRight": 260
+			},
+			"loosened": {
+				"bars": 64,
+				"shown": 25,
+				"right": 11,
+				"oneError": 5,
+				"wrong": 9,
+				"rests": 4,
+				"restsRight": 4,
+				"truthOnsets": 391,
+				"notesShownRight": 104
+			},
+			"pyin": {
+				"bars": 64,
+				"shown": 13,
+				"right": 6,
+				"oneError": 0,
+				"wrong": 7,
+				"rests": 1,
+				"restsRight": 1,
+				"truthOnsets": 391,
+				"notesShownRight": 52
+			},
+			"all": {
+				"bars": 64,
+				"shown": 7,
+				"right": 3,
+				"oneError": 0,
+				"wrong": 4,
+				"rests": 0,
+				"restsRight": 0,
+				"truthOnsets": 391,
+				"notesShownRight": 29
+			}
+		},
+		"letter-lands": {
+			"everyBar": {
+				"bars": 61,
+				"shown": 61,
+				"right": 45,
+				"oneError": 5,
+				"wrong": 11,
+				"rests": 7,
+				"restsRight": 7,
+				"truthOnsets": 269,
+				"notesShownRight": 250
+			},
+			"configs": {
+				"bars": 61,
+				"shown": 56,
+				"right": 43,
+				"oneError": 4,
+				"wrong": 9,
+				"rests": 5,
+				"restsRight": 5,
+				"truthOnsets": 269,
+				"notesShownRight": 231
+			},
+			"loosened": {
+				"bars": 61,
+				"shown": 31,
+				"right": 23,
+				"oneError": 5,
+				"wrong": 3,
+				"rests": 7,
+				"restsRight": 7,
+				"truthOnsets": 269,
+				"notesShownRight": 130
+			},
+			"pyin": {
+				"bars": 61,
+				"shown": 8,
+				"right": 8,
+				"oneError": 0,
+				"wrong": 0,
+				"rests": 4,
+				"restsRight": 4,
+				"truthOnsets": 269,
+				"notesShownRight": 39
+			},
+			"all": {
+				"bars": 61,
+				"shown": 8,
+				"right": 8,
+				"oneError": 0,
+				"wrong": 0,
+				"rests": 3,
+				"restsRight": 3,
+				"truthOnsets": 269,
+				"notesShownRight": 39
+			}
+		},
+		"eat-all-the-clocks": {
+			"everyBar": {
+				"bars": 61,
+				"shown": 61,
+				"right": 22,
+				"oneError": 15,
+				"wrong": 24,
+				"rests": 10,
+				"restsRight": 8,
+				"truthOnsets": 250,
+				"notesShownRight": 202
+			},
+			"configs": {
+				"bars": 61,
+				"shown": 43,
+				"right": 19,
+				"oneError": 10,
+				"wrong": 14,
+				"rests": 6,
+				"restsRight": 6,
+				"truthOnsets": 250,
+				"notesShownRight": 165
+			},
+			"loosened": {
+				"bars": 61,
+				"shown": 43,
+				"right": 21,
+				"oneError": 13,
+				"wrong": 9,
+				"rests": 8,
+				"restsRight": 8,
+				"truthOnsets": 250,
+				"notesShownRight": 161
+			},
+			"pyin": {
+				"bars": 61,
+				"shown": 1,
+				"right": 1,
+				"oneError": 0,
+				"wrong": 0,
+				"rests": 6,
+				"restsRight": 6,
+				"truthOnsets": 250,
+				"notesShownRight": 4
+			},
+			"all": {
+				"bars": 61,
+				"shown": 1,
+				"right": 1,
+				"oneError": 0,
+				"wrong": 0,
+				"rests": 6,
+				"restsRight": 6,
+				"truthOnsets": 250,
+				"notesShownRight": 4
+			}
+		},
+		"downline": {
+			"everyBar": {
+				"bars": 160,
+				"shown": 160,
+				"right": 65,
+				"oneError": 36,
+				"wrong": 59,
+				"rests": 26,
+				"restsRight": 20,
+				"truthOnsets": 358,
+				"notesShownRight": 265
+			},
+			"configs": {
+				"bars": 160,
+				"shown": 96,
+				"right": 38,
+				"oneError": 21,
+				"wrong": 37,
+				"rests": 21,
+				"restsRight": 15,
+				"truthOnsets": 358,
+				"notesShownRight": 173
+			},
+			"loosened": {
+				"bars": 160,
+				"shown": 133,
+				"right": 60,
+				"oneError": 29,
+				"wrong": 44,
+				"rests": 25,
+				"restsRight": 20,
+				"truthOnsets": 358,
+				"notesShownRight": 219
+			},
+			"pyin": {
+				"bars": 160,
+				"shown": 72,
+				"right": 40,
+				"oneError": 16,
+				"wrong": 16,
+				"rests": 21,
+				"restsRight": 19,
+				"truthOnsets": 358,
+				"notesShownRight": 93
+			},
+			"all": {
+				"bars": 160,
+				"shown": 38,
+				"right": 19,
+				"oneError": 8,
+				"wrong": 11,
+				"rests": 16,
+				"restsRight": 14,
+				"truthOnsets": 358,
+				"notesShownRight": 45
+			}
+		},
+		"mop-heart": {
+			"everyBar": {
+				"bars": 90,
+				"shown": 90,
+				"right": 34,
+				"oneError": 11,
+				"wrong": 45,
+				"rests": 5,
+				"restsRight": 4,
+				"truthOnsets": 333,
+				"notesShownRight": 266
+			},
+			"configs": {
+				"bars": 90,
+				"shown": 80,
+				"right": 34,
+				"oneError": 9,
+				"wrong": 37,
+				"rests": 3,
+				"restsRight": 3,
+				"truthOnsets": 333,
+				"notesShownRight": 258
+			},
+			"loosened": {
+				"bars": 90,
+				"shown": 51,
+				"right": 23,
+				"oneError": 6,
+				"wrong": 22,
+				"rests": 5,
+				"restsRight": 4,
+				"truthOnsets": 333,
+				"notesShownRight": 151
+			},
+			"pyin": {
+				"bars": 90,
+				"shown": 13,
+				"right": 9,
+				"oneError": 0,
+				"wrong": 4,
+				"rests": 3,
+				"restsRight": 3,
+				"truthOnsets": 333,
+				"notesShownRight": 37
+			},
+			"all": {
+				"bars": 90,
+				"shown": 8,
+				"right": 6,
+				"oneError": 0,
+				"wrong": 2,
+				"rests": 3,
+				"restsRight": 3,
+				"truthOnsets": 333,
+				"notesShownRight": 20
+			}
+		}
+	},
+	"pooled": {
+		"everyBar": {
+			"bars": 545,
+			"shown": 545,
+			"right": 221,
+			"oneError": 102,
+			"wrong": 222,
+			"rests": 53,
+			"restsRight": 44,
+			"truthOnsets": 2005,
+			"notesShownRight": 1583
+		},
+		"configs": {
+			"bars": 545,
+			"shown": 430,
+			"right": 187,
+			"oneError": 77,
+			"wrong": 166,
+			"rests": 36,
+			"restsRight": 30,
+			"truthOnsets": 2005,
+			"notesShownRight": 1379
+		},
+		"loosened": {
+			"bars": 545,
+			"shown": 355,
+			"right": 170,
+			"oneError": 75,
+			"wrong": 110,
+			"rests": 49,
+			"restsRight": 43,
+			"truthOnsets": 2005,
+			"notesShownRight": 971
+		},
+		"pyin": {
+			"bars": 545,
+			"shown": 140,
+			"right": 89,
+			"oneError": 23,
+			"wrong": 28,
+			"rests": 35,
+			"restsRight": 33,
+			"truthOnsets": 2005,
+			"notesShownRight": 333
+		},
+		"all": {
+			"bars": 545,
+			"shown": 90,
+			"right": 58,
+			"oneError": 14,
+			"wrong": 18,
+			"rests": 28,
+			"restsRight": 26,
+			"truthOnsets": 2005,
+			"notesShownRight": 228
+		}
+	},
+	"decision": null
+}
