@@ -208,6 +208,103 @@
 				-3.11,
 				0.02
 			]
+		},
+		"letter-lands": {
+			"label": "Bass Guitar",
+			"appStem": "corpus-mmkk/letter-lands/NrVcE058NsqsDgIrSplGl.wav.22050.f32le.raw",
+			"appStemOffset": {
+				"offsetSec": 7.273,
+				"overlapSec": 130.5,
+				"envelopeCorrelation": 0.993,
+				"appStemSeconds": 141.32
+			},
+			"midiToMixSec": 7.303,
+			"wav": "corpus-mmkk/letter-lands/bass-truth/letter-lands-bass.wav",
+			"wavSha256": "289577638f652e72ffa8185c7c43026032d7108b1d4a3e9241c2e482f72979dc",
+			"raw": "corpus-mmkk/letter-lands/bass-truth/letter-lands-bass.22050.f32le.raw",
+			"seconds": 130.455,
+			"midi": "corpus-mmkk/letter-lands/bass-truth/letter-lands-bass.mid",
+			"midiSha256": "3a5ab38d4a672901ecf13313c9bba3250e680dfc813033062eba839630ebc3e8",
+			"midiTracks": 1,
+			"trackNames": [
+				"Bass Riff"
+			],
+			"tempos": [
+				{
+					"sec": 0.0,
+					"bpm": 132.0
+				}
+			],
+			"sigs": [
+				{
+					"sec": 0.0,
+					"sig": "4/4"
+				}
+			],
+			"midiNotes": 305,
+			"midiPitchRange": [
+				42,
+				61
+			],
+			"midiSpan": [
+				0.0,
+				130.4544
+			],
+			"basicPitchNotes": 468,
+			"offsetSec": -0.03,
+			"offsetBars": {
+				"beats": -0.066,
+				"bars": -0.017,
+				"integral": true
+			},
+			"alignment": {
+				"inSpan": 304,
+				"onsetMatched": 278,
+				"exact": 99,
+				"octaveOff": 178,
+				"classRight": 277,
+				"medianOnsetErr": 0.0226
+			},
+			"windows": [
+				{
+					"from": 0.0,
+					"notes": 46,
+					"lag": 0.0,
+					"classRight": 46
+				},
+				{
+					"from": 30.0,
+					"notes": 77,
+					"lag": 0.0,
+					"classRight": 73
+				},
+				{
+					"from": 60.0,
+					"notes": 92,
+					"lag": 0.04,
+					"classRight": 85
+				},
+				{
+					"from": 90.0,
+					"notes": 70,
+					"lag": 0.01,
+					"classRight": 62
+				},
+				{
+					"from": 120.0,
+					"notes": 20,
+					"lag": 0.01,
+					"classRight": 13
+				}
+			],
+			"driftSec": 0.03,
+			"coarsePeaks": [
+				0.01,
+				-1.81,
+				1.82,
+				3.64,
+				-3.63
+			]
 		}
 	}
 }
