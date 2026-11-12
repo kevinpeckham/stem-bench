@@ -243,3 +243,124 @@ beats (two-beat bars on 8 to 29 bars per song, Mop Heart and Downline
 mostly three); the study grades on the bars as stored, as registered,
 and the app's half-bar joining would make the bars larger and the bar
 grade harder, never easier.
+
+## Results (2026-11-12, registrations 3fbeb94 and ff3dc83; $0; six songs, 598 bars, 1,999 truth notes)
+
+### Ask A and B: the transcriptions against the MIDI (mir_eval, onset 50 ms, pitch 50 cents)
+
+| song | Basic Pitch, octave-exact F | pitch-class F | octave errors (all upward) | bass-constrained, exact F | pYIN, exact F | pYIN octave errors |
+|---|---|---|---|---|---|---|
+| Peaceful Dreams | 0.572 | 0.621 | 37 % | 0.730 | 0.718 | 0 % |
+| Interbellum | 0.657 | 0.669 | 34 % | 0.747 | 0.731 | 2 % |
+| Letter Lands | 0.686 | 0.694 | 37 % | 0.850 | 0.587 | 0 % |
+| Eat All the Clocks | 0.606 | 0.659 | 38 % | 0.713 | 0.688 | 0 % |
+| Downline | 0.594 | 0.612 | 34 % | 0.699 | 0.710 | 1 % |
+| Mop Heart | 0.788 | 0.816 | 12 % | 0.853 | 0.867 | 0 % |
+
+Basic Pitch's octave errors are all upward (the second harmonic as the
+note) and fall with register: E1 to A1 is the worst register on four
+songs (50 %, 44 %, 62 %, 56 %) and not on Interbellum (25 %, where Bb1
+to E2 is 52 %) or Letter Lands (4 of 9). The bass constraint (E1 to C4,
+one note at a time, the lowest kept) removes most of them: 37 % → 15 %
+on Peaceful Dreams, 34 % → 5 % on Interbellum, 37 % → 4 % on Letter
+Lands. pYIN almost never misses the octave but finds fewer of the notes
+(onset F 0.60 to 0.88 against the constrained Basic Pitch's 0.72 to
+0.89).
+
+### Ask C and D: the written line, bar by bar on the app's beats
+
+| song | bars | Basic Pitch: right · one error · wrong | notes on the right slot · right pitch | pYIN: right · wrong | bars on the other grid |
+|---|---|---|---|---|---|
+| Peaceful Dreams | 109 | 34 · 22 · 44 % | 84 · 75 % | 37 · 43 % | 2 |
+| Interbellum | 69 | 25 · 22 · 54 % | 80 · 79 % | 17 · 70 % | 2 |
+| Letter Lands | 68 | **71** · 12 · 18 % | 95 · 94 % | 18 · 60 % | 2 |
+| Eat All the Clocks | 71 | 35 · 21 · 44 % | 90 · 82 % | 20 · 72 % | 0 |
+| Downline | 186 | 29 · 26 · 45 % | 74 · 70 % | 38 · 46 % | 23 |
+| Mop Heart | 95 | 38 · 12 · 51 % | 86 · 79 % | 21 · 74 % | 6 |
+
+The constrained Basic Pitch grades within a point of plain Basic Pitch
+on every song, because the grader already keeps the lower of two onsets
+in a slot, which is the constraint's main effect. Every written chart
+(results/study48-lines/, eighteen transcriptions and six truths) parses
+in barmark 0.17 with zero errors.
+
+**What makes a bar wrong** (post-hoc, labelled; scripts/attribute-study48.ts,
+Basic Pitch): of the truth onsets, matched 70 % to 94 %, an octave off 1 %
+to 8 %, another pitch 0 % to 2 %, missing 5 % to 26 %; extra onsets, with
+no truth note in their slot, number 19 % to 58 % of the truth's. By bar:
+on Downline 62 of 186 bars fail on extras alone and 23 on the grid
+(the tracker reads a 5/4 or 3/4 bar on the other subdivision); on
+Peaceful Dreams 18 of 109 fail on missing notes alone; on Letter Lands
+13 of the 20 failing bars are extras alone.
+
+### Predictions
+
+- P1 (Basic Pitch octave errors ≥ 30 % everywhere, mostly up): **wrong
+  on the rate**, Mop Heart is 12 %; right on the direction, every error
+  on every song is upward. (Informed by the defective pass, as
+  disclosed.)
+- P2 (E1 to A1 the worst register everywhere): **wrong**, on four of six.
+- P3 (the constraint lifts exact F by ≥ 0.15 everywhere): **wrong**;
+  +0.07 to +0.16, three songs over 0.15 (Peaceful Dreams, Letter Lands)
+  and three under.
+- P4 (pYIN above the constrained Basic Pitch everywhere): **wrong**; above
+  on Downline and Mop Heart, below on four.
+- P5 (best pipeline puts ≥ 80 % of notes on the right slot everywhere):
+  **wrong**, Downline 64 %; the other five 80 % to 95 %. (Informed by the
+  defective grades, as disclosed.)
+- P6 (no pipeline reaches 70 % bars right everywhere): right. Letter
+  Lands reaches 71 %; no other song passes 39 %.
+
+### Decision (S48-D1)
+
+**No.** No pipeline clears 70 % of bars entirely right with at most 10 %
+wrong on every song; none clears it on any song but Letter Lands, which
+clears the first bar and not the second (18 % wrong). The failure, in
+order: **extra onsets** (Basic Pitch re-triggering within a sustained or
+decaying note, and ghost notes: a fifth to a half again as many onsets
+as the part has), **missed onsets** (one in six to one in four on the
+busier songs), the **grid** on a song whose meter changes (Downline's
+23 bars read on the other subdivision), and the **octave** last, which
+the bass constraint and the lowest-note rule already reduce to a few per
+cent. Rhythm quantization itself is not where it is lost: on the steady
+songs 84 % to 95 % of the notes land on the right slot.
+
+The bench's labelled judgment, as a player: a written bass line helps
+when it is right in two bars of three and wrong in fewer than one in
+ten, and only Letter Lands, a steady eighth-note part at 132, comes
+near. The busier the part (Downline's syncopated 5/4, Mop Heart's 224
+bpm waltz), the more Basic Pitch over-segments it, and the tracker's bars
+stop matching the meter. What in the stem predicts it: the share of
+transcribed onsets that have no truth onset (extras) tracks the bar
+failure song by song, and the app can measure a proxy for it without
+truth, the share of transcribed notes that start within a sixteenth of
+another note of the same pitch class. That is a study of its own.
+
+**A monophonic tracker does not rescue it.** pYIN fixes the octave and
+loses more notes and adds more extras than it removes; on four of six
+songs it grades below Basic Pitch. The brief's "only with a monophonic
+tracker" answer is not available from pYIN as run; CREPE was not tried.
+
+### Disclosures
+
+- $0. Two re-registrations, both disclosed above with the numbers seen:
+  the truth's octave (3fbeb94) and the early-onset slot (ff3dc83).
+- The stems are Logic's rendering of this MIDI (Peaceful Dreams by its
+  track names; the others by Kevin's export recipe, which converted
+  Session Player regions to MIDI), so the truth is exact and the sound
+  is a sampled bass with no fret noise or slides. A miked bass would do
+  worse on every row.
+- The grid is the tracker's bars as stored, two-beat and three-beat bars
+  included; the app's half-bar joining would make the bars larger and
+  the bar grade stricter, so "no" survives it. Downline's grid is the
+  bench's Beat This reading of the band's mix, not the app's.
+- The tempo line on each written chart is the median tracker beat, which
+  on Letter Lands and Peaceful Dreams is the half-note of the song's
+  tempo (the tracker reads them at 65 and 71 bpm where Kevin wrote 132
+  and 145); the bar grade is unaffected because truth and transcription
+  share the grid, and the written `Bs` lines are correct against the
+  tracker's bar, not the composer's.
+- The note-level scores drop zero-length MIDI notes (22 on Peaceful
+  Dreams, 0 to 4 elsewhere) and ignore offsets.
+- Draft-to-draft variance does not apply; the pipelines are
+  deterministic, and a rerun reproduces every number.
