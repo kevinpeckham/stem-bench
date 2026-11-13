@@ -95,6 +95,20 @@ installed or run. Design when unblocked: the new reader's notes on the
 same stems, graded by Study 48's bar grade and Study 50's slot F on the
 tracker's grid, then Study 51's agreement rule with Basic Pitch.
 
+**Updated 2026-11-13 after Study 52 and the truth's correction.** The
+truth of every bass study was missing back-to-back notes of one pitch
+(docs/CORRECTION-2026-11-13-bass-truth.md); Studies 48 to 51 are re-run
+and their decisions hold on corrected numbers (Basic Pitch's best line
+48.4 % of bars right, not 45.2 %; extras are half re-triggers; "nothing
+sounding" was the truth's missing notes). Study 52 arm 1: the
+`hfbass` model (xavriley/hf_midi_transcription) is the better reader,
+64.3 % of bars right, three songs clear Study 48's bar; not recommended
+by the registered rules (Letter Lands, Interbellum). **Open:** (1)
+Kevin on Letter Lands' 4 ms notes; (2) arm 2, MuScriptor, after Kevin's
+Hugging Face login and licence acceptance; (3) if the line is to ship,
+the next study is `hfbass` on more songs and on a miked bass, and what
+it does with the short legato notes Interbellum is made of.
+
 ## The studies, in order
 
 ### 1. Merge re-triggers and floor the ghosts (first)

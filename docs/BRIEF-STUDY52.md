@@ -201,9 +201,9 @@ corrected MIDI holds 20 notes on Letter Lands that are 4 ms long, an E
 on the fourth beat of the riff's bars, and 23 of 4 to 7 ms on
 Interbellum. Study 48's grader drops truth notes under 0.4 of a
 sixteenth as not meant, so they are not in the truth. `hfbass` writes a
-note in 19 of those 20 slots on Letter Lands (pYIN hears one there too;
-Basic Pitch hears the previous note still sounding), and each is
-counted as an extra. With those onsets forgiven, `hfbass` on Letter
+note in 19 of those 20 slots on Letter Lands (in the four such bars
+looked at, pYIN hears one there too and Basic Pitch holds the previous
+note), and each is counted as an extra. With those onsets forgiven, `hfbass` on Letter
 Lands is 79 % of bars right, not 51 %, and Basic Pitch is unchanged at
 76 %; Interbellum does not move. Whether a 4 ms note is a note is
 Kevin's to say; the registered result stands until he does.
@@ -253,9 +253,10 @@ Five of six. (On the defective truth P2 would have failed.)
 
 ### What the study changes
 
-This is the first reader that moves the line: half again as many bars
-right as Basic Pitch on four songs, double on two, no octave errors, a
-tenth of the extra onsets. It is not yet a line to show on every song,
+This is the first reader that moves the line: about double Basic
+Pitch's bars right on two songs, half again on one, a fifth more on
+two and fewer on Letter Lands; no octave errors; a third of the extra
+onsets. It is not yet a line to show on every song,
 and by the rules written before the run it is not recommended. What
 stands between it and those rules is small and specific: one question
 about the truth on Letter Lands, and one song, Interbellum, whose short
