@@ -133,9 +133,7 @@ right. P5 (power chords ≤ 5): right, 4.
 ### Decision (S47-D1)
 
 **Between: reported without a recommendation.** The sentence that tells
-the model what the hint is worth changes almost nothing: 19 of 22 drafts
-keep the same root and quality counts, and the three that move do so by
-one position each way. The bench's reading, labelled: the quality the
+the model what the hint is worth changes almost nothing: 17 of 22 drafts keep the same root and quality counts; of the five that move, four move by one position and one (california-lullabye) by two roots and one quality. (Corrected 2026-11-13: first written as 19 of 22 with three moving by one position each way, which counted the guitar takes' moves and not the two Woodward songs in the paragraph above; results/study47.json against results/study45.json gives 17 of 22.) The bench's reading, labelled: the quality the
 drafts lose on this sheet is not lost by deferring to the hint. Study
 45's attribution counted 14 positions where the draft followed a wrong
 hint, but told in so many words that the hint cannot hear a

@@ -128,8 +128,7 @@ rule. "Declared" is the Study 34/35 draft on the typed grid.
 | i'm letting go | 28/33 saved | 33/33 good | 33/33 good | 30/33 good |
 
 **Beat This small0 passes the app's rule: within two roots of madmom on
-10 of 10, none confidently-wrong.** Seven songs identical to madmom,
-two better by two roots, one (none) worse; 8 good, 2 saved, the same
+10 of 10, none confidently-wrong.** Eight songs identical to madmom (Corrected 2026-11-13: first written as seven; the table shows eight), two better by two roots, one (none) worse; 8 good, 2 saved, the same
 two as on every grid. final0 fails the rule on one song, i'm letting
 go, 30/33 against madmom's 33/33 (still good); its beats-per-bar
 distribution there is the most fragmented of the twenty cells (48 bars

@@ -168,8 +168,7 @@ P2 wrong (2 of 12 lifted, because 8 were already 14/14).
 
 A real lift and not enough: roots from a median of 0.36 to 0.58, five
 of eight songs up, every song still confidently-wrong on the half grid.
-P3 wrong by two hundredths (0.58 against 0.60; no song good, as
-predicted). Two songs went down, one of them hard (D911-08, 55 → 32:
+P3 right (0.58 against the registered 0.45; no song good, as predicted). (Corrected 2026-11-13: first scored wrong by two hundredths against 0.60, a threshold the registration above does not contain.) Two songs went down, one of them hard (D911-08, 55 → 32:
 283 cells of 0.4 s on a 114 s song, which the draft could not hold
 together). The format is part of the ceiling on fast-moving harmony
 and the audio and the truth are the rest.
@@ -198,10 +197,7 @@ The half grid lifted 7 of 20 and lowered 2: **no grid change
 recommended** (mixed). For the app: draft on the tracker's bar as read;
 two cells a bar buys nothing on full-band or guitar material where the
 chords change by the bar, costs 12 % more input, and on the lieder lifts
-a draft that is still wrong. The free-tempo question (P3) is settled in
-the direction the brief anticipated: the format was not the whole
-ceiling, so the next study on the lieder is about the audio and the
-truth, not the chart. The guitar result redirects the acoustic
+a draft that is still wrong. The free-tempo question (P3) is settled in the direction the brief anticipated: the format was not the whole ceiling, so the next study on the lieder is about the audio and the truth, not the chart. (Corrected 2026-11-13: the registered trigger for that reading, a median under 0.45, did not fire; the median rose to 0.58, so the format was part of the ceiling. The reading rests on every song staying confidently wrong at the half grid, not on the registered rule.) The guitar result redirects the acoustic
 question: the next gap there is chord quality on a one-chord-a-bar
 sheet, a question for the drafting prompt and the per-bar hints, not
 the tracker.

@@ -110,7 +110,7 @@ disclosure); draft sampling noise is on the order of one to three bars.
 
 ## Results (2026-11-10, registration 3dc106b)
 
-### Part C: the witness is net negative on every base
+### Part C: the witness is net negative on every 4/4 base (Corrected 2026-11-13: first headed "on every base"; on the 6/8 bases of madmom and production it helps, below)
 
 Corrected run (results/study37c.json; the first run is disclosed
 below). Regular mixes with chord segments, 261 songs; base bar = the
@@ -134,8 +134,7 @@ fixed none of the 26 half-bar cases. Of its 30 breaks, 20 halved a
 correct bar and 10 doubled one. The reason is in the score profiles:
 ChordMini emits 60 to 124 chord changes per song (sus4, passing and
 inversion flicker inside the bar), so the stability term punishes every
-longer bar and the witness votes for the half bar whenever it acts
-(26 of 77 actions were ratio 1/2, 11 ratio 2). The one place it helps
+longer bar and the witness votes for the half bar more often than the double (26 of 77 actions were ratio 1/2, 11 ratio 2; Corrected 2026-11-13: first written as "whenever it acts", which the counts in the same sentence contradict). The one place it helps
 is the 6/8 base of madmom and production, where it moves 6 songs each
 from a double bar (two dotted-quarter bars read as one) to the declared
 bar and breaks none; that is the 2/3 and 3/2 ratios doing what C4 hoped,

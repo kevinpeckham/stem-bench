@@ -106,8 +106,7 @@ Study 36b: strict 95 (36 %), folded 176 (67 %), meter right 180 (69 %);
 | sub-beat test off, super-beat kept | 100 | 191 | 207 | 22 | 10 | 2 | 7 |
 
 The witness cannot tell true 6/8 from false: at every r it drops the
-true calls faster than the false ones (21 → 4 at r 0.80, where 44 false
-calls remain). What it does do is remove the bar damage: at r 1.00 the
+true calls faster than the false ones (21 → 4 at r 0.80, where 19 false calls remain; Corrected 2026-11-13: first written as 44 remaining, which is the number removed). What it does do is remove the bar damage: at r 1.00 the
 strict bar rises from 95 to 114 with no song made wrong, and never
 naming 6/8 at all is within two songs of the best cell on every count.
 The reason is in Study 36b: when the detector names 6/8 on a true 6/8
@@ -164,7 +163,7 @@ read. One further, outside the registered floors and offered as such:
 for the detector that remains in the scan offer, stop emitting 6/8 from
 the subdivision read (or gate it with the duple-bar witness at r 1.00).
 On this catalog that is strictly better on every count, strict 95 →
-112 to 114, folded 176 → 200, meter 180 → 214 to 217, with zero to two
+112 to 114, folded 176 → 200 to 201 (Corrected 2026-11-13: first written as 200; the r 1.00 row is 201), meter 180 → 214 to 217, with zero to two
 songs made wrong, because the detector's 6/8 bar is wrong on 19 of the
 21 songs it is right to name.
 

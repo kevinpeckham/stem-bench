@@ -182,8 +182,7 @@ Anatomy worth keeping.
 - Ten songs are unfolded against the page by all three trackers while
   the three agree with each other within 4 %: AThousandSkinsPart2 (page
   75, trackers 106), ShowMe (123 vs 132), RollAwaytheStone (95 vs 89),
-  TheBestSong (120 vs 130), Flypaper (124 swing vs 164), and six 6/8
-  songs (MotionlessLand, SpaceCamp, FollowtheRoad, TheRivalWithin,
+  TheBestSong (120 vs 130), Flypaper (124 swing vs 164), and five 6/8 songs (Corrected 2026-11-13: first written as six; five are named and the ten are five and five) (MotionlessLand, SpaceCamp, FollowtheRoad, TheRivalWithin,
   DontCloseYourEyes) where the trackers' bar is 1.26 to 2.24 s against
   the page's dotted-quarter convention. These are listed, not
   re-graded; some may be page errors, some tempo changes, some the
