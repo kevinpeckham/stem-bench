@@ -246,6 +246,8 @@ grade harder, never easier.
 
 ## Results (2026-11-12, registrations 3fbeb94 and ff3dc83; $0; six songs, 598 bars, 1,999 truth notes)
 
+**Superseded 2026-11-13.** Every number in this section was computed against a truth that was missing 1 % to 18 % of each song's notes (docs/CORRECTION-2026-11-13-bass-truth.md). It is kept as first published; the re-run on the corrected truth is at the end of this brief and replaces it.
+
 ### Ask A and B: the transcriptions against the MIDI (mir_eval, onset 50 ms, pitch 50 cents)
 
 | song | Basic Pitch, octave-exact F | pitch-class F | octave errors (all upward) | bass-constrained, exact F | pYIN, exact F | pYIN octave errors |
@@ -377,3 +379,68 @@ tracker" answer is not available from pYIN as run; CREPE was not tried.
   Dreams, 0 to 4 elsewhere) and ignore offsets.
 - Draft-to-draft variance does not apply; the pipelines are
   deterministic, and a rerun reproduces every number.
+
+## Re-run on the corrected truth (2026-11-13; fix c844706; $0; six songs, 599 bars, 2,299 notes)
+
+The truth this study was graded against had lost back-to-back notes of
+one pitch to a parser defect: 47, 71, 25, 8, 77 and 4 notes by song
+(docs/CORRECTION-2026-11-13-bass-truth.md). The "zero-length MIDI notes"
+this brief disclosed dropping were half of them. Parser fixed, MIDI
+re-read, offsets confirmed, and every script of this study run again
+unchanged. Registration, graders, thresholds and the decision rule are
+as they were.
+
+### Ask A and B: the transcriptions against the MIDI
+
+| song | Basic Pitch, octave-exact F | pitch-class F | octave errors (all upward) | bass-constrained, exact F | pYIN, exact F | pYIN octave errors |
+|---|---|---|---|---|---|---|
+| Peaceful Dreams | 0.601 | 0.652 | 37 % | 0.759 | 0.756 | 0 % |
+| Interbellum | 0.682 | 0.693 | 34 % | 0.768 | 0.753 | 2 % |
+| Letter Lands | 0.725 | 0.733 | 35 % | 0.892 | 0.604 | 0 % |
+| Eat All the Clocks | 0.614 | 0.674 | 38 % | 0.716 | 0.695 | 0 % |
+| Downline | 0.689 | 0.706 | 33 % | 0.801 | 0.790 | 1 % |
+| Mop Heart | 0.790 | 0.817 | 13 % | 0.854 | 0.865 | 0 % |
+
+(First published: Basic Pitch 0.572, 0.657, 0.686, 0.606, 0.594, 0.788;
+constrained 0.730, 0.747, 0.850, 0.713, 0.699, 0.853; pYIN 0.718, 0.731,
+0.587, 0.688, 0.710, 0.867. Every score but one rose, Downline's most; pYIN on Mop Heart fell by 0.002.)
+
+The account stands: Basic Pitch's octave errors are all upward, E1 to A1
+is the worst register on four songs, the constraint removes most of
+them (to 3 % to 14 %), and pYIN almost never misses the octave but finds
+fewer of the notes on four songs.
+
+### Ask C and D: the written line, bar by bar
+
+| song | bars | Basic Pitch: right · one error · wrong | notes on the right slot · right pitch | pYIN: right · wrong | bars on the other subdivision |
+|---|---|---|---|---|---|
+| Peaceful Dreams | 110 | 35 · 27 · 37 % | 82 · 74 % | 38 · 39 % | 2 |
+| Interbellum | 69 | 25 · 23 · 52 % | 77 · 75 % | 17 · 67 % | 1 |
+| Letter Lands | 68 | 72 · 13 · 15 % | 95 · 94 % | 21 · 53 % | 2 |
+| Eat All the Clocks | 71 | 35 · 21 · 44 % | 90 · 82 % | 20 · 72 % | 0 |
+| Downline | 186 | **40** · 30 · 30 % | 77 · 74 % | 48 · 39 % | 23 |
+| Mop Heart | 95 | 38 · 12 · 51 % | 86 · 79 % | 21 · 76 % | 6 |
+
+(First published, bars right: 34, 25, 71, 35, 29, 38 %.) Bars right
+moves by a point or less on five songs and by 11 on Downline; wrong bars
+fall on Peaceful Dreams (44 % to 37 %) and Downline (45 % to 30 %).
+
+**What makes a bar wrong** (post-hoc, Basic Pitch): matched 74 % to
+94 % of truth onsets, an octave off 1 % to 7 %, missing 5 % to 23 %;
+**extra onsets 8 % to 32 % of the truth's, where the first run said
+19 % to 58 %**: about a third of the first run's "extras" were the
+truth's missing notes. On Peaceful Dreams and Interbellum missed onsets
+now outnumber extras two and three to one (30 and 23 bars fail on misses alone);
+on Eat All the Clocks, Downline and Mop Heart extras still lead.
+
+### Predictions and decision
+
+Unchanged in outcome: P1 wrong on the rate (Mop Heart 13 %), right on
+direction; P2 wrong (four of six); P3 wrong (+0.06 to +0.17, two songs
+over 0.15); P4 wrong (pYIN above the constrained Basic Pitch on Mop
+Heart only); P5 wrong (Interbellum 78 %, Downline 77 %); P6 right.
+
+**S48-D1: no**, as first decided. No pipeline clears 70 % of bars right
+with at most 10 % wrong on any song; Letter Lands meets the first
+condition and not the second (72 % right, 15 % wrong). The first run's ordering of the failure,
+"extra onsets first", holds on three songs and is reversed on two.

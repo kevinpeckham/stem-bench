@@ -1,0 +1,95 @@
+{
+	"note": "post-hoc, labelled: transcribed onsets forgiven where a truth note the grader dropped as too short begins",
+	"songs": {
+		"peaceful-dreams": {
+			"droppedTruthNotes": 0,
+			"bp": {
+				"bars": 110,
+				"right": 40,
+				"rightForgiven": 40,
+				"onsetsForgiven": 0
+			},
+			"hfbass": {
+				"bars": 110,
+				"right": 58,
+				"rightForgiven": 58,
+				"onsetsForgiven": 0
+			}
+		},
+		"interbellum": {
+			"droppedTruthNotes": 27,
+			"bp": {
+				"bars": 69,
+				"right": 22,
+				"rightForgiven": 23,
+				"onsetsForgiven": 2
+			},
+			"hfbass": {
+				"bars": 69,
+				"right": 27,
+				"rightForgiven": 27,
+				"onsetsForgiven": 3
+			}
+		},
+		"letter-lands": {
+			"droppedTruthNotes": 20,
+			"bp": {
+				"bars": 68,
+				"right": 52,
+				"rightForgiven": 52,
+				"onsetsForgiven": 0
+			},
+			"hfbass": {
+				"bars": 68,
+				"right": 35,
+				"rightForgiven": 54,
+				"onsetsForgiven": 19
+			}
+		},
+		"eat-all-the-clocks": {
+			"droppedTruthNotes": 0,
+			"bp": {
+				"bars": 71,
+				"right": 30,
+				"rightForgiven": 30,
+				"onsetsForgiven": 0
+			},
+			"hfbass": {
+				"bars": 71,
+				"right": 58,
+				"rightForgiven": 58,
+				"onsetsForgiven": 0
+			}
+		},
+		"downline": {
+			"droppedTruthNotes": 2,
+			"bp": {
+				"bars": 186,
+				"right": 118,
+				"rightForgiven": 118,
+				"onsetsForgiven": 0
+			},
+			"hfbass": {
+				"bars": 186,
+				"right": 137,
+				"rightForgiven": 137,
+				"onsetsForgiven": 0
+			}
+		},
+		"mop-heart": {
+			"droppedTruthNotes": 0,
+			"bp": {
+				"bars": 95,
+				"right": 38,
+				"rightForgiven": 38,
+				"onsetsForgiven": 0
+			},
+			"hfbass": {
+				"bars": 95,
+				"right": 83,
+				"rightForgiven": 83,
+				"onsetsForgiven": 0
+			}
+		}
+	}
+}

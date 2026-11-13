@@ -199,6 +199,8 @@ percentile.
 
 ## Results (2026-11-12, registration 772a253; $0; six songs, 598 bars, 32 configurations, 16 filter settings)
 
+**Superseded 2026-11-13.** Every number in this section was computed against a truth that was missing 1 % to 18 % of each song's notes (docs/CORRECTION-2026-11-13-bass-truth.md). It is kept as first published; the re-run on the corrected truth is at the end of this brief and replaces it.
+
 The preflight passed: the truth, the app configuration's notes, the bass
 constraint's port and the bar grades all reproduce Study 48 exactly.
 
@@ -380,3 +382,127 @@ the line's own grid (docs/PLAN-bass-line.md item 3) and trust per bar
   part of any prediction or decision.
 - 32 configurations chosen among on six songs; the held-out result is
   reported and does not change the decision.
+
+## Re-run on the corrected truth (2026-11-13; fix c844706; $0)
+
+The truth had lost back-to-back notes of one pitch
+(docs/CORRECTION-2026-11-13-bass-truth.md). Every script of this study
+was run again unchanged on the corrected truth. The preflight passed
+against Study 48's re-run.
+
+### Part A: what the extra and missed onsets are
+
+Extra onsets, 405 (first run: 582):
+
+| song | extras | re-trigger | silence | other subdivision | tail | one slot off | over another note |
+|---|---|---|---|---|---|---|---|
+| Peaceful Dreams | 45 | **21** | 0 | 15 | 2 | 6 | 1 |
+| Interbellum | 33 | **12** | 6 | 1 | 0 | 8 | 6 |
+| Letter Lands | 29 | **10** | 2 | 8 | 6 | 2 | 1 |
+| Eat All the Clocks | 70 | **55** | 1 | 5 | 1 | 6 | 2 |
+| Downline | 136 | 59 | 0 | **60** | 0 | 12 | 5 |
+| Mop Heart | 92 | **41** | 2 | 12 | 1 | 27 | 9 |
+| all | 405 | 198 (49 %) | 11 (3 %) | 101 (25 %) | 10 (2 %) | 61 (15 %) | 24 (6 %) |
+
+**The first run's second-largest class is gone.** Onsets "where nothing
+is sounding" were 133 of 582; they are 11 of 405. They were Basic Pitch
+hearing notes the truth had lost. Tails went the same way (73 to 10).
+
+Missed onsets, 388 (first run: 332):
+
+| song | misses | other subdivision | no note of its class | one slot off | absorbed | late | other |
+|---|---|---|---|---|---|---|---|
+| Peaceful Dreams | 85 | 11 | 36 | 6 | 26 | 4 | 2 |
+| Interbellum | 108 | 0 | 20 | 8 | 62 | 2 | 16 |
+| Letter Lands | 15 | 8 | 4 | 2 | 1 | 0 | 0 |
+| Eat All the Clocks | 29 | 4 | 12 | 6 | 2 | 5 | 0 |
+| Downline | 105 | 49 | 33 | 12 | 4 | 5 | 2 |
+| Mop Heart | 46 | 11 | 2 | 27 | 5 | 1 | 0 |
+| all | 388 | 83 (21 %) | 107 (28 %) | 61 (16 %) | 100 (26 %) | 17 (4 %) | 20 (5 %) |
+
+The misses rose because the notes the truth regained are the ones
+Basic Pitch is worst at: a note repeated with no gap, which it joins to
+the one before (absorbed: 58 to 100). Short and legato notes are still
+the ones missed: under 130 ms, 63 % against 11 % on Peaceful Dreams,
+49 % against 10 % on Interbellum, 65 % against 22 % on Downline.
+
+### Part C: Basic Pitch's knobs
+
+Main effect on bars right, in points:
+
+| knob | Peaceful Dreams | Interbellum | Letter Lands | Eat All the Clocks | Downline | Mop Heart |
+|---|---|---|---|---|---|---|
+| onset threshold 0.35 | −27.8 | −15.4 | −45.4 | −27.5 | −23.5 | −23.8 |
+| frame threshold 0.2 | −3.1 | −2.2 | −8.3 | −1.1 | −1.3 | −7.5 |
+| minimum note 6 frames | −4.9 | −7.2 | −21.5 | −1.4 | −6.1 | −7.8 |
+| inferred onsets off | +0.1 | +0.9 | +1.8 | +1.4 | +1.6 | +0.5 |
+| melodia pass off | +3.6 | +5.8 | +6.8 | +4.9 | +17.7 | +2.2 |
+
+The same configuration is selected (`o50-f30-n11-i0-m0`):
+
+| song | bars right, the app's setting | selected | gain | wrong, selected |
+|---|---|---|---|---|
+| Peaceful Dreams | 35 % | 36 % | +0.9 | 38 % |
+| Interbellum | 26 % | 32 % | +5.8 | 49 % |
+| Letter Lands | 72 % | 76 % | +4.4 | 13 % |
+| Eat All the Clocks | 35 % | 42 % | +7.0 | 35 % |
+| Downline | 40 % | 63 % | +23.1 | 20 % |
+| Mop Heart | 39 % | 40 % | +1.1 | 47 % |
+| mean | 41.3 % | 48.4 % | +7.1 | 33.9 % |
+
+(First published: 39.0 % to 45.2 %, +6.2.) Held out, positive on five
+of six, as before.
+
+### Part B: the two filters
+
+As before. The sixteenth merge lifts Eat All the Clocks 35 % to 45 % and
+drops Letter Lands 72 % to 62 %, swallowing 3.4 % of its notes; the
+eighth merge swallows 2 % to 26 %; the floor at 0.6 lifts Downline 40 %
+to 61 % and costs the other songs 1 % to 7 % of their notes (best floor
+alone, +4.6 on the mean). Nothing but "no filter" stays within the 3 %
+loss bound on every song.
+
+### Post-hoc
+
+Under the selected configuration the extras fall from 405 to 261
+(re-triggers 198 to 105, other subdivision 101 to 64); the misses do not
+move (388 to 384). Bars right, pooled: 243 to 300 of 599. Of the 299
+not right, 42 fail on extras alone, 93 on misses alone, 16 on pitch
+alone, 25 on the subdivision, 123 on more than one. **Misses, not
+extras, are now the larger failure once the two onset-free passes are
+off.**
+
+### Predictions
+
+- P1 (re-triggers the largest class of extras on five of six): **right,
+  on five; the first run scored it wrong.**
+- P2a: wrong, absorbed is the largest class of misses on two songs.
+  P2b: right.
+- P3a: wrong, on none. P3b: right, on six.
+- P4: wrong, 7.1 points.
+- P5: wrong on both halves.
+- P6: wrong; 50 % of bars right on two songs (Letter Lands, Downline).
+
+Three of eight (first run: two).
+
+### Decisions
+
+Unchanged: **S49-D1 no setting recommended** (7.1 points against 10; no
+song loses; held-out gain on five of six); **S49-D2 no filter**;
+**S49-D3 the line is not shown** (36, 32, 76, 42, 63, 40 % of bars
+right).
+
+### The analyst's sentence, again
+
+Study 48's write-up called the extras "mostly re-triggers inside a
+sustained or decaying note, and ghost notes". This brief's first run
+called that wrong (re-triggers 30 %, "nothing sounding" 23 %) and
+corrected it on every surface. On the corrected truth re-triggers are
+49 % of the extras and the largest class on five songs of six, and the
+"nothing sounding" class was the truth's own missing notes. So the
+sentence was right about re-triggers and wrong about ghost notes, and
+the correction made yesterday was an artifact of the defect. Both are
+now stated as measured wherever either appears. What survives either
+way is S49-D2: knowing the extras are re-triggers does not make a merge
+rule safe, because by spacing alone a re-trigger and a real repeated
+note are the same thing.

@@ -145,6 +145,8 @@ entire.
 
 ## Results (2026-11-12, registration 6911bcc; $0; six songs, 72 cells)
 
+**Superseded 2026-11-13.** Every number in this section was computed against a truth that was missing 1 % to 18 % of each song's notes (docs/CORRECTION-2026-11-13-bass-truth.md). It is kept as first published; the re-run on the corrected truth is at the end of this brief and replaces it.
+
 The preflight passed: the tracker's grid under the per-bar rule gives
 back Study 49's bars for both note lists on every song.
 
@@ -262,3 +264,46 @@ that do not try to fix Basic Pitch's notes: trusting only some bars
   on in the text; the registered D2 condition is on bars right and
   fails either way.
 - No triplet part in the corpus (above).
+
+## Re-run on the corrected truth (2026-11-13; fix c844706; $0)
+
+The truth had lost back-to-back notes of one pitch
+(docs/CORRECTION-2026-11-13-bass-truth.md). Every script of this study
+was run again unchanged; the preflight passed against Study 49's re-run.
+Part A does not involve the notes' lengths and is as published, except
+that the truth's triplet bars under the per-bar rule on the composer's
+grid are now 0, 1, 2, 0, 13, 2 (18 of 597).
+
+### The line on each grid (the selected notes)
+
+| song | tracker, per bar | tracker, per song | composer, per song | wrong, composer |
+|---|---|---|---|---|
+| Peaceful Dreams | 36 % · F 0.767 | 36 % · 0.781 | 36 % of 112 · 0.784 | 35 % |
+| Interbellum | 32 % · 0.820 | 32 % · 0.820 | 25 % of 63 · 0.820 | 56 % |
+| Letter Lands | 76 % · 0.916 | 76 % · 0.936 | 78 % of 72 · 0.946 | 8 % |
+| Eat All the Clocks | 42 % · 0.789 | 42 % · 0.789 | 42 % of 66 · 0.779 | 39 % |
+| Downline | 63 % · 0.808 | 64 % · 0.855 | 60 % of 156 · 0.853 | 19 % |
+| Mop Heart | 40 % · 0.753 | 40 % · 0.767 | 48 % of 128 · 0.771 | 41 % |
+| mean bars right | 48.4 % | 48.5 % | 48.1 % | |
+
+The conclusions stand on higher numbers. The composer's grid changes
+the slot F by 0.01 or less on every song and mean bars right by −0.4
+points (per song −0.6, −6.5, +1.3, +0.2, −4.4, +7.7). The per-song rule
+removes every bar on different subdivisions (25 on the tracker's grid,
+27 on the composer's), raises the slot F on four songs on the tracker's
+grid and three on the composer's, lowers none, and moves bars right on
+one song by half a point. Splitting the tracker's double beats changes
+nothing on four songs and costs 2.2 points on Downline and 1.1 on Mop
+Heart. The app's notes: 41.3 %, 41.5 %, 40.7 %.
+
+### Predictions and decisions
+
+Outcomes unchanged: P1 right, P2 wrong, P3 wrong, P4 right (Mop Heart),
+P5 right (−0.5), P6 wrong (50 % of bars right on two songs). Three of
+six.
+
+**S50-D1: keep the per-bar rule** by the registered condition, with the
+same observation that the per-song rule never lowered a score.
+**S50-D2: no, the grid is not the bottleneck.** **S50-D3:** on the
+composer's grid Letter Lands now clears Study 48's bar (78 % right, 8 %
+wrong); no other song does.

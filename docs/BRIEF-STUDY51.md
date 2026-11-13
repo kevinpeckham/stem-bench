@@ -108,6 +108,8 @@ Kevin's call and the app's, not something this study measures.
 
 ## Results (2026-11-12, registration 95b4089; $0; six songs, 545 bars with notes)
 
+**Superseded 2026-11-13.** Every number in this section was computed against a truth that was missing 1 % to 18 % of each song's notes (docs/CORRECTION-2026-11-13-bass-truth.md). It is kept as first published; the re-run on the corrected truth is at the end of this brief and replaces it.
+
 The preflight passed. Pooled over the six songs:
 
 | rule | bars shown | shown bars right | one error | wrong | the part written right |
@@ -186,3 +188,42 @@ replacing Basic Pitch: a second reader good enough to agree with.
   coverage.
 - Rests are counted apart; with them, `pyin`'s trusted bars are 175, of
   which 122 are right.
+
+## Re-run on the corrected truth (2026-11-13; fix c844706; $0)
+
+The truth had lost back-to-back notes of one pitch
+(docs/CORRECTION-2026-11-13-bass-truth.md). The runner was run again
+unchanged; which bars each rule shows does not depend on the truth, only
+how they grade.
+
+| rule | bars shown | shown bars right | one error | wrong | the part written right |
+|---|---|---|---|---|---|
+| every bar | 545 of 545 | 47 % | 18 % | 35 % | 78 % |
+| `configs` | 430 (79 %) | 49 % | 18 % | 33 % | 67 % |
+| `loosened` | 355 (65 %) | 57 % | 19 % | 24 % | 48 % |
+| `pyin` | 140 (26 %) | 76 % | 11 % | 13 % | 17 % |
+| `all` | 90 (17 %) | 73 % | 13 % | 13 % | 11 % |
+
+(First published, shown bars right: 41, 43, 48, 64, 64 %.)
+
+Agreement with pYIN, by song:
+
+| song | shown | right | wrong | every bar: right · wrong |
+|---|---|---|---|---|
+| Peaceful Dreams | 33 of 109 (30 %) | 76 % | 0 % | 36 % · 39 % |
+| Interbellum | 13 of 64 (20 %) | 46 % | 54 % | 27 % · 53 % |
+| Letter Lands | 8 of 61 (13 %) | 100 % | 0 % | 74 % · 15 % |
+| Eat All the Clocks | 1 of 61 (2 %) | 100 % | 0 % | 36 % · 38 % |
+| Downline | 72 of 160 (45 %) | 81 % | 10 % | 62 % · 23 % |
+| Mop Heart | 13 of 90 (14 %) | 69 % | 31 % | 38 % · 50 % |
+
+The signal is stronger than first published: the bars pYIN confirms are
+right three times in four, and the rule now meets all three conditions
+on two songs (Peaceful Dreams, Downline) where it met them on one.
+Interbellum is unchanged: both readers miss the same notes there.
+
+**Predictions:** all five now hold; P2 (`all` at least 70 % right on
+five of six songs) was scored wrong on the first run and is right
+(Downline 71 %). **Decision (S51-D1): no rule is recommended**, as
+before: none meets the bar on every song, and coverage is still a
+quarter of the bars and a sixth of the part's notes.

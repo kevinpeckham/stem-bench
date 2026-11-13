@@ -158,3 +158,122 @@ reader hears repeated notes best, which the defective pass suggests is
 Also seen before this re-registration: the re-runs of Studies 48 to 51
 on the corrected truth (Basic Pitch's selected configuration now 36 %,
 32 %, 76 %, 42 %, 63 %, 40 % of bars right, mean 48.4 %).
+
+## Results (2026-11-13, re-registration d3561c5, on the corrected truth; $0; arm 1, `hfbass`)
+
+Both preflights passed. The constrained and the unconstrained line are
+the same on every song to within one bar, so one column is shown.
+
+### Notes
+
+| song | `hfbass` exact F | onset-only F | octave errors | Basic Pitch constrained, exact F (Study 48) | pYIN |
+|---|---|---|---|---|---|
+| Peaceful Dreams | 0.881 | 0.886 | 0 of 360 | 0.759 | 0.756 |
+| Interbellum | 0.825 | 0.832 | 0 of 349 | 0.768 | 0.753 |
+| Letter Lands | 0.909 | 0.969 | 0 of 290 | 0.892 | 0.604 |
+| Eat All the Clocks | 0.949 | 0.953 | 0 of 243 | 0.716 | 0.695 |
+| Downline | 0.935 | 0.937 | 0 of 388 | 0.801 | 0.790 |
+| Mop Heart | 0.991 | 0.991 | 0 of 332 | 0.854 | 0.865 |
+
+Not one octave error in 1,962 matched notes. It is the better reader on
+every song by the note.
+
+### The line
+
+| song | Basic Pitch (Study 49's best): right · wrong | `hfbass`: right · wrong | slot F, Basic Pitch → `hfbass` | extra onsets, Basic Pitch → `hfbass` |
+|---|---|---|---|---|
+| Peaceful Dreams | 36 · 38 % | 53 · 25 % | 0.767 → 0.862 | 40 → 9 |
+| Interbellum | 32 · 49 % | 39 · 54 % | 0.820 → 0.835 | 23 → 8 |
+| Letter Lands | 76 · 13 % | 51 · 9 % | 0.916 → 0.924 | 23 → 38 |
+| Eat All the Clocks | 42 · 35 % | **82 · 7 %** | 0.789 → 0.962 | 40 → 3 |
+| Downline | 63 · 20 % | **74 · 8 %** | 0.808 → 0.893 | 53 → 21 |
+| Mop Heart | 40 · 47 % | **87 · 9 %** | 0.753 → 0.958 | 82 → 11 |
+| mean bars right | 48.4 % | 64.3 % | | |
+
+Three songs clear Study 48's bar outright, which no pipeline had done
+on any song. `hfbass` adds almost no extra onsets; what it gets wrong
+is misses: it finds 75 % to 97 % of the truth's onsets, and Interbellum
+(75 %) and Peaceful Dreams (78 %) are where it falls short.
+
+**Letter Lands is a question about the truth, not yet an answer about
+the reader** (post-hoc, labelled; scripts/sensitivity-study52.ts). The
+corrected MIDI holds 20 notes on Letter Lands that are 4 ms long, an E
+on the fourth beat of the riff's bars, and 23 of 4 to 7 ms on
+Interbellum. Study 48's grader drops truth notes under 0.4 of a
+sixteenth as not meant, so they are not in the truth. `hfbass` writes a
+note in 19 of those 20 slots on Letter Lands (pYIN hears one there too;
+Basic Pitch hears the previous note still sounding), and each is
+counted as an extra. With those onsets forgiven, `hfbass` on Letter
+Lands is 79 % of bars right, not 51 %, and Basic Pitch is unchanged at
+76 %; Interbellum does not move. Whether a 4 ms note is a note is
+Kevin's to say; the registered result stands until he does.
+
+### Trusted bars (the `hfbass` line, shown when another reading agrees)
+
+| rule | bars shown | right | wrong | songs meeting all three conditions |
+|---|---|---|---|---|
+| every bar | 546 | 65 % | 17 % | 3 |
+| agrees with Basic Pitch | 287 (53 %) | 77 % | 12 % | 4 |
+| agrees with pYIN | 184 (34 %) | 77 % | 10 % | 2 |
+| either | 342 (63 %) | 75 % | 12 % | 4 |
+| both | 129 (24 %) | 81 % | 8 % | 2 |
+
+Agreement with Basic Pitch, by song: Peaceful Dreams 61 % shown, 60 %
+right, 17 % wrong; Interbellum 40 %, 48 %, 52 %; Letter Lands 36 %,
+95 %, 5 %; Eat All the Clocks 35 %, 95 %, 5 %; Downline 73 %, 80 %,
+6 %; Mop Heart 38 %, 94 %, 3 %. Four songs qualify. Peaceful Dreams
+misses on accuracy and Interbellum fails outright: where both readers
+drop the same short legato notes, agreement confirms the wrong bar.
+
+### Predictions
+
+- P1 (more bars right than Basic Pitch on five of six): right, five.
+- P2 (mean bars right at least 60 %): right, 64.3 %.
+- P3 (clears Study 48's bar on at most three songs): right, exactly
+  three.
+- P4 (octave errors at most 3 % everywhere): right, none at all.
+- P5 (agreement with Basic Pitch shows a quarter of the bars on five
+  songs and they are 80 % right pooled): **wrong**; six songs, 77 %.
+- P6 (no agreement rule meets Study 51's bar on every song): right.
+
+Five of six. (On the defective truth P2 would have failed.)
+
+### Decisions
+
+- **S52-D1, the line: no.** 70 % right and at most 10 % wrong on three
+  songs of six (Eat All the Clocks, Downline, Mop Heart), not on every
+  song.
+- **S52-D2, a better first reader: no, by the registered rule.** The
+  mean gain is 15.9 points against the 10 required, but Letter Lands
+  loses 25 where the rule allows 2. The loss is the 4 ms notes above;
+  with them forgiven no song loses. That is a sensitivity, not the
+  result.
+- **S52-D3, trusted bars: no rule.** Agreement with Basic Pitch
+  qualifies on four songs of six.
+
+### What the study changes
+
+This is the first reader that moves the line: half again as many bars
+right as Basic Pitch on four songs, double on two, no octave errors, a
+tenth of the extra onsets. It is not yet a line to show on every song,
+and by the rules written before the run it is not recommended. What
+stands between it and those rules is small and specific: one question
+about the truth on Letter Lands, and one song, Interbellum, whose short
+legato notes no reader here separates.
+
+The study also found that the truth every bass study had used was
+missing notes, and five studies were re-run because of it.
+
+### Disclosures
+
+- $0. Registered at 2f6e186; the first pass ran on a defective truth
+  and is disclosed above; re-registered at d3561c5; the pass on the
+  corrected truth ran once.
+- Arm 2 (MuScriptor) has not run: its weights need a Hugging Face login
+  and a licence acceptance that are Kevin's. M1 to M3 stand as written.
+- The checkpoint is by its name trained on jazz double bass; these are
+  sampled electric bass. The model card says MIT; the app's use of it
+  would need its own look at the licence and at how the checkpoint is
+  loaded (a pickle; this study loaded it through the safe unpickler).
+- The sensitivity analysis and the look at Letter Lands' bars were made
+  after the scored pass.

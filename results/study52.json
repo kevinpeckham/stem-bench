@@ -1,0 +1,727 @@
+{
+	"registered": "docs/BRIEF-STUDY52.md",
+	"spend": 0,
+	"basicPitch": "o50-f30-n11-i0-m0",
+	"bounds": {
+		"helps": {
+			"right": 0.7,
+			"wrong": 0.1
+		},
+		"d2": {
+			"gain": 0.1,
+			"worst": -0.02
+		},
+		"trust": {
+			"right": 0.7,
+			"wrong": 0.1,
+			"coverage": 0.25
+		}
+	},
+	"readers": {
+		"hfbass": {
+			"lines": {
+				"peaceful-dreams": {
+					"bp": {
+						"bars": 110,
+						"right": 40,
+						"oneError": 28,
+						"wrong": 42,
+						"truthOnsets": 454,
+						"estOnsets": 406,
+						"found": 366,
+						"matched": 330,
+						"extra": 40,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.7674418604651162
+					},
+					"hfbass": {
+						"bars": 110,
+						"right": 58,
+						"oneError": 25,
+						"wrong": 27,
+						"truthOnsets": 454,
+						"estOnsets": 363,
+						"found": 354,
+						"matched": 352,
+						"extra": 9,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.8616891064871481
+					},
+					"hfbass-bass": {
+						"bars": 110,
+						"right": 58,
+						"oneError": 25,
+						"wrong": 27,
+						"truthOnsets": 454,
+						"estOnsets": 363,
+						"found": 354,
+						"matched": 352,
+						"extra": 9,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.8616891064871481
+					}
+				},
+				"interbellum": {
+					"bp": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 13,
+						"wrong": 34,
+						"truthOnsets": 460,
+						"estOnsets": 369,
+						"found": 346,
+						"matched": 340,
+						"extra": 23,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8202653799758746
+					},
+					"hfbass": {
+						"bars": 69,
+						"right": 27,
+						"oneError": 5,
+						"wrong": 37,
+						"truthOnsets": 460,
+						"estOnsets": 354,
+						"found": 346,
+						"matched": 340,
+						"extra": 8,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8353808353808354
+					},
+					"hfbass-bass": {
+						"bars": 69,
+						"right": 27,
+						"oneError": 5,
+						"wrong": 37,
+						"truthOnsets": 460,
+						"estOnsets": 354,
+						"found": 346,
+						"matched": 340,
+						"extra": 8,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8353808353808354
+					}
+				},
+				"letter-lands": {
+					"bp": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 7,
+						"wrong": 9,
+						"truthOnsets": 294,
+						"estOnsets": 302,
+						"found": 279,
+						"matched": 273,
+						"extra": 23,
+						"gridDiffers": 2,
+						"truthTriplet": 0,
+						"estTriplet": 2,
+						"slotF": 0.9161073825503356
+					},
+					"hfbass": {
+						"bars": 68,
+						"right": 35,
+						"oneError": 27,
+						"wrong": 6,
+						"truthOnsets": 294,
+						"estOnsets": 323,
+						"found": 285,
+						"matched": 285,
+						"extra": 38,
+						"gridDiffers": 1,
+						"truthTriplet": 0,
+						"estTriplet": 1,
+						"slotF": 0.9238249594813615
+					},
+					"hfbass-bass": {
+						"bars": 68,
+						"right": 35,
+						"oneError": 27,
+						"wrong": 6,
+						"truthOnsets": 294,
+						"estOnsets": 323,
+						"found": 285,
+						"matched": 285,
+						"extra": 38,
+						"gridDiffers": 1,
+						"truthTriplet": 0,
+						"estTriplet": 1,
+						"slotF": 0.9238249594813615
+					}
+				},
+				"eat-all-the-clocks": {
+					"bp": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 16,
+						"wrong": 25,
+						"truthOnsets": 258,
+						"estOnsets": 269,
+						"found": 229,
+						"matched": 208,
+						"extra": 40,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7893738140417459
+					},
+					"hfbass": {
+						"bars": 71,
+						"right": 58,
+						"oneError": 8,
+						"wrong": 5,
+						"truthOnsets": 258,
+						"estOnsets": 247,
+						"found": 244,
+						"matched": 243,
+						"extra": 3,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.9623762376237623
+					},
+					"hfbass-bass": {
+						"bars": 71,
+						"right": 58,
+						"oneError": 8,
+						"wrong": 5,
+						"truthOnsets": 258,
+						"estOnsets": 247,
+						"found": 244,
+						"matched": 243,
+						"extra": 3,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.9623762376237623
+					}
+				},
+				"downline": {
+					"bp": {
+						"bars": 186,
+						"right": 118,
+						"oneError": 31,
+						"wrong": 37,
+						"truthOnsets": 435,
+						"estOnsets": 397,
+						"found": 344,
+						"matched": 336,
+						"extra": 53,
+						"gridDiffers": 14,
+						"truthTriplet": 11,
+						"estTriplet": 5,
+						"slotF": 0.8076923076923076
+					},
+					"hfbass": {
+						"bars": 186,
+						"right": 137,
+						"oneError": 35,
+						"wrong": 14,
+						"truthOnsets": 435,
+						"estOnsets": 392,
+						"found": 371,
+						"matched": 370,
+						"extra": 21,
+						"gridDiffers": 10,
+						"truthTriplet": 11,
+						"estTriplet": 1,
+						"slotF": 0.8948004836759371
+					},
+					"hfbass-bass": {
+						"bars": 186,
+						"right": 137,
+						"oneError": 34,
+						"wrong": 15,
+						"truthOnsets": 435,
+						"estOnsets": 391,
+						"found": 370,
+						"matched": 369,
+						"extra": 21,
+						"gridDiffers": 10,
+						"truthTriplet": 11,
+						"estTriplet": 1,
+						"slotF": 0.8934624697336562
+					}
+				},
+				"mop-heart": {
+					"bp": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 12,
+						"wrong": 45,
+						"truthOnsets": 337,
+						"estOnsets": 372,
+						"found": 290,
+						"matched": 267,
+						"extra": 82,
+						"gridDiffers": 6,
+						"truthTriplet": 2,
+						"estTriplet": 4,
+						"slotF": 0.7531734837799718
+					},
+					"hfbass": {
+						"bars": 95,
+						"right": 83,
+						"oneError": 3,
+						"wrong": 9,
+						"truthOnsets": 337,
+						"estOnsets": 331,
+						"found": 320,
+						"matched": 320,
+						"extra": 11,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.9580838323353293
+					},
+					"hfbass-bass": {
+						"bars": 95,
+						"right": 83,
+						"oneError": 3,
+						"wrong": 9,
+						"truthOnsets": 337,
+						"estOnsets": 331,
+						"found": 320,
+						"matched": 320,
+						"extra": 11,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.9580838323353293
+					}
+				}
+			},
+			"trust": {
+				"peaceful-dreams": {
+					"everyBar": {
+						"bars": 104,
+						"shown": 104,
+						"right": 57,
+						"oneError": 25,
+						"wrong": 22,
+						"rests": 6,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 352
+					},
+					"bp": {
+						"bars": 104,
+						"shown": 63,
+						"right": 38,
+						"oneError": 14,
+						"wrong": 11,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 213
+					},
+					"pyin": {
+						"bars": 104,
+						"shown": 49,
+						"right": 35,
+						"oneError": 13,
+						"wrong": 1,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 164
+					},
+					"either": {
+						"bars": 104,
+						"shown": 80,
+						"right": 49,
+						"oneError": 19,
+						"wrong": 12,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 271
+					},
+					"both": {
+						"bars": 104,
+						"shown": 32,
+						"right": 24,
+						"oneError": 8,
+						"wrong": 0,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 106
+					}
+				},
+				"interbellum": {
+					"everyBar": {
+						"bars": 63,
+						"shown": 63,
+						"right": 21,
+						"oneError": 5,
+						"wrong": 37,
+						"rests": 6,
+						"restsRight": 6,
+						"truthOnsets": 460,
+						"notesShownRight": 340
+					},
+					"bp": {
+						"bars": 63,
+						"shown": 25,
+						"right": 12,
+						"oneError": 0,
+						"wrong": 13,
+						"rests": 5,
+						"restsRight": 5,
+						"truthOnsets": 460,
+						"notesShownRight": 126
+					},
+					"pyin": {
+						"bars": 63,
+						"shown": 18,
+						"right": 7,
+						"oneError": 0,
+						"wrong": 11,
+						"rests": 2,
+						"restsRight": 2,
+						"truthOnsets": 460,
+						"notesShownRight": 92
+					},
+					"either": {
+						"bars": 63,
+						"shown": 30,
+						"right": 13,
+						"oneError": 0,
+						"wrong": 17,
+						"rests": 6,
+						"restsRight": 6,
+						"truthOnsets": 460,
+						"notesShownRight": 155
+					},
+					"both": {
+						"bars": 63,
+						"shown": 13,
+						"right": 6,
+						"oneError": 0,
+						"wrong": 7,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 460,
+						"notesShownRight": 63
+					}
+				},
+				"letter-lands": {
+					"everyBar": {
+						"bars": 61,
+						"shown": 61,
+						"right": 28,
+						"oneError": 27,
+						"wrong": 6,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 285
+					},
+					"bp": {
+						"bars": 61,
+						"shown": 22,
+						"right": 21,
+						"oneError": 0,
+						"wrong": 1,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 101
+					},
+					"pyin": {
+						"bars": 61,
+						"shown": 10,
+						"right": 7,
+						"oneError": 2,
+						"wrong": 1,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 294,
+						"notesShownRight": 52
+					},
+					"either": {
+						"bars": 61,
+						"shown": 26,
+						"right": 22,
+						"oneError": 2,
+						"wrong": 2,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 124
+					},
+					"both": {
+						"bars": 61,
+						"shown": 6,
+						"right": 6,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 294,
+						"notesShownRight": 29
+					}
+				},
+				"eat-all-the-clocks": {
+					"everyBar": {
+						"bars": 62,
+						"shown": 62,
+						"right": 50,
+						"oneError": 8,
+						"wrong": 4,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 243
+					},
+					"bp": {
+						"bars": 62,
+						"shown": 22,
+						"right": 21,
+						"oneError": 0,
+						"wrong": 1,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 90
+					},
+					"pyin": {
+						"bars": 62,
+						"shown": 9,
+						"right": 8,
+						"oneError": 1,
+						"wrong": 0,
+						"rests": 6,
+						"restsRight": 6,
+						"truthOnsets": 258,
+						"notesShownRight": 37
+					},
+					"either": {
+						"bars": 62,
+						"shown": 30,
+						"right": 28,
+						"oneError": 1,
+						"wrong": 1,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 123
+					},
+					"both": {
+						"bars": 62,
+						"shown": 1,
+						"right": 1,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 6,
+						"restsRight": 6,
+						"truthOnsets": 258,
+						"notesShownRight": 4
+					}
+				},
+				"downline": {
+					"everyBar": {
+						"bars": 165,
+						"shown": 165,
+						"right": 118,
+						"oneError": 32,
+						"wrong": 15,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 369
+					},
+					"bp": {
+						"bars": 165,
+						"shown": 120,
+						"right": 96,
+						"oneError": 17,
+						"wrong": 7,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 279
+					},
+					"pyin": {
+						"bars": 165,
+						"shown": 81,
+						"right": 68,
+						"oneError": 9,
+						"wrong": 4,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 148
+					},
+					"either": {
+						"bars": 165,
+						"shown": 133,
+						"right": 106,
+						"oneError": 19,
+						"wrong": 8,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 298
+					},
+					"both": {
+						"bars": 165,
+						"shown": 68,
+						"right": 58,
+						"oneError": 7,
+						"wrong": 3,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 129
+					}
+				},
+				"mop-heart": {
+					"everyBar": {
+						"bars": 91,
+						"shown": 91,
+						"right": 79,
+						"oneError": 3,
+						"wrong": 9,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 320
+					},
+					"bp": {
+						"bars": 91,
+						"shown": 35,
+						"right": 33,
+						"oneError": 1,
+						"wrong": 1,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 123
+					},
+					"pyin": {
+						"bars": 91,
+						"shown": 17,
+						"right": 16,
+						"oneError": 0,
+						"wrong": 1,
+						"rests": 3,
+						"restsRight": 3,
+						"truthOnsets": 337,
+						"notesShownRight": 45
+					},
+					"either": {
+						"bars": 91,
+						"shown": 43,
+						"right": 40,
+						"oneError": 1,
+						"wrong": 2,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 140
+					},
+					"both": {
+						"bars": 91,
+						"shown": 9,
+						"right": 9,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 3,
+						"restsRight": 3,
+						"truthOnsets": 337,
+						"notesShownRight": 28
+					}
+				}
+			},
+			"pooled": {
+				"everyBar": {
+					"bars": 546,
+					"shown": 546,
+					"right": 353,
+					"oneError": 100,
+					"wrong": 93,
+					"rests": 53,
+					"restsRight": 45,
+					"truthOnsets": 2238,
+					"notesShownRight": 1909
+				},
+				"bp": {
+					"bars": 546,
+					"shown": 287,
+					"right": 221,
+					"oneError": 32,
+					"wrong": 34,
+					"rests": 47,
+					"restsRight": 44,
+					"truthOnsets": 2238,
+					"notesShownRight": 932
+				},
+				"pyin": {
+					"bars": 546,
+					"shown": 184,
+					"right": 141,
+					"oneError": 25,
+					"wrong": 18,
+					"rests": 37,
+					"restsRight": 35,
+					"truthOnsets": 2238,
+					"notesShownRight": 538
+				},
+				"either": {
+					"bars": 546,
+					"shown": 342,
+					"right": 258,
+					"oneError": 42,
+					"wrong": 42,
+					"rests": 48,
+					"restsRight": 45,
+					"truthOnsets": 2238,
+					"notesShownRight": 1111
+				},
+				"both": {
+					"bars": 546,
+					"shown": 129,
+					"right": 104,
+					"oneError": 15,
+					"wrong": 10,
+					"rests": 36,
+					"restsRight": 34,
+					"truthOnsets": 2238,
+					"notesShownRight": 359
+				}
+			},
+			"gain": {
+				"peaceful-dreams": 0.16363636363636358,
+				"interbellum": 0.07246376811594207,
+				"letter-lands": -0.25,
+				"eat-all-the-clocks": 0.3943661971830986,
+				"downline": 0.10215053763440862,
+				"mop-heart": 0.4736842105263158
+			},
+			"decisions": {
+				"d1": false,
+				"clears": [
+					"eat-all-the-clocks",
+					"downline",
+					"mop-heart"
+				],
+				"d2": false,
+				"d3": null
+			}
+		}
+	}
+}
