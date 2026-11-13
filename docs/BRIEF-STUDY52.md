@@ -290,3 +290,49 @@ missing notes, and five studies were re-run because of it.
   loaded (a pickle; this study loaded it through the safe unpickler).
 - The sensitivity analysis and the look at Letter Lands' bars were made
   after the scored pass.
+
+## Amendment: arm 2, MuScriptor (2026-11-13, registered before its notes were scored)
+
+Kevin accepted the model's licence and logged this machine in to
+Hugging Face. What the first registration left open is fixed here;
+nothing else in this brief changes.
+
+- **Model.** MuScriptor 0.4.0 (github.com/muscriptor/muscriptor, commit
+  8a1ef88; code MIT), the `medium` weights (hf MuScriptor/muscriptor-medium;
+  CC BY-NC 4.0, so not shippable commercially), on the CPU in float32,
+  in its own environment `.venv-study52m` (torch 2.15.0, torchaudio
+  2.11.1). The weights are safetensors; no pickle is loaded.
+- **Settings.** As shipped: greedy decoding, prelude forcing on, no
+  sampling. One choice: the instrument constraint
+  `instruments=["electric_bass"]`, which the package offers for when the
+  instrument is known, as it is for a bass stem.
+- **Notes.** The model's own event stream (`TranscriptionModel.transcribe`),
+  each note start paired with its end, in seconds of the stem
+  (scripts/study52-muscriptor.py). Graded as written (`muscriptor`) and
+  under the bass constraint (`muscriptor-bass`, primary), like arm 1.
+- **Not scored: the command line's MIDI.** The script also wrote the MIDI
+  the package's CLI produces by default (its own beat grid, its measured
+  onset lag removed). Without truth: only 1 to 86 of its 243 to 393
+  notes per song fall within 80 ms of `hfbass`'s note of the same pitch,
+  against 237 to 388 for the event stream, so that MIDI is on the
+  package's own bar-aligned timeline, not the stem's. Putting it back on
+  the stem's clock would be the bench's work, not the model's, so it is
+  left out.
+- **One more agreement rule**, for M3: the bars of the `muscriptor-bass`
+  line shown when arm 1's `hfbass-bass` line is the same (`hfbass`),
+  beside the four rules above (`trusts52b`, src/study52/second.ts, with
+  a test). Arm 1's results are untouched by the change and reproduce.
+
+**Seen before this amendment, without truth.** Note counts 393, 390,
+287, 243, 393, 335 (the corrected truth holds 454, 491, 315, 264, 438,
+338; `hfbass` wrote 363, 360, 324, 249, 394, 332). Its pitches equal
+pYIN's at shared onsets on 217 to 373 notes a song, so it reports
+sounding pitch. Its onsets sit 5 to 10 ms after `hfbass`'s and within
+4 ms of Basic Pitch's, median, so no lag correction is applied. It is
+monophonic but for six overlaps on one song. It took about four times
+the audio's length on this CPU, against a third for `hfbass`. **And all
+of arm 1's results on the corrected truth are known**, which M1 to M3
+were written before.
+
+Predictions M1 to M3 and decision rules S52-D1 to D3 apply as written,
+the decisions per reader.

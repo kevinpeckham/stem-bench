@@ -15,3 +15,11 @@ export function trusts52(shown: BarLine, bp: BarLine, pyin: BarLine): Record<Rul
 	const p = sameLine(shown, pyin);
 	return { everyBar: true, bp: b, pyin: p, either: b || p, both: b && p };
 }
+
+/** Arm 2 (the amendment of 2026-11-13): the rules above, and one more when the first arm's reader is there to agree with. */
+export const RULES52B = [...RULES52, "hfbass"] as const;
+export type Rule52B = (typeof RULES52B)[number];
+
+export function trusts52b(shown: BarLine, bp: BarLine, pyin: BarLine, hfbass: BarLine): Record<Rule52B, boolean> {
+	return { ...trusts52(shown, bp, pyin), hfbass: sameLine(shown, hfbass) };
+}
