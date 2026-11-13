@@ -7,46 +7,46 @@
 	"songs": {
 		"peaceful-dreams": {
 			"bp": {
-				"truthNotes": 407,
-				"truthDroppedZeroLength": 22,
+				"truthNotes": 454,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 694,
 				"exact": {
-					"precision": 0.4539,
-					"recall": 0.774,
-					"f": 0.5722
+					"precision": 0.4971,
+					"recall": 0.7599,
+					"f": 0.601
 				},
 				"pitchClass": {
-					"precision": 0.4928,
-					"recall": 0.8403,
-					"f": 0.6213
+					"precision": 0.5389,
+					"recall": 0.8238,
+					"f": 0.6516
 				},
 				"onsetOnly": {
-					"precision": 0.4986,
-					"recall": 0.8501,
-					"f": 0.6285
+					"precision": 0.5447,
+					"recall": 0.8326,
+					"f": 0.6585
 				},
 				"octave": {
-					"matchedOnClass": 342,
-					"wrong": 126,
-					"rate": 0.3684,
-					"up": 126,
+					"matchedOnClass": 374,
+					"wrong": 138,
+					"rate": 0.369,
+					"up": 138,
 					"down": 0
 				},
 				"byRegister": {
 					"E1-A1": {
-						"truthNotes": 111,
-						"matchedClass": 107,
-						"octaveWrong": 54
+						"truthNotes": 123,
+						"matchedClass": 114,
+						"octaveWrong": 58
 					},
 					"Bb1-E2": {
-						"truthNotes": 165,
-						"matchedClass": 145,
-						"octaveWrong": 49
+						"truthNotes": 187,
+						"matchedClass": 162,
+						"octaveWrong": 54
 					},
 					"F2-B2": {
-						"truthNotes": 89,
-						"matchedClass": 74,
-						"octaveWrong": 23
+						"truthNotes": 99,
+						"matchedClass": 82,
+						"octaveWrong": 26
 					},
 					"C3+": {
 						"truthNotes": 16,
@@ -56,45 +56,45 @@
 				}
 			},
 			"bp-bass": {
-				"truthNotes": 407,
-				"truthDroppedZeroLength": 22,
+				"truthNotes": 454,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 445,
 				"exact": {
-					"precision": 0.6989,
-					"recall": 0.7641,
-					"f": 0.73
+					"precision": 0.7663,
+					"recall": 0.7511,
+					"f": 0.7586
 				},
 				"pitchClass": {
-					"precision": 0.7663,
-					"recall": 0.8378,
-					"f": 0.8005
+					"precision": 0.8382,
+					"recall": 0.8216,
+					"f": 0.8298
 				},
 				"onsetOnly": {
-					"precision": 0.7753,
-					"recall": 0.8477,
-					"f": 0.8099
+					"precision": 0.8472,
+					"recall": 0.8304,
+					"f": 0.8387
 				},
 				"octave": {
-					"matchedOnClass": 341,
-					"wrong": 51,
-					"rate": 0.1496,
-					"up": 47,
+					"matchedOnClass": 373,
+					"wrong": 54,
+					"rate": 0.1448,
+					"up": 50,
 					"down": 4
 				},
 				"byRegister": {
 					"E1-A1": {
-						"truthNotes": 111,
-						"matchedClass": 106,
-						"octaveWrong": 33
+						"truthNotes": 123,
+						"matchedClass": 113,
+						"octaveWrong": 35
 					},
 					"Bb1-E2": {
-						"truthNotes": 165,
-						"matchedClass": 145,
-						"octaveWrong": 14
+						"truthNotes": 187,
+						"matchedClass": 162,
+						"octaveWrong": 15
 					},
 					"F2-B2": {
-						"truthNotes": 89,
-						"matchedClass": 74,
+						"truthNotes": 99,
+						"matchedClass": 82,
 						"octaveWrong": 0
 					},
 					"C3+": {
@@ -105,45 +105,45 @@
 				}
 			},
 			"pyin": {
-				"truthNotes": 407,
-				"truthDroppedZeroLength": 22,
+				"truthNotes": 454,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 454,
 				"exact": {
-					"precision": 0.6806,
-					"recall": 0.7592,
-					"f": 0.7178
+					"precision": 0.7555,
+					"recall": 0.7555,
+					"f": 0.7555
 				},
 				"pitchClass": {
-					"precision": 0.6828,
-					"recall": 0.7617,
-					"f": 0.7201
+					"precision": 0.7577,
+					"recall": 0.7577,
+					"f": 0.7577
 				},
 				"onsetOnly": {
-					"precision": 0.6938,
-					"recall": 0.774,
-					"f": 0.7317
+					"precision": 0.7687,
+					"recall": 0.7687,
+					"f": 0.7687
 				},
 				"octave": {
-					"matchedOnClass": 310,
+					"matchedOnClass": 344,
 					"wrong": 1,
-					"rate": 0.0032,
+					"rate": 0.0029,
 					"up": 1,
 					"down": 0
 				},
 				"byRegister": {
 					"E1-A1": {
-						"truthNotes": 111,
-						"matchedClass": 95,
+						"truthNotes": 123,
+						"matchedClass": 105,
 						"octaveWrong": 1
 					},
 					"Bb1-E2": {
-						"truthNotes": 165,
-						"matchedClass": 134,
+						"truthNotes": 187,
+						"matchedClass": 152,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
-						"truthNotes": 89,
-						"matchedClass": 69,
+						"truthNotes": 99,
+						"matchedClass": 75,
 						"octaveWrong": 0
 					},
 					"C3+": {
@@ -156,29 +156,29 @@
 		},
 		"interbellum": {
 			"bp": {
-				"truthNotes": 419,
-				"truthDroppedZeroLength": 37,
+				"truthNotes": 490,
+				"truthDroppedZeroLength": 1,
 				"estNotes": 531,
 				"exact": {
-					"precision": 0.5876,
-					"recall": 0.7446,
-					"f": 0.6568
+					"precision": 0.6554,
+					"recall": 0.7102,
+					"f": 0.6817
 				},
 				"pitchClass": {
-					"precision": 0.5989,
-					"recall": 0.7589,
-					"f": 0.6695
+					"precision": 0.6667,
+					"recall": 0.7224,
+					"f": 0.6934
 				},
 				"onsetOnly": {
-					"precision": 0.5989,
-					"recall": 0.7589,
-					"f": 0.6695
+					"precision": 0.6667,
+					"recall": 0.7224,
+					"f": 0.6934
 				},
 				"octave": {
-					"matchedOnClass": 318,
-					"wrong": 108,
-					"rate": 0.3396,
-					"up": 108,
+					"matchedOnClass": 354,
+					"wrong": 120,
+					"rate": 0.339,
+					"up": 120,
 					"down": 0
 				},
 				"byRegister": {
@@ -188,45 +188,45 @@
 						"octaveWrong": 16
 					},
 					"Bb1-E2": {
-						"truthNotes": 146,
-						"matchedClass": 122,
-						"octaveWrong": 64
+						"truthNotes": 160,
+						"matchedClass": 130,
+						"octaveWrong": 67
 					},
 					"F2-B2": {
-						"truthNotes": 129,
-						"matchedClass": 87,
-						"octaveWrong": 25
+						"truthNotes": 166,
+						"matchedClass": 105,
+						"octaveWrong": 32
 					},
 					"C3+": {
-						"truthNotes": 68,
-						"matchedClass": 45,
-						"octaveWrong": 3
+						"truthNotes": 88,
+						"matchedClass": 55,
+						"octaveWrong": 5
 					}
 				}
 			},
 			"bp-bass": {
-				"truthNotes": 419,
-				"truthDroppedZeroLength": 37,
+				"truthNotes": 490,
+				"truthDroppedZeroLength": 1,
 				"estNotes": 403,
 				"exact": {
-					"precision": 0.7618,
-					"recall": 0.7327,
-					"f": 0.747
+					"precision": 0.8511,
+					"recall": 0.7,
+					"f": 0.7682
 				},
 				"pitchClass": {
-					"precision": 0.7767,
-					"recall": 0.747,
-					"f": 0.7616
+					"precision": 0.866,
+					"recall": 0.7122,
+					"f": 0.7816
 				},
 				"onsetOnly": {
-					"precision": 0.7767,
-					"recall": 0.747,
-					"f": 0.7616
+					"precision": 0.866,
+					"recall": 0.7122,
+					"f": 0.7816
 				},
 				"octave": {
-					"matchedOnClass": 313,
+					"matchedOnClass": 349,
 					"wrong": 17,
-					"rate": 0.0543,
+					"rate": 0.0487,
 					"up": 15,
 					"down": 2
 				},
@@ -237,47 +237,47 @@
 						"octaveWrong": 11
 					},
 					"Bb1-E2": {
-						"truthNotes": 146,
-						"matchedClass": 122,
+						"truthNotes": 160,
+						"matchedClass": 130,
 						"octaveWrong": 1
 					},
 					"F2-B2": {
-						"truthNotes": 129,
-						"matchedClass": 86,
+						"truthNotes": 166,
+						"matchedClass": 104,
 						"octaveWrong": 4
 					},
 					"C3+": {
-						"truthNotes": 68,
-						"matchedClass": 41,
+						"truthNotes": 88,
+						"matchedClass": 51,
 						"octaveWrong": 1
 					}
 				}
 			},
 			"pyin": {
-				"truthNotes": 419,
-				"truthDroppedZeroLength": 37,
+				"truthNotes": 490,
+				"truthDroppedZeroLength": 1,
 				"estNotes": 418,
 				"exact": {
-					"precision": 0.7321,
-					"recall": 0.7303,
-					"f": 0.7312
+					"precision": 0.8182,
+					"recall": 0.698,
+					"f": 0.7533
 				},
 				"pitchClass": {
-					"precision": 0.7488,
-					"recall": 0.747,
-					"f": 0.7479
+					"precision": 0.8373,
+					"recall": 0.7143,
+					"f": 0.7709
 				},
 				"onsetOnly": {
-					"precision": 0.7727,
-					"recall": 0.7709,
-					"f": 0.7718
+					"precision": 0.8612,
+					"recall": 0.7347,
+					"f": 0.793
 				},
 				"octave": {
-					"matchedOnClass": 313,
-					"wrong": 7,
-					"rate": 0.0224,
+					"matchedOnClass": 350,
+					"wrong": 8,
+					"rate": 0.0229,
 					"up": 0,
-					"down": 7
+					"down": 8
 				},
 				"byRegister": {
 					"E1-A1": {
@@ -286,18 +286,18 @@
 						"octaveWrong": 0
 					},
 					"Bb1-E2": {
-						"truthNotes": 146,
-						"matchedClass": 124,
+						"truthNotes": 160,
+						"matchedClass": 133,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
-						"truthNotes": 129,
-						"matchedClass": 82,
-						"octaveWrong": 2
+						"truthNotes": 166,
+						"matchedClass": 100,
+						"octaveWrong": 3
 					},
 					"C3+": {
-						"truthNotes": 68,
-						"matchedClass": 38,
+						"truthNotes": 88,
+						"matchedClass": 48,
 						"octaveWrong": 5
 					}
 				}
@@ -305,29 +305,29 @@
 		},
 		"letter-lands": {
 			"bp": {
-				"truthNotes": 290,
-				"truthDroppedZeroLength": 15,
+				"truthNotes": 315,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 468,
 				"exact": {
-					"precision": 0.5556,
-					"recall": 0.8966,
-					"f": 0.686
+					"precision": 0.6068,
+					"recall": 0.9016,
+					"f": 0.7254
 				},
 				"pitchClass": {
-					"precision": 0.562,
-					"recall": 0.9069,
-					"f": 0.6939
+					"precision": 0.6132,
+					"recall": 0.9111,
+					"f": 0.7331
 				},
 				"onsetOnly": {
-					"precision": 0.562,
-					"recall": 0.9069,
-					"f": 0.6939
+					"precision": 0.6132,
+					"recall": 0.9111,
+					"f": 0.7331
 				},
 				"octave": {
-					"matchedOnClass": 263,
-					"wrong": 97,
-					"rate": 0.3688,
-					"up": 97,
+					"matchedOnClass": 287,
+					"wrong": 100,
+					"rate": 0.3484,
+					"up": 100,
 					"down": 0
 				},
 				"byRegister": {
@@ -337,13 +337,13 @@
 						"octaveWrong": 4
 					},
 					"Bb1-E2": {
-						"truthNotes": 86,
-						"matchedClass": 65,
-						"octaveWrong": 27
+						"truthNotes": 106,
+						"matchedClass": 84,
+						"octaveWrong": 30
 					},
 					"F2-B2": {
-						"truthNotes": 178,
-						"matchedClass": 173,
+						"truthNotes": 183,
+						"matchedClass": 178,
 						"octaveWrong": 66
 					},
 					"C3+": {
@@ -354,29 +354,29 @@
 				}
 			},
 			"bp-bass": {
-				"truthNotes": 290,
-				"truthDroppedZeroLength": 15,
+				"truthNotes": 315,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 322,
 				"exact": {
-					"precision": 0.8075,
-					"recall": 0.8966,
-					"f": 0.8497
+					"precision": 0.882,
+					"recall": 0.9016,
+					"f": 0.8917
 				},
 				"pitchClass": {
-					"precision": 0.8137,
-					"recall": 0.9034,
-					"f": 0.8562
+					"precision": 0.8882,
+					"recall": 0.9079,
+					"f": 0.898
 				},
 				"onsetOnly": {
-					"precision": 0.8137,
-					"recall": 0.9034,
-					"f": 0.8562
+					"precision": 0.8882,
+					"recall": 0.9079,
+					"f": 0.898
 				},
 				"octave": {
-					"matchedOnClass": 262,
-					"wrong": 11,
-					"rate": 0.042,
-					"up": 11,
+					"matchedOnClass": 286,
+					"wrong": 13,
+					"rate": 0.0455,
+					"up": 13,
 					"down": 0
 				},
 				"byRegister": {
@@ -386,14 +386,14 @@
 						"octaveWrong": 4
 					},
 					"Bb1-E2": {
-						"truthNotes": 86,
-						"matchedClass": 65,
-						"octaveWrong": 4
+						"truthNotes": 106,
+						"matchedClass": 84,
+						"octaveWrong": 5
 					},
 					"F2-B2": {
-						"truthNotes": 178,
-						"matchedClass": 173,
-						"octaveWrong": 3
+						"truthNotes": 183,
+						"matchedClass": 178,
+						"octaveWrong": 4
 					},
 					"C3+": {
 						"truthNotes": 16,
@@ -403,26 +403,26 @@
 				}
 			},
 			"pyin": {
-				"truthNotes": 290,
-				"truthDroppedZeroLength": 15,
+				"truthNotes": 315,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 361,
 				"exact": {
-					"precision": 0.5291,
-					"recall": 0.6586,
-					"f": 0.5868
+					"precision": 0.5651,
+					"recall": 0.6476,
+					"f": 0.6036
 				},
 				"pitchClass": {
-					"precision": 0.5291,
-					"recall": 0.6586,
-					"f": 0.5868
+					"precision": 0.5651,
+					"recall": 0.6476,
+					"f": 0.6036
 				},
 				"onsetOnly": {
-					"precision": 0.5402,
-					"recall": 0.6724,
-					"f": 0.5991
+					"precision": 0.5762,
+					"recall": 0.6603,
+					"f": 0.6154
 				},
 				"octave": {
-					"matchedOnClass": 191,
+					"matchedOnClass": 204,
 					"wrong": 0,
 					"rate": 0.0,
 					"up": 0,
@@ -435,13 +435,13 @@
 						"octaveWrong": 0
 					},
 					"Bb1-E2": {
-						"truthNotes": 86,
-						"matchedClass": 44,
+						"truthNotes": 106,
+						"matchedClass": 56,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
-						"truthNotes": 178,
-						"matchedClass": 133,
+						"truthNotes": 183,
+						"matchedClass": 134,
 						"octaveWrong": 0
 					},
 					"C3+": {
@@ -454,29 +454,29 @@
 		},
 		"eat-all-the-clocks": {
 			"bp": {
-				"truthNotes": 250,
-				"truthDroppedZeroLength": 4,
+				"truthNotes": 264,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 430,
 				"exact": {
-					"precision": 0.4791,
-					"recall": 0.824,
-					"f": 0.6059
+					"precision": 0.4953,
+					"recall": 0.8068,
+					"f": 0.6138
 				},
 				"pitchClass": {
-					"precision": 0.5209,
-					"recall": 0.896,
-					"f": 0.6588
+					"precision": 0.5442,
+					"recall": 0.8864,
+					"f": 0.6744
 				},
 				"onsetOnly": {
-					"precision": 0.5233,
-					"recall": 0.9,
-					"f": 0.6618
+					"precision": 0.5465,
+					"recall": 0.8902,
+					"f": 0.6772
 				},
 				"octave": {
-					"matchedOnClass": 224,
-					"wrong": 86,
-					"rate": 0.3839,
-					"up": 86,
+					"matchedOnClass": 234,
+					"wrong": 89,
+					"rate": 0.3803,
+					"up": 89,
 					"down": 0
 				},
 				"byRegister": {
@@ -486,47 +486,47 @@
 						"octaveWrong": 23
 					},
 					"Bb1-E2": {
-						"truthNotes": 125,
-						"matchedClass": 115,
-						"octaveWrong": 62
+						"truthNotes": 133,
+						"matchedClass": 119,
+						"octaveWrong": 64
 					},
 					"F2-B2": {
-						"truthNotes": 72,
-						"matchedClass": 69,
+						"truthNotes": 76,
+						"matchedClass": 73,
 						"octaveWrong": 1
 					},
 					"C3+": {
-						"truthNotes": 3,
-						"matchedClass": 3,
-						"octaveWrong": 0
+						"truthNotes": 5,
+						"matchedClass": 5,
+						"octaveWrong": 1
 					}
 				}
 			},
 			"bp-bass": {
-				"truthNotes": 250,
-				"truthDroppedZeroLength": 4,
+				"truthNotes": 264,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 314,
 				"exact": {
-					"precision": 0.6401,
-					"recall": 0.804,
-					"f": 0.7128
+					"precision": 0.6592,
+					"recall": 0.7841,
+					"f": 0.7163
 				},
 				"pitchClass": {
-					"precision": 0.7006,
-					"recall": 0.88,
-					"f": 0.7801
+					"precision": 0.7293,
+					"recall": 0.8674,
+					"f": 0.7924
 				},
 				"onsetOnly": {
-					"precision": 0.7166,
-					"recall": 0.9,
-					"f": 0.7979
+					"precision": 0.7452,
+					"recall": 0.8864,
+					"f": 0.8097
 				},
 				"octave": {
-					"matchedOnClass": 220,
-					"wrong": 27,
-					"rate": 0.1227,
+					"matchedOnClass": 229,
+					"wrong": 28,
+					"rate": 0.1223,
 					"up": 26,
-					"down": 1
+					"down": 2
 				},
 				"byRegister": {
 					"E1-A1": {
@@ -535,43 +535,43 @@
 						"octaveWrong": 11
 					},
 					"Bb1-E2": {
-						"truthNotes": 125,
-						"matchedClass": 115,
+						"truthNotes": 133,
+						"matchedClass": 118,
 						"octaveWrong": 15
 					},
 					"F2-B2": {
-						"truthNotes": 72,
-						"matchedClass": 65,
+						"truthNotes": 76,
+						"matchedClass": 69,
 						"octaveWrong": 0
 					},
 					"C3+": {
-						"truthNotes": 3,
-						"matchedClass": 3,
-						"octaveWrong": 1
+						"truthNotes": 5,
+						"matchedClass": 5,
+						"octaveWrong": 2
 					}
 				}
 			},
 			"pyin": {
-				"truthNotes": 250,
-				"truthDroppedZeroLength": 4,
+				"truthNotes": 264,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 352,
 				"exact": {
-					"precision": 0.5881,
-					"recall": 0.828,
-					"f": 0.6877
+					"precision": 0.608,
+					"recall": 0.8106,
+					"f": 0.6948
 				},
 				"pitchClass": {
-					"precision": 0.5881,
-					"recall": 0.828,
-					"f": 0.6877
+					"precision": 0.608,
+					"recall": 0.8106,
+					"f": 0.6948
 				},
 				"onsetOnly": {
-					"precision": 0.6108,
-					"recall": 0.86,
-					"f": 0.7143
+					"precision": 0.6307,
+					"recall": 0.8409,
+					"f": 0.7208
 				},
 				"octave": {
-					"matchedOnClass": 207,
+					"matchedOnClass": 214,
 					"wrong": 0,
 					"rate": 0.0,
 					"up": 0,
@@ -584,18 +584,18 @@
 						"octaveWrong": 0
 					},
 					"Bb1-E2": {
-						"truthNotes": 125,
-						"matchedClass": 107,
+						"truthNotes": 133,
+						"matchedClass": 109,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
-						"truthNotes": 72,
-						"matchedClass": 60,
+						"truthNotes": 76,
+						"matchedClass": 64,
 						"octaveWrong": 0
 					},
 					"C3+": {
-						"truthNotes": 3,
-						"matchedClass": 3,
+						"truthNotes": 5,
+						"matchedClass": 4,
 						"octaveWrong": 0
 					}
 				}
@@ -603,29 +603,29 @@
 		},
 		"downline": {
 			"bp": {
-				"truthNotes": 361,
-				"truthDroppedZeroLength": 40,
+				"truthNotes": 438,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 636,
 				"exact": {
-					"precision": 0.4654,
-					"recall": 0.8199,
-					"f": 0.5938
+					"precision": 0.5818,
+					"recall": 0.8447,
+					"f": 0.689
 				},
 				"pitchClass": {
-					"precision": 0.4796,
-					"recall": 0.8449,
-					"f": 0.6118
+					"precision": 0.5959,
+					"recall": 0.8653,
+					"f": 0.7058
 				},
 				"onsetOnly": {
-					"precision": 0.4843,
-					"recall": 0.8532,
-					"f": 0.6179
+					"precision": 0.6006,
+					"recall": 0.8721,
+					"f": 0.7114
 				},
 				"octave": {
-					"matchedOnClass": 305,
-					"wrong": 103,
-					"rate": 0.3377,
-					"up": 103,
+					"matchedOnClass": 379,
+					"wrong": 124,
+					"rate": 0.3272,
+					"up": 124,
 					"down": 0
 				},
 				"byRegister": {
@@ -635,14 +635,14 @@
 						"octaveWrong": 28
 					},
 					"Bb1-E2": {
-						"truthNotes": 219,
-						"matchedClass": 180,
-						"octaveWrong": 51
+						"truthNotes": 282,
+						"matchedClass": 240,
+						"octaveWrong": 68
 					},
 					"F2-B2": {
-						"truthNotes": 75,
-						"matchedClass": 69,
-						"octaveWrong": 24
+						"truthNotes": 89,
+						"matchedClass": 83,
+						"octaveWrong": 28
 					},
 					"C3+": {
 						"truthNotes": 7,
@@ -652,28 +652,28 @@
 				}
 			},
 			"bp-bass": {
-				"truthNotes": 361,
-				"truthDroppedZeroLength": 40,
+				"truthNotes": 438,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 483,
 				"exact": {
-					"precision": 0.6108,
-					"recall": 0.8172,
-					"f": 0.6991
+					"precision": 0.764,
+					"recall": 0.8425,
+					"f": 0.8013
 				},
 				"pitchClass": {
-					"precision": 0.6253,
-					"recall": 0.8366,
-					"f": 0.7156
+					"precision": 0.7785,
+					"recall": 0.8584,
+					"f": 0.8165
 				},
 				"onsetOnly": {
-					"precision": 0.6315,
-					"recall": 0.8449,
-					"f": 0.7227
+					"precision": 0.7847,
+					"recall": 0.8653,
+					"f": 0.823
 				},
 				"octave": {
-					"matchedOnClass": 302,
+					"matchedOnClass": 376,
 					"wrong": 11,
-					"rate": 0.0364,
+					"rate": 0.0293,
 					"up": 11,
 					"down": 0
 				},
@@ -684,13 +684,13 @@
 						"octaveWrong": 11
 					},
 					"Bb1-E2": {
-						"truthNotes": 219,
-						"matchedClass": 178,
+						"truthNotes": 282,
+						"matchedClass": 238,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
-						"truthNotes": 75,
-						"matchedClass": 68,
+						"truthNotes": 89,
+						"matchedClass": 82,
 						"octaveWrong": 0
 					},
 					"C3+": {
@@ -701,28 +701,28 @@
 				}
 			},
 			"pyin": {
-				"truthNotes": 361,
-				"truthDroppedZeroLength": 40,
+				"truthNotes": 438,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 425,
 				"exact": {
-					"precision": 0.6565,
-					"recall": 0.7729,
-					"f": 0.7099
+					"precision": 0.8024,
+					"recall": 0.7785,
+					"f": 0.7903
 				},
 				"pitchClass": {
-					"precision": 0.6612,
-					"recall": 0.7784,
-					"f": 0.715
+					"precision": 0.8071,
+					"recall": 0.7831,
+					"f": 0.7949
 				},
 				"onsetOnly": {
-					"precision": 0.6824,
-					"recall": 0.8033,
-					"f": 0.7379
+					"precision": 0.8282,
+					"recall": 0.8037,
+					"f": 0.8158
 				},
 				"octave": {
-					"matchedOnClass": 281,
+					"matchedOnClass": 343,
 					"wrong": 2,
-					"rate": 0.0071,
+					"rate": 0.0058,
 					"up": 0,
 					"down": 2
 				},
@@ -733,13 +733,13 @@
 						"octaveWrong": 0
 					},
 					"Bb1-E2": {
-						"truthNotes": 219,
-						"matchedClass": 158,
+						"truthNotes": 282,
+						"matchedClass": 208,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
-						"truthNotes": 75,
-						"matchedClass": 61,
+						"truthNotes": 89,
+						"matchedClass": 73,
 						"octaveWrong": 0
 					},
 					"C3+": {
@@ -752,29 +752,29 @@
 		},
 		"mop-heart": {
 			"bp": {
-				"truthNotes": 334,
-				"truthDroppedZeroLength": 2,
+				"truthNotes": 338,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 460,
 				"exact": {
-					"precision": 0.6804,
-					"recall": 0.9371,
-					"f": 0.7884
+					"precision": 0.6848,
+					"recall": 0.932,
+					"f": 0.7895
 				},
 				"pitchClass": {
-					"precision": 0.7043,
-					"recall": 0.9701,
-					"f": 0.8161
+					"precision": 0.7087,
+					"recall": 0.9645,
+					"f": 0.817
 				},
 				"onsetOnly": {
-					"precision": 0.7043,
-					"recall": 0.9701,
-					"f": 0.8161
+					"precision": 0.7087,
+					"recall": 0.9645,
+					"f": 0.817
 				},
 				"octave": {
-					"matchedOnClass": 324,
-					"wrong": 40,
-					"rate": 0.1235,
-					"up": 40,
+					"matchedOnClass": 326,
+					"wrong": 41,
+					"rate": 0.1258,
+					"up": 41,
 					"down": 0
 				},
 				"byRegister": {
@@ -784,9 +784,9 @@
 						"octaveWrong": 15
 					},
 					"Bb1-E2": {
-						"truthNotes": 122,
-						"matchedClass": 118,
-						"octaveWrong": 25
+						"truthNotes": 126,
+						"matchedClass": 120,
+						"octaveWrong": 26
 					},
 					"F2-B2": {
 						"truthNotes": 160,
@@ -801,28 +801,28 @@
 				}
 			},
 			"bp-bass": {
-				"truthNotes": 334,
-				"truthDroppedZeroLength": 2,
+				"truthNotes": 338,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 393,
 				"exact": {
-					"precision": 0.7888,
-					"recall": 0.9281,
-					"f": 0.8528
+					"precision": 0.7939,
+					"recall": 0.9231,
+					"f": 0.8536
 				},
 				"pitchClass": {
-					"precision": 0.8117,
-					"recall": 0.9551,
-					"f": 0.8776
+					"precision": 0.8168,
+					"recall": 0.9497,
+					"f": 0.8782
 				},
 				"onsetOnly": {
-					"precision": 0.8219,
-					"recall": 0.9671,
-					"f": 0.8886
+					"precision": 0.827,
+					"recall": 0.9615,
+					"f": 0.8892
 				},
 				"octave": {
-					"matchedOnClass": 319,
+					"matchedOnClass": 321,
 					"wrong": 26,
-					"rate": 0.0815,
+					"rate": 0.081,
 					"up": 26,
 					"down": 0
 				},
@@ -833,8 +833,8 @@
 						"octaveWrong": 16
 					},
 					"Bb1-E2": {
-						"truthNotes": 122,
-						"matchedClass": 118,
+						"truthNotes": 126,
+						"matchedClass": 120,
 						"octaveWrong": 10
 					},
 					"F2-B2": {
@@ -850,26 +850,26 @@
 				}
 			},
 			"pyin": {
-				"truthNotes": 334,
-				"truthDroppedZeroLength": 2,
+				"truthNotes": 338,
+				"truthDroppedZeroLength": 0,
 				"estNotes": 365,
 				"exact": {
-					"precision": 0.8301,
-					"recall": 0.9072,
-					"f": 0.867
+					"precision": 0.8329,
+					"recall": 0.8994,
+					"f": 0.8649
 				},
 				"pitchClass": {
-					"precision": 0.8301,
-					"recall": 0.9072,
-					"f": 0.867
+					"precision": 0.8329,
+					"recall": 0.8994,
+					"f": 0.8649
 				},
 				"onsetOnly": {
-					"precision": 0.8384,
-					"recall": 0.9162,
-					"f": 0.8755
+					"precision": 0.8466,
+					"recall": 0.9142,
+					"f": 0.8791
 				},
 				"octave": {
-					"matchedOnClass": 303,
+					"matchedOnClass": 304,
 					"wrong": 0,
 					"rate": 0.0,
 					"up": 0,
@@ -882,8 +882,8 @@
 						"octaveWrong": 0
 					},
 					"Bb1-E2": {
-						"truthNotes": 122,
-						"matchedClass": 108,
+						"truthNotes": 126,
+						"matchedClass": 109,
 						"octaveWrong": 0
 					},
 					"F2-B2": {

@@ -126,3 +126,35 @@ Per reader:
   path), and the model binaries are not committed.
 - Six songs by one writer. Deterministic on this machine; a rerun
   reproduces every number.
+
+## The truth's defect, and re-registration (2026-11-13, after the first scored pass, before any write-up)
+
+The first scored pass (registration 2f6e186) showed `hfbass` at 43 % of
+bars right on Letter Lands against Basic Pitch's 76 %, with a higher
+note-level score. Looking at its bars there showed "extra" notes that
+pYIN wrote identically, and the cause was the truth: the intake's MIDI
+parser had been losing back-to-back notes of one pitch, 1 % to 18 % of
+each song's notes (docs/CORRECTION-2026-11-13-bass-truth.md). A
+defective fixture: fixed (commit c844706, with a test), every MIDI
+re-read, offsets confirmed, Studies 48 to 51 re-run, and this study
+re-registered by this commit before its pass is run again. Readers,
+measures, predictions and decision rules are unchanged.
+
+**Seen in the defective pass**, `hfbass` under the constraint, by song
+(Peaceful Dreams, Interbellum, Letter Lands, Eat All the Clocks,
+Downline, Mop Heart): note-level exact F 0.857, 0.810, 0.865, 0.944,
+0.826, 0.991, no octave errors; bars right 50 %, 38 %, 43 %, 80 %,
+53 %, 86 % (mean 58.2 % against Basic Pitch's 45.2 %); agreement with
+Basic Pitch showing 53 % of bars, 65 % of them right, pooled. P1, P3,
+P4 and P6 would have held, P2 and P5 not; S52-D1 no, S52-D2 no (Letter
+Lands down 34 points), S52-D3 no rule. The first pass's files are in
+results/superseded-2026-11-13/.
+
+The predictions were written before any of this and are scored as
+written. The analyst now expects the corrected truth to favour whichever
+reader hears repeated notes best, which the defective pass suggests is
+`hfbass`; that expectation is disclosed, not registered.
+
+Also seen before this re-registration: the re-runs of Studies 48 to 51
+on the corrected truth (Basic Pitch's selected configuration now 36 %,
+32 %, 76 %, 42 %, 63 %, 40 % of bars right, mean 48.4 %).
