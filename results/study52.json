@@ -722,6 +722,789 @@
 				"d2": false,
 				"d3": null
 			}
+		},
+		"muscriptor": {
+			"lines": {
+				"peaceful-dreams": {
+					"bp": {
+						"bars": 110,
+						"right": 40,
+						"oneError": 28,
+						"wrong": 42,
+						"truthOnsets": 454,
+						"estOnsets": 406,
+						"found": 366,
+						"matched": 330,
+						"extra": 40,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.7674418604651162
+					},
+					"muscriptor": {
+						"bars": 110,
+						"right": 68,
+						"oneError": 22,
+						"wrong": 20,
+						"truthOnsets": 454,
+						"estOnsets": 393,
+						"found": 386,
+						"matched": 385,
+						"extra": 7,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.9090909090909091
+					},
+					"muscriptor-bass": {
+						"bars": 110,
+						"right": 60,
+						"oneError": 22,
+						"wrong": 28,
+						"truthOnsets": 454,
+						"estOnsets": 364,
+						"found": 357,
+						"matched": 356,
+						"extra": 7,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.8704156479217604
+					}
+				},
+				"interbellum": {
+					"bp": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 13,
+						"wrong": 34,
+						"truthOnsets": 460,
+						"estOnsets": 369,
+						"found": 346,
+						"matched": 340,
+						"extra": 23,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8202653799758746
+					},
+					"muscriptor": {
+						"bars": 69,
+						"right": 33,
+						"oneError": 7,
+						"wrong": 29,
+						"truthOnsets": 460,
+						"estOnsets": 383,
+						"found": 371,
+						"matched": 367,
+						"extra": 12,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8706998813760379
+					},
+					"muscriptor-bass": {
+						"bars": 69,
+						"right": 33,
+						"oneError": 7,
+						"wrong": 29,
+						"truthOnsets": 460,
+						"estOnsets": 383,
+						"found": 371,
+						"matched": 367,
+						"extra": 12,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8706998813760379
+					}
+				},
+				"letter-lands": {
+					"bp": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 7,
+						"wrong": 9,
+						"truthOnsets": 294,
+						"estOnsets": 302,
+						"found": 279,
+						"matched": 273,
+						"extra": 23,
+						"gridDiffers": 2,
+						"truthTriplet": 0,
+						"estTriplet": 2,
+						"slotF": 0.9161073825503356
+					},
+					"muscriptor": {
+						"bars": 68,
+						"right": 58,
+						"oneError": 8,
+						"wrong": 2,
+						"truthOnsets": 294,
+						"estOnsets": 286,
+						"found": 280,
+						"matched": 280,
+						"extra": 6,
+						"gridDiffers": 1,
+						"truthTriplet": 0,
+						"estTriplet": 1,
+						"slotF": 0.9655172413793104
+					},
+					"muscriptor-bass": {
+						"bars": 68,
+						"right": 58,
+						"oneError": 8,
+						"wrong": 2,
+						"truthOnsets": 294,
+						"estOnsets": 286,
+						"found": 280,
+						"matched": 280,
+						"extra": 6,
+						"gridDiffers": 1,
+						"truthTriplet": 0,
+						"estTriplet": 1,
+						"slotF": 0.9655172413793104
+					}
+				},
+				"eat-all-the-clocks": {
+					"bp": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 16,
+						"wrong": 25,
+						"truthOnsets": 258,
+						"estOnsets": 269,
+						"found": 229,
+						"matched": 208,
+						"extra": 40,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7893738140417459
+					},
+					"muscriptor": {
+						"bars": 71,
+						"right": 50,
+						"oneError": 17,
+						"wrong": 4,
+						"truthOnsets": 258,
+						"estOnsets": 243,
+						"found": 238,
+						"matched": 237,
+						"extra": 5,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 0,
+						"slotF": 0.9461077844311376
+					},
+					"muscriptor-bass": {
+						"bars": 71,
+						"right": 50,
+						"oneError": 17,
+						"wrong": 4,
+						"truthOnsets": 258,
+						"estOnsets": 243,
+						"found": 238,
+						"matched": 237,
+						"extra": 5,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 0,
+						"slotF": 0.9461077844311376
+					}
+				},
+				"downline": {
+					"bp": {
+						"bars": 186,
+						"right": 118,
+						"oneError": 31,
+						"wrong": 37,
+						"truthOnsets": 435,
+						"estOnsets": 397,
+						"found": 344,
+						"matched": 336,
+						"extra": 53,
+						"gridDiffers": 14,
+						"truthTriplet": 11,
+						"estTriplet": 5,
+						"slotF": 0.8076923076923076
+					},
+					"muscriptor": {
+						"bars": 186,
+						"right": 140,
+						"oneError": 32,
+						"wrong": 14,
+						"truthOnsets": 435,
+						"estOnsets": 393,
+						"found": 372,
+						"matched": 372,
+						"extra": 21,
+						"gridDiffers": 10,
+						"truthTriplet": 11,
+						"estTriplet": 1,
+						"slotF": 0.8985507246376812
+					},
+					"muscriptor-bass": {
+						"bars": 186,
+						"right": 140,
+						"oneError": 32,
+						"wrong": 14,
+						"truthOnsets": 435,
+						"estOnsets": 393,
+						"found": 372,
+						"matched": 372,
+						"extra": 21,
+						"gridDiffers": 10,
+						"truthTriplet": 11,
+						"estTriplet": 1,
+						"slotF": 0.8985507246376812
+					}
+				},
+				"mop-heart": {
+					"bp": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 12,
+						"wrong": 45,
+						"truthOnsets": 337,
+						"estOnsets": 372,
+						"found": 290,
+						"matched": 267,
+						"extra": 82,
+						"gridDiffers": 6,
+						"truthTriplet": 2,
+						"estTriplet": 4,
+						"slotF": 0.7531734837799718
+					},
+					"muscriptor": {
+						"bars": 95,
+						"right": 85,
+						"oneError": 2,
+						"wrong": 8,
+						"truthOnsets": 337,
+						"estOnsets": 334,
+						"found": 322,
+						"matched": 321,
+						"extra": 12,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.9567809239940387
+					},
+					"muscriptor-bass": {
+						"bars": 95,
+						"right": 85,
+						"oneError": 2,
+						"wrong": 8,
+						"truthOnsets": 337,
+						"estOnsets": 334,
+						"found": 322,
+						"matched": 321,
+						"extra": 12,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.9567809239940387
+					}
+				}
+			},
+			"trust": {
+				"peaceful-dreams": {
+					"everyBar": {
+						"bars": 103,
+						"shown": 103,
+						"right": 59,
+						"oneError": 22,
+						"wrong": 22,
+						"rests": 7,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 356
+					},
+					"bp": {
+						"bars": 103,
+						"shown": 62,
+						"right": 38,
+						"oneError": 13,
+						"wrong": 11,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 209
+					},
+					"pyin": {
+						"bars": 103,
+						"shown": 49,
+						"right": 36,
+						"oneError": 12,
+						"wrong": 1,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 164
+					},
+					"either": {
+						"bars": 103,
+						"shown": 78,
+						"right": 49,
+						"oneError": 17,
+						"wrong": 12,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 263
+					},
+					"both": {
+						"bars": 103,
+						"shown": 33,
+						"right": 25,
+						"oneError": 8,
+						"wrong": 0,
+						"rests": 1,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 110
+					},
+					"hfbass": {
+						"bars": 103,
+						"shown": 94,
+						"right": 56,
+						"oneError": 20,
+						"wrong": 18,
+						"rests": 6,
+						"restsRight": 1,
+						"truthOnsets": 454,
+						"notesShownRight": 327
+					}
+				},
+				"interbellum": {
+					"everyBar": {
+						"bars": 65,
+						"shown": 65,
+						"right": 29,
+						"oneError": 7,
+						"wrong": 29,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 460,
+						"notesShownRight": 367
+					},
+					"bp": {
+						"bars": 65,
+						"shown": 23,
+						"right": 14,
+						"oneError": 1,
+						"wrong": 8,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 460,
+						"notesShownRight": 110
+					},
+					"pyin": {
+						"bars": 65,
+						"shown": 15,
+						"right": 8,
+						"oneError": 0,
+						"wrong": 7,
+						"rests": 0,
+						"restsRight": 0,
+						"truthOnsets": 460,
+						"notesShownRight": 79
+					},
+					"either": {
+						"bars": 65,
+						"shown": 29,
+						"right": 17,
+						"oneError": 1,
+						"wrong": 11,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 460,
+						"notesShownRight": 149
+					},
+					"both": {
+						"bars": 65,
+						"shown": 9,
+						"right": 5,
+						"oneError": 0,
+						"wrong": 4,
+						"rests": 0,
+						"restsRight": 0,
+						"truthOnsets": 460,
+						"notesShownRight": 40
+					},
+					"hfbass": {
+						"bars": 65,
+						"shown": 34,
+						"right": 18,
+						"oneError": 0,
+						"wrong": 16,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 460,
+						"notesShownRight": 187
+					}
+				},
+				"letter-lands": {
+					"everyBar": {
+						"bars": 61,
+						"shown": 61,
+						"right": 51,
+						"oneError": 8,
+						"wrong": 2,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 280
+					},
+					"bp": {
+						"bars": 61,
+						"shown": 42,
+						"right": 41,
+						"oneError": 0,
+						"wrong": 1,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 183
+					},
+					"pyin": {
+						"bars": 61,
+						"shown": 10,
+						"right": 9,
+						"oneError": 1,
+						"wrong": 0,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 294,
+						"notesShownRight": 56
+					},
+					"either": {
+						"bars": 61,
+						"shown": 45,
+						"right": 43,
+						"oneError": 1,
+						"wrong": 1,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 205
+					},
+					"both": {
+						"bars": 61,
+						"shown": 7,
+						"right": 7,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 294,
+						"notesShownRight": 34
+					},
+					"hfbass": {
+						"bars": 61,
+						"shown": 26,
+						"right": 23,
+						"oneError": 2,
+						"wrong": 1,
+						"rests": 7,
+						"restsRight": 7,
+						"truthOnsets": 294,
+						"notesShownRight": 130
+					}
+				},
+				"eat-all-the-clocks": {
+					"everyBar": {
+						"bars": 62,
+						"shown": 62,
+						"right": 42,
+						"oneError": 17,
+						"wrong": 3,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 237
+					},
+					"bp": {
+						"bars": 62,
+						"shown": 16,
+						"right": 16,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 64
+					},
+					"pyin": {
+						"bars": 62,
+						"shown": 9,
+						"right": 8,
+						"oneError": 1,
+						"wrong": 0,
+						"rests": 6,
+						"restsRight": 6,
+						"truthOnsets": 258,
+						"notesShownRight": 37
+					},
+					"either": {
+						"bars": 62,
+						"shown": 24,
+						"right": 23,
+						"oneError": 1,
+						"wrong": 0,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 97
+					},
+					"both": {
+						"bars": 62,
+						"shown": 1,
+						"right": 1,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 6,
+						"restsRight": 6,
+						"truthOnsets": 258,
+						"notesShownRight": 4
+					},
+					"hfbass": {
+						"bars": 62,
+						"shown": 49,
+						"right": 41,
+						"oneError": 7,
+						"wrong": 1,
+						"rests": 9,
+						"restsRight": 8,
+						"truthOnsets": 258,
+						"notesShownRight": 188
+					}
+				},
+				"downline": {
+					"everyBar": {
+						"bars": 164,
+						"shown": 164,
+						"right": 121,
+						"oneError": 29,
+						"wrong": 14,
+						"rests": 22,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 372
+					},
+					"bp": {
+						"bars": 164,
+						"shown": 121,
+						"right": 96,
+						"oneError": 17,
+						"wrong": 8,
+						"rests": 22,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 273
+					},
+					"pyin": {
+						"bars": 164,
+						"shown": 82,
+						"right": 69,
+						"oneError": 9,
+						"wrong": 4,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 148
+					},
+					"either": {
+						"bars": 164,
+						"shown": 137,
+						"right": 109,
+						"oneError": 19,
+						"wrong": 9,
+						"rests": 22,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 301
+					},
+					"both": {
+						"bars": 164,
+						"shown": 66,
+						"right": 56,
+						"oneError": 7,
+						"wrong": 3,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 120
+					},
+					"hfbass": {
+						"bars": 164,
+						"shown": 152,
+						"right": 115,
+						"oneError": 25,
+						"wrong": 12,
+						"rests": 21,
+						"restsRight": 19,
+						"truthOnsets": 435,
+						"notesShownRight": 343
+					}
+				},
+				"mop-heart": {
+					"everyBar": {
+						"bars": 90,
+						"shown": 90,
+						"right": 81,
+						"oneError": 2,
+						"wrong": 7,
+						"rests": 5,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 321
+					},
+					"bp": {
+						"bars": 90,
+						"shown": 33,
+						"right": 32,
+						"oneError": 0,
+						"wrong": 1,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 117
+					},
+					"pyin": {
+						"bars": 90,
+						"shown": 17,
+						"right": 16,
+						"oneError": 0,
+						"wrong": 1,
+						"rests": 3,
+						"restsRight": 3,
+						"truthOnsets": 337,
+						"notesShownRight": 45
+					},
+					"either": {
+						"bars": 90,
+						"shown": 41,
+						"right": 39,
+						"oneError": 0,
+						"wrong": 2,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 134
+					},
+					"both": {
+						"bars": 90,
+						"shown": 9,
+						"right": 9,
+						"oneError": 0,
+						"wrong": 0,
+						"rests": 3,
+						"restsRight": 3,
+						"truthOnsets": 337,
+						"notesShownRight": 28
+					},
+					"hfbass": {
+						"bars": 90,
+						"shown": 81,
+						"right": 77,
+						"oneError": 0,
+						"wrong": 4,
+						"rests": 4,
+						"restsRight": 4,
+						"truthOnsets": 337,
+						"notesShownRight": 297
+					}
+				}
+			},
+			"pooled": {
+				"everyBar": {
+					"bars": 545,
+					"shown": 545,
+					"right": 383,
+					"oneError": 85,
+					"wrong": 77,
+					"rests": 54,
+					"restsRight": 43,
+					"truthOnsets": 2238,
+					"notesShownRight": 1933
+				},
+				"bp": {
+					"bars": 545,
+					"shown": 297,
+					"right": 237,
+					"oneError": 31,
+					"wrong": 29,
+					"rests": 47,
+					"restsRight": 43,
+					"truthOnsets": 2238,
+					"notesShownRight": 956
+				},
+				"pyin": {
+					"bars": 545,
+					"shown": 182,
+					"right": 146,
+					"oneError": 23,
+					"wrong": 13,
+					"rests": 35,
+					"restsRight": 33,
+					"truthOnsets": 2238,
+					"notesShownRight": 529
+				},
+				"either": {
+					"bars": 545,
+					"shown": 354,
+					"right": 280,
+					"oneError": 39,
+					"wrong": 35,
+					"rests": 47,
+					"restsRight": 43,
+					"truthOnsets": 2238,
+					"notesShownRight": 1149
+				},
+				"both": {
+					"bars": 545,
+					"shown": 125,
+					"right": 103,
+					"oneError": 15,
+					"wrong": 7,
+					"rests": 35,
+					"restsRight": 33,
+					"truthOnsets": 2238,
+					"notesShownRight": 336
+				},
+				"hfbass": {
+					"bars": 545,
+					"shown": 436,
+					"right": 330,
+					"oneError": 54,
+					"wrong": 52,
+					"rests": 51,
+					"restsRight": 43,
+					"truthOnsets": 2238,
+					"notesShownRight": 1472
+				}
+			},
+			"gain": {
+				"peaceful-dreams": 0.18181818181818177,
+				"interbellum": 0.1594202898550725,
+				"letter-lands": 0.08823529411764708,
+				"eat-all-the-clocks": 0.2816901408450704,
+				"downline": 0.11827956989247312,
+				"mop-heart": 0.49473684210526314
+			},
+			"decisions": {
+				"d1": false,
+				"clears": [
+					"letter-lands",
+					"eat-all-the-clocks",
+					"downline",
+					"mop-heart"
+				],
+				"d2": true,
+				"d3": null
+			}
 		}
 	}
 }

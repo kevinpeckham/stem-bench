@@ -1,6 +1,7 @@
 {
 	"readers": [
-		"hfbass"
+		"hfbass",
+		"muscriptor"
 	],
 	"songs": {
 		"peaceful-dreams": {
@@ -88,6 +89,104 @@
 					"Bb1-E2": {
 						"truthNotes": 187,
 						"matchedClass": 161,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 99,
+						"matchedClass": 82,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 16,
+						"matchedClass": 16,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor": {
+				"truthNotes": 454,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 393,
+				"exact": {
+					"precision": 0.9949,
+					"recall": 0.8612,
+					"f": 0.9233
+				},
+				"pitchClass": {
+					"precision": 0.9949,
+					"recall": 0.8612,
+					"f": 0.9233
+				},
+				"onsetOnly": {
+					"precision": 0.9975,
+					"recall": 0.8634,
+					"f": 0.9256
+				},
+				"octave": {
+					"matchedOnClass": 391,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 123,
+						"matchedClass": 133,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 187,
+						"matchedClass": 160,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 99,
+						"matchedClass": 82,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 16,
+						"matchedClass": 16,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor-bass": {
+				"truthNotes": 454,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 364,
+				"exact": {
+					"precision": 0.9945,
+					"recall": 0.7974,
+					"f": 0.8851
+				},
+				"pitchClass": {
+					"precision": 0.9945,
+					"recall": 0.7974,
+					"f": 0.8851
+				},
+				"onsetOnly": {
+					"precision": 0.9973,
+					"recall": 0.7996,
+					"f": 0.8875
+				},
+				"octave": {
+					"matchedOnClass": 362,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 123,
+						"matchedClass": 104,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 187,
+						"matchedClass": 160,
 						"octaveWrong": 0
 					},
 					"F2-B2": {
@@ -201,6 +300,104 @@
 						"octaveWrong": 0
 					}
 				}
+			},
+			"muscriptor": {
+				"truthNotes": 490,
+				"truthDroppedZeroLength": 1,
+				"estNotes": 389,
+				"exact": {
+					"precision": 0.9769,
+					"recall": 0.7755,
+					"f": 0.8646
+				},
+				"pitchClass": {
+					"precision": 0.9769,
+					"recall": 0.7755,
+					"f": 0.8646
+				},
+				"onsetOnly": {
+					"precision": 0.9923,
+					"recall": 0.7878,
+					"f": 0.8783
+				},
+				"octave": {
+					"matchedOnClass": 380,
+					"wrong": 2,
+					"rate": 0.0053,
+					"up": 1,
+					"down": 1
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 76,
+						"matchedClass": 73,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 160,
+						"matchedClass": 136,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 166,
+						"matchedClass": 114,
+						"octaveWrong": 1
+					},
+					"C3+": {
+						"truthNotes": 88,
+						"matchedClass": 57,
+						"octaveWrong": 1
+					}
+				}
+			},
+			"muscriptor-bass": {
+				"truthNotes": 490,
+				"truthDroppedZeroLength": 1,
+				"estNotes": 383,
+				"exact": {
+					"precision": 0.9765,
+					"recall": 0.7633,
+					"f": 0.8568
+				},
+				"pitchClass": {
+					"precision": 0.9765,
+					"recall": 0.7633,
+					"f": 0.8568
+				},
+				"onsetOnly": {
+					"precision": 0.9974,
+					"recall": 0.7796,
+					"f": 0.8751
+				},
+				"octave": {
+					"matchedOnClass": 374,
+					"wrong": 1,
+					"rate": 0.0027,
+					"up": 0,
+					"down": 1
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 76,
+						"matchedClass": 73,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 160,
+						"matchedClass": 136,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 166,
+						"matchedClass": 113,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 88,
+						"matchedClass": 52,
+						"octaveWrong": 1
+					}
+				}
 			}
 		},
 		"letter-lands": {
@@ -301,6 +498,104 @@
 						"octaveWrong": 0
 					}
 				}
+			},
+			"muscriptor": {
+				"truthNotes": 315,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 287,
+				"exact": {
+					"precision": 0.9686,
+					"recall": 0.8825,
+					"f": 0.9236
+				},
+				"pitchClass": {
+					"precision": 0.9686,
+					"recall": 0.8825,
+					"f": 0.9236
+				},
+				"onsetOnly": {
+					"precision": 0.9686,
+					"recall": 0.8825,
+					"f": 0.9236
+				},
+				"octave": {
+					"matchedOnClass": 278,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 10,
+						"matchedClass": 10,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 106,
+						"matchedClass": 79,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 183,
+						"matchedClass": 174,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 16,
+						"matchedClass": 15,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor-bass": {
+				"truthNotes": 315,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 286,
+				"exact": {
+					"precision": 0.972,
+					"recall": 0.8825,
+					"f": 0.9251
+				},
+				"pitchClass": {
+					"precision": 0.972,
+					"recall": 0.8825,
+					"f": 0.9251
+				},
+				"onsetOnly": {
+					"precision": 0.972,
+					"recall": 0.8825,
+					"f": 0.9251
+				},
+				"octave": {
+					"matchedOnClass": 278,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 10,
+						"matchedClass": 10,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 106,
+						"matchedClass": 79,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 183,
+						"matchedClass": 174,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 16,
+						"matchedClass": 15,
+						"octaveWrong": 0
+					}
+				}
 			}
 		},
 		"eat-all-the-clocks": {
@@ -393,6 +688,104 @@
 					"F2-B2": {
 						"truthNotes": 76,
 						"matchedClass": 73,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 5,
+						"matchedClass": 5,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor": {
+				"truthNotes": 264,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 243,
+				"exact": {
+					"precision": 0.9794,
+					"recall": 0.9015,
+					"f": 0.9389
+				},
+				"pitchClass": {
+					"precision": 0.9794,
+					"recall": 0.9015,
+					"f": 0.9389
+				},
+				"onsetOnly": {
+					"precision": 0.9835,
+					"recall": 0.9053,
+					"f": 0.9428
+				},
+				"octave": {
+					"matchedOnClass": 238,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 50,
+						"matchedClass": 41,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 133,
+						"matchedClass": 121,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 76,
+						"matchedClass": 71,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 5,
+						"matchedClass": 5,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor-bass": {
+				"truthNotes": 264,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 243,
+				"exact": {
+					"precision": 0.9794,
+					"recall": 0.9015,
+					"f": 0.9389
+				},
+				"pitchClass": {
+					"precision": 0.9794,
+					"recall": 0.9015,
+					"f": 0.9389
+				},
+				"onsetOnly": {
+					"precision": 0.9835,
+					"recall": 0.9053,
+					"f": 0.9428
+				},
+				"octave": {
+					"matchedOnClass": 238,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 50,
+						"matchedClass": 41,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 133,
+						"matchedClass": 121,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 76,
+						"matchedClass": 71,
 						"octaveWrong": 0
 					},
 					"C3+": {
@@ -501,6 +894,104 @@
 						"octaveWrong": 0
 					}
 				}
+			},
+			"muscriptor": {
+				"truthNotes": 438,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 393,
+				"exact": {
+					"precision": 0.9975,
+					"recall": 0.895,
+					"f": 0.9434
+				},
+				"pitchClass": {
+					"precision": 0.9975,
+					"recall": 0.895,
+					"f": 0.9434
+				},
+				"onsetOnly": {
+					"precision": 0.9975,
+					"recall": 0.895,
+					"f": 0.9434
+				},
+				"octave": {
+					"matchedOnClass": 392,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 60,
+						"matchedClass": 59,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 282,
+						"matchedClass": 243,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 89,
+						"matchedClass": 83,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 7,
+						"matchedClass": 7,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor-bass": {
+				"truthNotes": 438,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 393,
+				"exact": {
+					"precision": 0.9975,
+					"recall": 0.895,
+					"f": 0.9434
+				},
+				"pitchClass": {
+					"precision": 0.9975,
+					"recall": 0.895,
+					"f": 0.9434
+				},
+				"onsetOnly": {
+					"precision": 0.9975,
+					"recall": 0.895,
+					"f": 0.9434
+				},
+				"octave": {
+					"matchedOnClass": 392,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 60,
+						"matchedClass": 59,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 282,
+						"matchedClass": 243,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 89,
+						"matchedClass": 83,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 7,
+						"matchedClass": 7,
+						"octaveWrong": 0
+					}
+				}
 			}
 		},
 		"mop-heart": {
@@ -588,6 +1079,104 @@
 					"Bb1-E2": {
 						"truthNotes": 126,
 						"matchedClass": 122,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 160,
+						"matchedClass": 160,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 8,
+						"matchedClass": 8,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor": {
+				"truthNotes": 338,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 335,
+				"exact": {
+					"precision": 0.9821,
+					"recall": 0.9734,
+					"f": 0.9777
+				},
+				"pitchClass": {
+					"precision": 0.9821,
+					"recall": 0.9734,
+					"f": 0.9777
+				},
+				"onsetOnly": {
+					"precision": 0.9851,
+					"recall": 0.9763,
+					"f": 0.9807
+				},
+				"octave": {
+					"matchedOnClass": 329,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 44,
+						"matchedClass": 40,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 126,
+						"matchedClass": 121,
+						"octaveWrong": 0
+					},
+					"F2-B2": {
+						"truthNotes": 160,
+						"matchedClass": 160,
+						"octaveWrong": 0
+					},
+					"C3+": {
+						"truthNotes": 8,
+						"matchedClass": 8,
+						"octaveWrong": 0
+					}
+				}
+			},
+			"muscriptor-bass": {
+				"truthNotes": 338,
+				"truthDroppedZeroLength": 0,
+				"estNotes": 335,
+				"exact": {
+					"precision": 0.9821,
+					"recall": 0.9734,
+					"f": 0.9777
+				},
+				"pitchClass": {
+					"precision": 0.9821,
+					"recall": 0.9734,
+					"f": 0.9777
+				},
+				"onsetOnly": {
+					"precision": 0.9851,
+					"recall": 0.9763,
+					"f": 0.9807
+				},
+				"octave": {
+					"matchedOnClass": 329,
+					"wrong": 0,
+					"rate": 0.0,
+					"up": 0,
+					"down": 0
+				},
+				"byRegister": {
+					"E1-A1": {
+						"truthNotes": 44,
+						"matchedClass": 40,
+						"octaveWrong": 0
+					},
+					"Bb1-E2": {
+						"truthNotes": 126,
+						"matchedClass": 121,
 						"octaveWrong": 0
 					},
 					"F2-B2": {

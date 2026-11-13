@@ -111,6 +111,20 @@ Hugging Face login and licence acceptance; (3) if the line is to ship,
 the next study is `hfbass` on more songs and on a miked bass, and what
 it does with the short legato notes Interbellum is made of.
 
+**Updated 2026-11-13 after Study 52 arm 2.** MuScriptor (medium,
+electric bass) is the best reader: 70.5 % of bars right (hfbass 64.3 %,
+Basic Pitch 48.4 %), four songs clear Study 48's bar, and **S52-D2 is
+yes** (a better first reader, +22.1 points, no song losing). The line
+is still not showable on every song: Peaceful Dreams and Interbellum
+fail for both new readers. All five plan items are now done. **What is
+open is Kevin's and the app's:** which reader to build on (MuScriptor's
+weights are non-commercial and slow on CPU; Mirelo's Audio-to-MIDI Pro
+is the paid successor, untested; hfbass is MIT and fast); and, for the
+bench if asked: Pro on these stems (needs Kevin's account, spend and a
+decision to send his audio out), the readers without the E1 floor (it
+removed 29 real notes on a part that goes to C1), more songs, a miked
+bass, and what makes Interbellum hard.
+
 ## The studies, in order
 
 ### 1. Merge re-triggers and floor the ghosts (first)

@@ -336,3 +336,102 @@ were written before.
 
 Predictions M1 to M3 and decision rules S52-D1 to D3 apply as written,
 the decisions per reader.
+
+## Results, arm 2: MuScriptor (2026-11-13, amendment 6d4468f, on the corrected truth; $0)
+
+Both preflights passed; arm 1's numbers reproduce.
+
+### Notes and the line
+
+| song | exact F: Basic Pitch constrained · `hfbass` · MuScriptor | bars right · wrong: Basic Pitch | `hfbass` | MuScriptor | extra onsets: Basic Pitch · `hfbass` · MuScriptor |
+|---|---|---|---|---|---|
+| Peaceful Dreams | 0.759 · 0.881 · 0.885 | 36 · 38 % | 53 · 25 % | 55 · 25 % | 40 · 9 · 7 |
+| Interbellum | 0.768 · 0.825 · 0.857 | 32 · 49 % | 39 · 54 % | 48 · 42 % | 23 · 8 · 12 |
+| Letter Lands | 0.892 · 0.909 · 0.925 | 76 · 13 % | 51 · 9 % | **85 · 3 %** | 23 · 38 · 6 |
+| Eat All the Clocks | 0.716 · 0.949 · 0.939 | 42 · 35 % | **82 · 7 %** | **70 · 6 %** | 40 · 3 · 5 |
+| Downline | 0.801 · 0.935 · 0.943 | 63 · 20 % | **74 · 8 %** | **75 · 8 %** | 53 · 21 · 21 |
+| Mop Heart | 0.854 · 0.991 · 0.978 | 40 · 47 % | **87 · 9 %** | **89 · 8 %** | 82 · 11 · 12 |
+| mean bars right | | 48.4 % | 64.3 % | 70.5 % | 261 · 90 · 63 |
+
+(Constrained lines, the registered primary. Bold clears Study 48's bar.)
+
+MuScriptor writes more bars right than Basic Pitch on every song and
+than `hfbass` on five; one octave error in 1,973 matched notes; a
+quarter of Basic Pitch's extra onsets. It clears Study 48's bar on four
+songs. On Letter Lands it does not write the sampler's debris that
+`hfbass` did (6 extra onsets against 38).
+
+**The bass constraint costs it a song.** Peaceful Dreams' part goes
+below a four-string's E1: 20 D1s and 9 C1s. MuScriptor hears all 29;
+the constraint (E1 to C4, written for Basic Pitch's octave errors in
+Study 48) then removes them. As written, without the constraint,
+MuScriptor is 62 % right and 18 % wrong on Peaceful Dreams (exact F
+0.923), and 71.7 % on the mean; the other five songs are identical
+either way. `hfbass` wrote none of those 29 notes and Basic Pitch as
+the app calls it cannot (its floor is 40 Hz). Neither new reader needs
+the constraint: they make no octave errors and write one note at a
+time. The registered primary stands; this is why it is the lower
+number.
+
+### Trusted bars (the MuScriptor line, shown when another reading agrees)
+
+| rule | bars shown | right | wrong | songs meeting all three conditions |
+|---|---|---|---|---|
+| every bar | 545 | 70 % | 14 % | 3 |
+| agrees with Basic Pitch | 297 (54 %) | 80 % | 10 % | 4 |
+| agrees with pYIN | 182 (33 %) | 80 % | 7 % | 2 |
+| agrees with `hfbass` | 436 (80 %) | 76 % | 12 % | 4 |
+| Basic Pitch and pYIN both | 125 (23 %) | 82 % | 6 % | 2 |
+
+The two new readers agree on four bars in five, and agreement adds
+little to MuScriptor's own 70 %: they are right together and, on
+Peaceful Dreams (60 % of agreed bars right) and Interbellum (53 %),
+wrong together. No rule qualifies on those two songs.
+
+### Predictions (written before arm 1 ran)
+
+- M1 (more bars right than Basic Pitch on five of six): right, on six.
+- M2 (mean bars right below `hfbass`'s): **wrong**; 70.5 % against
+  64.3 %.
+- M3 (bars both new readers write alike are 85 % right pooled):
+  **wrong**; 76 %.
+
+### Decisions, arm 2
+
+- **S52-D1, the line: no.** Four songs of six clear the bar (Letter
+  Lands, Eat All the Clocks, Downline, Mop Heart); Peaceful Dreams
+  (55 % right, 25 % wrong) and Interbellum (48 %, 42 %) do not.
+- **S52-D2, a better first reader than Basic Pitch: yes.** Mean gain
+  22.1 points against the 10 required; no song loses (the least gain is
+  Letter Lands, +8.8). The first registered yes of the bass plan.
+- **S52-D3, trusted bars: no rule** qualifies on every song; three
+  rules qualify on four.
+
+### What the two arms say together
+
+A model that follows notes one at a time reads these bass stems far
+better than Basic Pitch: 64 % and 71 % of bars right against 48 %, no
+octave errors, a quarter to a third of the false onsets. MuScriptor is
+the better of the two on this corpus and passes the registered test for
+replacing Basic Pitch as the reader; `hfbass` fails it only on Letter
+Lands, on sounds Kevin has confirmed are editing debris.
+
+Neither makes the line showable on every song. Two songs hold out for
+both: Interbellum, whose short legato notes every reader joins or
+drops, and Peaceful Dreams, where a fifth of the part's onsets go
+unfound.
+
+What each costs: MuScriptor took four times the audio's length on this
+CPU and its weights are not licensed for commercial use; Mirelo sells a
+successor, Audio-to-MIDI Pro, as a service, which this study did not
+test. `hfbass` took a third of the audio's length, is MIT by its model
+card, and needs its checkpoint loaded safely.
+
+### Disclosures, arm 2
+
+- $0; the amendment was committed before the notes were scored; the
+  scored pass ran once.
+- The look at Peaceful Dreams' low notes was made after the scored pass.
+- The command line's MIDI was not scored (above).
+- The same six songs by one writer, a sampled bass; arm 1's results
+  were known when arm 2 ran, and its predictions were not.
