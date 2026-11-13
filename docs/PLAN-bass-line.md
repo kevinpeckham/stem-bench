@@ -104,7 +104,9 @@ sounding" was the truth's missing notes). Study 52 arm 1: the
 `hfbass` model (xavriley/hf_midi_transcription) is the better reader,
 64.3 % of bars right, three songs clear Study 48's bar; not recommended
 by the registered rules (Letter Lands, Interbellum). **Open:** (1)
-Kevin on Letter Lands' 4 ms notes; (2) arm 2, MuScriptor, after Kevin's
+answered 2026-11-13: the 4 ms notes are editing debris and stay out
+of the truth, so Study 52's result stands; a Letter Lands pair
+re-exported without them would remove the what-if; (2) arm 2, MuScriptor, after Kevin's
 Hugging Face login and licence acceptance; (3) if the line is to ship,
 the next study is `hfbass` on more songs and on a miked bass, and what
 it does with the short legato notes Interbellum is made of.

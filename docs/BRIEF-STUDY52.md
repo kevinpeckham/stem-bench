@@ -208,6 +208,17 @@ Lands is 79 % of bars right, not 51 %, and Basic Pitch is unchanged at
 76 %; Interbellum does not move. Whether a 4 ms note is a note is
 Kevin's to say; the registered result stands until he does.
 
+**Kevin's answer (2026-11-13): "4ms notes should be discarded, they are
+likely artifacts of the editing process in the DAW."** So the grader's
+rule is right for the truth and the registered result stands: Letter
+Lands 51 %, S52-D2 no. What the answer also says is that the Letter
+Lands stem carries about twenty sounds the part does not intend, because
+Logic's sampler played the debris when it rendered the stem. `hfbass`
+hears them and is marked down for it; that is a property of this
+fixture, not of a bass played by hand, and the 79 % remains a labelled
+what-if. A Letter Lands pair exported after deleting those notes would
+settle it with no what-if.
+
 ### Trusted bars (the `hfbass` line, shown when another reading agrees)
 
 | rule | bars shown | right | wrong | songs meeting all three conditions |
@@ -247,7 +258,8 @@ Five of six. (On the defective truth P2 would have failed.)
   mean gain is 15.9 points against the 10 required, but Letter Lands
   loses 25 where the rule allows 2. The loss is the 4 ms notes above;
   with them forgiven no song loses. That is a sensitivity, not the
-  result.
+  result. Kevin has since confirmed the 4 ms notes are debris,
+  so the truth is right and this decision is final for this corpus.
 - **S52-D3, trusted bars: no rule.** Agreement with Basic Pitch
   qualifies on four songs of six.
 
