@@ -1,0 +1,398 @@
+{
+	"note": "post-hoc, labelled: the registered attribution under the selected configuration, and bars by what fails them",
+	"selected": "o50-f30-n11-i0-m0",
+	"songs": {
+		"peaceful-dreams": {
+			"o50-f30-n11-i1-m1": {
+				"extras": {
+					"retrigger": 20,
+					"overOther": 2,
+					"tail": 13,
+					"silence": 24,
+					"shifted": 5,
+					"grid": 15
+				},
+				"misses": {
+					"absorbed": 15,
+					"late": 3,
+					"otherPitch": 24,
+					"nothing": 9,
+					"other": 2,
+					"shifted": 5,
+					"grid": 11
+				},
+				"bars": {
+					"right": 37,
+					"onlyExtras": 10,
+					"onlyMisses": 18,
+					"onlyPitch": 4,
+					"grid": 3,
+					"mixed": 37
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"extras": {
+					"retrigger": 19,
+					"overOther": 2,
+					"tail": 11,
+					"silence": 24,
+					"shifted": 5,
+					"grid": 12
+				},
+				"misses": {
+					"absorbed": 16,
+					"late": 3,
+					"otherPitch": 24,
+					"nothing": 10,
+					"other": 2,
+					"shifted": 5,
+					"grid": 11
+				},
+				"bars": {
+					"right": 38,
+					"onlyExtras": 8,
+					"onlyMisses": 18,
+					"onlyPitch": 5,
+					"grid": 3,
+					"mixed": 37
+				}
+			}
+		},
+		"interbellum": {
+			"o50-f30-n11-i1-m1": {
+				"extras": {
+					"retrigger": 10,
+					"overOther": 6,
+					"tail": 11,
+					"silence": 28,
+					"shifted": 10,
+					"grid": 7
+				},
+				"misses": {
+					"absorbed": 33,
+					"late": 2,
+					"otherPitch": 13,
+					"nothing": 4,
+					"other": 13,
+					"shifted": 10,
+					"grid": 3
+				},
+				"bars": {
+					"right": 18,
+					"onlyExtras": 15,
+					"onlyMisses": 8,
+					"onlyPitch": 0,
+					"grid": 2,
+					"mixed": 26
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"extras": {
+					"retrigger": 8,
+					"overOther": 6,
+					"tail": 10,
+					"silence": 22,
+					"shifted": 10,
+					"grid": 6
+				},
+				"misses": {
+					"absorbed": 33,
+					"late": 3,
+					"otherPitch": 15,
+					"nothing": 6,
+					"other": 14,
+					"shifted": 10,
+					"grid": 3
+				},
+				"bars": {
+					"right": 22,
+					"onlyExtras": 11,
+					"onlyMisses": 9,
+					"onlyPitch": 0,
+					"grid": 1,
+					"mixed": 26
+				}
+			}
+		},
+		"letter-lands": {
+			"o50-f30-n11-i1-m1": {
+				"extras": {
+					"retrigger": 9,
+					"overOther": 4,
+					"tail": 13,
+					"silence": 18,
+					"shifted": 1,
+					"grid": 8
+				},
+				"misses": {
+					"absorbed": 1,
+					"late": 0,
+					"otherPitch": 1,
+					"nothing": 3,
+					"other": 0,
+					"shifted": 1,
+					"grid": 8
+				},
+				"bars": {
+					"right": 48,
+					"onlyExtras": 13,
+					"onlyMisses": 1,
+					"onlyPitch": 0,
+					"grid": 2,
+					"mixed": 4
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"extras": {
+					"retrigger": 7,
+					"overOther": 4,
+					"tail": 11,
+					"silence": 16,
+					"shifted": 1,
+					"grid": 8
+				},
+				"misses": {
+					"absorbed": 1,
+					"late": 0,
+					"otherPitch": 1,
+					"nothing": 3,
+					"other": 0,
+					"shifted": 1,
+					"grid": 8
+				},
+				"bars": {
+					"right": 52,
+					"onlyExtras": 8,
+					"onlyMisses": 1,
+					"onlyPitch": 0,
+					"grid": 2,
+					"mixed": 5
+				}
+			}
+		},
+		"eat-all-the-clocks": {
+			"o50-f30-n11-i1-m1": {
+				"extras": {
+					"retrigger": 51,
+					"overOther": 2,
+					"tail": 5,
+					"silence": 9,
+					"shifted": 5,
+					"grid": 5
+				},
+				"misses": {
+					"absorbed": 2,
+					"late": 5,
+					"otherPitch": 9,
+					"nothing": 3,
+					"other": 0,
+					"shifted": 5,
+					"grid": 4
+				},
+				"bars": {
+					"right": 25,
+					"onlyExtras": 15,
+					"onlyMisses": 2,
+					"onlyPitch": 3,
+					"grid": 1,
+					"mixed": 25
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"extras": {
+					"retrigger": 34,
+					"overOther": 1,
+					"tail": 2,
+					"silence": 5,
+					"shifted": 5,
+					"grid": 0
+				},
+				"misses": {
+					"absorbed": 2,
+					"late": 5,
+					"otherPitch": 9,
+					"nothing": 7,
+					"other": 0,
+					"shifted": 5,
+					"grid": 0
+				},
+				"bars": {
+					"right": 30,
+					"onlyExtras": 11,
+					"onlyMisses": 4,
+					"onlyPitch": 5,
+					"grid": 0,
+					"mixed": 21
+				}
+			}
+		},
+		"downline": {
+			"o50-f30-n11-i1-m1": {
+				"extras": {
+					"retrigger": 47,
+					"overOther": 13,
+					"tail": 30,
+					"silence": 46,
+					"shifted": 11,
+					"grid": 60
+				},
+				"misses": {
+					"absorbed": 2,
+					"late": 5,
+					"otherPitch": 23,
+					"nothing": 9,
+					"other": 2,
+					"shifted": 11,
+					"grid": 47
+				},
+				"bars": {
+					"right": 54,
+					"onlyExtras": 61,
+					"onlyMisses": 16,
+					"onlyPitch": 0,
+					"grid": 23,
+					"mixed": 32
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"extras": {
+					"retrigger": 9,
+					"overOther": 13,
+					"tail": 30,
+					"silence": 30,
+					"shifted": 11,
+					"grid": 31
+				},
+				"misses": {
+					"absorbed": 1,
+					"late": 6,
+					"otherPitch": 23,
+					"nothing": 9,
+					"other": 3,
+					"shifted": 11,
+					"grid": 32
+				},
+				"bars": {
+					"right": 85,
+					"onlyExtras": 38,
+					"onlyMisses": 22,
+					"onlyPitch": 1,
+					"grid": 14,
+					"mixed": 26
+				}
+			}
+		},
+		"mop-heart": {
+			"o50-f30-n11-i1-m1": {
+				"extras": {
+					"retrigger": 37,
+					"overOther": 9,
+					"tail": 1,
+					"silence": 8,
+					"shifted": 27,
+					"grid": 12
+				},
+				"misses": {
+					"absorbed": 5,
+					"late": 0,
+					"otherPitch": 1,
+					"nothing": 0,
+					"other": 0,
+					"shifted": 27,
+					"grid": 11
+				},
+				"bars": {
+					"right": 37,
+					"onlyExtras": 12,
+					"onlyMisses": 1,
+					"onlyPitch": 1,
+					"grid": 5,
+					"mixed": 39
+				}
+			},
+			"o50-f30-n11-i0-m0": {
+				"extras": {
+					"retrigger": 30,
+					"overOther": 9,
+					"tail": 1,
+					"silence": 3,
+					"shifted": 27,
+					"grid": 13
+				},
+				"misses": {
+					"absorbed": 5,
+					"late": 0,
+					"otherPitch": 1,
+					"nothing": 0,
+					"other": 0,
+					"shifted": 27,
+					"grid": 11
+				},
+				"bars": {
+					"right": 38,
+					"onlyExtras": 10,
+					"onlyMisses": 2,
+					"onlyPitch": 2,
+					"grid": 6,
+					"mixed": 37
+				}
+			}
+		}
+	},
+	"totals": {
+		"o50-f30-n11-i1-m1": {
+			"extras": {
+				"retrigger": 174,
+				"overOther": 36,
+				"tail": 73,
+				"silence": 133,
+				"shifted": 59,
+				"grid": 107
+			},
+			"misses": {
+				"absorbed": 58,
+				"late": 15,
+				"otherPitch": 71,
+				"nothing": 28,
+				"other": 17,
+				"shifted": 59,
+				"grid": 84
+			},
+			"bars": {
+				"right": 219,
+				"onlyExtras": 126,
+				"onlyMisses": 46,
+				"onlyPitch": 8,
+				"grid": 36,
+				"mixed": 163
+			}
+		},
+		"o50-f30-n11-i0-m0": {
+			"extras": {
+				"retrigger": 107,
+				"overOther": 35,
+				"tail": 65,
+				"silence": 100,
+				"shifted": 59,
+				"grid": 70
+			},
+			"misses": {
+				"absorbed": 58,
+				"late": 17,
+				"otherPitch": 73,
+				"nothing": 35,
+				"other": 19,
+				"shifted": 59,
+				"grid": 65
+			},
+			"bars": {
+				"right": 265,
+				"onlyExtras": 86,
+				"onlyMisses": 56,
+				"onlyPitch": 13,
+				"grid": 26,
+				"mixed": 152
+			}
+		}
+	}
+}

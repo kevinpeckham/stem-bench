@@ -63,6 +63,10 @@ def midi_notes(path: Path) -> dict:
             events.append((tick, ti, x))
     events.sort(key=lambda e: e[0])
     tempo, last_tick, last_time = 500000, 0, 0.0
+    # Notes of one pitch are paired first in, first out. A DAW writing two notes of one pitch back to
+    # back may put the second note's on before the first note's off at the same tick; pairing each off
+    # with the latest on (as this parser did until 2026-11-13) then loses the first note and gives the
+    # second no length. See docs/BRIEF-STUDY52.md, "The truth's defect".
     on, notes, tempos, sigs, names = {}, [], [], [], {}
     for tick, ti, x in events:
         t = last_time + mido.tick2second(tick - last_tick, m.ticks_per_beat, tempo)
@@ -75,11 +79,11 @@ def midi_notes(path: Path) -> dict:
         elif x.type == "track_name":
             names[ti] = x.name
         elif x.type == "note_on" and x.velocity > 0:
-            on[(ti, x.channel, x.note)] = (t, x.velocity)
+            on.setdefault((ti, x.channel, x.note), []).append((t, x.velocity))
         elif x.type in ("note_off", "note_on"):
             k = (ti, x.channel, x.note)
-            if k in on:
-                s, v = on.pop(k)
+            if on.get(k):
+                s, v = on[k].pop(0)
                 notes.append({"track": ti, "start": round(s, 4), "end": round(t, 4), "pitch": x.note, "vel": v})
     notes.sort(key=lambda n: n["start"])
     # distinct tempi (a DAW repeats the same tempo at region starts)

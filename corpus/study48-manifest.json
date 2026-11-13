@@ -34,13 +34,13 @@
 					"sig": "4/4"
 				}
 			],
-			"midiNotes": 429,
+			"midiNotes": 454,
 			"midiPitchRange": [
 				36,
 				64
 			],
 			"midiSpan": [
-				21.7241,
+				21.5345,
 				206.6948
 			],
 			"basicPitchNotes": 694,
@@ -51,11 +51,11 @@
 				"integral": true
 			},
 			"alignment": {
-				"inSpan": 429,
-				"onsetMatched": 357,
-				"exact": 190,
-				"octaveOff": 159,
-				"classRight": 349,
+				"inSpan": 454,
+				"onsetMatched": 380,
+				"exact": 204,
+				"octaveOff": 167,
+				"classRight": 371,
 				"medianOnsetErr": 0.0058
 			},
 			"windows": [
@@ -109,7 +109,20 @@
 				-18.2,
 				-24.82,
 				-14.89
-			]
+			],
+			"midiNotesFirstParse": {
+				"notes": 429,
+				"zeroLength": 22,
+				"alignment": {
+					"inSpan": 429,
+					"onsetMatched": 357,
+					"exact": 190,
+					"octaveOff": 159,
+					"classRight": 349,
+					"medianOnsetErr": 0.0058
+				},
+				"note": "the intake's parser until 2026-11-13 paired each note-off with the latest note-on of its pitch; back-to-back notes of one pitch lost the first note and left the second with no length"
+			}
 		},
 		"interbellum": {
 			"label": "Bass Guitar",
@@ -144,7 +157,7 @@
 					"sig": "4/4"
 				}
 			],
-			"midiNotes": 456,
+			"midiNotes": 491,
 			"midiPitchRange": [
 				43,
 				69
@@ -161,11 +174,11 @@
 				"integral": true
 			},
 			"alignment": {
-				"inSpan": 456,
-				"onsetMatched": 324,
+				"inSpan": 491,
+				"onsetMatched": 354,
 				"exact": 67,
-				"octaveOff": 256,
-				"classRight": 323,
+				"octaveOff": 286,
+				"classRight": 353,
 				"medianOnsetErr": 0.0069
 			},
 			"windows": [
@@ -207,7 +220,20 @@
 				2.11,
 				-3.11,
 				0.02
-			]
+			],
+			"midiNotesFirstParse": {
+				"notes": 456,
+				"zeroLength": 36,
+				"alignment": {
+					"inSpan": 456,
+					"onsetMatched": 324,
+					"exact": 67,
+					"octaveOff": 256,
+					"classRight": 323,
+					"medianOnsetErr": 0.0069
+				},
+				"note": "the intake's parser until 2026-11-13 paired each note-off with the latest note-on of its pitch; back-to-back notes of one pitch lost the first note and left the second with no length"
+			}
 		},
 		"letter-lands": {
 			"label": "Bass Guitar",
@@ -241,7 +267,7 @@
 					"sig": "4/4"
 				}
 			],
-			"midiNotes": 305,
+			"midiNotes": 315,
 			"midiPitchRange": [
 				42,
 				61
@@ -258,12 +284,12 @@
 				"integral": true
 			},
 			"alignment": {
-				"inSpan": 304,
-				"onsetMatched": 278,
-				"exact": 99,
-				"octaveOff": 178,
-				"classRight": 277,
-				"medianOnsetErr": 0.0226
+				"inSpan": 314,
+				"onsetMatched": 288,
+				"exact": 100,
+				"octaveOff": 187,
+				"classRight": 287,
+				"medianOnsetErr": 0.0222
 			},
 			"windows": [
 				{
@@ -304,7 +330,20 @@
 				1.82,
 				3.64,
 				-3.63
-			]
+			],
+			"midiNotesFirstParse": {
+				"notes": 305,
+				"zeroLength": 15,
+				"alignment": {
+					"inSpan": 304,
+					"onsetMatched": 278,
+					"exact": 99,
+					"octaveOff": 178,
+					"classRight": 277,
+					"medianOnsetErr": 0.0226
+				},
+				"note": "the intake's parser until 2026-11-13 paired each note-off with the latest note-on of its pitch; back-to-back notes of one pitch lost the first note and left the second with no length"
+			}
 		},
 		"eat-all-the-clocks": {
 			"label": "Bass Guitar",
@@ -338,7 +377,7 @@
 					"sig": "4/4"
 				}
 			],
-			"midiNotes": 254,
+			"midiNotes": 264,
 			"midiPitchRange": [
 				40,
 				62
@@ -355,12 +394,12 @@
 				"integral": true
 			},
 			"alignment": {
-				"inSpan": 254,
-				"onsetMatched": 232,
-				"exact": 86,
-				"octaveOff": 145,
-				"classRight": 231,
-				"medianOnsetErr": 0.0091
+				"inSpan": 264,
+				"onsetMatched": 235,
+				"exact": 87,
+				"octaveOff": 147,
+				"classRight": 234,
+				"medianOnsetErr": 0.009
 			},
 			"windows": [
 				{
@@ -401,7 +440,20 @@
 				-0.5,
 				2.01,
 				8.01
-			]
+			],
+			"midiNotesFirstParse": {
+				"notes": 254,
+				"zeroLength": 4,
+				"alignment": {
+					"inSpan": 254,
+					"onsetMatched": 232,
+					"exact": 86,
+					"octaveOff": 145,
+					"classRight": 231,
+					"medianOnsetErr": 0.0091
+				},
+				"note": "the intake's parser until 2026-11-13 paired each note-off with the latest note-on of its pitch; back-to-back notes of one pitch lost the first note and left the second with no length"
+			}
 		},
 		"downline": {
 			"band": "Ghost Ghost",
@@ -456,7 +508,7 @@
 					"sig": "3/4"
 				}
 			],
-			"midiNotes": 401,
+			"midiNotes": 438,
 			"midiPitchRange": [
 				43,
 				64
@@ -473,11 +525,11 @@
 				"integral": true
 			},
 			"alignment": {
-				"inSpan": 401,
-				"onsetMatched": 348,
-				"exact": 96,
-				"octaveOff": 245,
-				"classRight": 341,
+				"inSpan": 438,
+				"onsetMatched": 384,
+				"exact": 111,
+				"octaveOff": 266,
+				"classRight": 377,
 				"medianOnsetErr": 0.0086
 			},
 			"windows": [
@@ -533,7 +585,20 @@
 				-3.33
 			],
 			"mix": "corpus-ghostghost/downline/mix.mp3",
-			"mixSource": "the band's full mix (Downline 2026-11-11 KP 2.mp3), not an app render; beats by the bench's Beat This small0 (corpus/study48-extra-beats.json)"
+			"mixSource": "the band's full mix (Downline 2026-11-11 KP 2.mp3), not an app render; beats by the bench's Beat This small0 (corpus/study48-extra-beats.json)",
+			"midiNotesFirstParse": {
+				"notes": 401,
+				"zeroLength": 40,
+				"alignment": {
+					"inSpan": 401,
+					"onsetMatched": 348,
+					"exact": 96,
+					"octaveOff": 245,
+					"classRight": 341,
+					"medianOnsetErr": 0.0086
+				},
+				"note": "the intake's parser until 2026-11-13 paired each note-off with the latest note-on of its pitch; back-to-back notes of one pitch lost the first note and left the second with no length"
+			}
 		},
 		"mop-heart": {
 			"band": "MMKK",
@@ -568,7 +633,7 @@
 					"sig": "3/4"
 				}
 			],
-			"midiNotes": 336,
+			"midiNotes": 338,
 			"midiPitchRange": [
 				42,
 				64
@@ -585,7 +650,7 @@
 				"integral": false
 			},
 			"alignment": {
-				"inSpan": 336,
+				"inSpan": 338,
 				"onsetMatched": 329,
 				"exact": 58,
 				"octaveOff": 269,
@@ -625,7 +690,20 @@
 				-0.25,
 				-2.66,
 				0.55
-			]
+			],
+			"midiNotesFirstParse": {
+				"notes": 336,
+				"zeroLength": 2,
+				"alignment": {
+					"inSpan": 336,
+					"onsetMatched": 329,
+					"exact": 58,
+					"octaveOff": 269,
+					"classRight": 327,
+					"medianOnsetErr": 0.0161
+				},
+				"note": "the intake's parser until 2026-11-13 paired each note-off with the latest note-on of its pitch; back-to-back notes of one pitch lost the first note and left the second with no length"
+			}
 		}
 	}
 }

@@ -1,0 +1,1466 @@
+{
+	"registered": "docs/BRIEF-STUDY50.md",
+	"spend": 0,
+	"pipelines": {
+		"app": "o50-f30-n11-i1-m1",
+		"selected": "o50-f30-n11-i0-m0"
+	},
+	"bounds": {
+		"helps": {
+			"right": 0.7,
+			"wrong": 0.1
+		},
+		"d2": {
+			"gain": 0.1,
+			"worst": -0.02
+		}
+	},
+	"partA": {
+		"peaceful-dreams": {
+			"trackerBeats": 579,
+			"composerBeats": 616,
+			"trackerBeatsOnABeat": 579,
+			"composerBeatsUntracked": 37,
+			"trackerDownbeats": 149,
+			"composerDownbeats": 154,
+			"trackerDownbeatsOnADownbeat": 148,
+			"composerDownbeatsTracked": 148,
+			"beatsAddedByFilling": 37,
+			"truthNotes": 429,
+			"truthOnAComposerSixteenth": 426,
+			"truthTripletBarsPerBarRule": {
+				"tracker": 2,
+				"filled": 2,
+				"composer": 0
+			}
+		},
+		"interbellum": {
+			"trackerBeats": 255,
+			"composerBeats": 256,
+			"trackerBeatsOnABeat": 215,
+			"composerBeatsUntracked": 41,
+			"trackerDownbeats": 70,
+			"composerDownbeats": 64,
+			"trackerDownbeatsOnADownbeat": 53,
+			"composerDownbeatsTracked": 53,
+			"beatsAddedByFilling": 3,
+			"truthNotes": 456,
+			"truthOnAComposerSixteenth": 435,
+			"truthTripletBarsPerBarRule": {
+				"tracker": 1,
+				"filled": 1,
+				"composer": 1
+			}
+		},
+		"letter-lands": {
+			"trackerBeats": 264,
+			"composerBeats": 289,
+			"trackerBeatsOnABeat": 264,
+			"composerBeatsUntracked": 25,
+			"trackerDownbeats": 69,
+			"composerDownbeats": 73,
+			"trackerDownbeatsOnADownbeat": 69,
+			"composerDownbeatsTracked": 69,
+			"beatsAddedByFilling": 33,
+			"truthNotes": 305,
+			"truthOnAComposerSixteenth": 300,
+			"truthTripletBarsPerBarRule": {
+				"tracker": 0,
+				"filled": 0,
+				"composer": 2
+			}
+		},
+		"eat-all-the-clocks": {
+			"trackerBeats": 268,
+			"composerBeats": 268,
+			"trackerBeatsOnABeat": 268,
+			"composerBeatsUntracked": 0,
+			"trackerDownbeats": 73,
+			"composerDownbeats": 67,
+			"trackerDownbeatsOnADownbeat": 67,
+			"composerDownbeatsTracked": 67,
+			"beatsAddedByFilling": 0,
+			"truthNotes": 254,
+			"truthOnAComposerSixteenth": 253,
+			"truthTripletBarsPerBarRule": {
+				"tracker": 1,
+				"filled": 1,
+				"composer": 1
+			}
+		},
+		"downline": {
+			"trackerBeats": 563,
+			"composerBeats": 631,
+			"trackerBeatsOnABeat": 563,
+			"composerBeatsUntracked": 68,
+			"trackerDownbeats": 189,
+			"composerDownbeats": 160,
+			"trackerDownbeatsOnADownbeat": 91,
+			"composerDownbeatsTracked": 91,
+			"beatsAddedByFilling": 70,
+			"truthNotes": 401,
+			"truthOnAComposerSixteenth": 397,
+			"truthTripletBarsPerBarRule": {
+				"tracker": 11,
+				"filled": 13,
+				"composer": 13
+			}
+		},
+		"mop-heart": {
+			"trackerBeats": 374,
+			"composerBeats": 413,
+			"trackerBeatsOnABeat": 374,
+			"composerBeatsUntracked": 39,
+			"trackerDownbeats": 103,
+			"composerDownbeats": 138,
+			"trackerDownbeatsOnADownbeat": 19,
+			"composerDownbeatsTracked": 19,
+			"beatsAddedByFilling": 39,
+			"truthNotes": 336,
+			"truthOnAComposerSixteenth": 336,
+			"truthTripletBarsPerBarRule": {
+				"tracker": 2,
+				"filled": 2,
+				"composer": 2
+			}
+		}
+	},
+	"modes": {
+		"peaceful-dreams": {
+			"tracker": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"filled": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"composer": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			}
+		},
+		"interbellum": {
+			"tracker": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"filled": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"composer": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			}
+		},
+		"letter-lands": {
+			"tracker": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"filled": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"composer": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			}
+		},
+		"eat-all-the-clocks": {
+			"tracker": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"filled": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"composer": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			}
+		},
+		"downline": {
+			"tracker": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"filled": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"composer": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			}
+		},
+		"mop-heart": {
+			"tracker": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"filled": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			},
+			"composer": {
+				"truth": "straight",
+				"app": "straight",
+				"selected": "straight"
+			}
+		}
+	},
+	"cells": {
+		"peaceful-dreams": {
+			"tracker": {
+				"bar": {
+					"app": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 24,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 414,
+						"found": 335,
+						"matched": 301,
+						"extra": 79,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.7359413202933984
+					},
+					"selected": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 23,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 406,
+						"found": 333,
+						"matched": 299,
+						"extra": 73,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.7382716049382715
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 24,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 414,
+						"found": 343,
+						"matched": 307,
+						"extra": 71,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7506112469437654
+					},
+					"selected": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 24,
+						"wrong": 47,
+						"truthOnsets": 404,
+						"estOnsets": 406,
+						"found": 341,
+						"matched": 305,
+						"extra": 65,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7530864197530864
+					}
+				}
+			},
+			"filled": {
+				"bar": {
+					"app": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 24,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 414,
+						"found": 335,
+						"matched": 301,
+						"extra": 79,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.7359413202933984
+					},
+					"selected": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 23,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 406,
+						"found": 333,
+						"matched": 299,
+						"extra": 73,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.7382716049382715
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 109,
+						"right": 37,
+						"oneError": 24,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 414,
+						"found": 343,
+						"matched": 307,
+						"extra": 71,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7506112469437654
+					},
+					"selected": {
+						"bars": 109,
+						"right": 38,
+						"oneError": 24,
+						"wrong": 47,
+						"truthOnsets": 404,
+						"estOnsets": 406,
+						"found": 341,
+						"matched": 305,
+						"extra": 65,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7530864197530864
+					}
+				}
+			},
+			"composer": {
+				"bar": {
+					"app": {
+						"bars": 112,
+						"right": 38,
+						"oneError": 26,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 414,
+						"found": 342,
+						"matched": 309,
+						"extra": 72,
+						"gridDiffers": 1,
+						"truthTriplet": 0,
+						"estTriplet": 1,
+						"slotF": 0.7555012224938876
+					},
+					"selected": {
+						"bars": 112,
+						"right": 39,
+						"oneError": 27,
+						"wrong": 46,
+						"truthOnsets": 404,
+						"estOnsets": 406,
+						"found": 340,
+						"matched": 307,
+						"extra": 66,
+						"gridDiffers": 1,
+						"truthTriplet": 0,
+						"estTriplet": 1,
+						"slotF": 0.7580246913580247
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 112,
+						"right": 38,
+						"oneError": 26,
+						"wrong": 48,
+						"truthOnsets": 404,
+						"estOnsets": 414,
+						"found": 344,
+						"matched": 309,
+						"extra": 70,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7555012224938876
+					},
+					"selected": {
+						"bars": 112,
+						"right": 39,
+						"oneError": 27,
+						"wrong": 46,
+						"truthOnsets": 404,
+						"estOnsets": 406,
+						"found": 342,
+						"matched": 307,
+						"extra": 64,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7580246913580247
+					}
+				}
+			}
+		},
+		"interbellum": {
+			"tracker": {
+				"bar": {
+					"app": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 14,
+						"wrong": 37,
+						"truthOnsets": 391,
+						"estOnsets": 385,
+						"found": 313,
+						"matched": 307,
+						"extra": 72,
+						"gridDiffers": 2,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7912371134020618
+					},
+					"selected": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"estOnsets": 369,
+						"found": 307,
+						"matched": 301,
+						"extra": 62,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 0,
+						"slotF": 0.7921052631578948
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 15,
+						"wrong": 36,
+						"truthOnsets": 391,
+						"estOnsets": 385,
+						"found": 316,
+						"matched": 310,
+						"extra": 69,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7989690721649484
+					},
+					"selected": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"estOnsets": 369,
+						"found": 310,
+						"matched": 304,
+						"extra": 59,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7999999999999999
+					}
+				}
+			},
+			"filled": {
+				"bar": {
+					"app": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 14,
+						"wrong": 37,
+						"truthOnsets": 391,
+						"estOnsets": 385,
+						"found": 313,
+						"matched": 307,
+						"extra": 72,
+						"gridDiffers": 2,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7912371134020618
+					},
+					"selected": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"estOnsets": 369,
+						"found": 307,
+						"matched": 301,
+						"extra": 62,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 0,
+						"slotF": 0.7921052631578948
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 69,
+						"right": 18,
+						"oneError": 15,
+						"wrong": 36,
+						"truthOnsets": 391,
+						"estOnsets": 385,
+						"found": 316,
+						"matched": 310,
+						"extra": 69,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7989690721649484
+					},
+					"selected": {
+						"bars": 69,
+						"right": 22,
+						"oneError": 12,
+						"wrong": 35,
+						"truthOnsets": 391,
+						"estOnsets": 369,
+						"found": 310,
+						"matched": 304,
+						"extra": 59,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7999999999999999
+					}
+				}
+			},
+			"composer": {
+				"bar": {
+					"app": {
+						"bars": 63,
+						"right": 11,
+						"oneError": 12,
+						"wrong": 40,
+						"truthOnsets": 392,
+						"estOnsets": 384,
+						"found": 311,
+						"matched": 308,
+						"extra": 73,
+						"gridDiffers": 3,
+						"truthTriplet": 1,
+						"estTriplet": 2,
+						"slotF": 0.7938144329896908
+					},
+					"selected": {
+						"bars": 63,
+						"right": 16,
+						"oneError": 10,
+						"wrong": 37,
+						"truthOnsets": 392,
+						"estOnsets": 368,
+						"found": 306,
+						"matched": 303,
+						"extra": 62,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7973684210526316
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 63,
+						"right": 11,
+						"oneError": 14,
+						"wrong": 38,
+						"truthOnsets": 392,
+						"estOnsets": 384,
+						"found": 313,
+						"matched": 310,
+						"extra": 71,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7989690721649486
+					},
+					"selected": {
+						"bars": 63,
+						"right": 16,
+						"oneError": 10,
+						"wrong": 37,
+						"truthOnsets": 392,
+						"estOnsets": 368,
+						"found": 306,
+						"matched": 303,
+						"extra": 62,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7973684210526316
+					}
+				}
+			}
+		},
+		"letter-lands": {
+			"tracker": {
+				"bar": {
+					"app": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"estOnsets": 308,
+						"found": 255,
+						"matched": 252,
+						"extra": 53,
+						"gridDiffers": 2,
+						"truthTriplet": 0,
+						"estTriplet": 2,
+						"slotF": 0.8734835355285963
+					},
+					"selected": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"estOnsets": 302,
+						"found": 255,
+						"matched": 250,
+						"extra": 47,
+						"gridDiffers": 2,
+						"truthTriplet": 0,
+						"estTriplet": 2,
+						"slotF": 0.8756567425569176
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"estOnsets": 308,
+						"found": 261,
+						"matched": 258,
+						"extra": 47,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8942807625649912
+					},
+					"selected": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"estOnsets": 302,
+						"found": 261,
+						"matched": 256,
+						"extra": 41,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8966725043782838
+					}
+				}
+			},
+			"filled": {
+				"bar": {
+					"app": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"estOnsets": 308,
+						"found": 255,
+						"matched": 252,
+						"extra": 53,
+						"gridDiffers": 2,
+						"truthTriplet": 0,
+						"estTriplet": 2,
+						"slotF": 0.8734835355285963
+					},
+					"selected": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"estOnsets": 302,
+						"found": 255,
+						"matched": 250,
+						"extra": 47,
+						"gridDiffers": 2,
+						"truthTriplet": 0,
+						"estTriplet": 2,
+						"slotF": 0.8756567425569176
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 68,
+						"right": 48,
+						"oneError": 8,
+						"wrong": 12,
+						"truthOnsets": 269,
+						"estOnsets": 308,
+						"found": 261,
+						"matched": 258,
+						"extra": 47,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8942807625649912
+					},
+					"selected": {
+						"bars": 68,
+						"right": 52,
+						"oneError": 5,
+						"wrong": 11,
+						"truthOnsets": 269,
+						"estOnsets": 302,
+						"found": 261,
+						"matched": 256,
+						"extra": 41,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.8966725043782838
+					}
+				}
+			},
+			"composer": {
+				"bar": {
+					"app": {
+						"bars": 72,
+						"right": 49,
+						"oneError": 11,
+						"wrong": 12,
+						"truthOnsets": 270,
+						"estOnsets": 305,
+						"found": 253,
+						"matched": 251,
+						"extra": 52,
+						"gridDiffers": 2,
+						"truthTriplet": 2,
+						"estTriplet": 0,
+						"slotF": 0.8730434782608695
+					},
+					"selected": {
+						"bars": 72,
+						"right": 54,
+						"oneError": 6,
+						"wrong": 12,
+						"truthOnsets": 270,
+						"estOnsets": 299,
+						"found": 251,
+						"matched": 247,
+						"extra": 48,
+						"gridDiffers": 3,
+						"truthTriplet": 2,
+						"estTriplet": 1,
+						"slotF": 0.8681898066783832
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 72,
+						"right": 51,
+						"oneError": 11,
+						"wrong": 10,
+						"truthOnsets": 270,
+						"estOnsets": 305,
+						"found": 261,
+						"matched": 259,
+						"extra": 44,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.9008695652173913
+					},
+					"selected": {
+						"bars": 72,
+						"right": 56,
+						"oneError": 7,
+						"wrong": 9,
+						"truthOnsets": 270,
+						"estOnsets": 299,
+						"found": 261,
+						"matched": 257,
+						"extra": 38,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.9033391915641475
+					}
+				}
+			}
+		},
+		"eat-all-the-clocks": {
+			"tracker": {
+				"bar": {
+					"app": {
+						"bars": 71,
+						"right": 25,
+						"oneError": 14,
+						"wrong": 32,
+						"truthOnsets": 250,
+						"estOnsets": 299,
+						"found": 222,
+						"matched": 202,
+						"extra": 77,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 2,
+						"slotF": 0.7358834244080146
+					},
+					"selected": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 15,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"estOnsets": 269,
+						"found": 222,
+						"matched": 202,
+						"extra": 47,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7784200385356455
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 71,
+						"right": 25,
+						"oneError": 15,
+						"wrong": 31,
+						"truthOnsets": 250,
+						"estOnsets": 299,
+						"found": 226,
+						"matched": 206,
+						"extra": 73,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7504553734061931
+					},
+					"selected": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 15,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"estOnsets": 269,
+						"found": 222,
+						"matched": 202,
+						"extra": 47,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7784200385356455
+					}
+				}
+			},
+			"filled": {
+				"bar": {
+					"app": {
+						"bars": 71,
+						"right": 25,
+						"oneError": 14,
+						"wrong": 32,
+						"truthOnsets": 250,
+						"estOnsets": 299,
+						"found": 222,
+						"matched": 202,
+						"extra": 77,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 2,
+						"slotF": 0.7358834244080146
+					},
+					"selected": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 15,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"estOnsets": 269,
+						"found": 222,
+						"matched": 202,
+						"extra": 47,
+						"gridDiffers": 0,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7784200385356455
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 71,
+						"right": 25,
+						"oneError": 15,
+						"wrong": 31,
+						"truthOnsets": 250,
+						"estOnsets": 299,
+						"found": 226,
+						"matched": 206,
+						"extra": 73,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7504553734061931
+					},
+					"selected": {
+						"bars": 71,
+						"right": 30,
+						"oneError": 15,
+						"wrong": 26,
+						"truthOnsets": 250,
+						"estOnsets": 269,
+						"found": 222,
+						"matched": 202,
+						"extra": 47,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7784200385356455
+					}
+				}
+			},
+			"composer": {
+				"bar": {
+					"app": {
+						"bars": 66,
+						"right": 24,
+						"oneError": 12,
+						"wrong": 30,
+						"truthOnsets": 250,
+						"estOnsets": 301,
+						"found": 223,
+						"matched": 201,
+						"extra": 78,
+						"gridDiffers": 2,
+						"truthTriplet": 1,
+						"estTriplet": 1,
+						"slotF": 0.7295825771324865
+					},
+					"selected": {
+						"bars": 66,
+						"right": 28,
+						"oneError": 11,
+						"wrong": 27,
+						"truthOnsets": 250,
+						"estOnsets": 271,
+						"found": 222,
+						"matched": 200,
+						"extra": 49,
+						"gridDiffers": 1,
+						"truthTriplet": 1,
+						"estTriplet": 0,
+						"slotF": 0.7677543186180422
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 66,
+						"right": 24,
+						"oneError": 13,
+						"wrong": 29,
+						"truthOnsets": 250,
+						"estOnsets": 301,
+						"found": 228,
+						"matched": 206,
+						"extra": 73,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7477313974591652
+					},
+					"selected": {
+						"bars": 66,
+						"right": 28,
+						"oneError": 11,
+						"wrong": 27,
+						"truthOnsets": 250,
+						"estOnsets": 271,
+						"found": 222,
+						"matched": 200,
+						"extra": 49,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7677543186180422
+					}
+				}
+			}
+		},
+		"downline": {
+			"tracker": {
+				"bar": {
+					"app": {
+						"bars": 186,
+						"right": 54,
+						"oneError": 48,
+						"wrong": 84,
+						"truthOnsets": 358,
+						"estOnsets": 466,
+						"found": 259,
+						"matched": 250,
+						"extra": 207,
+						"gridDiffers": 23,
+						"truthTriplet": 11,
+						"estTriplet": 12,
+						"slotF": 0.6067961165048544
+					},
+					"selected": {
+						"bars": 186,
+						"right": 85,
+						"oneError": 41,
+						"wrong": 60,
+						"truthOnsets": 358,
+						"estOnsets": 397,
+						"found": 273,
+						"matched": 265,
+						"extra": 124,
+						"gridDiffers": 14,
+						"truthTriplet": 11,
+						"estTriplet": 5,
+						"slotF": 0.7019867549668874
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 186,
+						"right": 56,
+						"oneError": 60,
+						"wrong": 70,
+						"truthOnsets": 359,
+						"estOnsets": 466,
+						"found": 294,
+						"matched": 283,
+						"extra": 172,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.686060606060606
+					},
+					"selected": {
+						"bars": 186,
+						"right": 86,
+						"oneError": 46,
+						"wrong": 54,
+						"truthOnsets": 359,
+						"estOnsets": 397,
+						"found": 293,
+						"matched": 283,
+						"extra": 104,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7486772486772486
+					}
+				}
+			},
+			"filled": {
+				"bar": {
+					"app": {
+						"bars": 186,
+						"right": 53,
+						"oneError": 49,
+						"wrong": 84,
+						"truthOnsets": 360,
+						"estOnsets": 466,
+						"found": 247,
+						"matched": 238,
+						"extra": 219,
+						"gridDiffers": 25,
+						"truthTriplet": 13,
+						"estTriplet": 12,
+						"slotF": 0.576271186440678
+					},
+					"selected": {
+						"bars": 186,
+						"right": 83,
+						"oneError": 37,
+						"wrong": 66,
+						"truthOnsets": 360,
+						"estOnsets": 397,
+						"found": 260,
+						"matched": 251,
+						"extra": 137,
+						"gridDiffers": 18,
+						"truthTriplet": 13,
+						"estTriplet": 7,
+						"slotF": 0.6631439894319683
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 186,
+						"right": 55,
+						"oneError": 59,
+						"wrong": 72,
+						"truthOnsets": 361,
+						"estOnsets": 467,
+						"found": 290,
+						"matched": 279,
+						"extra": 177,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.6739130434782608
+					},
+					"selected": {
+						"bars": 186,
+						"right": 84,
+						"oneError": 43,
+						"wrong": 59,
+						"truthOnsets": 361,
+						"estOnsets": 398,
+						"found": 290,
+						"matched": 279,
+						"extra": 108,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7351778656126482
+					}
+				}
+			},
+			"composer": {
+				"bar": {
+					"app": {
+						"bars": 156,
+						"right": 41,
+						"oneError": 35,
+						"wrong": 80,
+						"truthOnsets": 361,
+						"estOnsets": 468,
+						"found": 257,
+						"matched": 250,
+						"extra": 211,
+						"gridDiffers": 19,
+						"truthTriplet": 13,
+						"estTriplet": 6,
+						"slotF": 0.6031363088057902
+					},
+					"selected": {
+						"bars": 156,
+						"right": 63,
+						"oneError": 27,
+						"wrong": 66,
+						"truthOnsets": 361,
+						"estOnsets": 398,
+						"found": 260,
+						"matched": 252,
+						"extra": 138,
+						"gridDiffers": 16,
+						"truthTriplet": 13,
+						"estTriplet": 3,
+						"slotF": 0.6640316205533597
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 156,
+						"right": 41,
+						"oneError": 41,
+						"wrong": 74,
+						"truthOnsets": 361,
+						"estOnsets": 468,
+						"found": 295,
+						"matched": 283,
+						"extra": 173,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.6827503015681543
+					},
+					"selected": {
+						"bars": 156,
+						"right": 63,
+						"oneError": 36,
+						"wrong": 57,
+						"truthOnsets": 361,
+						"estOnsets": 399,
+						"found": 295,
+						"matched": 283,
+						"extra": 104,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7447368421052631
+					}
+				}
+			}
+		},
+		"mop-heart": {
+			"tracker": {
+				"bar": {
+					"app": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 10,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"estOnsets": 383,
+						"found": 289,
+						"matched": 266,
+						"extra": 94,
+						"gridDiffers": 5,
+						"truthTriplet": 2,
+						"estTriplet": 3,
+						"slotF": 0.7430167597765363
+					},
+					"selected": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 12,
+						"wrong": 45,
+						"truthOnsets": 333,
+						"estOnsets": 372,
+						"found": 289,
+						"matched": 266,
+						"extra": 83,
+						"gridDiffers": 6,
+						"truthTriplet": 2,
+						"estTriplet": 4,
+						"slotF": 0.7546099290780142
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 10,
+						"wrong": 48,
+						"truthOnsets": 333,
+						"estOnsets": 383,
+						"found": 295,
+						"matched": 271,
+						"extra": 88,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7569832402234637
+					},
+					"selected": {
+						"bars": 95,
+						"right": 38,
+						"oneError": 13,
+						"wrong": 44,
+						"truthOnsets": 333,
+						"estOnsets": 372,
+						"found": 295,
+						"matched": 270,
+						"extra": 77,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7659574468085107
+					}
+				}
+			},
+			"filled": {
+				"bar": {
+					"app": {
+						"bars": 95,
+						"right": 35,
+						"oneError": 10,
+						"wrong": 50,
+						"truthOnsets": 333,
+						"estOnsets": 383,
+						"found": 278,
+						"matched": 257,
+						"extra": 105,
+						"gridDiffers": 6,
+						"truthTriplet": 2,
+						"estTriplet": 4,
+						"slotF": 0.717877094972067
+					},
+					"selected": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 11,
+						"wrong": 47,
+						"truthOnsets": 333,
+						"estOnsets": 371,
+						"found": 278,
+						"matched": 257,
+						"extra": 93,
+						"gridDiffers": 7,
+						"truthTriplet": 2,
+						"estTriplet": 5,
+						"slotF": 0.7301136363636364
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 95,
+						"right": 35,
+						"oneError": 10,
+						"wrong": 50,
+						"truthOnsets": 333,
+						"estOnsets": 384,
+						"found": 290,
+						"matched": 267,
+						"extra": 94,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7447698744769874
+					},
+					"selected": {
+						"bars": 95,
+						"right": 37,
+						"oneError": 12,
+						"wrong": 46,
+						"truthOnsets": 333,
+						"estOnsets": 372,
+						"found": 290,
+						"matched": 266,
+						"extra": 82,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7546099290780142
+					}
+				}
+			},
+			"composer": {
+				"bar": {
+					"app": {
+						"bars": 128,
+						"right": 58,
+						"oneError": 13,
+						"wrong": 57,
+						"truthOnsets": 334,
+						"estOnsets": 380,
+						"found": 282,
+						"matched": 263,
+						"extra": 98,
+						"gridDiffers": 7,
+						"truthTriplet": 2,
+						"estTriplet": 5,
+						"slotF": 0.7366946778711485
+					},
+					"selected": {
+						"bars": 128,
+						"right": 61,
+						"oneError": 11,
+						"wrong": 56,
+						"truthOnsets": 334,
+						"estOnsets": 370,
+						"found": 282,
+						"matched": 263,
+						"extra": 88,
+						"gridDiffers": 7,
+						"truthTriplet": 2,
+						"estTriplet": 5,
+						"slotF": 0.7471590909090909
+					}
+				},
+				"song": {
+					"app": {
+						"bars": 128,
+						"right": 58,
+						"oneError": 15,
+						"wrong": 55,
+						"truthOnsets": 334,
+						"estOnsets": 382,
+						"found": 294,
+						"matched": 272,
+						"extra": 88,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.759776536312849
+					},
+					"selected": {
+						"bars": 128,
+						"right": 61,
+						"oneError": 14,
+						"wrong": 53,
+						"truthOnsets": 334,
+						"estOnsets": 370,
+						"found": 294,
+						"matched": 271,
+						"extra": 76,
+						"gridDiffers": 0,
+						"truthTriplet": 0,
+						"estTriplet": 0,
+						"slotF": 0.7698863636363635
+					}
+				}
+			}
+		}
+	},
+	"gains": {
+		"rule": {
+			"peaceful-dreams": 0,
+			"interbellum": 0,
+			"letter-lands": 0,
+			"eat-all-the-clocks": 0,
+			"downline": 0.005376344086021501,
+			"mop-heart": 0
+		},
+		"composer": {
+			"peaceful-dreams": -0.00040956749672349524,
+			"interbellum": -0.06487232574189095,
+			"letter-lands": 0.013071895424836666,
+			"eat-all-the-clocks": 0.0017072129748186282,
+			"downline": -0.058519437551695586,
+			"mop-heart": 0.07656249999999998
+		},
+		"filled": {
+			"peaceful-dreams": 0,
+			"interbellum": 0,
+			"letter-lands": 0,
+			"eat-all-the-clocks": 0,
+			"downline": -0.010752688172043001,
+			"mop-heart": -0.010526315789473717
+		}
+	},
+	"decisions": {
+		"d1": false,
+		"d2": false,
+		"filledShare": 0,
+		"clears": []
+	}
+}
