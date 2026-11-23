@@ -55,7 +55,11 @@
 		"study14:run": "bun scripts/run-study14.ts",
 		"study14:arm-e": "bun scripts/run-study14-reconcile.ts",
 		"study14:analyze": "bun scripts/analyze-study14.ts",
-		"study15:run": "bun scripts/run-study15.ts"
+		"study15:run": "bun scripts/run-study15.ts",
+		"audit": "fallow audit",
+		"dead-code": "fallow dead-code",
+		"dupes": "fallow dupes",
+		"health": "fallow health"
 	},
 	"dependencies": {
 		"@ai-sdk/gateway": "^4.0.82",
@@ -75,6 +79,7 @@
 		"@types/svg-to-pdfkit": "^0.1.4",
 		"barmark": "0.5.0",
 		"barmark-0-17": "npm:barmark@0.17.0",
+		"fallow": "3.43.1",
 		"onnxruntime-web": "1.31.1",
 		"typescript": "^6.0.3"
 	},

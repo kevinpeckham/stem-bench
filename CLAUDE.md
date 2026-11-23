@@ -42,3 +42,13 @@ bun run study1:analyze # tables, paired tests, hint-influence rates
 
 `AI_GATEWAY_API_KEY` in `.env.local` (gitignored). Results are committed
 in `results/`. No co-author lines in commits.
+
+## Fallow (a report, never a reason)
+
+`bun run dead-code`, `bun run dupes`, `bun run health` and `bun run audit`
+run Fallow (`.fallowrc.json` names the scripts and tests as entry points).
+Read what it says about shared code in `src/`. It is never grounds to change
+a registered study: a study's code, graders and corpus are fixed by their
+commit, and the heavy duplication Fallow reports between studies is that
+rule at work, each study carrying its own copy. Nothing gates on Fallow here.
+
